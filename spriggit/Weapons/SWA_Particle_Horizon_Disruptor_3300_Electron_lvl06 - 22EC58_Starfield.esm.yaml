@@ -1,31 +1,13 @@
 FormKey: 22EC58:Starfield.esm
 MajorRecordFlagsRaw: 4
 EditorID: SWA_Particle_Horizon_Disruptor_3300_Electron_lvl06
-FormVersion: 559
+FormVersion: 576
 StarfieldMajorRecordFlags:
 - NotPlayable
 ODTY: 0
 Name:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: Elektronenstrahl Disruptor 3300
-  - Language: English
-    String: Disrupter 3300 electron beam
-  - Language: Spanish
-    String: Rayo de electr. Disruptor 3300
-  - Language: French
-    String: Rayon à électrons Disruptor 3300
-  - Language: Italian
-    String: Raggio E Disruptor 3300
-  - Language: Japanese
-    String: ディスラプター3300電子ビーム
-  - Language: Polish
-    String: Wiązka elektr. Disrupter 3300
-  - Language: Portuguese_Brazil
-    String: Feixe de elétrons Subversor 3300
-  - Language: ChineseSimplified
-    String: 裂解枪3300电子光束
+  Value: Disrupter 3300 electron beam
 Model:
   FLLD: 0x01000000
 EquipmentType: 000046:Starfield.esm
@@ -38,6 +20,7 @@ Keywords:
 - 249FB6:Starfield.esm
 Description:
   TargetLanguage: English
+  Value: ''
 EmbeddedWeaponMod: Null
 SightedTransitionSeconds: 0.25
 AimDownSightTemplate: 04B246:Starfield.esm
@@ -92,25 +75,7 @@ BaseSpeed: 1
 AttackOxygenCost: 100
 General:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: PAR
-  - Language: English
-    String: PAR
-  - Language: Spanish
-    String: PAR
-  - Language: French
-    String: PAR
-  - Language: Italian
-    String: PAR
-  - Language: Japanese
-    String: PAR
-  - Language: Polish
-    String: CZĄ
-  - Language: Portuguese_Brazil
-    String: PAR
-  - Language: ChineseSimplified
-    String: 粒子
+  Value: PAR
 WMELUnknown1: 2
 MeleeReach: 1
 MeleeStagger: Medium

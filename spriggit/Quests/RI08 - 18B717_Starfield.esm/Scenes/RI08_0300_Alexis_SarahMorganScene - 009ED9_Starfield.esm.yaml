@@ -1,0 +1,86 @@
+FormKey: 009ED9:Starfield.esm
+EditorID: RI08_0300_Alexis_SarahMorganScene
+FormVersion: 576
+Flags:
+- Interruptable
+Phases:
+- Name: ''
+  EditorWidth: 500
+- Name: ''
+  EditorWidth: 500
+- Name: ''
+  EditorWidth: 500
+- Name: ''
+  EditorWidth: 500
+Actors:
+- ID: 3
+  Flags:
+  - NoCommandState
+  BehaviorFlags:
+  - DeathEnd
+  - CombatEnd
+  - 0x100
+- ID: 35
+  Flags:
+  - Optional
+  - NoCommandState
+  BehaviorFlags:
+  - DeathEnd
+  - CombatEnd
+  - 0x100
+Actions:
+- MutagenObjectType: DialogueSceneAction
+  Name: ''
+  AliasID: 35
+  Index: 1
+  Flags: []
+  Topic: 009F0A:Starfield.esm
+  LoopingMax: 10
+  LoopingMin: 1
+  HNAM:
+    ReferenceAliasIDs:
+    - 3
+- MutagenObjectType: DialogueSceneAction
+  Name: ''
+  AliasID: 35
+  Index: 2
+  Flags: []
+  StartPhase: 2
+  EndPhase: 2
+  Topic: 009F0B:Starfield.esm
+  LoopingMax: 10
+  LoopingMin: 1
+  HNAM:
+    ReferenceAliasIDs:
+    - 3
+- MutagenObjectType: DialogueSceneAction
+  Name: ''
+  AliasID: 3
+  Index: 3
+  Flags: []
+  StartPhase: 1
+  EndPhase: 1
+  Topic: 009F0C:Starfield.esm
+  LoopingMax: 10
+  LoopingMin: 1
+  HNAM:
+    ReferenceAliasIDs:
+    - 35
+- MutagenObjectType: DialogueSceneAction
+  Name: ''
+  AliasID: 3
+  Index: 4
+  Flags: []
+  StartPhase: 3
+  EndPhase: 3
+  Topic: 009F10:Starfield.esm
+  LoopingMax: 10
+  LoopingMin: 1
+  HNAM:
+    ReferenceAliasIDs:
+    - 35
+Quest: 18B717:Starfield.esm
+LastActionIndex: 4
+VNAM: 0x0300000003000000000000000300000003000000
+BOLV: '[]'
+Index: 300

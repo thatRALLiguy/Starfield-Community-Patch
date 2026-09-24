@@ -1,6 +1,6 @@
 FormKey: 1FF69C:Starfield.esm
 EditorID: Drink_Alc_Can_Erdebrau_Dark
-FormVersion: 559
+FormVersion: 576
 ObjectBounds:
   First: -0.049865723, -0.050705206, 0
   Second: 0.049865723, 0.04750036, 0.29589844
@@ -11,25 +11,7 @@ Transforms:
   Workbench: 0CC66F:Starfield.esm
 Name:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: Erdebrau Dunkel (Dose)
-  - Language: English
-    String: Erdebrau Dark Can
-  - Language: Spanish
-    String: Lata de Erdebrau negra
-  - Language: French
-    String: Cannette d'Erdebrau brune
-  - Language: Italian
-    String: Lattina di Erdebrau Dark
-  - Language: Japanese
-    String: アーデブローのダーク缶
-  - Language: Polish
-    String: Puszka Erdebrau Dark
-  - Language: Portuguese_Brazil
-    String: Lata de Erdebrau Escura
-  - Language: ChineseSimplified
-    String: 爱德堡精酿黑啤罐装
+  Value: Erdebrau Dark Can
 Keywords:
 - 055ECC:Starfield.esm
 - 2CF289:Starfield.esm
@@ -47,25 +29,7 @@ CraftingSound:
   Start: 580e474d-4c10-e197-848f-5a4632615aa7
 Description:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: Ein dunkles Lager von Erdebrau, mit Weizenimitatkulturen und geröstetem Malz gebraut.
-  - Language: English
-    String: Erdebrau's dark lager, brewed with imitation wheat cultures and roasted malt.
-  - Language: Spanish
-    String: Cerveza lager negra de Erdebrau, elaborada con trigo de imitación y malta tostada.
-  - Language: French
-    String: Bière brune Erdebrau, brassée à base de succédané de blé et d'orge torréfié.
-  - Language: Italian
-    String: Birra lager scura Erdebrau, preparata con frumento finto e malto tostato.
-  - Language: Japanese
-    String: アーデブローのダークラガー。模造栽培の小麦とローストモルトから醸造されている
-  - Language: Polish
-    String: Piwo Erdebrau ciemny lager uwarzone z imitacji pszenicy i palonego słodu.
-  - Language: Portuguese_Brazil
-    String: A lager escura da Erdebrau, preparada com culturas de imitação de trigo e malte torrado.
-  - Language: ChineseSimplified
-    String: 爱德堡精酿的黑拉格啤酒，使用模拟栽种小麦和烘烤麦芽酿制而成。
+  Value: Erdebrau's dark lager, brewed with imitation wheat cultures and roasted malt.
 Resources:
 - Resource: 29B02E:Starfield.esm
   Count: 1
@@ -78,6 +42,7 @@ ConsumeSound:
   Start: 534d4d1c-5a43-05f7-75ee-feb0fa7771b5
 AddictionName:
   TargetLanguage: English
+  Value: ''
 Effects:
 - BaseEffect: 1BF5AD:Starfield.esm
   Data:
@@ -112,18 +77,17 @@ Effects:
 - BaseEffect: 2EE936:Starfield.esm
   Data:
     Magnitude: 1
-    Duration: 1200
+    Duration: 1
   Conditions:
   - MutagenObjectType: ConditionFloat
     CompareOperator: GreaterThanOrEqualTo
-    Unknown1: 0x8D1400
-    Unknown2: 16650
+    Unknown2: 16658
     Data:
       MutagenObjectType: GetGlobalValueConditionData
       FirstParameter: 31324C:Starfield.esm
     ComparisonValue: 1
   Magnitude: 2EFD77:Starfield.esm
-  Duration: 313264:Starfield.esm
+  Duration: 2F0AD4:Starfield.esm
   EFIF: 0
   MUID: 5
 - BaseEffect: 2EE4B2:Starfield.esm

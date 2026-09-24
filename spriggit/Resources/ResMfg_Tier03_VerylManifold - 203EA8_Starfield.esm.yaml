@@ -1,0 +1,17 @@
+FormKey: 203EA8:Starfield.esm
+EditorID: ResMfg_Tier03_VerylManifold
+FormVersion: 576
+Name:
+  TargetLanguage: English
+  Value: Veryl-Treated Manifold
+Keywords:
+- 0424A9:Starfield.esm
+- 23CEB6:Starfield.esm
+CraftingSound:
+  Start: 8f644ce4-8ff9-5217-90b6-cba2f6b0b18d
+Rarity: Unique
+SurfaceColor: '#003B424A'
+ResourceType: ResMfg_AldumiteManifold
+ActorValue: 203EB6:Starfield.esm
+Produce: 203EA9:Starfield.esm
+Interval: 14EB75:Starfield.esm

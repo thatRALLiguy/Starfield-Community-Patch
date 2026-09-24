@@ -1,6 +1,6 @@
 FormKey: 249C1A:Starfield.esm
 EditorID: Drink_Alc_Bottle_Filburn_BeerCodosCrater
-FormVersion: 559
+FormVersion: 576
 ObjectBounds:
   First: -0.029052734, -0.02911377, -0.00015258789
   Second: 0.02911377, 0.029052734, 0.22058105
@@ -11,25 +11,7 @@ Transforms:
   Workbench: 05451A:Starfield.esm
 Name:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: Codos Crater
-  - Language: English
-    String: Codos Crater
-  - Language: Spanish
-    String: Codos Crater
-  - Language: French
-    String: Codos Crater
-  - Language: Italian
-    String: Codos Crater
-  - Language: Japanese
-    String: コドス・クレーター
-  - Language: Polish
-    String: Krater Codos
-  - Language: Portuguese_Brazil
-    String: Cratera de Codos
-  - Language: ChineseSimplified
-    String: 科多斯火山啤酒
+  Value: Codos Crater
 Keywords:
 - 055ECC:Starfield.esm
 - 11A47A:Starfield.esm
@@ -47,25 +29,7 @@ CraftingSound:
   Start: 35d54406-a8ad-3d76-0585-057058aa9faa
 Description:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: Ein Bier von Filburn Agriculture, das im gesamten Freestar Collective beliebt ist.
-  - Language: English
-    String: A Filburn Agriculture beer, popular throughout the Freestar Collective.
-  - Language: Spanish
-    String: Una cerveza de Filburn Agricultural, muy popular en el Colectivo Freestar.
-  - Language: French
-    String: Une bière Filburn Agriculture, populaire dans toute la Confédération Liber Astra.
-  - Language: Italian
-    String: Una birra della Filburn Agriculture, popolare in tutto il Collettivo Freestar.
-  - Language: Japanese
-    String: フィルバーン・アグリカルチャーのビール。自由恒星同盟全域で人気を博している
-  - Language: Polish
-    String: Piwo firmy Filburn Agriculture popularne w Kolektywie Wolnych Gwiazd.
-  - Language: Portuguese_Brazil
-    String: Cerveja da Filburn Agricultural, popular por toda Confederação Freestar.
-  - Language: ChineseSimplified
-    String: 一款费尔本农业啤酒，风靡于自由星系联盟。
+  Value: A Filburn Agriculture beer, popular throughout the Freestar Collective.
 Resources:
 - Resource: 29B02E:Starfield.esm
   Count: 1
@@ -78,6 +42,7 @@ ConsumeSound:
   Start: f96641c4-fd61-393a-cfc9-7f25fc5ae988
 AddictionName:
   TargetLanguage: English
+  Value: ''
 Effects:
 - BaseEffect: 1BF5AD:Starfield.esm
   Data:
@@ -112,18 +77,17 @@ Effects:
 - BaseEffect: 2EE936:Starfield.esm
   Data:
     Magnitude: 1
-    Duration: 1200
+    Duration: 1
   Conditions:
   - MutagenObjectType: ConditionFloat
     CompareOperator: GreaterThanOrEqualTo
-    Unknown1: 0x8D1400
-    Unknown2: 16650
+    Unknown2: 16658
     Data:
       MutagenObjectType: GetGlobalValueConditionData
       FirstParameter: 31324C:Starfield.esm
     ComparisonValue: 1
   Magnitude: 2EFD77:Starfield.esm
-  Duration: 313264:Starfield.esm
+  Duration: 2F0AD4:Starfield.esm
   EFIF: 0
   MUID: 5
 - BaseEffect: 2EE4B2:Starfield.esm

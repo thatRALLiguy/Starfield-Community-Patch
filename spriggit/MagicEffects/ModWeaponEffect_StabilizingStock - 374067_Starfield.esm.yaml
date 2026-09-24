@@ -1,27 +1,9 @@
 FormKey: 374067:Starfield.esm
 EditorID: ModWeaponEffect_StabilizingStock
-FormVersion: 559
+FormVersion: 576
 Name:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: Stabiler Schaft
-  - Language: English
-    String: Stabilizing Stock
-  - Language: Spanish
-    String: Culata estabilizadora
-  - Language: French
-    String: Crosse stabilisatrice
-  - Language: Italian
-    String: Calcio stabile
-  - Language: Japanese
-    String: 安定化ストック
-  - Language: Polish
-    String: Stabilizująca kolba
-  - Language: Portuguese_Brazil
-    String: Coronha Estabilizante
-  - Language: ChineseSimplified
-    String: 稳定枪托
+  Value: Stabilizing Stock
 PerkToApply: 374069:Starfield.esm
 Archetype:
   MutagenObjectType: MagicEffectArchetype
@@ -34,5 +16,6 @@ Unknown: 0x00000000000000000000000000000000000000000000
 Unknown2: '[]'
 Description:
   TargetLanguage: English
+  Value: ''
 DATADataTypeState:
 - Break0

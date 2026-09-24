@@ -1,48 +1,12 @@
 FormKey: 27BAFD:Starfield.esm
 EditorID: Skill_ParticleBeams
-FormVersion: 559
+FormVersion: 576
 Name:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: Teilchenstrahl-Waffen
-  - Language: English
-    String: Particle Beams
-  - Language: Spanish
-    String: Rayos de partículas
-  - Language: French
-    String: Rayons à particules
-  - Language: Italian
-    String: Raggi di particelle
-  - Language: Japanese
-    String: 粒子ビーム
-  - Language: Polish
-    String: Wiązki cząsteczkowe
-  - Language: Portuguese_Brazil
-    String: Feixes de Partículas
-  - Language: ChineseSimplified
-    String: 粒子束
+  Value: Particle Beams
 Description:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: Teilchenwaffen gelten zwar eher als ausgefallene Waffen, können im Kampf aber eine verheerende Wirkung entfalten, indem sie einem Ziel mehrere Schadensarten zufügen.
-  - Language: English
-    String: While considered by some to be exotic, particle weapons can be a devastating combat option, subjecting a target to multiple forms of damage.
-  - Language: Spanish
-    String: Aunque hay gente que las considera algo exótico, las armas de partículas pueden ser una gran opción de combate, ya que someten al objetivo a diferentes formas de daño.
-  - Language: French
-    String: Bien que certains les considèrent comme peu orthodoxes, les armes à particules peuvent se révéler dévastatrices, grâce aux multiples formes de dégâts qu'elles infligent à leurs cibles.
-  - Language: Italian
-    String: Sebbene alcuni le considerino esotiche, le armi a particelle possono rappresentare una scelta devastante, in quanto infliggono al bersaglio molteplici forme di danno.
-  - Language: Japanese
-    String: 一部で風変わりだと思われている粒子兵器は、ターゲットに様々な種類の損傷を与える破壊的な攻撃手段となっている
-  - Language: Polish
-    String: Choć uważana przez niektórych za egzotyczną, broń cząsteczkowa potrafi wyrządzić znaczne szkody w walce, zadając celowi różne rodzaje obrażeń.
-  - Language: Portuguese_Brazil
-    String: Apesar de alguns as considerarem exóticas, armas de partículas podem ser uma opção de combate devastadora, podendo causar vários tipos de dano a um alvo.
-  - Language: ChineseSimplified
-    String: 尽管被有些人认为略显奇异，粒子武器在战斗中可说是一个毁灭性的选择，能够对目标造成多种形式的伤害。
+  Value: While considered by some to be exotic, particle weapons can be a devastating combat option, subjecting a target to multiple forms of damage.
 Categroy: Combat
 SkillGroup: Advanced
 Flags:
@@ -55,8 +19,7 @@ Ranks:
     - RunOnTabIndex: 1
       Conditions:
       - MutagenObjectType: ConditionFloat
-        Unknown1: 0x000000
-        Unknown2: 16612
+        Unknown2: 16618
         Data:
           MutagenObjectType: HasKeywordConditionData
           FirstParameter: 27BAFE:Starfield.esm
@@ -70,58 +33,20 @@ Ranks:
   - ATAN: Kill
     Name:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Teilchenstrahl-Waffen
-      - Language: English
-        String: Particle Beams
-      - Language: Spanish
-        String: Rayos de partículas
-      - Language: French
-        String: Rayons à particules
-      - Language: Italian
-        String: Raggi di particelle
-      - Language: Japanese
-        String: 粒子ビーム
-      - Language: Polish
-        String: Wiązki cząsteczkowe
-      - Language: Portuguese_Brazil
-        String: Feixes de Partículas
-      - Language: ChineseSimplified
-        String: 粒子束
+      Value: Particle Beams
     Description:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Töte <repetitions> Gegner mit einer Teilchenstrahlwaffe.
-      - Language: English
-        String: Kill <repetitions> enemies with a particle beam weapon.
-      - Language: Spanish
-        String: Mata a <repetitions> enemigos con un arma de rayos de partículas.
-      - Language: French
-        String: Tuez <repetitions> ennemis avec une arme à rayons à particules.
-      - Language: Italian
-        String: Uccidi <repetitions> nemici con un’arma a raggio di particelle.
-      - Language: Japanese
-        String: 粒子ビーム兵器で敵を<repetitions>体倒す
-      - Language: Polish
-        String: 'Zastrzel wrogów z broni cząsteczkowej: <repetitions>.'
-      - Language: Portuguese_Brazil
-        String: Mate <repetitions> inimigos com uma arma de feixe de partículas.
-      - Language: ChineseSimplified
-        String: 用粒子束武器击杀<repetitions>个敌人。
+      Value: Kill <repetitions> enemies with a particle beam weapon.
     ProgressionEvalutor:
     - Name: Default Target
       Conditions:
       - MutagenObjectType: ConditionFloat
-        Unknown1: 0x000000
         Data:
           MutagenObjectType: GetCauseofDeathConditionData
           RunOnType: Target
           FirstParameter: 2
         ComparisonValue: 1
       - MutagenObjectType: ConditionFloat
-        Unknown1: 0x000000
         Data:
           MutagenObjectType: WornHasKeywordConditionData
           FirstParameter: 27BAFE:Starfield.esm
@@ -137,25 +62,7 @@ Ranks:
       }
   Description:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Teilchenstrahl-Waffen verursachen 10 % mehr Schaden.
-    - Language: English
-      String: Particle beam weapons do 10% more damage.
-    - Language: Spanish
-      String: Las armas de rayos de partículas infligen un 10 % más de daño.
-    - Language: French
-      String: Les armes à rayons à particules infligent 10 % de dégâts supplémentaires.
-    - Language: Italian
-      String: Le armi a raggio di particelle infliggono il 10% di danni in più.
-    - Language: Japanese
-      String: 粒子ビーム兵器のダメージ量が10%増加する
-    - Language: Polish
-      String: Broń cząsteczkowa zadaje o 10% więcej obrażeń.
-    - Language: Portuguese_Brazil
-      String: Armas de feixe de partículas causam 10% a mais de dano.
-    - Language: ChineseSimplified
-      String: 粒子束武器额外造成10%伤害。
+    Value: Particle beam weapons do 10% more damage.
 - Effects:
   - MutagenObjectType: PerkEntryPointModifyValue
     Rank: 1
@@ -163,8 +70,7 @@ Ranks:
     - RunOnTabIndex: 1
       Conditions:
       - MutagenObjectType: ConditionFloat
-        Unknown1: 0x000000
-        Unknown2: 22450
+        Unknown2: 22498
         Data:
           MutagenObjectType: HasKeywordConditionData
           FirstParameter: 27BAFE:Starfield.esm
@@ -178,58 +84,20 @@ Ranks:
   - ATAN: Kill
     Name:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Teilchenstrahl-Waffen
-      - Language: English
-        String: Particle Beams
-      - Language: Spanish
-        String: Rayos de partículas
-      - Language: French
-        String: Rayons à particules
-      - Language: Italian
-        String: Raggi di particelle
-      - Language: Japanese
-        String: 粒子ビーム
-      - Language: Polish
-        String: Wiązki cząsteczkowe
-      - Language: Portuguese_Brazil
-        String: Feixes de Partículas
-      - Language: ChineseSimplified
-        String: 粒子束
+      Value: Particle Beams
     Description:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Töte <repetitions> Gegner mit einer Teilchenstrahlwaffe.
-      - Language: English
-        String: Kill <repetitions> enemies with a particle beam weapon.
-      - Language: Spanish
-        String: Mata a <repetitions> enemigos con un arma de rayos de partículas.
-      - Language: French
-        String: Tuez <repetitions> ennemis avec une arme à rayons à particules.
-      - Language: Italian
-        String: Uccidi <repetitions> nemici con un’arma a raggio di particelle.
-      - Language: Japanese
-        String: 粒子ビーム兵器で敵を<repetitions>体倒す
-      - Language: Polish
-        String: 'Zastrzel wrogów z broni cząsteczkowej: <repetitions>.'
-      - Language: Portuguese_Brazil
-        String: Mate <repetitions> inimigos com uma arma de feixe de partículas.
-      - Language: ChineseSimplified
-        String: 用粒子束武器击杀<repetitions>个敌人。
+      Value: Kill <repetitions> enemies with a particle beam weapon.
     ProgressionEvalutor:
     - Name: Default Target
       Conditions:
       - MutagenObjectType: ConditionFloat
-        Unknown1: 0x000000
         Data:
           MutagenObjectType: GetCauseofDeathConditionData
           RunOnType: Target
           FirstParameter: 2
         ComparisonValue: 1
       - MutagenObjectType: ConditionFloat
-        Unknown1: 0x000000
         Data:
           MutagenObjectType: WornHasKeywordConditionData
           FirstParameter: 27BAFE:Starfield.esm
@@ -245,25 +113,7 @@ Ranks:
       }
   Description:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Teilchenstrahl-Waffen verursachen 20 % mehr Schaden.
-    - Language: English
-      String: Particle beam weapons do 20% more damage.
-    - Language: Spanish
-      String: Las armas de rayos de partículas infligen un 20 % más de daño.
-    - Language: French
-      String: Les armes à rayons à particules infligent 20 % de dégâts supplémentaires.
-    - Language: Italian
-      String: Le armi a raggio di particelle infliggono il 20% di danni in più.
-    - Language: Japanese
-      String: 粒子ビーム兵器のダメージ量が20%増加する
-    - Language: Polish
-      String: Broń cząsteczkowa zadaje o 20% więcej obrażeń.
-    - Language: Portuguese_Brazil
-      String: Armas de feixe de partículas causam 20% a mais de dano.
-    - Language: ChineseSimplified
-      String: 粒子束武器额外造成20%伤害。
+    Value: Particle beam weapons do 20% more damage.
 - Effects:
   - MutagenObjectType: PerkEntryPointModifyValue
     Rank: 2
@@ -271,8 +121,7 @@ Ranks:
     - RunOnTabIndex: 1
       Conditions:
       - MutagenObjectType: ConditionFloat
-        Unknown1: 0x000000
-        Unknown2: 22450
+        Unknown2: 22498
         Data:
           MutagenObjectType: HasKeywordConditionData
           FirstParameter: 27BAFE:Starfield.esm
@@ -286,57 +135,19 @@ Ranks:
   - ATAN: Kill
     Name:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Teilchenstrahl-Waffen
-      - Language: English
-        String: Particle Beams
-      - Language: Spanish
-        String: Rayos de partículas
-      - Language: French
-        String: Rayons à particules
-      - Language: Italian
-        String: Raggi di particelle
-      - Language: Japanese
-        String: 粒子ビーム
-      - Language: Polish
-        String: Wiązki cząsteczkowe
-      - Language: Portuguese_Brazil
-        String: Feixes de Partículas
-      - Language: ChineseSimplified
-        String: 粒子束
+      Value: Particle Beams
     Description:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Töte <repetitions> Gegner mit einer Teilchenstrahlwaffe.
-      - Language: English
-        String: Kill <repetitions> enemies with a particle beam weapon.
-      - Language: Spanish
-        String: Mata a <repetitions> enemigos con un arma de rayos de partículas.
-      - Language: French
-        String: Tuez <repetitions> ennemis avec une arme à rayons à particules.
-      - Language: Italian
-        String: Uccidi <repetitions> nemici con un’arma a raggio di particelle.
-      - Language: Japanese
-        String: 粒子ビーム兵器で敵を<repetitions>体倒す
-      - Language: Polish
-        String: 'Zastrzel wrogów z broni cząsteczkowej: <repetitions>.'
-      - Language: Portuguese_Brazil
-        String: Mate <repetitions> inimigos com uma arma de feixe de partículas.
-      - Language: ChineseSimplified
-        String: 用粒子束武器击杀<repetitions>个敌人。
+      Value: Kill <repetitions> enemies with a particle beam weapon.
     ProgressionEvalutor:
     - Name: Default Target
       Conditions:
       - MutagenObjectType: ConditionFloat
-        Unknown1: 0x000000
         Data:
           MutagenObjectType: WornHasKeywordConditionData
           FirstParameter: 27BAFE:Starfield.esm
         ComparisonValue: 1
       - MutagenObjectType: ConditionFloat
-        Unknown1: 0x000000
         Data:
           MutagenObjectType: GetCauseofDeathConditionData
           RunOnType: Target
@@ -353,25 +164,7 @@ Ranks:
       }
   Description:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Teilchenstrahl-Waffen verursachen 30 % mehr Schaden.
-    - Language: English
-      String: Particle beam weapons do 30% more damage.
-    - Language: Spanish
-      String: Las armas de rayos de partículas infligen un 30 % más de daño.
-    - Language: French
-      String: Les armes à rayons à particules infligent 30 % de dégâts supplémentaires.
-    - Language: Italian
-      String: Le armi a raggio di particelle infliggono il 30% di danni in più.
-    - Language: Japanese
-      String: 粒子ビーム兵器のダメージ量が30%増加する
-    - Language: Polish
-      String: Broń cząsteczkowa zadaje o 30% więcej obrażeń.
-    - Language: Portuguese_Brazil
-      String: Armas de feixe de partículas causam 30% a mais de dano.
-    - Language: ChineseSimplified
-      String: 粒子束武器额外造成30%伤害。
+    Value: Particle beam weapons do 30% more damage.
 - Effects:
   - MutagenObjectType: PerkEntryPointModifyValue
     Rank: 3
@@ -379,8 +172,7 @@ Ranks:
     - RunOnTabIndex: 1
       Conditions:
       - MutagenObjectType: ConditionFloat
-        Unknown1: 0x000000
-        Unknown2: 22450
+        Unknown2: 22498
         Data:
           MutagenObjectType: HasKeywordConditionData
           FirstParameter: 27BAFE:Starfield.esm
@@ -396,8 +188,7 @@ Ranks:
     - RunOnTabIndex: 1
       Conditions:
       - MutagenObjectType: ConditionFloat
-        Unknown1: 0x000000
-        Unknown2: 22450
+        Unknown2: 22498
         Data:
           MutagenObjectType: HasKeywordConditionData
           FirstParameter: 27BAFE:Starfield.esm
@@ -409,22 +200,4 @@ Ranks:
     Value: 1.3
   Description:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Teilchenstrahl-Waffen haben eine Chance auf krit. Treffer von +5 %.
-    - Language: English
-      String: Particle beam weapons have +5% crit chance.
-    - Language: Spanish
-      String: Las armas de rayos de partículas tienen un +5 % de probabilidad de crítico.
-    - Language: French
-      String: +5 % de chances de coup critique pour les armes à rayons à particules.
-    - Language: Italian
-      String: +5% di probabilità di colpo critico per le armi a raggio di particelle.
-    - Language: Japanese
-      String: 粒子ビーム兵器のクリティカル率が5%増加する
-    - Language: Polish
-      String: Zwiększa szansę na trafienie krytyczne bronią cząsteczkową o 5%.
-    - Language: Portuguese_Brazil
-      String: Armas de feixe de partículas têm 5% mais chances de crítico.
-    - Language: ChineseSimplified
-      String: 粒子束武器+5%暴击几率。
+    Value: Particle beam weapons have +5% crit chance.

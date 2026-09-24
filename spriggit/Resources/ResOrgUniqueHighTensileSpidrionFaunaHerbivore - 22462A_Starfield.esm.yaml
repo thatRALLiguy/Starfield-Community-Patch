@@ -1,0 +1,16 @@
+FormKey: 22462A:Starfield.esm
+EditorID: ResOrgUniqueHighTensileSpidrionFaunaHerbivore
+FormVersion: 576
+Name:
+  TargetLanguage: English
+  Value: High-Tensile Spidroin
+Keywords:
+- 279E38:Starfield.esm
+CraftingSound:
+  Start: 505d45bc-82d5-705f-91b5-9b8cd7c6a997
+Rarity: Unique
+SurfaceColor: '#00A1E4DB'
+ResourceType: HighTensileSpidrion
+ActorValue: 22469E:Starfield.esm
+Produce: 224673:Starfield.esm
+Interval: 05EF41:Starfield.esm

@@ -1,10 +1,15 @@
 FormKey: 295DA8:Starfield.esm
+IsCompressed: True
+MajorRecordFlagsRaw: 262144
 EditorID: SettleNewHomesteadRefinery01
-FormVersion: 559
+FormVersion: 576
+StarfieldMajorRecordFlags:
+- Compressed
 Flags:
 - HasWater
 Grid:
   Point: 0, -1
+LightingTemplate: Null
 WaterHeight: 3.4028235E+38
 XILS: 1
 Traversals:
@@ -46844,7 +46849,18 @@ Traversals:
   UnknownVector: 8.1053915, 9.381193, 0.858228
   Unknown: 0x483A483A7C34D83C
 NumTraversalFluffBytes: 37468
-Timestamp: 12497
 UnknownGroupData: 1
-TemporaryTimestamp: 12497
 TemporaryUnknownGroupData: 1
+Temporary:
+- MutagenObjectType: PlacedObject
+  FormKey: 37B6B5:Starfield.esm
+  FormVersion: 576
+  Base: 0788AA:Starfield.esm
+  Ownership:
+    Owner: 05BD93:Starfield.esm
+  Layer: 185A5D:Starfield.esm
+  Location: 21702B:Starfield.esm
+  Position: 44.153862, -69.766846, 185.7529
+  Rotation: 0, 0, 4.1269913
+MajorFlags:
+- 0x40000

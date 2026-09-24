@@ -1,0 +1,187 @@
+FormKey: 2CE2C0:Starfield.esm
+EditorID: Skill_Chemistry
+FormVersion: 576
+Name:
+  TargetLanguage: English
+  Value: Chemistry
+Description:
+  TargetLanguage: English
+  Value: When crafted by the skilled and safety conscious, chems can be used to enhance health and performance across the Settled Systems.
+Categroy: Science
+SkillGroup: Expert
+Flags:
+- PcPlayable
+PerkIcon: Patch_Science_Chemistry
+Ranks:
+- Activities:
+  - ATAN: Craft
+    Description:
+      TargetLanguage: English
+      Value: Create <repetitions> chems.
+    ProgressionEvalutor:
+    - Name: Default Target
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          RunOnType: Target
+          FirstParameter: 2C1C7A:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          RunOnType: Target
+          FirstParameter: 0F4AE7:Starfield.esm
+        ComparisonValue: 1
+    - Name: Created Item
+      Conditions: []
+    - Name: Player
+      Conditions: []
+    - Name: Workbench
+      Conditions: []
+    ANAM: res:8F28DF9D:0005B08B:A791608D
+    Configuration: >-
+      {
+      	"Data" : 
+      	{
+      		"OnlyUniqueItems" : "false",
+      		"Repetitions" : "10"
+      	},
+      	"Type" : "BGSCraftActivity"
+      }
+  Description:
+    TargetLanguage: English
+    Value: You can create improved chems, and research additional chems at a Research Lab.
+- Activities:
+  - ATAN: Craft
+    Description:
+      TargetLanguage: English
+      Value: Create <repetitions> chems.
+    ProgressionEvalutor:
+    - Name: Default Target
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          RunOnType: Target
+          FirstParameter: 2C1C7A:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          RunOnType: Target
+          FirstParameter: 0F4AE7:Starfield.esm
+        ComparisonValue: 1
+    - Name: Created Item
+      Conditions: []
+    - Name: Player
+      Conditions: []
+    - Name: Workbench
+      Conditions: []
+    ANAM: res:C230E923:0005B08B:A791608D
+    Configuration: >-
+      {
+      	"Data" : 
+      	{
+      		"OnlyUniqueItems" : "false",
+      		"Repetitions" : "25"
+      	},
+      	"Type" : "BGSCraftActivity"
+      }
+  Description:
+    TargetLanguage: English
+    Value: You can research and create superior chems.
+- Activities:
+  - ATAN: Craft
+    Description:
+      TargetLanguage: English
+      Value: Create <repetitions> chems.
+    ProgressionEvalutor:
+    - Name: Default Target
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          RunOnType: Target
+          FirstParameter: 2C1C7A:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          RunOnType: Target
+          FirstParameter: 0F4AE7:Starfield.esm
+        ComparisonValue: 1
+    - Name: Created Item
+      Conditions: []
+    - Name: Player
+      Conditions: []
+    - Name: Workbench
+      Conditions: []
+    ANAM: res:2E2066B7:0005C481:A7BB83BE
+    Configuration: >-
+      {
+      	"Data" : 
+      	{
+      		"OnlyUniqueItems" : "false",
+      		"Repetitions" : "50"
+      	},
+      	"Type" : "BGSCraftActivity"
+      }
+  Description:
+    TargetLanguage: English
+    Value: You can research and create cutting-edge chems.
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionFloat
+        CompareOperator: LessThanOrEqualTo
+        Unknown2: 22498
+        Data:
+          MutagenObjectType: GetRandomPercentConditionData
+        ComparisonValue: 5
+      - MutagenObjectType: ConditionFloat
+        Unknown2: 22498
+        Data:
+          MutagenObjectType: GetPerkRankConditionData
+          FirstParameter: 2CE2C0:Starfield.esm
+        ComparisonValue: 4
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown2: 22498
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 2C1C7A:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown2: 22498
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 0F4AE7:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModCraftingReturnQuantity
+    PerkConditionTabCount: 2
+    PerkEntryID: 0
+    Modification: Multiply
+    Value: 3
+  Description:
+    TargetLanguage: English
+    Value: Crafting chems occasionally triples the amount created.

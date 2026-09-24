@@ -1,5 +1,10 @@
 # Starfield Community Patch
 
+This fork is recovering the released **SFCP 1.0.0** source baseline. See
+[baseline status and build instructions](Docs/BASELINE.md) before editing or
+packaging. The historical release is preserved exactly; YAML conversion still
+has unresolved round-trip differences and is not approved for gameplay publication.
+
 The Starfield Community Patch (SCP) project is a collective effort by mod
 authors and the wider player community of Starfield to fix bugs, errors and
 other inconsistencies present in the game. This includes tweaks, typos and

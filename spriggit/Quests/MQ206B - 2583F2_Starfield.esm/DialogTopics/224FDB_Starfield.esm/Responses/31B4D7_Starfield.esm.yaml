@@ -1,0 +1,40 @@
+FormKey: 31B4D7:Starfield.esm
+FormVersion: 576
+Flags: {}
+Responses:
+- Emotion: 0C8672:Starfield.esm
+  WEMFile: 547858
+  TROTs:
+  - UnknownVoiceType: 0059A6:Starfield.esm
+    UnknownFloat: 9.833334
+  Text:
+    TargetLanguage: English
+    Value: It is a shame you cannot visit Va'ruun'kai yourself, and confirm this. The Great Serpent has not spoken to any since Jinan Va'ruun himself.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+  TextHash: 0xF0E50AFBD32FD801
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Unknown2: 16617
+  Data:
+    MutagenObjectType: GetStageDoneConditionData
+    FirstParameter: 23DF2A:Starfield.esm
+    SecondParameter: 1000
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Unknown2: 16617
+  Data:
+    MutagenObjectType: GetIsVoiceTypeConditionData
+    VoiceTypeOrList: 0059A6:Starfield.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionGlobal
+  CompareOperator: LessThan
+  Unknown2: 16617
+  Data:
+    MutagenObjectType: GetDistanceConditionData
+    FirstParameter: 000014:Starfield.esm
+  ComparisonValue: 00D8A9:Starfield.esm
+StartScenePhase: ''
+SubtitlePriority: Low
+NAM8: 224F5A:Starfield.esm

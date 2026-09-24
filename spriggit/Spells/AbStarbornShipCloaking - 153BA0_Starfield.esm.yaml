@@ -1,0 +1,33 @@
+FormKey: 153BA0:Starfield.esm
+EditorID: AbStarbornShipCloaking
+FormVersion: 576
+ODTY: 0
+Name:
+  TargetLanguage: English
+  Value: StarbornShipCloaking
+EquipmentType: 013F44:Starfield.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+Flags:
+- InstantCast
+- IgnoreResistance
+Type:
+- Ability
+CastType: FireAndForget
+Effects:
+- BaseEffect: 05D4CD:Starfield.esm
+  Data:
+    Magnitude: 1
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetValueConditionData
+      FirstParameter: 6285
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: IsInSpaceConditionData
+    ComparisonValue: 1
+  EFIF: 0
+  MUID: 1

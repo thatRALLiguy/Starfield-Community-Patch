@@ -1,5 +1,5 @@
 FormKey: 1E9F5A:Starfield.esm
-FormVersion: 559
+FormVersion: 576
 Flags: {}
 Responses:
 - Emotion: 0C8670:Starfield.esm
@@ -10,25 +10,7 @@ Responses:
     UnknownFloat: 2.8333335
   Text:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Dann mach lieber schnell kehrt und geh.
-    - Language: English
-      String: Then you should turn around and walk away.
-    - Language: Spanish
-      String: Pues da la vuelta y lárgate.
-    - Language: French
-      String: Alors, faites demi-tour et partez.
-    - Language: Italian
-      String: Allora ti consiglio di girare i tacchi e andartene.
-    - Language: Japanese
-      String: そうしたら回れ右をして立ち去るのよ
-    - Language: Polish
-      String: W takim razie odwróć się i odejdź.
-    - Language: Portuguese_Brazil
-      String: Então é melhor dar meia-volta e ir embora.
-    - Language: ChineseSimplified
-      String: 那你应该转身离开。
+    Value: Then you should turn around and walk away.
   ScriptNotes: ''
   Edits: ''
   AlternateLipText: ''
@@ -36,8 +18,7 @@ Responses:
 Conditions:
 - MutagenObjectType: ConditionGlobal
   CompareOperator: NotEqualTo
-  Unknown1: 0x000000
-  Unknown2: 16493
+  Unknown2: 16617
   Data:
     MutagenObjectType: GetValueConditionData
     FirstParameter: 186898

@@ -1,30 +1,14 @@
 FormKey: 2AB8F0:Starfield.esm
-MajorRecordFlagsRaw: 4
+IsCompressed: True
+MajorRecordFlagsRaw: 262148
 EditorID: StationTheDen
-FormVersion: 559
+FormVersion: 576
 StarfieldMajorRecordFlags:
 - NotPlayable
+- Compressed
 Name:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: Der Bau
-  - Language: English
-    String: The Den
-  - Language: Spanish
-    String: La Guarida
-  - Language: French
-    String: La Tanière
-  - Language: Italian
-    String: La Den
-  - Language: Japanese
-    String: 〈デン〉
-  - Language: Polish
-    String: Legowisko
-  - Language: Portuguese_Brazil
-    String: Alcova
-  - Language: ChineseSimplified
-    String: 巢穴站
+  Value: The Den
 Flags:
 - IsInteriorCell
 - CantTravelFromHere
@@ -965,8 +949,15 @@ Traversals:
   UnknownVector: 3.460045, 5.0117617, 0.96655256
   Unknown: 0x313A313A1939EA40
 NumTraversalFluffBytes: 728
-Timestamp: 12497
-TemporaryTimestamp: 12497
 TemporaryUnknownGroupData: 1
+Temporary:
+- MutagenObjectType: PlacedObject
+  FormKey: 08C2D8:Starfield.esm
+  FormVersion: 576
+  Base: 3F7773:Starfield.esm
+  Location: 2A0EF4:Starfield.esm
+  Position: 42, 35.75, 2
+  Rotation: 0, -0, 1.5707964
 MajorFlags:
 - 0x4
+- 0x40000

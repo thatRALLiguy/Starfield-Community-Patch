@@ -1,6 +1,6 @@
 FormKey: 20675E:Starfield.esm
 EditorID: Drink_Alc_ChunksPack_Chunks_Wine
-FormVersion: 559
+FormVersion: 576
 ObjectBounds:
   First: -0.086827695, -0.17048301, -0.0047740806
   Second: 0.08846527, 0.13811074, 0.062041294
@@ -11,25 +11,7 @@ Transforms:
   Workbench: 0664CA:Starfield.esm
 Name:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: Chunks Wein (verpackt)
-  - Language: English
-    String: Chunks Wine - Packaged
-  - Language: Spanish
-    String: 'Chunks de vino: envasado'
-  - Language: French
-    String: Crok au vin - Emballé
-  - Language: Italian
-    String: Chunks vino - Confezionato
-  - Language: Japanese
-    String: チャンクスのワイン(包装)
-  - Language: Polish
-    String: Winny chunks - zapakowany
-  - Language: Portuguese_Brazil
-    String: Chunks de Vinho - Embalado
-  - Language: ChineseSimplified
-    String: 块餐红酒 - 包装
+  Value: Chunks Wine - Packaged
 Keywords:
 - 055ECC:Starfield.esm
 - 249C5C:Starfield.esm
@@ -47,25 +29,7 @@ CraftingSound:
   Start: 35d54406-a8ad-3d76-0585-057058aa9faa
 Description:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: Chunks-Nahrungswürfel mit Rotweingeschmack. Frischeversiegelt.
-  - Language: English
-    String: A red wine-flavored Chunks food cube. Packaged for freshness.
-  - Language: Spanish
-    String: Un cubo de comida de Chunks con sabor a vino tinto. Envasados para conservar la frescura.
-  - Language: French
-    String: Un cube nutritif Crok goût vin rouge. Avec emballage fraîcheur.
-  - Language: Italian
-    String: Un cubo di Chunks al gusto di vino rosso. Con sigillo freschezza.
-  - Language: Japanese
-    String: 赤ワイン風味のチャンクス食品キューブ。新鮮さを保つために包装されている
-  - Language: Polish
-    String: Kostka żywieniowa marki Chunks o smaku czerwonego wina. Zapakowana, aby zachować świeżość.
-  - Language: Portuguese_Brazil
-    String: Um cubo alimentício do Chunks sabor vinho tinto. Embalado para manter o frescor.
-  - Language: ChineseSimplified
-    String: 块餐速食店红酒味的块状食物。密封包装以保鲜。
+  Value: A red wine-flavored Chunks food cube. Packaged for freshness.
 Weight: 0.2
 Value: 265
 Flags:
@@ -75,6 +39,7 @@ ConsumeSound:
   Start: 520f488c-bade-0b56-bf24-a28b60aca3ba
 AddictionName:
   TargetLanguage: English
+  Value: ''
 Effects:
 - BaseEffect: 2D88C3:Starfield.esm
   Data:
@@ -109,18 +74,17 @@ Effects:
 - BaseEffect: 2EE936:Starfield.esm
   Data:
     Magnitude: 1
-    Duration: 1200
+    Duration: 1
   Conditions:
   - MutagenObjectType: ConditionFloat
     CompareOperator: GreaterThanOrEqualTo
-    Unknown1: 0x8D1400
-    Unknown2: 16650
+    Unknown2: 16658
     Data:
       MutagenObjectType: GetGlobalValueConditionData
       FirstParameter: 31324C:Starfield.esm
     ComparisonValue: 1
   Magnitude: 2EFD77:Starfield.esm
-  Duration: 313264:Starfield.esm
+  Duration: 2F0AD4:Starfield.esm
   EFIF: 0
   MUID: 5
 - BaseEffect: 2EE4B2:Starfield.esm

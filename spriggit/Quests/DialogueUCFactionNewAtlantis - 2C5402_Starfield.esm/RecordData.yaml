@@ -1,6 +1,6 @@
 FormKey: 2C5402:Starfield.esm
 EditorID: DialogueUCFactionNewAtlantis
-FormVersion: 559
+FormVersion: 576
 VirtualMachineAdapter:
   Scripts:
   - Name: UC01_OrientationDisplayQuestScript
@@ -17,14 +17,8 @@ VirtualMachineAdapter:
     Name: Fragments:Quests:QF_DialogueUCFactionNewAtlan_002C5402
     Properties:
     - MutagenObjectType: ScriptObjectProperty
-      Name: UC_CitizenVendorDiscount_Rank02
-      Object: 2119C1:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CreditsRewardFactionQuestLarge
-      Object: 23DF36:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC09_PostQuest_Tuala_Misc
-      Object: 2D3951:Starfield.esm
+      Name: UC09_PostQuest_VaeVictis_Misc
+      Object: 2D3950:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: UC04_PostAttackDialogueActive
       Object: 23F92A:Starfield.esm
@@ -33,44 +27,15 @@ VirtualMachineAdapter:
       Object: 2C5402:Starfield.esm
       Alias: 58
     - MutagenObjectType: ScriptObjectProperty
-      Name: UC_CitizenVendorDiscount_Rank01
-      Object: 219A56:Starfield.esm
+      Name: CreditsRewardFactionQuestLarge
+      Object: 23DF36:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: UC09_Result
-      Object: 24377D:Starfield.esm
+      Name: UCR03
+      Object: 1E8FF7:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_SS7FloorManager
+      Name: Alias_TarmacEnableMarker
       Object: 2C5402:Starfield.esm
-      Alias: 107
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC01
-      Object: 2C5401:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UCR05_DebugMarker
-      Object: 1E6B87:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC09_PostQuest_VaeVictis_Misc
-      Object: 2D3950:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UCR01
-      Object: 1EBDD5:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC02
-      Object: 2B1808:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_SpaceportGuards
-      Object: 2C5402:Starfield.esm
-      Alias: 96
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_TualaLookatMarker
-      Object: 2C5402:Starfield.esm
-      Alias: 39
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC01_MuralsViewedGlobal
-      Object: 3979B3:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Credits
-      Object: 00000F:Starfield.esm
+      Alias: 33
     - MutagenObjectType: ScriptObjectProperty
       Name: UC_TualaTravelMaker
       Object: 2928D3:Starfield.esm
@@ -79,17 +44,45 @@ VirtualMachineAdapter:
       Object: 2C5402:Starfield.esm
       Alias: 40
     - MutagenObjectType: ScriptObjectProperty
-      Name: UC09_PostQuest_Percival_Misc
-      Object: 2D3952:Starfield.esm
+      Name: UC09
+      Object: 1FC858:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_SS7FloorManager
+      Object: 2C5402:Starfield.esm
+      Alias: 107
     - MutagenObjectType: ScriptObjectProperty
       Name: UC09_DEBUG_TualasContinuance
       Object: 1F986A:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: UCR03
-      Object: 1E8FF7:Starfield.esm
+      Name: UC09_PostQuest_Tuala_Misc
+      Object: 2D3951:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC01_MuralsViewedGlobal
+      Object: 3979B3:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_SpaceportGuards
+      Object: 2C5402:Starfield.esm
+      Alias: 96
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_MuseumPatron_Dad
+      Object: 2C5402:Starfield.esm
+      Alias: 59
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC09_PostQuest_Percival_Misc
+      Object: 2D3952:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: DialogueUCNewAtlantisUCFaction_POST_TualaAttract
       Object: 1F986D:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UCR01_DebugMarker
+      Object: 1EA2B7:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC09_DEBUG_Zora
+      Object: 1A2E61:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Pacifist
+      Object: 2C5402:Starfield.esm
+      Alias: 62
     - MutagenObjectType: ScriptObjectProperty
       Name: UC09_PlayerChoiceResult
       Object: 24377D:Starfield.esm
@@ -98,36 +91,43 @@ VirtualMachineAdapter:
       Object: 2C5402:Starfield.esm
       Alias: 51
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_TarmacEnableMarker
-      Object: 2C5402:Starfield.esm
-      Alias: 33
+      Name: UCR01
+      Object: 1EBDD5:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: UC09_DEBUG_Zora
-      Object: 1A2E61:Starfield.esm
+      Name: Alias_TualaLookatMarker
+      Object: 2C5402:Starfield.esm
+      Alias: 39
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DialogueRedDevilsHQ
+      Object: 1E7A0B:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UCR05_DebugMarker
+      Object: 1E6B87:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: LL_Credits_Medium
       Object: 27926A:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_MuseumPatron_Dad
-      Object: 2C5402:Starfield.esm
-      Alias: 59
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_Tuala
       Object: 2C5402:Starfield.esm
       Alias: 29
     - MutagenObjectType: ScriptObjectProperty
-      Name: UCR01_DebugMarker
-      Object: 1EA2B7:Starfield.esm
+      Name: UC_CitizenVendorDiscount_Rank01
+      Object: 219A56:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: DialogueRedDevilsHQ
-      Object: 1E7A0B:Starfield.esm
+      Name: UC02
+      Object: 2B1808:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Pacifist
-      Object: 2C5402:Starfield.esm
-      Alias: 62
+      Name: UC09_Result
+      Object: 24377D:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: UC09
-      Object: 1FC858:Starfield.esm
+      Name: Credits
+      Object: 00000F:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC_CitizenVendorDiscount_Rank02
+      Object: 2119C1:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC01
+      Object: 2C5401:Starfield.esm
   Fragments:
   - Stage: 1020
     Unknown2: 1
@@ -483,39 +483,39 @@ VirtualMachineAdapter:
     - Name: UC06_CompanionWaitScript
       Properties:
       - MutagenObjectType: ScriptObjectProperty
-        Name: Alias_WaitingCompanions
+        Name: Alias_ResumeTrigger
         Object: 2C5402:Starfield.esm
-        Alias: 106
-      - MutagenObjectType: ScriptBoolProperty
-        Name: PlayCompanionResponseScene
-        Data: True
+        Alias: 89
       - MutagenObjectType: ScriptObjectProperty
-        Name: SQ_Followers
-        Object: 00D773:Starfield.esm
+        Name: CompanionResponseScene
+        Object: 04A457:Starfield.esm
       - MutagenObjectType: ScriptObjectProperty
         Name: WaitTriggerKeyword
         Object: 3B0016:Starfield.esm
-      - MutagenObjectType: ScriptObjectProperty
-        Name: Alias_WaitHereMarker
-        Object: 2C5402:Starfield.esm
-        Alias: 90
       - MutagenObjectType: ScriptObjectProperty
         Name: Companion
         Object: 2C5402:Starfield.esm
         Alias: 28
       - MutagenObjectType: ScriptObjectProperty
-        Name: CompanionResponseScene
-        Object: 04A457:Starfield.esm
+        Name: SQ_Followers
+        Object: 00D773:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Alias_WaitHereMarker
+        Object: 2C5402:Starfield.esm
+        Alias: 90
       - MutagenObjectType: ScriptIntProperty
         Name: CompanionResponsePrereqStage
         Data: 102
       - MutagenObjectType: ScriptObjectProperty
+        Name: Alias_WaitingCompanions
+        Object: 2C5402:Starfield.esm
+        Alias: 106
+      - MutagenObjectType: ScriptObjectProperty
         Name: CompanionResponsePrereqQuest
         Object: 248CF0:Starfield.esm
-      - MutagenObjectType: ScriptObjectProperty
-        Name: Alias_ResumeTrigger
-        Object: 2C5402:Starfield.esm
-        Alias: 89
+      - MutagenObjectType: ScriptBoolProperty
+        Name: PlayCompanionResponseScene
+        Data: True
   - Property:
       Name: ''
       Object: 2C5402:Starfield.esm
@@ -524,39 +524,39 @@ VirtualMachineAdapter:
     - Name: UC06_CompanionWaitScript
       Properties:
       - MutagenObjectType: ScriptObjectProperty
-        Name: Alias_WaitingCompanions
+        Name: Alias_ResumeTrigger
         Object: 2C5402:Starfield.esm
-        Alias: 106
-      - MutagenObjectType: ScriptBoolProperty
-        Name: PlayCompanionResponseScene
-        Data: True
+        Alias: 89
       - MutagenObjectType: ScriptObjectProperty
-        Name: SQ_Followers
-        Object: 00D773:Starfield.esm
+        Name: CompanionResponseScene
+        Object: 04A457:Starfield.esm
       - MutagenObjectType: ScriptObjectProperty
         Name: WaitTriggerKeyword
         Object: 3B0016:Starfield.esm
-      - MutagenObjectType: ScriptObjectProperty
-        Name: Alias_WaitHereMarker
-        Object: 2C5402:Starfield.esm
-        Alias: 90
       - MutagenObjectType: ScriptObjectProperty
         Name: Companion
         Object: 2C5402:Starfield.esm
         Alias: 28
       - MutagenObjectType: ScriptObjectProperty
-        Name: CompanionResponseScene
-        Object: 04A457:Starfield.esm
+        Name: SQ_Followers
+        Object: 00D773:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Alias_WaitHereMarker
+        Object: 2C5402:Starfield.esm
+        Alias: 90
       - MutagenObjectType: ScriptIntProperty
         Name: CompanionResponsePrereqStage
         Data: 102
       - MutagenObjectType: ScriptObjectProperty
+        Name: Alias_WaitingCompanions
+        Object: 2C5402:Starfield.esm
+        Alias: 106
+      - MutagenObjectType: ScriptObjectProperty
         Name: CompanionResponsePrereqQuest
         Object: 248CF0:Starfield.esm
-      - MutagenObjectType: ScriptObjectProperty
-        Name: Alias_ResumeTrigger
-        Object: 2C5402:Starfield.esm
-        Alias: 89
+      - MutagenObjectType: ScriptBoolProperty
+        Name: PlayCompanionResponseScene
+        Data: True
 Data:
   Flags:
   - StartGameEnabled
@@ -935,98 +935,26 @@ Objectives:
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Sprich mit Commander Tuala.
-    - Language: English
-      String: Speak to Commander Tuala
-    - Language: Spanish
-      String: Habla con el comandante Tuala.
-    - Language: French
-      String: Parlez au commandant Tuala.
-    - Language: Italian
-      String: Parla col comandante Tuala
-    - Language: Japanese
-      String: トゥアラ司令官と話す
-    - Language: Polish
-      String: Porozmawiaj z komandorem Tualą
-    - Language: Portuguese_Brazil
-      String: Fale com o comandante Tuala
-    - Language: ChineseSimplified
-      String: 与图阿拉指挥官交谈
+    Value: Speak to Commander Tuala
   Targets:
   - AliasID: 29
 - Index: 525
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Statte dem Immobilienbüro Aphelion einen Besuch ab.
-    - Language: English
-      String: Visit the Aphelion Realty Office
-    - Language: Spanish
-      String: Ve a la oficina inmobiliaria de Aphelion.
-    - Language: French
-      String: Visitez l'agence immobilière Aphelion.
-    - Language: Italian
-      String: Visita gli uffici della Aphelion Realty
-    - Language: Japanese
-      String: アフェリオン不動産事務所を訪れる
-    - Language: Polish
-      String: Odwiedź biuro Aphelion Realty
-    - Language: Portuguese_Brazil
-      String: Visite a imobiliária Aphelion
-    - Language: ChineseSimplified
-      String: 造访远日点房产中介
+    Value: Visit the Aphelion Realty Office
 - Index: 550
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Sprich mit Vae Victis über die Zusammenarbeit.
-    - Language: English
-      String: Speak to Vae Victis about working together
-    - Language: Spanish
-      String: Habla con Vae Victis sobre trabajar juntos.
-    - Language: French
-      String: Parlez à Vae Victis d'une collaboration.
-    - Language: Italian
-      String: Parla con Vae Victis di un’eventuale collaborazione
-    - Language: Japanese
-      String: 手を組むことについてヴェイ・ヴィクティスと話す
-    - Language: Polish
-      String: Porozmawiaj z Vae Victisem o współpracy
-    - Language: Portuguese_Brazil
-      String: Fale com Vae Victis sobre unir forças
-    - Language: ChineseSimplified
-      String: 与瓦维刻提斯谈论一起合作
+    Value: Speak to Vae Victis about working together
   Targets:
   - AliasID: 48
 - Index: 600
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Sprich mit Percival.
-    - Language: English
-      String: Speak to Percival
-    - Language: Spanish
-      String: Habla con Percival.
-    - Language: French
-      String: Parlez à Percival.
-    - Language: Italian
-      String: Parla con Percival
-    - Language: Japanese
-      String: パーシバルと話す
-    - Language: Polish
-      String: Porozmawiaj z Percivalem
-    - Language: Portuguese_Brazil
-      String: Fale com Percival
-    - Language: ChineseSimplified
-      String: 与珀西瓦里交谈
+    Value: Speak to Percival
   Targets:
   - AliasID: 37
 Aliases:
@@ -1727,4 +1655,3 @@ Aliases:
     AliasID: 46
     RefType: 0E53C4:Starfield.esm
   VoiceTypes: Null
-Timestamp: 12497

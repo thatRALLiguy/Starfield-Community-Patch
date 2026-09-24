@@ -1,27 +1,13 @@
 FormKey: 0627C4:Starfield.esm
+IsCompressed: True
+MajorRecordFlagsRaw: 262144
 EditorID: KreetBase01
-FormVersion: 559
+FormVersion: 576
+StarfieldMajorRecordFlags:
+- Compressed
 Name:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: Kreet-Forschungslabor
-  - Language: English
-    String: Kreet Research Lab
-  - Language: Spanish
-    String: Laboratorio de investigación en Kreet
-  - Language: French
-    String: Laboratoire de recherches de Kreet
-  - Language: Italian
-    String: Laboratorio di ricerca di Kreet
-  - Language: Japanese
-    String: クリート研究所
-  - Language: Polish
-    String: Laboratorium badawcze na Kreet
-  - Language: Portuguese_Brazil
-    String: Laboratório de Pesquisa de Kreet
-  - Language: ChineseSimplified
-    String: 克里特研究实验室
+  Value: Kreet Research Lab
 Flags:
 - IsInteriorCell
 - CantTravelFromHere
@@ -34,6 +20,7 @@ Lighting:
   Unknown1: 659456
   ForColorHighNear: '#00000000'
   ForColorHighFar: '#00000000'
+LightingTemplate: Null
 WaterHeight: 3.4028235E+38
 XILS: 0
 Location: 028A08:Starfield.esm
@@ -9068,6 +9055,16 @@ Traversals:
   UnknownVector: 1.9520319, 5.2007413, 1.21173
   Unknown: 0xAE3FAE3F0D3C2E3C
 NumTraversalFluffBytes: 7220
-Timestamp: 12497
-TemporaryTimestamp: 12497
 TemporaryUnknownGroupData: 1
+Temporary:
+- MutagenObjectType: PlacedObject
+  FormKey: 11304A:Starfield.esm
+  FormVersion: 576
+  Base: 265AD8:Starfield.esm
+  SourcePackIn: 1D4CD0:Starfield.esm
+  Layer: 06DF98:Starfield.esm
+  Location: 028A08:Starfield.esm
+  Position: 27.209, 15.2017, 8.8282
+  Rotation: -1.5707964, 0.22920345, 6.283185
+MajorFlags:
+- 0x40000

@@ -1,6 +1,10 @@
 FormKey: 17F7A9:Starfield.esm
+IsCompressed: True
+MajorRecordFlagsRaw: 262144
 EditorID: MQ401c_OtherYou_RI_NoAppearanceData
-FormVersion: 559
+FormVersion: 576
+StarfieldMajorRecordFlags:
+- Compressed
 VirtualMachineAdapter:
   Scripts:
   - Name: MQ401C_OtherYou_Script
@@ -88,25 +92,7 @@ Keywords:
 Class: 010B2F:Starfield.esm
 Name:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: Ryujin-Industries-Du
-  - Language: English
-    String: Ryujin Industries You
-  - Language: Spanish
-    String: Ryujin Industries Tú
-  - Language: French
-    String: Vous de Ryujin Industries
-  - Language: Italian
-    String: Tu Ryujin Industries
-  - Language: Japanese
-    String: リュウジン・インダストリーズのあなた
-  - Language: Polish
-    String: Ty z Ryujin Industries
-  - Language: Portuguese_Brazil
-    String: Você da Ryujin Industries.
-  - Language: ChineseSimplified
-    String: 龙神集团的你
+  Value: Ryujin Industries You
 GearedUpWeapons: 1
 HeadParts:
 - 256F62:Starfield.esm
@@ -125,42 +111,44 @@ FaceDialPositions:
 FaceMorphs:
 - Index: 12
   MorphGroups:
+  - MorphGroup: Neck
+    BlendIntensity: 1
+  - MorphGroup: Ears
+    BlendIntensity: 1
+  - MorphGroup: Jaw
+    BlendIntensity: 1
+  - MorphGroup: Forehead
+    BlendIntensity: 1
+  - MorphGroup: Eyes
+    BlendIntensity: 1
+  - MorphGroup: Mouth
+    BlendIntensity: 1
+  - MorphGroup: Nose
+    BlendIntensity: 1
   - MorphGroup: Cheeks
     BlendIntensity: 1
   - MorphGroup: Chin
     BlendIntensity: 1
-  - MorphGroup: Ears
-    BlendIntensity: 1
-  - MorphGroup: Eyes
-    BlendIntensity: 1
-  - MorphGroup: Forehead
-    BlendIntensity: 1
-  - MorphGroup: Jaw
-    BlendIntensity: 1
-  - MorphGroup: Mouth
-    BlendIntensity: 1
-  - MorphGroup: Neck
-    BlendIntensity: 1
-  - MorphGroup: Nose
-    BlendIntensity: 1
 MorphBlends:
-- BlendName: male_eu_md2_Cheeks
+- BlendName: male_eu_md2_Nose
   Intensity: 1
-- BlendName: male_eu_md2_Chin
+- BlendName: male_eu_md2_Forehead
+  Intensity: 1
+- BlendName: male_eu_md2_Mouth
   Intensity: 1
 - BlendName: male_eu_md2_Ears
   Intensity: 1
 - BlendName: male_eu_md2_Eyes
   Intensity: 1
-- BlendName: male_eu_md2_Forehead
+- BlendName: male_eu_md2_Cheeks
   Intensity: 1
 - BlendName: male_eu_md2_Jaw
   Intensity: 1
-- BlendName: male_eu_md2_Mouth
+- BlendName: male_eu_md2_Chin
   Intensity: 1
 - BlendName: male_eu_md2_Neck
   Intensity: 1
-- BlendName: male_eu_md2_Nose
-  Intensity: 1
 SkinToneIndex: 2
 Pronoun: Unspecified
+MajorFlags:
+- 0x40000

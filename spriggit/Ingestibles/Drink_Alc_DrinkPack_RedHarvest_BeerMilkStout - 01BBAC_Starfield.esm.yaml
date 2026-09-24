@@ -1,6 +1,6 @@
 FormKey: 01BBAC:Starfield.esm
 EditorID: Drink_Alc_DrinkPack_RedHarvest_BeerMilkStout
-FormVersion: 559
+FormVersion: 576
 ObjectBounds:
   First: -0.051879883, -0.023651123, 0
   Second: 0.051879883, 0.023651123, 0.14038086
@@ -11,25 +11,7 @@ Transforms:
   Workbench: 03D201:Starfield.esm
 Name:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: 'Red Harvest: Milk Stout'
-  - Language: English
-    String: Red Harvest Milk Stout
-  - Language: Spanish
-    String: Stout de leche Red Harvest
-  - Language: French
-    String: Bière brune Red Harvest
-  - Language: Italian
-    String: Birra al lattosio Red Harvest
-  - Language: Japanese
-    String: レッド・ハーベストのミルクスタウト
-  - Language: Polish
-    String: Milk stout Red Harvest
-  - Language: Portuguese_Brazil
-    String: Stout de Leite da Red Harvest
-  - Language: ChineseSimplified
-    String: 赤丰牛奶黑啤
+  Value: Red Harvest Milk Stout
 Keywords:
 - 055ECC:Starfield.esm
 - 14253C:Starfield.esm
@@ -46,25 +28,7 @@ CraftingSound:
   Start: 35d54406-a8ad-3d76-0585-057058aa9faa
 Description:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: Ein köstliches, synthetisch gebrautes Milk Stout.
-  - Language: English
-    String: A delicious, synthetically-crafted milk stout.
-  - Language: Spanish
-    String: Una deliciosa stout de leche de elaboración sintética.
-  - Language: French
-    String: Une bière brune brassée synthétiquement tout à fait délicieuse.
-  - Language: Italian
-    String: Una deliziosa birra al lattosio prodotta sinteticamente.
-  - Language: Japanese
-    String: 合成的に作られた美味なミルクスタウト
-  - Language: Polish
-    String: Pyszny, syntetycznie wytwarzany mleczny stout.
-  - Language: Portuguese_Brazil
-    String: Uma deliciosa cerveja escura de leite feita sinteticamente.
-  - Language: ChineseSimplified
-    String: 口感出众、人工合成的牛奶黑啤。
+  Value: A delicious, synthetically-crafted milk stout.
 Resources:
 - Resource: 29B02E:Starfield.esm
   Count: 1
@@ -77,6 +41,7 @@ ConsumeSound:
   Start: abcc440c-55e5-bbd4-167f-b9ab79fae3b3
 AddictionName:
   TargetLanguage: English
+  Value: ''
 Effects:
 - BaseEffect: 1BF5AD:Starfield.esm
   Data:
@@ -111,18 +76,17 @@ Effects:
 - BaseEffect: 2EE936:Starfield.esm
   Data:
     Magnitude: 1
-    Duration: 1200
+    Duration: 1
   Conditions:
   - MutagenObjectType: ConditionFloat
     CompareOperator: GreaterThanOrEqualTo
-    Unknown1: 0x8D1400
-    Unknown2: 16650
+    Unknown2: 16658
     Data:
       MutagenObjectType: GetGlobalValueConditionData
       FirstParameter: 31324C:Starfield.esm
     ComparisonValue: 1
   Magnitude: 2EFD77:Starfield.esm
-  Duration: 313264:Starfield.esm
+  Duration: 2F0AD4:Starfield.esm
   EFIF: 0
   MUID: 5
 - BaseEffect: 2EE4B2:Starfield.esm

@@ -1,9 +1,12 @@
 FormKey: 27A9A3:Starfield.esm
 EditorID: SettleDeimosStaryardLocation
-FormVersion: 559
+FormVersion: 576
 AddedUniqueNpcs:
 - Actor: 27A991:Starfield.esm
   Ref: 27A987:Starfield.esm
+  Location: 27A9A3:Starfield.esm
+- Actor: 27A992:Starfield.esm
+  Ref: 27A988:Starfield.esm
   Location: 27A9A3:Starfield.esm
 AddedSpecialReferences:
 - LocationRefType: 06AC7F:Starfield.esm
@@ -333,25 +336,7 @@ AddedSpecialReferences:
   Unknown: -1
 Name:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: Deimos-Sternenwerft
-  - Language: English
-    String: Deimos Staryard
-  - Language: Spanish
-    String: Astillero Deimos
-  - Language: French
-    String: Chantier spatial Deimos
-  - Language: Italian
-    String: Astrocantiere Deimos
-  - Language: Japanese
-    String: ダイモス・スターヤード
-  - Language: Polish
-    String: Deimos Staryard
-  - Language: Portuguese_Brazil
-    String: Astroleiro Deimos
-  - Language: ChineseSimplified
-    String: 火卫二造船厂
+  Value: Deimos Staryard
 Keywords:
 - 022611:Starfield.esm
 - 01674E:Starfield.esm
@@ -360,8 +345,9 @@ Keywords:
 - 06C420:Starfield.esm
 - 1F324F:Starfield.esm
 - 01674D:Starfield.esm
-SystemLevel: 1
-UnknownDATA2: -256
+Faction:
+  SystemLevel: 1
+  UnknownDATA2: -256
 ParentLocation: 1EC462:Starfield.esm
 WorldLocationRadius: 0
 ActorFadeMult: 1

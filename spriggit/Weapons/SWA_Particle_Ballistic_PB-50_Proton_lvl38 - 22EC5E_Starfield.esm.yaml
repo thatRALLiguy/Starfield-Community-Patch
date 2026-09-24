@@ -1,31 +1,13 @@
 FormKey: 22EC5E:Starfield.esm
 MajorRecordFlagsRaw: 4
 EditorID: SWA_Particle_Ballistic_PB-50_Proton_lvl38
-FormVersion: 559
+FormVersion: 576
 StarfieldMajorRecordFlags:
 - NotPlayable
 ODTY: 0
 Name:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: Protonenprojektor PB-50
-  - Language: English
-    String: PB-50 proton projector
-  - Language: Spanish
-    String: Proyector de protones PB-50
-  - Language: French
-    String: Projecteur à protons PB-50
-  - Language: Italian
-    String: Proiettore P PB-50
-  - Language: Japanese
-    String: PB-50陽子プロジェクター
-  - Language: Polish
-    String: Projektor protonowy PB-50
-  - Language: Portuguese_Brazil
-    String: Projetor de prótons PB-50
-  - Language: ChineseSimplified
-    String: PB-50质子投射器
+  Value: PB-50 proton projector
 Model:
   FLLD: 0x01000000
 EquipmentType: 000046:Starfield.esm
@@ -38,6 +20,7 @@ Keywords:
 - 249FB6:Starfield.esm
 Description:
   TargetLanguage: English
+  Value: ''
 EmbeddedWeaponMod: Null
 SightedTransitionSeconds: 0.25
 AimDownSightTemplate: 04B246:Starfield.esm
@@ -92,25 +75,7 @@ BaseSpeed: 1
 AttackOxygenCost: 100
 General:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: PAR
-  - Language: English
-    String: PAR
-  - Language: Spanish
-    String: PAR
-  - Language: French
-    String: PAR
-  - Language: Italian
-    String: PAR
-  - Language: Japanese
-    String: PAR
-  - Language: Polish
-    String: CZĄ
-  - Language: Portuguese_Brazil
-    String: PAR
-  - Language: ChineseSimplified
-    String: 粒子
+  Value: PAR
 WMELUnknown1: 2
 MeleeReach: 1
 MeleeStagger: Medium

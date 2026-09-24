@@ -1,6 +1,6 @@
 FormKey: 228D4A:Starfield.esm
 EditorID: SMB_Weapon_Missile_LightScythe_Atlatl_290B_Experimental_lvl20
-FormVersion: 559
+FormVersion: 576
 ODTY: 0
 Components:
 - MutagenObjectType: AttachParentArrayComponent
@@ -40,25 +40,7 @@ Components:
 - MutagenObjectType: FullNameComponent
   Name:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Raketenwerfer Atlatl 290B
-    - Language: English
-      String: Atlatl 290B Missile Launcher
-    - Language: Spanish
-      String: Lanzamisiles Atlatl 290B
-    - Language: French
-      String: Lance-missiles Atlatl 290B
-    - Language: Italian
-      String: Lanciamissili Atlatl 290B
-    - Language: Japanese
-      String: アトラトル290Bミサイルランチャー
-    - Language: Polish
-      String: Wyrzutnia rakiet Atlatl 290B
-    - Language: Portuguese_Brazil
-      String: Lança-mísseis Atlatl 290B
-    - Language: ChineseSimplified
-      String: 阿特拉托290B导弹发射器
+    Value: Atlatl 290B Missile Launcher
 Template: 03058E:Starfield.esm
 STRVs:
 - BGSMod_Template_Component

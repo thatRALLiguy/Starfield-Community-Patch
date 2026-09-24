@@ -1,5 +1,5 @@
 FormKey: 1569C9:Starfield.esm
-FormVersion: 559
+FormVersion: 576
 Flags:
   Flags:
   - Random
@@ -29,57 +29,35 @@ Responses:
     UnknownFloat: 0.26666668
   Text:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Woah, woah. Kannst du das Teil nicht wegstecken?
-    - Language: English
-      String: Whoa whoa. Any reason you can't holster that?
-    - Language: Spanish
-      String: Eh, eh. ¿Por qué no la guardas?
-    - Language: French
-      String: Oula. Pourquoi c'est pas rangé, ça ?
-    - Language: Italian
-      String: Ehi, ehi. C’è un motivo per cui non abbassi quell’affare?
-    - Language: Japanese
-      String: おいおい。そんなものしまったらどうだ？
-    - Language: Polish
-      String: Ejże, ejże. Dlaczego tego nie schowasz?
-    - Language: Portuguese_Brazil
-      String: Opa, opa. Algum motivo pra você não guardar isso aí?
-    - Language: ChineseSimplified
-      String: 哇哦哇哦。你就不能把那玩意在枪套里放好吗？
+    Value: Whoa whoa. Any reason you can't holster that?
   ScriptNotes: ''
   Edits: ''
   AlternateLipText: ''
   TextHash: 0x101B79EA2252D701
 Conditions:
 - MutagenObjectType: ConditionFloat
-  Unknown1: 0x000000
-  Unknown2: 16493
+  Unknown2: 16617
   Data:
     MutagenObjectType: WornHasKeywordConditionData
     RunOnType: Reference
     Reference: 000014:Starfield.esm
     FirstParameter: 05240E:Starfield.esm
 - MutagenObjectType: ConditionFloat
-  Unknown1: 0x000000
-  Unknown2: 16493
+  Unknown2: 16617
   Data:
     MutagenObjectType: WornHasKeywordConditionData
     RunOnType: Reference
     Reference: 000014:Starfield.esm
     FirstParameter: 04A0A4:Starfield.esm
 - MutagenObjectType: ConditionFloat
-  Unknown1: 0x000000
-  Unknown2: 16493
+  Unknown2: 16617
   Data:
     MutagenObjectType: WornHasKeywordConditionData
     RunOnType: Reference
     Reference: 000014:Starfield.esm
     FirstParameter: 04A0A5:Starfield.esm
 - MutagenObjectType: ConditionFloat
-  Unknown1: 0x000000
-  Unknown2: 16493
+  Unknown2: 16617
   Data:
     MutagenObjectType: IsWeaponOutConditionData
     RunOnType: Reference

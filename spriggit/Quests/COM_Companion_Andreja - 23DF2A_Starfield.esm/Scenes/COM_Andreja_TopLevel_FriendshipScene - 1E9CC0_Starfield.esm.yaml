@@ -1,6 +1,6 @@
 FormKey: 1E9CC0:Starfield.esm
 EditorID: COM_Andreja_TopLevel_FriendshipScene
-FormVersion: 559
+FormVersion: 576
 Flags:
 - ShowAllText
 - Interruptable
@@ -15,7 +15,7 @@ Phases:
   StartConditions:
   - MutagenObjectType: ConditionFloat
     CompareOperator: LessThan
-    Unknown1: 0x000000
+    Unknown2: 16617
     Data:
       MutagenObjectType: GetValueConditionData
       RunOnType: QuestAlias
@@ -27,7 +27,7 @@ Phases:
   StartConditions:
   - MutagenObjectType: ConditionFloat
     CompareOperator: LessThan
-    Unknown1: 0x000000
+    Unknown2: 16617
     Data:
       MutagenObjectType: GetValueConditionData
       RunOnType: QuestAlias
@@ -39,7 +39,7 @@ Phases:
   StartConditions:
   - MutagenObjectType: ConditionFloat
     CompareOperator: LessThan
-    Unknown1: 0x000000
+    Unknown2: 16617
     Data:
       MutagenObjectType: GetValueConditionData
       RunOnType: QuestAlias
@@ -51,7 +51,7 @@ Phases:
   StartConditions:
   - MutagenObjectType: ConditionFloat
     CompareOperator: GreaterThanOrEqualTo
-    Unknown1: 0x000000
+    Unknown2: 16617
     Data:
       MutagenObjectType: GetValueConditionData
       RunOnType: QuestAlias
@@ -157,15 +157,13 @@ LastActionIndex: 6
 VNAM: 0x0300000003000000030000000300000003000000
 Conditions:
 - MutagenObjectType: ConditionFloat
-  Unknown1: 0x000000
-  Unknown2: 17524
+  Unknown2: 12289
   Data:
     MutagenObjectType: IsTrueForConditionFormConditionData
     FirstParameter: 26B9EB:Starfield.esm
   ComparisonValue: 1
 - MutagenObjectType: ConditionFloat
-  Unknown1: 0x000000
-  Unknown2: 17524
+  Unknown2: 12289
   Data:
     MutagenObjectType: IsTrueForConditionFormConditionData
     FirstParameter: 2AF54B:Starfield.esm

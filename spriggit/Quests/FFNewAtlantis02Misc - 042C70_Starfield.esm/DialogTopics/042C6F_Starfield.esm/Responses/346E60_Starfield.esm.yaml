@@ -1,48 +1,42 @@
 FormKey: 346E60:Starfield.esm
-FormVersion: 559
+FormVersion: 576
 Flags:
   ResetHours: 3.999817
 SharedDialog: 05AC14:Starfield.esm
 Conditions:
 - MutagenObjectType: ConditionFloat
-  Unknown1: 0x000000
-  Unknown2: 16493
+  Unknown2: 16617
   Data:
     MutagenObjectType: GetStageDoneConditionData
     FirstParameter: 042C70:Starfield.esm
     SecondParameter: 10
 - MutagenObjectType: ConditionFloat
-  Unknown1: 0x000000
-  Unknown2: 16493
+  Unknown2: 16617
   Data:
     MutagenObjectType: GetQuestCompletedConditionData
     FirstParameter: 2C5401:Starfield.esm
   ComparisonValue: 1
 - MutagenObjectType: ConditionFloat
-  Unknown1: 0x000000
-  Unknown2: 16493
+  Unknown2: 16617
   Data:
     MutagenObjectType: GetStageDoneConditionData
     FirstParameter: 091CF5:Starfield.esm
     SecondParameter: 1
   ComparisonValue: 1
 - MutagenObjectType: ConditionFloat
-  Unknown1: 0x000000
-  Unknown2: 16493
+  Unknown2: 16617
   Data:
     MutagenObjectType: GetStageDoneConditionData
     FirstParameter: 091CF5:Starfield.esm
     SecondParameter: 9
 - MutagenObjectType: ConditionFloat
-  Unknown1: 0x000000
-  Unknown2: 16493
+  Unknown2: 16617
   Data:
     MutagenObjectType: GetInFactionConditionData
     FirstParameter: 052ADC:Starfield.esm
   ComparisonValue: 1
 - MutagenObjectType: ConditionFloat
-  Unknown1: 0x000000
-  Unknown2: 16493
+  Unknown2: 16617
   Data:
     MutagenObjectType: GetStageDoneConditionData
     FirstParameter: 24C46C:Starfield.esm

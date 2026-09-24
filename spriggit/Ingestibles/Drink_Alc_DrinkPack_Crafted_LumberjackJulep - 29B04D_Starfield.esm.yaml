@@ -1,6 +1,6 @@
 FormKey: 29B04D:Starfield.esm
 EditorID: Drink_Alc_DrinkPack_Crafted_LumberjackJulep
-FormVersion: 559
+FormVersion: 576
 ObjectBounds:
   First: -0.06793213, -0.034973145, -0.0027160645
   Second: 0.070739746, 0.03692627, 0.2163086
@@ -11,25 +11,7 @@ Transforms:
   Workbench: 03D201:Starfield.esm
 Name:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: Lumberjack Julep
-  - Language: English
-    String: Lumberjack Julep
-  - Language: Spanish
-    String: Lumberjack Julep
-  - Language: French
-    String: Julep de bûcheron
-  - Language: Italian
-    String: Julep del Boscaiolo
-  - Language: Japanese
-    String: ランバージャック・ジュレップ
-  - Language: Polish
-    String: Julep drwala
-  - Language: Portuguese_Brazil
-    String: Julep do Lenhador
-  - Language: ChineseSimplified
-    String: 伐木工药酒
+  Value: Lumberjack Julep
 Keywords:
 - 055ECC:Starfield.esm
 - 14253C:Starfield.esm
@@ -47,25 +29,7 @@ CraftingSound:
   Start: 580e474d-4c10-e197-848f-5a4632615aa7
 Description:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: Ein klassischer Mint Julep, jedoch mit Ahornsirup statt Minze.
-  - Language: English
-    String: A classic mint julep that substitutes maple syrup for mint.
-  - Language: Spanish
-    String: Julepe de menta clásico que sustituye el sirope de arce por la menta.
-  - Language: French
-    String: Un whisky glacé à la menthe classique qui remplace la menthe par du sirop d'érable.
-  - Language: Italian
-    String: Un classico julep alla menta. La menta è sostituita dallo sciroppo d’acero.
-  - Language: Japanese
-    String: ミントの代わりにメープルシロップを使ったクラシカルなミントジュレップ
-  - Language: Polish
-    String: Klasyczny miętowy julep wykorzystujący syrop klonowy zamiast mięty.
-  - Language: Portuguese_Brazil
-    String: Um julep de hortelã clássico que substitui o xarope de bordo por hortelã.
-  - Language: ChineseSimplified
-    String: 经典的薄荷朱利酒，用枫糖浆代替了薄荷。
+  Value: A classic mint julep that substitutes maple syrup for mint.
 Weight: 0.3
 Value: 350
 Flags:
@@ -75,6 +39,7 @@ ConsumeSound:
   Start: abcc440c-55e5-bbd4-167f-b9ab79fae3b3
 AddictionName:
   TargetLanguage: English
+  Value: ''
 Effects:
 - BaseEffect: 150731:Starfield.esm
   Data:
@@ -110,18 +75,17 @@ Effects:
 - BaseEffect: 31325F:Starfield.esm
   Data:
     Magnitude: 1
-    Duration: 3600
+    Duration: 1
   Conditions:
   - MutagenObjectType: ConditionFloat
     CompareOperator: GreaterThanOrEqualTo
-    Unknown1: 0x8D1400
-    Unknown2: 16650
+    Unknown2: 16658
     Data:
       MutagenObjectType: GetGlobalValueConditionData
       FirstParameter: 31324C:Starfield.esm
     ComparisonValue: 1
   Magnitude: 2EFD79:Starfield.esm
-  Duration: 2EE14C:Starfield.esm
+  Duration: 2F0AD4:Starfield.esm
   EFIF: 0
   MUID: 5
 - BaseEffect: 25A8B5:Starfield.esm

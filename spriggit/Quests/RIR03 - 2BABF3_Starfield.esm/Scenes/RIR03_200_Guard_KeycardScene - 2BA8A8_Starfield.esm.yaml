@@ -1,6 +1,6 @@
 FormKey: 2BA8A8:Starfield.esm
 EditorID: RIR03_200_Guard_KeycardScene
-FormVersion: 559
+FormVersion: 576
 Flags:
 - Interruptable
 - DisableDialogueCamera
@@ -15,8 +15,7 @@ Phases:
   - MutagenObjectType: ConditionFloat
     Flags:
     - OR
-    Unknown1: 0x5C5500
-    Unknown2: 17624
+    Unknown2: 16617
     Data:
       MutagenObjectType: IsTrueForConditionFormConditionData
       FirstParameter: 00080A:StarfieldCommunityPatch.esm
@@ -25,8 +24,7 @@ Phases:
 - Name: Guard Uniform
   StartConditions:
   - MutagenObjectType: ConditionFloat
-    Unknown1: 0x5C5500
-    Unknown2: 17624
+    Unknown2: 16617
     Data:
       MutagenObjectType: IsTrueForConditionFormConditionData
       FirstParameter: 1DBE3C:Starfield.esm
@@ -160,38 +158,32 @@ LastActionIndex: 8
 VNAM: 0x0300000003000000030000000300000000000000
 Conditions:
 - MutagenObjectType: ConditionFloat
-  Unknown1: 0x000000
   Data:
     MutagenObjectType: GetIsAliasRefConditionData
     FirstParameter: 8
   ComparisonValue: 1
 - MutagenObjectType: ConditionFloat
-  Unknown1: 0x000000
   Data:
     MutagenObjectType: GetStageDoneConditionData
     FirstParameter: 2BABF3:Starfield.esm
     SecondParameter: 200
   ComparisonValue: 1
 - MutagenObjectType: ConditionFloat
-  Unknown1: 0x000000
   Data:
     MutagenObjectType: GetStageDoneConditionData
     FirstParameter: 2BABF3:Starfield.esm
     SecondParameter: 210
 - MutagenObjectType: ConditionFloat
-  Unknown1: 0x000000
   Data:
     MutagenObjectType: GetStageDoneConditionData
     FirstParameter: 2BABF3:Starfield.esm
     SecondParameter: 220
 - MutagenObjectType: ConditionFloat
-  Unknown1: 0x000000
   Data:
     MutagenObjectType: GetStageDoneConditionData
     FirstParameter: 2BABF3:Starfield.esm
     SecondParameter: 300
 - MutagenObjectType: ConditionFloat
-  Unknown1: 0x000000
   Data:
     MutagenObjectType: IsTrueForConditionFormConditionData
     FirstParameter: 1DBE3B:Starfield.esm

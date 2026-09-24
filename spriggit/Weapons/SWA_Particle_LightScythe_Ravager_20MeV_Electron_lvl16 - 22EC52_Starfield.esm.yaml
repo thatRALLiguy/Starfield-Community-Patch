@@ -1,31 +1,13 @@
 FormKey: 22EC52:Starfield.esm
 MajorRecordFlagsRaw: 4
 EditorID: SWA_Particle_LightScythe_Ravager_20MeV_Electron_lvl16
-FormVersion: 559
+FormVersion: 576
 StarfieldMajorRecordFlags:
 - NotPlayable
 ODTY: 0
 Name:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: Elektronenstrahl Ravager 20MeV
-  - Language: English
-    String: Ravager 20MeV electron beam
-  - Language: Spanish
-    String: Rayo de electrones Ravager de 20 MeV
-  - Language: French
-    String: Rayon à électrons Ravager 20 MeV
-  - Language: Italian
-    String: Raggio E Ravager 20 MeV
-  - Language: Japanese
-    String: ラベジャー20MeV電子ビーム
-  - Language: Polish
-    String: Wiązka elektronowa Ravager 20 MeV
-  - Language: Portuguese_Brazil
-    String: Feixe de elétrons Devastador 20MeV
-  - Language: ChineseSimplified
-    String: 掠夺者20MeV电子光束
+  Value: Ravager 20MeV electron beam
 Model:
   FLLD: 0x01000000
 EquipmentType: 000046:Starfield.esm
@@ -38,6 +20,7 @@ Keywords:
 - 249FB6:Starfield.esm
 Description:
   TargetLanguage: English
+  Value: ''
 EmbeddedWeaponMod: Null
 SightedTransitionSeconds: 0.25
 AimDownSightTemplate: 04B246:Starfield.esm
@@ -92,25 +75,7 @@ BaseSpeed: 1
 AttackOxygenCost: 100
 General:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: PAR
-  - Language: English
-    String: PAR
-  - Language: Spanish
-    String: PAR
-  - Language: French
-    String: PAR
-  - Language: Italian
-    String: PAR
-  - Language: Japanese
-    String: PAR
-  - Language: Polish
-    String: CZĄ
-  - Language: Portuguese_Brazil
-    String: PAR
-  - Language: ChineseSimplified
-    String: 粒子
+  Value: PAR
 WMELUnknown1: 2
 MeleeReach: 1
 MeleeStagger: Medium

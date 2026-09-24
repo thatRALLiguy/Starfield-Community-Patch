@@ -1,7 +1,7 @@
 FormKey: 166407:Starfield.esm
 MajorRecordFlagsRaw: 64
 EditorID: Spacesuit_Ecliptic_Backpack
-FormVersion: 559
+FormVersion: 576
 StarfieldMajorRecordFlags:
 - 0x40
 ObjectBounds:
@@ -14,25 +14,7 @@ Transforms:
   Workbench: 0060B3:Starfield.esm
 Name:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: '[Ecliptic]'
-  - Language: English
-    String: Ecliptic
-  - Language: Spanish
-    String: '[Ecliptic]'
-  - Language: French
-    String: '[Éclipse]'
-  - Language: Italian
-    String: '[Ecliptic]'
-  - Language: Japanese
-    String: エクリプティク用
-  - Language: Polish
-    String: '[Ecliptic]'
-  - Language: Portuguese_Brazil
-    String: '[Eclíptico]'
-  - Language: ChineseSimplified
-    String: '[黄道佣兵团]'
+  Value: Ecliptic
 WorldModel:
   Male:
     File: Clothes\Spacesuit_Ecliptic\SpaceSuit_Ecliptic_Backpack_GO.nif
@@ -53,6 +35,7 @@ Keywords:
 - 3E612E:Starfield.esm
 Description:
   TargetLanguage: English
+  Value: ''
 InstanceNaming: 184BC1:Starfield.esm
 Armatures:
 - AddonModel: 166408:Starfield.esm
@@ -81,25 +64,7 @@ ObjectTemplates:
 - IsEditorOnly: True
   Name:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Einstieg
-    - Language: English
-      String: Entry
-    - Language: Spanish
-      String: Entrada
-    - Language: French
-      String: Entrée
-    - Language: Italian
-      String: Base
-    - Language: Japanese
-      String: エントリー
-    - Language: Polish
-      String: Wejście
-    - Language: Portuguese_Brazil
-      String: Registro
-    - Language: ChineseSimplified
-      String: 条目
+    Value: Entry
   Default: True
   Includes:
   - Mod: 23F862:Starfield.esm

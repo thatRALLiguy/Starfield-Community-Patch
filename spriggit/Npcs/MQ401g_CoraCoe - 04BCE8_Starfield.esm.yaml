@@ -1,6 +1,10 @@
 FormKey: 04BCE8:Starfield.esm
+IsCompressed: True
+MajorRecordFlagsRaw: 262144
 EditorID: MQ401g_CoraCoe
-FormVersion: 559
+FormVersion: 576
+StarfieldMajorRecordFlags:
+- Compressed
 ObjectBounds:
   First: -0.31000048, -0.31000048, -4.7683716E-07
   Second: 0.31000048, 0.31000048, 1.8000004
@@ -56,42 +60,24 @@ Keywords:
 Class: 010B2F:Starfield.esm
 Name:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: Cora Coe
-  - Language: English
-    String: Cora Coe
-  - Language: Spanish
-    String: Cora Coe
-  - Language: French
-    String: Cora Coe
-  - Language: Italian
-    String: Cora Coe
-  - Language: Japanese
-    String: コラ・コー
-  - Language: Polish
-    String: Cora Coe
-  - Language: Portuguese_Brazil
-    String: Cora Coe
-  - Language: ChineseSimplified
-    String: 科拉·科尔
+  Value: Cora Coe
 CalculatedHealth: 145
 CalculatedActionPoints: 50
 GearedUpWeapons: 1
 Unused: 83
 HeadParts:
-- 012201:Starfield.esm
-- 012202:Starfield.esm
-- 012203:Starfield.esm
 - 0317AE:Starfield.esm
 - 0317AF:Starfield.esm
 - 0640B8:Starfield.esm
-- 078273:Starfield.esm
-- 10A34D:Starfield.esm
-- 10A34E:Starfield.esm
+- 012203:Starfield.esm
+- 3BE58F:Starfield.esm
 - 1F7EF5:Starfield.esm
 - 3A289B:Starfield.esm
-- 3BE58F:Starfield.esm
+- 10A34E:Starfield.esm
+- 10A34D:Starfield.esm
+- 012202:Starfield.esm
+- 012201:Starfield.esm
+- 078273:Starfield.esm
 CombatStyle: 334536:Starfield.esm
 NAM5: 0xFF00
 HeightMin: 1
@@ -160,147 +146,103 @@ Tints:
   TintColor: '#0BFF0B0B'
   TintIntensity: 17
 FaceDialPositions:
-- Index: 30
-  Position: -0.12
-- Index: 31
-  Position: 0.22
-- Index: 34
-  Position: 0.31
-- Index: 35
-  Position: 0.14
-- Index: 36
-  Position: -0.44
-- Index: 38
-  Position: -0.03
-- Index: 39
-  Position: 0.25
-- Index: 40
-  Position: -0.21
-- Index: 42
-  Position: 0.13
-- Index: 43
-  Position: 0.13
+- Index: 49
+  Position: -0.26
+- Index: 58
+  Position: 0.49
 - Index: 44
   Position: 0.09
+- Index: 39
+  Position: 0.25
+- Index: 31
+  Position: 0.22
+- Index: 78
+  Position: 0.4
+- Index: 51
+  Position: -0.4
+- Index: 35
+  Position: 0.14
+- Index: 40
+  Position: -0.21
+- Index: 62
+  Position: 0.05
+- Index: 53
+  Position: 0.17
+- Index: 55
+  Position: -0.74
+- Index: 42
+  Position: 0.13
+- Index: 77
+  Position: 0.41
+- Index: 48
+  Position: -0.27
+- Index: 38
+  Position: -0.03
 - Index: 45
   Position: 0.19
 - Index: 47
   Position: -0.26
-- Index: 48
-  Position: -0.27
-- Index: 49
-  Position: -0.26
-- Index: 51
-  Position: -0.4
-- Index: 52
-  Position: 0.07
-- Index: 53
-  Position: 0.17
-- Index: 54
-  Position: -0.3
-- Index: 55
-  Position: -0.74
+- Index: 36
+  Position: -0.44
+- Index: 79
+  Position: 0.31
+- Index: 30
+  Position: -0.12
+- Index: 72
+  Position: -0.45
 - Index: 57
   Position: 0.17
-- Index: 58
+- Index: 69
+  Position: -0.2
+- Index: 75
   Position: 0.49
+- Index: 34
+  Position: 0.31
+- Index: 52
+  Position: 0.07
+- Index: 73
+  Position: -0.09
 - Index: 59
   Position: -0.42
-- Index: 61
-  Position: 0.08
-- Index: 62
-  Position: 0.05
 - Index: 63
   Position: 0.2
 - Index: 65
   Position: -0.43
 - Index: 67
   Position: 0.12
-- Index: 69
-  Position: -0.2
+- Index: 61
+  Position: 0.08
+- Index: 54
+  Position: -0.3
 - Index: 70
   Position: -0.14
-- Index: 72
-  Position: -0.45
-- Index: 73
-  Position: -0.09
-- Index: 75
-  Position: 0.49
-- Index: 77
-  Position: 0.41
-- Index: 78
-  Position: 0.4
-- Index: 79
-  Position: 0.31
+- Index: 43
+  Position: 0.13
 FaceMorphs:
-- Index: 1
-  MorphGroups:
-  - MorphGroup: Cheeks
-    BlendIntensity: 0.06574173
-  - MorphGroup: Eyes
-    BlendIntensity: 0.3520846
-  - MorphGroup: Mouth
-    BlendIntensity: 0.2334066
-  - MorphGroup: Nose
-    BlendIntensity: 0.3
-- Index: 3
-  MorphGroups:
-  - MorphGroup: Ears
-    BlendIntensity: 0.18545455
-  - MorphGroup: Eyes
-    BlendIntensity: 0.08647692
-  - MorphGroup: Forehead
-    BlendIntensity: 0.12356322
-  - MorphGroup: Mouth
-    BlendIntensity: 0.077802196
-  - MorphGroup: Neck
-    BlendIntensity: 0.17
-  - MorphGroup: Nose
-    BlendIntensity: 0.07
-- Index: 5
-  MorphGroups:
-  - MorphGroup: Cheeks
-    BlendIntensity: 0.24759872
-  - MorphGroup: Chin
-    BlendIntensity: 0.2
-  - MorphGroup: Ears
-    BlendIntensity: 0.14488636
-  - MorphGroup: Eyes
-    BlendIntensity: 0.1782
-  - MorphGroup: Forehead
-    BlendIntensity: 0.113678165
-  - MorphGroup: Jaw
-    BlendIntensity: 0.18041237
-  - MorphGroup: Mouth
-    BlendIntensity: 0.27879122
-  - MorphGroup: Neck
-    BlendIntensity: 0.16
-  - MorphGroup: Nose
-    BlendIntensity: 0.21
 - Index: 11
   MorphGroups:
   - MorphGroup: Cheeks
     BlendIntensity: 0.48665956
-- Index: 13
+- Index: 5
   MorphGroups:
-  - MorphGroup: Cheeks
-    BlendIntensity: 0.2
-  - MorphGroup: Chin
-    BlendIntensity: 0.21
-  - MorphGroup: Ears
-    BlendIntensity: 0.49
-  - MorphGroup: Eyes
-    BlendIntensity: 0.34
-  - MorphGroup: Forehead
-    BlendIntensity: 0.57
-  - MorphGroup: Jaw
-    BlendIntensity: 0.31752577
-  - MorphGroup: Mouth
-    BlendIntensity: 0.41
   - MorphGroup: Neck
-    BlendIntensity: 0.43
+    BlendIntensity: 0.16
+  - MorphGroup: Jaw
+    BlendIntensity: 0.18041237
+  - MorphGroup: Chin
+    BlendIntensity: 0.2
+  - MorphGroup: Eyes
+    BlendIntensity: 0.1782
+  - MorphGroup: Ears
+    BlendIntensity: 0.14488636
+  - MorphGroup: Mouth
+    BlendIntensity: 0.27879122
+  - MorphGroup: Forehead
+    BlendIntensity: 0.113678165
   - MorphGroup: Nose
-    BlendIntensity: 0.18
+    BlendIntensity: 0.21
+  - MorphGroup: Cheeks
+    BlendIntensity: 0.24759872
 - Index: 17
   MorphGroups:
   - MorphGroup: Chin
@@ -313,33 +255,71 @@ FaceMorphs:
     BlendIntensity: 0.19275862
   - MorphGroup: Jaw
     BlendIntensity: 0.20206186
+- Index: 13
+  MorphGroups:
+  - MorphGroup: Neck
+    BlendIntensity: 0.43
+  - MorphGroup: Jaw
+    BlendIntensity: 0.31752577
+  - MorphGroup: Chin
+    BlendIntensity: 0.21
+  - MorphGroup: Eyes
+    BlendIntensity: 0.34
+  - MorphGroup: Ears
+    BlendIntensity: 0.49
+  - MorphGroup: Mouth
+    BlendIntensity: 0.41
+  - MorphGroup: Forehead
+    BlendIntensity: 0.57
+  - MorphGroup: Nose
+    BlendIntensity: 0.18
+  - MorphGroup: Cheeks
+    BlendIntensity: 0.2
+- Index: 1
+  MorphGroups:
+  - MorphGroup: Cheeks
+    BlendIntensity: 0.06574173
+  - MorphGroup: Eyes
+    BlendIntensity: 0.3520846
+  - MorphGroup: Mouth
+    BlendIntensity: 0.2334066
+  - MorphGroup: Nose
+    BlendIntensity: 0.3
+- Index: 3
+  MorphGroups:
+  - MorphGroup: Neck
+    BlendIntensity: 0.17
+  - MorphGroup: Ears
+    BlendIntensity: 0.18545455
+  - MorphGroup: Eyes
+    BlendIntensity: 0.08647692
+  - MorphGroup: Forehead
+    BlendIntensity: 0.12356322
+  - MorphGroup: Mouth
+    BlendIntensity: 0.077802196
+  - MorphGroup: Nose
+    BlendIntensity: 0.07
 - Index: 19
   MorphGroups:
   - MorphGroup: Jaw
     BlendIntensity: 0.3
 MorphBlends:
-- BlendName: female_af_yo1_Cheeks
-  Intensity: 0.2
-- BlendName: female_af_yo1_Chin
-  Intensity: 0.21
-- BlendName: female_af_yo1_Ears
-  Intensity: 0.49
-- BlendName: female_af_yo1_Eyes
-  Intensity: 0.34
-- BlendName: female_af_yo1_Forehead
-  Intensity: 0.57
-- BlendName: female_af_yo1_Jaw
-  Intensity: 0.31752577
-- BlendName: female_af_yo1_Mouth
-  Intensity: 0.41
-- BlendName: female_af_yo1_Neck
-  Intensity: 0.43
-- BlendName: female_af_yo1_Nose
-  Intensity: 0.18
 - BlendName: female_as_md1_Cheeks
   Intensity: 0.24759872
+- BlendName: female_af_yo1_Mouth
+  Intensity: 0.41
 - BlendName: female_as_md1_Chin
   Intensity: 0.2
+- BlendName: female_eu_yo1_Jaw
+  Intensity: 0.20206186
+- BlendName: female_af_yo1_Eyes
+  Intensity: 0.34
+- BlendName: female_eu_ol1_Nose
+  Intensity: 0.22
+- BlendName: female_af_yo1_Cheeks
+  Intensity: 0.2
+- BlendName: female_eu_yo1_Ears
+  Intensity: 0.1796591
 - BlendName: female_as_md1_Ears
   Intensity: 0.14488636
 - BlendName: female_as_md1_Eyes
@@ -356,6 +336,18 @@ MorphBlends:
   Intensity: 0.21
 - BlendName: female_as_ol1_Cheeks
   Intensity: 0.48665956
+- BlendName: female_eu_ol1_Ears
+  Intensity: 0.18545455
+- BlendName: female_eu_yo1_Forehead
+  Intensity: 0.19275862
+- BlendName: female_eu_yo1_Chin
+  Intensity: 0.53
+- BlendName: female_af_yo1_Jaw
+  Intensity: 0.31752577
+- BlendName: female_af_yo1_Nose
+  Intensity: 0.18
+- BlendName: female_af_yo1_Ears
+  Intensity: 0.49
 - BlendName: female_as_yo1_Jaw
   Intensity: 0.3
 - BlendName: female_eu_md2_Cheeks
@@ -366,30 +358,26 @@ MorphBlends:
   Intensity: 0.2334066
 - BlendName: female_eu_md2_Nose
   Intensity: 0.39
-- BlendName: female_eu_ol1_Ears
-  Intensity: 0.18545455
 - BlendName: female_eu_ol1_Eyes
   Intensity: 0.08647692
 - BlendName: female_eu_ol1_Forehead
   Intensity: 0.12356322
-- BlendName: female_eu_ol1_Mouth
-  Intensity: 0.077802196
-- BlendName: female_eu_ol1_Neck
-  Intensity: 0.17
-- BlendName: female_eu_ol1_Nose
-  Intensity: 0.22
-- BlendName: female_eu_yo1_Chin
-  Intensity: 0.53
-- BlendName: female_eu_yo1_Ears
-  Intensity: 0.1796591
 - BlendName: female_eu_yo1_Eyes
   Intensity: 0.04323846
-- BlendName: female_eu_yo1_Forehead
-  Intensity: 0.19275862
-- BlendName: female_eu_yo1_Jaw
-  Intensity: 0.20206186
+- BlendName: female_eu_ol1_Neck
+  Intensity: 0.17
+- BlendName: female_af_yo1_Chin
+  Intensity: 0.21
+- BlendName: female_af_yo1_Neck
+  Intensity: 0.43
+- BlendName: female_af_yo1_Forehead
+  Intensity: 0.57
+- BlendName: female_eu_ol1_Mouth
+  Intensity: 0.077802196
 SkinToneIndex: 2
 HairColor: BlackBrown
 EyebrowColor: Brown
 EyeColor: Iron
 Pronoun: Unspecified
+MajorFlags:
+- 0x40000

@@ -1,0 +1,277 @@
+FormKey: 1639F9:Starfield.esm
+EditorID: ENV_Weather_Vapor_Freezing
+FormVersion: 576
+ODTY: 0
+Name:
+  TargetLanguage: English
+  Value: Freezing Vapor
+Keywords:
+- 24465D:Starfield.esm
+- 1639FB:Starfield.esm
+EquipmentType: 013F44:Starfield.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+Type:
+- Disease
+Effects:
+- BaseEffect: 131E77:Starfield.esm
+  Data: {}
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: IsTrueForConditionFormConditionData
+      FirstParameter: 03F55D:Starfield.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: NotEqualTo
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      FirstParameter: 20E61D:Starfield.esm
+  EFIF: 0
+  MUID: 4
+- BaseEffect: 03F557:Starfield.esm
+  Data:
+    Magnitude: 1
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: IsTrueForConditionFormConditionData
+      FirstParameter: 03F55D:Starfield.esm
+    ComparisonValue: 1
+  EFIF: 0
+  MUID: 5
+- BaseEffect: 3CBFE0:Starfield.esm
+  Data:
+    Magnitude: 3.3333
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: IsTrueForConditionFormConditionData
+      FirstParameter: 2452A6:Starfield.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetValueConditionData
+      FirstParameter: 259416
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: IsTrueForConditionFormConditionData
+      FirstParameter: 03F55D:Starfield.esm
+    ComparisonValue: 1
+  Magnitude: 03F553:Starfield.esm
+  EFIF: 0
+  MUID: 6
+- BaseEffect: 3CBFE0:Starfield.esm
+  Data:
+    Magnitude: 1.8333
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: IsTrueForConditionFormConditionData
+      FirstParameter: 2452A6:Starfield.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetValueConditionData
+      FirstParameter: 259416
+    ComparisonValue: 2
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: IsTrueForConditionFormConditionData
+      FirstParameter: 03F55D:Starfield.esm
+    ComparisonValue: 1
+  Magnitude: 03F555:Starfield.esm
+  EFIF: 0
+  MUID: 7
+- BaseEffect: 3CBFE0:Starfield.esm
+  Data:
+    Magnitude: 1.3333
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: IsTrueForConditionFormConditionData
+      FirstParameter: 2452A6:Starfield.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetValueConditionData
+      FirstParameter: 259416
+    ComparisonValue: 3
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: IsTrueForConditionFormConditionData
+      FirstParameter: 03F55D:Starfield.esm
+    ComparisonValue: 1
+  Magnitude: 03F556:Starfield.esm
+  EFIF: 0
+  MUID: 8
+- BaseEffect: 3CBFE0:Starfield.esm
+  Data:
+    Magnitude: 1.1
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: IsTrueForConditionFormConditionData
+      FirstParameter: 2452A6:Starfield.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: GreaterThanOrEqualTo
+    Data:
+      MutagenObjectType: GetValueConditionData
+      FirstParameter: 259416
+    ComparisonValue: 4
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: IsTrueForConditionFormConditionData
+      FirstParameter: 03F55D:Starfield.esm
+    ComparisonValue: 1
+  Magnitude: 03F55A:Starfield.esm
+  EFIF: 0
+  MUID: 9
+- BaseEffect: 106608:Starfield.esm
+  Data: {}
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: IsTrueForConditionFormConditionData
+      FirstParameter: 248D23:Starfield.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: IsTrueForConditionFormConditionData
+      FirstParameter: 03F55D:Starfield.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      FirstParameter: 20E61D:Starfield.esm
+    ComparisonValue: 1
+  EFIF: 0
+  MUID: 14
+- BaseEffect: 302A70:Starfield.esm
+  Data: {}
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: IsTrueForConditionFormConditionData
+      FirstParameter: 248D23:Starfield.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetValueConditionData
+      FirstParameter: 259416
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: IsTrueForConditionFormConditionData
+      FirstParameter: 03F55D:Starfield.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: GreaterThanOrEqualTo
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      FirstParameter: 20E61D:Starfield.esm
+    ComparisonValue: 2
+  Magnitude: 3FFD3C:Starfield.esm
+  EFIF: 0
+  MUID: 10
+- BaseEffect: 302A70:Starfield.esm
+  Data: {}
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: IsTrueForConditionFormConditionData
+      FirstParameter: 248D23:Starfield.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetValueConditionData
+      FirstParameter: 259416
+    ComparisonValue: 2
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: IsTrueForConditionFormConditionData
+      FirstParameter: 03F55D:Starfield.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: GreaterThanOrEqualTo
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      FirstParameter: 20E61D:Starfield.esm
+    ComparisonValue: 2
+  Magnitude: 03F552:Starfield.esm
+  EFIF: 0
+  MUID: 11
+- BaseEffect: 302A70:Starfield.esm
+  Data: {}
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: IsTrueForConditionFormConditionData
+      FirstParameter: 248D23:Starfield.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetValueConditionData
+      FirstParameter: 259416
+    ComparisonValue: 3
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: IsTrueForConditionFormConditionData
+      FirstParameter: 03F55D:Starfield.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: GreaterThanOrEqualTo
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      FirstParameter: 20E61D:Starfield.esm
+    ComparisonValue: 2
+  Magnitude: 03F554:Starfield.esm
+  EFIF: 0
+  MUID: 12
+- BaseEffect: 302A70:Starfield.esm
+  Data: {}
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: IsTrueForConditionFormConditionData
+      FirstParameter: 248D23:Starfield.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: GreaterThanOrEqualTo
+    Data:
+      MutagenObjectType: GetValueConditionData
+      FirstParameter: 259416
+    ComparisonValue: 4
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: IsTrueForConditionFormConditionData
+      FirstParameter: 03F55D:Starfield.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: GreaterThanOrEqualTo
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      FirstParameter: 20E61D:Starfield.esm
+    ComparisonValue: 2
+  Magnitude: 03F559:Starfield.esm
+  EFIF: 0
+  MUID: 13
+- BaseEffect: 1639EA:Starfield.esm
+  Data:
+    Duration: 5
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: IsTrueForConditionFormConditionData
+      FirstParameter: 248D23:Starfield.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: IsTrueForConditionFormConditionData
+      FirstParameter: 11F365:Starfield.esm
+    ComparisonValue: 1
+  EFIF: 0
+  MUID: 3

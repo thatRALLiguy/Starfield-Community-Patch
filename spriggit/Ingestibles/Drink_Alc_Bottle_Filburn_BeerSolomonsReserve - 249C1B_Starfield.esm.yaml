@@ -1,6 +1,6 @@
 FormKey: 249C1B:Starfield.esm
 EditorID: Drink_Alc_Bottle_Filburn_BeerSolomonsReserve
-FormVersion: 559
+FormVersion: 576
 ObjectBounds:
   First: -0.029052734, -0.02911377, -0.00015000104
   Second: 0.02911377, 0.029052734, 0.2206752
@@ -11,25 +11,7 @@ Transforms:
   Workbench: 05451A:Starfield.esm
 Name:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: Solomon's Reserve
-  - Language: English
-    String: Solomon's Reserve
-  - Language: Spanish
-    String: Solomon's Reserve
-  - Language: French
-    String: Solomon's Reserve
-  - Language: Italian
-    String: Solomon’s Reserve
-  - Language: Japanese
-    String: ソロモンズ・リザーブ
-  - Language: Polish
-    String: Solomon's Reserve
-  - Language: Portuguese_Brazil
-    String: Reserva Solomon
-  - Language: ChineseSimplified
-    String: 所罗门的珍藏
+  Value: Solomon's Reserve
 Keywords:
 - 055ECC:Starfield.esm
 - 249C1D:Starfield.esm
@@ -47,25 +29,7 @@ CraftingSound:
   Start: 35d54406-a8ad-3d76-0585-057058aa9faa
 Description:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: Ein Bier von Filburn Agriculture, das im Raum des Freestar Collective vertrieben wird.
-  - Language: English
-    String: A Filburn Agriculture brew for distribution throughout Freestar Collective space.
-  - Language: Spanish
-    String: Una cerveza de Filburn Agricultural que se distribuye en todo el espacio del Colectivo Freestar.
-  - Language: French
-    String: Une bière Filburn Agriculture distribuée dans toute la Confédération Liber Astra.
-  - Language: Italian
-    String: Una birra della Filburn Agriculture distribuita nello spazio del Collettivo Freestar.
-  - Language: Japanese
-    String: フィルバーン・アグリカルチャーの醸造酒。自由恒星同盟宙域の至る所に流通している
-  - Language: Polish
-    String: Browar firmy Filburn Agriculture rozprowadzany w przestrzeni Kolektywu Wolnych Gwiazd.
-  - Language: Portuguese_Brazil
-    String: Bebida da Filburn Agricultural para distribuição por todo o espaço da Confederação Freestar.
-  - Language: ChineseSimplified
-    String: 一款费尔本农业精酿，分销至自由星系联盟各地。
+  Value: A Filburn Agriculture brew for distribution throughout Freestar Collective space.
 Resources:
 - Resource: 29B02E:Starfield.esm
   Count: 1
@@ -78,6 +42,7 @@ ConsumeSound:
   Start: f96641c4-fd61-393a-cfc9-7f25fc5ae988
 AddictionName:
   TargetLanguage: English
+  Value: ''
 Effects:
 - BaseEffect: 1BF5AD:Starfield.esm
   Data:
@@ -112,18 +77,17 @@ Effects:
 - BaseEffect: 2EE936:Starfield.esm
   Data:
     Magnitude: 1
-    Duration: 1200
+    Duration: 1
   Conditions:
   - MutagenObjectType: ConditionFloat
     CompareOperator: GreaterThanOrEqualTo
-    Unknown1: 0x8D1400
-    Unknown2: 16650
+    Unknown2: 16658
     Data:
       MutagenObjectType: GetGlobalValueConditionData
       FirstParameter: 31324C:Starfield.esm
     ComparisonValue: 1
   Magnitude: 2EFD77:Starfield.esm
-  Duration: 313264:Starfield.esm
+  Duration: 2F0AD4:Starfield.esm
   EFIF: 0
   MUID: 5
 - BaseEffect: 2EE4B2:Starfield.esm

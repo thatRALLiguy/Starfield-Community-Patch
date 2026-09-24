@@ -1,48 +1,12 @@
 FormKey: 28AE14:Starfield.esm
 EditorID: Skill_CellularRegeneration
-FormVersion: 559
+FormVersion: 576
 Name:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: Zelluläre Regeneration
-  - Language: English
-    String: Cellular Regeneration
-  - Language: Spanish
-    String: Regeneración celular
-  - Language: French
-    String: Régénération cellulaire
-  - Language: Italian
-    String: Rigenerazione cellulare
-  - Language: Japanese
-    String: 細胞再生
-  - Language: Polish
-    String: Regeneracja komórkowa
-  - Language: Portuguese_Brazil
-    String: Regeneração Celular
-  - Language: ChineseSimplified
-    String: 细胞再生
+  Value: Cellular Regeneration
 Description:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: Ob durch geheime Experimente oder einfach nur eine gesunde Lebensführung – eine verbesserte Heilfähigkeit des Körpers, kann den Unterschied zwischen Leben und Tod machen.
-  - Language: English
-    String: Whether through secret experiementation or just plain healthy living, boosting the body's ability to naturally recover from injuries can mean the difference between life and death.
-  - Language: Spanish
-    String: Ya sea gracias a experimentos secretos o a hábitos saludables, la capacidad de recuperarte de lesiones de forma natural puede salvarte de una muerte segura.
-  - Language: French
-    String: Que ce soit à travers des expériences secrètes ou un mode de vie sain, renforcer la capacité du corps à récupérer naturellement des blessures peut faire la différence entre la vie et la mort.
-  - Language: Italian
-    String: Per mezzo di sperimentazione segreta o di semplici sane abitudini, migliorare la capacità del corpo di guarire spontaneamente dalle lesioni può fare la differenza tra la vita e la morte.
-  - Language: Japanese
-    String: 秘密の実験を行う過程であれ、ただ健康的な生活を送る過程であれ、負傷から自然回復する能力を強化することは、生死をわける要素となるかもしれない
-  - Language: Polish
-    String: Wzmocnienie zdolności twojego ciała do naturalnego leczenia się z urazów - czy to poprzez eksperymenty, czy po prostu zdrowy tryb życia - może stanowić różnicę między życiem a śmiercią.
-  - Language: Portuguese_Brazil
-    String: Seja por meio da experimentação secreta ou apenas pela vida saudável, aumentar a capacidade corporal de se recuperar naturalmente de ferimentos pode fazer a diferença entre a vida e a morte.
-  - Language: ChineseSimplified
-    String: 无论是通过秘密实验还是单纯的健康生活，提升身体从伤势中自然恢复的能力可以决定你的生死。
+  Value: Whether through secret experiementation or just plain healthy living, boosting the body's ability to naturally recover from injuries can mean the difference between life and death.
 Categroy: Physical
 SkillGroup: Expert
 Flags:
@@ -56,50 +20,14 @@ Ranks:
   - ATAN: Actor Value
     Name:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Zelluläre Regeneration
-      - Language: English
-        String: Cellular Regeneration
-      - Language: Spanish
-        String: Regeneración celular
-      - Language: French
-        String: Régénération cellulaire
-      - Language: Italian
-        String: Rigenerazione cellulare
-      - Language: Japanese
-        String: 細胞再生
-      - Language: Polish
-        String: Regeneracja komórkowa
-      - Language: Portuguese_Brazil
-        String: Regeneração Celular
-      - Language: ChineseSimplified
-        String: 细胞再生
+      Value: Cellular Regeneration
     Description:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Erhole dich von <repetitions> Verletzungen.
-      - Language: English
-        String: Recover from <repetitions> injuries.
-      - Language: Spanish
-        String: Te recuperas de <repetitions> heridas.
-      - Language: French
-        String: Récupérez à la suite de <repetitions> blessures.
-      - Language: Italian
-        String: Guarisci da <repetitions> lesioni.
-      - Language: Japanese
-        String: <repetitions>回負傷から回復する
-      - Language: Polish
-        String: 'Wylecz się z urazów: <repetitions>.'
-      - Language: Portuguese_Brazil
-        String: Recupere-se de <repetitions> ferimentos.
-      - Language: ChineseSimplified
-        String: 从<repetitions>伤势恢复。
+      Value: Recover from <repetitions> injuries.
     ProgressionEvalutor:
-    - Name: Reset
-      Conditions: []
     - Name: Trigger
+      Conditions: []
+    - Name: Reset
       Conditions: []
     ANAM: res:39EA1D6B:0005EEDD:A19607F5
     Configuration: >-
@@ -131,25 +59,7 @@ Ranks:
       }
   Description:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Erhöht leicht die Wahrscheinlichkeit, ganz natürlich von Verletzungen zu genesen.
-    - Language: English
-      String: Slightly increased chance to recover from injuries naturally.
-    - Language: Spanish
-      String: La probabilidad de recuperarte de lesiones naturalmente aumenta de forma leve.
-    - Language: French
-      String: Augmentation légère des chances de récupérer naturellement des blessures.
-    - Language: Italian
-      String: Probabilità di guarire spontaneamente dalle lesioni leggermente aumentata.
-    - Language: Japanese
-      String: 負傷から自然回復する確率が少し上昇する
-    - Language: Polish
-      String: Nieco zwiększa się szansa na naturalne wyleczenie urazów.
-    - Language: Portuguese_Brazil
-      String: Aumento pequeno da chance de recuperar ferimentos naturalmente.
-    - Language: ChineseSimplified
-      String: 小幅提升从伤势中自然恢复的几率。
+    Value: Slightly increased chance to recover from injuries naturally.
 - Effects:
   - MutagenObjectType: PerkAbilityEffect
     Rank: 1
@@ -158,50 +68,14 @@ Ranks:
   - ATAN: Actor Value
     Name:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Zelluläre Regeneration
-      - Language: English
-        String: Cellular Regeneration
-      - Language: Spanish
-        String: Regeneración celular
-      - Language: French
-        String: Régénération cellulaire
-      - Language: Italian
-        String: Rigenerazione cellulare
-      - Language: Japanese
-        String: 細胞再生
-      - Language: Polish
-        String: Regeneracja komórkowa
-      - Language: Portuguese_Brazil
-        String: Regeneração Celular
-      - Language: ChineseSimplified
-        String: 细胞再生
+      Value: Cellular Regeneration
     Description:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Erhole dich von <repetitions> Verletzungen.
-      - Language: English
-        String: Recover from <repetitions> injuries.
-      - Language: Spanish
-        String: Te recuperas de <repetitions> heridas.
-      - Language: French
-        String: Récupérez à la suite de <repetitions> blessures.
-      - Language: Italian
-        String: Guarisci da <repetitions> lesioni.
-      - Language: Japanese
-        String: <repetitions>回負傷から回復する
-      - Language: Polish
-        String: 'Wylecz się z urazów: <repetitions>.'
-      - Language: Portuguese_Brazil
-        String: Recupere-se de <repetitions> ferimentos.
-      - Language: ChineseSimplified
-        String: 从<repetitions>伤势恢复。
+      Value: Recover from <repetitions> injuries.
     ProgressionEvalutor:
-    - Name: Reset
-      Conditions: []
     - Name: Trigger
+      Conditions: []
+    - Name: Reset
       Conditions: []
     ANAM: res:6ACB189E:0005EEDD:A19607F5
     Configuration: >-
@@ -233,25 +107,7 @@ Ranks:
       }
   Description:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Erhöht die Wahrscheinlichkeit, ganz natürlich von Verletzungen zu genesen.
-    - Language: English
-      String: Moderately increased chance to recover from injuries naturally.
-    - Language: Spanish
-      String: La probabilidad de recuperarte de lesiones naturalmente aumenta de forma moderada.
-    - Language: French
-      String: Augmentation modérée des chances de récupérer naturellement des blessures.
-    - Language: Italian
-      String: Probabilità di guarire spontaneamente dalle lesioni moderatamente aumentata.
-    - Language: Japanese
-      String: 負傷から自然回復する確率が中程度上昇する
-    - Language: Polish
-      String: Umiarkowanie zwiększa się szansa na naturalne wyleczenie urazów.
-    - Language: Portuguese_Brazil
-      String: Aumento moderado da chance de recuperar ferimentos naturalmente.
-    - Language: ChineseSimplified
-      String: 适度提升从伤势中自然恢复的几率。
+    Value: Moderately increased chance to recover from injuries naturally.
 - Effects:
   - MutagenObjectType: PerkAbilityEffect
     Rank: 2
@@ -260,50 +116,14 @@ Ranks:
   - ATAN: Actor Value
     Name:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Zelluläre Regeneration
-      - Language: English
-        String: Cellular Regeneration
-      - Language: Spanish
-        String: Regeneración celular
-      - Language: French
-        String: Régénération cellulaire
-      - Language: Italian
-        String: Rigenerazione cellulare
-      - Language: Japanese
-        String: 細胞再生
-      - Language: Polish
-        String: Regeneracja komórkowa
-      - Language: Portuguese_Brazil
-        String: Regeneração Celular
-      - Language: ChineseSimplified
-        String: 细胞再生
+      Value: Cellular Regeneration
     Description:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Erhole dich von <repetitions> Verletzungen.
-      - Language: English
-        String: Recover from <repetitions> injuries.
-      - Language: Spanish
-        String: Te recuperas de <repetitions> heridas.
-      - Language: French
-        String: Récupérez à la suite de <repetitions> blessures.
-      - Language: Italian
-        String: Guarisci da <repetitions> lesioni.
-      - Language: Japanese
-        String: <repetitions>回負傷から回復する
-      - Language: Polish
-        String: 'Wylecz się z urazów: <repetitions>.'
-      - Language: Portuguese_Brazil
-        String: Recupere-se de <repetitions> ferimentos.
-      - Language: ChineseSimplified
-        String: 从<repetitions>伤势恢复。
+      Value: Recover from <repetitions> injuries.
     ProgressionEvalutor:
-    - Name: Reset
-      Conditions: []
     - Name: Trigger
+      Conditions: []
+    - Name: Reset
       Conditions: []
     ANAM: res:6CCC6E3A:0005EEDD:A19607F5
     Configuration: >-
@@ -335,47 +155,11 @@ Ranks:
       }
   Description:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Erhöht deutlich die Wahrscheinlichkeit, ganz natürlich von Verletzungen zu genesen.
-    - Language: English
-      String: Noticeably increased chance to recover from injuries naturally.
-    - Language: Spanish
-      String: La probabilidad de recuperarte de lesiones naturalmente aumenta de forma considerable.
-    - Language: French
-      String: Augmentation notable des chances de récupérer naturellement des blessures.
-    - Language: Italian
-      String: Probabilità di guarire spontaneamente dalle lesioni considerevolmente aumentata.
-    - Language: Japanese
-      String: 負傷から自然回復する確率が大幅に上昇する
-    - Language: Polish
-      String: Zauważalnie zwiększa się szansa na naturalne wyleczenie urazów.
-    - Language: Portuguese_Brazil
-      String: Aumento perceptível da chance de recuperar ferimentos naturalmente.
-    - Language: ChineseSimplified
-      String: 显著提升从伤势中自然恢复的几率。
+    Value: Noticeably increased chance to recover from injuries naturally.
 - Effects:
   - MutagenObjectType: PerkAbilityEffect
     Rank: 3
     Ability: 0DD78C:Starfield.esm
   Description:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Deutlich erhöhte Chance, sich auf natürliche Weise von Infektionen zu erholen. Chance von 20 %, einer sicheren Verletzung zu entgehen.
-    - Language: English
-      String: Greatly increased chance to recover from injuries naturally. 20% chance of not gaining an injury when you otherwise would.
-    - Language: Spanish
-      String: Mayor probabilidad de recuperarse de infecciones de forma natural. 20 % de probabilidad de no sufrir una lesión que, de otro modo, sí sufrirías.
-    - Language: French
-      String: Chances considérablement accrues de se remettre naturellement des infections. 20 % de chance de ne pas subir de blessure.
-    - Language: Italian
-      String: Possibilità notevolmente aumentate di riprendersi dalle infezioni in modo naturale. Probabilità del 20% di non subire una lesione altrimenti inevitabile.
-    - Language: Japanese
-      String: 感染症から自然に回復する可能性が大幅に増加します。 本来であれば受ける負傷を20%の確率で受けなくなる
-    - Language: Polish
-      String: Znacznie zwiększa się szansa na naturalne wyleczenie urazów. Zapewnia 20% szans na uniknięcie urazu w sytuacji, w której by wystąpił.
-    - Language: Portuguese_Brazil
-      String: Maior chance de recuperação natural de infecções. 20% de chance de não sofrer ferimentos em situações de risco.
-    - Language: ChineseSimplified
-      String: 大大增加从感染中自然恢复的机会。 有20%几率在会受伤的情况下免伤。
+    Value: Greatly increased chance to recover from injuries naturally. 20% chance of not gaining an injury when you otherwise would.

@@ -1,6 +1,6 @@
 FormKey: 27A4F1:Starfield.esm
 EditorID: Staryard_Deimos_Dialogue
-FormVersion: 559
+FormVersion: 576
 VirtualMachineAdapter:
   Script:
     Name: Fragments:Quests:QF_Staryard_Deimos_Dialogue_0027A4F1
@@ -15,25 +15,7 @@ VirtualMachineAdapter:
     FragmentName: Fragment_Stage_0100_Item_00
 Name:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: 'Deimos: Siedlungsdialog'
-  - Language: English
-    String: Deimos - Settlement Dialogue
-  - Language: Spanish
-    String: 'Deimos: diálogo de asentamiento'
-  - Language: French
-    String: Deimos - Settlement Dialogue
-  - Language: Italian
-    String: Deimos - Dialogo insediamento
-  - Language: Japanese
-    String: ダイモス - 入植地の会話
-  - Language: Polish
-    String: Deimos - dialog z osiedla
-  - Language: Portuguese_Brazil
-    String: Deimos - Diálogo de Colônia
-  - Language: ChineseSimplified
-    String: 火卫二 - 定居点对话
+  Value: Deimos - Settlement Dialogue
 Data:
   Flags:
   - StartGameEnabled
@@ -119,4 +101,3 @@ Aliases:
   ForcedReference: 02C8EF:Starfield.esm
   ForcedVoice: 271035:Starfield.esm
   VoiceTypes: 271035:Starfield.esm
-Timestamp: 12497

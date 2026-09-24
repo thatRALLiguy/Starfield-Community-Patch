@@ -1,27 +1,9 @@
 FormKey: 02E373:Starfield.esm
 EditorID: LC175StationRE939Location
-FormVersion: 559
+FormVersion: 576
 Name:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: Sternenstation RE-939
-  - Language: English
-    String: Starstation RE-939
-  - Language: Spanish
-    String: Estación estelar RE-939
-  - Language: French
-    String: Station RE-939
-  - Language: Italian
-    String: Stazione spaziale RE-939
-  - Language: Japanese
-    String: スターステーションRE-939
-  - Language: Polish
-    String: Stacja gwiezdna RE-939
-  - Language: Portuguese_Brazil
-    String: Estação Estelar RE-939
-  - Language: ChineseSimplified
-    String: RE-939星际站
+  Value: Starstation RE-939
 Keywords:
 - 01674D:Starfield.esm
 - 0254BC:Starfield.esm
@@ -30,7 +12,8 @@ Keywords:
 - 283580:Starfield.esm
 - 20AFEE:Starfield.esm
 - 01674E:Starfield.esm
-UnknownDATA2: 16
+Faction:
+  UnknownDATA2: 16
 ParentLocation: 16573C:Starfield.esm
 WorldLocationRadius: 0
 ActorFadeMult: 1

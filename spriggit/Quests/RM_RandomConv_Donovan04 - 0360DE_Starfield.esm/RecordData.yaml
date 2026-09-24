@@ -1,0 +1,89 @@
+FormKey: 0360DE:Starfield.esm
+EditorID: RM_RandomConv_Donovan04
+FormVersion: 576
+Data:
+  Flags:
+  - 0x200000
+  Unused: 0x000000
+Event: ADIA
+UnusedConditions: []
+Aliases:
+- MutagenObjectType: QuestLocationAlias
+  ID: 2
+  Name: RedMile
+  Flags:
+  - AllowCleared
+  ALFG: 0
+  SpecificLocation: 2CE0C9:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  ID: 1
+  Name: Donovan
+  Flags:
+  - MatchingRefInLoadedArea
+  - MatchingRefForActorsOnly
+  ALFG: 0
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      FirstParameter: 2B2BE9:Starfield.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: ActorPackageHasRandomConversationsFlagOnConditionData
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionGlobal
+    CompareOperator: LessThan
+    Data:
+      MutagenObjectType: GetDistanceConditionData
+      FirstParameter: 000014:Starfield.esm
+    ComparisonValue: 25D171:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 4
+  Name: Stocker
+  Flags: []
+  ALFG: 0
+  UniqueActor: 29FEC5:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  Name: DonovanFriend01
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 2
+    RefType: 2E899D:Starfield.esm
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: LessThan
+    Data:
+      MutagenObjectType: GetDistanceConditionData
+      UseAliases: True
+      FirstParameter: 1
+    ComparisonValue: 10
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: ActorPackageHasRandomConversationsFlagOnConditionData
+    ComparisonValue: 1
+  VoiceTypes: 2B2BE2:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  ID: 3
+  Name: DonovanFriend02
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 2
+    RefType: 2E899E:Starfield.esm
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: LessThan
+    Data:
+      MutagenObjectType: GetDistanceConditionData
+      UseAliases: True
+      FirstParameter: 1
+    ComparisonValue: 10
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: ActorPackageHasRandomConversationsFlagOnConditionData
+    ComparisonValue: 1
+  VoiceTypes: 2B2BE7:Starfield.esm

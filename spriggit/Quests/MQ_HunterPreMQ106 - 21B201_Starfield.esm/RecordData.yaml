@@ -1,6 +1,6 @@
 FormKey: 21B201:Starfield.esm
 EditorID: MQ_HunterPreMQ106
-FormVersion: 559
+FormVersion: 576
 VirtualMachineAdapter:
   Scripts:
   - Name: MQHunterPreMQ106Script
@@ -61,17 +61,6 @@ VirtualMachineAdapter:
       - MutagenObjectType: ScriptIntProperty
         Name: TurnOffStage
         Data: 700
-    - Name: defaultaliasonunloada
-      Properties:
-      - MutagenObjectType: ScriptIntProperty
-        Name: PrereqStage
-        Data: 200
-      - MutagenObjectType: ScriptIntProperty
-        Name: StageToSet
-        Data: 225
-      - MutagenObjectType: ScriptIntProperty
-        Name: TurnOffStage
-        Data: 700
     - Name: MQ204HunterScript
       Properties:
       - MutagenObjectType: ScriptObjectProperty
@@ -86,6 +75,17 @@ VirtualMachineAdapter:
       - MutagenObjectType: ScriptObjectProperty
         Name: Starborn_DeathShader
         Object: 02E550:Starfield.esm
+    - Name: defaultaliasonunloada
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 200
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 225
+      - MutagenObjectType: ScriptIntProperty
+        Name: TurnOffStage
+        Data: 700
 Data:
   Flags:
   - RunOnce
@@ -160,4 +160,3 @@ Aliases:
   ALFG: 0
   UniqueActor: 21C5B4:Starfield.esm
   VoiceTypes: Null
-Timestamp: 12497

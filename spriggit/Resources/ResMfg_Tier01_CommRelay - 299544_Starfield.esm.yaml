@@ -1,0 +1,17 @@
+FormKey: 299544:Starfield.esm
+EditorID: ResMfg_Tier01_CommRelay
+FormVersion: 576
+Name:
+  TargetLanguage: English
+  Value: Comm Relay
+Keywords:
+- 0424A8:Starfield.esm
+- 23CEB6:Starfield.esm
+CraftingSound:
+  Start: 8f644ce4-8ff9-5217-90b6-cba2f6b0b18d
+Rarity: Uncommon
+SurfaceColor: '#003B424A'
+ResourceType: CommRelay
+ActorValue: 299541:Starfield.esm
+Produce: 2457BC:Starfield.esm
+Interval: 14E924:Starfield.esm

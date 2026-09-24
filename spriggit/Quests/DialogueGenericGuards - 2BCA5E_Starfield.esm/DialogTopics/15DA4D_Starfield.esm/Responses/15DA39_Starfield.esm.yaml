@@ -1,5 +1,5 @@
 FormKey: 15DA39:Starfield.esm
-FormVersion: 559
+FormVersion: 576
 Flags:
   Flags:
   - Random
@@ -33,39 +33,19 @@ Responses:
     UnknownFloat: 0.26666668
   Text:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Hoooooo!
-    - Language: English
-      String: Hoooooo!
-    - Language: Spanish
-      String: ¡Juuuuuu!
-    - Language: French
-      String: Hoooooo !
-    - Language: Italian
-      String: Uuuh!
-    - Language: Japanese
-      String: わあああお！
-    - Language: Polish
-      String: Hoooooo!
-    - Language: Portuguese_Brazil
-      String: Oooooo!
-    - Language: ChineseSimplified
-      String: 吼——！
+    Value: Hoooooo!
   ScriptNotes: ''
   Edits: ''
   AlternateLipText: ''
   TextHash: 0xA00C1A4AE24CD701
 Conditions:
 - MutagenObjectType: ConditionFloat
-  Unknown1: 0x000000
-  Unknown2: 16493
+  Unknown2: 16617
   Data:
     MutagenObjectType: GetInFactionConditionData
     FirstParameter: 27AD57:Starfield.esm
 - MutagenObjectType: ConditionFloat
-  Unknown1: 0x000000
-  Unknown2: 16493
+  Unknown2: 16617
   Data:
     MutagenObjectType: WornHasKeywordConditionData
     RunOnType: Reference
@@ -73,8 +53,7 @@ Conditions:
     FirstParameter: 1C8E67:Starfield.esm
   ComparisonValue: 1
 - MutagenObjectType: ConditionFloat
-  Unknown1: 0x000000
-  Unknown2: 16493
+  Unknown2: 16617
   Data:
     MutagenObjectType: IsTrueForConditionFormConditionData
     RunOnType: Reference

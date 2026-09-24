@@ -1,9 +1,14 @@
 FormKey: 0A91F1:Starfield.esm
+IsCompressed: True
+MajorRecordFlagsRaw: 262144
 EditorID: OEBB021Ext01
-FormVersion: 559
+FormVersion: 576
+StarfieldMajorRecordFlags:
+- Compressed
 Flags:
 - HasWater
 Grid: {}
+LightingTemplate: Null
 WaterHeight: 3.4028235E+38
 XILS: 1
 Traversals:
@@ -29533,7 +29538,16 @@ Traversals:
   UnknownVector: 5.2080417, 14.0612545, 1.2160801
   Unknown: 0x483E483E00386634
 NumTraversalFluffBytes: 23620
-Timestamp: 12497
 UnknownGroupData: 1
-TemporaryTimestamp: 12497
 TemporaryUnknownGroupData: 1
+Temporary:
+- MutagenObjectType: PlacedObject
+  FormKey: 0A89CA:Starfield.esm
+  FormVersion: 576
+  Base: 29E174:Starfield.esm
+  Layer: 1DBADF:Starfield.esm
+  Location: 09B082:Starfield.esm
+  Position: 27.776207, 14.351485, 5.884453
+  Rotation: 0, 0, 0.20001894
+MajorFlags:
+- 0x40000

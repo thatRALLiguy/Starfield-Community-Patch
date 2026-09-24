@@ -1,6 +1,6 @@
 FormKey: 1CDAFB:Starfield.esm
 EditorID: CREW_EliteCrew_DaniGarcia
-FormVersion: 559
+FormVersion: 576
 VirtualMachineAdapter:
   Scripts:
   - Name: Crew_EliteCrewQuestScript
@@ -78,25 +78,7 @@ VirtualMachineAdapter:
     FragmentName: Fragment_Stage_1000_Item_00
 Name:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: Dani Garcia
-  - Language: English
-    String: Dani Garcia
-  - Language: Spanish
-    String: Dani Garcia
-  - Language: French
-    String: Dani Garcia
-  - Language: Italian
-    String: Dani Garcia
-  - Language: Japanese
-    String: ダニ・ガルシア
-  - Language: Polish
-    String: Dani Garcia
-  - Language: Portuguese_Brazil
-    String: Dani Garcia
-  - Language: ChineseSimplified
-    String: 丹尼尔·卡尔西亚
+  Value: Dani Garcia
 Data:
   Flags:
   - RunOnce
@@ -107,8 +89,7 @@ TextDisplayGlobals:
 - 27072B:Starfield.esm
 DialogConditions:
 - MutagenObjectType: ConditionFloat
-  Unknown1: 0x8C1400
-  Unknown2: 16650
+  Unknown2: 16658
   Data:
     MutagenObjectType: GetIsIDConditionData
     FirstParameter: 1CDAFD:Starfield.esm
@@ -138,7 +119,6 @@ Stages:
   - Flags: []
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetInFactionConditionData
         RunOnType: QuestAlias
@@ -154,7 +134,6 @@ Stages:
   - Flags: []
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: HasPerkConditionData
         RunOnType: Reference
@@ -167,7 +146,6 @@ Stages:
   - Flags: []
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: HasPerkConditionData
         RunOnType: Reference
@@ -288,4 +266,3 @@ Aliases:
     Quest: 2A567D:Starfield.esm
     AliasID: 30
   VoiceTypes: Null
-Timestamp: 12497

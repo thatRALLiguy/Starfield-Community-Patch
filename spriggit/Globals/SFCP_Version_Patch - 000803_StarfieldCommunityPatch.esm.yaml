@@ -1,9 +1,9 @@
 FormKey: 000803:StarfieldCommunityPatch.esm
 MajorRecordFlagsRaw: 64
 EditorID: SFCP_Version_Patch
-FormVersion: 559
+FormVersion: 576
 StarfieldMajorRecordFlags:
 - 0x40
-Data: 6
+Data: 0
 MajorFlags:
 - Constant

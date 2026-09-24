@@ -1,6 +1,6 @@
 FormKey: 1C7751:Starfield.esm
 EditorID: StationTheKeyDefensiveBatteryBetaSpaceCellLocation
-FormVersion: 559
+FormVersion: 576
 AddedSpecialReferences:
 - LocationRefType: 21E682:Starfield.esm
   Marker: 192988:Starfield.esm
@@ -167,31 +167,14 @@ AddedInitiallyDisabledReferences:
 - 3E605D:Starfield.esm
 Name:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: Abwehrbatterie Beta
-  - Language: English
-    String: Defensive Battery Beta
-  - Language: Spanish
-    String: Batería defensiva beta
-  - Language: French
-    String: Batterie défensive Bêta
-  - Language: Italian
-    String: Batteria difensiva beta
-  - Language: Japanese
-    String: ベータ砲
-  - Language: Polish
-    String: Bateria obronna beta
-  - Language: Portuguese_Brazil
-    String: Bateria Defensiva Beta
-  - Language: ChineseSimplified
-    String: 贝塔防御炮阵
+  Value: Defensive Battery Beta
 Keywords:
 - 2253D1:Starfield.esm
 - 01674D:Starfield.esm
 - 08A8F9:Starfield.esm
-SystemLevel: 25
-UnknownDATA2: -256
+Faction:
+  SystemLevel: 25
+  UnknownDATA2: -256
 ParentLocation: 061569:Starfield.esm
 WorldLocationRadius: 0
 ActorFadeMult: 1

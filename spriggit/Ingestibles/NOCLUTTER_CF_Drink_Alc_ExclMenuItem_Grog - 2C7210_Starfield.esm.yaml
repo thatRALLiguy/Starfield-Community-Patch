@@ -1,6 +1,6 @@
 FormKey: 2C7210:Starfield.esm
 EditorID: NOCLUTTER_CF_Drink_Alc_ExclMenuItem_Grog
-FormVersion: 559
+FormVersion: 576
 ObjectBounds:
   First: -0.053497303, -0.053283703, 0
   Second: 0.05377196, 0.053375255, 0.19494629
@@ -11,25 +11,7 @@ Transforms:
   Workbench: 03D201:Starfield.esm
 Name:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: Bocks Grog
-  - Language: English
-    String: Bog's Grog
-  - Language: Spanish
-    String: Bog's Grog
-  - Language: French
-    String: Grog de Bog
-  - Language: Italian
-    String: Grog di Fango
-  - Language: Japanese
-    String: ボグズ・グロッグ
-  - Language: Polish
-    String: Grog Grząskiego
-  - Language: Portuguese_Brazil
-    String: Breja do Brejo
-  - Language: ChineseSimplified
-    String: 沼泽酒
+  Value: Bog's Grog
 Keywords:
 - 055ECC:Starfield.esm
 - 2CF28A:Starfield.esm
@@ -47,25 +29,7 @@ CraftingSound:
   Start: 580e474d-4c10-e197-848f-5a4632615aa7
 Description:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: Mit Wasser verdünnter Rum. Enthält einen Schuss Zitrone und einen winzigen Hauch Schießpulver.
-  - Language: English
-    String: Rum diluted with water, with a twist of lemon and just a pinch of gunpowder.
-  - Language: Spanish
-    String: Ron diluido con agua, con un toque de limón y una pizca de pólvora.
-  - Language: French
-    String: Rhum dilué à l'eau, avec une goutte de citron et une pincée de poudre à canon.
-  - Language: Italian
-    String: Rum diluito con acqua, con una punta di limone e un pizzico di polvere da sparo.
-  - Language: Japanese
-    String: ラム酒の水割り。レモン汁一絞りと火薬一つまみが加えられている
-  - Language: Polish
-    String: Rum rozcieńczony wodą z odrobiną cytryny i szczyptą prochu.
-  - Language: Portuguese_Brazil
-    String: Rum diluído com água e um toque de limão, com uma pitada de pólvora.
-  - Language: ChineseSimplified
-    String: 用水稀释的朗姆酒，再加上一点柠檬和少量火药。
+  Value: Rum diluted with water, with a twist of lemon and just a pinch of gunpowder.
 Weight: 0.3
 Value: 140
 Flags:
@@ -75,6 +39,7 @@ ConsumeSound:
   Start: abcc440c-55e5-bbd4-167f-b9ab79fae3b3
 AddictionName:
   TargetLanguage: English
+  Value: ''
 Effects:
 - BaseEffect: 1BB407:Starfield.esm
   Data:
@@ -109,18 +74,17 @@ Effects:
 - BaseEffect: 2EE936:Starfield.esm
   Data:
     Magnitude: 1
-    Duration: 1200
+    Duration: 1
   Conditions:
   - MutagenObjectType: ConditionFloat
     CompareOperator: GreaterThanOrEqualTo
-    Unknown1: 0x8D1400
-    Unknown2: 16650
+    Unknown2: 16658
     Data:
       MutagenObjectType: GetGlobalValueConditionData
       FirstParameter: 31324C:Starfield.esm
     ComparisonValue: 1
   Magnitude: 2EFD77:Starfield.esm
-  Duration: 313264:Starfield.esm
+  Duration: 2F0AD4:Starfield.esm
   EFIF: 0
   MUID: 5
 - BaseEffect: 2EE4B2:Starfield.esm

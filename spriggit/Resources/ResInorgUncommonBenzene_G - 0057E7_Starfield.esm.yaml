@@ -1,27 +1,9 @@
 FormKey: 0057E7:Starfield.esm
 EditorID: ResInorgUncommonBenzene_G
-FormVersion: 559
+FormVersion: 576
 Name:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: Benzol
-  - Language: English
-    String: Benzene
-  - Language: Spanish
-    String: Benceno
-  - Language: French
-    String: Benzène
-  - Language: Italian
-    String: Benzene
-  - Language: Japanese
-    String: ベンゼン
-  - Language: Polish
-    String: Benzen
-  - Language: Portuguese_Brazil
-    String: Benzeno
-  - Language: ChineseSimplified
-    String: 苯
+  Value: Benzene
 Keywords:
 - 04248C:Starfield.esm
 - 299548:Starfield.esm
@@ -34,25 +16,7 @@ NextRarities:
 SurfaceColor: '#002B5F80'
 ShortName:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: C6H6
-  - Language: English
-    String: C6H6
-  - Language: Spanish
-    String: C6H6
-  - Language: French
-    String: C6H6
-  - Language: Italian
-    String: C6H6
-  - Language: Japanese
-    String: C6H6
-  - Language: Polish
-    String: C6H6
-  - Language: Portuguese_Brazil
-    String: C6H6
-  - Language: ChineseSimplified
-    String: C6H6
+  Value: C6H6
 ActorValue: 05EF32:Starfield.esm
 Produce: 05EF66:Starfield.esm
 Interval: 05ED87:Starfield.esm

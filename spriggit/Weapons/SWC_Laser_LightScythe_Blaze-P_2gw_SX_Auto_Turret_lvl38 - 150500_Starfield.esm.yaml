@@ -1,31 +1,13 @@
 FormKey: 150500:Starfield.esm
 MajorRecordFlagsRaw: 4
 EditorID: SWC_Laser_LightScythe_Blaze-P_2gw_SX_Auto_Turret_lvl38
-FormVersion: 559
+FormVersion: 576
 StarfieldMajorRecordFlags:
 - NotPlayable
 ODTY: 0
 Name:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: Pulslasergeschütz Blaze-P 2gw SX
-  - Language: English
-    String: Blaze-P 2gw SX Pulse Laser Turret
-  - Language: Spanish
-    String: Torreta de láser de pulsos SX Blaze-P de 2 GW
-  - Language: French
-    String: Tourelle laser à impulsion Blaze-P 2gw SX
-  - Language: Italian
-    String: Torretta laser a impulsi Blaze-P 2gw SX
-  - Language: Japanese
-    String: ブレイズP2gw・SXパルスレーザータレット
-  - Language: Polish
-    String: Wieżyczka z laserem impulsowym SX Blaze-P 2 GW
-  - Language: Portuguese_Brazil
-    String: Torreta PulsoLaser SX Chama-P 2gw
-  - Language: ChineseSimplified
-    String: 烈焰P 2gw SX脉冲激光炮塔
+  Value: Blaze-P 2gw SX Pulse Laser Turret
 Model:
   FLLD: 0x01000000
 EquipmentType: 000046:Starfield.esm
@@ -37,6 +19,7 @@ Keywords:
 - 32792C:Starfield.esm
 Description:
   TargetLanguage: English
+  Value: ''
 EmbeddedWeaponMod: Null
 SightedTransitionSeconds: 0.25
 AimDownSightTemplate: 04B246:Starfield.esm
@@ -91,25 +74,7 @@ BaseSpeed: 1
 AttackOxygenCost: 75
 General:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: LAS
-  - Language: English
-    String: LAS
-  - Language: Spanish
-    String: LÁS
-  - Language: French
-    String: LAS
-  - Language: Italian
-    String: LAS
-  - Language: Japanese
-    String: LAS
-  - Language: Polish
-    String: LAS
-  - Language: Portuguese_Brazil
-    String: LAS
-  - Language: ChineseSimplified
-    String: 激光
+  Value: LAS
 WMELUnknown1: 2
 MeleeReach: 1
 MeleeStagger: Medium

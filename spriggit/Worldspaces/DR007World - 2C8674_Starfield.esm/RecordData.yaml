@@ -1,6 +1,6 @@
 FormKey: 2C8674:Starfield.esm
 EditorID: DR007World
-FormVersion: 559
+FormVersion: 576
 Components:
 - MutagenObjectType: WorldSpaceOverlayComponent
   SNAM: 0x00000000
@@ -25,48 +25,26 @@ Components:
   Conditions:
   - MutagenObjectType: ConditionGlobal
     CompareOperator: GreaterThan
-    Unknown1: 0x000000
     Data:
       MutagenObjectType: GetGlobalValueConditionData
       FirstParameter: 000039:Starfield.esm
     ComparisonValue: 0F78AC:Starfield.esm
   - MutagenObjectType: ConditionFloat
-    Unknown1: 0x000000
     Data:
       MutagenObjectType: IsTrueForConditionFormConditionData
       FirstParameter: 1C3FB6:Starfield.esm
     ComparisonValue: 1
   - MutagenObjectType: ConditionFloat
-    Unknown1: 0x000000
     Data:
       MutagenObjectType: SystemHasKeywordConditionData
       FirstParameter: 1E79B9:Starfield.esm
   - MutagenObjectType: ConditionFloat
-    Unknown1: 0x000000
     Data:
       MutagenObjectType: GetIsCurrentLocationConditionData
       FirstParameter: 01A8E4:Starfield.esm
 Name:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: Abhörposten
-  - Language: English
-    String: Listening Post
-  - Language: Spanish
-    String: Puesto de escucha
-  - Language: French
-    String: Poste d'écoute
-  - Language: Italian
-    String: Postazione d’ascolto
-  - Language: Japanese
-    String: 情報収集拠点
-  - Language: Polish
-    String: Posterunek nasłuchowy
-  - Language: Portuguese_Brazil
-    String: Posto de Escuta
-  - Language: ChineseSimplified
-    String: 听音哨
+  Value: Listening Post
 Location: 2C86A8:Starfield.esm
 Water: 000018:Starfield.esm
 LodWater: 000018:Starfield.esm
@@ -86,4 +64,58 @@ GNAM: 1
 XCLWs: []
 WHGTs: []
 HNAM: 0x05
-SubCellsTimestamp: 12497
+TopCell:
+  FormKey: 2C8675:Starfield.esm
+  IsCompressed: True
+  MajorRecordFlagsRaw: 263168
+  FormVersion: 576
+  StarfieldMajorRecordFlags:
+  - 0x400
+  - Compressed
+  Flags:
+  - HasWater
+  Grid: {}
+  LightingTemplate: Null
+  WaterHeight: 3.4028235E+38
+  XILS: 1
+  UnknownGroupData: 1
+  PersistentUnknownGroupData: 1
+  Persistent:
+  - MutagenObjectType: PlacedObject
+    FormKey: 2CA717:Starfield.esm
+    MajorRecordFlagsRaw: 1024
+    EditorID: DR007MapMarkerRef
+    FormVersion: 576
+    StarfieldMajorRecordFlags:
+    - 0x400
+    VirtualMachineAdapter:
+      Scripts:
+      - Name: MapMarkerLocationCooldownScript
+        Properties:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: LocationCooldown
+          Object: 0F78AC:Starfield.esm
+    Base: 000010:Starfield.esm
+    Radius: 20
+    MapMarker:
+      Flags:
+      - UseLocationName
+      Name:
+        TargetLanguage: English
+        Value: Listening Post
+      Type: 22
+      VNAM: 2
+      UNAM:
+        TargetLanguage: English
+        Value: ''
+      VISI: 0
+    Layer: 2CA73B:Starfield.esm
+    Location: 2C86A8:Starfield.esm
+    LinkedReferences:
+    - Reference: 2CA718:Starfield.esm
+    IsLinkedRefTransient: True
+    Position: 45.1204, 47.89791, 44.524216
+    Rotation: 0, -0, 3.926991
+  MajorFlags:
+  - Persistent
+  - 0x40000

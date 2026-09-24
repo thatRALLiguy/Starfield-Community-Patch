@@ -1,7 +1,7 @@
 FormKey: 231AC5:Starfield.esm
 MajorRecordFlagsRaw: 4
 EditorID: LC124World
-FormVersion: 559
+FormVersion: 576
 StarfieldMajorRecordFlags:
 - NotPlayable
 Components:
@@ -11,25 +11,7 @@ Components:
   SurfaceBlock: 231AC0:Starfield.esm
 Name:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: Valeries Lager
-  - Language: English
-    String: Valerie's Cache
-  - Language: Spanish
-    String: Alijo de Valerie
-  - Language: French
-    String: Cache de Valerie
-  - Language: Italian
-    String: Deposito di Valerie
-  - Language: Japanese
-    String: ヴァレリーの貯蔵庫
-  - Language: Polish
-    String: Skrytka Valerie
-  - Language: Portuguese_Brazil
-    String: Estoque da Valerie
-  - Language: ChineseSimplified
-    String: 瓦莱丽的藏货点
+  Value: Valerie's Cache
 Location: 2318E1:Starfield.esm
 Biome: 0FD00D:Starfield.esm
 Climate: 13EC24:Starfield.esm
@@ -53,6 +35,45 @@ GNAM: 1
 XCLWs: []
 WHGTs: []
 HNAM: 0x05
-SubCellsTimestamp: 12497
+TopCell:
+  FormKey: 2318E2:Starfield.esm
+  IsCompressed: True
+  MajorRecordFlagsRaw: 263168
+  FormVersion: 576
+  StarfieldMajorRecordFlags:
+  - 0x400
+  - Compressed
+  Flags:
+  - HasWater
+  Grid: {}
+  LightingTemplate: Null
+  WaterHeight: 3.4028235E+38
+  XILS: 1
+  XCLAs:
+  - XCLA: 1
+    XCLD: Default Layer Name 1
+  - XCLA: 2
+    XCLD: Default Layer Name 2
+  - XCLA: 3
+    XCLD: Default Layer Name 3
+  - XCLA: 4
+    XCLD: Default Layer Name 4
+  UnknownGroupData: 1
+  PersistentUnknownGroupData: 1
+  Persistent:
+  - MutagenObjectType: PlacedObject
+    FormKey: 101D8D:Starfield.esm
+    MajorRecordFlagsRaw: 66560
+    FormVersion: 576
+    StarfieldMajorRecordFlags:
+    - 0x400
+    - 0x10000
+    Base: 007145:Starfield.esm
+    Location: 2318E1:Starfield.esm
+    Position: 13.564841, 83.18496, 29.068481
+    Rotation: 0, -0, 2.0569997
+  MajorFlags:
+  - Persistent
+  - 0x40000
 MajorFlags:
 - 0x4

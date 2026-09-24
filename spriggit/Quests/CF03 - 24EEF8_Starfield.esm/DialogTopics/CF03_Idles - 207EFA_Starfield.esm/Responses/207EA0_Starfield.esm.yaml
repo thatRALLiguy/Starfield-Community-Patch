@@ -1,5 +1,5 @@
 FormKey: 207EA0:Starfield.esm
-FormVersion: 559
+FormVersion: 576
 Flags:
   Flags:
   - Random
@@ -12,25 +12,7 @@ Responses:
   TRDAUnknown: 2.7
   Text:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Wie können diese ... Dinger bei der Kälte überleben? Ist doch Scheiße.
-    - Language: English
-      String: How can these... things live in this kind of cold? It's bullshit.
-    - Language: Spanish
-      String: ¿Cómo pueden estas... cosas vivir con este frío? Es la leche.
-    - Language: French
-      String: Mais comment font ces... choses pour vivre dans un froid pareil ?
-    - Language: Italian
-      String: Come possono quei... cosi vivere in un posto così freddo? È impossibile.
-    - Language: Japanese
-      String: なんで連中は… こんな寒さで生きてられんだ？ おかしいだろ
-    - Language: Polish
-      String: Jakim cudem te... stwory żyją w takim zimnie? To jakaś bzdura.
-    - Language: Portuguese_Brazil
-      String: Como é que essas... coisas vivem num frio desses? É insano.
-    - Language: ChineseSimplified
-      String: 这些……东西怎么能在如此寒冷的环境中生存？都是瞎扯的吧。
+    Value: How can these... things live in this kind of cold? It's bullshit.
   ScriptNotes: ''
   Edits: ''
   AlternateLipText: ''

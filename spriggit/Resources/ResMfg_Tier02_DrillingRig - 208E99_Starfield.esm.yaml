@@ -1,0 +1,17 @@
+FormKey: 208E99:Starfield.esm
+EditorID: ResMfg_Tier02_DrillingRig
+FormVersion: 576
+Name:
+  TargetLanguage: English
+  Value: Drilling Rig
+Keywords:
+- 0424A7:Starfield.esm
+- 23CEB6:Starfield.esm
+CraftingSound:
+  Start: 8f644ce4-8ff9-5217-90b6-cba2f6b0b18d
+Rarity: Rare
+SurfaceColor: '#003B424A'
+ResourceType: DrillingRig
+ActorValue: 208E98:Starfield.esm
+Produce: 20A02E:Starfield.esm
+Interval: 14EA72:Starfield.esm

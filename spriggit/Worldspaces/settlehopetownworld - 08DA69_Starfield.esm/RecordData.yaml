@@ -1,7 +1,7 @@
 FormKey: 08DA69:Starfield.esm
 MajorRecordFlagsRaw: 4
 EditorID: settlehopetownworld
-FormVersion: 559
+FormVersion: 576
 StarfieldMajorRecordFlags:
 - NotPlayable
 Components:
@@ -11,25 +11,7 @@ Components:
   SurfaceBlock: 08DA68:Starfield.esm
 Name:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: Welt von HopeTown
-  - Language: English
-    String: HopeTown World
-  - Language: Spanish
-    String: Mundo de HopeTown
-  - Language: French
-    String: Monde de HopeTown
-  - Language: Italian
-    String: Mondo HopeTown
-  - Language: Japanese
-    String: ホープタウン・ワールド
-  - Language: Polish
-    String: Świat Hope
-  - Language: Portuguese_Brazil
-    String: Mundo do Condado Hope
-  - Language: ChineseSimplified
-    String: 霍普镇世界
+  Value: HopeTown World
 Location: 016027:Starfield.esm
 Biome: 214810:Starfield.esm
 LodWater: 000018:Starfield.esm
@@ -51,6 +33,5 @@ GNAM: 1
 XCLWs: []
 WHGTs: []
 HNAM: 0x05
-SubCellsTimestamp: 12497
 MajorFlags:
 - 0x4

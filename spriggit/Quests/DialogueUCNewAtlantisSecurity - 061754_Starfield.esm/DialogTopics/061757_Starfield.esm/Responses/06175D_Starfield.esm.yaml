@@ -1,5 +1,5 @@
 FormKey: 06175D:Starfield.esm
-FormVersion: 559
+FormVersion: 576
 Flags:
   Flags:
   - Random
@@ -25,33 +25,14 @@ Responses:
     UnknownFloat: 1.2
   Text:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Hey, keine Waffen. Weg damit.
-    - Language: English
-      String: Hey, no weapons. Put that away.
-    - Language: Spanish
-      String: Nada de armas. Aleja eso.
-    - Language: French
-      String: Hé, les armes sont interdites. Rangez-moi ça.
-    - Language: Italian
-      String: Ehi, niente armi. Mettila via.
-    - Language: Japanese
-      String: おい、武器は禁止だ。しまえ
-    - Language: Polish
-      String: Hej, żadnej broni. Odłóż to.
-    - Language: Portuguese_Brazil
-      String: Ei, nada de armas. Guarda isso aí.
-    - Language: ChineseSimplified
-      String: 嘿，这里禁止武器。收起来。
+    Value: Hey, no weapons. Put that away.
   ScriptNotes: ''
   Edits: ''
   AlternateLipText: ''
   TextHash: 0xE0140AE6C24ED501
 Conditions:
 - MutagenObjectType: ConditionFloat
-  Unknown1: 0x000000
-  Unknown2: 16493
+  Unknown2: 16617
   Data:
     MutagenObjectType: IsWeaponOutConditionData
     RunOnType: Reference

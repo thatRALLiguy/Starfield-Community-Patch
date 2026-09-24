@@ -1,0 +1,646 @@
+FormKey: 12F188:Starfield.esm
+EditorID: RQ_Settlement_CollectColonist_01
+FormVersion: 576
+VirtualMachineAdapter:
+  Scripts:
+  - Name: defaultquestchangelocationscript
+    Properties:
+    - MutagenObjectType: ScriptStructListProperty
+      Name: ChangeLocationStages
+      Structs:
+      - Members:
+        - MutagenObjectType: ScriptBoolProperty
+          Name: RequireExactLocation
+        - MutagenObjectType: ScriptIntProperty
+          Name: PrereqStage
+          Data: 100
+        - MutagenObjectType: ScriptBoolProperty
+          Name: SetStageOnEnterLocation
+        - MutagenObjectType: ScriptIntProperty
+          Name: StageToSet
+          Data: 950
+        - MutagenObjectType: ScriptObjectProperty
+          Name: targetLocationAlias
+          Object: 12F188:Starfield.esm
+          Alias: 36
+        - MutagenObjectType: ScriptIntProperty
+          Name: TurnOffStage
+          Data: 990
+      - Members:
+        - MutagenObjectType: ScriptBoolProperty
+          Name: RequireExactLocation
+        - MutagenObjectType: ScriptIntProperty
+          Name: StageToSet
+          Data: 999
+        - MutagenObjectType: ScriptBoolProperty
+          Name: SetStageOnEnterLocation
+        - MutagenObjectType: ScriptObjectProperty
+          Name: targetLocationAlias
+          Object: 12F188:Starfield.esm
+          Alias: 36
+        - MutagenObjectType: ScriptIntProperty
+          Name: TurnOffStage
+          Data: 100
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_PlayerShip
+      Object: 0174A2:Starfield.esm
+  - Name: RQ_CollectScript
+    Properties:
+    - MutagenObjectType: ScriptIntProperty
+      Name: ShutdownStageRequired_Stage
+      Data: 100
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RQ_Debug_SummonShipOnStart
+      Object: 1D302F:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RQ_AV_SecondaryObjectiveSuccess
+      Object: 1C3948:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RQ_Hello_Calm_PreAcceptValue
+      Object: 2FDFA0:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_QuestGiver
+      Object: 12F188:Starfield.esm
+      Alias: 46
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RQ_Hello_Calm_PostAcceptValue
+      Object: 2FDFA1:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DialogueAV_Initial_Hello
+      Object: 2FDFA0:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RQ_Hello_Stressed_PreAcceptValue
+      Object: 2FDFA4:Starfield.esm
+    - MutagenObjectType: ScriptIntProperty
+      Name: ShutdownAllowed_Stage
+      Data: 999
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RQ_Hello_Stressed_FailureValue
+      Object: 2FDFA7:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RQS_CollectColonist_MaxMeat
+      Object: 273C03:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RQ_Hello_Calm_FailureValue
+      Object: 2FDFA3:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RQ_AV_SecondaryObjectiveFail
+      Object: 1C394B:Starfield.esm
+    - MutagenObjectType: ScriptObjectListProperty
+      Name: ShutdownAliases
+      Objects:
+      - Name: ''
+        Object: 12F188:Starfield.esm
+        Alias: 6
+      - Name: ''
+        Object: 12F188:Starfield.esm
+        Alias: 52
+      - Name: ''
+        Object: 12F188:Starfield.esm
+        Alias: 55
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RQ_Hello_Stressed_PostAcceptValue
+      Object: 2FDFA5:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_Groups
+      Object: 1A9565:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RQ_AV_PrimaryObjectiveFail
+      Object: 1C394E:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RQ_Parent
+      Object: 08D848:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DungeonLocationAlias
+      Object: 12F188:Starfield.esm
+      Alias: 50
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RQ_Hello_Stressed_SuccessValue
+      Object: 2FDFA6:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RQ_AV_Dungeon_LocTheme
+      Object: 06DFC9:Starfield.esm
+    - MutagenObjectType: ScriptObjectListProperty
+      Name: DialogueAliases
+      Objects:
+      - Name: ''
+        Object: 12F188:Starfield.esm
+        Alias: 6
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RQ_AV_PrimaryObjectiveSuccess
+      Object: 1C3949:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RQ_Hello_NoneValue
+      Object: 2FDF9F:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_ForcedPrimary
+      Object: 12F188:Starfield.esm
+      Alias: 45
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RQS_CollectColonist_Meat
+      Object: 273C01:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RQ_AV_SecondaryObjectiveKnown
+      Object: 1C394A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RQS_CollectColonist_Meat_Player
+      Object: 087011:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RQ_AV_Hello
+      Object: 2D6468:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Creatures
+      Object: 12F188:Starfield.esm
+      Alias: 52
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RQ_AV_EnemyGroup
+      Object: 1C20E7:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RQ_Hello_DepartingShipValue
+      Object: 18513B:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RQ_AV_PrimaryObjectiveKnown
+      Object: 1C394C:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RQ_Hello_Calm_SuccessValue
+      Object: 2FDFA2:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CollectedMeat
+      Object: 12F188:Starfield.esm
+      Alias: 55
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RQ_Hello_AboardShipValue
+      Object: 2FDFA8:Starfield.esm
+  Script:
+    Name: Fragments:Quests:QF_RQ_Settlement_Collect01_Script
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_creatures
+      Object: 12F188:Starfield.esm
+      Alias: 52
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RQS_CollectColonist_Meat
+      Object: 087011:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_dungeonMapMarker
+      Object: 12F188:Starfield.esm
+      Alias: 59
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_OverlayMapMarker
+      Object: 12F188:Starfield.esm
+      Alias: 58
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RQS_CollectColonist_MaxMeat
+      Object: 273C03:Starfield.esm
+  Fragments:
+  - Stage: 500
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RQ_Settlement_Collect01_Script
+    FragmentName: Fragment_Stage_0500_Item_00
+  - Stage: 995
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RQ_Settlement_Collect01_Script
+    FragmentName: Fragment_Stage_0995_Item_00
+  - Stage: 100
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RQ_Settlement_Collect01_Script
+    FragmentName: Fragment_Stage_0100_Item_00
+  - Stage: 999
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RQ_Settlement_Collect01_Script
+    FragmentName: Fragment_Stage_0999_Item_00
+  - Stage: 950
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RQ_Settlement_Collect01_Script
+    FragmentName: Fragment_Stage_0950_Item_00
+  - Stage: 800
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RQ_Settlement_Collect01_Script
+    FragmentName: Fragment_Stage_0800_Item_00
+  - Stage: 50
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RQ_Settlement_Collect01_Script
+    FragmentName: Fragment_Stage_0050_Item_00
+  - Stage: 300
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RQ_Settlement_Collect01_Script
+    FragmentName: Fragment_Stage_0300_Item_00
+  - Stage: 990
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_RQ_Settlement_Collect01_Script
+    FragmentName: Fragment_Stage_0990_Item_00
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 12F188:Starfield.esm
+      Alias: 46
+    Scripts:
+    - Name: DefaultAliasOnDeath
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: TurnOffStageDone
+        Data: 999
+      - MutagenObjectType: ScriptIntProperty
+        Name: TurnOffStage
+        Data: 990
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 800
+Name:
+  TargetLanguage: English
+  Value: Missing Ingredient
+Data:
+  Flags:
+  - WarnOnAliasFillFailure
+  - 0x10000
+  Priority: 50
+  Unused: 0x000000
+QuestType: 1E2D30:Starfield.esm
+Event: SCPT
+TextDisplayGlobals:
+- 273C02:Starfield.esm
+- 273C03:Starfield.esm
+UnusedConditions:
+- MutagenObjectType: ConditionFloat
+  Unknown2: 16658
+  Data:
+    MutagenObjectType: BiomeSupportsCreatureConditionData
+    FirstParameter: 122412:Starfield.esm
+  ComparisonValue: 1
+Stages:
+- Flags:
+  - RunOnStart
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'Collect: Quest Started.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 25
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'Collect: Talked to questgiver'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 50
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'Collect: Quest Declined.'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 100
+  Flags:
+  - KeepInstanceDataFromHereOn
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'Collect: Quest Accepted.'
+    Entry:
+      TargetLanguage: English
+      Value: A member of a group of <Alias.PluralName=QuestGiver> on <Alias=Planet> wants help procuring some organic supplies from creatures in the nearby <Alias=DungeonLocation>. Though it may be dangerous, the reward might be worth it.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 300
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'Collect: Player collected all items. (Completes Objective)'
+    ScriptFlagComment: Stage is set by script on Player Alias.
+    Entry:
+      TargetLanguage: English
+      Value: I have collected enough meat for the <Alias=QuestGiver>. Time for me to go back to the <Alias=OverlayMapMarker>.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 500
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'Collect: Player returned to Quest Giver. (Completes Quest)'
+    ScriptFlagComment: Stage set by Reward Scene.
+    Entry:
+      TargetLanguage: English
+      Value: <Alias=QuestGiver> was happy with what I collected and <Alias.Pronoun=QuestGiver> paid me for my effort.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 800
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'Collect: Quest Giver is dead. (Fails Quest)'
+    Entry:
+      TargetLanguage: English
+      Value: The <Alias.Name=QuestGiver> is dead.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 950
+  Unknown: 171
+  LogEntries:
+  - Flags:
+    - FailQuest
+    Note: 'Collect: Player left Planet. (Fails Quest)'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 990
+  Unknown: 171
+  LogEntries:
+  - Flags:
+    - FailQuest
+    Note: 'Collect: Quest Failed!'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 995
+  Unknown: 171
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+    Note: 'Collect: Quest Completed!'
+    StageCompleteDatas:
+    - QSRD: 0x01000000
+      RewardDatas:
+      - XpAwarded: 23DF35:Starfield.esm
+        BonusCredits: Null
+        Rewards:
+        - Item: 026B11:Starfield.esm
+          Count: 1
+    - QSRD: '[]'
+- Index: 999
+  Flags:
+  - RunOnStop
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'Collect: Shutdown Allowed. (Cleans up Quest Objects)'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+Objectives:
+- Index: 100
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Kill and gather meat at <Alias=DungeonLocation>
+  Targets:
+  - AliasID: 52
+    Flags:
+    - Hostile
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetInSameCellConditionData
+        UseAliases: True
+        FirstParameter: 4294967294
+  - AliasID: 52
+    Flags:
+    - Hostile
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      CompareOperator: GreaterThanOrEqualTo
+      Data:
+        MutagenObjectType: GetItemCountConditionData
+        FirstParameter: 273C01:Starfield.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetDeadConditionData
+        UseAliases: True
+      ComparisonValue: 1
+- Index: 300
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Return the meat back to <Alias=QuestGiver>
+  Targets:
+  - AliasID: 46
+Aliases:
+- MutagenObjectType: QuestLocationAlias
+  ID: 43
+  Name: OverlayLocation
+  Flags:
+  - ReservesLocationOrReference
+  - StoresText
+  - AllowReserved
+  - AllowCleared
+  ALFG: 0
+  FindMatchingRefFromEvent:
+    FromEvent: SCPT
+    EventData: 0x4C310000
+- MutagenObjectType: QuestReferenceAlias
+  Name: Trigger
+  Flags:
+  - ReservesLocationOrReference
+  - AllowReserved
+  ALFG: 0
+  FindMatchingRefFromEvent:
+    FromEvent: SCPT
+    EventData: 0x52310000
+  VoiceTypes: Null
+- MutagenObjectType: QuestLocationAlias
+  ID: 36
+  Name: Planet
+  Flags:
+  - StoresText
+  ALFG: 0
+  ReferenceAliasLocation:
+    AliasID: 0
+    Keyword: 070A54:Starfield.esm
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: HasKeywordConditionData
+      FirstParameter: 295EB4:Starfield.esm
+- MutagenObjectType: QuestLocationAlias
+  ID: 50
+  Name: DungeonLocation
+  Flags:
+  - StoresText
+  - AllowCleared
+  - 0x40000000
+  ALFG: 0
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: LocationHasKeywordConditionData
+      FirstParameter: 27B45C:Starfield.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionGlobal
+    CompareOperator: LessThan
+    Data:
+      MutagenObjectType: GetDistanceConditionData
+      UseAliases: True
+      FirstParameter: 1
+    ComparisonValue: 1D3038:Starfield.esm
+  ClosestToAlias: 0
+  ParentSystemLocationAliasID: 36
+- MutagenObjectType: QuestReferenceAlias
+  ID: 1
+  Name: CenterMarker
+  Flags:
+  - AllowReserved
+  ALFG: 0
+  Location:
+    AliasID: 43
+    RefType: 05F198:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 58
+  Name: OverlayMapMarker
+  Flags:
+  - StoresText
+  - AllowReserved
+  ALFG: 0
+  Location:
+    AliasID: 43
+    RefType: 02271F:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 59
+  Name: dungeonMapMarker
+  Flags:
+  - Optional
+  - AllowReserved
+  ALFG: 0
+  Location:
+    AliasID: 50
+    RefType: 02271F:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestCollectionAlias
+  Collection:
+  - ID: 6
+    ALAM: 0
+    ReferenceAlias:
+      ID: 6
+      Name: Actors
+      Flags:
+      - ReservesLocationOrReference
+      - AllowReuseInQuest
+      - UsesStoredText
+      - MatchingRefForActorsOnly
+      ALFG: 0
+      ClosestToAlias: 0
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown2: 17633
+        Data:
+          MutagenObjectType: GetInFactionConditionData
+          FirstParameter: 361C55:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Unknown2: 17633
+        Data:
+          MutagenObjectType: GetIsCurrentLocationAliasConditionData
+          FirstParameter: 43
+        ComparisonValue: 1
+      LinkedAliases:
+      - Keyword: 1D303B:Starfield.esm
+        AliasID: 1
+      - Keyword: 1D302E:Starfield.esm
+        AliasID: 33
+      VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 45
+  Name: ForcedPrimary
+  Flags:
+  - Optional
+  - AllowReserved
+  ALFG: 0
+  VoiceTypes: 10AD9D:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  ID: 46
+  Name: QuestGiver
+  Flags:
+  - AllowReuseInQuest
+  - StoresText
+  - AllowReserved
+  - Protected
+  - UsesStoredText
+  - MatchingRefForActorsOnly
+  ALFG: 0
+  ClosestToAlias: 0
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Unknown2: 4616
+    Data:
+      MutagenObjectType: GetInFactionConditionData
+      FirstParameter: 361C56:Starfield.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Unknown2: 4616
+    Data:
+      MutagenObjectType: GetIsCurrentLocationAliasConditionData
+      FirstParameter: 43
+    ComparisonValue: 1
+  PackageData:
+  - 059E7C:Starfield.esm
+  - 1B5ADA:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestCollectionAlias
+  Collection:
+  - ID: 52
+    ALAM: 0
+    ReferenceAlias:
+      ID: 52
+      Name: Creatures
+      Flags: []
+      ALFG: 0
+      Location:
+        AliasID: 50
+        RefType: 122413:Starfield.esm
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown2: 4616
+        Data:
+          MutagenObjectType: GetDisabledConditionData
+      DeathItem: 09AD11:Starfield.esm
+      VoiceTypes: Null
+- MutagenObjectType: QuestCollectionAlias
+  Collection:
+  - ID: 55
+    ALAM: 0
+    ReferenceAlias:
+      ID: 55
+      Name: CollectedMeat
+      Flags:
+      - Optional
+      - QuestObject
+      ALFG: 0
+      VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 28
+  Name: TxtRep_Group
+  Flags:
+  - Optional
+  - StoresText
+  - UsesStoredText
+  ALFG: 0
+  VoiceTypes: Null
+MissionTypeKeyword: Null
+MissionBoardInfoPanels:
+- Header:
+    TargetLanguage: English
+    Value: ''
+- Header:
+    TargetLanguage: English
+    Value: ''
+- Header:
+    TargetLanguage: English
+    Value: ''
+- Header:
+    TargetLanguage: English
+    Value: ''
+- Header:
+    TargetLanguage: English
+    Value: ''
+- Header:
+    TargetLanguage: English
+    Value: ''

@@ -1,6 +1,6 @@
 FormKey: 2C7203:Starfield.esm
 EditorID: Drink_Alc_Bottle_Chandra_WineMalbec
-FormVersion: 559
+FormVersion: 576
 ObjectBounds:
   First: -0.03302002, -0.032958984, 0.00079345703
   Second: 0.032958984, 0.032958984, 0.26904297
@@ -12,25 +12,7 @@ Transforms:
 XALG: 0x0800000000000000
 Name:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: Chandra Malbec
-  - Language: English
-    String: Chandra Malbec
-  - Language: Spanish
-    String: Chandra malbec
-  - Language: French
-    String: Chandra Malbec
-  - Language: Italian
-    String: Malbec Chandra
-  - Language: Japanese
-    String: チャンドラ(マルベック)
-  - Language: Polish
-    String: Chandra Malbec
-  - Language: Portuguese_Brazil
-    String: Chandra Malbec
-  - Language: ChineseSimplified
-    String: 钱卓拉马尔贝克
+  Value: Chandra Malbec
 Keywords:
 - 055ECC:Starfield.esm
 - 2CF288:Starfield.esm
@@ -48,25 +30,7 @@ CraftingSound:
   Start: 580e474d-4c10-e197-848f-5a4632615aa7
 Description:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: 'Vollmundiger Rotwein von Chandra Vineyards, mit Aromen von Schokolade und frischer Erde. '
-  - Language: English
-    String: "Chandra Vineyards' full-bodied red wine, with notes of chocolate and fresh earth. "
-  - Language: Spanish
-    String: 'Vino tinto con cuerpo de Chandra Vineyards, con notas de chocolate y tierra fresca. '
-  - Language: French
-    String: 'Vin rouge corsé Château Chandra, aux notes de chocolat et de terre fraîche. '
-  - Language: Italian
-    String: 'Vino rosso corposo di Chandra Vineyards, con note di cioccolato e terrose. '
-  - Language: Japanese
-    String: 'チャンドラ・バインヤーズのフルボディの赤ワイン。チョコレートと新鮮な土壌の風味が広がる '
-  - Language: Polish
-    String: 'Treściwe czerwone wino Chandra Vineyards z nutą czekolady i świeżej ziemi. '
-  - Language: Portuguese_Brazil
-    String: 'Vinho tinto encorpado da Chandra Vineyards, com notas terrosas e de chocolate. '
-  - Language: ChineseSimplified
-    String: '钱卓拉葡萄园出品的丰满酒体红葡萄酒，带有巧克力和新鲜泥土的味道。 '
+  Value: "Chandra Vineyards' full-bodied red wine, with notes of chocolate and fresh earth. "
 Resources:
 - Resource: 29B02F:Starfield.esm
   Count: 1
@@ -81,6 +45,7 @@ ConsumeSound:
   Start: 049e4e48-ef25-50c1-f0bf-12128e5b9682
 AddictionName:
   TargetLanguage: English
+  Value: ''
 Effects:
 - BaseEffect: 2D88C3:Starfield.esm
   Data:
@@ -115,18 +80,17 @@ Effects:
 - BaseEffect: 2EE936:Starfield.esm
   Data:
     Magnitude: 1
-    Duration: 1200
+    Duration: 1
   Conditions:
   - MutagenObjectType: ConditionFloat
     CompareOperator: GreaterThanOrEqualTo
-    Unknown1: 0x8D1400
-    Unknown2: 16650
+    Unknown2: 16658
     Data:
       MutagenObjectType: GetGlobalValueConditionData
       FirstParameter: 31324C:Starfield.esm
     ComparisonValue: 1
   Magnitude: 2EFD77:Starfield.esm
-  Duration: 313264:Starfield.esm
+  Duration: 2F0AD4:Starfield.esm
   EFIF: 0
   MUID: 5
 - BaseEffect: 2EE4B2:Starfield.esm

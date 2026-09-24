@@ -1,48 +1,12 @@
 FormKey: 27DF94:Starfield.esm
 EditorID: Skill_ArmorPenetration
-FormVersion: 559
+FormVersion: 576
 Name:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: Panzerungsdurchdringung
-  - Language: English
-    String: Armor Penetration
-  - Language: Spanish
-    String: Perforación de blindaje
-  - Language: French
-    String: Pénétration d'armure
-  - Language: Italian
-    String: Penetrazione corazza
-  - Language: Japanese
-    String: アーマー貫通
-  - Language: Polish
-    String: Przebicie pancerza
-  - Language: Portuguese_Brazil
-    String: Perfuração de Armadura
-  - Language: ChineseSimplified
-    String: 护甲穿透
+  Value: Armor Penetration
 Description:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: Angreifer können sich im Kampf oft einen taktischen Vorteil verschaffen, indem sie Lücken oder Schwachstellen in der Panzerung des Gegners ausmachen.
-  - Language: English
-    String: By identifying gaps or weak points in body armor, an attacker can often gain a tactical advantage in combat.
-  - Language: Spanish
-    String: Al identificar huecos o puntos débiles en una armadura corporal, el atacante es capaz de obtener ventaja táctica en combate.
-  - Language: French
-    String: En identifiant les points faibles d'une armure, un assaillant peut souvent obtenir un avantage tactique en combat.
-  - Language: Italian
-    String: Identificando le carenze o i punti deboli della corazza nemica, un aggressore può spesso ottenere un vantaggio tattico in combattimento.
-  - Language: Japanese
-    String: ボディーアーマーの隙や弱点を見極めれば、戦闘において戦略的な有利性が得られることが多い
-  - Language: Polish
-    String: Znajdowanie luk lub słabych punktów w pancerzu pozwala atakującemu zyskać taktyczną przewagę w walce.
-  - Language: Portuguese_Brazil
-    String: Um atacante pode conseguir uma vantagem tática em combate ao identificar falhas ou pontos fracos em armadura corporal.
-  - Language: ChineseSimplified
-    String: 通过找出护甲的间隙与弱点，攻击者常常能够在战斗中取得战术优势。
+  Value: By identifying gaps or weak points in body armor, an attacker can often gain a tactical advantage in combat.
 Categroy: Combat
 SkillGroup: Master
 Flags:
@@ -57,8 +21,7 @@ Ranks:
       - MutagenObjectType: ConditionFloat
         Flags:
         - OR
-        Unknown1: 0x000000
-        Unknown2: 16612
+        Unknown2: 16618
         Data:
           MutagenObjectType: HasKeywordConditionData
           FirstParameter: 092A86:Starfield.esm
@@ -66,15 +29,13 @@ Ranks:
       - MutagenObjectType: ConditionFloat
         Flags:
         - OR
-        Unknown1: 0x000000
-        Unknown2: 16612
+        Unknown2: 16618
         Data:
           MutagenObjectType: HasKeywordConditionData
           FirstParameter: 04A0A4:Starfield.esm
         ComparisonValue: 1
       - MutagenObjectType: ConditionFloat
-        Unknown1: 0x000000
-        Unknown2: 16612
+        Unknown2: 16618
         Data:
           MutagenObjectType: HasKeywordConditionData
           FirstParameter: 04A0A5:Starfield.esm
@@ -88,37 +49,17 @@ Ranks:
   - ATAN: Kill
     Description:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Töte <repetitions> Gegner mit einer nicht-automatischen Waffe.
-      - Language: English
-        String: Kill <repetitions> enemies with a non-automatic weapon
-      - Language: Spanish
-        String: Mata a <repetitions> enemigos con un arma no automática.
-      - Language: French
-        String: Tuez <repetitions> ennemis avec une arme non automatique.
-      - Language: Italian
-        String: Uccidi <repetitions> nemici con un’arma non automatica.
-      - Language: Japanese
-        String: ノンオート武器を使って敵を<repetitions>体倒す
-      - Language: Polish
-        String: 'Zastrzel wrogów z broni nieautomatycznej: <repetitions>.'
-      - Language: Portuguese_Brazil
-        String: Mate <repetitions> inimigos com uma arma não automática.
-      - Language: ChineseSimplified
-        String: 用非自动武器击杀<repetitions>名敌人。
+      Value: Kill <repetitions> enemies with a non-automatic weapon
     ProgressionEvalutor:
     - Name: Default Target
       Conditions:
       - MutagenObjectType: ConditionFloat
         CompareOperator: NotEqualTo
-        Unknown1: 0x000000
         Data:
           MutagenObjectType: WornHasKeywordConditionData
           FirstParameter: 04A0A2:Starfield.esm
         ComparisonValue: 1
       - MutagenObjectType: ConditionFloat
-        Unknown1: 0x000000
         Data:
           MutagenObjectType: GetCauseofDeathConditionData
           RunOnType: Target
@@ -135,25 +76,7 @@ Ranks:
       }
   Description:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Angriffe ignorieren 15 % der Panzerung eines Ziels.
-    - Language: English
-      String: Attacks ignore 15% of a target's armor.
-    - Language: Spanish
-      String: Los ataques ignoran el 15 % de la armadura del objetivo.
-    - Language: French
-      String: Les attaques ignorent 15 % de l'armure de la cible.
-    - Language: Italian
-      String: Gli attacchi ignorano il 15% della corazza del bersaglio.
-    - Language: Japanese
-      String: 相手のアーマーを15%無効化する
-    - Language: Polish
-      String: Ataki ignorują 15% pancerza wroga.
-    - Language: Portuguese_Brazil
-      String: Ataques ignoram 15% da armadura do alvo.
-    - Language: ChineseSimplified
-      String: 攻击无视15%的目标护甲。
+    Value: Attacks ignore 15% of a target's armor.
 - Effects:
   - MutagenObjectType: PerkEntryPointModifyValue
     Rank: 1
@@ -163,8 +86,7 @@ Ranks:
       - MutagenObjectType: ConditionFloat
         Flags:
         - OR
-        Unknown1: 0x000000
-        Unknown2: 22450
+        Unknown2: 22498
         Data:
           MutagenObjectType: HasKeywordConditionData
           FirstParameter: 092A86:Starfield.esm
@@ -172,15 +94,13 @@ Ranks:
       - MutagenObjectType: ConditionFloat
         Flags:
         - OR
-        Unknown1: 0x000000
-        Unknown2: 22450
+        Unknown2: 22498
         Data:
           MutagenObjectType: HasKeywordConditionData
           FirstParameter: 04A0A4:Starfield.esm
         ComparisonValue: 1
       - MutagenObjectType: ConditionFloat
-        Unknown1: 0x000000
-        Unknown2: 22450
+        Unknown2: 22498
         Data:
           MutagenObjectType: HasKeywordConditionData
           FirstParameter: 04A0A5:Starfield.esm
@@ -194,37 +114,17 @@ Ranks:
   - ATAN: Kill
     Description:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Töte <repetitions> Gegner mit einer nicht-automatischen Waffe.
-      - Language: English
-        String: Kill <repetitions> enemies with a non-automatic weapon
-      - Language: Spanish
-        String: Mata a <repetitions> enemigos con un arma no automática.
-      - Language: French
-        String: Tuez <repetitions> ennemis avec une arme non automatique.
-      - Language: Italian
-        String: Uccidi <repetitions> nemici con un’arma non automatica.
-      - Language: Japanese
-        String: ノンオート武器を使って敵を<repetitions>体倒す
-      - Language: Polish
-        String: 'Zastrzel wrogów z broni nieautomatycznej: <repetitions>.'
-      - Language: Portuguese_Brazil
-        String: Mate <repetitions> inimigos com uma arma não automática.
-      - Language: ChineseSimplified
-        String: 用非自动武器击杀<repetitions>名敌人。
+      Value: Kill <repetitions> enemies with a non-automatic weapon
     ProgressionEvalutor:
     - Name: Default Target
       Conditions:
       - MutagenObjectType: ConditionFloat
         CompareOperator: NotEqualTo
-        Unknown1: 0x000000
         Data:
           MutagenObjectType: WornHasKeywordConditionData
           FirstParameter: 04A0A2:Starfield.esm
         ComparisonValue: 1
       - MutagenObjectType: ConditionFloat
-        Unknown1: 0x000000
         Data:
           MutagenObjectType: GetCauseofDeathConditionData
           RunOnType: Target
@@ -241,25 +141,7 @@ Ranks:
       }
   Description:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Angriffe ignorieren 30 % der Panzerung eines Ziels.
-    - Language: English
-      String: Attacks ignore 30% of a target's armor.
-    - Language: Spanish
-      String: Los ataques ignoran el 30 % de la armadura del objetivo.
-    - Language: French
-      String: Les attaques ignorent 30 % de l'armure de la cible.
-    - Language: Italian
-      String: Gli attacchi ignorano il 30% della corazza del bersaglio.
-    - Language: Japanese
-      String: 相手のアーマーを30%無効化する
-    - Language: Polish
-      String: Ataki ignorują 30% pancerza wroga.
-    - Language: Portuguese_Brazil
-      String: Ataques ignoram 30% da armadura do alvo.
-    - Language: ChineseSimplified
-      String: 攻击无视30%的目标护甲。
+    Value: Attacks ignore 30% of a target's armor.
 - Effects:
   - MutagenObjectType: PerkEntryPointModifyValue
     Rank: 2
@@ -269,8 +151,7 @@ Ranks:
       - MutagenObjectType: ConditionFloat
         Flags:
         - OR
-        Unknown1: 0x000000
-        Unknown2: 22450
+        Unknown2: 22498
         Data:
           MutagenObjectType: HasKeywordConditionData
           FirstParameter: 092A86:Starfield.esm
@@ -278,15 +159,13 @@ Ranks:
       - MutagenObjectType: ConditionFloat
         Flags:
         - OR
-        Unknown1: 0x000000
-        Unknown2: 22450
+        Unknown2: 22498
         Data:
           MutagenObjectType: HasKeywordConditionData
           FirstParameter: 04A0A4:Starfield.esm
         ComparisonValue: 1
       - MutagenObjectType: ConditionFloat
-        Unknown1: 0x000000
-        Unknown2: 22450
+        Unknown2: 22498
         Data:
           MutagenObjectType: HasKeywordConditionData
           FirstParameter: 04A0A5:Starfield.esm
@@ -300,37 +179,17 @@ Ranks:
   - ATAN: Kill
     Description:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Töte <repetitions> Gegner mit nicht-automatischen Waffen.
-      - Language: English
-        String: Kill <repetitions> enemies with non-automatic weapons.
-      - Language: Spanish
-        String: Mata a <repetitions> enemigos con armas no automáticas.
-      - Language: French
-        String: Tuez <repetitions> ennemis avec des armes non automatiques.
-      - Language: Italian
-        String: Uccidi <repetitions> nemici con armi non automatiche.
-      - Language: Japanese
-        String: ノンオート武器を使って敵を<repetitions>体倒す
-      - Language: Polish
-        String: 'Zastrzel wrogów z broni nieautomatycznej: <repetitions>.'
-      - Language: Portuguese_Brazil
-        String: Mate <repetitions> inimigos com armas não automáticas.
-      - Language: ChineseSimplified
-        String: 用多种非自动武器击杀<repetitions>名敌人。
+      Value: Kill <repetitions> enemies with non-automatic weapons.
     ProgressionEvalutor:
     - Name: Default Target
       Conditions:
       - MutagenObjectType: ConditionFloat
         CompareOperator: NotEqualTo
-        Unknown1: 0x000000
         Data:
           MutagenObjectType: WornHasKeywordConditionData
           FirstParameter: 04A0A2:Starfield.esm
         ComparisonValue: 1
       - MutagenObjectType: ConditionFloat
-        Unknown1: 0x000000
         Data:
           MutagenObjectType: GetCauseofDeathConditionData
           RunOnType: Target
@@ -347,25 +206,7 @@ Ranks:
       }
   Description:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Angriffe ignorieren 50 % der Panzerung eines Ziels.
-    - Language: English
-      String: Attacks ignore 50% of a target's armor.
-    - Language: Spanish
-      String: Los ataques ignoran el 50 % de la armadura del objetivo.
-    - Language: French
-      String: Les attaques ignorent 50 % de l'armure de la cible.
-    - Language: Italian
-      String: Gli attacchi ignorano il 50% della corazza del bersaglio.
-    - Language: Japanese
-      String: 相手のアーマーを50%無効化する
-    - Language: Polish
-      String: Ataki ignorują 50% pancerza wroga.
-    - Language: Portuguese_Brazil
-      String: Ataques ignoram 50% da armadura do alvo.
-    - Language: ChineseSimplified
-      String: 攻击无视50%的目标护甲。
+    Value: Attacks ignore 50% of a target's armor.
 - Effects:
   - MutagenObjectType: PerkEntryPointModifyValue
     Rank: 3
@@ -375,8 +216,7 @@ Ranks:
       - MutagenObjectType: ConditionFloat
         Flags:
         - OR
-        Unknown1: 0x000000
-        Unknown2: 22450
+        Unknown2: 22498
         Data:
           MutagenObjectType: HasKeywordConditionData
           FirstParameter: 092A86:Starfield.esm
@@ -384,15 +224,13 @@ Ranks:
       - MutagenObjectType: ConditionFloat
         Flags:
         - OR
-        Unknown1: 0x000000
-        Unknown2: 22450
+        Unknown2: 22498
         Data:
           MutagenObjectType: HasKeywordConditionData
           FirstParameter: 04A0A4:Starfield.esm
         ComparisonValue: 1
       - MutagenObjectType: ConditionFloat
-        Unknown1: 0x000000
-        Unknown2: 22450
+        Unknown2: 22498
         Data:
           MutagenObjectType: HasKeywordConditionData
           FirstParameter: 04A0A5:Starfield.esm
@@ -407,8 +245,7 @@ Ranks:
     Conditions:
     - Conditions:
       - MutagenObjectType: ConditionFloat
-        Unknown1: 0x000000
-        Unknown2: 22450
+        Unknown2: 22498
         Data:
           MutagenObjectType: EPGetLastCombatHitCriticalConditionData
         ComparisonValue: 1
@@ -417,8 +254,7 @@ Ranks:
       - MutagenObjectType: ConditionFloat
         Flags:
         - OR
-        Unknown1: 0x000000
-        Unknown2: 22450
+        Unknown2: 22498
         Data:
           MutagenObjectType: HasKeywordConditionData
           FirstParameter: 092A86:Starfield.esm
@@ -426,15 +262,13 @@ Ranks:
       - MutagenObjectType: ConditionFloat
         Flags:
         - OR
-        Unknown1: 0x000000
-        Unknown2: 22450
+        Unknown2: 22498
         Data:
           MutagenObjectType: HasKeywordConditionData
           FirstParameter: 04A0A4:Starfield.esm
         ComparisonValue: 1
       - MutagenObjectType: ConditionFloat
-        Unknown1: 0x000000
-        Unknown2: 22450
+        Unknown2: 22498
         Data:
           MutagenObjectType: HasKeywordConditionData
           FirstParameter: 04A0A5:Starfield.esm
@@ -442,8 +276,7 @@ Ranks:
     - RunOnTabIndex: 2
       Conditions:
       - MutagenObjectType: ConditionFloat
-        Unknown1: 0x000000
-        Unknown2: 22450
+        Unknown2: 22498
         Data:
           MutagenObjectType: HasMagicEffectConditionData
           FirstParameter: 18C35D:Starfield.esm
@@ -453,22 +286,4 @@ Ranks:
     Spell: 24301B:Starfield.esm
   Description:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Die Panzerung des Gegners wird nach einem kritischen Treffer 6 Sek. lang um 25 % verringert.
-    - Language: English
-      String: Enemy armor is decreased by 25% for 6 seconds after a critical hit.
-    - Language: Spanish
-      String: El enemigo tiene un 25 % menos de armadura durante 6 segundos tras un impacto crítico.
-    - Language: French
-      String: Après avoir réussi un coup critique, l'armure ennemie est réduite de 25 % pendant 6 secondes.
-    - Language: Italian
-      String: La corazza nemica viene ridotta del 25% per 6 secondi dopo un colpo critico.
-    - Language: Japanese
-      String: クリティカルヒットを受けた敵のアーマーが6秒間25%減少する
-    - Language: Polish
-      String: Trafienia krytyczne zmniejszają wartość pancerza wroga o 25% na 6 sekund.
-    - Language: Portuguese_Brazil
-      String: A armadura de inimigos é reduzida em 25% por 6 segundos depois de um acerto crítico.
-    - Language: ChineseSimplified
-      String: 暴击后降低敌方护甲25%，持续6秒。
+    Value: Enemy armor is decreased by 25% for 6 seconds after a critical hit.

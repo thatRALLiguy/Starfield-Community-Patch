@@ -1,0 +1,471 @@
+FormKey: 26D960:Starfield.esm
+MajorRecordFlagsRaw: 1073741824
+EditorID: Shotty
+FormVersion: 576
+Version2: 1
+StarfieldMajorRecordFlags:
+- 0x40000000
+ODTY: 0
+Transforms:
+  InventoryIcon: 225AF9:Starfield.esm
+  Inventory: 04A705:Starfield.esm
+  Workbench: 162786:Starfield.esm
+  MainGameUI: 1E2C21:Starfield.esm
+Components:
+- MutagenObjectType: AnimationGraphComponent
+  ANAM: AnimTextData\Tables\Graphs\FXAmmoCounterIndex.agx
+  BNAM: genericbehaviors\characterassets\skeleton.rig
+- MutagenObjectType: EffectSequenceComponent
+  REFL: 0x4245544808000000040000000900000053545254A400000042475345666665637453657175656E6365466F726D436F6D706F6E656E740075704D61700045666665637453657175656E63654D61700053657175656E6365730070506172656E74466F726D0045666665637453657175656E63654D61704D657461646174610054696D656C696E65537461727454696D650054696D656C696E65556E697473506572506978656C004D61704D65746164617461004D6574616461746100545950450400000003000000434C41533C0000002500000000000000000004003700000004FFFFFF080030004100000005FFFFFF480008008F0000004D000000500008009B00000004FFFFFF58005800434C4153180000000000000000000000000001001F00000005FFFFFF48000800434C4153240000004D00000000000000000002006700000011FFFFFF000004007900000011FFFFFF040004004F424A541800000000000000250000000DFFFFFFF9792200000000000000803F4D4150430C00000001FFFFFF01FFFFFF000000004D4150430C00000001FFFFFF01FFFFFF00000000
+Name:
+  TargetLanguage: English
+  Value: Shotty
+Model:
+  File: Weapons\Bullpup\BullpupDummyReceiver.nif
+  FLLD: 0x01000000
+EquipmentType: 04334D:Starfield.esm
+BlockBashImpactDataSet: 0116F1:Starfield.esm
+AlternateBlockMaterial: 271EA0:Starfield.esm
+Keywords:
+- 01FC18:Starfield.esm
+- 192A18:Starfield.esm
+- 0FAEC0:Starfield.esm
+- 1F70BB:Starfield.esm
+- 077C2E:Starfield.esm
+- 0F4AEA:Starfield.esm
+- 10C485:Starfield.esm
+- 017F13:Starfield.esm
+- 02459F:Starfield.esm
+- 20A155:Starfield.esm
+- 03ADB4:Starfield.esm
+- 23774C:Starfield.esm
+- 092A86:Starfield.esm
+- 2811CE:Starfield.esm
+- 02B714:Starfield.esm
+- 226454:Starfield.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+InstanceNaming: 2377CF:Starfield.esm
+AttachParentSlots:
+- 024004:Starfield.esm
+- 1E32C8:Starfield.esm
+- 05D4D7:Starfield.esm
+- 03579B:Starfield.esm
+- 12ECEC:Starfield.esm
+- 01BC46:Starfield.esm
+- 02249C:Starfield.esm
+- 02249D:Starfield.esm
+- 022499:Starfield.esm
+- 147AFE:Starfield.esm
+- 02249F:Starfield.esm
+- 0191EE:Starfield.esm
+- 329ABC:Starfield.esm
+- 329ABD:Starfield.esm
+- 1F076C:Starfield.esm
+ObjectTemplates:
+- IsEditorOnly: True
+  Name:
+    TargetLanguage: English
+    Value: Fallback
+  Default: True
+  Includes:
+  - Mod: 04A72D:Starfield.esm
+    DontUseAll: True
+  - Mod: 04A72C:Starfield.esm
+    DontUseAll: True
+  - Mod: 04A727:Starfield.esm
+    DontUseAll: True
+  - Mod: 04A72B:Starfield.esm
+    DontUseAll: True
+  - Mod: 04A72A:Starfield.esm
+    DontUseAll: True
+  - Mod: 04A729:Starfield.esm
+    DontUseAll: True
+  - Mod: 132C44:Starfield.esm
+    DontUseAll: True
+  - Mod: 04A728:Starfield.esm
+    DontUseAll: True
+  - Mod: 12FD42:Starfield.esm
+  - Mod: 157D47:Starfield.esm
+    DontUseAll: True
+- IsEditorOnly: True
+  Name:
+    TargetLanguage: English
+    Value: Standard Low
+  AddonIndex: 17
+  LevelMin: 16
+  LevelMax: 26
+  Includes:
+  - Mod: 12FD3C:Starfield.esm
+    DontUseAll: True
+  - Mod: 12FD3A:Starfield.esm
+    Optional: True
+    DontUseAll: True
+- IsEditorOnly: True
+  Name:
+    TargetLanguage: English
+    Value: Standard Med
+  AddonIndex: 1
+  LevelMin: 24
+  LevelMax: 34
+  Includes:
+  - Mod: 12FD3C:Starfield.esm
+    DontUseAll: True
+  - Mod: 12FD3C:Starfield.esm
+    DontUseAll: True
+- IsEditorOnly: True
+  Name:
+    TargetLanguage: English
+    Value: Standard High
+  AddonIndex: 2
+  LevelMin: 32
+  Includes:
+  - Mod: 12FD3D:Starfield.esm
+    DontUseAll: True
+  - Mod: 12FD3C:Starfield.esm
+    Optional: True
+    DontUseAll: True
+  - Mod: 12FD3D:Starfield.esm
+    Optional: True
+    DontUseAll: True
+- IsEditorOnly: True
+  Name:
+    TargetLanguage: English
+    Value: Upgraded Low
+  AddonIndex: 0
+  LevelMax: 22
+  Keywords:
+  - 13E867:Starfield.esm
+  Includes:
+  - Mod: 132C43:Starfield.esm
+    DontUseAll: True
+  - Mod: 12FD3C:Starfield.esm
+    DontUseAll: True
+  - Mod: 12FD3A:Starfield.esm
+    DontUseAll: True
+  - Mod: 12FD3A:Starfield.esm
+    Optional: True
+    DontUseAll: True
+- IsEditorOnly: True
+  Name:
+    TargetLanguage: English
+    Value: Silenced Low
+  AddonIndex: 0
+  LevelMax: 22
+  Keywords:
+  - 13E866:Starfield.esm
+  Includes:
+  - Mod: 132C56:Starfield.esm
+    DontUseAll: True
+  - Mod: 12FD3A:Starfield.esm
+    Optional: True
+    DontUseAll: True
+  - Mod: 12FD3A:Starfield.esm
+    Optional: True
+    DontUseAll: True
+  - Mod: 12FD3C:Starfield.esm
+    Optional: True
+    DontUseAll: True
+- IsEditorOnly: True
+  Name:
+    TargetLanguage: English
+    Value: Non-Lethal Low
+  AddonIndex: 0
+  LevelMax: 22
+  Keywords:
+  - 13E865:Starfield.esm
+  Includes:
+  - Mod: 132C45:Starfield.esm
+    DontUseAll: True
+  - Mod: 12FD3A:Starfield.esm
+    Optional: True
+    DontUseAll: True
+  - Mod: 12FD3A:Starfield.esm
+    Optional: True
+    DontUseAll: True
+  - Mod: 12FD3C:Starfield.esm
+    Optional: True
+    DontUseAll: True
+- IsEditorOnly: True
+  Name:
+    TargetLanguage: English
+    Value: Upgraded Med
+  AddonIndex: 4
+  LevelMin: 20
+  LevelMax: 34
+  Includes:
+  - Mod: 132C47:Starfield.esm
+    DontUseAll: True
+  - Mod: 12FD3C:Starfield.esm
+    DontUseAll: True
+  - Mod: 12FD3D:Starfield.esm
+    DontUseAll: True
+  - Mod: 12FD3C:Starfield.esm
+    Optional: True
+    DontUseAll: True
+- IsEditorOnly: True
+  Name:
+    TargetLanguage: English
+    Value: Upgraded High
+  AddonIndex: 7
+  LevelMin: 32
+  Includes:
+  - Mod: 12FD3D:Starfield.esm
+    DontUseAll: True
+  - Mod: 12FD3D:Starfield.esm
+    DontUseAll: True
+  - Mod: 12FD3D:Starfield.esm
+    Optional: True
+    DontUseAll: True
+  - Mod: 12FD3C:Starfield.esm
+    Optional: True
+    DontUseAll: True
+  - Mod: 12FD3A:Starfield.esm
+    Optional: True
+    DontUseAll: True
+- IsEditorOnly: True
+  Name:
+    TargetLanguage: English
+    Value: Silenced Med
+  AddonIndex: 5
+  LevelMin: 20
+  LevelMax: 34
+  Includes:
+  - Mod: 132C56:Starfield.esm
+    DontUseAll: True
+  - Mod: 12FD3C:Starfield.esm
+    DontUseAll: True
+  - Mod: 12FD3D:Starfield.esm
+    Optional: True
+    DontUseAll: True
+  - Mod: 12FD3A:Starfield.esm
+    Optional: True
+    DontUseAll: True
+- IsEditorOnly: True
+  Name:
+    TargetLanguage: English
+    Value: Non-Lethal Med
+  AddonIndex: 6
+  LevelMin: 20
+  LevelMax: 34
+  Includes:
+  - Mod: 132C45:Starfield.esm
+    DontUseAll: True
+  - Mod: 12FD3C:Starfield.esm
+    DontUseAll: True
+  - Mod: 12FD3D:Starfield.esm
+    Optional: True
+    DontUseAll: True
+  - Mod: 12FD3A:Starfield.esm
+    Optional: True
+    DontUseAll: True
+- IsEditorOnly: True
+  Name:
+    TargetLanguage: English
+    Value: Non-Lethal High
+  AddonIndex: 10
+  LevelMin: 32
+  Includes:
+  - Mod: 132C45:Starfield.esm
+    DontUseAll: True
+  - Mod: 12FD3D:Starfield.esm
+    DontUseAll: True
+  - Mod: 12FD3C:Starfield.esm
+    DontUseAll: True
+  - Mod: 12FD3D:Starfield.esm
+    Optional: True
+    DontUseAll: True
+  - Mod: 12FD3A:Starfield.esm
+    Optional: True
+    DontUseAll: True
+- IsEditorOnly: True
+  Name:
+    TargetLanguage: English
+    Value: Silenced High
+  AddonIndex: 9
+  LevelMin: 32
+  Includes:
+  - Mod: 132C56:Starfield.esm
+    DontUseAll: True
+  - Mod: 12FD3D:Starfield.esm
+    DontUseAll: True
+  - Mod: 12FD3C:Starfield.esm
+    DontUseAll: True
+  - Mod: 12FD3D:Starfield.esm
+    Optional: True
+    DontUseAll: True
+  - Mod: 12FD3A:Starfield.esm
+    Optional: True
+    DontUseAll: True
+- IsEditorOnly: True
+  Name:
+    TargetLanguage: English
+    Value: Auto Low
+  AddonIndex: 0
+  LevelMax: 22
+  Keywords:
+  - 13E864:Starfield.esm
+  Includes:
+  - Mod: 132C4D:Starfield.esm
+    DontUseAll: True
+  - Mod: 12FD3A:Starfield.esm
+    Optional: True
+    DontUseAll: True
+  - Mod: 12FD3A:Starfield.esm
+    Optional: True
+    DontUseAll: True
+  - Mod: 12FD3C:Starfield.esm
+    Optional: True
+    DontUseAll: True
+- IsEditorOnly: True
+  Name:
+    TargetLanguage: English
+    Value: Auto Med
+  AddonIndex: 13
+  LevelMin: 20
+  LevelMax: 34
+  Includes:
+  - Mod: 132C4D:Starfield.esm
+    DontUseAll: True
+  - Mod: 12FD3C:Starfield.esm
+    DontUseAll: True
+  - Mod: 12FD3D:Starfield.esm
+    Optional: True
+    DontUseAll: True
+  - Mod: 12FD3A:Starfield.esm
+    Optional: True
+    DontUseAll: True
+- IsEditorOnly: True
+  Name:
+    TargetLanguage: English
+    Value: Auto High
+  AddonIndex: 14
+  LevelMin: 32
+  Includes:
+  - Mod: 132C4D:Starfield.esm
+    DontUseAll: True
+  - Mod: 12FD3D:Starfield.esm
+    DontUseAll: True
+  - Mod: 12FD3C:Starfield.esm
+    DontUseAll: True
+  - Mod: 12FD3D:Starfield.esm
+    Optional: True
+    DontUseAll: True
+  - Mod: 12FD3A:Starfield.esm
+    Optional: True
+    DontUseAll: True
+- Name:
+    TargetLanguage: English
+    Value: Boom Boom
+  AddonIndex: 0
+  Keywords:
+  - 2E0732:Starfield.esm
+  Includes:
+  - Mod: 0FA8D6:Starfield.esm
+    DontUseAll: True
+  - Mod: 132C50:Starfield.esm
+    DontUseAll: True
+  - Mod: 132C4C:Starfield.esm
+    DontUseAll: True
+  - Mod: 132C4A:Starfield.esm
+    DontUseAll: True
+  - Mod: 132C44:Starfield.esm
+    DontUseAll: True
+- IsEditorOnly: True
+  Name:
+    TargetLanguage: English
+    Value: Standard
+  AddonIndex: 0
+  LevelMin: 1
+  LevelMax: 18
+  Includes:
+  - Mod: 12FD3A:Starfield.esm
+    Optional: True
+    DontUseAll: True
+  - Mod: 12FD3A:Starfield.esm
+    Optional: True
+    DontUseAll: True
+- IsEditorOnly: True
+  Name:
+    TargetLanguage: English
+    Value: Simple
+  AddonIndex: 0
+  Keywords:
+  - 28C0C8:Starfield.esm
+EmbeddedWeaponMod: Null
+SightedTransitionSeconds: 0.22
+AimDownSightTemplate: 15D435:Starfield.esm
+AimModel: 110B95:Starfield.esm
+AimAssistTemplate: 27B59F:Starfield.esm
+ReticleType: 3
+AmmoType: 2B4AFB:Starfield.esm
+AmmoCapacity: 12
+AmmoList: 26D973:Starfield.esm
+OverrideProjectile: 08E482:Starfield.esm
+ProjectilesCount: 8
+WAM2Unknown1: 1
+MeleeOrCreature: {}
+PrimedExplosive: {}
+DryFire:
+  Start: e86e4d80-1244-99e9-1a92-181eb39c9593
+Idle: {}
+Equip:
+  Start: c555449c-9496-ba2c-6936-e55648e53c94
+Unequip:
+  Start: 81f44701-bb12-58b1-21fe-2407d2bc54a6
+FastEquip:
+  Start: 54a44632-dee5-946c-175e-ef2f6040c1b9
+SoundLevel: 5
+WAUDUnknown2: 2
+WTUR: 0x00000034C3000034430000B4C20000B44200003443000034430000803F
+ChargeCritBonus: 1
+AttackDamage: 50
+MinRange: 20
+MaxRange: 35
+OutOfRangeDamageMult: 0.5
+CritDamageMult: 2
+CritEffectOnDeathOnly: True
+WDMGUnknown4: 0.2
+WDMGUnknown5: 1
+WDMGUnknown6: 1.5
+WDMGUnknown7: 2.18
+WDMGUnknown8: 0.5
+WDMGUnknown9: 0.5
+CritChanceIncMult: 1
+DamageTypes:
+- DamageType: 208DCD:Starfield.esm
+  Value: 1
+RepeatableFire: True
+AttackSeconds: 0.6333334
+FireSeconds: 1.1920929E-07
+AttackDelaySeconds: 0.18
+ShotsPerSecond: 5.5555553
+WFIRUnknown7: 0.18
+TriggerThresholdPrimaryTrigger: 0.33
+TriggerThresholdSecondStage: 0.33
+BurstDelaySeconds: 0.3
+WGENUnknown1: 9
+BaseWeight: 2.95
+BaseValue: 6140
+BaseSpeed: 1
+AttackOxygenCost: 56
+WeaponBarrel: 25CD27:Starfield.esm
+WMELUnknown1: 2
+MeleeBashDamage: 12
+MeleeReach: 1
+MeleeStagger: Medium
+QNAMUnknown5: 1
+WRLOUnknown1: 2.9333334
+ReloadSpeed: 1
+FirstPersonModel:
+  File: Weapons\Bullpup\BullpupDummyReceiver.nif
+  FLLD: 0x01000000
+ImpactDataSet: 00D02C:Starfield.esm
+ColorRemappingIndex: 3.4028235E+38
+WTRMUnknown1: 20
+WTRMUnknown3: 0.3
+WTRMUnknown4: 0.5
+WTRMUnknown5: 30
+MajorFlags:
+- 0x40000000

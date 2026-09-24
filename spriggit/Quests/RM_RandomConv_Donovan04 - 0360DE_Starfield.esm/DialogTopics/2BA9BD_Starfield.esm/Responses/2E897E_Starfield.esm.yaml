@@ -1,0 +1,19 @@
+FormKey: 2E897E:Starfield.esm
+FormVersion: 576
+Flags: {}
+Responses:
+- Emotion: 0B6976:Starfield.esm
+  WEMFile: 4112975
+  TRDAUnknown: 6.666667
+  TROTs:
+  - UnknownVoiceType: 2BCA2C:Starfield.esm
+    UnknownFloat: 5.7333336
+  Text:
+    TargetLanguage: English
+    Value: Wow. Donovan's a big softie after all. Who knew?
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+  TextHash: 0xF08B4A668F14D801
+StartScenePhase: ''
+SubtitlePriority: Low

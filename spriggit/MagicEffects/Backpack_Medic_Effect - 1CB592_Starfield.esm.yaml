@@ -1,27 +1,9 @@
 FormKey: 1CB592:Starfield.esm
 EditorID: Backpack_Medic_Effect
-FormVersion: 559
+FormVersion: 576
 Name:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: Sanitäter
-  - Language: English
-    String: Medic
-  - Language: Spanish
-    String: Médica
-  - Language: French
-    String: Médecine
-  - Language: Italian
-    String: Medico
-  - Language: Japanese
-    String: 衛生兵
-  - Language: Polish
-    String: Medyczny
-  - Language: Portuguese_Brazil
-    String: Médico
-  - Language: ChineseSimplified
-    String: 医疗
+  Value: Medic
 PerkToApply: 1CB590:Starfield.esm
 Archetype:
   MutagenObjectType: MagicEffectArchetype
@@ -34,5 +16,6 @@ Unknown: 0x00000000000000000000000000000000000000000000
 Unknown2: '[]'
 Description:
   TargetLanguage: English
+  Value: ''
 DATADataTypeState:
 - Break0

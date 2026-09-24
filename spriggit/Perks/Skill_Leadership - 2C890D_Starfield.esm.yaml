@@ -1,48 +1,12 @@
 FormKey: 2C890D:Starfield.esm
 EditorID: Skill_Leadership
-FormVersion: 559
+FormVersion: 576
 Name:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: Führung
-  - Language: English
-    String: Leadership
-  - Language: Spanish
-    String: Liderazgo
-  - Language: French
-    String: Leadership
-  - Language: Italian
-    String: Leadership
-  - Language: Japanese
-    String: リーダーシップ
-  - Language: Polish
-    String: Przywództwo
-  - Language: Portuguese_Brazil
-    String: Liderança
-  - Language: ChineseSimplified
-    String: 领导力
+  Value: Leadership
 Description:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: Man kann in der Galaxie oft nur durch Teamwork überleben, und nichts motiviert ein Team so gut wie ein ausgebildeter, entschlossener Anführer.
-  - Language: English
-    String: Teamwork is the cornerstone of galactic survival, and nothing motivates a team more than a trained, decisive leader.
-  - Language: Spanish
-    String: El trabajo en equipo es la piedra angular de la supervivencia galáctica, y nada motiva tanto a un equipo como un líder decidido y experimentado.
-  - Language: French
-    String: La coopération est capitale pour survivre dans l'espace, et rien ne motive autant une équipe qu'un chef compétent et capable de prendre des décisions.
-  - Language: Italian
-    String: Il lavoro di squadra è la pietra angolare della sopravvivenza galattica e niente sprona una squadra più di un leader addestrato e deciso.
-  - Language: Japanese
-    String: チームワークこそが宇宙で生き残るための基本だ。そしてチームを何よりも勇気づけるのは、経験豊富で決然としたリーダーだ
-  - Language: Polish
-    String: Współpraca to postawa przeżycia w galaktyce. Nic tak nie motywuje zespołu, jak przeszkolony, stanowczy przywódca.
-  - Language: Portuguese_Brazil
-    String: Trabalho em equipe é essencial para sobreviver no espaço, e nada motiva mais uma equipe do que um líder treinado e decisivo.
-  - Language: ChineseSimplified
-    String: 团队合作是在星系中生存的根本。只有训练有素、勇敢果决的领导者才能最大限度地激励团队。
+  Value: Teamwork is the cornerstone of galactic survival, and nothing motivates a team more than a trained, decisive leader.
 Categroy: Social
 SkillGroup: Expert
 Flags:
@@ -61,36 +25,17 @@ Ranks:
   - ATAN: Sprint
     Description:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Sprinte <repetitions> Meter mit einem aktiven Begleiter.
-      - Language: English
-        String: Sprint <repetitions> meters with an active follower.
-      - Language: Spanish
-        String: Esprinta <repetitions> metros con un seguidor activo.
-      - Language: French
-        String: Sprintez sur <repetitions> mètres avec un compagnon actif.
-      - Language: Italian
-        String: Scatta <repetitions> metri con un seguace attivo.
-      - Language: Japanese
-        String: フォロワーがいる状態で<repetitions>メートルダッシュする
-      - Language: Polish
-        String: Przemierz <repetitions> m z aktywnym towarzyszem.
-      - Language: Portuguese_Brazil
-        String: Sprint por <repetitions> metros com um seguidor ativo.
-      - Language: ChineseSimplified
-        String: 与一名当前追随者一起冲刺<repetitions>米。
+      Value: Sprint <repetitions> meters with an active follower.
     ProgressionEvalutor:
-    - Name: On Stop
-      Conditions: []
     - Name: On Start
       Conditions:
       - MutagenObjectType: ConditionFloat
-        Unknown1: 0x000000
         Data:
           MutagenObjectType: GetGlobalValueConditionData
           FirstParameter: 208DC1:Starfield.esm
         ComparisonValue: 1
+    - Name: On Stop
+      Conditions: []
     ANAM: res:B1C30AD6:0005E91D:A19607F5
     Configuration: >-
       {
@@ -102,25 +47,7 @@ Ranks:
       }
   Description:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Begleiter gewinnen 25 % schneller Sympathie.
-    - Language: English
-      String: Companions gain affinity 25% faster.
-    - Language: Spanish
-      String: Los compañeros obtienen afinidad un 25 % más rápido.
-    - Language: French
-      String: L'affinité des compagnons augmente 25 % plus vite.
-    - Language: Italian
-      String: I compagni guadagnano affinità il 25% più velocemente.
-    - Language: Japanese
-      String: 仲間の親密度の上昇が25%早くなる
-    - Language: Polish
-      String: Towarzysze nawiązują więzi o 25% szybciej.
-    - Language: Portuguese_Brazil
-      String: Companheiros recebem afinidade 25% mais rápido.
-    - Language: ChineseSimplified
-      String: 同伴亲密度提升的速度加快25%。
+    Value: Companions gain affinity 25% faster.
 - Effects:
   - MutagenObjectType: PerkEntryPointModifyValue
     Rank: 1
@@ -133,36 +60,17 @@ Ranks:
   - ATAN: Sprint
     Description:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Sprinte <repetitions> Meter mit einem aktiven Begleiter.
-      - Language: English
-        String: Sprint <repetitions> meters with an active follower.
-      - Language: Spanish
-        String: Esprinta <repetitions> metros con un seguidor activo.
-      - Language: French
-        String: Sprintez sur <repetitions> mètres avec un compagnon actif.
-      - Language: Italian
-        String: Scatta <repetitions> metri con un seguace attivo.
-      - Language: Japanese
-        String: フォロワーがいる状態で<repetitions>メートルダッシュする
-      - Language: Polish
-        String: Przemierz <repetitions> m z aktywnym towarzyszem.
-      - Language: Portuguese_Brazil
-        String: Sprint por <repetitions> metros com um seguidor ativo.
-      - Language: ChineseSimplified
-        String: 与一名当前追随者一起冲刺<repetitions>米。
+      Value: Sprint <repetitions> meters with an active follower.
     ProgressionEvalutor:
-    - Name: On Stop
-      Conditions: []
     - Name: On Start
       Conditions:
       - MutagenObjectType: ConditionFloat
-        Unknown1: 0x000000
         Data:
           MutagenObjectType: GetGlobalValueConditionData
           FirstParameter: 208DC1:Starfield.esm
         ComparisonValue: 1
+    - Name: On Stop
+      Conditions: []
     ANAM: res:B727A649:0005E91D:A19607F5
     Configuration: >-
       {
@@ -174,25 +82,7 @@ Ranks:
       }
   Description:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Begleiter haben 50 mehr Gesundheit und 50 kg mehr Tragekapazität.
-    - Language: English
-      String: Companions have 50 more health and 50kg more carrying capacity.
-    - Language: Spanish
-      String: Los compañeros tienen 50 puntos de salud más y su capacidad de carga aumenta 50 kg.
-    - Language: French
-      String: Les compagnons ont 50 points de vie de plus et peuvent porter 50 kg supplémentaires.
-    - Language: Italian
-      String: I compagni hanno 50 in più di salute e 50 kg in più di capacità di carico.
-    - Language: Japanese
-      String: 仲間の体力が50、最大所持重量が50kg増加する
-    - Language: Polish
-      String: Towarzysze mają dodatkowe 50 pkt. zdrowia i 50 kg udźwigu.
-    - Language: Portuguese_Brazil
-      String: Companheiros têm 50 a mais de vida e 50 kg de capacidade de carga adicional.
-    - Language: ChineseSimplified
-      String: 同伴的生命值增加50点，负重上限提升50公斤。
+    Value: Companions have 50 more health and 50kg more carrying capacity.
 - Effects:
   - MutagenObjectType: PerkAbilityEffect
     Rank: 2
@@ -208,36 +98,17 @@ Ranks:
   - ATAN: Sprint
     Description:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Sprinte <repetitions> Meter mit einem aktiven Begleiter.
-      - Language: English
-        String: Sprint <repetitions> meters with an active follower.
-      - Language: Spanish
-        String: Esprinta <repetitions> metros con un seguidor activo.
-      - Language: French
-        String: Sprintez sur <repetitions> mètres avec un compagnon actif.
-      - Language: Italian
-        String: Scatta <repetitions> metri con un seguace attivo.
-      - Language: Japanese
-        String: フォロワーがいる状態で<repetitions>メートルダッシュする
-      - Language: Polish
-        String: Przemierz <repetitions> m z aktywnym towarzyszem.
-      - Language: Portuguese_Brazil
-        String: Sprint por <repetitions> metros com um seguidor ativo.
-      - Language: ChineseSimplified
-        String: 与一名当前追随者一起冲刺<repetitions>米。
+      Value: Sprint <repetitions> meters with an active follower.
     ProgressionEvalutor:
-    - Name: On Stop
-      Conditions: []
     - Name: On Start
       Conditions:
       - MutagenObjectType: ConditionFloat
-        Unknown1: 0x000000
         Data:
           MutagenObjectType: GetGlobalValueConditionData
           FirstParameter: 208DC1:Starfield.esm
         ComparisonValue: 1
+    - Name: On Stop
+      Conditions: []
     ANAM: res:B831B689:0005E91D:A19607F5
     Configuration: >-
       {
@@ -249,25 +120,7 @@ Ranks:
       }
   Description:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: 'Begleiter heilen gelegentlich, wenn deine Gesundheit auf einen niedrigen Stand fällt. '
-    - Language: English
-      String: 'Companions will occasionally heal you when you get low health. '
-    - Language: Spanish
-      String: 'En ocasiones, los compañeros te curarán cuando tu salud esté baja. '
-    - Language: French
-      String: 'Les compagnons vous soignent occasionnellement lorsque votre santé diminue. '
-    - Language: Italian
-      String: 'Occasionalmente, i compagni ti cureranno quando avrai un livello basso di salute. '
-    - Language: Japanese
-      String: '体力が低下すると仲間が回復してくれることがある '
-    - Language: Polish
-      String: 'Towarzysze będą cię czasem leczyć, gdy będziesz mieć niski poziom zdrowia. '
-    - Language: Portuguese_Brazil
-      String: 'Quando estiver com pouca vida, você ocasionalmente receberá cura de seus companheiros. '
-    - Language: ChineseSimplified
-      String: '当你处于低生命值时，同伴有时会治疗你。 '
+    Value: 'Companions will occasionally heal you when you get low health. '
 - Effects:
   - MutagenObjectType: PerkQuestEffect
     Rank: 3
@@ -285,22 +138,4 @@ Ranks:
     Value: 1.25
   Description:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Verdoppelt die Boni von Kampf- und Physisch-Crew-Skills bei Begleitern. Begleiter haben eine Chance, sich von selbst zu erholen, wenn sie am Boden sind.
-    - Language: English
-      String: Doubles the bonuses of Combat and Physical Crew Skills on Companions. Companions have a chance to pick themselves up from a downed state.
-    - Language: Spanish
-      String: Duplica las bonificaciones de las habilidades de tripulación físicas y de combate en acompañantes. Hay cierta probabilidad de que los acompañantes se recuperen solos al caer en combate.
-    - Language: French
-      String: Double les bonus des compétences d'équipage de combat et physiques chez les compagnons. Ces derniers ont une chance de se relever seuls lorsqu'ils sont mis à terre.
-    - Language: Italian
-      String: Raddoppia i bonus delle abilità di combattimento e fisiche dell’equipaggio per i compagni. I compagni hanno una probabilità di rianimarsi da soli quando atterrati.
-    - Language: Japanese
-      String: 仲間の戦闘および身体クルースキルのボーナスが2倍になる。仲間はダウン状態から一定の確率で立ち上がるようになる
-    - Language: Polish
-      String: Podwojenie premii do bojowych i fizycznych umiejętności załogi u towarzyszy. Powaleni towarzysze mają szansę się podnieść.
-    - Language: Portuguese_Brazil
-      String: Dobra os bônus que os companheiros recebem de habilidades de tripulação físicas e de combate. Companheiros têm chance de se recuperarem sozinhos após serem derrubados.
-    - Language: ChineseSimplified
-      String: 将对同伴的战斗与物理船员技能加成翻倍。同伴有机会从倒下状态中恢复。
+    Value: Doubles the bonuses of Combat and Physical Crew Skills on Companions. Companions have a chance to pick themselves up from a downed state.

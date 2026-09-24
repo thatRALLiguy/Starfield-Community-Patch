@@ -1,5 +1,5 @@
 FormKey: 00D59A:Starfield.esm
-FormVersion: 559
+FormVersion: 576
 Flags:
   Flags:
   - Random
@@ -31,39 +31,19 @@ Responses:
     UnknownFloat: 2.1333334
   Text:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Woooaaah, Vorsicht, Leute! Ein Alien! He he he.
-    - Language: English
-      String: Whoooaaa. Look out! It's an alien! Heh heh.
-    - Language: Spanish
-      String: Oooh. ¡Cuidado! ¡Alienígena a la vista! Je, je, je.
-    - Language: French
-      String: Waouh. Attention ! Un alien ! Héhé.
-    - Language: Italian
-      String: Wooow. Attenti! C’è un alieno! Eh eh.
-    - Language: Japanese
-      String: うわあああ。危ない！ エイリアンだ！ ははっ
-    - Language: Polish
-      String: Łoooo, uważajcie! Obcy! He, he.
-    - Language: Portuguese_Brazil
-      String: Opaaaa. Cuidado! Alienígena à vista! He, he.
-    - Language: ChineseSimplified
-      String: 哇哦。当心！是个外星人！呵呵。
+    Value: Whoooaaa. Look out! It's an alien! Heh heh.
   ScriptNotes: ''
   Edits: ''
   AlternateLipText: ''
   TextHash: 0x101E82DF59ECD701
 Conditions:
 - MutagenObjectType: ConditionFloat
-  Unknown1: 0x000000
-  Unknown2: 16493
+  Unknown2: 16617
   Data:
     MutagenObjectType: GetInFactionConditionData
     FirstParameter: 28B3AE:Starfield.esm
 - MutagenObjectType: ConditionFloat
-  Unknown1: 0x000000
-  Unknown2: 16493
+  Unknown2: 16617
   Data:
     MutagenObjectType: GetEquippedConditionData
     RunOnType: Reference
@@ -71,8 +51,7 @@ Conditions:
     FirstParameter: 225FC9:Starfield.esm
   ComparisonValue: 1
 - MutagenObjectType: ConditionFloat
-  Unknown1: 0x000000
-  Unknown2: 16493
+  Unknown2: 16617
   Data:
     MutagenObjectType: IsTrueForConditionFormConditionData
     RunOnType: Reference

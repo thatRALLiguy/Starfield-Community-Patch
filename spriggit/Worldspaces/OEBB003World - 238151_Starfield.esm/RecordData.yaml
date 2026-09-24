@@ -1,6 +1,6 @@
 FormKey: 238151:Starfield.esm
 EditorID: OEBB003World
-FormVersion: 559
+FormVersion: 576
 Components:
 - MutagenObjectType: WorldSpaceOverlayComponent
   SNAM: 0x00000000
@@ -24,32 +24,13 @@ Components:
   NAM9: 0
   Conditions:
   - MutagenObjectType: ConditionFloat
-    Unknown1: 0x000000
     Data:
       MutagenObjectType: IsTrueForConditionFormConditionData
       FirstParameter: 1C3FB6:Starfield.esm
     ComparisonValue: 1
 Name:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: Treibstoffdepot
-  - Language: English
-    String: Fuel Depot
-  - Language: Spanish
-    String: Depósito de combustible
-  - Language: French
-    String: Dépôt de carburant
-  - Language: Italian
-    String: Deposito di carburante
-  - Language: Japanese
-    String: 燃料補給基地
-  - Language: Polish
-    String: Magazyn paliw
-  - Language: Portuguese_Brazil
-    String: Depósito de Combustível
-  - Language: ChineseSimplified
-    String: 燃料仓库
+  Value: Fuel Depot
 Location: 237C10:Starfield.esm
 Water: 000018:Starfield.esm
 NAM7: materials/water/watercalm.mat
@@ -70,4 +51,3 @@ GNAM: 1
 XCLWs: []
 WHGTs: []
 HNAM: 0x05
-SubCellsTimestamp: 12497

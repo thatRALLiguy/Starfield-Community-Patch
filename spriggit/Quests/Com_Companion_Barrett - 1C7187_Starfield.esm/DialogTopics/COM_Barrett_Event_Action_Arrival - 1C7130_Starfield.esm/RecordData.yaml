@@ -1,27 +1,9 @@
 FormKey: 1C7130:Starfield.esm
 EditorID: COM_Barrett_Event_Action_Arrival
-FormVersion: 559
+FormVersion: 576
 Name:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: COM_Barrett_Event_Action_Arrival
-  - Language: English
-    String: COM_Barrett_Event_Action_Arrival
-  - Language: Spanish
-    String: COM_Barrett_Event_Action_Arrival
-  - Language: French
-    String: COM_Barrett_Event_Action_Arrival
-  - Language: Italian
-    String: COM_Barrett_Event_Action_Arrival
-  - Language: Japanese
-    String: COM_Barrett_Event_Action_Arrival
-  - Language: Polish
-    String: COM_Barrett_Event_Action_Arrival
-  - Language: Portuguese_Brazil
-    String: COM_Barrett_Event_Action_Arrival
-  - Language: ChineseSimplified
-    String: COM_Barrett_Event_Action_Arrival
+  Value: COM_Barrett_Event_Action_Arrival
 Branch: 1C6E18:Starfield.esm
 Quest: 1C7187:Starfield.esm
 AffinityEvent: 00E382:Starfield.esm
@@ -203,4 +185,3 @@ TopicInfoList:
 - 096871:Starfield.esm
 - 096870:Starfield.esm
 - 09686F:Starfield.esm
-Timestamp: 12497

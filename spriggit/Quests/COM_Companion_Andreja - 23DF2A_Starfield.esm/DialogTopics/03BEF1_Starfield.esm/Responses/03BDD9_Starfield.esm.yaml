@@ -1,5 +1,5 @@
 FormKey: 03BDD9:Starfield.esm
-FormVersion: 559
+FormVersion: 576
 Flags: {}
 Responses:
 - Emotion: 17B499:Starfield.esm
@@ -9,25 +9,7 @@ Responses:
     UnknownFloat: 1.1
   Text:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Cora hat keinen Vater mehr, weil Sam sich wie üblich der Gefahr in den Weg gestellt hat.
-    - Language: English
-      String: Cora is now without a father, because Sam put himself in harm's way as he always did. He deserved better.
-    - Language: Spanish
-      String: Cora se ha quedado huérfana porque Sam se jugó la vida, como hacía siempre. Merecía algo mejor.
-    - Language: French
-      String: Cora se retrouve sans père, parce que Sam s'est mis en danger pour sauver les autres. Il méritait mieux.
-    - Language: Italian
-      String: Cora è rimasta orfana perché Sam non si è tirato indietro, neanche questa volta. Quell’uomo meritava una sorte migliore.
-    - Language: Japanese
-      String: コラは父親を失った。サムがいつもと同じように、自分の身を進んで危険に晒したからよ。こんなのひどすぎる…
-    - Language: Polish
-      String: Cora nie ma teraz ojca, bo Sam jak zwykle nie cofnął się przed niebezpieczeństwem. Nie zasługiwał na to.
-    - Language: Portuguese_Brazil
-      String: A Cora ficou sem pai, porque o Sam se arriscou como sempre. Ele merecia coisa melhor.
-    - Language: ChineseSimplified
-      String: 科拉现在失去了父亲，因为萨姆遇到危险总是挺身而出。他应该有个更好的结局。
+    Value: Cora is now without a father, because Sam put himself in harm's way as he always did. He deserved better.
   ScriptNotes: ''
   Edits: ''
   AlternateLipText: ''
@@ -43,7 +25,6 @@ Responses:
   XNAM: True
 Conditions:
 - MutagenObjectType: ConditionGlobal
-  Unknown1: 0x000000
   Data:
     MutagenObjectType: GetGlobalValueConditionData
     FirstParameter: 2BB89F:Starfield.esm

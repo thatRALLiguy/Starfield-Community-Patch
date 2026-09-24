@@ -1,0 +1,23 @@
+MutagenObjectType: WeaponModification
+FormKey: 132A36:Starfield.esm
+EditorID: mod_Rocketlauncher_Laser_ReconSight
+FormVersion: 576
+Name:
+  TargetLanguage: English
+  Value: Recon Laser Sight
+Description:
+  TargetLanguage: English
+  Value: Adds a recon sight.
+Model:
+  File: Weapons\Rocketlauncher\Lazersight.nif
+  FLLD: 0x01000000
+AttachPoint: 0191EE:Starfield.esm
+Includes:
+- Mod: 1341F1:Starfield.esm
+  DoNotUseAll: True
+TargetOmodKeywords:
+- 1F70BC:Starfield.esm
+Properties:
+- MutagenObjectType: ObjectModFormLinkIntProperty<Weapon+Property>
+  Property: AimOpticalSightMarker
+  Record: 1F5DA3:Starfield.esm

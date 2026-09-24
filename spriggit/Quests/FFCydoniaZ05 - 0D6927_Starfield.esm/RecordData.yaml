@@ -1,6 +1,6 @@
 FormKey: 0D6927:Starfield.esm
 EditorID: FFCydoniaZ05
-FormVersion: 559
+FormVersion: 576
 VirtualMachineAdapter:
   Scripts:
   - Name: defaultquestchangelocationscript
@@ -142,28 +142,19 @@ VirtualMachineAdapter:
     Name: Fragments:Quests:QF_FFCydoniaZ05_000D6927
     Properties:
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_RailLeanMarker
-      Object: 0D6927:Starfield.esm
-      Alias: 1
-    - MutagenObjectType: ScriptObjectProperty
-      Name: SQ_Followers
-      Object: 00D773:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: FFCydoniaZ05_Scene01_Space
-      Object: 0C9F4F:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
       Name: Alias_CaptainMarker
       Object: 0D6927:Starfield.esm
       Alias: 22
     - MutagenObjectType: ScriptObjectProperty
-      Name: City_NewAtlantis_Z_PartingGift
-      Object: 0D5430:Starfield.esm
+      Name: Alias_Sivan
+      Object: 0D6927:Starfield.esm
+      Alias: 0
     - MutagenObjectType: ScriptObjectProperty
-      Name: SivanActorBase
-      Object: 0D2875:Starfield.esm
+      Name: FFCydoniaZ05_Scene01_Space
+      Object: 0C9F4F:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: SQ_GuardShipsScene
-      Object: 2CE195:Starfield.esm
+      Name: SQ_Followers
+      Object: 00D773:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_passengerMarker
       Object: 0D6927:Starfield.esm
@@ -172,9 +163,18 @@ VirtualMachineAdapter:
       Name: FFCydoniaZ05_SceneIntro
       Object: 0D2499:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Sivan
+      Name: SQ_GuardShipsScene
+      Object: 2CE195:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: City_NewAtlantis_Z_PartingGift
+      Object: 0D5430:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_RailLeanMarker
       Object: 0D6927:Starfield.esm
-      Alias: 0
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SivanActorBase
+      Object: 0D2875:Starfield.esm
   Fragments:
   - Unknown2: 1
     ScriptName: Fragments:Quests:QF_FFCydoniaZ05_000D6927
@@ -271,25 +271,7 @@ VirtualMachineAdapter:
         Data: 200
 Name:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: Mein Nordstern
-  - Language: English
-    String: My North Star
-  - Language: Spanish
-    String: Mi estrella polar
-  - Language: French
-    String: Mon étoile polaire
-  - Language: Italian
-    String: La mia stella polare
-  - Language: Japanese
-    String: 私の北極星
-  - Language: Polish
-    String: Moja polarna gwiazda
-  - Language: Portuguese_Brazil
-    String: Minha Estrela do Norte
-  - Language: ChineseSimplified
-    String: 我的北极星
+  Value: My North Star
 Data:
   Flags:
   - RunOnce
@@ -347,7 +329,7 @@ Stages:
     Conditions:
     - MutagenObjectType: ConditionFloat
       CompareOperator: LessThan
-      Unknown1: 0x4D3FA1
+      Unknown2: 17676
       Data:
         MutagenObjectType: GetStageConditionData
         FirstParameter: 0D6927:Starfield.esm
@@ -362,14 +344,14 @@ Stages:
   - Flags: []
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x4D3FA1
+      Unknown2: 17676
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 0D6927:Starfield.esm
         SecondParameter: 30
       ComparisonValue: 1
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x4D3FA1
+      Unknown2: 17676
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 0D6927:Starfield.esm
@@ -392,7 +374,7 @@ Stages:
   - Flags: []
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x4D3FA1
+      Unknown2: 17676
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 0D6927:Starfield.esm
@@ -407,7 +389,7 @@ Stages:
     - MutagenObjectType: ConditionFloat
       Flags:
       - OR
-      Unknown1: 0x4D3FA1
+      Unknown2: 17676
       Data:
         MutagenObjectType: GetIsCurrentLocationConditionData
         RunOnType: PlayerShip
@@ -416,7 +398,7 @@ Stages:
     - MutagenObjectType: ConditionFloat
       Flags:
       - OR
-      Unknown1: 0x4D3FA1
+      Unknown2: 17676
       Data:
         MutagenObjectType: GetIsCurrentLocationConditionData
         RunOnType: PlayerShip
@@ -425,7 +407,7 @@ Stages:
     - MutagenObjectType: ConditionFloat
       Flags:
       - OR
-      Unknown1: 0x4D3FA1
+      Unknown2: 17676
       Data:
         MutagenObjectType: GetIsCurrentLocationConditionData
         RunOnType: PlayerShip
@@ -441,25 +423,7 @@ Stages:
     Note: 'QO: Escort Sivan to space'
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Ich bin einer Person begegnet, die das Sternbild des Schwans gerne aus der Nähe sehen würde.
-      - Language: English
-        String: I met a stargazer who wants to travel to space, so they could see the constellation Cygnus up close.
-      - Language: Spanish
-        String: Conocí a una persona a la que le gustaba observar las estrellas y que quería viajar al espacio para poder ver la constelación de Cygnus de cerca
-      - Language: French
-        String: J'ai fait la connaissance d'une personne fascinée par les étoiles qui souhaite se rendre dans l'espace, afin d'admirer de près la constellation du Cygne.
-      - Language: Italian
-        String: Ho incontrato una persona amante delle stelle che vuole viaggiare nello spazio per vedere da vicino la costellazione del Cigno.
-      - Language: Japanese
-        String: 星を見つめる人に出会った。白鳥座を間近で見るために、宇宙に行きたがっている
-      - Language: Polish
-        String: Napotkana przeze mnie osoba, będąca miłośnikiem gwiazd, chciała się wybrać w podróż, by zobaczyć z bliska gwiazdozbiór Cygnus.
-      - Language: Portuguese_Brazil
-        String: Conheci uma pessoa que gosta de admirar as estrelas e queria viajar ao espaço para ver de perto a constelação Cygnus.
-      - Language: ChineseSimplified
-        String: 我遇到一名天文爱好者。这人想登上太空，借此近距离观察天鹅座。
+      Value: I met a stargazer who wants to travel to space, so they could see the constellation Cygnus up close.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -477,7 +441,6 @@ Stages:
   - Flags: []
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 0D6927:Starfield.esm
@@ -493,25 +456,7 @@ Stages:
     Note: 'QO: Talk to Sivan'
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Ich bin einer Person begegnet, die das Sternbild des Schwans gerne aus der Nähe sehen würde. Ich brachte sie in den Orbit, damit sie einen besseren Blick hat.
-      - Language: English
-        String: I met a stargazer who wants to travel to space, so they could see the constellation Cygnus up close. I then took them into orbit so they could see the stars.
-      - Language: Spanish
-        String: Conocí a una persona a la que le gustaba observar las estrellas y que quería viajar al espacio para poder ver la constelación de Cygnus de cerca. La llevé a la órbita para que pudiese ver las estrellas.
-      - Language: French
-        String: J'ai fait la connaissance d'une personne fascinée par les étoiles qui souhaitait se rendre dans l'espace, afin d'admirer de près la constellation du Cygne. Je l'ai emmenée en orbite, afin qu'elle puisse admirer les astres.
-      - Language: Italian
-        String: Ho incontrato una persona amante delle stelle che vuole viaggiare nello spazio per vedere da vicino la costellazione del Cigno. L’ho portata in orbita per farle ammirare le stelle.
-      - Language: Japanese
-        String: 星を見つめる人に出会った。白鳥座を間近で見るために、宇宙に行きたがっていた。星を見られるよう、軌道に連れて行った
-      - Language: Polish
-        String: Napotkana przeze mnie osoba, będąca miłośnikiem gwiazd, chciała się wybrać w podróż, by zobaczyć z bliska gwiazdozbiór Cygnus. Dzięki mojej pomocy mogła podziwiać gwiazdy z orbity.
-      - Language: Portuguese_Brazil
-        String: Conheci uma pessoa que gosta de admirar as estrelas e queria viajar ao espaço para ver de perto a constelação Cygnus, então eu a levei até a órbita de Marte para ver as estrelas.
-      - Language: ChineseSimplified
-        String: 我遇到一名天文爱好者。这人想登上太空，借此近距离观察天鹅座。于是我带着这位天文爱好者进入了轨道，使其得以看到星星。
+      Value: I met a stargazer who wants to travel to space, so they could see the constellation Cygnus up close. I then took them into orbit so they could see the stars.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -522,32 +467,13 @@ Stages:
     Note: 'QO: Return to Cydonia'
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Ich bin einer Person begegnet, die das Sternbild des Schwans gerne aus der Nähe sehen würde. Ich muss sie in den Orbit und dann zurück nach Cydonia bringen.
-      - Language: English
-        String: I met a stargazer who wants to travel to space, so they could see the constellation Cygnus up close. After taking them into orbit, I need to escort them back to Cydonia.
-      - Language: Spanish
-        String: Conocí a una persona a la que le gustaba observar las estrellas y que quería viajar al espacio para poder ver la constelación de Cygnus de cerca. Tras llevarla a la órbita, ahora tengo que acompañarla de vuelta a Cidonia.
-      - Language: French
-        String: J'ai fait la connaissance d'une personne fascinée par les étoiles qui souhaitait se rendre dans l'espace, afin d'admirer de près la constellation du Cygne. Je l'ai emmenée en orbite, et dois à présent la raccompagner à Cydonia.
-      - Language: Italian
-        String: Ho incontrato una persona amante delle stelle che vuole viaggiare nello spazio per vedere da vicino la costellazione del Cigno. Dopo averla portata in orbita, devo scortarla di nuovo a Cydonia.
-      - Language: Japanese
-        String: 星を見つめる人に出会った。白鳥座を間近で見るために、宇宙に行きたがっていた。乗せて軌道を飛んでから、シドニアに連れて帰らなくては
-      - Language: Polish
-        String: Napotkana przeze mnie osoba, będąca miłośnikiem gwiazd, chciała wybrać się w podróż, by zobaczyć z bliska gwiazdozbiór Cygnus. Po naszej wspólnej wyprawie na orbitę muszę eskortować ją z powrotem do Cydonii.
-      - Language: Portuguese_Brazil
-        String: Conheci uma pessoa que gosta de admirar as estrelas e queria viajar ao espaço para ver de perto a constelação Cygnus. Após levá-la até a órbita de Marte, preciso escoltá-la de volta a Cydonia.
-      - Language: ChineseSimplified
-        String: 我遇到一名天文爱好者。这人想登上太空，借此近距离观察天鹅座。我带着这位天文爱好者进入了轨道，之后我还得护送其回赛多尼亚。
+      Value: I met a stargazer who wants to travel to space, so they could see the constellation Cygnus up close. After taking them into orbit, I need to escort them back to Cydonia.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
   - Flags: []
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetIsCurrentLocationConditionData
         RunOnType: PlayerShip
@@ -559,7 +485,6 @@ Stages:
   - Flags: []
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetIsCurrentLocationConditionData
         RunOnType: PlayerShip
@@ -582,32 +507,13 @@ Stages:
     Note: 'QO: Talk to Sivan'
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Ich bin einer Person begegnet, die das Sternbild des Schwans gerne aus der Nähe sehen würde. Ich brachte sie in den Orbit und dann zurück nach Cydonia.
-      - Language: English
-        String: I met a stargazer who wants to travel to space, so they could see the constellation Cygnus up close. After taking them into orbit, I escorted them back to Cydonia.
-      - Language: Spanish
-        String: Conocí a una persona a la que le gustaba observar las estrellas y que quería viajar al espacio para poder ver la constelación de Cygnus de cerca. Tras llevarla a la órbita, la acompañé de vuelta a Cidonia.
-      - Language: French
-        String: J'ai fait la connaissance d'une personne fascinée par les étoiles qui souhaitait se rendre dans l'espace, afin d'admirer de près la constellation du Cygne. Après l'avoir emmenée en orbite, je l'ai raccompagnée à Cydonia.
-      - Language: Italian
-        String: Ho incontrato una persona amante delle stelle che vuole viaggiare nello spazio per vedere da vicino la costellazione del Cigno. Dopo averla portata in orbita, l’ho scortata di nuovo a Cydonia.
-      - Language: Japanese
-        String: 星を見つめる人に出会った。白鳥座を間近で見るために、宇宙に行きたがっていた。乗せて軌道を飛んでから、シドニアに連れて帰った
-      - Language: Polish
-        String: Napotkana przeze mnie osoba, będąca miłośnikiem gwiazd, chciała wybrać się w podróż, by zobaczyć z bliska gwiazdozbiór Cygnus. Po naszej wspólnej wyprawie na orbitę wróciliśmy do Cydonii.
-      - Language: Portuguese_Brazil
-        String: Conheci uma pessoa que gosta de admirar as estrelas e queria viajar ao espaço para ver de perto a constelação Cygnus. Após levá-la até a órbita de Marte, eu a escoltei de volta a Cydonia.
-      - Language: ChineseSimplified
-        String: 我遇到一名天文爱好者。这人想登上太空，借此近距离观察天鹅座。我带着这位天文爱好者进入了轨道，之后又护送其回到了赛多尼亚。
+      Value: I met a stargazer who wants to travel to space, so they could see the constellation Cygnus up close. After taking them into orbit, I escorted them back to Cydonia.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
   - Flags: []
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: IsInSpaceshipConditionData
         RunOnType: Reference
@@ -620,7 +526,6 @@ Stages:
   - Flags: []
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: IsInSpaceshipConditionData
         RunOnType: Reference
@@ -644,25 +549,7 @@ Stages:
     Note: Mission Failed
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Ich bin einer Person begegnet, die das Sternbild des Schwans gerne aus der Nähe sehen würde. Leider hat sie die Begegnung nicht überlebt.
-      - Language: English
-        String: I met a stargazer who wants to travel to space, so they could see the constellation Cygnus up close. Unfortunately, they did not survive the encounter.
-      - Language: Spanish
-        String: Conocí a una persona a la que le gustaba observar las estrellas y que quería viajar al espacio para poder ver la constelación de Cygnus de cerca. Por desgracia, no sobrevivió al encuentro.
-      - Language: French
-        String: J'ai fait la connaissance d'une personne fascinée par les étoiles qui souhaitait se rendre dans l'espace, afin d'admirer de près la constellation du Cygne. Hélas, elle n'a pas survécu au voyage.
-      - Language: Italian
-        String: Ho incontrato una persona amante delle stelle che vuole viaggiare nello spazio per vedere da vicino la costellazione del Cigno. Sfortunatamente non è sopravvissuta all’incontro.
-      - Language: Japanese
-        String: 星を見つめる人に出会った。白鳥座を間近で見るために、宇宙に行きたがっていた。だが残念ながら、生き延びることはできなかった
-      - Language: Polish
-        String: Napotkana przeze mnie osoba, będąca miłośnikiem gwiazd, chciała się wybrać w podróż, by zobaczyć z bliska gwiazdozbiór Cygnus. Niestety nie przetrwała tego.
-      - Language: Portuguese_Brazil
-        String: Conheci uma pessoa que gosta de admirar as estrelas e queria viajar ao espaço para ver de perto a constelação Cygnus. Infelizmente, ela não sobreviveu.
-      - Language: ChineseSimplified
-        String: 我遇到一名天文爱好者。这人想登上太空，借此近距离观察天鹅座。不幸的是，这位天文爱好者在交火中丢了性命。
+      Value: I met a stargazer who wants to travel to space, so they could see the constellation Cygnus up close. Unfortunately, they did not survive the encounter.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -674,25 +561,7 @@ Stages:
     Note: Complete Quest
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Ich bin einer Person begegnet, die das Sternbild des Schwans gerne aus der Nähe sehen würde. Ich brachte sie in den Orbit und dann zurück nach Cydonia.
-      - Language: English
-        String: I met a stargazer who wants to travel to space, so they could see the constellation Cygnus up close. After taking them into orbit, I escorted them back to Cydonia.
-      - Language: Spanish
-        String: Conocí a una persona a la que le gustaba observar las estrellas y que quería viajar al espacio para poder ver la constelación de Cygnus de cerca. Tras llevarla a la órbita, la acompañé de vuelta a Cidonia.
-      - Language: French
-        String: J'ai fait la connaissance d'une personne fascinée par les étoiles qui souhaitait se rendre dans l'espace, afin d'admirer de près la constellation du Cygne. Après l'avoir emmenée en orbite, je l'ai raccompagnée à Cydonia.
-      - Language: Italian
-        String: Ho incontrato una persona amante delle stelle che vuole viaggiare nello spazio per vedere da vicino la costellazione del Cigno. Dopo averla portata in orbita, l’ho scortata di nuovo a Cydonia.
-      - Language: Japanese
-        String: 星を見つめる人に出会った。白鳥座を間近で見るために、宇宙に行きたがっていた。乗せて軌道を飛んでから、シドニアに連れて帰った
-      - Language: Polish
-        String: Napotkana przeze mnie osoba, będąca miłośnikiem gwiazd, chciała wybrać się w podróż, by zobaczyć z bliska gwiazdozbiór Cygnus. Po naszej wspólnej wyprawie na orbitę wróciliśmy do Cydonii.
-      - Language: Portuguese_Brazil
-        String: Conheci uma pessoa que gosta de admirar as estrelas e queria viajar ao espaço para ver de perto a constelação Cygnus. Após levá-la até a órbita de Marte, eu a escoltei de volta a Cydonia.
-      - Language: ChineseSimplified
-        String: 我遇到一名天文爱好者。这人想登上太空，借此近距离观察天鹅座。我带着这位天文爱好者进入了轨道，之后又护送其回到了赛多尼亚。
+      Value: I met a stargazer who wants to travel to space, so they could see the constellation Cygnus up close. After taking them into orbit, I escorted them back to Cydonia.
     StageCompleteDatas:
     - QSRD: 0x01000000
       RewardDatas:
@@ -721,100 +590,28 @@ Objectives:
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Bring Sivan in den Orbit des Mars.
-    - Language: English
-      String: Take Sivan to Mars' Orbit
-    - Language: Spanish
-      String: Lleva a Sivan a la órbita de Marte.
-    - Language: French
-      String: Emmenez Sivan en orbite de Mars.
-    - Language: Italian
-      String: Porta Sivan in orbita intorno a Marte
-    - Language: Japanese
-      String: シヴァンを火星の軌道に連れていく
-    - Language: Polish
-      String: Zabierz Sivanu na orbitę Marsa
-    - Language: Portuguese_Brazil
-      String: Leve Sivan até a órbita de Marte
-    - Language: ChineseSimplified
-      String: 带西万前往火星轨道
+    Value: Take Sivan to Mars' Orbit
   Targets:
   - AliasID: 16
 - Index: 50
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Sprich mit Sivan.
-    - Language: English
-      String: Talk to Sivan
-    - Language: Spanish
-      String: Habla con Sivan.
-    - Language: French
-      String: Parlez à Sivan.
-    - Language: Italian
-      String: Parla con Sivan
-    - Language: Japanese
-      String: シヴァンと話す
-    - Language: Polish
-      String: Porozmawiaj z Sivanum
-    - Language: Portuguese_Brazil
-      String: Fale com Sivan
-    - Language: ChineseSimplified
-      String: 与西万交谈
+    Value: Talk to Sivan
   Targets:
   - {}
 - Index: 60
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Kehre nach Cydonia zurück.
-    - Language: English
-      String: Return to Cydonia
-    - Language: Spanish
-      String: Vuelve a Cidonia.
-    - Language: French
-      String: Retournez à Cydonia.
-    - Language: Italian
-      String: Torna a Cydonia
-    - Language: Japanese
-      String: シドニアに戻る
-    - Language: Polish
-      String: Wróć do Cydonii
-    - Language: Portuguese_Brazil
-      String: Volte para Cydonia
-    - Language: ChineseSimplified
-      String: 返回赛多尼亚
+    Value: Return to Cydonia
   Targets:
   - AliasID: 3
 - Index: 70
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Sprich mit Sivan.
-    - Language: English
-      String: Talk to Sivan
-    - Language: Spanish
-      String: Habla con Sivan.
-    - Language: French
-      String: Parlez à Sivan.
-    - Language: Italian
-      String: Parla con Sivan
-    - Language: Japanese
-      String: シヴァンと話す
-    - Language: Polish
-      String: Porozmawiaj z Sivanum
-    - Language: Portuguese_Brazil
-      String: Fale com Sivan
-    - Language: ChineseSimplified
-      String: 与西万交谈
+    Value: Talk to Sivan
   Targets:
   - {}
 Aliases:

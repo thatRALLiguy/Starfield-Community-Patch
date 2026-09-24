@@ -1,0 +1,1321 @@
+FormKey: 2583F2:Starfield.esm
+EditorID: MQ206B
+FormVersion: 576
+VirtualMachineAdapter:
+  Scripts:
+  - Name: defaultquestchangelocationscript
+    Properties:
+    - MutagenObjectType: ScriptStructListProperty
+      Name: ChangeLocationStages
+      Structs:
+      - Members:
+        - MutagenObjectType: ScriptBoolProperty
+          Name: RequireExactLocation
+        - MutagenObjectType: ScriptIntProperty
+          Name: PrereqStage
+          Data: 500
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TargetLocation
+          Object: 01AF81:Starfield.esm
+        - MutagenObjectType: ScriptIntProperty
+          Name: StageToSet
+          Data: 670
+      - Members:
+        - MutagenObjectType: ScriptBoolProperty
+          Name: RequireExactLocation
+        - MutagenObjectType: ScriptIntProperty
+          Name: StageToSet
+          Data: 680
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TargetLocation
+          Object: 224C09:Starfield.esm
+        - MutagenObjectType: ScriptIntProperty
+          Name: PrereqStage
+          Data: 500
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TargetLocation
+          Object: 3D9DE0:Starfield.esm
+        - MutagenObjectType: ScriptIntProperty
+          Name: PrereqStage
+          Data: 800
+        - MutagenObjectType: ScriptIntProperty
+          Name: StageToSet
+          Data: 900
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TargetLocation
+          Object: 3D9DE0:Starfield.esm
+        - MutagenObjectType: ScriptIntProperty
+          Name: PrereqStage
+          Data: 810
+        - MutagenObjectType: ScriptIntProperty
+          Name: StageToSet
+          Data: 900
+      - Members:
+        - MutagenObjectType: ScriptBoolProperty
+          Name: SetStageOnEnterLocation
+        - MutagenObjectType: ScriptIntProperty
+          Name: PrereqStage
+          Data: 100
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TargetLocation
+          Object: 27C8ED:Starfield.esm
+        - MutagenObjectType: ScriptIntProperty
+          Name: StageToSet
+          Data: 15
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_PlayerShip
+      Object: 0174A2:Starfield.esm
+  Script:
+    Name: Fragments:Quests:QF_MQ206B_002583F2
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: TraitSerpentsEmbrace
+      Object: 227FD0:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_Companions
+      Object: 2A567C:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ204_NA_StateChangeHandler
+      Object: 00E415:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ206B_Quickstart1
+      Object: 192A19:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ206B_Hyla_PlayerMarker
+      Object: 3F4492:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ206BPuzzleEnableMarker
+      Object: 3F44A2:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: City_NA_Aquilus01
+      Object: 07BDBF:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: TraitRaisedEnlightened
+      Object: 227FD2:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ206B_EnlightenedGift
+      Object: 0EE99F:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ206B_001_IntroScene
+      Object: 2582BD:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ206B_AquilusTravelMarker01
+      Object: 257EAC:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ206B_002_AquilusMatteoScene
+      Object: 2582B9:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Mirza
+      Object: 2583F2:Starfield.esm
+      Alias: 5
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PilgrimsRestMapMarkerREF
+      Object: 246A8B:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_HylaBoss
+      Object: 2583F2:Starfield.esm
+      Alias: 29
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LC134Start
+      Object: 19222B:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ206B_MatteoTravelMarker01
+      Object: 257EA9:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ206B_VaruunGift
+      Object: 0EE99E:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_Followers
+      Object: 00D773:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_PilgrimDoor
+      Object: 2583F2:Starfield.esm
+      Alias: 27
+    - MutagenObjectType: ScriptObjectProperty
+      Name: TraitRaisedUniversal
+      Object: 227FD1:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ206B_004b_Matteo
+      Object: 224F66:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ102
+      Object: 0114CD:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_KeeperAquilus
+      Object: 2583F2:Starfield.esm
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ207
+      Object: 2B1B8E:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ101Debug
+      Object: 0A7D31:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ206B_004_Inside
+      Object: 2582B7:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ206B_003_KeeperAquilus
+      Object: 2582B8:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_MatteoKhatri
+      Object: 2583F2:Starfield.esm
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ScorpiusPuzzleMapMarkerREF
+      Object: 246ADC:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LodgeStartMarker
+      Object: 2824E5:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ206B_UniversalGift
+      Object: 0EE9A0:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ204
+      Object: 2C6D74:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ206B_MatteoMarker01
+      Object: 224F68:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ101
+      Object: 003448:Starfield.esm
+  Fragments:
+  - Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ206B_002583F2
+    FragmentName: Fragment_Stage_0000_Item_00
+  - Stage: 140
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ206B_002583F2
+    FragmentName: Fragment_Stage_0140_Item_00
+  - Stage: 680
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ206B_002583F2
+    FragmentName: Fragment_Stage_0680_Item_00
+  - Stage: 500
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ206B_002583F2
+    FragmentName: Fragment_Stage_0500_Item_00
+  - Stage: 2
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ206B_002583F2
+    FragmentName: Fragment_Stage_0002_Item_00
+  - Stage: 700
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ206B_002583F2
+    FragmentName: Fragment_Stage_0700_Item_00
+  - Stage: 210
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ206B_002583F2
+    FragmentName: Fragment_Stage_0210_Item_00
+  - Stage: 400
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ206B_002583F2
+    FragmentName: Fragment_Stage_0400_Item_00
+  - Stage: 100
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ206B_002583F2
+    FragmentName: Fragment_Stage_0100_Item_00
+  - Stage: 15
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ206B_002583F2
+    FragmentName: Fragment_Stage_0015_Item_00
+  - Stage: 2000
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ206B_002583F2
+    FragmentName: Fragment_Stage_2000_Item_00
+  - Stage: 660
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ206B_002583F2
+    FragmentName: Fragment_Stage_0660_Item_00
+  - Stage: 220
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ206B_002583F2
+    FragmentName: Fragment_Stage_0220_Item_00
+  - Stage: 600
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ206B_002583F2
+    FragmentName: Fragment_Stage_0600_Item_00
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ206B_002583F2
+    FragmentName: Fragment_Stage_0010_Item_00
+  - Stage: 1
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ206B_002583F2
+    FragmentName: Fragment_Stage_0001_Item_00
+  - Stage: 800
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ206B_002583F2
+    FragmentName: Fragment_Stage_0800_Item_00
+  - Stage: 200
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ206B_002583F2
+    FragmentName: Fragment_Stage_0200_Item_00
+  - Stage: 3
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ206B_002583F2
+    FragmentName: Fragment_Stage_0003_Item_00
+  - Stage: 110
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ206B_002583F2
+    FragmentName: Fragment_Stage_0110_Item_00
+  - Stage: 300
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ206B_002583F2
+    FragmentName: Fragment_Stage_0300_Item_00
+  - Stage: 5
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ206B_002583F2
+    FragmentName: Fragment_Stage_0005_Item_00
+  - Stage: 710
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ206B_002583F2
+    FragmentName: Fragment_Stage_0710_Item_00
+  - Stage: 900
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ206B_002583F2
+    FragmentName: Fragment_Stage_0900_Item_00
+  - Stage: 720
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ206B_002583F2
+    FragmentName: Fragment_Stage_0720_Item_00
+  - Stage: 150
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ206B_002583F2
+    FragmentName: Fragment_Stage_0150_Item_00
+  - Stage: 670
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ206B_002583F2
+    FragmentName: Fragment_Stage_0670_Item_00
+  - Stage: 3000
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ206B_002583F2
+    FragmentName: Fragment_Stage_3000_Item_00
+  - Stage: 810
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ206B_002583F2
+    FragmentName: Fragment_Stage_0810_Item_00
+  - Stage: 130
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ206B_002583F2
+    FragmentName: Fragment_Stage_0130_Item_00
+  - Stage: 655
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ206B_002583F2
+    FragmentName: Fragment_Stage_0655_Item_00
+  - Stage: 230
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ206B_002583F2
+    FragmentName: Fragment_Stage_0230_Item_00
+  - Stage: 690
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_MQ206B_002583F2
+    FragmentName: Fragment_Stage_0690_Item_00
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 2583F2:Starfield.esm
+      Alias: 0
+    Scripts:
+    - Name: DefaultAliasOnUnload
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 15
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 10
+  - Property:
+      Name: ''
+      Object: 2583F2:Starfield.esm
+      Alias: 14
+    Scripts:
+    - Name: defaultaliasondistancelessthan
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: TargetAlias
+        Object: 2583F2:Starfield.esm
+        Alias: 21
+      - MutagenObjectType: ScriptFloatProperty
+        Name: TargetDistance
+        Data: 3
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 605
+    - Name: DefaultAliasOnContainerChangedTo
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 610
+  - Property:
+      Name: ''
+      Object: 2583F2:Starfield.esm
+      Alias: 22
+    Scripts:
+    - Name: defaultaliasondistancelessthan
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: TargetAlias
+        Object: 2583F2:Starfield.esm
+        Alias: 21
+      - MutagenObjectType: ScriptFloatProperty
+        Name: TargetDistance
+        Data: 3
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 615
+    - Name: DefaultAliasOnContainerChangedTo
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 620
+  - Property:
+      Name: ''
+      Object: 2583F2:Starfield.esm
+      Alias: 23
+    Scripts:
+    - Name: defaultaliasondistancelessthan
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: TargetAlias
+        Object: 2583F2:Starfield.esm
+        Alias: 21
+      - MutagenObjectType: ScriptFloatProperty
+        Name: TargetDistance
+        Data: 3
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 625
+    - Name: DefaultAliasOnContainerChangedTo
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 630
+  - Property:
+      Name: ''
+      Object: 2583F2:Starfield.esm
+      Alias: 24
+    Scripts:
+    - Name: defaultaliasondistancelessthan
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: TargetAlias
+        Object: 2583F2:Starfield.esm
+        Alias: 21
+      - MutagenObjectType: ScriptFloatProperty
+        Name: TargetDistance
+        Data: 3
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 635
+    - Name: DefaultAliasOnContainerChangedTo
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 640
+  - Property:
+      Name: ''
+      Object: 2583F2:Starfield.esm
+      Alias: 25
+    Scripts:
+    - Name: defaultaliasondistancelessthan
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: TargetAlias
+        Object: 2583F2:Starfield.esm
+        Alias: 21
+      - MutagenObjectType: ScriptFloatProperty
+        Name: TargetDistance
+        Data: 3
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 645
+    - Name: DefaultAliasOnContainerChangedTo
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 650
+  - Property:
+      Name: ''
+      Object: 2583F2:Starfield.esm
+      Alias: 6
+    Scripts:
+    - Name: DefaultAliasOnContainerChangedTo
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 690
+    - Name: defaultaliasonread
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 700
+  - Property:
+      Name: ''
+      Object: 2583F2:Starfield.esm
+      Alias: 21
+    Scripts:
+    - Name: MQ206BPlayerScript
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SanctumPlayerSeat
+        Object: 2583F2:Starfield.esm
+        Alias: 31
+Name:
+  TargetLanguage: English
+  Value: Unity
+Data:
+  Flags:
+  - RunOnce
+  - WarnOnAliasFillFailure
+  Priority: 80
+  Unused: 0x000000
+QuestType: 0475FA:Starfield.esm
+QuestFaction: 0546E1:Starfield.esm
+Summary: MATTEO KHATRI tells the player that, during the Hunter's attack, he mentioned the word "Unity." This word has significance to Matteo's religion, the Sanctum Universum. He asks the player to come with him to meet KEEPER AQUILUS, the reglion's founder, to see if the word has hidden meaning. Aquilus tells the player to speak to all the faiths, not just his own, to uncover the word's true meaning.
+UnusedConditions: []
+Stages:
+- Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: DEBUG
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: DEBUG - talk to the faiths
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 2
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: DEBUG - On Indum II
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 3
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: DEBUG - Hyla Scorpius Puzzle
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 5
+  Flags:
+  - RunOnStart
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Run on Start
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 10
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Intro Scene Started
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 15
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Matteo unloads or player moves outside the Lodge, move him to Marker
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 100
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Matteo asks you to talk to Keeper Aquilus
+    Entry:
+      TargetLanguage: English
+      Value: Matteo believes the word "Unity" may have hidden meanings to the Sanctum Universum. We should talk to Keeper Aquilus at the Sanctum.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 110
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player starts talking to Aquilus, move external scene forward
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 120
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Scene with Matteo and Aquilus done
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 130
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Aquilus asks you to go inside
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 140
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player is inside the church
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 150
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 2583F2:Starfield.esm
+        SecondParameter: 200
+    Note: Player sits down
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 200
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Aquilus tells you to talk to the other faiths
+    Entry:
+      TargetLanguage: English
+      Value: Keeper Aquilus believes there was a Pilgrim who kept the truth about "Unity" in a location hidden in stories told to the Sanctum Universum, the House of Enlightenment, and House Va'ruun.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 210
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Raised Universal Gift
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 220
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Enlightened Gift
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 230
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Varuun Gift
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 300
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player has talked to Andy Singh
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 400
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player has talked to the Va'ruun Zealot
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 500
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Talked to the other faiths
+    Entry:
+      TargetLanguage: English
+      Value: I now have three clues to the Pilgrim's final resting place. "Infinitum addendum," "Second," and "Four and One-Hundred Twenty."
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 505
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: player tells Aquilus about House of Enlightenment
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 510
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: player tells Aquilus about Va'ruun
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 515
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: player repeats Sanctum Universum
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 600
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Aquilus points you to the Hermit's House
+    Entry:
+      TargetLanguage: English
+      Value: I think I know the Unity Pilgrim's final resting place. It's on the second planet of the Indum system.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 605
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Close enough to Writing 01
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 610
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Picked up Writing 01
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 615
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Close enough to Writing 02
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 620
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Picked up Writing 02
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 625
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Close enough to Writing 03
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 630
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Picked up Writing 03
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 635
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Close enough to Writing 04
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 640
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Picked up Writing 04
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 645
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Close enough to Writing 05
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 650
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Picked up Writing 05
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 655
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player close enough to the Locked Door
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 660
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player unlocks the door to the Pilgrim's Room
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 670
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player arrives in Orbit around Indum II
+    Entry:
+      TargetLanguage: English
+      Value: I think I know the Unity Pilgrim's final resting place. It's on the second planet of the Indum system.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 680
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player within the location of Pilgrim's Rest
+    Entry:
+      TargetLanguage: English
+      Value: I think I've found the resting place of the Pilgrim that Keeper Aquilus spoke about. I should look around and see if he's left anything that tells me about Unity.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 690
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player picks up the Ancient book
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 700
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player reads the Ancient Book
+    Entry:
+      TargetLanguage: English
+      Value: "\"On Hyla II, the island hides the scorpion, and the scorpion's sting hides the truth.\""
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 710
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player in range of boss creature
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 720
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player near Puzzle
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 800
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player completes the Scorpius statue puzzle
+    Entry:
+      TargetLanguage: English
+      Value: The "scorpion" of Hyla is actually a statue of the Scorpius constellation. A light is shining through the point representing the star of Oborum.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 810
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: New Game Plus Skip
+    Entry:
+      TargetLanguage: English
+      Value: It is time to meet with the Hunter and the Emissary. I know the way.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 900
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player arrives at Oborum III-b
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 2000
+  Unknown: 171
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+    Note: Quest Complete
+    Entry:
+      TargetLanguage: English
+      Value: There are two ships at Oborum, the Scorpius and the Helix. They're hailing me.
+    StageCompleteDatas:
+    - QSRD: 0x01000000
+      RewardDatas:
+      - XpAwarded: 11C0DF:Starfield.esm
+        BonusCredits: Null
+    - QSRD: '[]'
+- Index: 3000
+  Flags:
+  - RunOnStop
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Run on Stop
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+Objectives:
+- Index: 10
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Talk to Keeper Aquilus
+  Targets:
+  - AliasID: 1
+- Index: 20
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Enter the Sanctum Universum
+  Targets:
+  - AliasID: 9
+- Index: 30
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Talk to Keeper Aquilus
+  Targets:
+  - AliasID: 1
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 2583F2:Starfield.esm
+        SecondParameter: 150
+      ComparisonValue: 1
+  - AliasID: 31
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 2583F2:Starfield.esm
+        SecondParameter: 150
+- Index: 40
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Talk to the House of Enlightenment
+  Targets:
+  - AliasID: 3
+- Index: 50
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Talk to the Va'ruun Prisoner
+  Targets:
+  - AliasID: 5
+- Index: 60
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Return to Keeper Aquilus
+  Targets:
+  - AliasID: 1
+- Index: 70
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Go to Indum II
+  Targets:
+  - AliasID: 19
+- Index: 72
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Go to "Pilgrim's Rest"
+  Targets:
+  - AliasID: 13
+- Index: 74
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Search for Clues on "Unity"
+  Targets:
+  - AliasID: 14
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 2583F2:Starfield.esm
+        SecondParameter: 605
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 2583F2:Starfield.esm
+        SecondParameter: 610
+  - AliasID: 22
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 2583F2:Starfield.esm
+        SecondParameter: 615
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 2583F2:Starfield.esm
+        SecondParameter: 620
+  - AliasID: 23
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 2583F2:Starfield.esm
+        SecondParameter: 625
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 2583F2:Starfield.esm
+        SecondParameter: 630
+  - AliasID: 24
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 2583F2:Starfield.esm
+        SecondParameter: 635
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 2583F2:Starfield.esm
+        SecondParameter: 640
+  - AliasID: 25
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 2583F2:Starfield.esm
+        SecondParameter: 645
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 2583F2:Starfield.esm
+        SecondParameter: 650
+  - AliasID: 13
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetIsCurrentLocationConditionData
+        RunOnType: Reference
+        Reference: 000014:Starfield.esm
+        FirstParameter: 224C09:Starfield.esm
+- Index: 75
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Access the Locked Room
+  Targets:
+  - AliasID: 20
+- Index: 77
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Search the Room
+  Targets:
+  - AliasID: 6
+- Index: 79
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Read "Pilgrim's Final Writing"
+- Index: 80
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Find the "Scorpion's Sting" on Hyla II
+  Targets:
+  - AliasID: 30
+- Index: 90
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Go to the Last Star of the Scorpius Constellation
+  Targets:
+  - AliasID: 28
+Aliases:
+- MutagenObjectType: QuestLocationAlias
+  ID: 32
+  Name: CityNewAtlantisLocation
+  Flags:
+  - AllowReserved
+  - AllowCleared
+  ALFG: 0
+  SpecificLocation: 01295A:Starfield.esm
+- MutagenObjectType: QuestLocationAlias
+  ID: 11
+  Name: POI070ScorpiousStatueLocation
+  Flags:
+  - AllowReserved
+  - AllowCleared
+  ALFG: 0
+  SpecificLocation: 246ADB:Starfield.esm
+- MutagenObjectType: QuestLocationAlias
+  ID: 10
+  Name: POI069WorldLocation
+  Flags:
+  - AllowReserved
+  - AllowCleared
+  ALFG: 0
+  SpecificLocation: 224C09:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  Name: MatteoKhatri
+  Flags:
+  - AllowReserved
+  ALFG: 0
+  UniqueActor: 00599F:Starfield.esm
+  PackageData:
+  - 223581:Starfield.esm
+  - 224F67:Starfield.esm
+  - 223582:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 1
+  Name: KeeperAquilus
+  Flags:
+  - AllowReserved
+  ALFG: 0
+  UniqueActor: 01E5D6:Starfield.esm
+  PackageData:
+  - 257EAB:Starfield.esm
+  - 257EAE:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 2
+  Name: WalterStroud
+  Flags:
+  - AllowReserved
+  ALFG: 0
+  UniqueActor: 005996:Starfield.esm
+  PackageData:
+  - 223580:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 3
+  Name: AndySingh
+  Flags:
+  - AllowReserved
+  ALFG: 0
+  UniqueActor: 012921:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 5
+  Name: Mirza
+  Flags:
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  UniqueActor: 2582B4:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 4
+  Name: Companion
+  Flags:
+  - Optional
+  - OptionalAllScenes
+  ALFG: 0
+  External:
+    Quest: 2A567C:Starfield.esm
+    AliasID: 0
+  VoiceTypes: 02935D:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  ID: 9
+  Name: SanctumMarker
+  Flags: []
+  ALFG: 0
+  ForcedReference: 223586:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 12
+  Name: PlayerShip
+  Flags:
+  - Optional
+  - ExternalAliasLinked
+  ALFG: 0
+  External:
+    Quest: 0174A2:Starfield.esm
+    AliasID: 0
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 13
+  Name: PilgrimMapMarker
+  Flags: []
+  ALFG: 0
+  ForcedReference: 246A8B:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 14
+  Name: PilgrimWriting01
+  Flags:
+  - QuestObject
+  ALFG: 0
+  Location:
+    AliasID: 10
+    RefType: 1941E4:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 22
+  Name: PilgrimWriting02
+  Flags:
+  - QuestObject
+  ALFG: 0
+  Location:
+    AliasID: 10
+    RefType: 1941E3:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 23
+  Name: PilgrimWriting03
+  Flags:
+  - QuestObject
+  ALFG: 0
+  Location:
+    AliasID: 10
+    RefType: 1941E2:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 24
+  Name: PilgrimWriting04
+  Flags:
+  - QuestObject
+  ALFG: 0
+  Location:
+    AliasID: 10
+    RefType: 1941E1:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 25
+  Name: PilgrimWriting05
+  Flags:
+  - QuestObject
+  ALFG: 0
+  Location:
+    AliasID: 10
+    RefType: 1941E0:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 20
+  Name: PilgrimTerminal
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 10
+    RefType: 1941CD:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 27
+  Name: PilgrimDoor
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 10
+    RefType: 1941CC:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 6
+  Name: AncientBook
+  Flags:
+  - QuestObject
+  ALFG: 0
+  Location:
+    AliasID: 10
+    RefType: 257EB2:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 19
+  Name: IndumIIArrivalMarker
+  Flags: []
+  ALFG: 0
+  ForcedReference: 1941CF:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 21
+  Name: Player
+  Flags:
+  - AllowReserved
+  ALFG: 0
+  UniqueActor: 000007:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 28
+  Name: OborumIIIArrivalMarker
+  Flags: []
+  ALFG: 0
+  ForcedReference: 220F4B:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 29
+  Name: HylaBoss
+  Flags:
+  - AllowDisabled
+  ALFG: 0
+  Location:
+    AliasID: 11
+    RefType: 3F4494:Starfield.esm
+  PackageData:
+  - 3F4495:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 30
+  Name: PuzzlePlatform
+  Flags:
+  - AllowDisabled
+  ALFG: 0
+  Location:
+    AliasID: 11
+    RefType: 3F44A3:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 31
+  Name: SanctumPlayerSeat
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 32
+    RefType: 1BEACD:Starfield.esm
+  VoiceTypes: Null

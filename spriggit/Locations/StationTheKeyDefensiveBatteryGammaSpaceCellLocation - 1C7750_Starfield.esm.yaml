@@ -1,6 +1,6 @@
 FormKey: 1C7750:Starfield.esm
 EditorID: StationTheKeyDefensiveBatteryGammaSpaceCellLocation
-FormVersion: 559
+FormVersion: 576
 AddedSpecialReferences:
 - LocationRefType: 1C71A7:Starfield.esm
   Marker: 167947:Starfield.esm
@@ -137,31 +137,14 @@ AddedInitiallyDisabledReferences:
 - 3E6065:Starfield.esm
 Name:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: Abwehrbatterie Gamma
-  - Language: English
-    String: Defensive Battery Gamma
-  - Language: Spanish
-    String: Batería defensiva gamma
-  - Language: French
-    String: Batterie défensive Gamma
-  - Language: Italian
-    String: Batteria difensiva gamma
-  - Language: Japanese
-    String: ガンマ砲
-  - Language: Polish
-    String: Bateria obronna gamma
-  - Language: Portuguese_Brazil
-    String: Bateria Defensiva Gama
-  - Language: ChineseSimplified
-    String: 伽马防御炮阵
+  Value: Defensive Battery Gamma
 Keywords:
 - 2253D1:Starfield.esm
 - 01674D:Starfield.esm
 - 08A8F9:Starfield.esm
-SystemLevel: 25
-UnknownDATA2: -256
+Faction:
+  SystemLevel: 25
+  UnknownDATA2: -256
 ParentLocation: 061569:Starfield.esm
 WorldLocationRadius: 0
 ActorFadeMult: 1

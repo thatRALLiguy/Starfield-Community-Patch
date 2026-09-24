@@ -1,5 +1,5 @@
 FormKey: 1E9F5B:Starfield.esm
-FormVersion: 559
+FormVersion: 576
 Flags: {}
 Responses:
 - Emotion: 0C8670:Starfield.esm
@@ -10,40 +10,20 @@ Responses:
     UnknownFloat: 2.1666667
   Text:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Wenn wir das nächste Mal anlegen, gehe ich.
-    - Language: English
-      String: The next time we arrive in port, I am leaving.
-    - Language: Spanish
-      String: Cuando lleguemos a otro puerto, me largo.
-    - Language: French
-      String: Je vous quitte au prochain port.
-    - Language: Italian
-      String: Al prossimo porto, le nostre strade si separeranno.
-    - Language: Japanese
-      String: 次の港に着いたら、私は降りる
-    - Language: Polish
-      String: Gdy zawiniemy do następnego portu, odejdę.
-    - Language: Portuguese_Brazil
-      String: Da próxima vez que chegarmos ao porto, eu vou te deixar.
-    - Language: ChineseSimplified
-      String: 抵达下个太空港的时候，我会离开。
+    Value: The next time we arrive in port, I am leaving.
   ScriptNotes: ''
   Edits: ''
   AlternateLipText: ''
   TextHash: 0x407537E34DEBD601
 Conditions:
 - MutagenObjectType: ConditionFloat
-  Unknown1: 0x000000
-  Unknown2: 16493
+  Unknown2: 16617
   Data:
     MutagenObjectType: LocationHasKeywordConditionData
     FirstParameter: 022611:Starfield.esm
 - MutagenObjectType: ConditionGlobal
   CompareOperator: NotEqualTo
-  Unknown1: 0x000000
-  Unknown2: 16493
+  Unknown2: 16617
   Data:
     MutagenObjectType: GetValueConditionData
     FirstParameter: 186898

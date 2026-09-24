@@ -1,5 +1,5 @@
 FormKey: 3298C4:Starfield.esm
-FormVersion: 559
+FormVersion: 576
 Flags:
   Flags:
   - Random
@@ -28,33 +28,14 @@ Responses:
     UnknownFloat: 28.666668
   Text:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: 'Du musst ... hier drin keinen Helm tragen. Das weißt du schon, oder? '
-    - Language: English
-      String: "You don't... need to wear your helmet in here. You know that, right? "
-    - Language: Spanish
-      String: 'No tienes por qué... ponerte el casco aquí. Eso ya lo sabías, ¿no? '
-    - Language: French
-      String: "Vous n'avez pas... besoin de porter de casque ici. Vous êtes au courant, j'espère ? "
-    - Language: Italian
-      String: 'Non... serve che indossi il casco qui. Lo sai, vero? '
-    - Language: Japanese
-      String: なあ… この中ではヘルメットをかぶらなくてもいいんだぞ。知ってる… よな？
-    - Language: Polish
-      String: 'Nie musisz... nosić tu hełmu. Wiesz o tym, prawda? '
-    - Language: Portuguese_Brazil
-      String: 'Você não... precisa usar capacete aqui. Você sabe disso, né? '
-    - Language: ChineseSimplified
-      String: '你……不需要在这戴头盔的。你知道的，对吧？ '
+    Value: "You don't... need to wear your helmet in here. You know that, right? "
   ScriptNotes: ''
   Edits: ''
   AlternateLipText: ''
   TextHash: 0x102E40238239D801
 Conditions:
 - MutagenObjectType: ConditionFloat
-  Unknown1: 0x000000
-  Unknown2: 16493
+  Unknown2: 16617
   Data:
     MutagenObjectType: IsTrueForConditionFormConditionData
     RunOnType: Reference
@@ -64,37 +45,32 @@ Conditions:
 - MutagenObjectType: ConditionFloat
   Flags:
   - OR
-  Unknown1: 0x000000
-  Unknown2: 16493
+  Unknown2: 16617
   Data:
     MutagenObjectType: GetIsVoiceTypeConditionData
-    FirstParameter: 2891D2:Starfield.esm
+    VoiceTypeOrList: 2891D2:Starfield.esm
   ComparisonValue: 1
 - MutagenObjectType: ConditionFloat
-  Unknown1: 0x000000
-  Unknown2: 16493
+  Unknown2: 16617
   Data:
     MutagenObjectType: GetIsVoiceTypeConditionData
-    FirstParameter: 2891D3:Starfield.esm
+    VoiceTypeOrList: 2891D3:Starfield.esm
   ComparisonValue: 1
 - MutagenObjectType: ConditionFloat
-  Unknown1: 0x000000
-  Unknown2: 16493
+  Unknown2: 16617
   Data:
     MutagenObjectType: IsInInteriorConditionData
     RunOnType: Reference
     Reference: 000014:Starfield.esm
   ComparisonValue: 1
 - MutagenObjectType: ConditionFloat
-  Unknown1: 0x000000
-  Unknown2: 16493
+  Unknown2: 16617
   Data:
     MutagenObjectType: IsTrueForConditionFormConditionData
     FirstParameter: 23C7B8:Starfield.esm
   ComparisonValue: 1
 - MutagenObjectType: ConditionFloat
-  Unknown1: 0x000000
-  Unknown2: 16493
+  Unknown2: 16617
   Data:
     MutagenObjectType: WornHasKeywordConditionData
     RunOnType: Reference
@@ -102,8 +78,7 @@ Conditions:
     FirstParameter: 23C7C1:Starfield.esm
   ComparisonValue: 1
 - MutagenObjectType: ConditionFloat
-  Unknown1: 0x000000
-  Unknown2: 16493
+  Unknown2: 16617
   Data:
     MutagenObjectType: IsTrueForConditionFormConditionData
     RunOnType: Reference

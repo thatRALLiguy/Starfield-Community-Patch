@@ -1,7 +1,7 @@
 FormKey: 214769:Starfield.esm
 MajorRecordFlagsRaw: 64
 EditorID: CF05_Spacesuit_SY920_PilotUniformArmor
-FormVersion: 559
+FormVersion: 576
 StarfieldMajorRecordFlags:
 - 0x40
 ObjectBounds:
@@ -13,25 +13,7 @@ Transforms:
   Workbench: 276B9B:Starfield.esm
 Name:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: 'Anzug: SY-920-Pilot'
-  - Language: English
-    String: SY-920 Pilot Spacesuit
-  - Language: Spanish
-    String: Traje espacial de piloto de la SY-920
-  - Language: French
-    String: Combinaison de pilote de SY-920
-  - Language: Italian
-    String: Tuta spaziale pilota SY-920
-  - Language: Japanese
-    String: SY-920パイロット用宇宙服
-  - Language: Polish
-    String: Skafander pilota SY-920
-  - Language: Portuguese_Brazil
-    String: Traje Espacial de Piloto SY-920
-  - Language: ChineseSimplified
-    String: SY-920飞行员宇航服
+  Value: SY-920 Pilot Spacesuit
 WorldModel:
   Male:
     File: SetDressing\SpaceSuitContainer_Green.nif
@@ -55,6 +37,7 @@ Keywords:
 - 30C1EF:Starfield.esm
 Description:
   TargetLanguage: English
+  Value: ''
 InstanceNaming: 184BC1:Starfield.esm
 Armatures:
 - AddonModel: 05954D:Starfield.esm

@@ -1,7 +1,7 @@
 FormKey: 2A9DE7:Starfield.esm
 MajorRecordFlagsRaw: 536870912
 EditorID: Chem_Squall
-FormVersion: 559
+FormVersion: 576
 StarfieldMajorRecordFlags:
 - 0x20000000
 ObjectBounds:
@@ -14,25 +14,7 @@ Transforms:
   Workbench: 03D204:Starfield.esm
 Name:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: Squall
-  - Language: English
-    String: Squall
-  - Language: Spanish
-    String: Borrasca
-  - Language: French
-    String: Bourrasque
-  - Language: Italian
-    String: Squall
-  - Language: Japanese
-    String: スコール
-  - Language: Polish
-    String: Szkwał
-  - Language: Portuguese_Brazil
-    String: Squall
-  - Language: ChineseSimplified
-    String: 狂飑
+  Value: Squall
 Keywords:
 - 0F4AE7:Starfield.esm
 - 184C3D:Starfield.esm
@@ -49,25 +31,7 @@ CraftingSound:
   Start: beb644dc-3806-fc10-b40a-1fd694f5d6b9
 Description:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: Ein starkes Kampfsteigerungsmittel. Macht extrem süchtig und wurde Gerüchten zufolge von der Crimson Fleet entwickelt.
-  - Language: English
-    String: A powerful combat enhancer. Dangerously addictive, and rumored to have been developed by the Crimson Fleet.
-  - Language: Spanish
-    String: Intenso potenciador de combate. Peligrosamente adictivo, se rumorea que lo ha desarrollado la Flota Carmesí.
-  - Language: French
-    String: Un puissant boost de combat. Très addictif, aurait été créé par la Flotte écarlate.
-  - Language: Italian
-    String: Un notevole potenziatore di combattimento. Crea una pericolosa dipendenza e pare sia stato sviluppato dalla Flotta Cremisi.
-  - Language: Japanese
-    String: 強力な戦闘能力向上薬。危険なほどに依存性が高く、紅の艦隊が開発したものと噂されている
-  - Language: Polish
-    String: Potężny wzmacniacz bojowy. Niebezpiecznie uzależniający. Podobno został opracowany przez Karmazynową Flotę.
-  - Language: Portuguese_Brazil
-    String: Um estimulante de combate poderoso. Perigosamente viciante. Dizem os boatos que foi desenvolvido pela Frota Escarlate.
-  - Language: ChineseSimplified
-    String: 一款强劲的战斗用增强药物，十分容易上瘾。据说由深红舰队开发。
+  Value: A powerful combat enhancer. Dangerously addictive, and rumored to have been developed by the Crimson Fleet.
 Weight: 0.1
 Value: 350
 Flags:
@@ -79,25 +43,7 @@ ConsumeSound:
   Start: 8cf04c5d-c356-4ba3-a202-018842a4c394
 AddictionName:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: Stimulanzien
-  - Language: English
-    String: Stimulants
-  - Language: Spanish
-    String: Estimulantes
-  - Language: French
-    String: Stimulants
-  - Language: Italian
-    String: Stimolanti
-  - Language: Japanese
-    String: 興奮剤
-  - Language: Polish
-    String: Stymulanty
-  - Language: Portuguese_Brazil
-    String: Estimulantes
-  - Language: ChineseSimplified
-    String: 刺激剂
+  Value: Stimulants
 Effects:
 - BaseEffect: 1253D5:Starfield.esm
   Data:

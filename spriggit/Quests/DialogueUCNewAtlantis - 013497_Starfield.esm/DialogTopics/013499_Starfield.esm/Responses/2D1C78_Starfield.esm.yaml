@@ -1,5 +1,5 @@
 FormKey: 2D1C78:Starfield.esm
-FormVersion: 559
+FormVersion: 576
 Flags:
   Flags:
   - Random
@@ -12,25 +12,7 @@ Responses:
     UnknownFloat: 0.033333335
   Text:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Diese Kreaturen haben UC-Bürger getötet. Das passiert nie wieder.
-    - Language: English
-      String: Those creatures killed UC citizens. They're not killing any more.
-    - Language: Spanish
-      String: Esas criaturas mataron a ciudadanos de las CU. Ya no volverá a pasar.
-    - Language: French
-      String: Ces créatures ont tué des citoyens de l'UC. Elles ne tueront plus personne.
-    - Language: Italian
-      String: Quelle creature hanno ucciso i cittadini dell’UC. Ora non uccideranno più nessuno.
-    - Language: Japanese
-      String: UCの市民を殺した生物が、もう市民を殺すことはない
-    - Language: Polish
-      String: Te stwory zabiły obywateli ZK. Nie zabiją ich więcej.
-    - Language: Portuguese_Brazil
-      String: Aquelas criaturas mataram cidadãos da UC. Não vão mais matar ninguém.
-    - Language: ChineseSimplified
-      String: 那些生物杀死了联殖公民。它们不会再杀人了。
+    Value: Those creatures killed UC citizens. They're not killing any more.
   ScriptNotes: There was a major alien attack on the city. You're angry that it happened on your watch.
   Edits: ''
   AlternateLipText: ''

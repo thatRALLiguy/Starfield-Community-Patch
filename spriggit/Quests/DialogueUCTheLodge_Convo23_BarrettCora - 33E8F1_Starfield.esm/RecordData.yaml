@@ -1,0 +1,71 @@
+FormKey: 33E8F1:Starfield.esm
+EditorID: DialogueUCTheLodge_Convo23_BarrettCora
+FormVersion: 576
+Data:
+  Flags:
+  - 0x200000
+  Priority: 15
+  Unused: 0x000000
+Event: ADIA
+Location: 01295A:Starfield.esm
+UnusedConditions: []
+Aliases:
+- MutagenObjectType: QuestReferenceAlias
+  ID: 3
+  Name: Companion
+  Flags:
+  - Optional
+  ALFG: 0
+  External:
+    Quest: 2A567C:Starfield.esm
+    AliasID: 0
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  Name: Barrett
+  Flags:
+  - MatchingRefInLoadedArea
+  - MatchingRefForActorsOnly
+  ALFG: 0
+  Conditions:
+  - MutagenObjectType: ConditionGlobal
+    CompareOperator: LessThan
+    Data:
+      MutagenObjectType: GetDistanceConditionData
+      UseAliases: True
+      FirstParameter: 4294967294
+    ComparisonValue: 25D171:Starfield.esm
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      FirstParameter: 005787:Starfield.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: ActorPackageHasRandomConversationsFlagOnConditionData
+    ComparisonValue: 1
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 4
+  Name: Cora
+  Flags:
+  - MatchingRefInLoadedArea
+  - MatchingRefForActorsOnly
+  ALFG: 0
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: ActorPackageHasRandomConversationsFlagOnConditionData
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: LessThan
+    Data:
+      MutagenObjectType: GetDistanceConditionData
+      UseAliases: True
+    ComparisonValue: 20
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      FirstParameter: 00D653:Starfield.esm
+    ComparisonValue: 1
+  VoiceTypes: Null
+Unknown: 2

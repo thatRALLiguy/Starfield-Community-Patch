@@ -1,0 +1,24 @@
+FormKey: 0CBAA8:Starfield.esm
+EditorID: COM_CREW_CND_Comment_TemperatureCommentsAllowed
+FormVersion: 576
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Unknown2: 16617
+  Data:
+    MutagenObjectType: LocationHasKeywordConditionData
+    FirstParameter: 0141F2:Starfield.esm
+- MutagenObjectType: ConditionFloat
+  Unknown2: 16617
+  Data:
+    MutagenObjectType: LocationHasKeywordConditionData
+    FirstParameter: 022611:Starfield.esm
+- MutagenObjectType: ConditionFloat
+  Unknown2: 16617
+  Data:
+    MutagenObjectType: LocationHasKeywordConditionData
+    FirstParameter: 0234F1:Starfield.esm
+- MutagenObjectType: ConditionFloat
+  Unknown2: 16617
+  Data:
+    MutagenObjectType: IsTrueForConditionFormConditionData
+    FirstParameter: 23C7CA:Starfield.esm

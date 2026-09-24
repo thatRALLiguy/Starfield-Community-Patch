@@ -1,0 +1,49 @@
+FormKey: 3E9710:Starfield.esm
+EditorID: CompanionConversationsQuests
+FormVersion: 576
+Parent: 3E970F:Starfield.esm
+PreviousSibling: Null
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Unknown2: 17679
+  Data:
+    MutagenObjectType: GetQuestRunningConditionData
+    FirstParameter: 2C6D74:Starfield.esm
+- MutagenObjectType: ConditionFloat
+  Unknown2: 17679
+  Data:
+    MutagenObjectType: GetEventDataConditionData
+    Member: OldLocation
+    Record: 39A3B1:Starfield.esm
+Flags:
+- Random
+QuestFlags:
+- DoAllBeforeRepeating
+- NumQuestsToRun
+MaxConcurrentQuests: 1
+MaxNumQuestsToRun: 1
+Quests:
+- Quest: 0626EC:Starfield.esm
+- Quest: 06CF2F:Starfield.esm
+- Quest: 06CF30:Starfield.esm
+- Quest: 06CF36:Starfield.esm
+- Quest: 06CF31:Starfield.esm
+- Quest: 06CF35:Starfield.esm
+- Quest: 33E8F6:Starfield.esm
+- Quest: 33E8F5:Starfield.esm
+- Quest: 33E8F4:Starfield.esm
+- Quest: 33E8F3:Starfield.esm
+- Quest: 155D13:Starfield.esm
+- Quest: 169E69:Starfield.esm
+- Quest: 0DF31A:Starfield.esm
+- Quest: 0DF31B:Starfield.esm
+- Quest: 0DF31E:Starfield.esm
+- Quest: 0DF317:Starfield.esm
+- Quest: 0DF31C:Starfield.esm
+- Quest: 0DF31D:Starfield.esm
+- Quest: 12DFBB:Starfield.esm
+- Quest: 12DFA1:Starfield.esm
+- Quest: 12DFA4:Starfield.esm
+- Quest: 12DFB9:Starfield.esm
+- Quest: 12DFB7:Starfield.esm
+- Quest: 12DFA5:Starfield.esm

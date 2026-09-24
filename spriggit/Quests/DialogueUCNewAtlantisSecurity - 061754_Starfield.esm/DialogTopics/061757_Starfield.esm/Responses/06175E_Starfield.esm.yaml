@@ -1,5 +1,5 @@
 FormKey: 06175E:Starfield.esm
-FormVersion: 559
+FormVersion: 576
 Flags:
   Flags:
   - Random
@@ -25,25 +25,7 @@ Responses:
     UnknownFloat: 6.966667
   Text:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Mach bloß keinen Ärger.
-    - Language: English
-      String: Better not start any trouble.
-    - Language: Spanish
-      String: Mejor que no des problemas.
-    - Language: French
-      String: Ne nous créez pas d'ennuis.
-    - Language: Italian
-      String: Non combinare guai.
-    - Language: Japanese
-      String: 面倒は起こさない方がいい
-    - Language: Polish
-      String: Lepiej nie rób problemów.
-    - Language: Portuguese_Brazil
-      String: Melhor não criar confusão.
-    - Language: ChineseSimplified
-      String: 最好别惹麻烦。
+    Value: Better not start any trouble.
   ScriptNotes: ''
   Edits: ''
   AlternateLipText: ''
@@ -51,8 +33,7 @@ Responses:
 Conditions:
 - MutagenObjectType: ConditionFloat
   CompareOperator: GreaterThanOrEqualTo
-  Unknown1: 0x000000
-  Unknown2: 16493
+  Unknown2: 16617
   Data:
     MutagenObjectType: IsWeaponOutConditionData
     RunOnType: Reference

@@ -1,0 +1,550 @@
+FormKey: 000CF4:SFBGS003.esm
+EditorID: SFBGS003_DialogueTAHQ
+FormVersion: 576
+VirtualMachineAdapter:
+  Scripts:
+  - Name: dlc03:sfbgs003questastraexchangescript
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SFBGS003_AstrasErrorMSG
+      Object: 00E2F7:SFBGS003.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SFBGS003_LL_Astras_1Star
+      Object: 2F097C:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SFBGS003_Astras_MedAmount
+      Object: 00E2F1:SFBGS003.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SFBGS003_Astras_SmallAmount
+      Object: 00E2F0:SFBGS003.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SFBGS003_Astras_LargeAmount
+      Object: 00E2F2:SFBGS003.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SFBGS003_LL_Astras_2Star
+      Object: 2F097D:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SFBGS003_LL_Astras_3Star
+      Object: 2F09A2:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Astra
+      Object: 2EE741:Starfield.esm
+  - Name: defaultquestdistancecheckscript
+    Properties:
+    - MutagenObjectType: ScriptStructListProperty
+      Name: DistanceCheckStages
+      Structs:
+      - Members:
+        - MutagenObjectType: ScriptFloatProperty
+          Name: TargetDistance
+          Data: 10
+        - MutagenObjectType: ScriptIntProperty
+          Name: TurnOffStage
+          Data: 50
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TargetAlias
+          Object: 000CF4:SFBGS003.esm
+          Alias: 1
+        - MutagenObjectType: ScriptIntProperty
+          Name: StageToSet
+          Data: 50
+  Script:
+    Name: Fragments:Quests:QF_SFBGS003_DialogueTAHQ_02000CF4
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DialogueTAHQ_IntroScene01
+      Object: 001200:SFBGS003.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SFBGS003_MiscPointer
+      Object: 000CF2:SFBGS003.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_AgentNo1
+      Object: 000CF4:SFBGS003.esm
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: TRAIT_StarterHome
+      Object: 227FDF:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: BackgroundBountyHunter
+      Object: 22EC80:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SFBGS003_TrackersAllianceSupportQuest
+      Object: 000CF5:SFBGS003.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Roach
+      Object: 000CF4:SFBGS003.esm
+      Alias: 4
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Trait_KidStuff
+      Object: 227FDE:Starfield.esm
+    - MutagenObjectType: ScriptObjectListProperty
+      Name: PlayerTrackerNameData
+      Objects:
+      - Name: ''
+      - Name: ''
+        Object: 000EAE:SFBGS003.esm
+      - Name: ''
+        Object: 000EAC:SFBGS003.esm
+      - Name: ''
+        Object: 000EB3:SFBGS003.esm
+      - Name: ''
+        Object: 000EAB:SFBGS003.esm
+      - Name: ''
+        Object: 000EB4:SFBGS003.esm
+      - Name: ''
+        Object: 000EB1:SFBGS003.esm
+      - Name: ''
+        Object: 000EAF:SFBGS003.esm
+      - Name: ''
+        Object: 000EB0:SFBGS003.esm
+      - Name: ''
+        Object: 000EB2:SFBGS003.esm
+      - Name: ''
+        Object: 000EAD:SFBGS003.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Inevitable
+      Object: 000CF4:SFBGS003.esm
+      Alias: 3
+  Fragments:
+  - Stage: 50
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_SFBGS003_DialogueTAHQ_02000CF4
+    FragmentName: Fragment_Stage_0050_Item_00
+  - Stage: 305
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_SFBGS003_DialogueTAHQ_02000CF4
+    FragmentName: Fragment_Stage_0305_Item_00
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_SFBGS003_DialogueTAHQ_02000CF4
+    FragmentName: Fragment_Stage_0010_Item_00
+  - Stage: 9999
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_SFBGS003_DialogueTAHQ_02000CF4
+    FragmentName: Fragment_Stage_9999_Item_00
+  - Stage: 100
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_SFBGS003_DialogueTAHQ_02000CF4
+    FragmentName: Fragment_Stage_0100_Item_00
+  - Stage: 51
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_SFBGS003_DialogueTAHQ_02000CF4
+    FragmentName: Fragment_Stage_0051_Item_00
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 000CF4:SFBGS003.esm
+      Alias: 4
+    Scripts:
+    - Name: SFCP:RoachAliasScript
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SFBGS003_Bounties_Total
+        Object: 004CAE:SFBGS003.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SFBGS003_DialogueTAHQ
+        Object: 000CF4:SFBGS003.esm
+Name:
+  TargetLanguage: English
+  Value: '[ Trackers Alliance HQ Dialogue ]'
+Data:
+  Flags:
+  - RunOnce
+  - WarnOnAliasFillFailure
+  - 0x10000
+  Priority: 30
+  Unused: 0x000000
+Event: CLOC
+Location: 000CA1:SFBGS003.esm
+TextDisplayGlobals:
+- 004CAE:SFBGS003.esm
+- 00E2F2:SFBGS003.esm
+- 00E2F1:SFBGS003.esm
+- 00E2F0:SFBGS003.esm
+Summary: The new Trackers Alliance HQ is in the heart of Akila City. Thematically, it's somewhere between an air-force bar and a hunting lodge, if the quarries were other people. Several Trackers hang out inside, dispensing wisdom and telling stories. There is an upstairs area accessible to anyone, and a lower basement lounge area that is only for official Trackers.
+UnusedConditions: []
+Stages:
+- Index: 1
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'DEBUG: Skips Intro Scene when set'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 10
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'DEBUG: Move Player to Trackers Alliance HQ and give them skills to test dialogue'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 50
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Start Intro scene
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 51
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Roach walks away
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 60
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Intro scene ended
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 100
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Agent No 1 finished greeting
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 101
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player spoke to Agent No. 1, who is pleased they arrived.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 102
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Agent No. 1 asked the player if they have any questions
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 110
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player asked Agent No 1 about theirself
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 120
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Agent No 1 finished their greeting
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 200
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Bloodhound -  finished greeting
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 210
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Bloodhound - Talked about himself
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 220
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Bloodhound - Talked about his morality
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 300
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Inevitable - finished greeting
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 301
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Inevitable - Admits the player is hard to find
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 305
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Inevitable - Gave her name
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 310
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Inevitable - Talked about herself
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 320
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Inevitable - Told player she's been at this for a long time
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 330
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Inevitable - Tells the player she takes on elusive targets
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 400
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Koios - Finished Greeting
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 500
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Roach - finished greeting
+    ScriptFlagComment: Set by SFBGS003_SFTA00
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 501
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Roach - Declined to talk about himself yet
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 510
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Roach - Talked about competition
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 600
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Stache - finished greeting
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 604
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Stache - Mentions he was a loose cannon
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 610
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Stache - TwoShot mentioned he likes Tracker History
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 620
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Stache - Mentions that Astras are out there
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 700
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Tank - finished greeting
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 701
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Tank - Mentioned other Trackers think he's soft
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 800
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: TwoShot - finished greeting
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 900
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Yama - finished greeting
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 901
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Yama - Greeting checkpoint
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 903
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Yama - gives player advice
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 9999
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Set Player's Tracker name on SFBGS003_TrackersAllianceSupportQuest
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+Aliases:
+- MutagenObjectType: QuestLocationAlias
+  Name: TAHQ
+  Flags:
+  - AllowReserved
+  - AllowCleared
+  ALFG: 0
+  SpecificLocation: 000CA1:SFBGS003.esm
+- MutagenObjectType: QuestReferenceAlias
+  ID: 1
+  Name: AgentNo1
+  Flags:
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  UniqueActor: 000E93:SFBGS003.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 2
+  Name: Bloodhound
+  Flags:
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  UniqueActor: 000E90:SFBGS003.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 3
+  Name: Inevitable
+  Flags:
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  UniqueActor: 000E94:SFBGS003.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 11
+  Name: KoiOS
+  Flags:
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  UniqueActor: 000007:SFBGS003.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 4
+  Name: Roach
+  Flags:
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  UniqueActor: 000E97:SFBGS003.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 12
+  Name: Stache
+  Flags:
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  UniqueActor: 004CB0:SFBGS003.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 5
+  Name: Tank
+  Flags:
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  UniqueActor: 000E99:SFBGS003.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 6
+  Name: TwoShot
+  Flags:
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  UniqueActor: 000E9A:SFBGS003.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 7
+  Name: Yama
+  Flags:
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  UniqueActor: 000E9C:SFBGS003.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 14
+  Name: Warden
+  Flags:
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  UniqueActor: 00F35F:SFBGS003.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 10
+  Name: PlayerTrackerNameMarker
+  Flags:
+  - AllowDisabled
+  - StoresText
+  - AllowReserved
+  - ExternalAliasLinked
+  ALFG: 0
+  External:
+    Quest: 000CF5:SFBGS003.esm
+    AliasID: 2
+  VoiceTypes: Null

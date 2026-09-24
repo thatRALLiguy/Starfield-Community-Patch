@@ -1,7 +1,7 @@
 FormKey: 21D059:Starfield.esm
 MajorRecordFlagsRaw: 4
 EditorID: MagPerk_GRUNT
-FormVersion: 559
+FormVersion: 576
 StarfieldMajorRecordFlags:
 - NotPlayable
 VirtualMachineAdapter:
@@ -19,27 +19,10 @@ VirtualMachineAdapter:
       FragmentName: Fragment_Entry_00
 Name:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: 'Magazin-Skill: GRUNT'
-  - Language: English
-    String: GRUNT Magazine Perk
-  - Language: Spanish
-    String: 'Ventaja de revista: MACHACA'
-  - Language: French
-    String: 'Atout de magazine : Catalogue GRUNT'
-  - Language: Italian
-    String: Rivista abilità RECLUTA!
-  - Language: Japanese
-    String: GRUNT誌Perk
-  - Language: Polish
-    String: Profit z magazynu ŻOŁNIERZ
-  - Language: Portuguese_Brazil
-    String: 'Bônus de Revista: RECRUTA'
-  - Language: ChineseSimplified
-    String: 步兵弹匣辅助能力
+  Value: GRUNT Magazine Perk
 Description:
   TargetLanguage: English
+  Value: ''
 Flags:
 - PcPlayable
 - 0x20
@@ -50,8 +33,7 @@ Ranks:
     Conditions:
     - Conditions:
       - MutagenObjectType: ConditionFloat
-        Unknown1: 0x000000
-        Unknown2: 16612
+        Unknown2: 16618
         Data:
           MutagenObjectType: GetPerkRankConditionData
           FirstParameter: 21D059:Starfield.esm
@@ -59,8 +41,7 @@ Ranks:
     - RunOnTabIndex: 1
       Conditions:
       - MutagenObjectType: ConditionFloat
-        Unknown1: 0x000000
-        Unknown2: 16612
+        Unknown2: 16618
         Data:
           MutagenObjectType: HasKeywordConditionData
           FirstParameter: 092A86:Starfield.esm
@@ -72,25 +53,7 @@ Ranks:
     Value: 1.05
   Description:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Kritische Treffer mit ballistischen Waffen verursachen dauerhaft 5 % zusätzlich mehr Schaden.
-    - Language: English
-      String: Ballistic weapons permanently do an additional 5% critical damage.
-    - Language: Spanish
-      String: Las armas balísticas infligen un 5 % más de daño crítico adicional permanentemente.
-    - Language: French
-      String: Augmente de façon permanente les dégâts critiques des armes balistiques de 5 % supplémentaires.
-    - Language: Italian
-      String: I danni critici delle armi balistiche aumentano di un ulteriore 5%.
-    - Language: Japanese
-      String: バリスティック兵器のクリティカルダメージが恒久的に追加で5%増加する
-    - Language: Polish
-      String: Broń balistyczna trwale zadaje dodatkowe 5% obrażeń krytycznych.
-    - Language: Portuguese_Brazil
-      String: Aumenta permanentemente em mais 5% o dano crítico causado por armas balísticas.
-    - Language: ChineseSimplified
-      String: 弹道武器造成的暴击伤害永久额外提升5%。
+    Value: Ballistic weapons permanently do an additional 5% critical damage.
 - Effects:
   - MutagenObjectType: PerkEntryPointModifyValue
     Rank: 1
@@ -98,8 +61,7 @@ Ranks:
     Conditions:
     - Conditions:
       - MutagenObjectType: ConditionFloat
-        Unknown1: 0x000000
-        Unknown2: 16612
+        Unknown2: 16618
         Data:
           MutagenObjectType: GetPerkRankConditionData
           FirstParameter: 21D059:Starfield.esm
@@ -107,8 +69,7 @@ Ranks:
     - RunOnTabIndex: 1
       Conditions:
       - MutagenObjectType: ConditionFloat
-        Unknown1: 0x000000
-        Unknown2: 16612
+        Unknown2: 16618
         Data:
           MutagenObjectType: HasKeywordConditionData
           FirstParameter: 092A86:Starfield.esm
@@ -120,25 +81,7 @@ Ranks:
     Value: 1.1
   Description:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Kritische Treffer mit ballistischen Waffen verursachen dauerhaft 5 % zusätzlich mehr Schaden.
-    - Language: English
-      String: Ballistic weapons permanently do an additional 5% critical damage.
-    - Language: Spanish
-      String: Las armas balísticas infligen un 5 % más de daño crítico adicional permanentemente.
-    - Language: French
-      String: Augmente de façon permanente les dégâts critiques des armes balistiques de 5 % supplémentaires.
-    - Language: Italian
-      String: I danni critici delle armi balistiche aumentano di un ulteriore 5%.
-    - Language: Japanese
-      String: バリスティック兵器のクリティカルダメージが恒久的に追加で5%増加する
-    - Language: Polish
-      String: Broń balistyczna trwale zadaje dodatkowe 5% obrażeń krytycznych.
-    - Language: Portuguese_Brazil
-      String: Aumenta permanentemente em mais 5% o dano crítico causado por armas balísticas.
-    - Language: ChineseSimplified
-      String: 弹道武器造成的暴击伤害永久额外提升5%。
+    Value: Ballistic weapons permanently do an additional 5% critical damage.
 - Effects:
   - MutagenObjectType: PerkEntryPointModifyValue
     Rank: 2
@@ -146,8 +89,7 @@ Ranks:
     Conditions:
     - Conditions:
       - MutagenObjectType: ConditionFloat
-        Unknown1: 0x000000
-        Unknown2: 16612
+        Unknown2: 16618
         Data:
           MutagenObjectType: GetPerkRankConditionData
           FirstParameter: 21D059:Starfield.esm
@@ -155,8 +97,7 @@ Ranks:
     - RunOnTabIndex: 1
       Conditions:
       - MutagenObjectType: ConditionFloat
-        Unknown1: 0x000000
-        Unknown2: 16612
+        Unknown2: 16618
         Data:
           MutagenObjectType: HasKeywordConditionData
           FirstParameter: 092A86:Starfield.esm
@@ -168,25 +109,7 @@ Ranks:
     Value: 1.15
   Description:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Kritische Treffer mit ballistischen Waffen verursachen dauerhaft 5 % zusätzlich mehr Schaden.
-    - Language: English
-      String: Ballistic weapons permanently do an additional 5% critical damage.
-    - Language: Spanish
-      String: Las armas balísticas infligen un 5 % más de daño crítico adicional permanentemente.
-    - Language: French
-      String: Augmente de façon permanente les dégâts critiques des armes balistiques de 5 % supplémentaires.
-    - Language: Italian
-      String: I danni critici delle armi balistiche aumentano di un ulteriore 5%.
-    - Language: Japanese
-      String: バリスティック兵器のクリティカルダメージが恒久的に追加で5%増加する
-    - Language: Polish
-      String: Broń balistyczna trwale zadaje dodatkowe 5% obrażeń krytycznych.
-    - Language: Portuguese_Brazil
-      String: Aumenta permanentemente em mais 5% o dano crítico causado por armas balísticas.
-    - Language: ChineseSimplified
-      String: 弹道武器造成的暴击伤害永久额外提升5%。
+    Value: Ballistic weapons permanently do an additional 5% critical damage.
 - Effects:
   - MutagenObjectType: PerkEntryPointModifyValue
     Rank: 3
@@ -194,8 +117,7 @@ Ranks:
     Conditions:
     - Conditions:
       - MutagenObjectType: ConditionFloat
-        Unknown1: 0x000000
-        Unknown2: 16612
+        Unknown2: 16618
         Data:
           MutagenObjectType: GetPerkRankConditionData
           FirstParameter: 21D059:Starfield.esm
@@ -203,8 +125,7 @@ Ranks:
     - RunOnTabIndex: 1
       Conditions:
       - MutagenObjectType: ConditionFloat
-        Unknown1: 0x000000
-        Unknown2: 16612
+        Unknown2: 16618
         Data:
           MutagenObjectType: HasKeywordConditionData
           FirstParameter: 092A86:Starfield.esm
@@ -216,25 +137,7 @@ Ranks:
     Value: 1.2
   Description:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Kritische Treffer mit ballistischen Waffen verursachen dauerhaft 5 % zusätzlich mehr Schaden.
-    - Language: English
-      String: Ballistic weapons permanently do an additional 5% critical damage.
-    - Language: Spanish
-      String: Las armas balísticas infligen un 5 % más de daño crítico adicional permanentemente.
-    - Language: French
-      String: Augmente de façon permanente les dégâts critiques des armes balistiques de 5 % supplémentaires.
-    - Language: Italian
-      String: I danni critici delle armi balistiche aumentano di un ulteriore 5%.
-    - Language: Japanese
-      String: バリスティック兵器のクリティカルダメージが恒久的に追加で5%増加する
-    - Language: Polish
-      String: Broń balistyczna trwale zadaje dodatkowe 5% obrażeń krytycznych.
-    - Language: Portuguese_Brazil
-      String: Aumenta permanentemente em mais 5% o dano crítico causado por armas balísticas.
-    - Language: ChineseSimplified
-      String: 弹道武器造成的暴击伤害永久额外提升5%。
+    Value: Ballistic weapons permanently do an additional 5% critical damage.
 - Effects:
   - MutagenObjectType: PerkEntryPointModifyValue
     Rank: 4
@@ -242,8 +145,7 @@ Ranks:
     Conditions:
     - Conditions:
       - MutagenObjectType: ConditionFloat
-        Unknown1: 0x000000
-        Unknown2: 16612
+        Unknown2: 16618
         Data:
           MutagenObjectType: GetPerkRankConditionData
           FirstParameter: 21D059:Starfield.esm
@@ -251,8 +153,7 @@ Ranks:
     - RunOnTabIndex: 1
       Conditions:
       - MutagenObjectType: ConditionFloat
-        Unknown1: 0x000000
-        Unknown2: 16612
+        Unknown2: 16618
         Data:
           MutagenObjectType: HasKeywordConditionData
           FirstParameter: 092A86:Starfield.esm
@@ -264,25 +165,7 @@ Ranks:
     Value: 1.25
   Description:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Kritische Treffer mit ballistischen Waffen verursachen dauerhaft 5 % zusätzlich mehr Schaden.
-    - Language: English
-      String: Ballistic weapons permanently do an additional 5% critical damage.
-    - Language: Spanish
-      String: Las armas balísticas infligen un 5 % más de daño crítico adicional permanentemente.
-    - Language: French
-      String: Augmente de façon permanente les dégâts critiques des armes balistiques de 5 % supplémentaires.
-    - Language: Italian
-      String: I danni critici delle armi balistiche aumentano di un ulteriore 5%.
-    - Language: Japanese
-      String: バリスティック兵器のクリティカルダメージが恒久的に追加で5%増加する
-    - Language: Polish
-      String: Broń balistyczna trwale zadaje dodatkowe 5% obrażeń krytycznych.
-    - Language: Portuguese_Brazil
-      String: Aumenta permanentemente em mais 5% o dano crítico causado por armas balísticas.
-    - Language: ChineseSimplified
-      String: 弹道武器造成的暴击伤害永久额外提升5%。
+    Value: Ballistic weapons permanently do an additional 5% critical damage.
 - Effects:
   - MutagenObjectType: PerkEntryPointModifyValue
     Rank: 5
@@ -290,8 +173,7 @@ Ranks:
     Conditions:
     - Conditions:
       - MutagenObjectType: ConditionFloat
-        Unknown1: 0x000000
-        Unknown2: 16612
+        Unknown2: 16618
         Data:
           MutagenObjectType: GetPerkRankConditionData
           FirstParameter: 21D059:Starfield.esm
@@ -299,8 +181,7 @@ Ranks:
     - RunOnTabIndex: 1
       Conditions:
       - MutagenObjectType: ConditionFloat
-        Unknown1: 0x000000
-        Unknown2: 16612
+        Unknown2: 16618
         Data:
           MutagenObjectType: HasKeywordConditionData
           FirstParameter: 092A86:Starfield.esm
@@ -312,25 +193,7 @@ Ranks:
     Value: 1.3
   Description:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Kritische Treffer mit ballistischen Waffen verursachen dauerhaft 5 % zusätzlich mehr Schaden.
-    - Language: English
-      String: Ballistic weapons permanently do an additional 5% critical damage.
-    - Language: Spanish
-      String: Las armas balísticas infligen un 5 % más de daño crítico adicional permanentemente.
-    - Language: French
-      String: Augmente de façon permanente les dégâts critiques des armes balistiques de 5 % supplémentaires.
-    - Language: Italian
-      String: I danni critici delle armi balistiche aumentano di un ulteriore 5%.
-    - Language: Japanese
-      String: バリスティック兵器のクリティカルダメージが恒久的に追加で5%増加する
-    - Language: Polish
-      String: Broń balistyczna trwale zadaje dodatkowe 5% obrażeń krytycznych.
-    - Language: Portuguese_Brazil
-      String: Aumenta permanentemente em mais 5% o dano crítico causado por armas balísticas.
-    - Language: ChineseSimplified
-      String: 弹道武器造成的暴击伤害永久额外提升5%。
+    Value: Ballistic weapons permanently do an additional 5% critical damage.
 - Effects:
   - MutagenObjectType: PerkEntryPointModifyValue
     Rank: 6
@@ -338,8 +201,7 @@ Ranks:
     Conditions:
     - Conditions:
       - MutagenObjectType: ConditionFloat
-        Unknown1: 0x000000
-        Unknown2: 16612
+        Unknown2: 16618
         Data:
           MutagenObjectType: GetPerkRankConditionData
           FirstParameter: 21D059:Starfield.esm
@@ -347,8 +209,7 @@ Ranks:
     - RunOnTabIndex: 1
       Conditions:
       - MutagenObjectType: ConditionFloat
-        Unknown1: 0x000000
-        Unknown2: 16612
+        Unknown2: 16618
         Data:
           MutagenObjectType: HasKeywordConditionData
           FirstParameter: 092A86:Starfield.esm
@@ -360,25 +221,7 @@ Ranks:
     Value: 1.35
   Description:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Kritische Treffer mit ballistischen Waffen verursachen dauerhaft 5 % zusätzlich mehr Schaden.
-    - Language: English
-      String: Ballistic weapons permanently do an additional 5% critical damage.
-    - Language: Spanish
-      String: Las armas balísticas infligen un 5 % más de daño crítico adicional permanentemente.
-    - Language: French
-      String: Augmente de façon permanente les dégâts critiques des armes balistiques de 5 % supplémentaires.
-    - Language: Italian
-      String: I danni critici delle armi balistiche aumentano di un ulteriore 5%.
-    - Language: Japanese
-      String: バリスティック兵器のクリティカルダメージが恒久的に追加で5%増加する
-    - Language: Polish
-      String: Broń balistyczna trwale zadaje dodatkowe 5% obrażeń krytycznych.
-    - Language: Portuguese_Brazil
-      String: Aumenta permanentemente em mais 5% o dano crítico causado por armas balísticas.
-    - Language: ChineseSimplified
-      String: 弹道武器造成的暴击伤害永久额外提升5%。
+    Value: Ballistic weapons permanently do an additional 5% critical damage.
 - Effects:
   - MutagenObjectType: PerkEntryPointModifyValue
     Rank: 7
@@ -386,8 +229,7 @@ Ranks:
     Conditions:
     - Conditions:
       - MutagenObjectType: ConditionFloat
-        Unknown1: 0x000000
-        Unknown2: 16612
+        Unknown2: 16618
         Data:
           MutagenObjectType: GetPerkRankConditionData
           FirstParameter: 21D059:Starfield.esm
@@ -395,8 +237,7 @@ Ranks:
     - RunOnTabIndex: 1
       Conditions:
       - MutagenObjectType: ConditionFloat
-        Unknown1: 0x000000
-        Unknown2: 16612
+        Unknown2: 16618
         Data:
           MutagenObjectType: HasKeywordConditionData
           FirstParameter: 092A86:Starfield.esm
@@ -408,25 +249,7 @@ Ranks:
     Value: 1.4
   Description:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Kritische Treffer mit ballistischen Waffen verursachen dauerhaft 5 % zusätzlich mehr Schaden.
-    - Language: English
-      String: Ballistic weapons permanently do an additional 5% critical damage.
-    - Language: Spanish
-      String: Las armas balísticas infligen un 5 % más de daño crítico adicional permanentemente.
-    - Language: French
-      String: Augmente de façon permanente les dégâts critiques des armes balistiques de 5 % supplémentaires.
-    - Language: Italian
-      String: I danni critici delle armi balistiche aumentano di un ulteriore 5%.
-    - Language: Japanese
-      String: バリスティック兵器のクリティカルダメージが恒久的に追加で5%増加する
-    - Language: Polish
-      String: Broń balistyczna trwale zadaje dodatkowe 5% obrażeń krytycznych.
-    - Language: Portuguese_Brazil
-      String: Aumenta permanentemente em mais 5% o dano crítico causado por armas balísticas.
-    - Language: ChineseSimplified
-      String: 弹道武器造成的暴击伤害永久额外提升5%。
+    Value: Ballistic weapons permanently do an additional 5% critical damage.
 - Effects:
   - MutagenObjectType: PerkEntryPointModifyValue
     Rank: 8
@@ -434,8 +257,7 @@ Ranks:
     Conditions:
     - Conditions:
       - MutagenObjectType: ConditionFloat
-        Unknown1: 0x000000
-        Unknown2: 16612
+        Unknown2: 16618
         Data:
           MutagenObjectType: GetPerkRankConditionData
           FirstParameter: 21D059:Starfield.esm
@@ -443,8 +265,7 @@ Ranks:
     - RunOnTabIndex: 1
       Conditions:
       - MutagenObjectType: ConditionFloat
-        Unknown1: 0x000000
-        Unknown2: 16612
+        Unknown2: 16618
         Data:
           MutagenObjectType: HasKeywordConditionData
           FirstParameter: 092A86:Starfield.esm
@@ -456,25 +277,7 @@ Ranks:
     Value: 1.45
   Description:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Kritische Treffer mit ballistischen Waffen verursachen dauerhaft 5 % zusätzlich mehr Schaden.
-    - Language: English
-      String: Ballistic weapons permanently do an additional 5% critical damage.
-    - Language: Spanish
-      String: Las armas balísticas infligen un 5 % más de daño crítico adicional permanentemente.
-    - Language: French
-      String: Augmente de façon permanente les dégâts critiques des armes balistiques de 5 % supplémentaires.
-    - Language: Italian
-      String: I danni critici delle armi balistiche aumentano di un ulteriore 5%.
-    - Language: Japanese
-      String: バリスティック兵器のクリティカルダメージが恒久的に追加で5%増加する
-    - Language: Polish
-      String: Broń balistyczna trwale zadaje dodatkowe 5% obrażeń krytycznych.
-    - Language: Portuguese_Brazil
-      String: Aumenta permanentemente em mais 5% o dano crítico causado por armas balísticas.
-    - Language: ChineseSimplified
-      String: 弹道武器造成的暴击伤害永久额外提升5%。
+    Value: Ballistic weapons permanently do an additional 5% critical damage.
 - Effects:
   - MutagenObjectType: PerkEntryPointModifyValue
     Rank: 9
@@ -482,8 +285,7 @@ Ranks:
     Conditions:
     - Conditions:
       - MutagenObjectType: ConditionFloat
-        Unknown1: 0x000000
-        Unknown2: 16612
+        Unknown2: 16618
         Data:
           MutagenObjectType: GetPerkRankConditionData
           FirstParameter: 21D059:Starfield.esm
@@ -491,8 +293,7 @@ Ranks:
     - RunOnTabIndex: 1
       Conditions:
       - MutagenObjectType: ConditionFloat
-        Unknown1: 0x000000
-        Unknown2: 16612
+        Unknown2: 16618
         Data:
           MutagenObjectType: HasKeywordConditionData
           FirstParameter: 092A86:Starfield.esm
@@ -504,24 +305,6 @@ Ranks:
     Value: 1.5
   Description:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Kritische Treffer mit ballistischen Waffen verursachen dauerhaft 5 % zusätzlich mehr Schaden.
-    - Language: English
-      String: Ballistic weapons permanently do an additional 5% critical damage.
-    - Language: Spanish
-      String: Las armas balísticas infligen un 5 % más de daño crítico adicional permanentemente.
-    - Language: French
-      String: Augmente de façon permanente les dégâts critiques des armes balistiques de 5 % supplémentaires.
-    - Language: Italian
-      String: I danni critici delle armi balistiche aumentano di un ulteriore 5%.
-    - Language: Japanese
-      String: バリスティック兵器のクリティカルダメージが恒久的に追加で5%増加する
-    - Language: Polish
-      String: Broń balistyczna trwale zadaje dodatkowe 5% obrażeń krytycznych.
-    - Language: Portuguese_Brazil
-      String: Aumenta permanentemente em mais 5% o dano crítico causado por armas balísticas.
-    - Language: ChineseSimplified
-      String: 弹道武器造成的暴击伤害永久额外提升5%。
+    Value: Ballistic weapons permanently do an additional 5% critical damage.
 MajorFlags:
 - NonPlayable

@@ -1,0 +1,45 @@
+FormKey: 05516E:Starfield.esm
+EditorID: ImpactGrenadeProjectile
+FormVersion: 576
+ODTY: 0
+Name:
+  TargetLanguage: English
+  Value: Impact Grenade
+Model:
+  File: Weapons\impact_shrepnelgrenade\GrenadeImpact_Projectile.nif
+  FLLD: 0x01000000
+Destructible:
+  Data:
+    Health: 5
+    DESTCount: 1
+  Stages:
+  - Flags:
+    - Disable
+    - Destroy
+    Explosion: 0E574F:Starfield.esm
+Unused: '[]'
+Flags:
+- Explosion
+Gravity: 0.5
+Speed: 27
+Range: 10
+MuzzleFlash: 004B29:Starfield.esm
+Explosion: 0E574F:Starfield.esm
+MuzzleFlashDuration: 0.05
+FadeDuration: 0.5
+ImpactForce: 5
+CollisionRadius: 0.08
+Lifetime: 100
+RelaunchInterval: 0.25
+CollisionLayer: 088766:Starfield.esm
+UnknownPRODString1: ''
+UnknownPROD2: 0.003
+UnknownPROD3: 2
+UnknownPROD4: 1
+UnknownPRODString2: ''
+UnknownPROD5: 50
+UnknownPROD6: 0.2
+UnknownPROD7: 0.15
+MuzzleFlashModel: Effects\MuzMachineGun01.nif
+FLLD: 0x01000000
+SoundLevel: VeryLoud

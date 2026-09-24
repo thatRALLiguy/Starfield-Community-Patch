@@ -1,7 +1,7 @@
 FormKey: 29B002:Starfield.esm
 MajorRecordFlagsRaw: 4
 EditorID: SettleNewHomesteadWorld
-FormVersion: 559
+FormVersion: 576
 StarfieldMajorRecordFlags:
 - NotPlayable
 Components:
@@ -11,25 +11,7 @@ Components:
   SurfaceBlock: 29B001:Starfield.esm
 Name:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: New Homestead
-  - Language: English
-    String: New Homestead
-  - Language: Spanish
-    String: Nueva Hacienda
-  - Language: French
-    String: Nouveau-Départ
-  - Language: Italian
-    String: Seconda Casa
-  - Language: Japanese
-    String: ニューホームステッド
-  - Language: Polish
-    String: Nowa Osada
-  - Language: Portuguese_Brazil
-    String: Novo Lar
-  - Language: ChineseSimplified
-    String: 新家园
+  Value: New Homestead
 Location: 21702B:Starfield.esm
 Biome: 0F3D3A:Starfield.esm
 Climate: 0F762B:Starfield.esm
@@ -52,6 +34,5 @@ GNAM: 1
 XCLWs: []
 WHGTs: []
 HNAM: 0x05
-SubCellsTimestamp: 12497
 MajorFlags:
 - 0x4

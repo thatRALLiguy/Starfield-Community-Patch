@@ -1,0 +1,16 @@
+FormKey: 224627:Starfield.esm
+EditorID: ResOrgUniqueMemorySubstrateFaunaHerbivore
+FormVersion: 576
+Name:
+  TargetLanguage: English
+  Value: Memory Substrate
+Keywords:
+- 279E34:Starfield.esm
+CraftingSound:
+  Start: beb644dc-3806-fc10-b40a-1fd694f5d6b9
+Rarity: Unique
+SurfaceColor: '#00A1E4DB'
+ResourceType: MemorySubstrate
+ActorValue: 22469B:Starfield.esm
+Produce: 22466D:Starfield.esm
+Interval: 05EF41:Starfield.esm

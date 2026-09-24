@@ -1,0 +1,465 @@
+FormKey: 211125:Starfield.esm
+EditorID: FFConstantR02
+FormVersion: 576
+VirtualMachineAdapter:
+  Scripts:
+  - Name: FFConstantR02QuestScript
+    Properties:
+    - MutagenObjectType: ScriptStructListProperty
+      Name: CrimeFactionData
+      Structs:
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: crimeFaction
+          Object: 0638E5:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: SettlementCrimeFactionKeyword
+          Object: 04AC08:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: crimeFaction
+          Object: 0638E5:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: SettlementCrimeFactionKeyword
+          Object: 1F324E:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: crimeFaction
+          Object: 0638E5:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: SettlementCrimeFactionKeyword
+          Object: 1AB1C3:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: crimeFaction
+          Object: 26FDEA:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: SettlementCrimeFactionKeyword
+          Object: 1F324D:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: crimeFaction
+          Object: 26310C:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: SettlementCrimeFactionKeyword
+          Object: 028D0D:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: crimeFaction
+          Object: 2B209D:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: SettlementCrimeFactionKeyword
+          Object: 26A313:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: crimeFaction
+          Object: 05BD93:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: SettlementCrimeFactionKeyword
+          Object: 1F324F:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Slate
+      Object: 211125:Starfield.esm
+      Alias: 5
+    - MutagenObjectType: ScriptObjectListProperty
+      Name: MNameList
+      Objects:
+      - Name: ''
+        Object: 19AEBD:Starfield.esm
+      - Name: ''
+        Object: 19AEBE:Starfield.esm
+      - Name: ''
+        Object: 19AEBF:Starfield.esm
+      - Name: ''
+        Object: 19AEBC:Starfield.esm
+      - Name: ''
+        Object: 19AEBB:Starfield.esm
+      - Name: ''
+        Object: 19AEBA:Starfield.esm
+      - Name: ''
+        Object: 19AEB9:Starfield.esm
+      - Name: ''
+        Object: 19AEB8:Starfield.esm
+      - Name: ''
+        Object: 19AEB7:Starfield.esm
+      - Name: ''
+        Object: 19AEB6:Starfield.esm
+      - Name: ''
+        Object: 13D73C:Starfield.esm
+      - Name: ''
+        Object: 13D73D:Starfield.esm
+      - Name: ''
+        Object: 13D73E:Starfield.esm
+      - Name: ''
+        Object: 13D73F:Starfield.esm
+      - Name: ''
+        Object: 13D740:Starfield.esm
+      - Name: ''
+        Object: 13D741:Starfield.esm
+      - Name: ''
+        Object: 13D742:Starfield.esm
+      - Name: ''
+        Object: 13D743:Starfield.esm
+      - Name: ''
+        Object: 13D744:Starfield.esm
+      - Name: ''
+        Object: 13D745:Starfield.esm
+    - MutagenObjectType: ScriptObjectListProperty
+      Name: FNameList
+      Objects:
+      - Name: ''
+        Object: 19AEC0:Starfield.esm
+      - Name: ''
+        Object: 19AEB5:Starfield.esm
+      - Name: ''
+        Object: 19AEB4:Starfield.esm
+      - Name: ''
+        Object: 19AEB3:Starfield.esm
+      - Name: ''
+        Object: 19AEB2:Starfield.esm
+      - Name: ''
+        Object: 19AEB1:Starfield.esm
+      - Name: ''
+        Object: 19AEB0:Starfield.esm
+      - Name: ''
+        Object: 19AEAF:Starfield.esm
+      - Name: ''
+        Object: 19AEAE:Starfield.esm
+      - Name: ''
+        Object: 19AEAD:Starfield.esm
+      - Name: ''
+        Object: 13D70E:Starfield.esm
+      - Name: ''
+        Object: 13D70D:Starfield.esm
+      - Name: ''
+        Object: 13D712:Starfield.esm
+      - Name: ''
+        Object: 13D718:Starfield.esm
+      - Name: ''
+        Object: 13D737:Starfield.esm
+      - Name: ''
+        Object: 13D70F:Starfield.esm
+      - Name: ''
+        Object: 13D738:Starfield.esm
+      - Name: ''
+        Object: 13D739:Starfield.esm
+      - Name: ''
+        Object: 13D73A:Starfield.esm
+      - Name: ''
+        Object: 13D73B:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Family
+      Object: 211125:Starfield.esm
+      Alias: 3
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FamilyLoc
+      Object: 211125:Starfield.esm
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FFConstantR02_Slate
+      Object: 19A5A9:Starfield.esm
+  Script:
+    Name: Fragments:Quests:QF_FFConstantR02_00211125
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Slate
+      Object: 211125:Starfield.esm
+      Alias: 5
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FFConstantR02_NumTimesCompleted
+      Object: 21108A:Starfield.esm
+  Fragments:
+  - Stage: 110
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFConstantR02_00211125
+    FragmentName: Fragment_Stage_0110_Item_00
+  - Stage: 200
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFConstantR02_00211125
+    FragmentName: Fragment_Stage_0200_Item_00
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFConstantR02_00211125
+    FragmentName: Fragment_Stage_0010_Item_00
+  - Stage: 998
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFConstantR02_00211125
+    FragmentName: Fragment_Stage_0998_Item_00
+  - Stage: 1000
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFConstantR02_00211125
+    FragmentName: Fragment_Stage_1000_Item_00
+  - Stage: 100
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_FFConstantR02_00211125
+    FragmentName: Fragment_Stage_0100_Item_00
+Name:
+  TargetLanguage: English
+  Value: Family Reunion
+Data:
+  Flags:
+  - WarnOnAliasFillFailure
+  - 0x10000
+  Priority: 50
+  Unused: 0x000000
+QuestType: 047600:Starfield.esm
+Event: SCPT
+Summary: Abe Levitz, the cabin manager on board an old colony ship, the ECS constant has asked the player to track down his crew's relatives after finding out the ship was not alone in the universe as they previously thought. The player finds the relatives and delivers the news, but the relative is skeptical, and so it is up to the player to convince them and report back to Abe.
+UnusedConditions: []
+Stages:
+- Index: 10
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'DEBUG: Give the player the message slate'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 99
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Relative said they were excited
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 100
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Deliver the news to the relative
+    Entry:
+      TargetLanguage: English
+      Value: Abe Levitz has asked me to find one of his crewmember's relatives and deliver a message letting them know they'd like to meet with them.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 101
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Relative wants to connect
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 102
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Relative is indifferent
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 103
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Relative doesn't want to connect
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 104
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player progressed past the speech challenge.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 105
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Speech Challenge Success
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 106
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Speech Challenge Failure
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 107
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: The player lied to Abe
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 110
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Remove the message slate
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 200
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Return to Abe
+    Entry:
+      TargetLanguage: English
+      Value: I need to report back to Abe and let him know how the relative reacted to the news about having a long lost relative.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 998
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Add 1 to the NumTimesCompleted value
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 999
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: NumTimesCompleted has been adjusted
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1000
+  Unknown: 171
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+    Note: Quest End
+    StageCompleteDatas:
+    - QSRD: 0x04000000
+      RewardDatas:
+      - XpAwarded: 1AB4F3:Starfield.esm
+        BonusCredits: Null
+        Rewards:
+        - Item: 039993:Starfield.esm
+          Count: 1
+        Conditions:
+        - MutagenObjectType: ConditionFloat
+          Data:
+            MutagenObjectType: GetStageDoneConditionData
+            FirstParameter: 211125:Starfield.esm
+            SecondParameter: 105
+          ComparisonValue: 1
+      - XpAwarded: 1AB4F3:Starfield.esm
+        BonusCredits: Null
+        Conditions:
+        - MutagenObjectType: ConditionFloat
+          Data:
+            MutagenObjectType: GetStageDoneConditionData
+            FirstParameter: 211125:Starfield.esm
+            SecondParameter: 106
+          ComparisonValue: 1
+        - MutagenObjectType: ConditionFloat
+          Data:
+            MutagenObjectType: GetStageDoneConditionData
+            FirstParameter: 211125:Starfield.esm
+            SecondParameter: 107
+      - XpAwarded: 1AB4F3:Starfield.esm
+        BonusCredits: Null
+        Rewards:
+        - Item: 039993:Starfield.esm
+          Count: 1
+        Conditions:
+        - MutagenObjectType: ConditionFloat
+          Data:
+            MutagenObjectType: GetStageDoneConditionData
+            FirstParameter: 211125:Starfield.esm
+            SecondParameter: 106
+          ComparisonValue: 1
+        - MutagenObjectType: ConditionFloat
+          Data:
+            MutagenObjectType: GetStageDoneConditionData
+            FirstParameter: 211125:Starfield.esm
+            SecondParameter: 107
+          ComparisonValue: 1
+      - XpAwarded: 1AB4F3:Starfield.esm
+        BonusCredits: Null
+        Rewards:
+        - Item: 039993:Starfield.esm
+          Count: 1
+        Conditions:
+        - MutagenObjectType: ConditionGlobal
+          CompareOperator: GreaterThanOrEqualTo
+          Data:
+            MutagenObjectType: GetGlobalValueConditionData
+            FirstParameter: 21108A:Starfield.esm
+          ComparisonValue: 089F87:Starfield.esm
+    - QSRD: '[]'
+Objectives:
+- Index: 100
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Deliver message to <Alias.CurrentName=Family>
+  Targets:
+  - AliasID: 3
+- Index: 200
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Return to Abe
+  Targets:
+  - AliasID: 4
+Aliases:
+- MutagenObjectType: QuestLocationAlias
+  ID: 1
+  Name: FamilyLoc
+  Flags:
+  - AllowReserved
+  - AllowCleared
+  ALFG: 0
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: LocationHasRefTypeConditionData
+      FirstParameter: 21108C:Starfield.esm
+    ComparisonValue: 1
+  LocationTypeKeyword: 022611:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  ID: 2
+  Name: FamilyMarker
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 1
+    RefType: 21108C:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 3
+  Name: Family
+  Flags:
+  - Essential
+  - StoresText
+  - CreateRefTemp
+  ALFG: 0
+  CreateReferenceToObject:
+    Object: 32DDF5:Starfield.esm
+    AliasID: 2
+  Factions:
+  - 03E0C8:Starfield.esm
+  PackageData:
+  - 089605:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 4
+  Name: Abe
+  Flags: []
+  ALFG: 0
+  UniqueActor: 28B3A3:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 5
+  Name: Slate
+  Flags:
+  - Optional
+  - QuestObject
+  - CreateRefTemp
+  - NoPickpocket
+  ALFG: 0
+  VoiceTypes: Null

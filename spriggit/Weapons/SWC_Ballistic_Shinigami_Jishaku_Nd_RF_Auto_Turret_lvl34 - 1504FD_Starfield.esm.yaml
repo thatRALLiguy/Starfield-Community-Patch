@@ -1,31 +1,13 @@
 FormKey: 1504FD:Starfield.esm
 MajorRecordFlagsRaw: 4
 EditorID: SWC_Ballistic_Shinigami_Jishaku_Nd_RF_Auto_Turret_lvl34
-FormVersion: 559
+FormVersion: 576
 StarfieldMajorRecordFlags:
 - NotPlayable
 ODTY: 0
 Name:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: Railgun-Geschütz Jishaku Nd RF
-  - Language: English
-    String: Jishaku Nd RF railgun Turret
-  - Language: Spanish
-    String: Torreta de riel Jishaku Nd RF
-  - Language: French
-    String: Tourelle à canon électrique Jishaku Nd RF
-  - Language: Italian
-    String: Torretta cannone a rotaia Jishaku RF Nd
-  - Language: Japanese
-    String: ジシャクNd・RFレールガンタレット
-  - Language: Polish
-    String: Wieżyczka z działkiem EM Jishaku Nd RF
-  - Language: Portuguese_Brazil
-    String: Torreta canhão elétrico Jishaku Nd RF
-  - Language: ChineseSimplified
-    String: 磁石Nd RF磁轨炮炮塔
+  Value: Jishaku Nd RF railgun Turret
 Model:
   FLLD: 0x01000000
 EquipmentType: 000046:Starfield.esm
@@ -37,6 +19,7 @@ Keywords:
 - 32792C:Starfield.esm
 Description:
   TargetLanguage: English
+  Value: ''
 EmbeddedWeaponMod: Null
 SightedTransitionSeconds: 0.25
 AimDownSightTemplate: 04B246:Starfield.esm
@@ -92,25 +75,7 @@ BaseSpeed: 1
 AttackOxygenCost: 125
 General:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: BAL
-  - Language: English
-    String: BAL
-  - Language: Spanish
-    String: BAL
-  - Language: French
-    String: BAL
-  - Language: Italian
-    String: BAL
-  - Language: Japanese
-    String: BAL
-  - Language: Polish
-    String: BAL
-  - Language: Portuguese_Brazil
-    String: BAL
-  - Language: ChineseSimplified
-    String: 弹道
+  Value: BAL
 WMELUnknown1: 2
 MeleeReach: 1
 MeleeStagger: Medium

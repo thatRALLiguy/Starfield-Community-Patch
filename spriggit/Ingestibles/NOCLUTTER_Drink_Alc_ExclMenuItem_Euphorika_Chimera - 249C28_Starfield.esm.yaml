@@ -1,6 +1,6 @@
 FormKey: 249C28:Starfield.esm
 EditorID: NOCLUTTER_Drink_Alc_ExclMenuItem_Euphorika_Chimera
-FormVersion: 559
+FormVersion: 576
 ObjectBounds:
   First: -0.04095459, -0.04095459, 0
   Second: 0.04095459, 0.04095459, 0.17810059
@@ -11,25 +11,7 @@ Transforms:
   Workbench: 03D202:Starfield.esm
 Name:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: Chimera
-  - Language: English
-    String: Chimera
-  - Language: Spanish
-    String: Chimera
-  - Language: French
-    String: Chimera
-  - Language: Italian
-    String: Chimera
-  - Language: Japanese
-    String: キメラ
-  - Language: Polish
-    String: Chimera
-  - Language: Portuguese_Brazil
-    String: Chimera
-  - Language: ChineseSimplified
-    String: 奇美拉
+  Value: Chimera
 Keywords:
 - 055ECC:Starfield.esm
 - 2CF28A:Starfield.esm
@@ -47,25 +29,7 @@ CraftingSound:
   Start: 35d54406-a8ad-3d76-0585-057058aa9faa
 Description:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: Ein Cocktail in der Dose, der drei verschiedene Spirituosen enthält.
-  - Language: English
-    String: A canned cocktail of three different liqueurs.
-  - Language: Spanish
-    String: Un cóctel enlatado con tres licores distintos.
-  - Language: French
-    String: Un cocktail de trois différentes liqueurs en cannette.
-  - Language: Italian
-    String: Un cocktail in lattina con tre diversi liquori.
-  - Language: Japanese
-    String: 三種類のリキュールからなる缶入りのカクテル
-  - Language: Polish
-    String: Puszkowany koktajl z trzech różnych likierów.
-  - Language: Portuguese_Brazil
-    String: Coquetel enlatado com três licores diferentes.
-  - Language: ChineseSimplified
-    String: 含有三种不同利口酒的罐装鸡尾酒。
+  Value: A canned cocktail of three different liqueurs.
 Weight: 0.3
 Value: 525
 Flags:
@@ -75,6 +39,7 @@ ConsumeSound:
   Start: 534d4d1c-5a43-05f7-75ee-feb0fa7771b5
 AddictionName:
   TargetLanguage: English
+  Value: ''
 Effects:
 - BaseEffect: 2D88C3:Starfield.esm
   Data:
@@ -111,18 +76,17 @@ Effects:
 - BaseEffect: 2EE936:Starfield.esm
   Data:
     Magnitude: 1
-    Duration: 1200
+    Duration: 1
   Conditions:
   - MutagenObjectType: ConditionFloat
     CompareOperator: GreaterThanOrEqualTo
-    Unknown1: 0x8D1400
-    Unknown2: 16650
+    Unknown2: 16658
     Data:
       MutagenObjectType: GetGlobalValueConditionData
       FirstParameter: 31324C:Starfield.esm
     ComparisonValue: 1
   Magnitude: 2EFD77:Starfield.esm
-  Duration: 313264:Starfield.esm
+  Duration: 2F0AD4:Starfield.esm
   EFIF: 0
   MUID: 5
 - BaseEffect: 01296E:Starfield.esm

@@ -1,0 +1,227 @@
+FormKey: 08CCBA:Starfield.esm
+EditorID: RAD02_0600_CF08Fleet_LegacysEnd
+FormVersion: 576
+Flags:
+- Interruptable
+- 0x20
+- DisableDialogueCamera
+- 0x2000
+Phases:
+- Name: ''
+  EditorWidth: 500
+- Name: ''
+  EditorWidth: 500
+- Name: 1st
+  EditorWidth: 500
+- Name: ''
+  EditorWidth: 500
+- Name: 2nd
+  EditorWidth: 500
+- Name: ''
+  EditorWidth: 500
+- Name: 3rd
+  EditorWidth: 500
+- Name: ''
+  EditorWidth: 500
+- Name: ''
+  StartConditions:
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: GreaterThanOrEqualTo
+    Unknown2: 16617
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      FirstParameter: 1829F7:Starfield.esm
+    ComparisonValue: 6
+  EditorWidth: 500
+- Name: ''
+  StartConditions:
+  - MutagenObjectType: ConditionFloat
+    Unknown2: 16617
+    Data:
+      MutagenObjectType: GetStageDoneConditionData
+      FirstParameter: 017CE8:Starfield.esm
+      SecondParameter: 2000
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: GreaterThanOrEqualTo
+    Unknown2: 16617
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      FirstParameter: 1829F7:Starfield.esm
+    ComparisonValue: 5
+  EditorWidth: 350
+  PhaseSetParentQuestStage:
+    OnBegin: 8000
+    OnEnd: -1
+Actors:
+- Flags:
+  - NoCommandState
+  BehaviorFlags:
+  - DeathEnd
+  - CombatEnd
+  - 0x100
+- ID: 4294967294
+  Flags:
+  - NoCommandState
+  BehaviorFlags:
+  - DeathEnd
+  - CombatEnd
+  - 0x100
+Actions:
+- MutagenObjectType: DialogueSceneAction
+  Name: ''
+  AliasID: -2
+  Index: 1
+  Flags: []
+  Topic: 08CDC1:Starfield.esm
+  LoopingMax: 10
+  LoopingMin: 1
+- MutagenObjectType: DialogueSceneAction
+  Name: ''
+  AliasID: 0
+  Index: 2
+  Flags: []
+  StartPhase: 1
+  EndPhase: 1
+  Topic: 08CDC3:Starfield.esm
+  LoopingMax: 10
+  LoopingMin: 1
+- MutagenObjectType: PlayerDialogueSceneAction
+  Name: ''
+  AliasID: 0
+  Index: 3
+  Flags: []
+  StartPhase: 2
+  EndPhase: 2
+  HNAM:
+    ReferenceAliasIDs:
+    - -2
+  DialogueTargetActor: 0
+  DialogueList:
+  - PlayerChoice: 08CDC4:Starfield.esm
+    NpcResponse: 08CDC5:Starfield.esm
+  - PlayerChoice: 08CDC6:Starfield.esm
+    NpcResponse: 08CDC7:Starfield.esm
+  - PlayerChoice: 08CDC8:Starfield.esm
+    NpcResponse: 08CDC9:Starfield.esm
+  - PlayerChoice: 08CDCA:Starfield.esm
+    NpcResponse: 08CDCB:Starfield.esm
+- MutagenObjectType: DialogueSceneAction
+  Name: ''
+  AliasID: 0
+  Index: 4
+  Flags: []
+  StartPhase: 3
+  EndPhase: 3
+  Topic: 08CDCC:Starfield.esm
+  LoopingMax: 10
+  LoopingMin: 1
+- MutagenObjectType: PlayerDialogueSceneAction
+  Name: ''
+  AliasID: 0
+  Index: 5
+  Flags: []
+  StartPhase: 4
+  EndPhase: 4
+  HNAM:
+    ReferenceAliasIDs:
+    - -2
+  DialogueTargetActor: 0
+  DialogueList:
+  - PlayerChoice: 08CDCD:Starfield.esm
+    NpcResponse: 08CDCE:Starfield.esm
+  - PlayerChoice: 08CDCF:Starfield.esm
+    NpcResponse: 08CDD0:Starfield.esm
+  - PlayerChoice: 08CDD1:Starfield.esm
+    NpcResponse: 08CDD2:Starfield.esm
+  - PlayerChoice: 08CDD3:Starfield.esm
+    NpcResponse: 08CDD4:Starfield.esm
+- MutagenObjectType: DialogueSceneAction
+  Name: ''
+  AliasID: 0
+  Index: 6
+  Flags: []
+  StartPhase: 5
+  EndPhase: 5
+  Topic: 08CDD5:Starfield.esm
+  LoopingMax: 10
+  LoopingMin: 1
+- MutagenObjectType: PlayerDialogueSceneAction
+  Name: ''
+  AliasID: 0
+  Index: 7
+  Flags: []
+  StartPhase: 6
+  EndPhase: 6
+  HNAM:
+    ReferenceAliasIDs:
+    - -2
+  DialogueTargetActor: 0
+  DialogueList:
+  - PlayerChoice: 08CDD6:Starfield.esm
+    NpcResponse: 08CDD7:Starfield.esm
+  - PlayerChoice: 08CDD8:Starfield.esm
+    NpcResponse: 08CDD9:Starfield.esm
+  - PlayerChoice: 08CDDA:Starfield.esm
+    NpcResponse: 08CDDB:Starfield.esm
+  - PlayerChoice: 08CDDC:Starfield.esm
+    NpcResponse: 08CDDD:Starfield.esm
+- MutagenObjectType: DialogueSceneAction
+  Name: ''
+  AliasID: 0
+  Index: 8
+  Flags: []
+  StartPhase: 7
+  EndPhase: 7
+  Topic: 08CDDE:Starfield.esm
+  LoopingMax: 10
+  LoopingMin: 1
+- MutagenObjectType: StartSceneAction
+  Name: ''
+  AliasID: 0
+  Index: 9
+  Flags: []
+  StartPhase: 8
+  EndPhase: 8
+  StartScenes:
+  - LCEPScene: 08CCB9:Starfield.esm
+    StartPhaseForScene: INTRO
+    Conditions: []
+- MutagenObjectType: StartSceneAction
+  Name: ''
+  AliasID: 0
+  Index: 10
+  Flags: []
+  StartPhase: 9
+  EndPhase: 9
+  StartScenes:
+  - LCEPScene: 08CCB9:Starfield.esm
+    StartPhaseForScene: INTRO
+    Conditions: []
+Quest: 29EF60:Starfield.esm
+LastActionIndex: 10
+VNAM: 0x0300000003000000030000000300000003000000
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Unknown2: 13116
+  Data:
+    MutagenObjectType: GetStageDoneConditionData
+    FirstParameter: 29EF60:Starfield.esm
+    SecondParameter: 600
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Unknown2: 13116
+  Data:
+    MutagenObjectType: GetStageDoneConditionData
+    FirstParameter: 29EF60:Starfield.esm
+    SecondParameter: 699
+- MutagenObjectType: ConditionFloat
+  Unknown2: 13116
+  Data:
+    MutagenObjectType: GetIsIDConditionData
+    FirstParameter: 0124AC:Starfield.esm
+  ComparisonValue: 1
+Notes: This is a tricky interview. The player is admitting to being a notorious criminal. The Crimson Fleet scored a major (probably decisive) victory against SysDef. The player defeated the "cops" for the bad guys. So imagine an anonymous interview with a member of Al-Qaeda.
+BOLV: '[]'
+Index: 0
+SCPI: 0x3200

@@ -1,36 +1,19 @@
 FormKey: 213CD7:Starfield.esm
 EditorID: StationTheDenSpaceLocation
-FormVersion: 559
+FormVersion: 576
 AddedUniqueBaseForms:
 - GenericBaseForm: 128D5E:Starfield.esm
   Ref: 2AB7CF:Starfield.esm
   Location: 213CD7:Starfield.esm
 Name:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: Der Bau
-  - Language: English
-    String: The Den
-  - Language: Spanish
-    String: La Guarida
-  - Language: French
-    String: La Tanière
-  - Language: Italian
-    String: La Den
-  - Language: Japanese
-    String: 〈デン〉
-  - Language: Polish
-    String: Legowisko
-  - Language: Portuguese_Brazil
-    String: Alcova
-  - Language: ChineseSimplified
-    String: 巢穴站
+  Value: The Den
 Keywords:
 - 2253D1:Starfield.esm
 - 01674D:Starfield.esm
 - 08A8F9:Starfield.esm
-UnknownDATA2: 16
+Faction:
+  UnknownDATA2: 16
 ParentLocation: 00ADD9:Starfield.esm
 WorldLocationRadius: 0
 ActorFadeMult: 1

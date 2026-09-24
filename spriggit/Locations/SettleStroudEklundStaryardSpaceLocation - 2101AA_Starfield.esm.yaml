@@ -1,36 +1,19 @@
 FormKey: 2101AA:Starfield.esm
 EditorID: SettleStroudEklundStaryardSpaceLocation
-FormVersion: 559
+FormVersion: 576
 AddedUniqueBaseForms:
 - GenericBaseForm: 0090B0:Starfield.esm
   Ref: 2DF456:Starfield.esm
   Location: 2101AA:Starfield.esm
 Name:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: Stroud-Eklund-Sternenwerft
-  - Language: English
-    String: Stroud-Eklund Staryard
-  - Language: Spanish
-    String: Astillero de Stroud-Eklund
-  - Language: French
-    String: Chantier spatial Stroud-Eklund
-  - Language: Italian
-    String: Astrocantiere Stroud-Eklund
-  - Language: Japanese
-    String: ストラウド・エクランド・スターヤード
-  - Language: Polish
-    String: Stocznia Strouda-Eklunda
-  - Language: Portuguese_Brazil
-    String: Astroleiro Stroud-Eklund
-  - Language: ChineseSimplified
-    String: 斯特劳艾克伦集团造船厂
+  Value: Stroud-Eklund Staryard
 Keywords:
 - 01674D:Starfield.esm
 - 08A8F9:Starfield.esm
 - 2253D1:Starfield.esm
-UnknownDATA2: 16
+Faction:
+  UnknownDATA2: 16
 ParentLocation: 01B1C9:Starfield.esm
 WorldLocationRadius: 0
 ActorFadeMult: 1

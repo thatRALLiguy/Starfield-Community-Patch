@@ -1,6 +1,6 @@
 FormKey: 0B8633:Starfield.esm
 EditorID: COM_Quest_Andreja_Commitment
-FormVersion: 559
+FormVersion: 576
 VirtualMachineAdapter:
   Scripts:
   - Name: defaultquestchangelocationscript
@@ -117,17 +117,6 @@ VirtualMachineAdapter:
       Object: 0B8633:Starfield.esm
       Alias: 6
     Scripts:
-    - Name: DefaultAliasOnActivate
-      Properties:
-      - MutagenObjectType: ScriptBoolProperty
-        Name: ShouldHideActivationAfterSuccessfulActivation
-        Data: True
-      - MutagenObjectType: ScriptIntProperty
-        Name: StageToSet
-        Data: 60
-      - MutagenObjectType: ScriptIntProperty
-        Name: PrereqStage
-        Data: 50
     - Name: defaultaliasondistancelessthan
       Properties:
       - MutagenObjectType: ScriptFloatProperty
@@ -143,27 +132,20 @@ VirtualMachineAdapter:
       - MutagenObjectType: ScriptIntProperty
         Name: StageToSet
         Data: 40
+    - Name: DefaultAliasOnActivate
+      Properties:
+      - MutagenObjectType: ScriptBoolProperty
+        Name: ShouldHideActivationAfterSuccessfulActivation
+        Data: True
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 60
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 50
 Name:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: 'Bindung: Andreja'
-  - Language: English
-    String: 'Commitment: Andreja'
-  - Language: Spanish
-    String: 'Compromiso: Andreja'
-  - Language: French
-    String: 'Engagement : Andreja'
-  - Language: Italian
-    String: 'Impegno: Andreja'
-  - Language: Japanese
-    String: 結婚：アンドレヤ
-  - Language: Polish
-    String: 'Związek: Andreja'
-  - Language: Portuguese_Brazil
-    String: 'Compromisso: Andreja'
-  - Language: ChineseSimplified
-    String: 承诺：安德列娅
+  Value: 'Commitment: Andreja'
 Data:
   Flags:
   - RunOnce
@@ -236,150 +218,42 @@ Objectives:
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Reise nach Shoza II.
-    - Language: English
-      String: Travel to Shoza II
-    - Language: Spanish
-      String: Viaja a Shoza II.
-    - Language: French
-      String: Rendez-vous sur Shoza II.
-    - Language: Italian
-      String: Raggiungi Shoza II
-    - Language: Japanese
-      String: ショザIIへ向かう
-    - Language: Polish
-      String: Udaj się na Shozę II
-    - Language: Portuguese_Brazil
-      String: Viaje para Shoza II
-    - Language: ChineseSimplified
-      String: 前往初座II
+    Value: Travel to Shoza II
   Targets:
   - AliasID: 6
 - Index: 20
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Lande auf Shoza II.
-    - Language: English
-      String: Land on Shoza II
-    - Language: Spanish
-      String: Aterriza en Shoza II.
-    - Language: French
-      String: Atterrissez sur Shoza II.
-    - Language: Italian
-      String: Atterra su Shoza II
-    - Language: Japanese
-      String: ショザIIに着陸する
-    - Language: Polish
-      String: Wyląduj na Shozie II
-    - Language: Portuguese_Brazil
-      String: Aterrisse em Shoza II
-    - Language: ChineseSimplified
-      String: 在初座II上着陆
+    Value: Land on Shoza II
   Targets:
   - AliasID: 6
 - Index: 30
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Erreiche den Standort.
-    - Language: English
-      String: Reach the Location
-    - Language: Spanish
-      String: Llega a la ubicación.
-    - Language: French
-      String: Atteignez le lieu.
-    - Language: Italian
-      String: Raggiungi la posizione
-    - Language: Japanese
-      String: 場所に到着する
-    - Language: Polish
-      String: Dotrzyj na miejsce
-    - Language: Portuguese_Brazil
-      String: Vá até o local
-    - Language: ChineseSimplified
-      String: 抵达位置
+    Value: Reach the Location
   Targets:
   - AliasID: 6
 - Index: 40
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Sprich mit Andreja.
-    - Language: English
-      String: Talk to Andreja
-    - Language: Spanish
-      String: Habla con Andreja.
-    - Language: French
-      String: Parlez à Andreja.
-    - Language: Italian
-      String: Parla con Andreja
-    - Language: Japanese
-      String: アンドレヤと話す
-    - Language: Polish
-      String: Porozmawiaj z Andreją
-    - Language: Portuguese_Brazil
-      String: Fale com Andreja
-    - Language: ChineseSimplified
-      String: 与安德列娅交谈
+    Value: Talk to Andreja
   Targets:
   - {}
 - Index: 50
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Finde Andrejas Geschenk.
-    - Language: English
-      String: Find Andreja's Gift
-    - Language: Spanish
-      String: Encuentra el regalo de Andreja.
-    - Language: French
-      String: Trouvez le cadeau d'Andreja.
-    - Language: Italian
-      String: Trova il regalo di Andreja
-    - Language: Japanese
-      String: アンドレヤの贈り物を探す
-    - Language: Polish
-      String: Znajdź prezent od Andreji
-    - Language: Portuguese_Brazil
-      String: Encontre o presente da Andreja
-    - Language: ChineseSimplified
-      String: 找到安德列娅的礼物
+    Value: Find Andreja's Gift
   Targets:
   - AliasID: 6
 - Index: 60
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Sprich mit Andreja.
-    - Language: English
-      String: Talk to Andreja
-    - Language: Spanish
-      String: Habla con Andreja.
-    - Language: French
-      String: Parlez à Andreja.
-    - Language: Italian
-      String: Parla con Andreja
-    - Language: Japanese
-      String: アンドレヤと話す
-    - Language: Polish
-      String: Porozmawiaj z Andreją
-    - Language: Portuguese_Brazil
-      String: Fale com Andreja
-    - Language: ChineseSimplified
-      String: 与安德列娅交谈
+    Value: Talk to Andreja
   Targets:
   - {}
 Aliases:
@@ -414,13 +288,11 @@ Aliases:
   ALFG: 0
   Conditions:
   - MutagenObjectType: ConditionFloat
-    Unknown1: 0x000000
     Data:
       MutagenObjectType: LocationHasKeywordConditionData
       FirstParameter: 0C6928:Starfield.esm
     ComparisonValue: 1
   - MutagenObjectType: ConditionFloat
-    Unknown1: 0x000000
     Data:
       MutagenObjectType: LocationHasRefTypeConditionData
       FirstParameter: 207489:Starfield.esm
@@ -476,4 +348,3 @@ Aliases:
   - 0x0
   ALFG: 0
   VoiceTypes: Null
-Timestamp: 12497

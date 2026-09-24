@@ -1,7 +1,37 @@
 FormKey: 18A2E4:Starfield.esm
 EditorID: DR019Location
-FormVersion: 559
+FormVersion: 576
 AddedSpecialReferences:
+- LocationRefType: 07828B:Starfield.esm
+  Marker: 043863:Starfield.esm
+  Location: 1C97DE:Starfield.esm
+  Grid: 32767, 32767
+  Unknown: -1
+- LocationRefType: 054A0E:Starfield.esm
+  Marker: 043863:Starfield.esm
+  Location: 1C97DE:Starfield.esm
+  Grid: 32767, 32767
+  Unknown: -1
+- LocationRefType: 07828B:Starfield.esm
+  Marker: 038A95:Starfield.esm
+  Location: 1C97DE:Starfield.esm
+  Grid: 32767, 32767
+  Unknown: -1
+- LocationRefType: 054A0E:Starfield.esm
+  Marker: 038A95:Starfield.esm
+  Location: 1C97DE:Starfield.esm
+  Grid: 32767, 32767
+  Unknown: -1
+- LocationRefType: 07828B:Starfield.esm
+  Marker: 0F71B8:Starfield.esm
+  Location: 1C97DE:Starfield.esm
+  Grid: 32767, 32767
+  Unknown: -1
+- LocationRefType: 054A0E:Starfield.esm
+  Marker: 0F71B8:Starfield.esm
+  Location: 1C97DE:Starfield.esm
+  Grid: 32767, 32767
+  Unknown: -1
 - LocationRefType: 00231C:Starfield.esm
   Marker: 0F721F:Starfield.esm
   Location: 1C97DE:Starfield.esm
@@ -18,27 +48,12 @@ AddedSpecialReferences:
   Grid: 32767, 32767
   Unknown: -1
 - LocationRefType: 00231C:Starfield.esm
-  Marker: 0F71BB:Starfield.esm
+  Marker: 0F71B9:Starfield.esm
   Location: 1C97DE:Starfield.esm
   Grid: 32767, 32767
   Unknown: -1
-- LocationRefType: 07828B:Starfield.esm
-  Marker: 0F71BB:Starfield.esm
-  Location: 1C97DE:Starfield.esm
-  Grid: 32767, 32767
-  Unknown: -1
-- LocationRefType: 054A0E:Starfield.esm
-  Marker: 0F71BB:Starfield.esm
-  Location: 1C97DE:Starfield.esm
-  Grid: 32767, 32767
-  Unknown: -1
-- LocationRefType: 07828B:Starfield.esm
-  Marker: 038A95:Starfield.esm
-  Location: 1C97DE:Starfield.esm
-  Grid: 32767, 32767
-  Unknown: -1
-- LocationRefType: 054A0E:Starfield.esm
-  Marker: 038A95:Starfield.esm
+- LocationRefType: 0F69FB:Starfield.esm
+  Marker: 0F71B9:Starfield.esm
   Location: 1C97DE:Starfield.esm
   Grid: 32767, 32767
   Unknown: -1
@@ -53,21 +68,6 @@ AddedSpecialReferences:
   Grid: 32767, 32767
   Unknown: -1
 - LocationRefType: 00231C:Starfield.esm
-  Marker: 0664B8:Starfield.esm
-  Location: 1C97DE:Starfield.esm
-  Grid: 32767, 32767
-  Unknown: -1
-- LocationRefType: 07828B:Starfield.esm
-  Marker: 0664B8:Starfield.esm
-  Location: 1C97DE:Starfield.esm
-  Grid: 32767, 32767
-  Unknown: -1
-- LocationRefType: 054A0E:Starfield.esm
-  Marker: 0664B8:Starfield.esm
-  Location: 1C97DE:Starfield.esm
-  Grid: 32767, 32767
-  Unknown: -1
-- LocationRefType: 00231C:Starfield.esm
   Marker: 0F23CB:Starfield.esm
   Location: 1C97DE:Starfield.esm
   Grid: 32767, 32767
@@ -77,23 +77,23 @@ AddedSpecialReferences:
   Location: 1C97DE:Starfield.esm
   Grid: 32767, 32767
   Unknown: -1
+- LocationRefType: 00231C:Starfield.esm
+  Marker: 0F71BB:Starfield.esm
+  Location: 1C97DE:Starfield.esm
+  Grid: 32767, 32767
+  Unknown: -1
 - LocationRefType: 07828B:Starfield.esm
-  Marker: 043863:Starfield.esm
+  Marker: 0F71BB:Starfield.esm
   Location: 1C97DE:Starfield.esm
   Grid: 32767, 32767
   Unknown: -1
 - LocationRefType: 054A0E:Starfield.esm
-  Marker: 043863:Starfield.esm
+  Marker: 0F71BB:Starfield.esm
   Location: 1C97DE:Starfield.esm
   Grid: 32767, 32767
   Unknown: -1
-- LocationRefType: 00231C:Starfield.esm
-  Marker: 0F71B9:Starfield.esm
-  Location: 1C97DE:Starfield.esm
-  Grid: 32767, 32767
-  Unknown: -1
-- LocationRefType: 0F69FB:Starfield.esm
-  Marker: 0F71B9:Starfield.esm
+- LocationRefType: 07828B:Starfield.esm
+  Marker: 13A215:Starfield.esm
   Location: 1C97DE:Starfield.esm
   Grid: 32767, 32767
   Unknown: -1
@@ -154,11 +154,6 @@ AddedSpecialReferences:
   Unknown: -1
 - LocationRefType: 054A0E:Starfield.esm
   Marker: 0F721F:Starfield.esm
-  Location: 1C97DE:Starfield.esm
-  Grid: 32767, 32767
-  Unknown: -1
-- LocationRefType: 0F69FB:Starfield.esm
-  Marker: 0F7257:Starfield.esm
   Location: 1C97DE:Starfield.esm
   Grid: 32767, 32767
   Unknown: -1
@@ -238,6 +233,11 @@ AddedSpecialReferences:
   Grid: 32767, 32767
   Unknown: -1
 - LocationRefType: 07828B:Starfield.esm
+  Marker: 07DB5E:Starfield.esm
+  Location: 1C97DE:Starfield.esm
+  Grid: 32767, 32767
+  Unknown: -1
+- LocationRefType: 07828B:Starfield.esm
   Marker: 07DA9E:Starfield.esm
   Location: 1C97DE:Starfield.esm
   Grid: 32767, 32767
@@ -253,7 +253,17 @@ AddedSpecialReferences:
   Grid: 32767, 32767
   Unknown: -1
 - LocationRefType: 07828B:Starfield.esm
+  Marker: 07DAA1:Starfield.esm
+  Location: 1C97DE:Starfield.esm
+  Grid: 32767, 32767
+  Unknown: -1
+- LocationRefType: 07828B:Starfield.esm
   Marker: 07DA9F:Starfield.esm
+  Location: 1C97DE:Starfield.esm
+  Grid: 32767, 32767
+  Unknown: -1
+- LocationRefType: 07828B:Starfield.esm
+  Marker: 07DA99:Starfield.esm
   Location: 1C97DE:Starfield.esm
   Grid: 32767, 32767
   Unknown: -1
@@ -272,6 +282,11 @@ AddedSpecialReferences:
   Location: 1C97DE:Starfield.esm
   Grid: 32767, 32767
   Unknown: -1
+- LocationRefType: 0F69FB:Starfield.esm
+  Marker: 0F7257:Starfield.esm
+  Location: 1C97DE:Starfield.esm
+  Grid: 32767, 32767
+  Unknown: -1
 - LocationRefType: 00231C:Starfield.esm
   Marker: 0F71B7:Starfield.esm
   Location: 1C97DE:Starfield.esm
@@ -284,36 +299,6 @@ AddedSpecialReferences:
   Unknown: -1
 - LocationRefType: 054A0E:Starfield.esm
   Marker: 0F71B7:Starfield.esm
-  Location: 1C97DE:Starfield.esm
-  Grid: 32767, 32767
-  Unknown: -1
-- LocationRefType: 07828B:Starfield.esm
-  Marker: 13A215:Starfield.esm
-  Location: 1C97DE:Starfield.esm
-  Grid: 32767, 32767
-  Unknown: -1
-- LocationRefType: 07828B:Starfield.esm
-  Marker: 07DA99:Starfield.esm
-  Location: 1C97DE:Starfield.esm
-  Grid: 32767, 32767
-  Unknown: -1
-- LocationRefType: 07828B:Starfield.esm
-  Marker: 0F71B8:Starfield.esm
-  Location: 1C97DE:Starfield.esm
-  Grid: 32767, 32767
-  Unknown: -1
-- LocationRefType: 054A0E:Starfield.esm
-  Marker: 0F71B8:Starfield.esm
-  Location: 1C97DE:Starfield.esm
-  Grid: 32767, 32767
-  Unknown: -1
-- LocationRefType: 07828B:Starfield.esm
-  Marker: 0811CE:Starfield.esm
-  Location: 1C97DE:Starfield.esm
-  Grid: 32767, 32767
-  Unknown: -1
-- LocationRefType: 07828B:Starfield.esm
-  Marker: 07DB5E:Starfield.esm
   Location: 1C97DE:Starfield.esm
   Grid: 32767, 32767
   Unknown: -1
@@ -328,37 +313,52 @@ AddedSpecialReferences:
   Grid: 32767, 32767
   Unknown: -1
 - LocationRefType: 07828B:Starfield.esm
-  Marker: 07DAA1:Starfield.esm
+  Marker: 0811CE:Starfield.esm
+  Location: 1C97DE:Starfield.esm
+  Grid: 32767, 32767
+  Unknown: -1
+- LocationRefType: 00231C:Starfield.esm
+  Marker: 0664B8:Starfield.esm
+  Location: 1C97DE:Starfield.esm
+  Grid: 32767, 32767
+  Unknown: -1
+- LocationRefType: 07828B:Starfield.esm
+  Marker: 0664B8:Starfield.esm
+  Location: 1C97DE:Starfield.esm
+  Grid: 32767, 32767
+  Unknown: -1
+- LocationRefType: 054A0E:Starfield.esm
+  Marker: 0664B8:Starfield.esm
   Location: 1C97DE:Starfield.esm
   Grid: 32767, 32767
   Unknown: -1
 AddedEnablePointReferences:
-- Actor: 0F721F:Starfield.esm
+- Actor: 043863:Starfield.esm
   Ref: 08B1F6:Starfield.esm
-- Actor: 0F721F:Starfield.esm
-  Ref: 08B1F6:Starfield.esm
-- Actor: 0F721F:Starfield.esm
-  Ref: 08B1F6:Starfield.esm
-- Actor: 0F71BB:Starfield.esm
-  Ref: 08B1F6:Starfield.esm
-- Actor: 0F71BB:Starfield.esm
-  Ref: 08B1F6:Starfield.esm
-- Actor: 0F71BB:Starfield.esm
+- Actor: 043863:Starfield.esm
   Ref: 08B1F6:Starfield.esm
 - Actor: 038A95:Starfield.esm
   Ref: 08B1F6:Starfield.esm
 - Actor: 038A95:Starfield.esm
   Ref: 08B1F6:Starfield.esm
-- Actor: 0664B8:Starfield.esm
+- Actor: 0F71B8:Starfield.esm
   Ref: 08B1F6:Starfield.esm
-- Actor: 0664B8:Starfield.esm
+- Actor: 0F71B8:Starfield.esm
   Ref: 08B1F6:Starfield.esm
-- Actor: 0664B8:Starfield.esm
+- Actor: 0F721F:Starfield.esm
   Ref: 08B1F6:Starfield.esm
-- Actor: 043863:Starfield.esm
+- Actor: 0F721F:Starfield.esm
   Ref: 08B1F6:Starfield.esm
-- Actor: 043863:Starfield.esm
+- Actor: 0F721F:Starfield.esm
   Ref: 08B1F6:Starfield.esm
+- Actor: 0F71BB:Starfield.esm
+  Ref: 08B1F6:Starfield.esm
+- Actor: 0F71BB:Starfield.esm
+  Ref: 08B1F6:Starfield.esm
+- Actor: 0F71BB:Starfield.esm
+  Ref: 08B1F6:Starfield.esm
+- Actor: 13A215:Starfield.esm
+  Ref: 064EF9:Starfield.esm
 - Actor: 0F71B8:Starfield.esm
   Ref: 08B1F6:Starfield.esm
 - Actor: 0F71B8:Starfield.esm
@@ -395,13 +395,19 @@ AddedEnablePointReferences:
   Ref: 08B1F6:Starfield.esm
 - Actor: 0664B8:Starfield.esm
   Ref: 08B1F6:Starfield.esm
+- Actor: 07DB5E:Starfield.esm
+  Ref: 064EF9:Starfield.esm
 - Actor: 07DA9E:Starfield.esm
   Ref: 064EF9:Starfield.esm
 - Actor: 07DAA0:Starfield.esm
   Ref: 064EF9:Starfield.esm
 - Actor: 07DA98:Starfield.esm
   Ref: 064EF9:Starfield.esm
+- Actor: 07DAA1:Starfield.esm
+  Ref: 064EF9:Starfield.esm
 - Actor: 07DA9F:Starfield.esm
+  Ref: 064EF9:Starfield.esm
+- Actor: 07DA99:Starfield.esm
   Ref: 064EF9:Starfield.esm
 - Actor: 07DA9D:Starfield.esm
   Ref: 064EF9:Starfield.esm
@@ -413,47 +419,24 @@ AddedEnablePointReferences:
   Ref: 08B1F6:Starfield.esm
 - Actor: 0F71B7:Starfield.esm
   Ref: 08B1F6:Starfield.esm
-- Actor: 13A215:Starfield.esm
-  Ref: 064EF9:Starfield.esm
-- Actor: 07DA99:Starfield.esm
-  Ref: 064EF9:Starfield.esm
-- Actor: 0F71B8:Starfield.esm
-  Ref: 08B1F6:Starfield.esm
-- Actor: 0F71B8:Starfield.esm
-  Ref: 08B1F6:Starfield.esm
 - Actor: 0811CE:Starfield.esm
   Ref: 064EF9:Starfield.esm
-- Actor: 07DB5E:Starfield.esm
-  Ref: 064EF9:Starfield.esm
-- Actor: 07DAA1:Starfield.esm
-  Ref: 064EF9:Starfield.esm
+- Actor: 0664B8:Starfield.esm
+  Ref: 08B1F6:Starfield.esm
+- Actor: 0664B8:Starfield.esm
+  Ref: 08B1F6:Starfield.esm
+- Actor: 0664B8:Starfield.esm
+  Ref: 08B1F6:Starfield.esm
 Name:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: Umgebaute Sternenstation
-  - Language: English
-    String: Retrofitted Starstation
-  - Language: Spanish
-    String: Estación estelar renovada
-  - Language: French
-    String: Station réaménagée
-  - Language: Italian
-    String: Stazione spaziale riadattata
-  - Language: Japanese
-    String: 改修されたスターステーション
-  - Language: Polish
-    String: Naprawiona stacja gwiezdna
-  - Language: Portuguese_Brazil
-    String: Estação Estelar Adaptada
-  - Language: ChineseSimplified
-    String: 翻新星际站
+  Value: Retrofitted Starstation
 Keywords:
 - 064EDE:Starfield.esm
 - 283585:Starfield.esm
 - 01674D:Starfield.esm
 - 01674E:Starfield.esm
-UnknownDATA2: 16
+Faction:
+  UnknownDATA2: 16
 ParentLocation: 0F483C:Starfield.esm
 WorldLocationRadius: 0
 ActorFadeMult: 1

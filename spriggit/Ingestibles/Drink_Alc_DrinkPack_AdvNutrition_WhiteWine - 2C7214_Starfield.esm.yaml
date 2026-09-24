@@ -1,6 +1,6 @@
 FormKey: 2C7214:Starfield.esm
 EditorID: Drink_Alc_DrinkPack_AdvNutrition_WhiteWine
-FormVersion: 559
+FormVersion: 576
 ObjectBounds:
   First: -0.051879883, -0.023651123, 0
   Second: 0.051879883, 0.023651123, 0.14038086
@@ -11,25 +11,7 @@ Transforms:
   Workbench: 03D201:Starfield.esm
 Name:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: Weißwein (Trinkpack)
-  - Language: English
-    String: 'Drink Pack: White Wine'
-  - Language: Spanish
-    String: 'Paquete de bebidas: vino blanco'
-  - Language: French
-    String: Pack Vin blanc
-  - Language: Italian
-    String: 'Confezione bevanda: vino bianco'
-  - Language: Japanese
-    String: ドリンクパック：白ワイン
-  - Language: Polish
-    String: 'Pakiet do picia: białe wino'
-  - Language: Portuguese_Brazil
-    String: 'Pacote de Bebidas: Vinho Branco'
-  - Language: ChineseSimplified
-    String: 饮料箱：白葡萄酒
+  Value: 'Drink Pack: White Wine'
 Keywords:
 - 055ECC:Starfield.esm
 - 2CF286:Starfield.esm
@@ -47,25 +29,7 @@ CraftingSound:
   Start: 580e474d-4c10-e197-848f-5a4632615aa7
 Description:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: Standardpack Weißwein von Advanced Nutrition.
-  - Language: English
-    String: Advanced Nutrition's standard pack of white wine.
-  - Language: Spanish
-    String: Paquete de vino blanco estándar de Advanced Nutrition.
-  - Language: French
-    String: Pack de vin blanc standard Advanced Nutrition.
-  - Language: Italian
-    String: Confezione di vino bianco standard di Advanced Nutrition.
-  - Language: Japanese
-    String: アドバンスド・ニュートリションの白ワインのスタンダードパック
-  - Language: Polish
-    String: Standardowe opakowanie białego wina firmy Advanced Nutrition.
-  - Language: Portuguese_Brazil
-    String: Pacote padrão de vinho branco da Advanced Nutrition.
-  - Language: ChineseSimplified
-    String: 先进食品公司的标准包装白葡萄酒。
+  Value: Advanced Nutrition's standard pack of white wine.
 Resources:
 - Resource: 29B02F:Starfield.esm
   Count: 1
@@ -80,6 +44,7 @@ ConsumeSound:
   Start: abcc440c-55e5-bbd4-167f-b9ab79fae3b3
 AddictionName:
   TargetLanguage: English
+  Value: ''
 Effects:
 - BaseEffect: 2D88C3:Starfield.esm
   Data:
@@ -114,18 +79,17 @@ Effects:
 - BaseEffect: 2EE936:Starfield.esm
   Data:
     Magnitude: 1
-    Duration: 1200
+    Duration: 1
   Conditions:
   - MutagenObjectType: ConditionFloat
     CompareOperator: GreaterThanOrEqualTo
-    Unknown1: 0x8D1400
-    Unknown2: 16650
+    Unknown2: 16658
     Data:
       MutagenObjectType: GetGlobalValueConditionData
       FirstParameter: 31324C:Starfield.esm
     ComparisonValue: 1
   Magnitude: 2EFD77:Starfield.esm
-  Duration: 313264:Starfield.esm
+  Duration: 2F0AD4:Starfield.esm
   EFIF: 0
   MUID: 5
 - BaseEffect: 2EE4B2:Starfield.esm

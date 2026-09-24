@@ -1,237 +1,30 @@
-name: Build Release
-on: 
-  schedule:
-    - cron: '0 9 * * *'
+name: Verify recovered SFCP baseline
+
+on:
+  push:
+  pull_request:
   workflow_dispatch:
-    inputs:
-        papyrus-version:
-          description: 'Papyrus scripts version? (e.g. 1.10.30.0, Defaults to latest)'
-          required: false
-          default: '1.10.30.0'
-        version:
-          description: 'Release version (defaults to "Nightly")'
-          required: false
-        publish-release:
-            description: Publish Release?
-            type: boolean
-            default: true
-        spriggit_tool_version:
-            description: Spriggit version (optional)
-            required: false         
-        
+
+permissions:
+  contents: read
 
 jobs:
-    check-changes:
-      name: Check for recent changes
-      if: ${{github.event_name != 'workflow_dispatch'}}
-      runs-on: ubuntu-latest
-      outputs:
-        should_run: ${{ steps.should_run.outputs.should_run }}
-      steps: 
-        - uses: actions/checkout@v4
-        - name: Check for changes last 24 hours
-          id: should_run
-          shell: bash
-          run: |
-            git log --since="1 days ago" --name-only
-            echo "should_run=$(git log --since="1 days ago" --name-only | grep "" -c)" >> "$GITHUB_OUTPUT"
-    build-plugin: 
-      name: Build ESM from Spriggit files
-      needs: check-changes
-      if: ${{ needs.check-changes.outputs.should_run >= 1 || (github.event_name == 'workflow_dispatch' && always()) }}
-      permissions: write-all
-      runs-on: ubuntu-latest
-      steps:
-        - name: Output Inputs
-          run: |
-            echo "GitHub Event Inputs: ${{ toJSON(github.event.inputs) }}"
-            echo "Inputs: ${{ toJSON(inputs) }}"
-        - name: Checkout
-          uses: actions/checkout@v4
-
-        - name: Copy to Pack Folder
-          shell: bash
-          run: |
-            mkdir ${{ github.workspace }}/to-pack
-            cp -r Docs/ ${{ github.workspace }}/to-pack/Docs/
-        
-        - name: Fetch spriggit
-          shell: bash
-          run: gh release download -O .github/spriggit.zip -p 'SpriggitLinuxCLI.zip' -R Mutagen-Modding/Spriggit ${{ inputs.spriggit_tool_version }}
-          env:
-            GH_TOKEN: ${{ github.token }}
-            
-        - name: Extract Spriggit Zip
-          shell: bash
-          run: 7z x .github/spriggit.zip -o.github/spriggit
-
-        - name: fix spriggit permission
-          shell: bash
-          run: chmod +x .github/spriggit/Spriggit.CLI
-
-        - name: run spriggit
-          shell: bash
-          run: .github/spriggit/Spriggit.CLI deserialize --InputPath "spriggit" --OutputPath "${{ github.workspace }}/to-pack/StarfieldCommunityPatch.esm"
-          
-        - name: Upload plugin and strings
-          uses: actions/upload-artifact@v4
-          with:
-              name: plugin-and-strings
-              path: |
-                ${{ github.workspace }}/to-pack/StarfieldCommunityPatch.esm
-                ${{ github.workspace }}/to-pack/Strings/
-    compile-scripts:
-        name: Compile Papyrus scripts
-        needs: check-changes
-        if: ${{ needs.check-changes.outputs.should_run >= 1 || (github.event_name == 'workflow_dispatch' && always()) }}
-        runs-on: windows-latest
-        steps: 
-            - name: Checkout
-              uses: actions/checkout@v4
-              with:
-                sparse-checkout: Scripts
-
-            # Fetch and extract the tools we need
-            - name: Fetch Caprica 0.3.0
-              shell: bash
-              run: gh release download -O .github/Caprica.7z -p '*.7z' -R Orvid/Caprica v0.3.0
-              env:
-                GH_TOKEN: ${{ github.token }}
-            
-            - name: Extract Caprica EXE file
-              shell: bash
-              run: 7z x .github/Caprica.7z -o.github/Caprica
-
-            - name: Fetch vanilla scripts
-              shell: bash
-              run: |
-                curl -L -o .github/Scripts.7z -H "key: ${{ secrets.PAPYRUS_KEY }}" "https://starfieldpatch.dev/api/papyrus/get?version=${{inputs.papyrus-version}}"
-            
-            - name: Extract vanilla scripts
-              shell: bash
-              run: 7z x .github/Scripts.7z -o.github/Scripts
-
-            # Perform the actions to build a release.
-            - name: Run Caprica
-              shell: bash
-              run: .github/Caprica/Caprica.exe --game starfield --import ".github/Scripts" --output "Scripts" "Scripts/source" -R -q
-            
-            - name: Upload Output
-              uses: actions/upload-artifact@v4
-              with: 
-                name: compiled-scripts
-                path: |
-                  Scripts/
-    package-mod:
-      name: Package with BA2
-      runs-on: windows-latest
-      if: ${{ needs.check-changes.outputs.should_run >= 1 || (github.event_name == 'workflow_dispatch' && always()) }}
-      needs: [build-plugin, compile-scripts]
-      permissions: write-all
-      steps: 
-        - name: Checkout
-          uses: actions/checkout@v4
-
-        - name: Download Compiled Scripts
-          uses: actions/download-artifact@v4
-          with: 
-            name: compiled-scripts
-            path: Scripts
-
-        - name: Download Compiled Plugin
-          uses: actions/download-artifact@v4
-          with: 
-           name: plugin-and-strings
-        
-        - name: Fetch xEdit (to get BSArchPro)
-          shell: bash
-          run: gh release download -O .github/xEdit.7z -p '*.7z' -R TES5Edit/TES5Edit xedit-4.1.5
-          env:
-            GH_TOKEN: ${{ github.token }}
-
-        - name: Extract xEdit files
-          shell: bash
-          run: 7z x .github/xEdit.7z -o.github/xEdit
-        
-        - name: Create SFCP.bsarch (Assets.json) for BSArchPro
-          uses: actions/github-script@v7
-          with:
-            script: |
-              const generateAssets = require('./.github/workflows/generateAssets.js')
-              await generateAssets({ github, context })
-
-        - name: Run BSArchPro to create the archive(s)
-          shell: bash
-          run: .github/xEdit/BSArchPro64.exe "${{ github.workspace }}/.github/SFCP.bsarch"
-
-        - name: Create packing structure
-          shell: bash
-          run: |
-            mkdir "${{ github.workspace }}\to-pack"
-            mkdir "${{ github.workspace }}\to-pack\Data"
-            cp "StarfieldCommunityPatch - Main.ba2" "${{ github.workspace }}\to-pack\Data\StarfieldCommunityPatch - Main.ba2"
-            cp "StarfieldCommunityPatch.esm" "${{ github.workspace }}\to-pack\Data\StarfieldCommunityPatch.esm"
-            cp "StarfieldCommunityPatch.ini" "${{ github.workspace }}\to-pack\Data\StarfieldCommunityPatch.ini"
-            ls -R "${{ github.workspace }}\to-pack"
-
-        - name: Zip up release files
-          uses: vimtor/action-zip@v1.2
-          with: 
-            files: to-pack/
-            dest: StarfieldCommunityPatch-${{inputs.version || 'nightly'}}.zip
-
-        - name: Upload Output
-          uses: actions/upload-artifact@v4
-          with: 
-            name: StarfieldCommunityPatch-${{inputs.version || 'nightly'}}
-            path: StarfieldCommunityPatch-${{inputs.version || 'nightly'}}.zip
-        
-        - name: Remove temporary artifacts
-          uses: geekyeggo/delete-artifact@v4
-          with:
-              name: |
-                plugin-and-strings
-                compiled-scripts
-    share-release:
-      name: Share release
-      needs: [package-mod]
-      if: ${{ inputs.publish-release == true && (needs.check-changes.outputs.should_run >= 1 || (github.event_name == 'workflow_dispatch' && always())) }}
-      runs-on: ubuntu-latest
-      steps:
-        - uses: actions/checkout@v4
-        - name: Download the release artifact
-          uses: actions/download-artifact@v4
-          with:
-            name: StarfieldCommunityPatch-${{inputs.version || 'nightly'}}
-
-        - name: Delete Existing Release
-          uses: dev-drprasad/delete-tag-and-release@v1.0
-          with:
-            tag_name: ${{inputs.version || 'nightly'}}
-            github_token: ${{ secrets.GITHUB_TOKEN }}
-            delete_release: true
-  
-        - name: Create Release
-          id: create_release
-          uses: ncipollo/release-action@v1.13.0
-          env:
-            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          with:
-            allowUpdates: true
-            name: ${{inputs.version || 'Nightly'}}
-            draft: false
-            body: 'Latest release of the patch. Changelog at https://www.starfieldpatch.dev/changelog'
-            tag: ${{inputs.version || 'nightly'}}
-            prerelease: true
-            makeLatest: false
-            removeArtifacts: true
-            replacesArtifacts: true
-            artifactErrorsFailBuild: true
-            artifacts: StarfieldCommunityPatch-${{inputs.version || 'nightly'}}.zip
-
-        - name: Remove temporary artifacts
-          uses: geekyeggo/delete-artifact@v2
-          with:
-              name: |
-                StarfieldCommunityPatch-${{inputs.version || 'nightly'}}
-      
+  verify-reference:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          lfs: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Verify frozen source and original release files
+        run: python tools/verify_baseline.py --package dist/SFCP-1.0.0-reference.zip
+      - name: Check verification failure cases
+        run: python -m unittest discover -s tools -p test_*.py
+      - name: Upload historical reference artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: SFCP-1.0.0-reference-not-a-new-release
+          path: dist/SFCP-1.0.0-reference.zip
+          if-no-files-found: error

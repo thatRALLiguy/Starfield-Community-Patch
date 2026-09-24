@@ -1,0 +1,62 @@
+FormKey: 00083D:StarfieldCommunityPatch.esm
+EditorID: RAD02_SFCP1039_RetroactiveFix
+FormVersion: 576
+Flags:
+- Interruptable
+- NoFollowerIdleChatter
+Phases:
+- Name: ''
+  EditorWidth: 350
+  PhaseSetParentQuestStage:
+    OnBegin: 8000
+    OnEnd: -1
+Actors:
+- Flags:
+  - NoCommandState
+  BehaviorFlags:
+  - DeathEnd
+  - CombatEnd
+  - 0x100
+Actions:
+- MutagenObjectType: StartSceneAction
+  Name: ''
+  AliasID: 0
+  Index: 3
+  Flags: []
+  StartScenes:
+  - LCEPScene: 08CCB9:Starfield.esm
+    StartPhaseForScene: INTRO
+    Conditions: []
+Quest: 29EF60:Starfield.esm
+LastActionIndex: 3
+VNAM: 0x0300000003000000030000000300000003000000
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Unknown2: 12616
+  Data:
+    MutagenObjectType: GetStageDoneConditionData
+    FirstParameter: 29EF60:Starfield.esm
+    SecondParameter: 8100
+- MutagenObjectType: ConditionFloat
+  Unknown2: 12616
+  Data:
+    MutagenObjectType: GetStageDoneConditionData
+    FirstParameter: 017CE8:Starfield.esm
+    SecondParameter: 2000
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThanOrEqualTo
+  Unknown2: 12616
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    FirstParameter: 1829F7:Starfield.esm
+  ComparisonValue: 5
+- MutagenObjectType: ConditionFloat
+  Unknown2: 12616
+  Data:
+    MutagenObjectType: GetIsIDConditionData
+    FirstParameter: 0124AC:Starfield.esm
+  ComparisonValue: 1
+Notes: 'SFCP 1039: The primary fix for this bug is added as a new phase at the end of all of the interview scenes. If you have already completed all possible interviews prior to installing 0.1.8 of the SFCP, this dummy scene will kickstart the ending the next time you talk to Nadia'
+BOLV: '[]'
+Index: 0

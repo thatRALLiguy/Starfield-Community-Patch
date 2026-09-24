@@ -1,31 +1,13 @@
 FormKey: 22EC57:Starfield.esm
 MajorRecordFlagsRaw: 4
 EditorID: SWA_Particle_Horizon_Disruptor_3310_Proton_lvl26
-FormVersion: 559
+FormVersion: 576
 StarfieldMajorRecordFlags:
 - NotPlayable
 ODTY: 0
 Name:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: Protonenstrahl Disruptor 3310
-  - Language: English
-    String: Disrupter 3310 proton beam
-  - Language: Spanish
-    String: Rayo de protones Disruptor 3310
-  - Language: French
-    String: Rayon à protons Disruptor 3310
-  - Language: Italian
-    String: Raggio P Disruptor 3310
-  - Language: Japanese
-    String: ディスラプター3310陽子ビーム
-  - Language: Polish
-    String: Wiązka protonowa Disrupter 3310
-  - Language: Portuguese_Brazil
-    String: Feixe de prótons Subversor 3310
-  - Language: ChineseSimplified
-    String: 裂解枪3310质子光束
+  Value: Disrupter 3310 proton beam
 Model:
   FLLD: 0x01000000
 EquipmentType: 000046:Starfield.esm
@@ -38,6 +20,7 @@ Keywords:
 - 249FB6:Starfield.esm
 Description:
   TargetLanguage: English
+  Value: ''
 EmbeddedWeaponMod: Null
 SightedTransitionSeconds: 0.25
 AimDownSightTemplate: 04B246:Starfield.esm
@@ -92,25 +75,7 @@ BaseSpeed: 1
 AttackOxygenCost: 100
 General:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: PAR
-  - Language: English
-    String: PAR
-  - Language: Spanish
-    String: PAR
-  - Language: French
-    String: PAR
-  - Language: Italian
-    String: PAR
-  - Language: Japanese
-    String: PAR
-  - Language: Polish
-    String: CZĄ
-  - Language: Portuguese_Brazil
-    String: PAR
-  - Language: ChineseSimplified
-    String: 粒子
+  Value: PAR
 WMELUnknown1: 2
 MeleeReach: 1
 MeleeStagger: Medium

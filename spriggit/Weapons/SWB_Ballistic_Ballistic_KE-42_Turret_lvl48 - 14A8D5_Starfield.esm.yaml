@@ -1,31 +1,13 @@
 FormKey: 14A8D5:Starfield.esm
 MajorRecordFlagsRaw: 4
 EditorID: SWB_Ballistic_Ballistic_KE-42_Turret_lvl48
-FormVersion: 559
+FormVersion: 576
 StarfieldMajorRecordFlags:
 - NotPlayable
 ODTY: 0
 Name:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: Kanonengeschütz KE-42A
-  - Language: English
-    String: KE-42 cannon turret
-  - Language: Spanish
-    String: Torreta de cañones KE-42
-  - Language: French
-    String: Tourelle à canon KE-42
-  - Language: Italian
-    String: Torretta cannone KE-42
-  - Language: Japanese
-    String: KE-42キャノンタレット
-  - Language: Polish
-    String: Wieżyczka z działkiem KE-42
-  - Language: Portuguese_Brazil
-    String: Torreta canhão KE-42
-  - Language: ChineseSimplified
-    String: KE-42加农炮塔
+  Value: KE-42 cannon turret
 Model:
   FLLD: 0x01000000
 EquipmentType: 000046:Starfield.esm
@@ -37,6 +19,7 @@ Keywords:
 - 32792C:Starfield.esm
 Description:
   TargetLanguage: English
+  Value: ''
 EmbeddedWeaponMod: Null
 SightedTransitionSeconds: 0.25
 AimDownSightTemplate: 04B246:Starfield.esm
@@ -92,25 +75,7 @@ BaseSpeed: 1
 AttackOxygenCost: 75
 General:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: BAL
-  - Language: English
-    String: BAL
-  - Language: Spanish
-    String: BAL
-  - Language: French
-    String: BAL
-  - Language: Italian
-    String: BAL
-  - Language: Japanese
-    String: BAL
-  - Language: Polish
-    String: BAL
-  - Language: Portuguese_Brazil
-    String: BAL
-  - Language: ChineseSimplified
-    String: 弹道
+  Value: BAL
 WMELUnknown1: 2
 MeleeReach: 1
 MeleeStagger: Medium

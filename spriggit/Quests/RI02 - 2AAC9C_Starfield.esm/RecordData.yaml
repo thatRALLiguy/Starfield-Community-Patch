@@ -1,6 +1,6 @@
 FormKey: 2AAC9C:Starfield.esm
 EditorID: RI02
-FormVersion: 559
+FormVersion: 576
 VirtualMachineAdapter:
   Scripts:
   - Name: ri_crimetrackingquestscript
@@ -9,103 +9,101 @@ VirtualMachineAdapter:
       Name: RewardGlobal
       Object: 23DF3A:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: RI_CreditsRewardDeductionMedium
-      Object: 0BCFBE:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI_TotalBountiesCount
-      Object: 3B3CC1:Starfield.esm
+      Name: RI_CreditsRewardDeductionSmall
+      Object: 0E5193:Starfield.esm
     - MutagenObjectType: ScriptIntProperty
       Name: iCompletionStage
       Data: 10000
     - MutagenObjectType: ScriptObjectProperty
-      Name: RI_TotalBodyCount
-      Object: 23DE16:Starfield.esm
+      Name: RI_TotalArrestCount
+      Object: 23DE15:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: RI_CrimeCountLarge
-      Object: 03EED7:Starfield.esm
+      Name: RI_TotalBountiesCount
+      Object: 3B3CC1:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: RI08_MasakoRemainedCEO
-      Object: 17F175:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI_CrimeCountSmall
-      Object: 03EED6:Starfield.esm
+      Name: RI_CreditsRewardDeductionMedium
+      Object: 0BCFBE:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: RI_CreditsRewardDeductionLarge
       Object: 03EED0:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: RI_TotalArrestCount
-      Object: 23DE15:Starfield.esm
+      Name: RI_CrimeCountLarge
+      Object: 03EED7:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: RI_CreditsRewardDeductionSmall
-      Object: 0E5193:Starfield.esm
+      Name: RI_CrimeCountSmall
+      Object: 03EED6:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI_TotalBodyCount
+      Object: 23DE16:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI_CreditsReward
+      Object: 03EECF:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: RI_CrimeCountMedium
       Object: 03EED5:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: RI_CreditsReward
-      Object: 03EECF:Starfield.esm
+      Name: RI08_MasakoRemainedCEO
+      Object: 17F175:Starfield.esm
   Script:
     Name: Fragments:Quests:QF_RI02_002AAC9C
     Properties:
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_AngeloMarker
+      Name: Alias_AngeloSoldani
       Object: 2AAC9C:Starfield.esm
-      Alias: 23
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_NinaHart
-      Object: 2AAC9C:Starfield.esm
-      Alias: 4
-    - MutagenObjectType: ScriptObjectProperty
-      Name: NPCDemandMoney_Small
-      Object: 275226:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_NinaPresentationReplacement
-      Object: 2AAC9C:Starfield.esm
-      Alias: 14
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_AstralLoungeStartMarker
-      Object: 2AAC9C:Starfield.esm
-      Alias: 28
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RIR03_QuestStartKeyword
-      Object: 0C407D:Starfield.esm
+      Alias: 3
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_RyujinTowerStartMarker
       Object: 2AAC9C:Starfield.esm
       Alias: 27
     - MutagenObjectType: ScriptObjectProperty
+      Name: RI02_ZolaAdisaDead
+      Object: 25D678:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_NinaPresentationReplacement
+      Object: 2AAC9C:Starfield.esm
+      Alias: 14
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_NinaPresentationStatic
+      Object: 2AAC9C:Starfield.esm
+      Alias: 6
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI02_NinaHartDrunk
+      Object: 1E0E6A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RIR03_QuestStartKeyword
+      Object: 0C407D:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Credits
+      Object: 00000F:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_ArthurCruz
+      Object: 2AAC9C:Starfield.esm
+      Alias: 2
+    - MutagenObjectType: ScriptObjectProperty
       Name: Alias_InfinityLTDMarker
       Object: 2AAC9C:Starfield.esm
       Alias: 34
     - MutagenObjectType: ScriptObjectProperty
-      Name: RI02_NinaPresentation
-      Object: 2AAC2C:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI02_NinaHartDead
-      Object: 25D676:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_NinaRoomKeyBoone
+      Name: Alias_NinaPresentationActivator
       Object: 2AAC9C:Starfield.esm
-      Alias: 16
+      Alias: 9
     - MutagenObjectType: ScriptObjectProperty
-      Name: CrimeFactionNeon
-      Object: 26FDEA:Starfield.esm
+      Name: RI02_FinalResult
+      Object: 25D675:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_ZolaAdisa
+      Name: Alias_NinaMarker
       Object: 2AAC9C:Starfield.esm
-      Alias: 1
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI01_JobAdRadio
-      Object: 2C9C96:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: FactionRyujinIndustriesPerk
-      Object: 1C5152:Starfield.esm
+      Alias: 22
     - MutagenObjectType: ScriptObjectProperty
       Name: RI02_ArthurCruzDead
       Object: 25D677:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: RIR03
-      Object: 2BABF3:Starfield.esm
+      Name: Alias_BusinessSuit
+      Object: 2AAC9C:Starfield.esm
+      Alias: 19
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RIR02
+      Object: 2C2561:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_BooneMorgan
       Object: 2AAC9C:Starfield.esm
@@ -115,18 +113,67 @@ VirtualMachineAdapter:
       Object: 2AAC9C:Starfield.esm
       Alias: 17
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_BusinessSuit
-      Object: 2AAC9C:Starfield.esm
-      Alias: 19
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI02_PlayerMetAngelo
-      Object: 13E413:Starfield.esm
+      Name: RIR01
+      Object: 2C572B:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: LC044
       Object: 22F264:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
+      Name: FactionRyujinIndustriesPerk
+      Object: 1C5152:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
       Name: RI_LaneUnlockTLs
       Object: 094B6B:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_AstralLoungeStartMarker
+      Object: 2AAC9C:Starfield.esm
+      Alias: 28
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_NinaHart
+      Object: 2AAC9C:Starfield.esm
+      Alias: 4
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI02_NinaHartDead
+      Object: 25D676:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_NinaRoomKeyBoone
+      Object: 2AAC9C:Starfield.esm
+      Alias: 16
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_DossierArthurCruz
+      Object: 2AAC9C:Starfield.esm
+      Alias: 18
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LC051InfinityLTDFaction
+      Object: 27AD57:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI01_JobAdRadio
+      Object: 2C9C96:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI01
+      Object: 2C9C97:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI02_PlayerMetAngelo
+      Object: 13E413:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI02_NinaPresentation
+      Object: 2AAC2C:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_ZolaAdisa
+      Object: 2AAC9C:Starfield.esm
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RIR03
+      Object: 2BABF3:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: NPCDemandMoney_Large
+      Object: 275224:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RIR04
+      Object: 2A8319:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI02_500_NinaAngeloScene
+      Object: 25081E:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: NPCDemandMoney_Medium
       Object: 275225:Starfield.esm
@@ -137,65 +184,18 @@ VirtualMachineAdapter:
       Name: RI02_NinaRoomKey
       Object: 2AAC2B:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_AngeloSoldani
+      Name: Alias_AngeloMarker
       Object: 2AAC9C:Starfield.esm
-      Alias: 3
+      Alias: 23
     - MutagenObjectType: ScriptObjectProperty
-      Name: NPCDemandMoney_Large
-      Object: 275224:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_NinaMarker
-      Object: 2AAC9C:Starfield.esm
-      Alias: 22
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI02_ZolaAdisaDead
-      Object: 25D678:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RIR04
-      Object: 2A8319:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_NinaPresentationActivator
-      Object: 2AAC9C:Starfield.esm
-      Alias: 9
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_NinaPresentationStatic
-      Object: 2AAC9C:Starfield.esm
-      Alias: 6
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_DossierArthurCruz
-      Object: 2AAC9C:Starfield.esm
-      Alias: 18
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RIR02
-      Object: 2C2561:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI02_NinaHartDrunk
-      Object: 1E0E6A:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI02_500_NinaAngeloScene
-      Object: 25081E:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: LC051InfinityLTDFaction
-      Object: 27AD57:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_ArthurCruz
-      Object: 2AAC9C:Starfield.esm
-      Alias: 2
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI02_FinalResult
-      Object: 25D675:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI01
-      Object: 2C9C97:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RIR01
-      Object: 2C572B:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Credits
-      Object: 00000F:Starfield.esm
+      Name: NPCDemandMoney_Small
+      Object: 275226:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: RI02_AngeloSoldaniDead
       Object: 25D674:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CrimeFactionNeon
+      Object: 26FDEA:Starfield.esm
   Fragments:
   - Unknown2: 1
     ScriptName: Fragments:Quests:QF_RI02_002AAC9C
@@ -387,16 +387,16 @@ VirtualMachineAdapter:
       Object: 2AAC9C:Starfield.esm
       Alias: 3
     Scripts:
-    - Name: DefaultAliasOnActivate
-      Properties:
-      - MutagenObjectType: ScriptIntProperty
-        Name: StageToSet
-        Data: 540
     - Name: DefaultAliasOnDeath
       Properties:
       - MutagenObjectType: ScriptIntProperty
         Name: StageToSet
         Data: 699
+    - Name: DefaultAliasOnActivate
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 540
   - Property:
       Name: ''
       Object: 2AAC9C:Starfield.esm
@@ -550,25 +550,7 @@ VirtualMachineAdapter:
         Data: 510
 Name:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: Zwietracht säen
-  - Language: English
-    String: Sowing Discord
-  - Language: Spanish
-    String: Sembrando la discordia
-  - Language: French
-    String: Zizanie
-  - Language: Italian
-    String: Seminare discordia
-  - Language: Japanese
-    String: 募る不和
-  - Language: Polish
-    String: Sianie niezgody
-  - Language: Portuguese_Brazil
-    String: Semeando a Discórdia
-  - Language: ChineseSimplified
-    String: 挑拨离间
+  Value: Sowing Discord
 Data:
   Flags:
   - RunOnce
@@ -643,25 +625,7 @@ Stages:
     ScriptFlagComment: Set by Scene RI02_100_Imogene_IntroScene in Edit Data.
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Ich muss mit Imogene über meinen nächsten Auftrag sprechen.
-      - Language: English
-        String: I need to speak to Imogene about my next assignment.
-      - Language: Spanish
-        String: Tengo que hablar con Imogene sobre mi próximo encargo.
-      - Language: French
-        String: Je dois parler à Imogene pour connaître ma prochaine mission.
-      - Language: Italian
-        String: Devo parlare con Imogene del mio prossimo incarico.
-      - Language: Japanese
-        String: 次の任務についてイモジェンと話そう
-      - Language: Polish
-        String: Muszę porozmawiać z Imogene o moim kolejnym zadaniu.
-      - Language: Portuguese_Brazil
-        String: Preciso falar com Imogene sobre minha próxima tarefa.
-      - Language: ChineseSimplified
-        String: 我得和伊莫金聊聊我的下一个任务。
+      Value: I need to speak to Imogene about my next assignment.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -722,25 +686,7 @@ Stages:
     ScriptFlagComment: Set in Scene RI02_100_Imogene_IntroScene.
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Mein jüngster Auftrag lautet, einen Deal zwischen Quantum Synergies und Infinity LTD zu sabotieren. Zuerst muss ich Zola Adisa und Arthur Cruz von Quantum beeinflussen. Dabei sollte ich mich auf die Dossiers beziehen, die Imogene mir gegeben hat.
-      - Language: English
-        String: My latest assignment is to sabotage a deal between Quantum Synergies and Infinity LTD. First, I need to sway the Quantum reps, Zola Adisa and Arthur Cruz against the deal. I should reference the dossiers Imogene gave me for talking points.
-      - Language: Spanish
-        String: Mi último encargo consiste en sabotear un acuerdo entre Quantum Synergies e Infinity LTD. Antes de nada, tengo que disuadir a los representantes de Quantum, Zola Adisa y Arthur Cruz. Debería hacer referencia a los expedientes que me dio Imogene.
-      - Language: French
-        String: J'ai pour mission de saboter un accord entre Quantum Synergies et Infinity LTD. Je dois d'abord convaincre les représentants de Quantum Synergies, Zola Adisa et Arthur Cruz de ne pas accepter cet accord. Je devrais lire les dossiers qu'Imogene m'a donnés pour savoir quoi leur dire.
-      - Language: Italian
-        String: Il mio ultimo incarico è sabotare un accordo tra Quantum Synergies e Infinity LTD. Come prima cosa, devo indurre i rappresentanti della Quantum, Zola Adisa e Arthur Cruz, a rifiutare l’accordo. Dovrei fare riferimento ai dossier che mi ha fornito Imogene.
-      - Language: Japanese
-        String: 今度の任務は、クアンタム・シナジーズとインフィニティ・リミテッドの取引を妨害することだ。まずクアンタムの代理人、ゾーラ・アディサとアーサー・クルスが取引に反対するよう説得する。話題については、イモジェンに渡された書類を参照しよう
-      - Language: Polish
-        String: Moim najnowszym zadaniem jest sabotowanie umowy między Quantum Synergies a Infinity LTD. Muszę najpierw przekonać przedstawicieli Quantum, Zolę Adisę oraz Arthura Cruza, do jej odrzucenia. Warto odnieść się do akt, które dała mi Imogene, by wiedzieć, jak poprowadzić rozmowę.
-      - Language: Portuguese_Brazil
-        String: Minha nova tarefa é sabotar um acordo entre a Quantum Synergies e a Infinity LTD. O primeiro passo é influenciar os representantes da Quantum, Zola Adisa e Arthur Cruz, a ficarem contra o acordo. Vou usar os dossiês que a Imogene me deu para saber o que falar.
-      - Language: ChineseSimplified
-        String: 我的最新任务是阻挠量子协同科技与无限有限公司之间的交易。首先，我需要动摇量子协同科技的代表——佐拉·阿迪萨和亚瑟·克鲁兹，让他们反对交易。我应该参考伊莫金给我的档案，准备谈话要点。
+      Value: My latest assignment is to sabotage a deal between Quantum Synergies and Infinity LTD. First, I need to sway the Quantum reps, Zola Adisa and Arthur Cruz against the deal. I should reference the dossiers Imogene gave me for talking points.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -981,25 +927,7 @@ Stages:
     ScriptFlagComment: Set by Stage 290, 299, 390 or 399.
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Ich habe mich nach Kräften bemüht, Zola Adisa und Arthur Cruz von dem Deal mit Infinity LTD abzubringen. Jetzt muss ich nur noch die Präsentation von Nina Hart durch die falsche ersetzen, die Imogene mir gegeben hat.
-      - Language: English
-        String: I did my best to influence Zola Adisa and Arthur Cruz against the deal with Infinity LTD. All I have left to do is swap out Nina Hart's presentation with the fabricated one that Imogene gave me.
-      - Language: Spanish
-        String: He hecho lo que he podido para convencer a Zola Adisa y Arthur Cruz de que no hagan negocios con Infinity LTD. Ahora solo tengo que cambiar la presentación de Nina Hart por la que me dio Imogene.
-      - Language: French
-        String: J'ai fait de mon mieux pour convaincre Zola Adisa et Arthur Cruz de refuser cet accord avec Infinity LTD. Il ne me reste maintenant qu'à échanger la présentation de Nina Hart contre la fausse présentation que m'a donnée Imogene.
-      - Language: Italian
-        String: Ho fatto del mio meglio per influenzare Zola Adisa e Arthur Cruz riguardo all’accordo con la Infinity LTD. Ora devo solo sostituire la presentazione di Nina Hart con quella falsa che mi ha dato Imogene.
-      - Language: Japanese
-        String: ゾーラ・アディサとアーサー・クルスがインフィニティ・リミテッドとの取引に反対するよう、可能な限りの影響を与えた。あとはニナ・ハートのプレゼンを、イモジェンに渡された偽物と入れ替えるだけだ
-      - Language: Polish
-        String: Mam nadzieję, że moje starania wpłyną na odrzucenie przez Zolę Adisę oraz Arthura Cruza umowy z Infinity LTD. Muszę jeszcze tylko podmienić prezentację Niny Hart na podrobioną, którą dała mi Imogene.
-      - Language: Portuguese_Brazil
-        String: Fiz meu melhor para influenciar Zola Adisa e Arthur Cruz a ficarem contra o acordo com a Infinity LTD. Só o que resta fazer é trocar a apresentação da Nina Hart pela fabricada que Imogene me deu.
-      - Language: ChineseSimplified
-        String: 我已经尽了全力，让佐拉·阿迪萨和亚瑟·克鲁兹反对与无限有限公司的交易，现在只需要把尼娜·哈特的演示文稿换成伊莫金给我的那个伪造文稿。
+      Value: I did my best to influence Zola Adisa and Arthur Cruz against the deal with Infinity LTD. All I have left to do is swap out Nina Hart's presentation with the fabricated one that Imogene gave me.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -1054,7 +982,6 @@ Stages:
   - Flags: []
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 2AAC9C:Starfield.esm
@@ -1063,25 +990,7 @@ Stages:
     ScriptFlagComment: Set by script on Alias NinaDoor.
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Ninas Suite ist verschlossen. Ich könnte mir die Schlüsselkarte holen oder einen anderen Weg finden.
-      - Language: English
-        String: Nina's suite is locked. Perhaps I can obtain a keycard or find an alternate route inside.
-      - Language: Spanish
-        String: Nina ha cerrado la puerta de su suite. Debería intentar agenciarme una tarjeta o buscar la forma de colarme.
-      - Language: French
-        String: La suite de Nina est verrouillée. Je peux peut-être trouver un pass d'accès ou un autre chemin pour entrer.
-      - Language: Italian
-        String: La suite di Nina è chiusa. Forse posso procurarmi una chiave o trovare un modo alternativo per entrare.
-      - Language: Japanese
-        String: ニナのスイートルームは施錠されている。キーカードを手に入れるか、他に入る方法がないか探してみよう
-      - Language: Polish
-        String: Apartament Niny jest zamknięty. Może gdzieś znajdę kartę do niego albo inne wejście.
-      - Language: Portuguese_Brazil
-        String: A suíte da Nina está trancada. Talvez eu consiga obter um cartão de acesso ou descobrir outro jeito de entrar.
-      - Language: ChineseSimplified
-        String: 尼娜的套房锁住了。没准我能弄到通行卡，或者找到其他路进去。
+      Value: Nina's suite is locked. Perhaps I can obtain a keycard or find an alternate route inside.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -1169,7 +1078,6 @@ Stages:
   - Flags: []
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 2AAC9C:Starfield.esm
@@ -1177,25 +1085,7 @@ Stages:
       ComparisonValue: 1
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Ich bin an die Schlüsselkarte von Ninas Suite gelangt. Jetzt sollte ich ihre Präsentation durch die falsche von Imogene ersetzen.
-      - Language: English
-        String: I was able to get a keycard for Nina's suite. Now I can swap out her presentation with the fabricated one that Imogene gave me.
-      - Language: Spanish
-        String: He conseguido la tarjeta de la suite de Nina. Ahora puedo cambiar su presentación por el archivo que me facilitó Imogene.
-      - Language: French
-        String: J'ai obtenu le pass d'accès à la suite de Nina. Je peux maintenant remplacer sa présentation par celle qu'Imogene m'a donnée.
-      - Language: Italian
-        String: Ho recuperato una chiave per la suite di Nina. Ora posso scambiare la sua presentazione con quella falsa che mi ha dato Imogene.
-      - Language: Japanese
-        String: ニナのスイートルームのキーカードを入手した。これでニナのプレゼンテーションをイモジェンが用意した偽物と入れ替えることができる
-      - Language: Polish
-        String: Udało mi się zdobyć kartę do apartamentu Niny. Teraz mogę podmienić jej prezentację na sfabrykowaną, którą dała mi Imogene.
-      - Language: Portuguese_Brazil
-        String: Consegui um cartão de acesso para entrar na suíte da Nina. Agora posso trocar a apresentação dela pela falsa que a Imogene me deu.
-      - Language: ChineseSimplified
-        String: 我找到了尼娜套房的通行卡。现在，我可以把她的演示文稿换成伊莫金给我的那个伪造文稿。
+      Value: I was able to get a keycard for Nina's suite. Now I can swap out her presentation with the fabricated one that Imogene gave me.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -1224,25 +1114,7 @@ Stages:
     Note: Player entered Nina's room
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Ich bin in Ninas Suite gelangt. Jetzt sollte ich ihre Präsentation durch die falsche von Imogene ersetzen.
-      - Language: English
-        String: I found a way into Nina's suite. Now I can swap out her presentation with the fabricated one that Imogene gave me.
-      - Language: Spanish
-        String: He conseguido acceder a la suite de Nina. Ahora puedo cambiar su presentación por el archivo que me facilitó Imogene.
-      - Language: French
-        String: J'ai trouvé un moyen d'entrer dans la suite de Nina. Je peux maintenant remplacer sa présentation par celle qu'Imogene m'a donnée.
-      - Language: Italian
-        String: Ho trovato un modo per entrare nella suite di Nina. Ora posso scambiare la sua presentazione con quella falsa che mi ha dato Imogene.
-      - Language: Japanese
-        String: ニナのスイートルームへ入る方法を見つけた。これでニナのプレゼンテーションをイモジェンが用意した偽物と入れ替えることができる
-      - Language: Polish
-        String: Udało mi się dostać do apartamentu Niny. Teraz mogę podmienić jej prezentację na sfabrykowaną, którą dała mi Imogene.
-      - Language: Portuguese_Brazil
-        String: Descobri um jeito de entrar na suíte da Nina. Agora posso trocar a apresentação dela pela falsa que a Imogene me deu.
-      - Language: ChineseSimplified
-        String: 我找到了进入尼娜套房的办法。现在，我可以把她的演示文稿换成伊莫金给我的那个伪造文稿。
+      Value: I found a way into Nina's suite. Now I can swap out her presentation with the fabricated one that Imogene gave me.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -1263,25 +1135,7 @@ Stages:
     ScriptFlagComment: Set by Stage 500 or 575.
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: 'Ich habe mich nach Kräften bemüht, Zola Adisa und Arthur Cruz von dem Deal mit Infinity LTD abzubringen, und ich habe die Präsentation von Nina Hart ausgetauscht. Ich muss zu Imogene im Ryujin Tower in Neon zurückkehren und sie informieren. '
-      - Language: English
-        String: "I did my best to sway Zola Adisa and Arthur Cruz away from the deal with Infinity LTD, and I swapped out Nina Hart's presentation. I need to return to Imogene at Ryujin Tower and let her know it's done. "
-      - Language: Spanish
-        String: 'He hecho lo que he podido para disuadir a Zola Adisa y Arthur Cruz de hacer negocios con Infinity LTD, y he cambiado la presentación de Nina Hart. Tengo que volver a la Torre Ryujin e informar a Imogene. '
-      - Language: French
-        String: "J'ai fait de mon mieux pour convaincre Zola Adisa et Arthur Cruz de refuser cet accord avec Infinity LTD, puis j'ai échangé la présentation de Nina Hart. Je dois retourner voir Imogene à la tour Ryujin pour l'en informer. "
-      - Language: Italian
-        String: 'Ho fatto del mio meglio per dissuadere Zola Adisa e Arthur Cruz dal finalizzare l’accordo con la Infinity LTD e ho sostituito la presentazione di Nina Hart. Devo tornare da Imogene alla Torre Ryujin e farle sapere che è fatta. '
-      - Language: Japanese
-        String: 'ゾーラ・アディサとアーサー・クルスがインフィニティ・リミテッドとの取引に反対するよう、可能な限りの影響を与え、ニナ・ハートのプレゼンを入れ替えた。リュウジン・タワーに戻り、仕事の完了をイモジェンに知らせよう '
-      - Language: Polish
-        String: 'Mam nadzieję, że moje starania przekonają Zolę Adisę oraz Arthura Cruza do odrzucenia umowy z Infinity LTD. Udało mi się też podmienić prezentację Niny Hart. Muszę wrócić do Imogene w Wieży Ryujina, by jej przekazać, że robota skończona. '
-      - Language: Portuguese_Brazil
-        String: 'Fiz meu melhor para influenciar Zola Adisa e Arthur Cruz a ficarem contra o acordo com a Infinity LTD e também troquei a apresentação da Nina Hart. Vou voltar até Imogene na Torre Ryujin e informá-la de que o trabalho foi feito. '
-      - Language: ChineseSimplified
-        String: '我尽全力让佐拉·阿迪萨和亚瑟·克鲁兹放弃了与无限有限公司的交易，并且把尼娜·哈特的演示文稿掉了包。现在我需要回龙神大楼去告诉伊莫金事情办完了。 '
+      Value: "I did my best to sway Zola Adisa and Arthur Cruz away from the deal with Infinity LTD, and I swapped out Nina Hart's presentation. I need to return to Imogene at Ryujin Tower and let her know it's done. "
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -1342,25 +1196,7 @@ Stages:
     ScriptFlagComment: Set by Quest script RI_CrimeTrackingQuestScript.
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Ich habe versucht, in der Astral Lounge einen Deal zwischen Infinity LTD und Quantum Synergies zu beeinflussen. Ob ich Erfolg hatte, wird sich zeigen.
-      - Language: English
-        String: I attempted to sway a deal between Infinity LTD and Quantum Synergies in the Astral Lounge. The final results remain to be seen.
-      - Language: Spanish
-        String: He intentado interferir en un trato entre Infinity LTD y Quantum Synergies en el Astral Lounge. Ya veremos en qué queda.
-      - Language: French
-        String: J'ai tenté de manipuler l'issue d'un accord entre Infinity LTD et Quantum Synergies à l'Astral Lounge. Il va falloir patienter avant d'en voir les résultats.
-      - Language: Italian
-        String: Ho cercato di influenzare un accordo tra la Infinity LTD e la Quantum Synergies presso l’Astral Lounge. Il risultato è ancora incerto.
-      - Language: Japanese
-        String: アストラル・ラウンジでインフィニティ・リミテッドとクアンタム・シナジーズの間で取引をまとめようと頑張った。最終的な結果はまだ出ていない
-      - Language: Polish
-        String: Próbuję doprowadzić do odrzucenia porozumienia między Infinity LTD a Quantum Synergies w Astral Lounge. Zobaczymy, co z tego wyjdzie.
-      - Language: Portuguese_Brazil
-        String: Tentei orquestrar uma negociação entre a Infinity LTD e a Quantum Synergies no Astral Lounge. Agora é esperar para ver se deu certo.
-      - Language: ChineseSimplified
-        String: 在星光酒廊，我试图劝说无限有限公司和量子协同科技达成协议。最终结果尚不可知。
+      Value: I attempted to sway a deal between Infinity LTD and Quantum Synergies in the Astral Lounge. The final results remain to be seen.
     StageCompleteDatas:
     - QSRD: 0x02000000
       RewardDatas:
@@ -1368,7 +1204,6 @@ Stages:
         BonusCredits: 1460FE:Starfield.esm
         Conditions:
         - MutagenObjectType: ConditionFloat
-          Unknown1: 0x7939A7
           Data:
             MutagenObjectType: HasPerkConditionData
             FirstParameter: 227FD3:Starfield.esm
@@ -1384,148 +1219,40 @@ Objectives:
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Sprich mit Imogene.
-    - Language: English
-      String: Talk to Imogene
-    - Language: Spanish
-      String: Habla con Imogene.
-    - Language: French
-      String: Parlez à Imogene.
-    - Language: Italian
-      String: Parla con Imogene
-    - Language: Japanese
-      String: イモジェンと話す
-    - Language: Polish
-      String: Porozmawiaj z Imogene
-    - Language: Portuguese_Brazil
-      String: Fale com Imogene
-    - Language: ChineseSimplified
-      String: 与伊莫金交谈
+    Value: Talk to Imogene
   Targets:
   - {}
 - Index: 200
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Beeinflusse Zola Adisa gegen Infinity LTD.
-    - Language: English
-      String: Influence Zola Adisa Against Infinity LTD
-    - Language: Spanish
-      String: Influye en Zola Adisa contra Infinity LTD.
-    - Language: French
-      String: Montez Zola Adisa contre Infinity LTD.
-    - Language: Italian
-      String: Influenza Zola Adisa contro la Infinity LTD
-    - Language: Japanese
-      String: インフィニティ・リミテッドに反対するようゾーラ・アディサに働きかける
-    - Language: Polish
-      String: Zwróć Zolę Adisę przeciw Infinity LTD
-    - Language: Portuguese_Brazil
-      String: Influencie Zola Adisa contra a Infinity LTD
-    - Language: ChineseSimplified
-      String: 离间佐拉·阿迪萨与无限有限公司
+    Value: Influence Zola Adisa Against Infinity LTD
   Targets:
   - AliasID: 1
 - Index: 300
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Beeinflusse Arthur Cruz gegen Infinity LTD.
-    - Language: English
-      String: Influence Arthur Cruz Against Infinity LTD
-    - Language: Spanish
-      String: Influye en Arthur Cruz contra Infinity LTD.
-    - Language: French
-      String: Montez Arthur Cruz contre Infinity LTD.
-    - Language: Italian
-      String: Influenza Arthur Cruz contro la Infinity LTD
-    - Language: Japanese
-      String: インフィニティ・リミテッドに反対するようアーサー・クルスに働きかける
-    - Language: Polish
-      String: Zwróć Arthura Cruza przeciw Infinity LTD
-    - Language: Portuguese_Brazil
-      String: Influencie Arthur Cruz contra a Infinity LTD
-    - Language: ChineseSimplified
-      String: 离间亚瑟·克鲁兹与无限有限公司
+    Value: Influence Arthur Cruz Against Infinity LTD
   Targets:
   - AliasID: 2
 - Index: 400
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: (Optional) Lies die Dossiers.
-    - Language: English
-      String: (Optional) Read the Dossiers
-    - Language: Spanish
-      String: (Opcional) Lee los expedientes.
-    - Language: French
-      String: (Optionnel) Lisez les dossiers.
-    - Language: Italian
-      String: (Opzionale) Leggi i dossier
-    - Language: Japanese
-      String: (オプション)書類を読む
-    - Language: Polish
-      String: (Opcj.) Przeczytaj akta
-    - Language: Portuguese_Brazil
-      String: (Opc.) Leia os dossiês
-    - Language: ChineseSimplified
-      String: （可选）阅读档案
+    Value: (Optional) Read the Dossiers
 - Index: 500
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Tausche Nina Harts Präsentation aus.
-    - Language: English
-      String: Switch Nina Hart's Presentation
-    - Language: Spanish
-      String: Cambia la presentación de Nina Hart.
-    - Language: French
-      String: Échangez la présentation de Nina Hart.
-    - Language: Italian
-      String: Sostituisci la presentazione di Nina Hart
-    - Language: Japanese
-      String: ニナ・ハートのプレゼンを変更する
-    - Language: Polish
-      String: Podmień prezentację Niny Hart
-    - Language: Portuguese_Brazil
-      String: Troque a apresentação da Nina
-    - Language: ChineseSimplified
-      String: 调换尼娜·哈特的演示文稿
+    Value: Switch Nina Hart's Presentation
   Targets:
   - AliasID: 9
 - Index: 550
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: (Optional) Finde einen Weg in Ninas Suite.
-    - Language: English
-      String: (Optional) Find a Way into Nina's Suite
-    - Language: Spanish
-      String: (Opcional) Consigue entrar en la suite de Nina.
-    - Language: French
-      String: (Opt.) Trouvez comment accéder à la suite de Nina.
-    - Language: Italian
-      String: (Opzionale) Entra nella suite di Nina
-    - Language: Japanese
-      String: (オプション)ニナのスイートルームに入る方法を探す
-    - Language: Polish
-      String: (Opcj.) Dostań się do apartamentu Niny
-    - Language: Portuguese_Brazil
-      String: (Opc.) Descubra como entrar na suíte da Nina
-    - Language: ChineseSimplified
-      String: （可选）想办法进入尼娜的套房
+    Value: (Optional) Find a Way into Nina's Suite
   Targets:
   - AliasID: 5
   - AliasID: 4
@@ -1533,25 +1260,7 @@ Objectives:
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Kehre zu Imogene im Ryujin Tower zurück.
-    - Language: English
-      String: Return to Imogene at Ryujin Tower
-    - Language: Spanish
-      String: Vuelve con Imogene, en la Torre Ryujin.
-    - Language: French
-      String: Retournez voir Imogene à la tour Ryujin.
-    - Language: Italian
-      String: Torna da Imogene alla Torre Ryujin
-    - Language: Japanese
-      String: リュウジン・タワーにいるイモジェンのところに戻る
-    - Language: Polish
-      String: Wróć do Imogene w Wieży Ryujina
-    - Language: Portuguese_Brazil
-      String: Volte até Imogene na Torre Ryujin
-    - Language: ChineseSimplified
-      String: 返回龙神大楼见伊莫金
+    Value: Return to Imogene at Ryujin Tower
   Targets:
   - {}
 Aliases:
@@ -1883,4 +1592,3 @@ Aliases:
   ALFG: 0
   ForcedReference: 159C4C:Starfield.esm
   VoiceTypes: Null
-Timestamp: 12497

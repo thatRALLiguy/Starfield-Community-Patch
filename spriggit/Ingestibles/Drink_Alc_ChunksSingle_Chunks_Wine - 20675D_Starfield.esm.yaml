@@ -1,6 +1,6 @@
 FormKey: 20675D:Starfield.esm
 EditorID: Drink_Alc_ChunksSingle_Chunks_Wine
-FormVersion: 559
+FormVersion: 576
 ObjectBounds:
   First: -0.03594963, -0.036804233, -2.0861626E-09
   Second: 0.035949778, 0.03680416, 0.062286366
@@ -11,25 +11,7 @@ Transforms:
   Workbench: 0664C5:Starfield.esm
 Name:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: Chunks Wein
-  - Language: English
-    String: Chunks Wine
-  - Language: Spanish
-    String: Chunks de vino
-  - Language: French
-    String: Crok au vin
-  - Language: Italian
-    String: Chunks vino
-  - Language: Japanese
-    String: チャンクスのワイン
-  - Language: Polish
-    String: Winny chunks
-  - Language: Portuguese_Brazil
-    String: Chunks de Vinho
-  - Language: ChineseSimplified
-    String: 块餐红酒
+  Value: Chunks Wine
 Keywords:
 - 055ECC:Starfield.esm
 - 249C5C:Starfield.esm
@@ -47,25 +29,7 @@ CraftingSound:
   Start: 35d54406-a8ad-3d76-0585-057058aa9faa
 Description:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: 'Chunks-Nahrungswürfel mit Rotweingeschmack. '
-  - Language: English
-    String: 'A red wine-flavored Chunks food cube. '
-  - Language: Spanish
-    String: 'Un cubo de comida de Chunks con sabor a vino tinto. '
-  - Language: French
-    String: 'Un cube nutritif Crok goût vin rouge. '
-  - Language: Italian
-    String: 'Un cubo di Chunks al gusto di vino rosso. '
-  - Language: Japanese
-    String: '赤ワイン風味のチャンクス食品キューブ '
-  - Language: Polish
-    String: 'Kostka żywieniowa marki Chunks o smaku czerwonego wina. '
-  - Language: Portuguese_Brazil
-    String: 'Um cubo alimentício do Chunks sabor vinho tinto. '
-  - Language: ChineseSimplified
-    String: '块餐速食店红酒味的块状食物。 '
+  Value: 'A red wine-flavored Chunks food cube. '
 Weight: 0.2
 Value: 265
 Flags:
@@ -75,6 +39,7 @@ ConsumeSound:
   Start: 520f488c-bade-0b56-bf24-a28b60aca3ba
 AddictionName:
   TargetLanguage: English
+  Value: ''
 Effects:
 - BaseEffect: 2D88C3:Starfield.esm
   Data:
@@ -109,18 +74,17 @@ Effects:
 - BaseEffect: 2EE936:Starfield.esm
   Data:
     Magnitude: 1
-    Duration: 1200
+    Duration: 1
   Conditions:
   - MutagenObjectType: ConditionFloat
     CompareOperator: GreaterThanOrEqualTo
-    Unknown1: 0x8D1400
-    Unknown2: 16650
+    Unknown2: 16658
     Data:
       MutagenObjectType: GetGlobalValueConditionData
       FirstParameter: 31324C:Starfield.esm
     ComparisonValue: 1
   Magnitude: 2EFD77:Starfield.esm
-  Duration: 313264:Starfield.esm
+  Duration: 2F0AD4:Starfield.esm
   EFIF: 0
   MUID: 5
 - BaseEffect: 2EE4B2:Starfield.esm

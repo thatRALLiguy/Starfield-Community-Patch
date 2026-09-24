@@ -1,27 +1,9 @@
 FormKey: 33E8EC:Starfield.esm
 EditorID: COM_Companion_Barrett_Convo_Neon01
-FormVersion: 559
+FormVersion: 576
 Name:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: Barretts NPC-Chat
-  - Language: English
-    String: Barrett NPC Chat
-  - Language: Spanish
-    String: Conversación de PNJ Barrett
-  - Language: French
-    String: Barrett NPC Chat
-  - Language: Italian
-    String: Chat PNG Barrett
-  - Language: Japanese
-    String: バレットNPC会話
-  - Language: Polish
-    String: Barrett - rozmowa z PN
-  - Language: Portuguese_Brazil
-    String: 'Barrett: Diálogo de NPC'
-  - Language: ChineseSimplified
-    String: 巴雷特NPC聊天
+  Value: Barrett NPC Chat
 Data:
   Flags:
   - RunOnce
@@ -45,12 +27,9 @@ Aliases:
   Conditions:
   - MutagenObjectType: ConditionGlobal
     CompareOperator: LessThanOrEqualTo
-    Unknown1: 0xE83300
-    Unknown2: 16596
     Data:
       MutagenObjectType: GetDistanceConditionData
       UseAliases: True
       FirstParameter: 1
     ComparisonValue: 297E24:Starfield.esm
   VoiceTypes: Null
-Timestamp: 12497

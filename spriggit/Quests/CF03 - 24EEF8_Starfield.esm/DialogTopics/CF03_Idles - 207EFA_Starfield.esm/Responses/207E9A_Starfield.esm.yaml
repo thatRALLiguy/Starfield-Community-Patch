@@ -1,5 +1,5 @@
 FormKey: 207E9A:Starfield.esm
-FormVersion: 559
+FormVersion: 576
 Flags:
   Flags:
   - Random
@@ -12,25 +12,7 @@ Responses:
   TRDAUnknown: 7.833334
   Text:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Ich wette, die Dinger kriechen direkt hinter den Wänden rum.
-    - Language: English
-      String: I bet those things are crawling right behind the walls. Ugh.
-    - Language: Spanish
-      String: Fijo que esas cosas se arrastran detrás de las paredes. Puaj.
-    - Language: French
-      String: Je parie que ces bestioles grouillent derrière les murs. Beuark.
-    - Language: Italian
-      String: Scommetto che quei cosi strisciano dietro le pareti. Brrr.
-    - Language: Japanese
-      String: あの連中は壁のすぐ裏側を這い回ってるんだろうな。ゾッとする
-    - Language: Polish
-      String: Założę się, że te stwory roją się tuż za tymi ścianami. Uch...
-    - Language: Portuguese_Brazil
-      String: Aposto que aqueles bichos tão rastejando logo atrás das paredes. Cruzes.
-    - Language: ChineseSimplified
-      String: 我猜那些东西现在正在墙后面爬呢，呕。
+    Value: I bet those things are crawling right behind the walls. Ugh.
   ScriptNotes: ''
   Edits: ''
   AlternateLipText: ''
