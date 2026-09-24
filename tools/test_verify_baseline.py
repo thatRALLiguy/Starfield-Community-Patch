@@ -40,6 +40,16 @@ class FrozenBaselineTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, 'Missing or modified source'):
             baseline.verify()
 
+    def test_accepts_afx_xml_with_windows_line_endings(self):
+        renamed = self.source.with_suffix('.afx')
+        self.source.rename(renamed)
+        renamed.write_bytes(b'<root>\n</root>\n')
+        manifest = json.loads(self.lock.read_text())
+        manifest['recovered_source_sha256'] = {'spriggit/record.afx': baseline.source_digest(renamed)}
+        self.lock.write_text(json.dumps(manifest))
+        renamed.write_bytes(b'<root>\r\n</root>\r\n')
+        baseline.verify()
+
     def test_rejects_deleted_source(self):
         self.source.unlink()
         with self.assertRaisesRegex(ValueError, 'Missing or modified source'):

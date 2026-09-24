@@ -21,7 +21,7 @@ def digest(path):
 
 def source_digest(path):
     # Git may check text out with CRLF on Windows and LF on Linux.
-    if path.suffix.lower() in ('.yaml', '.json', '.psc', '.cmd', '.meta') or path.name == '.spriggit':
+    if path.suffix.lower() in ('.yaml', '.json', '.psc', '.cmd', '.meta', '.afx') or path.name == '.spriggit':
         return hashlib.sha256(path.read_bytes().replace(b'\r\n', b'\n')).hexdigest()
     return digest(path)
 
