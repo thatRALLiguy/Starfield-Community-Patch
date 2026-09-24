@@ -1,5 +1,5 @@
 FormKey: 15DA36:Starfield.esm
-FormVersion: 559
+FormVersion: 576
 Flags:
   Flags:
   - Random
@@ -33,39 +33,19 @@ Responses:
     UnknownFloat: 5.4
   Text:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Whoa, whoa, whoa! Waaas?
-    - Language: English
-      String: Whoa whoa whoa! Whhhhaaat?
-    - Language: Spanish
-      String: ¡Eh, eh, eh! ¿Quééééé?
-    - Language: French
-      String: Wow, wow, wow ! Quoi ?
-    - Language: Italian
-      String: Ehi, ehi, ehi! Cooosa?
-    - Language: Japanese
-      String: おいおい！ 何だ！？
-    - Language: Polish
-      String: Łoł, łoł, łoł! Co do...?
-    - Language: Portuguese_Brazil
-      String: Opa, opa, opa! Como é?
-    - Language: ChineseSimplified
-      String: 哇哇哦哇哦！什么鬼？
+    Value: Whoa whoa whoa! Whhhhaaat?
   ScriptNotes: ''
   Edits: ''
   AlternateLipText: ''
   TextHash: 0x20E35E72E24CD701
 Conditions:
 - MutagenObjectType: ConditionFloat
-  Unknown1: 0x000000
-  Unknown2: 16493
+  Unknown2: 16617
   Data:
     MutagenObjectType: GetInFactionConditionData
     FirstParameter: 27AD57:Starfield.esm
 - MutagenObjectType: ConditionFloat
-  Unknown1: 0x000000
-  Unknown2: 16493
+  Unknown2: 16617
   Data:
     MutagenObjectType: WornHasKeywordConditionData
     RunOnType: Reference
@@ -73,8 +53,7 @@ Conditions:
     FirstParameter: 1C8E67:Starfield.esm
   ComparisonValue: 1
 - MutagenObjectType: ConditionFloat
-  Unknown1: 0x000000
-  Unknown2: 16493
+  Unknown2: 16617
   Data:
     MutagenObjectType: IsTrueForConditionFormConditionData
     RunOnType: Reference

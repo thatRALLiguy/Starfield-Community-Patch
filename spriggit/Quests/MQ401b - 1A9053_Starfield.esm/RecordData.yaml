@@ -1,6 +1,6 @@
 FormKey: 1A9053:Starfield.esm
 EditorID: MQ401b
-FormVersion: 559
+FormVersion: 576
 VirtualMachineAdapter:
   Scripts:
   - Name: MQ401VariantQuestScript
@@ -20,39 +20,51 @@ VirtualMachineAdapter:
     Name: Fragments:Quests:QF_MQ401b_001A9053
     Properties:
     - MutagenObjectType: ScriptObjectProperty
-      Name: LodgeKey
-      Object: 293A7D:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ401
-      Object: 1DC45E:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ401B_OtherPlayerMarker
-      Object: 0EAF20:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: ConstellationFaction
-      Object: 0191DC:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
       Name: Alias_OtherPlayer
       Object: 1A9053:Starfield.esm
       Alias: 5
     - MutagenObjectType: ScriptObjectProperty
-      Name: MQ401_SkipMQ
-      Object: 17E006:Starfield.esm
+      Name: MQ401B_OtherPlayerMarker
+      Object: 0EAF20:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: PotentialCrewFaction
       Object: 0143A2:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: MQ402
-      Object: 1DC418:Starfield.esm
+      Name: TraitStarterHome
+      Object: 0A47B8:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ConstellationFaction
+      Object: 0191DC:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: TRAIT_StarterHome
+      Object: 227FDF:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ401_SkipMQ
+      Object: 17E006:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ401
+      Object: 1DC45E:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ401b_001_LodgeIntro
+      Object: 1801BA:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: OtherYouEliteCrewQuest
       Object: 187431:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
+      Name: MQ402
+      Object: 1DC418:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LodgeKey
+      Object: 293A7D:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Trait_KidStuff
+      Object: 227FDE:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: TraitKidStuff
+      Object: 10C2FA:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
       Name: AvailableCrewFaction
       Object: 014314:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ401b_001_LodgeIntro
-      Object: 1801BA:Starfield.esm
   Fragments:
   - Stage: 110
     Unknown2: 1
@@ -79,25 +91,7 @@ VirtualMachineAdapter:
         Data: 100
 Name:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: Ein kleiner Schritt
-  - Language: English
-    String: One Small Step
-  - Language: Spanish
-    String: Un pequeño paso
-  - Language: French
-    String: Un petit pas
-  - Language: Italian
-    String: Un piccolo passo
-  - Language: Japanese
-    String: 小さな一歩
-  - Language: Polish
-    String: Mały krok
-  - Language: Portuguese_Brazil
-    String: Um Pequeno Passo
-  - Language: ChineseSimplified
-    String: 一小步
+  Value: One Small Step
 Data:
   Flags:
   - RunOnce
@@ -137,50 +131,14 @@ Objectives:
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Begib dich zur Loge.
-    - Language: English
-      String: Go to the Lodge
-    - Language: Spanish
-      String: Ve a la Logia.
-    - Language: French
-      String: Allez à la Loge.
-    - Language: Italian
-      String: Vai alla Loggia
-    - Language: Japanese
-      String: ロッジに行く
-    - Language: Polish
-      String: Udaj się do Loży
-    - Language: Portuguese_Brazil
-      String: Vá para a Guarida
-    - Language: ChineseSimplified
-      String: 前往陋室
+    Value: Go to the Lodge
   Targets:
   - AliasID: 5
 - Index: 100
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Sprich mit Vasco.
-    - Language: English
-      String: Talk to Vasco
-    - Language: Spanish
-      String: Habla con Vasco.
-    - Language: French
-      String: Parlez à Vasco.
-    - Language: Italian
-      String: Parla con Vasco
-    - Language: Japanese
-      String: ヴァスコと話す
-    - Language: Polish
-      String: Porozmawiaj z Vasco
-    - Language: Portuguese_Brazil
-      String: Fale com Vasco
-    - Language: ChineseSimplified
-      String: 与瓦斯科交谈
+    Value: Talk to Vasco
   Targets:
   - AliasID: 5
 Aliases:
@@ -252,4 +210,3 @@ Aliases:
   PackageData:
   - 15DEDC:Starfield.esm
   VoiceTypes: Null
-Timestamp: 12497

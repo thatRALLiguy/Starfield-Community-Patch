@@ -1,6 +1,6 @@
 FormKey: 03614B:Starfield.esm
 EditorID: Drink_Alc_Boxed_RedHarvest_WhiskeyDoubleMalt
-FormVersion: 559
+FormVersion: 576
 ObjectBounds:
   First: -0.051879883, -0.023651123, 0
   Second: 0.051879883, 0.023651123, 0.14038086
@@ -11,25 +11,7 @@ Transforms:
   Workbench: 03D201:Starfield.esm
 Name:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: 'Red Harvest: Double-Malt-Whiskey'
-  - Language: English
-    String: Red Harvest Double Malt Whiskey
-  - Language: Spanish
-    String: Whiskey de malta doble Red Harvest
-  - Language: French
-    String: Whisky double malt Red Harvest
-  - Language: Italian
-    String: Whisky doppio malto Red Harvest
-  - Language: Japanese
-    String: レッド・ハーベストのダブルモルトウィスキー
-  - Language: Polish
-    String: Whiskey double malt Red Harvest
-  - Language: Portuguese_Brazil
-    String: Uísque de Duplo Malte Red Harvest
-  - Language: ChineseSimplified
-    String: 赤丰双麦芽威士忌
+  Value: Red Harvest Double Malt Whiskey
 Keywords:
 - 055ECC:Starfield.esm
 - 11A47A:Starfield.esm
@@ -46,25 +28,7 @@ CraftingSound:
   Start: 35d54406-a8ad-3d76-0585-057058aa9faa
 Description:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: Ein beliebter und starker Double-Malt-Whiskey von Red Harvest.
-  - Language: English
-    String: A popular and powerful double malt whiskey, brewed by Red Harvest.
-  - Language: Spanish
-    String: Este whiskey fuerte de malta doble, elaborado por Red Harvest, goza de gran popularidad en los Sistemas Colonizados.
-  - Language: French
-    String: Un whisky double malt intense et populaire, élaboré par Red Harvest.
-  - Language: Italian
-    String: Un whisky doppio malto forte e molto popolare, prodotto da Red Harvest.
-  - Language: Japanese
-    String: 人気で度数の高いダブルモルトのウィスキー。レッド・ハーベストの醸造によるもの
-  - Language: Polish
-    String: Popularna i mocna whiskey double malt produkowana przez Red Harvest.
-  - Language: Portuguese_Brazil
-    String: Um uísque popular e potente de malte duplo, feito na Red Harvest.
-  - Language: ChineseSimplified
-    String: 深受欢迎的醇厚双麦芽威士忌，由赤丰酒厂酿制。
+  Value: A popular and powerful double malt whiskey, brewed by Red Harvest.
 Resources:
 - Resource: 29B02D:Starfield.esm
   Count: 1
@@ -77,6 +41,7 @@ ConsumeSound:
   Start: f96641c4-fd61-393a-cfc9-7f25fc5ae988
 AddictionName:
   TargetLanguage: English
+  Value: ''
 Effects:
 - BaseEffect: 1BB407:Starfield.esm
   Data:
@@ -111,18 +76,17 @@ Effects:
 - BaseEffect: 2EE936:Starfield.esm
   Data:
     Magnitude: 1
-    Duration: 1200
+    Duration: 1
   Conditions:
   - MutagenObjectType: ConditionFloat
     CompareOperator: GreaterThanOrEqualTo
-    Unknown1: 0x8D1400
-    Unknown2: 16650
+    Unknown2: 16658
     Data:
       MutagenObjectType: GetGlobalValueConditionData
       FirstParameter: 31324C:Starfield.esm
     ComparisonValue: 1
   Magnitude: 2EFD77:Starfield.esm
-  Duration: 313264:Starfield.esm
+  Duration: 2F0AD4:Starfield.esm
   EFIF: 0
   MUID: 5
 - BaseEffect: 2EE4B2:Starfield.esm

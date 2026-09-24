@@ -1,31 +1,13 @@
 FormKey: 21849A:Starfield.esm
 MajorRecordFlagsRaw: 4
 EditorID: SWC_EM_Shinigami_Tatsu_501EM_lvl76
-FormVersion: 559
+FormVersion: 576
 StarfieldMajorRecordFlags:
 - NotPlayable
 ODTY: 0
 Name:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: Invertierter Dämpfer Tatsu 501EM
-  - Language: English
-    String: Tatsu 501EM inverting suppressor
-  - Language: Spanish
-    String: Supresor de inversión Tatsu 501EM
-  - Language: French
-    String: Silencieux à invers. Tatsu 501EM
-  - Language: Italian
-    String: Soppr. a inversione Tatsu 501EM
-  - Language: Japanese
-    String: タツ501EM反転サプレッサー
-  - Language: Polish
-    String: Tłumik inwersyjny Tatsu 501EM
-  - Language: Portuguese_Brazil
-    String: Supr. inversão Tatsu 501EM
-  - Language: ChineseSimplified
-    String: 巨龙501EM反相抑制器
+  Value: Tatsu 501EM inverting suppressor
 Model:
   FLLD: 0x01000000
 EquipmentType: 000046:Starfield.esm
@@ -36,6 +18,7 @@ Keywords:
 - 249FB6:Starfield.esm
 Description:
   TargetLanguage: English
+  Value: ''
 EmbeddedWeaponMod: Null
 SightedTransitionSeconds: 0.25
 AimDownSightTemplate: 04B246:Starfield.esm
@@ -91,25 +74,7 @@ BaseSpeed: 1
 AttackOxygenCost: 150
 General:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: '[EM]'
-  - Language: English
-    String: EM
-  - Language: Spanish
-    String: EM
-  - Language: French
-    String: EM
-  - Language: Italian
-    String: EM
-  - Language: Japanese
-    String: EM
-  - Language: Polish
-    String: EM
-  - Language: Portuguese_Brazil
-    String: EM
-  - Language: ChineseSimplified
-    String: 电磁
+  Value: EM
 WMELUnknown1: 2
 MeleeReach: 1
 MeleeStagger: Medium

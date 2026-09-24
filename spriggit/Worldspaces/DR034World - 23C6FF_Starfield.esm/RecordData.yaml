@@ -1,6 +1,6 @@
 FormKey: 23C6FF:Starfield.esm
 EditorID: DR034World
-FormVersion: 559
+FormVersion: 576
 Components:
 - MutagenObjectType: WorldSpaceOverlayComponent
   SNAM: 0x00000000
@@ -24,32 +24,13 @@ Components:
   NAM9: 0
   Conditions:
   - MutagenObjectType: ConditionFloat
-    Unknown1: 0x000000
     Data:
       MutagenObjectType: IsTrueForConditionFormConditionData
       FirstParameter: 1C3FB6:Starfield.esm
     ComparisonValue: 1
 Name:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: Verlassenes Industriegelände
-  - Language: English
-    String: Abandoned Industrial Compound
-  - Language: Spanish
-    String: Complejo industrial abandonado
-  - Language: French
-    String: Complexe industriel abandonné
-  - Language: Italian
-    String: Complesso industriale abbandonato
-  - Language: Japanese
-    String: 放棄された工業区域
-  - Language: Polish
-    String: Porzucony kompleks przemysłowy
-  - Language: Portuguese_Brazil
-    String: Complexo Industrial Abandonado
-  - Language: ChineseSimplified
-    String: 废弃工业设施
+  Value: Abandoned Industrial Compound
 Location: 23B198:Starfield.esm
 NAM7: materials/water/watersmooth.mat
 LodWater: 000018:Starfield.esm
@@ -69,4 +50,3 @@ GNAM: 1
 XCLWs: []
 WHGTs: []
 HNAM: 0x05
-SubCellsTimestamp: 12497

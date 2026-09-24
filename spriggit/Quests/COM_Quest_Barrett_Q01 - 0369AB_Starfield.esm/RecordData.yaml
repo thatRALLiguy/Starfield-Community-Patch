@@ -1,8 +1,23 @@
 FormKey: 0369AB:Starfield.esm
 EditorID: COM_Quest_Barrett_Q01
-FormVersion: 559
+FormVersion: 576
 VirtualMachineAdapter:
   Scripts:
+  - Name: gamedayspassedglobalsquestscript
+    Properties:
+    - MutagenObjectType: ScriptStructListProperty
+      Name: GameDaysPassedGlobalsAndQuestStages
+      Structs:
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: DaysToAdd
+          Object: 074DDC:Starfield.esm
+        - MutagenObjectType: ScriptIntProperty
+          Name: QuestStage
+          Data: 230
+        - MutagenObjectType: ScriptObjectProperty
+          Name: NextAllowed
+          Object: 07D9EB:Starfield.esm
   - Name: defaultquestchangelocationscript
     Properties:
     - MutagenObjectType: ScriptStructListProperty
@@ -55,41 +70,215 @@ VirtualMachineAdapter:
     - MutagenObjectType: ScriptObjectProperty
       Name: SQ_PlayerShip
       Object: 0174A2:Starfield.esm
-  - Name: gamedayspassedglobalsquestscript
-    Properties:
-    - MutagenObjectType: ScriptStructListProperty
-      Name: GameDaysPassedGlobalsAndQuestStages
-      Structs:
-      - Members:
-        - MutagenObjectType: ScriptObjectProperty
-          Name: DaysToAdd
-          Object: 074DDC:Starfield.esm
-        - MutagenObjectType: ScriptIntProperty
-          Name: QuestStage
-          Data: 230
-        - MutagenObjectType: ScriptObjectProperty
-          Name: NextAllowed
-          Object: 07D9EB:Starfield.esm
   Script:
     Name: Fragments:Quests:QF_BQ01_Barrett_Quest
     Properties:
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Trigger_ErvinApartment_Plant_Exterior
-      Object: 0369AB:Starfield.esm
-      Alias: 126
-    - MutagenObjectType: ScriptObjectProperty
-      Name: BQ01_Scene_BARK_7400_Barrett_BackToShip
-      Object: 2478CB:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_Marker_Mine_TerminalMain
       Object: 0369AB:Starfield.esm
       Alias: 155
     - MutagenObjectType: ScriptObjectProperty
-      Name: Com_Companion_Barrett
-      Object: 1C7187:Starfield.esm
+      Name: Alias_Container_ErvinApartment_Cactus
+      Object: 0369AB:Starfield.esm
+      Alias: 125
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Safe_ErvinApartment
+      Object: 0369AB:Starfield.esm
+      Alias: 23
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerPaycheck
+      Object: 036924:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: BQ01_Scene_GREET_1107_ErvinApt_InteriorScene
+      Object: 383BB4:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Marker_GagarinLandingPad
+      Object: 0369AB:Starfield.esm
+      Alias: 8
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Scene_TownHallArrival
+      Object: 2BAABE:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: BQ01_Global_DetectivePoints
+      Object: 17DA5D:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Scene_NearPasscodeCrate
+      Object: 3E23D3:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Scene_Cave_Comment03_Eggs
+      Object: 3E23C8:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Scene_Cave_Comment04_Tunnels
+      Object: 2EDB03:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Door_ErvinApartment_Key
+      Object: 0369AB:Starfield.esm
+      Alias: 140
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Actor_Security
+      Object: 0369AB:Starfield.esm
+      Alias: 77
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Barrett
+      Object: 0369AB:Starfield.esm
+      Alias: 6
+    - MutagenObjectType: ScriptObjectProperty
+      Name: BQ01_ErvinPlant_Slate
+      Object: 17DA48:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Scene_Mine_Comment03_Interior
+      Object: 2EDB09:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Container_ErvinApartment_EnableMarker
+      Object: 0369AB:Starfield.esm
+      Alias: 159
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Scene_MyKey
+      Object: 339A3B:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Door_Mine_LockEntry
+      Object: 0369AB:Starfield.esm
+      Alias: 143
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Door_EllieApt
+      Object: 0369AB:Starfield.esm
+      Alias: 156
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Scene_Cave_Comment06_Nest
+      Object: 3E23BF:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Scene_FoundryEmployeeTrack
+      Object: 3E23C0:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Scene_AccessPlayerAccount
       Object: 03692A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Scene_WentToApartmentFirst
+      Object: 3E23CF:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Scene_NearSafe
+      Object: 2BAAB8:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Actor_Helgi
+      Object: 0369AB:Starfield.esm
+      Alias: 84
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Digipick
+      Object: 00000A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Scene_NearLawOffice
+      Object: 2E8924:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Scene_Vignette_ReturnedFromMine
+      Object: 2F17DA:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LargeCredits
+      Object: 275224:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Marker_Mine_MapMarker
+      Object: 0369AB:Starfield.esm
+      Alias: 142
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Marker_ErvinApartment_Exterior
+      Object: 0369AB:Starfield.esm
+      Alias: 21
+    - MutagenObjectType: ScriptObjectProperty
+      Name: BQ01_Key_ErvinsApartment
+      Object: 01934B:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Scene_ErvinApartmentEntrance
+      Object: 3E23B8:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Scene_FoundEvidence_Ervin
+      Object: 223CCD:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Scene_TheftTrack
+      Object: 036929:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Marker_Spawn_Helgi
+      Object: 0369AB:Starfield.esm
+      Alias: 82
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Scene_FoundryNormalTrack
+      Object: 03692A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SmallCredits
+      Object: 275226:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_BQ01_WaitToggle
+      Object: 09ACD6:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Trigger_Gagarin_LandingPad
+      Object: 0369AB:Starfield.esm
+      Alias: 9
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Door_Mine_LockEntry01
+      Object: 0369AB:Starfield.esm
+      Alias: 151
+    - MutagenObjectType: ScriptObjectProperty
+      Name: BarrettQuest
+      Object: 1C7187:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Scene_Cave_Comment05_HelgiLab
+      Object: 2EDB01:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Scene_Mine_Comment04_Office
+      Object: 2EDB00:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Scene_FoundEvidence_Admin
+      Object: 3E23C2:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Scene_GoToErvinApartment
+      Object: 16894A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Furniture_Chair_Helgi
+      Object: 0369AB:Starfield.esm
+      Alias: 127
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Addichrone
+      Object: 29A851:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Trigger_ErvinApartment_Exterior
+      Object: 0369AB:Starfield.esm
+      Alias: 17
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Marker_Mine_TerminalErvin
+      Object: 0369AB:Starfield.esm
+      Alias: 153
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Com_Companion_Barrett
+      Object: 1C7187:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Scene_FoundEvidence_Helgi
+      Object: 2EDB08:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_Followers
+      Object: 00D773:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Scene_FoundryErvinTrack
+      Object: 2EDA17:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Scene_Mine_Comment01_LandingPad
+      Object: 2EDB04:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Terminal_TownHall
+      Object: 0369AB:Starfield.esm
+      Alias: 30
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MediumCredits
+      Object: 275225:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Scene_FoundLicense
+      Object: 2BAABB:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Scene_Mine_Comment02_Exterior
+      Object: 2EDAFE:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Scene_BarrettUsesKey
+      Object: 2BAAB7:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_Quest_Barrett_Q01_Complete_AV
+      Object: 336C1C:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Scene_AccessedErvinAccount
       Object: 2EDA17:Starfield.esm
@@ -97,247 +286,54 @@ VirtualMachineAdapter:
       Name: BQ01_Scene_Vignette_1601_Barrett_Mine_Leave
       Object: 17DA3F:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: Scene_Cave_Comment02_Entrance
-      Object: 3E23C7:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Marker_Mine_TerminalHelgi
-      Object: 0369AB:Starfield.esm
-      Alias: 154
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Terminal_Mine_Cave_HelgiStation
-      Object: 0369AB:Starfield.esm
-      Alias: 59
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Scene_Cave_Comment03_Eggs
-      Object: 3E23C8:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Credits
-      Object: 00000F:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Door_ErvinApartment_Key
-      Object: 0369AB:Starfield.esm
-      Alias: 140
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_goto_LawOffice_Barrett
-      Object: 0369AB:Starfield.esm
-      Alias: 119
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Scene_TownHallArrival
-      Object: 2BAABE:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Scene_WentToApartmentFirst
-      Object: 3E23CF:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Door_Mine_LockEntry
-      Object: 0369AB:Starfield.esm
-      Alias: 143
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Scene_FoundryNormalTrack
-      Object: 03692A:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: BQ01_Key_ErvinsApartment
-      Object: 01934B:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Scene_PlayerFoundContract
-      Object: 2BAABC:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: COM_PQ_TxtReplace_QuestName_Barret
-      Object: 0963E1:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Scene_FoundryTheftTrack
-      Object: 036929:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Scene_TownHall_FoundLicense
-      Object: 2BAABD:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Door_Mine_LockEntry01
-      Object: 0369AB:Starfield.esm
-      Alias: 151
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Key_ErvinFoundry
-      Object: 155D19:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: SQ_Followers
-      Object: 00D773:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Scene_Mine_Comment02_Exterior
-      Object: 2EDAFE:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: BQ01_Scene_GREET_1107_ErvinApt_InteriorScene
-      Object: 383BB4:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Actor_Security
-      Object: 0369AB:Starfield.esm
-      Alias: 77
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Addichrone
-      Object: 29A851:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Marker_GagarinLandingPad
-      Object: 0369AB:Starfield.esm
-      Alias: 8
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Scene_Vignette_HelloEllie
-      Object: 2E6265:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Marker_Mine_TerminalErvin
-      Object: 0369AB:Starfield.esm
-      Alias: 153
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Scene_FoundryEmployeeTrack
-      Object: 3E23C0:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: COM_Quest_Barrett_Q01_SpeechChallenge
-      Object: 0369AA:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Location_ErvinApartment
-      Object: 0369AB:Starfield.esm
-      Alias: 26
-    - MutagenObjectType: ScriptObjectProperty
-      Name: BarrettQuest
-      Object: 1C7187:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Scene_NearPasscodeCrate
-      Object: 3E23D3:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Scene_NearTerminal
-      Object: 2BAAB9:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Scene_Mine_Comment03_Interior
-      Object: 2EDB09:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Scene_Mine_Comment04_Office
-      Object: 2EDB00:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Scene_FoundLicense
-      Object: 2BAABB:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Scene_AccessedPlayerAccount
-      Object: 03692E:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Scene_ErvinDoorUnlocked
-      Object: 2BAABF:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Scene_ErvinApartmentEntrance
-      Object: 3E23B8:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: BQ01_ErvinPlant_Slate
-      Object: 17DA48:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Scene_NearSafe
-      Object: 2BAAB8:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: COM_BQ01_WaitToggle
-      Object: 09ACD6:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Scene_ApartmentExterior
-      Object: 2BAAB7:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Digipick
-      Object: 00000A:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Scene_BarrettUsesKey
-      Object: 2BAAB7:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MediumCredits
-      Object: 275225:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Scene_FoundEvidence_Admin
-      Object: 3E23C2:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_goto_LawOffice
-      Object: 0369AB:Starfield.esm
-      Alias: 118
-    - MutagenObjectType: ScriptObjectProperty
-      Name: SQ_Companions
-      Object: 2A567C:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Scene_Cave_Comment05_HelgiLab
-      Object: 2EDB01:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Scene_FoundryGeologyTrack
-      Object: 03692C:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: DialogueGagarin_UC_GG
-      Object: 265062:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: StarbornPerk
-      Object: 1D7053:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Trigger_Gagarin_LandingPad
-      Object: 0369AB:Starfield.esm
-      Alias: 9
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Scene_Vignette_ReturnedFromMine
-      Object: 2F17DA:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: PlayerPaycheck
-      Object: 036924:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Scene_TryYourAccount
-      Object: 03692A:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Door_EllieApt
-      Object: 0369AB:Starfield.esm
-      Alias: 156
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Key_Employee
-      Object: 036925:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Scene_FoundryCyberRunner
-      Object: 03692B:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Marker_TownHall
-      Object: 0369AB:Starfield.esm
-      Alias: 122
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Scene_GoToErvinApartment
-      Object: 16894A:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Scene_FoundEvidence_Ervin
-      Object: 223CCD:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: SpeechChallengeQuest
-      Object: 0369AA:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Furniture_Chair_Helgi
-      Object: 0369AB:Starfield.esm
-      Alias: 127
-    - MutagenObjectType: ScriptObjectProperty
-      Name: BQ01_Scene_BARK_1107_ErvinApt_InteriorScene
-      Object: 383BB4:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Scene_FoundryTrackCyberRunner
-      Object: 03692B:Starfield.esm
+      Name: BQ01_Scene_Vignette_6659_Barrett_Dalitso_Distraction
+      Object: 28E552:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_Marker_GoTo_Foundry
       Object: 0369AB:Starfield.esm
       Alias: 116
     - MutagenObjectType: ScriptObjectProperty
-      Name: BQ01_Global_DetectivePoints
-      Object: 17DA5D:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: SmallCredits
-      Object: 275226:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Key_ErvinsApartment
-      Object: 01934B:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Marker_Mine_Exterior_Player
+      Name: Alias_Container_ErvinApartment_FoundryKey
       Object: 0369AB:Starfield.esm
-      Alias: 115
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Marker_Gagarin_LawOfficeInterior
-      Object: 0369AB:Starfield.esm
-      Alias: 110
+      Alias: 112
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_Marker_ErvinApartment_Interior
       Object: 0369AB:Starfield.esm
       Alias: 20
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Marker_Spawn_Helgi
+      Name: Alias_goto_LawOffice
       Object: 0369AB:Starfield.esm
-      Alias: 82
+      Alias: 118
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Scene_FoundryTheftTrack
+      Object: 036929:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Scene_AccessedPlayerAccount
+      Object: 03692E:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Scene_NearTerminal
+      Object: 2BAAB9:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Terminal_Mine_Cave_HelgiStation
+      Object: 0369AB:Starfield.esm
+      Alias: 59
+    - MutagenObjectType: ScriptObjectProperty
+      Name: BQ01_Scene_BARK_1107_ErvinApt_InteriorScene
+      Object: 383BB4:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Door_ErvinApartment_Exterior
+      Object: 0369AB:Starfield.esm
+      Alias: 18
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Scene_FoundryGeologyTrack
+      Object: 03692C:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_Quest_Barrett_Q02
+      Object: 002FAE:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Marker_Gagarin_LawOfficeInterior
+      Object: 0369AB:Starfield.esm
+      Alias: 110
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_Marker_Clinic
       Object: 0369AB:Starfield.esm
@@ -347,116 +343,120 @@ VirtualMachineAdapter:
       Object: 0369AB:Starfield.esm
       Alias: 1
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Furniture_LawOffice_BarrettChair
-      Object: 0369AB:Starfield.esm
-      Alias: 48
+      Name: Credits
+      Object: 00000F:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Door_ErvinApartment_Exterior
-      Object: 0369AB:Starfield.esm
-      Alias: 18
+      Name: Scene_FoundryCyberRunner
+      Object: 03692B:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: Scene_FoundEvidence_Helgi
-      Object: 2EDB08:Starfield.esm
+      Name: COM_PQ_TxtReplace_QuestName_Barret
+      Object: 0963E1:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Container_ErvinApartment_Cactus
-      Object: 0369AB:Starfield.esm
-      Alias: 125
+      Name: Scene_TryYourAccount
+      Object: 03692A:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: Scene_DalitsoEndConvo
-      Object: 2EDB16:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Scene_FoundryErvinTrack
-      Object: 2EDA17:Starfield.esm
+      Name: Key_ErvinFoundry
+      Object: 155D19:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Scene_GoToFoundry
       Object: 223CCB:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: Scene_MyKey
-      Object: 339A3B:Starfield.esm
+      Name: Scene_Cave_Comment01_NearElevator
+      Object: 2F17D9:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: Scene_OpenSafe
-      Object: 2BAABA:Starfield.esm
+      Name: BQ01_Scene_BARK_7400_Barrett_BackToShip
+      Object: 2478CB:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Trigger_ErvinApartment_Exterior
-      Object: 0369AB:Starfield.esm
-      Alias: 17
+      Name: SpeechChallengeQuest
+      Object: 0369AA:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: BQ01_Scene_Vignette_6659_Barrett_Dalitso_Distraction
-      Object: 28E552:Starfield.esm
+      Name: Key_Employee
+      Object: 036925:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_Terminal_Mine_Lab_ErvinStation
       Object: 0369AB:Starfield.esm
       Alias: 103
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Barrett
+      Name: Scene_TownHall_FoundLicense
+      Object: 2BAABD:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Marker_TownHall
       Object: 0369AB:Starfield.esm
-      Alias: 6
+      Alias: 122
     - MutagenObjectType: ScriptObjectProperty
-      Name: Scene_Cave_Comment01_NearElevator
-      Object: 2F17D9:Starfield.esm
+      Name: Scene_ApartmentExterior
+      Object: 2BAAB7:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: LargeCredits
-      Object: 275224:Starfield.esm
+      Name: Scene_ErvinDoorUnlocked
+      Object: 2BAABF:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: Scene_EnteredApartment
-      Object: 03692D:Starfield.esm
+      Name: COM_Quest_Barrett_Q01_SpeechChallenge
+      Object: 0369AA:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: Scene_Mine_Comment01_LandingPad
-      Object: 2EDB04:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Actor_Helgi
+      Name: Alias_Marker_Mine_Exterior_Player
       Object: 0369AB:Starfield.esm
-      Alias: 84
+      Alias: 115
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Marker_Mine_MapMarker
-      Object: 0369AB:Starfield.esm
-      Alias: 142
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Scene_Cave_Comment06_Nest
-      Object: 3E23BF:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: COM_Quest_Barrett_Q02
-      Object: 002FAE:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Scene_NearLawOffice
-      Object: 2E8924:Starfield.esm
+      Name: Scene_OpenSafe
+      Object: 2BAABA:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_Marker_HoldingCell
       Object: 0369AB:Starfield.esm
       Alias: 85
     - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Marker_Mine_TerminalHelgi
+      Object: 0369AB:Starfield.esm
+      Alias: 154
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Scene_PlayerFoundContract
+      Object: 2BAABC:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Key_ErvinsApartment
+      Object: 01934B:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Location_ErvinApartment
+      Object: 0369AB:Starfield.esm
+      Alias: 26
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DialogueGagarin_UC_GG
+      Object: 265062:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: StarbornPerk
+      Object: 1D7053:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Furniture_LawOffice_BarrettChair
+      Object: 0369AB:Starfield.esm
+      Alias: 48
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Scene_FoundryTrackCyberRunner
+      Object: 03692B:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Trigger_ErvinApartment_Plant_Exterior
+      Object: 0369AB:Starfield.esm
+      Alias: 126
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Scene_Vignette_HelloEllie
+      Object: 2E6265:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Scene_EnteredApartment
+      Object: 03692D:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Scene_Cave_Comment02_Entrance
+      Object: 3E23C7:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
       Name: Alias_Marker_Store_Clint
       Object: 0369AB:Starfield.esm
       Alias: 120
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Terminal_TownHall
+      Name: Scene_DalitsoEndConvo
+      Object: 2EDB16:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_Companions
+      Object: 2A567C:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_goto_LawOffice_Barrett
       Object: 0369AB:Starfield.esm
-      Alias: 30
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Container_ErvinApartment_FoundryKey
-      Object: 0369AB:Starfield.esm
-      Alias: 112
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Scene_TheftTrack
-      Object: 036929:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Marker_ErvinApartment_Exterior
-      Object: 0369AB:Starfield.esm
-      Alias: 21
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Scene_Cave_Comment04_Tunnels
-      Object: 2EDB03:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Container_ErvinApartment_EnableMarker
-      Object: 0369AB:Starfield.esm
-      Alias: 159
-    - MutagenObjectType: ScriptObjectProperty
-      Name: COM_Quest_Barrett_Q01_Complete_AV
-      Object: 336C1C:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Safe_ErvinApartment
-      Object: 0369AB:Starfield.esm
-      Alias: 23
+      Alias: 119
   Fragments:
   - Stage: 2060
     Unknown2: 1
@@ -1591,16 +1591,16 @@ VirtualMachineAdapter:
       Object: 0369AB:Starfield.esm
       Alias: 125
     Scripts:
-    - Name: DefaultAliasOnContainerChangedTo
-      Properties:
-      - MutagenObjectType: ScriptIntProperty
-        Name: StageToSet
-        Data: 1107
     - Name: defaultaliasdisablehavokonload
       Properties:
       - MutagenObjectType: ScriptBoolProperty
         Name: HavokOnActivate
         Data: True
+    - Name: DefaultAliasOnContainerChangedTo
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 1107
     - Name: defaultaliasonload
       Properties:
       - MutagenObjectType: ScriptIntProperty
@@ -2169,25 +2169,7 @@ VirtualMachineAdapter:
     - Name: DefaultAliasOnTriggerEnterA
 Name:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: Vertragsbruch
-  - Language: English
-    String: Breach of Contract
-  - Language: Spanish
-    String: Incumplimiento de contrato
-  - Language: French
-    String: Rupture de contrat
-  - Language: Italian
-    String: Violazione contrattuale
-  - Language: Japanese
-    String: 契約違反
-  - Language: Polish
-    String: Naruszenie umowy
-  - Language: Portuguese_Brazil
-    String: Quebra de Contrato
-  - Language: ChineseSimplified
-    String: 违约
+  Value: Breach of Contract
 Data:
   Flags:
   - RunOnce
@@ -2581,7 +2563,7 @@ Stages:
   - Flags: []
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0xBC8CA0
+      Unknown2: 17676
       Data:
         MutagenObjectType: GetGlobalValueConditionData
         FirstParameter: 036E00:Starfield.esm
@@ -2715,7 +2697,7 @@ Stages:
   - Flags: []
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0xBC8CA0
+      Unknown2: 17676
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 0369AB:Starfield.esm
@@ -2768,25 +2750,7 @@ Stages:
     ScriptFlagComment: 'If the player starts this quest on Gagarin (probably not possible) then immediately end "Go to Gagarin" content and proceed to talk to Barrett. '
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Um Ervin Madanis Unschuld zu beweisen und seinen Ruf wiederherzustellen, hat Barrett ein Treffen mit Ervins damaliger Anwältin Ellie Yankton in Gagarin vereinbart.
-      - Language: English
-        String: In order to exonerate Ervin Madani and restore his reputation, Barrett has set up a meeting with Ervin's original lawyer, Ellie Yankton, who currently operates out of Gagarin.
-      - Language: Spanish
-        String: Para exculpar a Ervin Madani y salvar su reputación, Barrett ha concertado una reunión con la primera abogada de Ervin, Ellie Yankton, que actualmente trabaja fuera de Gagarin.
-      - Language: French
-        String: Pour faire innocenter Ervin Madani et laver son honneur, Barrett a arrangé un rendez-vous avec l'ancienne avocate d'Ervin, Ellie Yankton, qui exerce désormais sur Gagarin.
-      - Language: Italian
-        String: Per scagionare Ervin Madani e redimere la sua reputazione, Barrett ha fissato un incontro con la prima avvocata di Ervin, Ellie Yankton, che al momento opera fuori Gagarin.
-      - Language: Japanese
-        String: アーヴィン・マダニの潔白を証明して彼の名声を回復するため、現在ガガーリンを拠点に活動中で、アーヴィンの当初の弁護士だったエリー・ヤンクトンとの面会をバレットが手配した
-      - Language: Polish
-        String: Aby oczyścić dobre imię Ervina Madaniego, Barrett umówił spotkanie z dawną prawniczką Ervina, Ellie Yankton, która obecnie prowadzi działalność na Gagarinie.
-      - Language: Portuguese_Brazil
-        String: Para inocentar Ervin Madani e restaurar a reputação dele, Barrett marcou uma reunião com a antiga advogada do Ervin, Ellie Yankton, que atua em Gagarin no momento.
-      - Language: ChineseSimplified
-        String: 为了洗清欧文·马达尼的罪名，恢复他的名誉，巴雷特安排了同欧文案件的原律师艾莉·扬克顿的会面，她目前在加加林星上工作。
+      Value: In order to exonerate Ervin Madani and restore his reputation, Barrett has set up a meeting with Ervin's original lawyer, Ellie Yankton, who currently operates out of Gagarin.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -2923,25 +2887,7 @@ Stages:
     Note: TALK to Ellie Yankton. (QO)
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Um Ervin Madanis Unschuld zu beweisen und seinen Ruf wiederherzustellen, müssen wir zunächst Informationen sammeln. Wir haben ein Treffen mit Ervins damaliger Anwältin Ellie Yankton in Gagarin vereinbart.
-      - Language: English
-        String: In order to exonerate Ervin Madani and restore his reputation, we first need to gather information. We've set up a meeting with Ervin's original lawyer, Ellie Yankton, who currently operates out of Gagarin.
-      - Language: Spanish
-        String: Para exculpar a Ervin Madani y salvar su reputación, primero debemos conseguir información. Concertamos una reunión con la primera abogada de Ervin, Ellie Yankton, que actualmente trabaja fuera de Gagarin.
-      - Language: French
-        String: Afin de réhabiliter Ervin Madani et laver son honneur, nous devons commencer par rassembler des informations. Nous avons convenu d'un rendez-vous avec l'ancienne avocate d'Ervin, Ellie Yankton, qui exerce désormais sur Gagarin.
-      - Language: Italian
-        String: Per scagionare Ervin Madani e redimere la sua reputazione, dobbiamo prima raccogliere informazioni. Abbiamo fissato un incontro con la prima avvocata di Ervin, Ellie Yankton, che al momento opera fuori Gagarin.
-      - Language: Japanese
-        String: アーヴィン・マダニの潔白を証明して彼の名声を回復するには、まず情報の収集が必要になる。そこで現在ガガーリンを拠点に活動中で、アーヴィンの当初の弁護士だったエリー・ヤンクトンとの面会を手配した
-      - Language: Polish
-        String: Aby oczyścić dobre imię Ervina Madaniego, najpierw musimy zgromadzić informacje. Umówiliśmy się na spotkanie z dawną prawniczką Ervina, Ellie Yankton, która obecnie prowadzi działalność na Gagarinie.
-      - Language: Portuguese_Brazil
-        String: Para inocentar Ervin Madani e restaurar a reputação dele, o primeiro passo é conseguir informações. Nós marcamos uma reunião com a antiga advogada do Ervin, Ellie Yankton, que atua em Gagarin no momento.
-      - Language: ChineseSimplified
-        String: 为了洗清欧文·马达尼的罪名，恢复他的名誉，我们首先得收集信息。我们安排了同欧文案件的原律师艾莉·扬克顿的会面，她目前在加加林星上工作。
+      Value: In order to exonerate Ervin Madani and restore his reputation, we first need to gather information. We've set up a meeting with Ervin's original lawyer, Ellie Yankton, who currently operates out of Gagarin.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -3132,25 +3078,7 @@ Stages:
     Note: "FIND Ervin's Apartment. (QO) "
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: 'Um Ervin Madanis Unschuld zu beweisen und seinen Ruf wiederherzustellen, müssen wir zunächst Informationen sammeln. Barrett hat vorgeschlagen, in Ervins alter Wohnung nach Beweisen zu suchen. '
-      - Language: English
-        String: "In order to exonerate Ervin Madani and restore his reputation, we first need to gather information. Barrett has suggested searching Ervin's old apartment for any evidence that might clear his name. "
-      - Language: Spanish
-        String: 'Para exculpar a Ervin Madani y salvar su reputación, primero debemos conseguir información. Barrett sugirió que registráramos el antiguo apartamento de Ervin en busca de pruebas que pudieran limpiar su nombre. '
-      - Language: French
-        String: "Afin de réhabiliter Ervin Madani et laver son honneur, nous devons commencer par rassembler des informations. Barrett a suggéré d'aller fouiller l'ancien appartement d'Ervin à la recherche de preuves pouvant nous aider à rétablir sa réputation. "
-      - Language: Italian
-        String: 'Per scagionare Ervin Madani e redimere la sua reputazione, dobbiamo prima raccogliere informazioni. Barrett ha suggerito di ispezionare il vecchio appartamento di Ervin in cerca di prove utili. '
-      - Language: Japanese
-        String: 'アーヴィン・マダニの潔白を証明して彼の名声を回復するには、まず情報の収集が必要になる。彼の汚名をそそげるような証拠を探るため、アーヴィンがかつて住んでいたアパートを捜索するべきだとバレットは提案している '
-      - Language: Polish
-        String: 'Aby oczyścić dobre imię Ervina Madaniego, najpierw musimy zgromadzić informacje. Barrett zasugerował przeszukanie dawnego mieszkania Ervina. Być może znajdziemy w nim jakieś przydatne dowody. '
-      - Language: Portuguese_Brazil
-        String: 'Para inocentar Ervin Madani e restaurar a reputação dele, o primeiro passo é conseguir informações. Barrett sugeriu vasculhar o antigo apartamento do Ervin atrás de evidências que possam limpar o nome dele. '
-      - Language: ChineseSimplified
-        String: '为了洗清欧文·马达尼的罪名，恢复他的名誉，我们首先得收集信息。巴雷特建议搜查欧文的旧公寓，寻找一切可能还他清白的证据。 '
+      Value: "In order to exonerate Ervin Madani and restore his reputation, we first need to gather information. Barrett has suggested searching Ervin's old apartment for any evidence that might clear his name. "
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -3176,7 +3104,6 @@ Stages:
   - Flags: []
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetItemCountConditionData
         RunOnType: Reference
@@ -3259,25 +3186,7 @@ Stages:
     Note: ENTER Ervin's Apartment. (QO)
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: 'Um Ervin Madanis Unschuld zu beweisen und seinen Ruf wiederherzustellen, müssen wir zunächst Informationen sammeln. Barrett hat vorgeschlagen, in Ervins alter Wohnung nach Beweisen zu suchen. '
-      - Language: English
-        String: "In order to exonerate Ervin Madani and restore his reputation, we first need to gather information. Barrett has suggested searching Ervin's old apartment for any evidence that might clear his name. "
-      - Language: Spanish
-        String: 'Para exculpar a Ervin Madani y salvar su reputación, primero debemos conseguir información. Barrett sugirió que registráramos el antiguo apartamento de Ervin en busca de pruebas que pudieran limpiar su nombre. '
-      - Language: French
-        String: "Afin de réhabiliter Ervin Madani et laver son honneur, nous devons commencer par rassembler des informations. Barrett a suggéré d'aller fouiller l'ancien appartement d'Ervin à la recherche de preuves pouvant nous aider à rétablir sa réputation. "
-      - Language: Italian
-        String: 'Per scagionare Ervin Madani e redimere la sua reputazione, dobbiamo prima raccogliere informazioni. Barrett ha suggerito di ispezionare il vecchio appartamento di Ervin in cerca di prove utili. '
-      - Language: Japanese
-        String: 'アーヴィン・マダニの潔白を証明して彼の名声を回復するには、まず情報の収集が必要になる。彼の汚名をそそげるような証拠を探るため、アーヴィンがかつて住んでいたアパートを捜索するべきだとバレットは提案している '
-      - Language: Polish
-        String: 'Aby oczyścić dobre imię Ervina Madaniego, najpierw musimy zgromadzić informacje. Barrett zasugerował przeszukanie dawnego mieszkania Ervina. Być może znajdziemy w nim jakieś przydatne dowody. '
-      - Language: Portuguese_Brazil
-        String: 'Para inocentar Ervin Madani e restaurar a reputação dele, o primeiro passo é conseguir informações. Barrett sugeriu vasculhar o antigo apartamento do Ervin atrás de evidências que possam limpar o nome dele. '
-      - Language: ChineseSimplified
-        String: '为了洗清欧文·马达尼的罪名，恢复他的名誉，我们首先得收集信息。巴雷特建议搜查欧文的旧公寓，寻找一切可能还他清白的证据。 '
+      Value: "In order to exonerate Ervin Madani and restore his reputation, we first need to gather information. Barrett has suggested searching Ervin's old apartment for any evidence that might clear his name. "
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -3293,7 +3202,6 @@ Stages:
     Conditions:
     - MutagenObjectType: ConditionFloat
       CompareOperator: GreaterThan
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetDistanceConditionData
         RunOnType: QuestAlias
@@ -3360,25 +3268,7 @@ Stages:
     Note: SEARCH Ervin's Apartment (QO)
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: 'Um Ervin Madanis Unschuld zu beweisen und seinen Ruf wiederherzustellen, müssen wir zunächst Informationen sammeln. Barrett hat vorgeschlagen, in Ervins alter Wohnung nach Beweisen zu suchen. '
-      - Language: English
-        String: "In order to exonerate Ervin Madani and restore his reputation, we first need to gather information. Barrett has suggested searching Ervin's old apartment for any evidence that might clear his name. "
-      - Language: Spanish
-        String: 'Para exculpar a Ervin Madani y salvar su reputación, primero debemos conseguir información. Barrett sugirió que registráramos el antiguo apartamento de Ervin en busca de pruebas que pudieran limpiar su nombre. '
-      - Language: French
-        String: "Afin de réhabiliter Ervin Madani et laver son honneur, nous devons commencer par rassembler des informations. Barrett a suggéré d'aller fouiller l'ancien appartement d'Ervin à la recherche de preuves pouvant nous aider à rétablir sa réputation. "
-      - Language: Italian
-        String: 'Per scagionare Ervin Madani e redimere la sua reputazione, dobbiamo prima raccogliere informazioni. Barrett ha suggerito di ispezionare il vecchio appartamento di Ervin in cerca di prove utili. '
-      - Language: Japanese
-        String: 'アーヴィン・マダニの潔白を証明して彼の名声を回復するには、まず情報の収集が必要になる。彼の汚名をそそげるような証拠を探るため、アーヴィンがかつて住んでいたアパートを捜索するべきだとバレットは提案している '
-      - Language: Polish
-        String: 'Aby oczyścić dobre imię Ervina Madaniego, najpierw musimy zgromadzić informacje. Barrett zasugerował przeszukanie dawnego mieszkania Ervina. Być może znajdziemy w nim jakieś przydatne dowody. '
-      - Language: Portuguese_Brazil
-        String: 'Para inocentar Ervin Madani e restaurar a reputação dele, o primeiro passo é conseguir informações. Barrett sugeriu vasculhar o antigo apartamento do Ervin atrás de evidências que possam limpar o nome dele. '
-      - Language: ChineseSimplified
-        String: '为了洗清欧文·马达尼的罪名，恢复他的名誉，我们首先得收集信息。巴雷特建议搜查欧文的旧公寓，寻找一切可能还他清白的证据。 '
+      Value: "In order to exonerate Ervin Madani and restore his reputation, we first need to gather information. Barrett has suggested searching Ervin's old apartment for any evidence that might clear his name. "
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -3530,25 +3420,7 @@ Stages:
     Note: TALK to Barrett. (QO)
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: 'Um Ervin Madanis Unschuld zu beweisen und seinen Ruf wiederherzustellen, müssen wir zunächst Informationen sammeln. Wir haben in Ervins alter Wohnung nach Beweisen gesucht. '
-      - Language: English
-        String: "In order to exonerate Ervin Madani and restore his reputation, we first need to gather information. The two of us searched Ervin's old apartment for any evidence that might clear his name. "
-      - Language: Spanish
-        String: 'Para exculpar a Ervin Madani y salvar su reputación, primero debemos conseguir información. Ambos peinamos el antiguo apartamento de Ervin en busca de pruebas que pudieran limpiar su nombre. '
-      - Language: French
-        String: "Afin de réhabiliter Ervin Madani et laver son honneur, nous devons commencer par rassembler des informations. Barrett et moi avons fouillé l'ancien appartement d'Ervin à la recherche de preuves pouvant nous aider à rétablir sa réputation. "
-      - Language: Italian
-        String: 'Per scagionare Ervin Madani e redimere la sua reputazione, dobbiamo prima raccogliere informazioni. Abbiamo ispezionato il vecchio appartamento di Ervin in cerca di prove utili. '
-      - Language: Japanese
-        String: 'アーヴィン・マダニの潔白を証明して彼の名声を回復するには、まず情報の収集が必要になる。彼の汚名をそそげるような証拠を探るため、二人でアーヴィンがかつて住んでいたアパートを捜索した '
-      - Language: Polish
-        String: 'Aby oczyścić dobre imię Ervina Madaniego, najpierw musimy zgromadzić informacje. Przeszukaliśmy dawne mieszkanie Ervina w celu zdobycia jakichś przydatnych dowodów. '
-      - Language: Portuguese_Brazil
-        String: 'Para inocentar Ervin Madani e restaurar a reputação dele, o primeiro passo é conseguir informações. Nós vasculhamos o apartamento do Ervin atrás de evidências que possam limpar o nome dele. '
-      - Language: ChineseSimplified
-        String: '为了洗清欧文·马达尼的罪名，恢复他的名誉，我们首先得收集信息。我们俩搜查了欧文的旧公寓，寻找一切可能还他清白的证据。 '
+      Value: "In order to exonerate Ervin Madani and restore his reputation, we first need to gather information. The two of us searched Ervin's old apartment for any evidence that might clear his name. "
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -3585,25 +3457,7 @@ Stages:
     Note: FIND Town Hall
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Wir haben in Ervins Wohnung einen Antrag auf Erteilung einer Jagdlizenz gefunden. Vielleicht finden wir in den Unterlagen im Rathaus eine Kopie dieser Lizenz.
-      - Language: English
-        String: After investigating Ervin's apartment we found an application for hunting license. We may be able to find a copy of this license if we search the records at Town Hall.
-      - Language: Spanish
-        String: Tras investigar el apartamento de Ervin, encontramos una solicitud para obtener una licencia de caza. Puede que haya una copia de la licencia en los registros del ayuntamiento.
-      - Language: French
-        String: Après avoir fouillé l'appartement d'Ervin, nous avons trouvé un formulaire de demande de permis de chasse. Nous parviendrons peut-être à trouver une copie de ce permis si nous cherchons dans les archives de la mairie.
-      - Language: Italian
-        String: Dopo aver ispezionato l’appartamento di Ervin, abbiamo trovato la domanda per una licenza di caccia. Forse riusciremo a trovare una copia di questa licenza, nei registri del municipio.
-      - Language: Japanese
-        String: アーヴィンのアパートを調査した結果、狩猟免許の申請書を見つけた。タウンホールで記録を検索すれば、この免許の写しを見つけられるかもしれない
-      - Language: Polish
-        String: Po przeszukaniu mieszkania Ervina znaleźliśmy podanie o wydanie licencji łowieckiej. Być może zdobędziemy kopię tego pozwolenia, jeśli sprawdzimy akta w ratuszu.
-      - Language: Portuguese_Brazil
-        String: Investigamos o apartamento do Ervin e encontramos uma solicitação de licença de caça. Talvez dê para achar uma cópia dessa licença nos registros da prefeitura.
-      - Language: ChineseSimplified
-        String: 在调查了欧文的公寓后，我们发现了一份狩猎执照申请书。如果我们在市政厅搜索记录，或许能找到这份执照的副本。
+      Value: After investigating Ervin's apartment we found an application for hunting license. We may be able to find a copy of this license if we search the records at Town Hall.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -3678,25 +3532,7 @@ Stages:
     Note: 'TALK to Ellie about Hunting License. (QO) '
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Wir haben Beweise gefunden, die Ervin entlasten könnten. Wir sollten mit Ellie Yankton sprechen, um zu sehen, ob wir genug für einen Prozess haben.
-      - Language: English
-        String: We've uncovered evidence that may exonerate Ervin. It may be worth discussing it with Ellie Yankton to see if we have enough to go to trial.
-      - Language: Spanish
-        String: Hemos descubierto pruebas que podrían exculpar a Ervin. Puede que merezca la pena comentárselo a Ellie Yankton, a ver si bastan para ir a juicio.
-      - Language: French
-        String: Nous avons découvert des preuves qui pourraient nous aider à exonérer Ervin. Cela vaut peut-être la peine d'en parler à Ellie pour voir si c'est suffisant pour rouvrir le procès.
-      - Language: Italian
-        String: Abbiamo scoperto delle prove che potrebbero scagionare Ervin. È il caso di discuterne con Ellie Yankton per vedere se abbiamo abbastanza elementi per andare a processo.
-      - Language: Japanese
-        String: アーヴィンの潔白を証明できるかもしれない証拠を発見した。エリー・ヤンクトンと話し合って、裁判を起こす材料が十分かどうか確かめるべきだう
-      - Language: Polish
-        String: Odkryliśmy dowody, które mogą oczyścić dobre imię Ervina. Chyba warto omówić je z Ellie Yankton, aby się przekonać, czy wystarczą do wzruszenia wyroku.
-      - Language: Portuguese_Brazil
-        String: Descobrimos evidências que talvez inocentem o Ervin. Vale a pena falar com Ellie Yankton para ver se isso é suficiente para o julgamento.
-      - Language: ChineseSimplified
-        String: 我们发现了可能为欧文除罪的证据。也许应该和艾莉·扬克顿讨论下，看我们是否有足够的证据来进行庭审。
+      Value: We've uncovered evidence that may exonerate Ervin. It may be worth discussing it with Ellie Yankton to see if we have enough to go to trial.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -3762,25 +3598,7 @@ Stages:
     Note: FIND the Foundry District. (QO)
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Um Ervin Madanis Unschuld zu beweisen und seinen Ruf wiederherzustellen, müssen wir zunächst Informationen sammeln. Ellie Yankton hat vorgeschlagen, dass wir die Mine finden, der Ervin zugewiesen war, um dort nach Beweisen zu suchen.
-      - Language: English
-        String: In order to exonerate Ervin Madani and restore his reputation, we first need to gather information. Ellie Yankton has suggested we locate the mine he was assigned to and comb it for evidence.
-      - Language: Spanish
-        String: Para exculpar a Ervin Madani y salvar su reputación, primero debemos conseguir información. Ellie Yankton nos aconsejó que encontráramos la mina a la que le enviaron y la peinásemos en busca de pruebas.
-      - Language: French
-        String: Afin de réhabiliter Ervin Madani et restaurer sa réputation, nous devons commencer par rassembler des informations. Ellie Yankton nous a suggéré de trouver la mine où il travaillait et de la passer au peigne fin à la recherche de preuves.
-      - Language: Italian
-        String: Per scagionare Ervin Madani e redimere la sua reputazione, dobbiamo prima raccogliere informazioni. Ellie Yankton ci ha suggerito di individuare la miniera a cui era stato assegnato e di setacciarla alla ricerca di prove.
-      - Language: Japanese
-        String: アーヴィン・マダニの潔白を証明して彼の名声を回復するには、まず情報の収集が必要になる。彼が配属されていた鉱山の位置を特定し、証拠を求めてその場を徹底的に探すべきだとエリー・ヤンクトンは提案している
-      - Language: Polish
-        String: Aby oczyścić dobre imię Ervina Madaniego, najpierw musimy zgromadzić informacje. Ellie Yankton zasugerowała, abyśmy zlokalizowali kopalnię, w której pracował Ervin, i przeczesali ją w poszukiwaniu dowodów.
-      - Language: Portuguese_Brazil
-        String: Para inocentar Ervin Madani e restaurar a reputação dele, o primeiro passo é conseguir informações. Ellie Yankton sugeriu que encontremos a mina onde ele trabalhava e vasculhemos o local atrás de evidências.
-      - Language: ChineseSimplified
-        String: 为了给欧文·马达尼除罪，恢复他的名誉，我们首先得收集信息。艾莉·扬克顿建议我们去他派驻的矿场搜查证据。
+      Value: In order to exonerate Ervin Madani and restore his reputation, we first need to gather information. Ellie Yankton has suggested we locate the mine he was assigned to and comb it for evidence.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -4189,25 +4007,7 @@ Stages:
     Note: GO TO Ervin's Mine (QO)
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Wir haben die Koordinaten für die Mine heruntergeladen, in der Ervin gearbeitet hat, Mine H-363. Wir sollten zu der Mine reisen und nach Beweisen suchen, die ihn entlasten würden.
-      - Language: English
-        String: We downloaded the coordinates to the mine Ervin worked at, H-363. We should visit the location and see if we can't find any evidence that would exonerate him.
-      - Language: Spanish
-        String: 'Descargamos las coordenadas de la mina en la que Ervin trabajaba: H-363. Deberíamos ir para allá, a ver si encontramos alguna prueba que pueda exculparle.'
-      - Language: French
-        String: Nous avons téléchargé les coordonnées de la mine où travaillait Ervin, la mine H-363. Nous devons nous rendre sur place et trouver des preuves à même de l'exonérer.
-      - Language: Italian
-        String: Abbiamo scaricato le coordinate della miniera in cui lavorava Ervin, H-363. Dovremmo recarci sul posto in cerca di prove che possano scagionarlo.
-      - Language: Japanese
-        String: アーヴィンが働いていた鉱山H-363の座標をダウンロードした。現場を訪れて、彼の潔白を証明する証拠がないか調べよう
-      - Language: Polish
-        String: 'Pobraliśmy współrzędne kopalni, w której pracował Ervin: H-363. Powinniśmy się tam udać i poszukać dowodów, które mogłyby go oczyścić.'
-      - Language: Portuguese_Brazil
-        String: Baixamos as coordenadas da mina H-363, que é onde o Ervin trabalhava. Temos que visitar o local para procurar por evidências que o inocentem.
-      - Language: ChineseSimplified
-        String: 我们下载了欧文工作过的矿场坐标，H-363。我们应该去那里，看看能不能找到为他平反的证据。
+      Value: We downloaded the coordinates to the mine Ervin worked at, H-363. We should visit the location and see if we can't find any evidence that would exonerate him.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -4330,25 +4130,7 @@ Stages:
     Note: FIND Evidence in Mine (QO)
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Wir haben die Koordinaten für die Mine heruntergeladen, in der Ervin gearbeitet hat, Mine H-363. Wir sind bei der Mine angekommen und müssen nun nach Beweisen suchen, die ihn entlasten würden.
-      - Language: English
-        String: We downloaded the coordinates to the mine Ervin worked at, H-363. We arrived at the location and should look for any evidence that would exonerate him.
-      - Language: Spanish
-        String: 'Descargamos las coordenadas de la mina en la que Ervin trabajaba: H-363. Fuimos para allá a buscar alguna prueba que pudiera exculparle.'
-      - Language: French
-        String: Nous avons téléchargé les coordonnées de la mine où travaillait Ervin, la mine H-363. Nous sommes arrivés sur place et devons maintenant trouver des preuves à même de l'exonérer.
-      - Language: Italian
-        String: Abbiamo scaricato le coordinate della miniera in cui lavorava Ervin, H-363. Siamo arrivati sul posto in cerca di prove che possano scagionarlo.
-      - Language: Japanese
-        String: アーヴィンが働いていた鉱山H-363の座標をダウンロードした。現場に到着したので、彼の潔白を証明する証拠を探そう
-      - Language: Polish
-        String: 'Pobraliśmy współrzędne kopalni, w której pracował Ervin: H-363. Przybyliśmy na miejsce, aby poszukać dowodów, które mogłyby go oczyścić.'
-      - Language: Portuguese_Brazil
-        String: Baixamos as coordenadas da mina H-363, que é onde o Ervin trabalhava. Chegamos ao local e agora temos que procurar por evidências que o inocentem.
-      - Language: ChineseSimplified
-        String: 我们下载了欧文工作过的矿场坐标，H-363。我们到了那里，应该寻找所有能为他平反的证据。
+      Value: We downloaded the coordinates to the mine Ervin worked at, H-363. We arrived at the location and should look for any evidence that would exonerate him.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -4450,25 +4232,7 @@ Stages:
     Note: TALK to Ellie (QO)
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Nachdem wir Mine H-363 gefunden hatten, haben wir herausgefunden, dass Ervin nicht für die ökologische Katastrophe dort verantwortlich war. Wir sollten Ellie Yankton in Gagarin die guten Neuigkeiten mitteilen.
-      - Language: English
-        String: After investigating Mine H-363 we discovered that Ervin was not responsible for the ecological disaster that befell the mine. We should return to Ellie Yankton in Gagarin and deliver the good news.
-      - Language: Spanish
-        String: Tras investigar la mina H-363 descubrimos que Ervin no fue responsable del desastre ecológico que la afectó. Deberíamos volver con Ellie Yankton en Gagarin para darle la buena noticia.
-      - Language: French
-        String: Après avoir enquêté dans la mine H-363, nous avons découvert qu'Ervin n'était pas le responsable de la catastrophe écologique qui s'est abattue sur cette exploitation. Nous devons retourner voir Ellie Yankton sur Gagarin pour lui annoncer la bonne nouvelle.
-      - Language: Italian
-        String: Dopo aver indagato sulla miniera H-363, abbiamo scoperto che Ervin non è responsabile del disastro ecologico che ha colpito il posto. Dovremmo tornare da Ellie Yankton a Gagarin e riferirle la buona notizia.
-      - Language: Japanese
-        String: 鉱山H-363を調査した結果、鉱山に降りかかった生態系災害の原因となったのはアーヴィンでなかったことが判明した。ガガーリンのエリー・ヤンクトンのところに戻り、この朗報を伝えよう
-      - Language: Polish
-        String: Po przeszukaniu kopalni H-363 odkryliśmy, że Ervin nie był odpowiedzialny za katastrofę ekologiczną, która się w niej wydarzyła. Musimy wrócić do Ellie Yankton w mieście, aby przekazać jej dobre wieści.
-      - Language: Portuguese_Brazil
-        String: Após investigarmos a mina H-363, descobrimos que o Ervin não foi responsável pelo desastre ecológico que aconteceu lá. Temos que voltar a Gagarin para dar a boa notícia à Ellie Yankton.
-      - Language: ChineseSimplified
-        String: 在调查过H-363矿场后，我们发现欧文并不该对矿场发生的生态灾难负责。我们应该回加加林星找艾莉·扬克顿，告诉她这个好消息。
+      Value: After investigating Mine H-363 we discovered that Ervin was not responsible for the ecological disaster that befell the mine. We should return to Ellie Yankton in Gagarin and deliver the good news.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -4582,25 +4346,7 @@ Stages:
     Note: FIND Helgi Hauksson
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Wir haben zwar Beweise gefunden, die Ervins Namen reinwaschen könnten, aber Ellie möchte, dass wir auch noch einen Zeugen finden. Sie glaubt, dass Dr. Helgi Hauksson sich noch in Gagarin aufhält und vielleicht zu einer Aussage bereit wäre.
-      - Language: English
-        String: Despite obtaining the evidence to clear Ervin's name, Ellie believes we still need to find a witness to testify. She believes Dr. Helgi Hauksson is still in Gagarin and may be willing to cooperate.
-      - Language: Spanish
-        String: A pesar de conseguir las pruebas para limpiar el nombre de Ervin, Ellie cree que aún nos falta buscar a un testigo para que testifique. Cree que el doctor Helgi Hauksson sigue en Gagarin y podría estar dispuesto a colaborar.
-      - Language: French
-        String: Bien que nous ayons obtenu les preuves nécessaires pour laver le nom d'Ervin, Ellie reste convaincue que nous devons trouver une personne qui accepte de témoigner. Elle pense que le Dr Helgi Hauksson se trouve toujours sur Gagarin et sera prêt à coopérer.
-      - Language: Italian
-        String: Nonostante abbia ottenuto le prove che scagionano Ervin, Ellie ritiene che sia ancora necessario trovare un testimone. Crede che il dottor Helgi Hauksson sia ancora a Gagarin e possa essere disposto a collaborare.
-      - Language: Japanese
-        String: アーヴィンの汚名をそそぐ証拠を入手したが、エリーは証人が必要だと考えている。協力してくれそうな候補として、ヘルギ・ハウクソン博士の名前を挙げた。彼はまだガガーリンにいるらしい
-      - Language: Polish
-        String: Choć mamy dowody niezbędne do oczyszczenia imienia Ervina, Ellie uważa, że musimy znaleźć też świadka, który zechce zeznawać. Jak sądzi, doktor Helgi Hauksson wciąż jest w mieście i może być skłonny do współpracy.
-      - Language: Portuguese_Brazil
-        String: Já temos evidências para limpar o nome do Ervin, mas a Ellie acha que também precisamos de uma testemunha. Segundo ela, o Dr. Helgi Hauksson ainda mora em Gagarin e talvez se disponha a ajudar.
-      - Language: ChineseSimplified
-        String: 尽管已经得到了能为欧文洗清罪名的证据，艾莉认为我们还需要找一名证人来作证。她认为海尔吉·豪克森先生还在加加林星，他也许愿意合作。
+      Value: Despite obtaining the evidence to clear Ervin's name, Ellie believes we still need to find a witness to testify. She believes Dr. Helgi Hauksson is still in Gagarin and may be willing to cooperate.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -4644,7 +4390,6 @@ Stages:
   - Flags: []
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 0369AB:Starfield.esm
@@ -4929,7 +4674,6 @@ Stages:
   - Flags: []
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 0369AB:Starfield.esm
@@ -5050,25 +4794,7 @@ Stages:
     Note: 'TALK to Helgi (QO) '
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Wir haben zwar Beweise gefunden, die Ervins Namen reinwaschen könnten, aber Ellie möchte, dass wir auch noch einen Zeugen finden. Sie glaubt, dass Dr. Helgi Hauksson sich noch in Gagarin aufhält und vielleicht zu einer Aussage bereit wäre. Wir haben uns mit einigen Einheimischen unterhalten und herausgefunden, wo er sich aufhält.
-      - Language: English
-        String: Despite obtaining the evidence to clear Ervin's name, Ellie believes we still need to find a witness to testify. She believes Dr. Helgi Hauksson is still in Gagarin and may be willing to cooperate. After interviewing some locals we were able to determine his location.
-      - Language: Spanish
-        String: A pesar de conseguir las pruebas para limpiar el nombre de Ervin, Ellie cree que aún nos falta buscar a un testigo para que testifique. Cree que el doctor Helgi Hauksson sigue en Gagarin y podría estar dispuesto a colaborar. Conseguimos dar con su paradero tras preguntar a unos lugareños.
-      - Language: French
-        String: Bien que nous ayons obtenu les preuves nécessaires pour laver le nom d'Ervin, Ellie reste convaincue que nous devons trouver une personne qui accepte de témoigner. Elle pense que le Dr Helgi Hauksson se trouve toujours sur Gagarin et sera prêt à coopérer. Nous avons interrogé plusieurs habitants et avons découvert où il se trouvait.
-      - Language: Italian
-        String: Nonostante abbia ottenuto le prove che scagionano Ervin, Ellie ritiene che sia ancora necessario trovare un testimone. Crede che il dottor Helgi Hauksson sia ancora a Gagarin e possa essere disposto a collaborare. Dopo aver interrogato alcuni abitanti del luogo, siamo riusciti a localizzarlo.
-      - Language: Japanese
-        String: アーヴィンの汚名をそそぐ証拠を入手したが、エリーは証人が必要だと考えている。協力してくれそうな候補として、ヘルギ・ハウクソン博士の名前を挙げた。彼はまだガガーリンにいるらしい。地域住民に聞き込みをして、博士の居場所を入手できた
-      - Language: Polish
-        String: Choć mamy dowody niezbędne do oczyszczenia imienia Ervina, Ellie uważa, że musimy znaleźć też świadka, który zechce zeznawać. Jak sądzi, doktor Helgi Hauksson wciąż jest w mieście i może być skłonny do współpracy. Po małym rozeznaniu zdołaliśmy poznać miejsce jego pobytu.
-      - Language: Portuguese_Brazil
-        String: Já temos evidências para limpar o nome do Ervin, mas a Ellie acha que também precisamos de uma testemunha. Segundo ela, o Dr. Helgi Hauksson ainda mora em Gagarin e talvez se disponha a ajudar. Após falarmos com alguns moradores, conseguimos descobrir onde ele está.
-      - Language: ChineseSimplified
-        String: 尽管已经得到了能为欧文洗清罪名的证据，艾莉认为我们还需要找一名证人来作证。她认为海尔吉·豪克森先生还在加加林星，他也许愿意合作。在走访了几名当地人后，我们确定了他的位置。
+      Value: Despite obtaining the evidence to clear Ervin's name, Ellie believes we still need to find a witness to testify. She believes Dr. Helgi Hauksson is still in Gagarin and may be willing to cooperate. After interviewing some locals we were able to determine his location.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -5193,25 +4919,7 @@ Stages:
     Note: TALK to Ellie. (QO)
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Wir haben mit Helgi gesprochen und ihn überzeugt, beim Prozess als Zeuge auszusagen. Wir sollten zu Ellies Büro gehen und es ihr sagen.
-      - Language: English
-        String: We spoke to Helgi and attempted to convince him to serve as a witness in the upcoming trial. We should return to Ellie's office and deliver the news.
-      - Language: Spanish
-        String: Hablamos con Helgi e intentamos convencerle para que se presentara como testigo en el inminente juicio. Debería volver al despacho de Ellie para darle la noticia.
-      - Language: French
-        String: Nous avons parlé à Helgi et avons tenté de le convaincre de témoigner lors du procès à venir. Nous devons retourner au bureau d'Ellie et lui annoncer la nouvelle.
-      - Language: Italian
-        String: Abbiamo parlato con Helgi e cercato di convincerlo a testimoniare nell’imminente processo. Dovremmo tornare da Ellie per riferirle la notizia.
-      - Language: Japanese
-        String: いずれ実施される裁判で証言するようヘルギを説得した。エリーの事務所へ戻ってこのことを知らせよう
-      - Language: Polish
-        String: Porozmawialiśmy z Helgim i spróbowaliśmy go przekonać, aby zeznawał jako świadek podczas zbliżającej się rozprawy. Musimy wrócić do biura Ellie i dostarczyć jej wieści.
-      - Language: Portuguese_Brazil
-        String: Falamos com o Helgi e tentamos convencê-lo a testemunhar no julgamento. Temos que voltar ao escritório da Ellie para dar a notícia a ela.
-      - Language: ChineseSimplified
-        String: 我们与海尔吉谈了谈，想劝说他在即将到来的审判中出庭作证。我们应该返回艾莉的办公室，把这个消息告诉她。
+      Value: We spoke to Helgi and attempted to convince him to serve as a witness in the upcoming trial. We should return to Ellie's office and deliver the news.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -5230,25 +4938,7 @@ Stages:
     Note: TALK to Barrett. (QO)
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Nachdem Barrett erfahren hatte, dass sein früherer Mann fälschlicherweise verurteilt worden war, hat er mich gebeten, mit ihm nach Gagarin zu fliegen und Ervins Namen reinzuwaschen. Wir haben Beweise gefunden, dass die Arbeit in Mine H-363 der Auslöser der Katastrophe war, und haben sie Ellie Yankton übergeben. Sie übernimmt nun den juristischen Teil und beweist Ervins Unschuld vor Gericht.
-      - Language: English
-        String: Having received information his former husband was wrongly convicted, Barrett asked me to take him to Gagarin to help clear Ervin's name. We managed to find evidence that the mining done on H-363 was the cause of the disaster and deliver to Ellie Yankton, who will do the legal work necessary to clear Ervin's name.
-      - Language: Spanish
-        String: Al recibir información de que su exmarido fue condenado injustamente, Barrett me pidió que le llevara a Gagarin para ayudarle a limpiar el nombre de Ervin. Logramos encontrar pruebas de que las operaciones de minería de H-363 provocaron el desastre y se las entregamos a Ellie Yankton, quien se encargará de representar legalmente a Ervin para demostrar su inocencia.
-      - Language: French
-        String: Ayant appris que son ancien mari avait été condamné à tort, Barrett m'a demandé de l'accompagner sur Gagarin pour l'aider à laver le nom d'Ervin. Nous avons réussi à trouver les preuves que les activités minières menées dans H-363 étaient la véritable cause du désastre et les avons confiées à Ellie Yankton, qui accomplira les démarches nécessaires pour réhabiliter Ervin.
-      - Language: Italian
-        String: Dopo aver saputo che l’ex marito era stato condannato ingiustamente, Barrett mi ha chiesto di accompagnarlo a Gagarin per aiutarlo a riabilitare il nome di Ervin. Abbiamo trovato prove che dimostrano che la causa del disastro è stata l’estrazione mineraria su H-363, e le abbiamo consegnate a Ellie Yankton, che si occuperà del lavoro legale necessario per redimere la reputazione di Ervin.
-      - Language: Japanese
-        String: バレットは前夫アーヴィンが冤罪をかけられたという情報を得た。アーヴィンの汚名をそそぐため、バレットを連れてガガーリンへ向かった。調べた結果、この事件のきっかけはH-363で行われた採掘だとわかり、その証拠をエリー・ヤンクトンへ届けた。これでアーヴィンにかけられた冤罪を晴らす、法的な手続きが進められる
-      - Language: Polish
-        String: Kiedy Barrett dowiedział się, że jego dawny mąż został niesłusznie oskarżony, poprosił mnie o udanie się z nim na Gagarina i oczyszczenie imienia Ervina. Zdołaliśmy znaleźć dowody, że przyczyną katastrofy były prace wydobywcze w H-363. Dostarczyliśmy je prawniczce Ellie Yankton, która zajmie się uniewinnieniem Ervina.
-      - Language: Portuguese_Brazil
-        String: Após receber a informação de que seu falecido marido foi injustamente condenado, Barrett me pediu para levá-lo a Gagarin e ajudá-lo a inocentar o Ervin. Conseguimos encontrar evidências de que o desastre aconteceu devido à mineração da H-363 e as entregamos para Ellie Yankton, que tomará as medidas legais necessárias para limpar o nome do Ervin.
-      - Language: ChineseSimplified
-        String: 收到前夫蒙受不白之冤的消息后，巴雷特请我陪他去加加林星帮忙洗清欧文的罪名。我们设法找到了证据，证明H-363上的采矿作业才是致使灾难发生的原因，并把证据交给了艾莉·扬克顿，她会执行必要的法律工作，为欧文洗清罪名。
+      Value: Having received information his former husband was wrongly convicted, Barrett asked me to take him to Gagarin to help clear Ervin's name. We managed to find evidence that the mining done on H-363 was the cause of the disaster and deliver to Ellie Yankton, who will do the legal work necessary to clear Ervin's name.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -5321,25 +5011,7 @@ Stages:
     Note: QUEST COMPLETE.
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Wir haben den Tempel zu Barretts Artefakt ausfindig gemacht. Barrett hat seine Kraft erhalten und ist jetzt in der Lage, Barretts aus anderen Universen herbeizurufen.
-      - Language: English
-        String: We located the Temple associated with Barrett's Artifact and Barrett received his power, allowing him to summon Barretts from other universes.
-      - Language: Spanish
-        String: Encontramos el Templo asociado con el Artefacto de Barrett y este recibió su poder, lo que le permitió invocar a Barretts de otros universos.
-      - Language: French
-        String: Nous avons identifié le temple associé à l'artefact de Barrett et celui-ci a reçu son pouvoir, qui lui permet d'invoquer d'autres Barrett depuis d'autres univers.
-      - Language: Italian
-        String: Abbiamo trovato il Tempio associato al Manufatto di Barrett, che ha ricevuto il suo potere, permettendogli di evocare i Barrett di altri universi.
-      - Language: Japanese
-        String: バレットのアーティファクトと関連する聖堂を発見して、バレットは力を手に入れた。これでバレットは、他の宇宙のバレットを呼び出せるようになった
-      - Language: Polish
-        String: Zlokalizowaliśmy świątynię powiązaną z artefaktem Barretta, a zarazem miejsce, gdzie Barrett zdobył swoją moc, która umożliwia mu przywoływanie Barrettów z innych wszechświatów.
-      - Language: Portuguese_Brazil
-        String: Nós localizamos o templo relacionado ao artefato do Barrett, que recebeu o poder dele e agora consegue invocar Barretts de outros universos.
-      - Language: ChineseSimplified
-        String: 我们找到了巴雷特的神器所对应的神殿，巴雷特得到了他的能力，他可以从其他宇宙召唤其他的巴雷特了。
+      Value: We located the Temple associated with Barrett's Artifact and Barrett received his power, allowing him to summon Barretts from other universes.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -5401,25 +5073,7 @@ Stages:
     Note: Barrett dies during MQ204
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Barrett ist tot. Ich kann nichts mehr für ihn tun.
-      - Language: English
-        String: Barrett is dead. There is nothing more I can do for him.
-      - Language: Spanish
-        String: Barrett está muerto. No puedo hacer nada más por él.
-      - Language: French
-        String: Barrett est mort. Je ne peux plus rien faire pour lui.
-      - Language: Italian
-        String: Barrett è morto. Non posso fare nient’altro per lui.
-      - Language: Japanese
-        String: バレットは死んだ。彼にしてやれることはもうない
-      - Language: Polish
-        String: Barrett nie żyje. Nie mogę mu już pomóc.
-      - Language: Portuguese_Brazil
-        String: Barrett está morto. Não há mais nada que eu possa fazer por ele.
-      - Language: ChineseSimplified
-        String: 巴雷特已经死了。我没法再为他做什么了。
+      Value: Barrett is dead. There is nothing more I can do for him.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -5428,180 +5082,53 @@ Objectives:
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Bring Barrett nach Gagarin.
-    - Language: English
-      String: Take Barrett to Gagarin
-    - Language: Spanish
-      String: Lleva a Barrett a Gagarin.
-    - Language: French
-      String: Emmenez Barrett sur Gagarin.
-    - Language: Italian
-      String: Raggiungi Gagarin con Barrett
-    - Language: Japanese
-      String: バレットをガガーリンへ連れて行く
-    - Language: Polish
-      String: Zabierz Barretta na Gagarina
-    - Language: Portuguese_Brazil
-      String: Leve Barrett para Gagarin
-    - Language: ChineseSimplified
-      String: 带巴雷特前往加加林星
+    Value: Take Barrett to Gagarin
   Targets:
   - AliasID: 8
 - Index: 230
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Sprich mit Barrett.
-    - Language: English
-      String: Talk with Barrett
-    - Language: Spanish
-      String: Habla con Barrett.
-    - Language: French
-      String: Parlez à Barrett.
-    - Language: Italian
-      String: Parla con Barrett
-    - Language: Japanese
-      String: バレットと話す
-    - Language: Polish
-      String: Porozmawiaj z Barrettem
-    - Language: Portuguese_Brazil
-      String: Fale com Barrett
-    - Language: ChineseSimplified
-      String: 与巴雷特交谈
+    Value: Talk with Barrett
   Targets:
   - AliasID: 6
 - Index: 300
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Sprich mit Barrett.
-    - Language: English
-      String: Talk with Barrett
-    - Language: Spanish
-      String: Habla con Barrett.
-    - Language: French
-      String: Parlez à Barrett.
-    - Language: Italian
-      String: Parla con Barrett
-    - Language: Japanese
-      String: バレットと話す
-    - Language: Polish
-      String: Porozmawiaj z Barrettem
-    - Language: Portuguese_Brazil
-      String: Fale com Barrett
-    - Language: ChineseSimplified
-      String: 与巴雷特交谈
+    Value: Talk with Barrett
   Targets:
   - AliasID: 6
 - Index: 400
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Sprich mit der Anwältin.
-    - Language: English
-      String: Talk with the lawyer
-    - Language: Spanish
-      String: Habla con la abogada.
-    - Language: French
-      String: Parlez à l'avocate.
-    - Language: Italian
-      String: Parla con l’avvocata
-    - Language: Japanese
-      String: 弁護士と話す
-    - Language: Polish
-      String: Porozmawiaj z prawniczką
-    - Language: Portuguese_Brazil
-      String: Fale com a advogada
-    - Language: ChineseSimplified
-      String: 与律师交谈
+    Value: Talk with the lawyer
   Targets:
   - AliasID: 14
 - Index: 1000
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Finde Ervins Wohnung.
-    - Language: English
-      String: Find Ervin's apartment
-    - Language: Spanish
-      String: Encuentra el apartamento de Ervin.
-    - Language: French
-      String: Trouvez l'appartement d'Ervin.
-    - Language: Italian
-      String: Trova l’appartamento di Ervin
-    - Language: Japanese
-      String: アーヴィンのアパートを探す
-    - Language: Polish
-      String: Znajdź mieszkanie Ervina
-    - Language: Portuguese_Brazil
-      String: Encontre o apartamento do Ervin
-    - Language: ChineseSimplified
-      String: 找到欧文的公寓
+    Value: Find Ervin's apartment
   Targets:
   - AliasID: 18
 - Index: 1100
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Betritt Ervins Wohnung.
-    - Language: English
-      String: Enter Ervin's apartment
-    - Language: Spanish
-      String: Entra en el apartamento de Ervin.
-    - Language: French
-      String: Entrez dans l'appartement d'Ervin.
-    - Language: Italian
-      String: Entra nell’appartamento di Ervin
-    - Language: Japanese
-      String: アーヴィンのアパートに入る
-    - Language: Polish
-      String: Wejdź do mieszkania Ervina
-    - Language: Portuguese_Brazil
-      String: Entre no apartamento do Ervin
-    - Language: ChineseSimplified
-      String: 进入欧文的公寓
+    Value: Enter Ervin's apartment
   Targets:
   - AliasID: 18
 - Index: 1200
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Durchsuche die Wohnung nach Beweisen.
-    - Language: English
-      String: Search the apartment for evidence
-    - Language: Spanish
-      String: Registra el apartamento en busca de pruebas.
-    - Language: French
-      String: Fouillez l'appartement à la recherche de preuves.
-    - Language: Italian
-      String: Ispeziona l’appartamento in cerca di prove
-    - Language: Japanese
-      String: アパートで証拠を探す
-    - Language: Polish
-      String: Poszukaj w mieszkaniu dowodów
-    - Language: Portuguese_Brazil
-      String: Procure evidências no apartamento
-    - Language: ChineseSimplified
-      String: 在公寓寻找证据
+    Value: Search the apartment for evidence
   Targets:
   - AliasID: 23
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 0369AB:Starfield.esm
@@ -5609,7 +5136,6 @@ Objectives:
   - AliasID: 25
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 0369AB:Starfield.esm
@@ -5617,7 +5143,6 @@ Objectives:
   - AliasID: 125
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 0369AB:Starfield.esm
@@ -5626,430 +5151,123 @@ Objectives:
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Sprich mit Barrett über die Beweise.
-    - Language: English
-      String: Discuss evidence with Barrett
-    - Language: Spanish
-      String: Comenta las pruebas con Barrett.
-    - Language: French
-      String: Discutez des preuves avec Barrett.
-    - Language: Italian
-      String: Discuti delle prove con Barrett
-    - Language: Japanese
-      String: バレットと証拠について話す
-    - Language: Polish
-      String: Omów dowody z Barrettem
-    - Language: Portuguese_Brazil
-      String: Debata as evidências com Barrett
-    - Language: ChineseSimplified
-      String: 与巴雷特谈谈证据的事
+    Value: Discuss evidence with Barrett
   Targets:
   - AliasID: 6
 - Index: 1500
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Geh zum Rathaus.
-    - Language: English
-      String: Go to Town Hall
-    - Language: Spanish
-      String: Ve al ayuntamiento.
-    - Language: French
-      String: Rendez-vous à l'hôtel de ville.
-    - Language: Italian
-      String: Raggiungi il municipio
-    - Language: Japanese
-      String: タウンホールに行く
-    - Language: Polish
-      String: Udaj się do ratusza
-    - Language: Portuguese_Brazil
-      String: Vá à prefeitura
-    - Language: ChineseSimplified
-      String: 前往市政厅
+    Value: Go to Town Hall
   Targets:
   - AliasID: 31
 - Index: 1510
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Sieh dir Ervins Jagdlizenz an.
-    - Language: English
-      String: Look up Ervin's Hunting License
-    - Language: Spanish
-      String: Busca la licencia de caza de Ervin.
-    - Language: French
-      String: Cherchez le permis de chasse d'Ervin.
-    - Language: Italian
-      String: Cerca la licenza di caccia di Ervin
-    - Language: Japanese
-      String: アーヴィンの狩猟免許を探す
-    - Language: Polish
-      String: Poszukaj licencji łowieckiej Ervina
-    - Language: Portuguese_Brazil
-      String: Procure a licença de caça do Ervin
-    - Language: ChineseSimplified
-      String: 寻找欧文的狩猎执照
+    Value: Look up Ervin's Hunting License
   Targets:
   - AliasID: 30
 - Index: 1600
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Bring der Anwältin die Beweise.
-    - Language: English
-      String: Deliver the evidence to the lawyer
-    - Language: Spanish
-      String: Lleva las pruebas a la abogada.
-    - Language: French
-      String: Apportez les preuves à l'avocate.
-    - Language: Italian
-      String: Consegna le prove all’avvocata
-    - Language: Japanese
-      String: 弁護士に証拠を届ける
-    - Language: Polish
-      String: Dostarcz dowody prawniczce
-    - Language: Portuguese_Brazil
-      String: Entregue as evidências à advogada
-    - Language: ChineseSimplified
-      String: 把证据发给律师
+    Value: Deliver the evidence to the lawyer
   Targets:
   - AliasID: 14
 - Index: 2000
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Begib dich zum Gießereidistrikt.
-    - Language: English
-      String: Go to the Foundry District
-    - Language: Spanish
-      String: Ve al distrito de la fundición.
-    - Language: French
-      String: Rendez-vous au district de la Fonderie.
-    - Language: Italian
-      String: Raggiungi il quartiere della Fucina
-    - Language: Japanese
-      String: 鋳造所地区へ行く
-    - Language: Polish
-      String: Udaj się do dzielnicy Odlewni
-    - Language: Portuguese_Brazil
-      String: Vá ao distrito da fábrica
-    - Language: ChineseSimplified
-      String: 前往铸造厂区
+    Value: Go to the Foundry District
   Targets:
   - AliasID: 39
 - Index: 2100
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Nutze deinen Account.
-    - Language: English
-      String: Use your account
-    - Language: Spanish
-      String: Usa tu cuenta.
-    - Language: French
-      String: Utilisez votre compte.
-    - Language: Italian
-      String: Usa il tuo account
-    - Language: Japanese
-      String: 自分のアカウントを使う
-    - Language: Polish
-      String: Użyj swojego konta
-    - Language: Portuguese_Brazil
-      String: Use a sua conta
-    - Language: ChineseSimplified
-      String: 使用你的账户
+    Value: Use your account
   Targets:
   - AliasID: 67
 - Index: 2120
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Nutze Ervins Zugangscode.
-    - Language: English
-      String: Use Ervin's passcode
-    - Language: Spanish
-      String: Usa el código de Ervin.
-    - Language: French
-      String: Utilisez le code d'accès d'Ervin.
-    - Language: Italian
-      String: Usa la password di Ervin
-    - Language: Japanese
-      String: アーヴィンのパスコードを使う
-    - Language: Polish
-      String: Użyj kodu dostępu Ervina
-    - Language: Portuguese_Brazil
-      String: Use a senha do Ervin
-    - Language: ChineseSimplified
-      String: 使用欧文的密码
+    Value: Use Ervin's passcode
   Targets:
   - AliasID: 67
 - Index: 2130
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Nutze den Mitarbeiter-Account.
-    - Language: English
-      String: Use the employee's account
-    - Language: Spanish
-      String: Usa la cuenta de empleado.
-    - Language: French
-      String: Utilisez le compte d'employé.
-    - Language: Italian
-      String: Usa l’account del dipendente
-    - Language: Japanese
-      String: 従業員のアカウントを使う
-    - Language: Polish
-      String: Użyj konta pracownika
-    - Language: Portuguese_Brazil
-      String: Use a conta de funcionário
-    - Language: ChineseSimplified
-      String: 使用员工账户
+    Value: Use the employee's account
   Targets:
   - AliasID: 67
 - Index: 2140
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Beschaffe dir einen Zugangscode.
-    - Language: English
-      String: Acquire a passcode
-    - Language: Spanish
-      String: Consigue un código.
-    - Language: French
-      String: Procurez-vous un code d'accès.
-    - Language: Italian
-      String: Acquisisci una password
-    - Language: Japanese
-      String: パスコードを入手する
-    - Language: Polish
-      String: Zdobądź kod dostępu
-    - Language: Portuguese_Brazil
-      String: Consiga uma senha
-    - Language: ChineseSimplified
-      String: 获得密码
+    Value: Acquire a passcode
   Targets:
   - AliasID: 44
 - Index: 2155
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Nutze das Gießerei-Terminal.
-    - Language: English
-      String: Use the Foundry Terminal
-    - Language: Spanish
-      String: Usa el terminal de la fundición.
-    - Language: French
-      String: Utilisez le terminal de la Fonderie.
-    - Language: Italian
-      String: Usa il terminale della Fucina
-    - Language: Japanese
-      String: 鋳造所のターミナルを使う
-    - Language: Polish
-      String: Użyj terminalu Odlewni
-    - Language: Portuguese_Brazil
-      String: Use o terminal da fábrica
-    - Language: ChineseSimplified
-      String: 使用铸造厂终端
+    Value: Use the Foundry Terminal
   Targets:
   - AliasID: 67
 - Index: 2160
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Nutze den Administratoren-Account.
-    - Language: English
-      String: Use the Admin account
-    - Language: Spanish
-      String: Usa la cuenta de administrador.
-    - Language: French
-      String: Utilisez le compte admin.
-    - Language: Italian
-      String: Usa l’account amministratore
-    - Language: Japanese
-      String: 管理者アカウントを使う
-    - Language: Polish
-      String: Użyj konta administratora
-    - Language: Portuguese_Brazil
-      String: Use a conta de administrador
-    - Language: ChineseSimplified
-      String: 使用管理员账户
+    Value: Use the Admin account
   Targets:
   - AliasID: 67
 - Index: 2300
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Erhalte einen Zugangscode von einem Mitarbeiter.
-    - Language: English
-      String: Get a passcode from an employee
-    - Language: Spanish
-      String: Consigue el código de un empleado.
-    - Language: French
-      String: Obtenez un code d'accès auprès d'un employé.
-    - Language: Italian
-      String: Recupera una password da un dipendente
-    - Language: Japanese
-      String: 従業員からパスコードを入手する
-    - Language: Polish
-      String: Zdobądź kod dostępu od pracownika
-    - Language: Portuguese_Brazil
-      String: Consiga uma senha com um funcionário
-    - Language: ChineseSimplified
-      String: 从员工那里获得密码
+    Value: Get a passcode from an employee
   Targets:
   - AliasID: 44
 - Index: 2400
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Sprich mit Barrett.
-    - Language: English
-      String: Talk with Barrett
-    - Language: Spanish
-      String: Habla con Barrett.
-    - Language: French
-      String: Parlez à Barrett.
-    - Language: Italian
-      String: Parla con Barrett
-    - Language: Japanese
-      String: バレットと話す
-    - Language: Polish
-      String: Porozmawiaj z Barrettem
-    - Language: Portuguese_Brazil
-      String: Fale com Barrett
-    - Language: ChineseSimplified
-      String: 与巴雷特交谈
+    Value: Talk with Barrett
   Targets:
   - AliasID: 6
 - Index: 2500
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Finde die Koordinaten der Mine.
-    - Language: English
-      String: Find the mine's coordinates
-    - Language: Spanish
-      String: Encuentra las coordenadas de la mina.
-    - Language: French
-      String: Trouvez les coordonnées de la mine.
-    - Language: Italian
-      String: Trova le coordinate della miniera
-    - Language: Japanese
-      String: 鉱山の座標を探す
-    - Language: Polish
-      String: Znajdź współrzędne kopalni
-    - Language: Portuguese_Brazil
-      String: Encontre as coordenadas da mina
-    - Language: ChineseSimplified
-      String: 找到矿井的坐标
+    Value: Find the mine's coordinates
   Targets:
   - AliasID: 67
 - Index: 2800
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Sprich mit Barrett.
-    - Language: English
-      String: Talk with Barrett
-    - Language: Spanish
-      String: Habla con Barrett.
-    - Language: French
-      String: Parlez à Barrett.
-    - Language: Italian
-      String: Parla con Barrett
-    - Language: Japanese
-      String: バレットと話す
-    - Language: Polish
-      String: Porozmawiaj z Barrettem
-    - Language: Portuguese_Brazil
-      String: Fale com Barrett
-    - Language: ChineseSimplified
-      String: 与巴雷特交谈
+    Value: Talk with Barrett
   Targets:
   - AliasID: 6
 - Index: 5000
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Begib dich zur Hephaestus-Mine.
-    - Language: English
-      String: Go to the Hephaestus Mine
-    - Language: Spanish
-      String: Ve a la mina de Hephaestus.
-    - Language: French
-      String: Rendez-vous dans la mine d'Héphaïstos.
-    - Language: Italian
-      String: Raggiungi la miniera della Hephaestus
-    - Language: Japanese
-      String: ヘパイストスの鉱山へ行く
-    - Language: Polish
-      String: Udaj się do kopalni Hephaestusa
-    - Language: Portuguese_Brazil
-      String: Vá à mina da Hephaestus
-    - Language: ChineseSimplified
-      String: 前往赫菲斯托斯矿井
+    Value: Go to the Hephaestus Mine
   Targets:
   - AliasID: 57
 - Index: 5100
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Suche nach Beweisen.
-    - Language: English
-      String: Search for evidence
-    - Language: Spanish
-      String: Busca pruebas.
-    - Language: French
-      String: Cherchez des preuves.
-    - Language: Italian
-      String: Cerca delle prove
-    - Language: Japanese
-      String: 証拠を探す
-    - Language: Polish
-      String: Poszukaj dowodów
-    - Language: Portuguese_Brazil
-      String: Procure evidências
-    - Language: ChineseSimplified
-      String: 搜查证据
+    Value: Search for evidence
   Targets:
   - AliasID: 103
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetInCellConditionData
         RunOnType: Reference
@@ -6057,13 +5275,11 @@ Objectives:
         FirstParameter: 27C580:Starfield.esm
       ComparisonValue: 1
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 0369AB:Starfield.esm
         SecondParameter: 5230
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 0369AB:Starfield.esm
@@ -6074,7 +5290,6 @@ Objectives:
     - MutagenObjectType: ConditionFloat
       Flags:
       - OR
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 0369AB:Starfield.esm
@@ -6082,7 +5297,6 @@ Objectives:
     - MutagenObjectType: ConditionFloat
       Flags:
       - OR
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 0369AB:Starfield.esm
@@ -6090,7 +5304,6 @@ Objectives:
     - MutagenObjectType: ConditionFloat
       Flags:
       - OR
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 0369AB:Starfield.esm
@@ -6098,7 +5311,6 @@ Objectives:
   - AliasID: 59
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetInCellConditionData
         RunOnType: Reference
@@ -6106,13 +5318,11 @@ Objectives:
         FirstParameter: 27C580:Starfield.esm
       ComparisonValue: 1
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 0369AB:Starfield.esm
         SecondParameter: 5220
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 0369AB:Starfield.esm
@@ -6121,21 +5331,18 @@ Objectives:
   - AliasID: 157
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetInCellConditionData
         RunOnType: Reference
         Reference: 000014:Starfield.esm
         FirstParameter: 27C580:Starfield.esm
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 0369AB:Starfield.esm
         SecondParameter: 5211
       ComparisonValue: 1
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 0369AB:Starfield.esm
@@ -6145,30 +5352,11 @@ Objectives:
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Bring Ellie Beweise.
-    - Language: English
-      String: Bring evidence to Ellie
-    - Language: Spanish
-      String: Lleva pruebas a Ellie.
-    - Language: French
-      String: Apportez des preuves à Ellie.
-    - Language: Italian
-      String: Porta le prove a Ellie
-    - Language: Japanese
-      String: エリーに証拠を届ける
-    - Language: Polish
-      String: Zanieś dowody do Ellie
-    - Language: Portuguese_Brazil
-      String: Leve evidências para Ellie
-    - Language: ChineseSimplified
-      String: 把证据带给艾莉
+    Value: Bring evidence to Ellie
   Targets:
   - AliasID: 14
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetInCellConditionData
         RunOnType: Reference
@@ -6177,7 +5365,6 @@ Objectives:
   - AliasID: 158
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetInCellConditionData
         RunOnType: Reference
@@ -6188,60 +5375,22 @@ Objectives:
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Finde Helgi.
-    - Language: English
-      String: Find Helgi
-    - Language: Spanish
-      String: Busca a Helgi.
-    - Language: French
-      String: Trouvez Helgi.
-    - Language: Italian
-      String: Trova Helgi
-    - Language: Japanese
-      String: ヘルギを探す
-    - Language: Polish
-      String: Znajdź Helgiego
-    - Language: Portuguese_Brazil
-      String: Encontre Helgi
-    - Language: ChineseSimplified
-      String: 找到海尔吉
+    Value: Find Helgi
 - Index: 6400
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Sprich mit Dr. Keala über Helgi.
-    - Language: English
-      String: Talk to Dr. Keala about Helgi
-    - Language: Spanish
-      String: Habla con la Dra. Keala sobre Helgi.
-    - Language: French
-      String: Parlez au Dr Keala à propos d'Helgi.
-    - Language: Italian
-      String: Parla di Helgi alla dottoressa Keala
-    - Language: Japanese
-      String: ヘルギについてケアラと話す
-    - Language: Polish
-      String: Porozmawiaj z doktor Kealą o Helgim
-    - Language: Portuguese_Brazil
-      String: Fale com a Dra. Keala sobre Helgi
-    - Language: ChineseSimplified
-      String: 与凯拉医生谈谈海尔吉的事
+    Value: Talk to Dr. Keala about Helgi
   Targets:
   - AliasID: 71
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 0369AB:Starfield.esm
         SecondParameter: 6400
       ComparisonValue: 1
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 0369AB:Starfield.esm
@@ -6249,14 +5398,12 @@ Objectives:
   - AliasID: 74
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 0369AB:Starfield.esm
         SecondParameter: 6700
       ComparisonValue: 1
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 0369AB:Starfield.esm
@@ -6264,14 +5411,12 @@ Objectives:
   - AliasID: 77
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 0369AB:Starfield.esm
         SecondParameter: 6600
       ComparisonValue: 1
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 0369AB:Starfield.esm
@@ -6280,262 +5425,80 @@ Objectives:
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Sprich mit Lizzy über Helgi.
-    - Language: English
-      String: Talk to Lizzy about Helgi
-    - Language: Spanish
-      String: Habla con Lizzy sobre Helgi.
-    - Language: French
-      String: Parlez à Lizzy à propos d'Helgi.
-    - Language: Italian
-      String: Parla di Helgi a Lizzy
-    - Language: Japanese
-      String: ヘルギについてリジーと話す
-    - Language: Polish
-      String: Porozmawiaj z Lizzy o Helgim
-    - Language: Portuguese_Brazil
-      String: Fale com Lizzy sobre Helgi
-    - Language: ChineseSimplified
-      String: 与莉兹谈谈海尔吉的事
+    Value: Talk to Lizzy about Helgi
   Targets:
   - AliasID: 88
 - Index: 6650
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Sprich mit Barrett.
-    - Language: English
-      String: Talk with Barrett
-    - Language: Spanish
-      String: Habla con Barrett.
-    - Language: French
-      String: Parlez à Barrett.
-    - Language: Italian
-      String: Parla con Barrett
-    - Language: Japanese
-      String: バレットと話す
-    - Language: Polish
-      String: Porozmawiaj z Barrettem
-    - Language: Portuguese_Brazil
-      String: Fale com Barrett
-    - Language: ChineseSimplified
-      String: 与巴雷特交谈
+    Value: Talk with Barrett
   Targets:
   - AliasID: 6
 - Index: 6652
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Lenke Chief Dalitso Pretorius ab.
-    - Language: English
-      String: Distract Chief Dalitso Pretorius
-    - Language: Spanish
-      String: Distrae a la jefa Dalitso Pretorius.
-    - Language: French
-      String: Faites diversion auprès du chef Dalitso Pretorius.
-    - Language: Italian
-      String: Distrai il capo Dalitso Pretorius
-    - Language: Japanese
-      String: ダルティソ・プレトリウス主任の注意を引く
-    - Language: Polish
-      String: Odwróć uwagę szefowej Dalitso Pretorius
-    - Language: Portuguese_Brazil
-      String: Distraia a chefe Dalitso Pretorius
-    - Language: ChineseSimplified
-      String: 让达利佐·普瑞陀利乌斯主管分心
+    Value: Distract Chief Dalitso Pretorius
   Targets:
   - AliasID: 77
 - Index: 6653
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Hacke den UC-Security-Computer.
-    - Language: English
-      String: Hack the UC Security computer
-    - Language: Spanish
-      String: Hackea el ordenador de la seguridad de las CU.
-    - Language: French
-      String: Piratez l'ordinateur de la sécurité de l'UC.
-    - Language: Italian
-      String: Viola il computer della Sicurezza UC
-    - Language: Japanese
-      String: UC警備隊のコンピューターをハッキングする
-    - Language: Polish
-      String: Zhakuj komputer ochrony ZK
-    - Language: Portuguese_Brazil
-      String: Hackeie o computador da segurança da UC
-    - Language: ChineseSimplified
-      String: 黑入联殖安保电脑
+    Value: Hack the UC Security computer
   Targets:
   - AliasID: 78
 - Index: 6657
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Sprich mit Barrett.
-    - Language: English
-      String: Talk with Barrett
-    - Language: Spanish
-      String: Habla con Barrett.
-    - Language: French
-      String: Parlez à Barrett.
-    - Language: Italian
-      String: Parla con Barrett
-    - Language: Japanese
-      String: バレットと話す
-    - Language: Polish
-      String: Porozmawiaj z Barrettem
-    - Language: Portuguese_Brazil
-      String: Fale com Barrett
-    - Language: ChineseSimplified
-      String: 与巴雷特交谈
+    Value: Talk with Barrett
   Targets:
   - AliasID: 6
 - Index: 6670
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: (Optional) Durchsuche das Terminal.
-    - Language: English
-      String: (Optional) Search the terminal
-    - Language: Spanish
-      String: (Opcional) Busca el terminal.
-    - Language: French
-      String: (Optionnel) Fouillez dans le terminal.
-    - Language: Italian
-      String: (Opzionale) Ispeziona il terminale
-    - Language: Japanese
-      String: (オプション)ターミナルを調べる
-    - Language: Polish
-      String: (Opcj.) Przeszukaj terminal
-    - Language: Portuguese_Brazil
-      String: (Opc.) Procure no terminal
-    - Language: ChineseSimplified
-      String: （可选）搜索终端
+    Value: (Optional) Search the terminal
   Targets:
   - AliasID: 67
 - Index: 6700
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Sprich mit Clint über Helgi.
-    - Language: English
-      String: Talk to Clint about Helgi
-    - Language: Spanish
-      String: Habla con Clint sobre Helgi.
-    - Language: French
-      String: Parlez à Clint à propos d'Helgi.
-    - Language: Italian
-      String: Parla di Helgi a Clint
-    - Language: Japanese
-      String: ヘルギについてクリントと話す
-    - Language: Polish
-      String: Porozmawiaj z Clintem o Helgim
-    - Language: Portuguese_Brazil
-      String: Fale com Clint sobre Helgi
-    - Language: ChineseSimplified
-      String: 与克林特谈谈海尔吉的事
+    Value: Talk to Clint about Helgi
   Targets:
   - AliasID: 74
 - Index: 6720
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Sprich mit Dalitso über Helgi.
-    - Language: English
-      String: Talk to Dalitso about Helgi
-    - Language: Spanish
-      String: Habla con Dalitso sobre Helgi.
-    - Language: French
-      String: Parlez à Dalitso à propos d'Helgi.
-    - Language: Italian
-      String: Parla di Helgi a Dalitso
-    - Language: Japanese
-      String: ヘルギについてダリーツォと話す
-    - Language: Polish
-      String: Porozmawiaj z Dalitso o Helgim
-    - Language: Portuguese_Brazil
-      String: Fale com Dalitso sobre Helgi
-    - Language: ChineseSimplified
-      String: 与达利佐谈谈海尔吉的事
+    Value: Talk to Dalitso about Helgi
   Targets:
   - AliasID: 77
 - Index: 7000
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Bringe Helgi dazu, auszusagen.
-    - Language: English
-      String: Convince Helgi to testify
-    - Language: Spanish
-      String: Convence a Helgi para que testifique.
-    - Language: French
-      String: Persuadez Helgi de témoigner.
-    - Language: Italian
-      String: Convinci Helgi a testimoniare
-    - Language: Japanese
-      String: ヘルギを説得して証言させる
-    - Language: Polish
-      String: Namów Helgiego do zeznawania
-    - Language: Portuguese_Brazil
-      String: Convença Helgi a testemunhar
-    - Language: ChineseSimplified
-      String: 说服海尔吉作证
+    Value: Convince Helgi to testify
   Targets:
   - AliasID: 84
 - Index: 7100
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: (Optional) Finde einen potenziellen Leumundszeugen.
-    - Language: English
-      String: (Optional) Find a potential character witness
-    - Language: Spanish
-      String: (Opcional) Busca a un posible testigo.
-    - Language: French
-      String: (Optionnel) Trouvez un potentiel témoin de moralité.
-    - Language: Italian
-      String: (Opzionale) Trova qualcuno che garantisca per Helgi
-    - Language: Japanese
-      String: (オプション)性格証人の候補を探す
-    - Language: Polish
-      String: (Opcj.) Znajdź kogoś, kto poświadczy za Helgiego
-    - Language: Portuguese_Brazil
-      String: (Opc.) Encontre uma possível testemunha de caráter
-    - Language: ChineseSimplified
-      String: （可选）寻找潜在的品格见证人
+    Value: (Optional) Find a potential character witness
   Targets:
   - AliasID: 71
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 0369AB:Starfield.esm
         SecondParameter: 7009
       ComparisonValue: 1
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 0369AB:Starfield.esm
@@ -6543,14 +5506,12 @@ Objectives:
   - AliasID: 77
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 0369AB:Starfield.esm
         SecondParameter: 7009
       ComparisonValue: 1
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 0369AB:Starfield.esm
@@ -6558,14 +5519,12 @@ Objectives:
   - AliasID: 88
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 0369AB:Starfield.esm
         SecondParameter: 7009
       ComparisonValue: 1
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 0369AB:Starfield.esm
@@ -6573,14 +5532,12 @@ Objectives:
   - AliasID: 74
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 0369AB:Starfield.esm
         SecondParameter: 7009
       ComparisonValue: 1
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 0369AB:Starfield.esm
@@ -6589,75 +5546,21 @@ Objectives:
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Sprich mit Ellie.
-    - Language: English
-      String: Talk with Ellie
-    - Language: Spanish
-      String: Habla con Ellie.
-    - Language: French
-      String: Parlez à Ellie.
-    - Language: Italian
-      String: Parla con Ellie
-    - Language: Japanese
-      String: エリーと話す
-    - Language: Polish
-      String: Porozmawiaj z Ellie
-    - Language: Portuguese_Brazil
-      String: Fale com Ellie
-    - Language: ChineseSimplified
-      String: 与艾莉交谈
+    Value: Talk with Ellie
   Targets:
   - AliasID: 14
 - Index: 7400
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Sprich mit Barrett.
-    - Language: English
-      String: Talk with Barrett
-    - Language: Spanish
-      String: Habla con Barrett.
-    - Language: French
-      String: Parlez à Barrett.
-    - Language: Italian
-      String: Parla con Barrett
-    - Language: Japanese
-      String: バレットと話す
-    - Language: Polish
-      String: Porozmawiaj z Barrettem
-    - Language: Portuguese_Brazil
-      String: Fale com Barrett
-    - Language: ChineseSimplified
-      String: 与巴雷特交谈
+    Value: Talk with Barrett
   Targets:
   - AliasID: 6
 - Index: 9999
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Begib dich nach Gagarin.
-    - Language: English
-      String: Go to Gagarin
-    - Language: Spanish
-      String: Ve a Gagarin.
-    - Language: French
-      String: Rendez-vous sur Gagarin.
-    - Language: Italian
-      String: Raggiungi Gagarin
-    - Language: Japanese
-      String: ガガーリンに行く
-    - Language: Polish
-      String: Udaj się na Gagarina
-    - Language: Portuguese_Brazil
-      String: Vá para Gagarin
-    - Language: ChineseSimplified
-      String: 前往加加林星
+    Value: Go to Gagarin
   Targets:
   - AliasID: 8
 Aliases:
@@ -7817,4 +6720,3 @@ ScriptComment: >-
 
 
   DefaultQuestChangeLocationScript handles all Location changes.
-Timestamp: 12497

@@ -1,6 +1,6 @@
 FormKey: 29EF60:Starfield.esm
 EditorID: RAD02
-FormVersion: 559
+FormVersion: 576
 VirtualMachineAdapter:
   Scripts:
   - Name: RAD02Script
@@ -122,25 +122,7 @@ VirtualMachineAdapter:
     FragmentName: Fragment_Stage_0199_Item_00
 Name:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: Ein Licht in der Dunkelheit
-  - Language: English
-    String: A Light in the Darkness
-  - Language: Spanish
-    String: Una luz en la oscuridad
-  - Language: French
-    String: Une lumière dans les ténèbres
-  - Language: Italian
-    String: Una luce nell’oscurità
-  - Language: Japanese
-    String: 暗闇の中の光
-  - Language: Polish
-    String: Światełko w ciemności
-  - Language: Portuguese_Brazil
-    String: Uma Luz da Escuridão
-  - Language: ChineseSimplified
-    String: 黑暗中的光芒
+  Value: A Light in the Darkness
 Data:
   Flags:
   - RunOnce
@@ -182,25 +164,7 @@ Stages:
     Note: Tommy has forcegreeted
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Ein Fremder will mit mir reden. Ich sollte herausfinden, worum es geht.
-      - Language: English
-        String: A stranger wants to talk to me. I should see what he has to say.
-      - Language: Spanish
-        String: Un desconocido quiere hablar conmigo. Debería ir a ver lo que tenga que decir.
-      - Language: French
-        String: Un inconnu souhaite me parler. Je ferais bien de voir ce qu'il a à me dire.
-      - Language: Italian
-        String: Uno sconosciuto vuole parlarmi. Dovrei capire che cos’ha da dire.
-      - Language: Japanese
-        String: 謎の人物が話をしたがっている。どういう内容か聞いてみよう
-      - Language: Polish
-        String: Nieznajomy chce ze mną porozmawiać. Zobaczę, co ma mi do powiedzenia.
-      - Language: Portuguese_Brazil
-        String: Um estranho quer falar comigo. Vou ver o que ele tem a dizer.
-      - Language: ChineseSimplified
-        String: 一个陌生人想要和我聊聊，我应该听听他要说什么。
+      Value: A stranger wants to talk to me. I should see what he has to say.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -211,25 +175,7 @@ Stages:
     Note: Pointed to Nadia Muffaz
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Nadia Muffaz ist für SNN in der Recherche tätig. Sie sucht nach Informationen über den Angriff auf Vectera und ist bereit, dafür zu bezahlen.
-      - Language: English
-        String: Nadia Muffaz is a researcher for SSNN. She's looking for information on the attack on Vectera and is willing to pay for it.
-      - Language: Spanish
-        String: Nadia Muffaz es periodista de investigación de la NSC. Busca información sobre el ataque de Vectera y está dispuesta a pagar unos créditos.
-      - Language: French
-        String: Nadia Muffaz est chercheuse chez SOTV. Elle voudrait des informations sur l'attaque sur Vectera et est prête à payer pour les obtenir.
-      - Language: Italian
-        String: Nadia Muffaz è una ricercatrice della SCNN. Sta cercando informazioni sull’attacco di Vectera ed è disposta a pagarle.
-      - Language: Japanese
-        String: ナディア・マファズはSSNNの調査員だ。ベクテラに対する攻撃に関する情報を求めていて、報酬を支払う用意がある
-      - Language: Polish
-        String: Nadia Muffaz gromadzi informacje dla ZUinfo. Szuka wieści o ataku na Vecterę i jest gotowa za nie zapłacić.
-      - Language: Portuguese_Brazil
-        String: Nadia Muffaz é uma pesquisadora para a ANSC. Ela está buscando informações sobre o ataque em Vectera e está disposta a pagar por elas.
-      - Language: ChineseSimplified
-        String: 纳迪亚·穆法茨是定居新闻台的研究员，她正在搜寻有关维特拉星袭击的消息，就算要花钱也没问题。
+      Value: Nadia Muffaz is a researcher for SSNN. She's looking for information on the attack on Vectera and is willing to pay for it.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -240,25 +186,7 @@ Stages:
     Note: Met Nadia Muffaz
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: SNN ist das wichtigste Nachrichtenmedium in den Besiedelten Systemen. Ihre Rechercheleiterin Nadia Muffaz ist bereit, mir gutes Geld für Geschichten zu bezahlen, auf die ich während meiner Reisen stoße.
-      - Language: English
-        String: SSNN is the main news outlet in the Settled Systems. Their lead researcher, Nada Muffaz, is willing to pay me good money for stories I may encounter in my journeys.
-      - Language: Spanish
-        String: La NSC es la principal agencia de noticias de los Sistemas Colonizados. Nadia Muffaz, su jefa de investigación, está dispuesta a pagarme una buena cantidad por lo que descubra en mis viajes.
-      - Language: French
-        String: SOTV est le média d'information principal des Systèmes occupés. Leur directrice de recherche, Nadia Muffaz, est prête à me payer une grosse somme pour des histoires sur lesquelles je pourrais tomber pendant mes voyages.
-      - Language: Italian
-        String: La SCNN è la principale fonte di notizie dei Sistemi Colonizzati. La loro ricercatrice capo, Nadia Muffaz, è disposta a pagarmi per le storie in cui potrei imbattermi nei miei viaggi.
-      - Language: Japanese
-        String: SSNNは有人星系の中心的な報道機関だ。主任調査員のナディア・マファズは、これからの旅で出くわす物語に大金を払う用意がある
-      - Language: Polish
-        String: ZUinfo jest głównym źródłem wiadomości w Zasiedlonych Układach. Kierowniczka ich działu gromadzenia informacji, Nadia Muffaz, dobrze mi zapłaci za historie, których doświadczę podczas swoich podróży.
-      - Language: Portuguese_Brazil
-        String: A ANSC é a principal rede de notícias dos Sistemas Colonizados. Nadia Muffaz, sua líder de pesquisa, está disposta a pagar bem por histórias que eu venha a encontrar nas minhas jornadas.
-      - Language: ChineseSimplified
-        String: 定居新闻台是定居星系群的主要新闻媒体，他们的首席研究员纳迪亚·穆法茨，愿意花一大笔钱，购买我在旅程中可能会碰到的故事。
+      Value: SSNN is the main news outlet in the Settled Systems. Their lead researcher, Nada Muffaz, is willing to pay me good money for stories I may encounter in my journeys.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -856,25 +784,7 @@ Stages:
     Note: (QC) Last talk with Nadia
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Ich habe mein letztes Interview für SNN und Nadia Muffaz absolviert. Nadia Muffaz hat mir einen netten Bonus für meine Hilfe bezahlt.
-      - Language: English
-        String: I did my final interview with SSNN and Nadia Muffaz. Nadia gave me a nice bonus for all my help.
-      - Language: Spanish
-        String: He tenido mi última entrevista con la NSC y Nadia Muffaz, quien me ha dado una buena bonificación por mi trabajo.
-      - Language: French
-        String: J'ai fait ma dernière interview avec Nadia Muffaz pour SOTV. Nadia m'a donné un joli bonus pour toute mon aide.
-      - Language: Italian
-        String: Ho fatto l’ultimo colloquio con la SCNN e Nadia Muffaz. Nadia mi ha dato un bonus per il mio aiuto.
-      - Language: Japanese
-        String: SSNNとナディア・マファズの最後のインタビューが終わった。ナディアは貢献に対してかなりのボーナスをくれた
-      - Language: Polish
-        String: Jestem po ostatnim wywiadzie dla ZUinfo i Nadii Muffaz. Dała mi niezłą premię za pomoc.
-      - Language: Portuguese_Brazil
-        String: Fiz minha última entrevista com a ANSC e Nadia Muffaz. Ela me deu um bom bônus em troca da minha ajuda.
-      - Language: ChineseSimplified
-        String: 我完成了自己与定居新闻台和纳迪亚·穆法茨的最后一次采访，为了感谢我的帮助，纳迪亚给了我一笔可观的奖金。
+      Value: I did my final interview with SSNN and Nadia Muffaz. Nadia gave me a nice bonus for all my help.
     StageCompleteDatas:
     - QSRD: 0x01000000
       RewardDatas:
@@ -897,248 +807,68 @@ Objectives:
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Sprich mit Tommy Bitlow.
-    - Language: English
-      String: Talk to Tommy Bitlow
-    - Language: Spanish
-      String: Habla con Tommy Bitlow.
-    - Language: French
-      String: Parlez à Tommy Bitlow.
-    - Language: Italian
-      String: Parla con Tommy Bitlow
-    - Language: Japanese
-      String: トミー・ビットロウと話す
-    - Language: Polish
-      String: Porozmawiaj z Tommym Bitlowem
-    - Language: Portuguese_Brazil
-      String: Fale com Tommy Bitlow
-    - Language: ChineseSimplified
-      String: 与托米·比特鲁交谈
+    Value: Talk to Tommy Bitlow
   Targets:
   - AliasID: 2
 - Index: 25
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Sprich mit Nadia Muffaz.
-    - Language: English
-      String: Talk to Nadia Muffaz
-    - Language: Spanish
-      String: Habla con Nadia Muffaz.
-    - Language: French
-      String: Parlez à Nadia Muffaz.
-    - Language: Italian
-      String: Parla con Nadia Muffaz
-    - Language: Japanese
-      String: ナディア・マファズと話す
-    - Language: Polish
-      String: Porozmawiaj z Nadią Muffaz
-    - Language: Portuguese_Brazil
-      String: Fale com Nadia Muffaz
-    - Language: ChineseSimplified
-      String: 与纳迪亚·穆法茨交谈
+    Value: Talk to Nadia Muffaz
   Targets:
   - {}
 - Index: 50
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Finde neue Storys für SNN.
-    - Language: English
-      String: Find new stories for SSNN
-    - Language: Spanish
-      String: Descubre nuevas historias de la NSC.
-    - Language: French
-      String: Trouvez des infos pour SOTV.
-    - Language: Italian
-      String: Trova nuove storie per la SCNN
-    - Language: Japanese
-      String: SSNNのために新しい物語を探す
-    - Language: Polish
-      String: Znajdź nowe materiały dla ZUinfo
-    - Language: Portuguese_Brazil
-      String: Encontre novas histórias para a ANSC
-    - Language: ChineseSimplified
-      String: 为定居新闻台寻找新报道
+    Value: Find new stories for SSNN
 - Index: 100
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Berichte von dem Angriff auf Vectera.
-    - Language: English
-      String: Deliver news about the Vectera Mining Attack
-    - Language: Spanish
-      String: Informa sobre el ataque minero de Vectera.
-    - Language: French
-      String: Racontez l'attaque de la mine sur Vectera.
-    - Language: Italian
-      String: Dai informazioni sull’attacco alle miniere di Vectera
-    - Language: Japanese
-      String: ベクテラ鉱山への攻撃について伝える
-    - Language: Polish
-      String: Przekaż wieści o ataku na kopalnię na Vecterze
-    - Language: Portuguese_Brazil
-      String: Relate sobre o ataque nas minas em Vectera
-    - Language: ChineseSimplified
-      String: 播送关于维特拉星矿场袭击的新闻
+    Value: Deliver news about the Vectera Mining Attack
   Targets:
   - {}
 - Index: 200
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Berichte von der Scow und Captain Petrow.
-    - Language: English
-      String: Deliver news about the Scow and Captain Petrov
-    - Language: Spanish
-      String: Informa sobre la Scow y el capitán Petrov.
-    - Language: French
-      String: Racontez l'histoire du Scow et du capit. Petrov.
-    - Language: Italian
-      String: Dai informazioni sulla Scow e sul capitano Petrov
-    - Language: Japanese
-      String: スカウとペトロフ船長について伝える
-    - Language: Polish
-      String: Przekaż wieści o Scowie i kapitanie Petrowie
-    - Language: Portuguese_Brazil
-      String: Relate sobre a Barcaça e o comandante Petrov
-    - Language: ChineseSimplified
-      String: 播送关于方驳号与彼得罗夫船长的新闻
+    Value: Deliver news about the Scow and Captain Petrov
   Targets:
   - {}
 - Index: 300
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Berichte von dem GalBank-Überfall in Akila City.
-    - Language: English
-      String: Deliver news about the GalBank robbery in Akila City
-    - Language: Spanish
-      String: Informa sobre el robo de GalBank en Akila.
-    - Language: French
-      String: Racontez l'histoire de la GalBank à Akila City.
-    - Language: Italian
-      String: Dai informazioni sulla rapina alla GalBank di Akila City
-    - Language: Japanese
-      String: アキラ・シティのガルバンク強盗について伝える
-    - Language: Polish
-      String: Przekaż wieści o napadzie na GalBank w Akili
-    - Language: Portuguese_Brazil
-      String: Relate sobre o roubo em GalBank na cidade de Akila
-    - Language: ChineseSimplified
-      String: 播送关于阿基拉城盖尔银行抢劫案的新闻
+    Value: Deliver news about the GalBank robbery in Akila City
   Targets:
   - {}
 - Index: 400
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Berichte von dem Terrormorph-Angriff auf New Atlantis.
-    - Language: English
-      String: Deliver news about the Terrormorph attack on New Atlantis
-    - Language: Spanish
-      String: Informa del ataque de los horromorfos en Nueva Atlántida.
-    - Language: French
-      String: Racontez l'attaque des horrimorphes à N. Atlantis.
-    - Language: Italian
-      String: Dai informazioni sui terrormorfi a Nuova Atlantide
-    - Language: Japanese
-      String: テラーモーフによるニューアトランティスの襲撃について伝える
-    - Language: Polish
-      String: Przekaż wieści o ataku terrormorfów na Nową Atlantydę
-    - Language: Portuguese_Brazil
-      String: Relate sobre os terrormorfos em Nova Atlântida
-    - Language: ChineseSimplified
-      String: 播送关于骇变兽攻击新亚特兰蒂斯城的新闻
+    Value: Deliver news about the Terrormorph attack on New Atlantis
   Targets:
   - {}
 - Index: 500
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Berichte von Ron Hopes Tod.
-    - Language: English
-      String: Deliver news about Ron Hope's death
-    - Language: Spanish
-      String: Informa sobre la muerte de Ron Hope.
-    - Language: French
-      String: Racontez l'histoire de la mort de Ron Hope.
-    - Language: Italian
-      String: Dai informazioni sulla morte di Ron Hope
-    - Language: Japanese
-      String: ロン・ホープの死について伝える
-    - Language: Polish
-      String: Przekaż wieści o śmierci Rona Hope’a
-    - Language: Portuguese_Brazil
-      String: Relate sobre a morte de Ron Hope
-    - Language: ChineseSimplified
-      String: 播送关于罗恩·霍普之死的新闻
+    Value: Deliver news about Ron Hope's death
   Targets:
   - {}
 - Index: 600
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Berichte vom SysDef-Angriff auf den Schlüssel.
-    - Language: English
-      String: Deliver news about SysDef's attack on the Key
-    - Language: Spanish
-      String: Informa sobre el ataque del SisDef en la Llave.
-    - Language: French
-      String: Racontez l'attaque du SysDef contre la Clé.
-    - Language: Italian
-      String: Dai informazioni sull’attacco DifSis alla Chiave
-    - Language: Japanese
-      String: 防衛システムによる〈キー〉の襲撃について伝える
-    - Language: Polish
-      String: Przekaż wieści o ataku SysObu na Klucz
-    - Language: Portuguese_Brazil
-      String: Relate sobre o ataque da DefSis na Chave
-    - Language: ChineseSimplified
-      String: 播送关于星防队进攻星钥站的新闻
+    Value: Deliver news about SysDef's attack on the Key
   Targets:
   - {}
 - Index: 8000
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Sprich mit Nadia Muffaz.
-    - Language: English
-      String: Talk with Nadia Muffaz
-    - Language: Spanish
-      String: Habla con Nadia Muffaz.
-    - Language: French
-      String: Parlez à Nadia Muffaz.
-    - Language: Italian
-      String: Parla con Nadia Muffaz
-    - Language: Japanese
-      String: ナディア・マファズと話す
-    - Language: Polish
-      String: Porozmawiaj z Nadią Muffaz
-    - Language: Portuguese_Brazil
-      String: Fale com Nadia Muffaz
-    - Language: ChineseSimplified
-      String: 与纳迪亚·穆法茨交谈
+    Value: Talk with Nadia Muffaz
   Targets:
   - {}
 Aliases:
@@ -1178,4 +908,3 @@ Aliases:
     Quest: 2A567C:Starfield.esm
     AliasID: 0
   VoiceTypes: Null
-Timestamp: 12497

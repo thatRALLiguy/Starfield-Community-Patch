@@ -1,27 +1,9 @@
 FormKey: 26C5E4:Starfield.esm
 EditorID: COM_SamCoe_Hello
-FormVersion: 559
+FormVersion: 576
 Name:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: COM_SamCoe_Hello
-  - Language: English
-    String: COM_SamCoe_Hello
-  - Language: Spanish
-    String: COM_SamCoe_Hello
-  - Language: French
-    String: COM_SamCoe_Hello
-  - Language: Italian
-    String: COM_SamCoe_Hello
-  - Language: Japanese
-    String: COM_SamCoe_Hello
-  - Language: Polish
-    String: COM_SamCoe_Hello
-  - Language: Portuguese_Brazil
-    String: COM_SamCoe_Hello
-  - Language: ChineseSimplified
-    String: COM_SamCoe_Hello
+  Value: COM_SamCoe_Hello
 Quest: 26C5ED:Starfield.esm
 Category: Misc
 Subtype: QuestOrSpecialHellos
@@ -82,4 +64,3 @@ TopicInfoList:
 - 26C50A:Starfield.esm
 - 26C509:Starfield.esm
 - 26C508:Starfield.esm
-Timestamp: 12497

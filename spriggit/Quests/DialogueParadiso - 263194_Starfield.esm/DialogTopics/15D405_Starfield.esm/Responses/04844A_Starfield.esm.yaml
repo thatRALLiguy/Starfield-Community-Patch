@@ -1,0 +1,21 @@
+FormKey: 04844A:Starfield.esm
+MajorRecordFlagsRaw: 64
+FormVersion: 576
+StarfieldMajorRecordFlags:
+- 0x40
+Flags:
+  Flags:
+  - ChildInfosDontInheritResetData
+  - ForceAllChildrenRandom
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Unknown2: 16617
+  Data:
+    MutagenObjectType: GetStageDoneConditionData
+    FirstParameter: 263194:Starfield.esm
+    SecondParameter: 1103
+  ComparisonValue: 1
+StartScenePhase: ''
+SubtitlePriority: 0
+MajorFlags:
+- InfoGroup

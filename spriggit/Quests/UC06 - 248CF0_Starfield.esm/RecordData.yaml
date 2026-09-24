@@ -1,6 +1,6 @@
 FormKey: 248CF0:Starfield.esm
 EditorID: UC06
-FormVersion: 559
+FormVersion: 576
 VirtualMachineAdapter:
   Scripts:
   - Name: uc06_questscript
@@ -31,57 +31,16 @@ VirtualMachineAdapter:
     Name: Fragments:Quests:QF_UC06_00248CF0
     Properties:
     - MutagenObjectType: ScriptObjectProperty
-      Name: SpaceshipEngineHealth
-      Object: 1EF0CD:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Frontier_ModularREF
-      Object: 03F7E8:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC06_OrlaseFaction
-      Object: 215DB8:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC06_Debug_TravelingToOrlase
-      Object: 2129F8:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC06_570_System_TransferAccepted
-      Object: 0ADE00:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC07_HadrianVVRevealQuest
-      Object: 1F44B2:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
       Name: Alias_Orlase
       Object: 248CF0:Starfield.esm
       Alias: 17
     - MutagenObjectType: ScriptObjectProperty
-      Name: UC06_140_PlayerExitsVVChamber
-      Object: 1D7CC5:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_MacIntyre
+      Name: Alias_MacIntyreSlateLookMarker
       Object: 248CF0:Starfield.esm
-      Alias: 15
+      Alias: 16
     - MutagenObjectType: ScriptObjectProperty
-      Name: UC06_430_OrlaseBoardingScene
-      Object: 215DBD:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC06_90_VaeVictis_Attract
-      Object: 246B85:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_TransferSystemTrigger
-      Object: 248CF0:Starfield.esm
-      Alias: 34
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC06_SpaceBattleTeleportMarker
-      Object: 248BF9:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: QST_Orlase_Ship_HostileTransmission_WEF
-      Object: 0348D5:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC_PlayerKnows_HowVVFoundResearchTeam
-      Object: 1F3238:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_ChiefYasin
-      Object: 248CF0:Starfield.esm
-      Alias: 42
+      Name: UC06_DebugMarker01
+      Object: 246B87:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: MQ_TutorialQuest
       Object: 045640:Starfield.esm
@@ -89,80 +48,110 @@ VirtualMachineAdapter:
       Name: TestMQ101HelperQuest
       Object: 019089:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: LL_BE_ShipCaptainsLockerLoot_Small
-      Object: 2BADC6:Starfield.esm
+      Name: UC06_570_System_TransferAccepted
+      Object: 0ADE00:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_EthereaMines
+      Name: Alias_VVChamberDoor
       Object: 248CF0:Starfield.esm
-      Alias: 36
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_FloorManager
-      Object: 248CF0:Starfield.esm
-      Alias: 32
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_OrlaseCabinDoor
-      Object: 248CF0:Starfield.esm
-      Alias: 25
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC05_DebugMarker01
-      Object: 2A0E42:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC06_500_OrlaseDeath
-      Object: 248C07:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: SQ_PlayerShip
-      Object: 0174A2:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: NewAtlantisShipLandingMarker
-      Object: 023605:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC_PlayerKnows_KaiserIsARobot
-      Object: 20B7D9:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC06_560_VV_ApproachTransfer
-      Object: 0ADE1B:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_MacIntyreSlateLookMarker
-      Object: 248CF0:Starfield.esm
-      Alias: 16
-    - MutagenObjectType: ScriptObjectProperty
-      Name: SpaceshipCrew
-      Object: 040CE0:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_EthereaTurrets
-      Object: 248CF0:Starfield.esm
-      Alias: 37
+      Alias: 41
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_VaeVictis
       Object: 248CF0:Starfield.esm
       Alias: 0
     - MutagenObjectType: ScriptObjectProperty
-      Name: UC07
-      Object: 215E93:Starfield.esm
+      Name: UC06_420_OrlaseEngineDisabled
+      Object: 215DBC:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: UC06_Debug_DebrisField
-      Object: 212A02:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC06_DebugMarker02
-      Object: 246B86:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_OrlaseCaptainLocker
+      Name: Alias_EthereaMines
       Object: 248CF0:Starfield.esm
-      Alias: 47
+      Alias: 36
     - MutagenObjectType: ScriptObjectProperty
-      Name: UC06_95_SS7Guard_PlayerApproachesDoor
-      Object: 0ADE05:Starfield.esm
+      Name: UC_PlayerKnows_KaiserIsARobot
+      Object: 20B7D9:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_NamelessAlias
+      Name: SpaceshipCrew
+      Object: 040CE0:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Health
+      Object: 0002D4:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_OrlaseCabinDoor
       Object: 248CF0:Starfield.esm
-      Alias: 1
+      Alias: 25
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_OrlaseID
+      Object: 248CF0:Starfield.esm
+      Alias: 6
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC06_SpaceBattleTeleportMarker
+      Object: 248BF9:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Frontier_ModularREF
+      Object: 03F7E8:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: UC06_100_VaeVictisIntro
       Object: 248C11:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_VVChamberDoor
+      Name: UC_PlayerKnows_HowVVFoundResearchTeam
+      Object: 1F3238:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC06_560_VV_ApproachTransfer
+      Object: 0ADE1B:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: QST_Orlase_Ship_HostileTransmission_WEF
+      Object: 0348D5:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC06_DebugMarker02
+      Object: 246B86:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC07
+      Object: 215E93:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_EthereaTurrets
       Object: 248CF0:Starfield.esm
-      Alias: 41
+      Alias: 37
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_ChiefYasin
+      Object: 248CF0:Starfield.esm
+      Alias: 42
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC06_Debug_TroubleTravelingToDen
+      Object: 2129FF:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: NewAtlantisShipLandingMarker
+      Object: 023605:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_TransferSystemTrigger
+      Object: 248CF0:Starfield.esm
+      Alias: 34
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_PlayerShip
+      Object: 0174A2:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC06_90_VaeVictis_Attract
+      Object: 246B85:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC06_Debug_TravelingToOrlase
+      Object: 2129F8:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC06_Debug_DebrisField
+      Object: 212A02:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC07_HadrianVVRevealQuest
+      Object: 1F44B2:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_MacIntyre
+      Object: 248CF0:Starfield.esm
+      Alias: 15
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC06_OrlaseFaction
+      Object: 215DB8:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC06_400_OrlaseGreetingScene
+      Object: 248C09:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC05_DebugMarker01
+      Object: 2A0E42:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_PlayerShip
       Object: 248CF0:Starfield.esm
@@ -171,31 +160,42 @@ VirtualMachineAdapter:
       Name: UC_PlayerKnows_VVSurvivedExecution
       Object: 1F42E6:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
+      Name: SpaceshipEngineHealth
+      Object: 1EF0CD:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC06_500_OrlaseDeath
+      Object: 248C07:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_FloorManager
+      Object: 248CF0:Starfield.esm
+      Alias: 32
+    - MutagenObjectType: ScriptObjectProperty
       Name: SpaceshipEnabledLandingLink
       Object: 01448D:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: UC06_400_OrlaseGreetingScene
-      Object: 248C09:Starfield.esm
+      Name: Alias_OrlaseCaptainLocker
+      Object: 248CF0:Starfield.esm
+      Alias: 47
     - MutagenObjectType: ScriptObjectProperty
-      Name: Health
-      Object: 0002D4:Starfield.esm
+      Name: LL_BE_ShipCaptainsLockerLoot_Small
+      Object: 2BADC6:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: UC06_420_OrlaseEngineDisabled
-      Object: 215DBC:Starfield.esm
+      Name: UC06_140_PlayerExitsVVChamber
+      Object: 1D7CC5:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_NamelessAlias
+      Object: 248CF0:Starfield.esm
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC06_95_SS7Guard_PlayerApproachesDoor
+      Object: 0ADE05:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_OrlaseShip
       Object: 248CF0:Starfield.esm
       Alias: 3
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_OrlaseID
-      Object: 248CF0:Starfield.esm
-      Alias: 6
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC06_DebugMarker01
-      Object: 246B87:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC06_Debug_TroubleTravelingToDen
-      Object: 2129FF:Starfield.esm
+      Name: UC06_430_OrlaseBoardingScene
+      Object: 215DBD:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: UC06_OrlaseCabinKey
       Object: 212A00:Starfield.esm
@@ -622,25 +622,7 @@ VirtualMachineAdapter:
         Name: DeleteWhenTriggeredSuccessfully
 Name:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: Das geringere Übel
-  - Language: English
-    String: The Devils You Know
-  - Language: Spanish
-    String: Los Diablos que conoces
-  - Language: French
-    String: Des démons connus
-  - Language: Italian
-    String: Diavoli famigerati
-  - Language: Japanese
-    String: 既知の悪魔
-  - Language: Polish
-    String: Lepsze znane zło
-  - Language: Portuguese_Brazil
-    String: Diabos Familiares
-  - Language: ChineseSimplified
-    String: 你熟知的恶魔
+  Value: The Devils You Know
 Data:
   Flags:
   - RunOnce
@@ -753,25 +735,7 @@ Stages:
     Note: Quest started. Direct the player into the basement.
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Jemand möchte mit mir reden, aber Vizeministerin MacIntyre will mir nicht sagen, wer es ist. Sie meinte, ich könnte diesen Jemand unten in Untersektion Sieben finden.
-      - Language: English
-        String: Someone's requested to speak with me, but Deputy MacIntyre won't tell me who. She said I can find them down in Subsection Seven.
-      - Language: Spanish
-        String: Alguien ha pedido hablar conmigo, pero la diputada MacIntyre se niega a revelarme quién. Dice que me espera en la subsección siete.
-      - Language: French
-        String: Quelqu'un a demandé à me parler, mais l'adjointe MacIntyre refuse de me dire qui. Elle m'a dit que je pouvais trouver cette personne dans la sous-section sept.
-      - Language: Italian
-        String: Qualcuno ha fatto richiesta di parlare con me, ma la vice MacIntyre non vuole dirmi di chi si tratta. Mi ha detto che posso trovare questa persona nella sottosezione 7.
-      - Language: Japanese
-        String: 誰かに面会を求められているが、マッキンタイア補佐官は相手が誰なのか教えてくれない。サブセクション7に行けばわかると言われた
-      - Language: Polish
-        String: Ktoś chce ze mną rozmawiać, ale zastępczyni MacIntyre nie chce mi powiedzieć kto. Powiedziała, że znajdę tę osobę w podsekcji siódmej.
-      - Language: Portuguese_Brazil
-        String: Alguém pediu para falar comigo, mas a suplente MacIntyre não quer me dizer quem é. Ela disse que vou encontrar a pessoa se descer até a Subseção Sete.
-      - Language: ChineseSimplified
-        String: 有人要求与我谈谈，但是麦金泰尔副部长不肯告诉我是谁。她说对方在第七分部等我。
+      Value: Someone's requested to speak with me, but Deputy MacIntyre won't tell me who. She said I can find them down in Subsection Seven.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -790,25 +754,7 @@ Stages:
     Note: Player entered VV's holding chamber. Play his intro scene.
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: 'Hier unten lebt jemand ... und er möchte mit mir reden. '
-      - Language: English
-        String: "There's someone living down here... and he's asked to speak to me. "
-      - Language: Spanish
-        String: 'Alguien vive ahí abajo... y ha pedido hablar conmigo. '
-      - Language: French
-        String: "Quelqu'un vit par ici... et souhaite me parler. "
-      - Language: Italian
-        String: 'Qualcuno vive qui sotto... e ha chiesto di parlarmi. '
-      - Language: Japanese
-        String: '誰かがここに住んでいる… 話をしたいと言われた '
-      - Language: Polish
-        String: Ktoś tutaj mieszka... I chce ze mną rozmawiać.
-      - Language: Portuguese_Brazil
-        String: 'Tem alguém morando aqui embaixo... e ele pediu para falar comigo. '
-      - Language: ChineseSimplified
-        String: '有人生活在这里……并且他要求与我谈谈。 '
+      Value: "There's someone living down here... and he's asked to speak to me. "
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -987,25 +933,7 @@ Stages:
     Note: 'Player finished the scene with VV. '
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Ich habe mit dem ehemaligen UC-Admiral Vae Victis gesprochen, der eigentlich tot sein sollte. Ich soll einen abtrünnigen Militärwissenschaftler namens Reginald Orlase finden und mich um ihn kümmern. Er soll sich nahe des Planeten Etherea im Wolf-System aufhalten. Nähere Informationen bekomme ich von Captain Marquez, der lokalen Anführerin der Vanguard.
-      - Language: English
-        String: I just spoke to Vae Victis, a former UC admiral and a man who's supposed to be dead. He asked me to track down - and "deal with" - a rogue weapons scientist named Reginald Orlase. He believes Orlase is hiding near the planet of Etherea in the Wolf system, and that I should speak to the local head of the Vanguard - Captain Marquez - to get specifics.
-      - Language: Spanish
-        String: Acabo de hablar con Vae Victis, un antiguo almirante de las CU que supuestamente estaba muerto. Me ha pedido que rastree y “me encargue” de un díscolo científico llamado Reginald Orlase. Cree que Orlase se esconde cerca del planeta Etérea, en el sistema de Lobo, y me ha dicho que hable con la líder de la Vanguardia en la zona, la capitana Marquez, para que me dé los detalles.
-      - Language: French
-        String: Je viens de parler à Vae Victis, un ancien amiral de l'UC supposé être mort. Il m'a demandé de retrouver la trace et de “m'occuper” d'un spécialiste en armement renégat du nom de Reginald Orlase. Il pense que ce dernier se cache près de la planète Etherea, dans le système Wolf. Il m'a conseillé de m'adresser à la responsable locale de l'Avant-garde, le capitaine Marquez, pour obtenir davantage d'informations.
-      - Language: Italian
-        String: Ho appena parlato con Vae Victis, un ex ammiraglio dell’UC che dovrebbe essere morto da un pezzo. Mi ha chiesto di rintracciare (e “sistemare”) uno scienziato di armamenti corrotto di nome Reginald Orlase. Crede che Orlase si nasconda vicino al pianeta Etherea, nel sistema Lupo, e che io debba parlare col capo locale dell’Avanguardia, la capitana Marquez, per ricevere ulteriori dettagli.
-      - Language: Japanese
-        String: UCの元提督で、死んだはずのヴェイ・ヴィクティスと話をした。レジナルド・オーラスというはぐれ兵器科学者を見つけ出し、"対処する"よう頼まれた。オーラスはウルフ星系の惑星エセリアの近くに隠れているらしい。詳しい情報については、現地のバンガードのトップ、マルケズ大尉と話をするように言われた
-      - Language: Polish
-        String: Jestem po rozmowie z Vae Victisem, byłym admirałem ZK i człowiekiem, który powinien być martwy. Poprosił mnie o znalezienie naukowca zajmującego się bronią, Reginalda Orlase'a, i „rozprawienie się” z nim. Victis uważa, że Orlase kryje się w pobliżu Etherei, planety w układzie Wolf. Kapitan Marquez, szefowa tamtejszego oddziału Gwardii, przekaże mi więcej szczegółów.
-      - Language: Portuguese_Brazil
-        String: Eu acabei de falar com Vae Victis, um ex-almirante da UC que deveria estar morto. Ele me pediu para rastrear e “cuidar” de um cientista de armas desgarrado chamado Reginald Orlase. Ele acredita que Orlase está se escondendo perto do planeta Etérea, no sistema Lobo, e sugeriu que eu falasse com a comandante Marquez, líder local da Vanguarda, para saber mais detalhes.
-      - Language: ChineseSimplified
-        String: 我刚和瓦维刻提斯谈过，他是前联殖上将，也是一个本该已经死了的人。他让我追捕，并“处理“，一位叛逃的武器科学家，名叫雷金纳德·奥拉斯。他认为奥拉斯躲藏在沃尔夫星系中的以太亚行星附近，并且我应该去找当地先锋队的领导人马奎斯船长以获得具体信息。
+      Value: I just spoke to Vae Victis, a former UC admiral and a man who's supposed to be dead. He asked me to track down - and "deal with" - a rogue weapons scientist named Reginald Orlase. He believes Orlase is hiding near the planet of Etherea in the Wolf system, and that I should speak to the local head of the Vanguard - Captain Marquez - to get specifics.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -1080,25 +1008,7 @@ Stages:
     Note: Direct the player to find Orlase
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: 'Captain Marquez hat mir die Koordinaten der „Warlock“ gegeben, auf der sich Orlase aufhalten könnte. Doch sie hat mich gewarnt, dass in dem Trümmerfeld, in dem sich die Warlock befinden soll, schon einige Schiffe verschwunden sind. '
-      - Language: English
-        String: "Captain Marquez has given me the coordinates I need to find \"The Warlock,\" a ship that may be home to Orlase. But she warned me to be careful - a number of ships have been lost in the debris fields where the Warlock's been seen. "
-      - Language: Spanish
-        String: 'La capitana Marquez me ha dado las coordenadas que necesito para encontrar la “Warlock”, una nave que podría ser el hogar de Orlase. Me ha advertido que vaya con cuidado: unas cuantas naves se han perdido en los campos de restos en el que se ha avistado a la Warlock. '
-      - Language: French
-        String: "Le capitaine Marquez m'a donné les coordonnées dont j'avais besoin pour trouver le “Warlock”, un vaisseau sur lequel pourrait se trouver Orlase. Elle m'a conseillé de faire attention : de nombreux vaisseaux ont été perdus dans le champ de débris où le Warlock a été vu. "
-      - Language: Italian
-        String: 'La capitana Marquez mi ha dato le coordinate necessarie per trovare la “Warlock”, una nave che potrebbe ospitare Orlase. Ma mi ha detto di fare attenzione: molte navi sono andate perse nei campi di detriti dov’è stata avvistata la Warlock. '
-      - Language: Japanese
-        String: 'マルケズ大尉からオーラスがいる可能性がある船、"ウォーロック"を見つけるために必要な座標を受け取った。だが注意するよう警告された。ウォーロックが目撃されたデブリ帯では、多くの船が失われている '
-      - Language: Polish
-        String: "Kapitan Marquez przekazała mi współrzędne, które pomogą mi znaleźć „Warlocka”, statek należący do Orlase'a, ale zaleciła mi ostrożność. W polu szczątków - w okolicy, w której widziano Warlocka - przepadło sporo statków. "
-      - Language: Portuguese_Brazil
-        String: 'A Comandante Marquez me deu as coordenadas necessárias para encontrar a “Warlock”, uma nave que pode estar abrigando Orlase. Mas ela me alertou para tomar cuidado: inúmeras naves já se perderam nos campos de destroços em que a Warlock foi vista. '
-      - Language: ChineseSimplified
-        String: '马奎斯船长已经把找到“术士号“所需的坐标给我了——这艘飞船可能是奥拉斯的家。但她警告我要多加小心——术士号所出没的碎片场内已经有不少飞船失踪。 '
+      Value: "Captain Marquez has given me the coordinates I need to find \"The Warlock,\" a ship that may be home to Orlase. But she warned me to be careful - a number of ships have been lost in the debris fields where the Warlock's been seen. "
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -1125,25 +1035,7 @@ Stages:
     Note: Player engaged Orlase's ship. Change objectives and have him say his intro line.
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: 'Ich habe die Warlock gefunden. Und der Pilot scheint darüber nicht erfreut zu sein. Entweder schalte ich den Antrieb aus und nehme ihn gefangen (unter Einsatz einer EM-Waffe oder des Zielsteuerungssysteme-Skills) ... oder ich zerstöre das Schiff. '
-      - Language: English
-        String: "I've found the Warlock. And whoever's piloting it doesn't sound pleased I'm here. Time to either disable his engines to capture him (using an EM Weapon or the Targeting Control Systems skill)... or shoot him out of the sky. "
-      - Language: Spanish
-        String: He encontrado la Warlock y quienquiera que la pilote no parece muy contento de que esté aquí. Es hora de desactivar los motores para capturarle —empleando un arma electromagnética o la habilidad Sistemas de control de puntería— o derribarle.
-      - Language: French
-        String: "J'ai trouvé le Warlock, et son pilote ne semble pas apprécier ma présence. Deux issues s'offrent à moi : je peux désactiver ses moteurs afin de le capturer (à l'aide d'une arme EM ou de la compétence Systèmes de ciblage), ou abattre son vaisseau. "
-      - Language: Italian
-        String: 'Ho trovato la Warlock. E chiunque la stia pilotando non sembra contento della mia presenza. Sarà meglio disabilitargli i motori per catturarlo (usando armamenti EM o l’abilità Controllo puntamento)... o spedirlo al creatore. '
-      - Language: Japanese
-        String: ウォーロックを見つけた。パイロットは歓迎してくれない。エンジンを停止させて確保するか(EM兵器や照準制御システムスキルを使って)… 撃破するか、どちらかだ
-      - Language: Polish
-        String: 'Udało mi się znaleźć Warlocka. Jego pilot wydaje się niezbyt zadowolony z mojej obecności. Czas wyłączyć silniki Warlocka (za pomocą broni EM albo umiejętności systemów celowniczych), by go pojmać... albo zestrzelić. '
-      - Language: Portuguese_Brazil
-        String: Eu encontrei a Warlock, e seja lá quem for o piloto, não parece nada feliz de eu estar aqui. Hora de desativar os motores dele para capturá-lo, com uma arma EM ou a habilidade Sistemas de Controle de Mira... ou derrubar a nave a tiros.
-      - Language: ChineseSimplified
-        String: '我已经找到了术士号，而那个驾驶它的家伙似乎对我的到来不大高兴。是时候关闭他的引擎把他活捉（使用电磁武器或瞄准控制系统技能）……或者把他从天上打下来。 '
+      Value: "I've found the Warlock. And whoever's piloting it doesn't sound pleased I'm here. Time to either disable his engines to capture him (using an EM Weapon or the Targeting Control Systems skill)... or shoot him out of the sky. "
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -1182,32 +1074,13 @@ Stages:
   - Flags: []
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 248CF0:Starfield.esm
         SecondParameter: 500
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Ich habe den Antrieb der Warlock ausgeschaltet. Jetzt sollte ich an Bord gehen und versuchen, den Piloten gefangen zu nehmen!
-      - Language: English
-        String: I've disabled the Warlock's engines. Now I should be able to board his ship and see if I can't capture its pilot!
-      - Language: Spanish
-        String: He desactivado los motores de la Warlock. Ahora podré subir a su nave y ver si puedo capturar a su piloto.
-      - Language: French
-        String: J'ai désactivé les moteurs du Warlock. Je devrais pouvoir monter à bord du vaisseau afin de capturer son pilote !
-      - Language: Italian
-        String: Ho disattivato i motori della Warlock. Ora dovrei riuscire a salire a bordo e vedere se riesco a catturarne il pilota!
-      - Language: Japanese
-        String: ウォーロックのエンジンを停止した。船に乗り込んで、パイロットを捕獲してみよう！
-      - Language: Polish
-        String: Silniki Warlocka zostały zniszczone. Mogę teraz wejść na pokład statku i zobaczyć, czy uda mi się pojmać jego pilota!
-      - Language: Portuguese_Brazil
-        String: Eu desativei os motores da Warlock. Agora vou poder abordar a nave e tentar capturar seu piloto!
-      - Language: ChineseSimplified
-        String: 我已经关闭了术士号的引擎，这下我应该能够登上飞船，看看我能不能活捉它的驾驶员！
+      Value: I've disabled the Warlock's engines. Now I should be able to board his ship and see if I can't capture its pilot!
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -1218,25 +1091,7 @@ Stages:
     Note: "P2: OBJ: ORLASE SHIP: Player hit \"boarding trigger\" in Orlase's ship. Update objectives and play his scene."
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Ich bin an Bord der Warlock! Zeit, den Piloten zur Rede zu stellen!
-      - Language: English
-        String: I'm onboard the Warlock! Time to confront the pilot!
-      - Language: Spanish
-        String: ¡Estoy a bordo de la Warlock! ¡Es hora de enfrentarse al piloto!
-      - Language: French
-        String: Je suis à bord du Warlock ! Il est temps de mettre les choses au clair avec son pilote !
-      - Language: Italian
-        String: Sono a bordo della Warlock! Devo affrontare il pilota!
-      - Language: Japanese
-        String: ウォーロックに乗船した！ パイロットと対決だ！
-      - Language: Polish
-        String: Jestem na pokładzie Warlocka! Czas zmierzyć się z pilotem!
-      - Language: Portuguese_Brazil
-        String: Estou a bordo da Warlock! Hora de confrontar o piloto!
-      - Language: ChineseSimplified
-        String: 我登上了术士号！是时候面对飞行员了！
+      Value: I'm onboard the Warlock! Time to confront the pilot!
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -1255,25 +1110,7 @@ Stages:
     Note: "P2: OBJ: ORLASE FIGHT: Orlase's scene completed. He's now officially \"dead\" (though he's actually dead the whole time)."
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Da Orlase sich nicht gefangen nehmen lassen wollte, hat er sich umgebracht. Ich sollte ihn nach Beweisen durchsuchen, die ich Vae Victis zeigen kann.
-      - Language: English
-        String: Orlase killed himself rather than be captured. I guess I should check him for evidence I could show to Vae Victis.
-      - Language: Spanish
-        String: Orlase prefirió suicidarse a que le capturaran. Supongo que tendré que registrarle para encontrar pruebas que pueda mostrar a Vae Victis.
-      - Language: French
-        String: Orlase a préféré se donner la mort plutôt que d'être capturé. Je dois le fouiller pour trouver une preuve à présenter à Vae Victis.
-      - Language: Italian
-        String: Orlase ha preferito uccidersi piuttosto che farsi catturare. Mi conviene controllare se ci sono prove da mostrare a Vae Victis.
-      - Language: Japanese
-        String: オーラスは捕まることを拒んで死んだ。ヴェイ・ヴィクティスに見せる証拠を探すべきだ
-      - Language: Polish
-        String: Orlase wolał samobójstwo, aniżeli dać się złapać. Muszę poszukać dowodów, które mogę pokazać Vae Victisowi.
-      - Language: Portuguese_Brazil
-        String: Orlase preferiu se matar a ser capturado. Acho que preciso buscar evidências dele para mostrar ao Vae Victis.
-      - Language: ChineseSimplified
-        String: 奥拉斯宁可自杀也不愿意被俘虏，看来我该搜搜他的身，看能不能找到可以展示给瓦维刻提斯的证据。
+      Value: Orlase killed himself rather than be captured. I guess I should check him for evidence I could show to Vae Victis.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -1316,25 +1153,7 @@ Stages:
     Note: Orlase's ship is destroyed. Direct the player to collect a piece of his ship.
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Ich habe die Warlock zerstört, der Pilot war noch im Schiff. Ich sollte das Wrack nach Beweisen durchsuchen, dass es sich um Orlase handelte.
-      - Language: English
-        String: I destroyed the Warlock - and its pilot with it. I need to search the wreckage, find evidence this was Orlase.
-      - Language: Spanish
-        String: He destruido la Warlock y, con ella, a su piloto. Tengo que buscar pruebas entre los restos de que era Orlase.
-      - Language: French
-        String: J'ai détruit le Warlock, ainsi que son pilote. Je dois explorer l'épave pour trouver des preuves qu'il s'agissait bien d'Orlase.
-      - Language: Italian
-        String: Ho distrutto la Warlock, pilota compreso. Devo cercare tra i rottami se ci sono prove che attestino che si trattava di Orlase.
-      - Language: Japanese
-        String: ウォーロックを破壊した。パイロットと共に。残骸を捜索して、オーラスだったという証拠を探そう
-      - Language: Polish
-        String: Warlock został zniszczony, a wraz z nim jego pilot. Muszę przeszukać wrak, aby znaleźć dowody na to, że był tam Orlase.
-      - Language: Portuguese_Brazil
-        String: Eu destruí a Warlock com seu piloto dentro. Preciso examinar os destroços para obter evidências de que era o Orlase.
-      - Language: ChineseSimplified
-        String: 我摧毁了术士号，还有它的驾驶员，我需要搜索残骸，找到证明那个人就是奥拉斯的证据。
+      Value: I destroyed the Warlock - and its pilot with it. I need to search the wreckage, find evidence this was Orlase.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -1345,25 +1164,7 @@ Stages:
     Note: Player of their ship acquired the ID. Direct them back to VV.
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Ich habe Orlases alte United-Colonies-ID gefunden. Damit sollte auch für Vae Victis der Job erledigt sein.
-      - Language: English
-        String: I found Orlase's old United Colonies ID. This should be sufficient evidence to prove to Vae Victis the job is done.
-      - Language: Spanish
-        String: He encontrado la antigua identificación de Orlase de las CU. Esto debería bastar para demostrar a Vae Victis que el trabajo está hecho.
-      - Language: French
-        String: J'ai trouvé l'ancien identifiant de l'Union coloniale d'Orlase. Cela devrait suffire pour prouver à Vae Victis que ma tâche est accomplie.
-      - Language: Italian
-        String: Ho trovato il vecchio documento d’identità dell’Unione Coloniale di Orlase. Dovrebbe essere una prova sufficiente per dimostrare a Vae Victis che il gioco è fatto.
-      - Language: Japanese
-        String: オーラスのコロニー連合時代のIDを見つけた。仕事が完了したと、ヴェイ・ヴィクティスに証明できる
-      - Language: Polish
-        String: Udało mi się znaleźć stary identyfikator Zjednoczonych Kolonii Orlase'a. Powinien wystarczyć, aby Vae Victis uwierzył, że robota została wykonana.
-      - Language: Portuguese_Brazil
-        String: Encontrei a antiga identificação da União das Colônias de Orlase. Isso deve bastar como evidência para provar a Vae Victis que o trabalho está feito.
-      - Language: ChineseSimplified
-        String: 我找到了奥拉斯的旧联合殖民地ID，这应该算是个充分的证据来向瓦维刻提斯证明任务已经完成。
+      Value: I found Orlase's old United Colonies ID. This should be sufficient evidence to prove to Vae Victis the job is done.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -1398,25 +1199,7 @@ Stages:
     Note: "P3: VV directed the player to hand over Orlase's ID."
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Vae Victis bat mich, ihm meine Beweise für Orlases Tod zu übergeben. Das sollte ich über das Transfersystem tun.
-      - Language: English
-        String: Vae Victis has asked me to hand over the evidence I collected that Orlase is dead. I should approach the transfer system.
-      - Language: Spanish
-        String: Vae Victis me ha pedido que le entregue las pruebas que he recopilado sobre la muerte de Orlase. Tendré que ir al sistema de transferencias.
-      - Language: French
-        String: Vae Victis m'a demandé de lui donner une preuve de la mort d'Orlase. Je dois m'approcher du système de transfert.
-      - Language: Italian
-        String: Vae Victis mi ha chiesto di consegnare la prova della morte di Orlase. Devo usare il sistema di trasferimento.
-      - Language: Japanese
-        String: ヴェイ・ヴィクティスに、オーラスが死んだ証拠を渡すように言われた。転送システムへ近づこう
-      - Language: Polish
-        String: Vae Victis poprosił mnie o przekazanie dowodu na to, że Orlase nie żyje. Mam go włożyć do pojemnika transferowego.
-      - Language: Portuguese_Brazil
-        String: Vae Victis me pediu para entregar a evidência de que Orlase está morto. Tenho que me aproximar do sistema de transferência.
-      - Language: ChineseSimplified
-        String: 瓦维刻提斯让我交出所收集到的奥拉斯死亡的证据，我得靠近传输系统。
+      Value: Vae Victis has asked me to hand over the evidence I collected that Orlase is dead. I should approach the transfer system.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -1442,25 +1225,7 @@ Stages:
     Note: 'P3: VV scene completed. '
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Ich habe die ID. Jetzt sollte ich mich zu Hadrians und Percivals Forschungsteam begeben.
-      - Language: English
-        String: I've handed over the ID. Time to get the location of Hadrian and Percival's research team.
-      - Language: Spanish
-        String: He entregado la identificación. Es el momento de localizar al equipo de investigación de Hadrian y Percival.
-      - Language: French
-        String: J'ai rendu l'identifiant. Il est temps pour moi de savoir où se trouve l'équipe de recherche d'Hadrian et de Percival.
-      - Language: Italian
-        String: Ho consegnato il documento. È ora di scoprire la posizione della squadra di ricerca di Hadrian e Percival.
-      - Language: Japanese
-        String: IDを引き渡した。ヘイドリアンとパーシバルの研究チームの居場所を突き止めよう
-      - Language: Polish
-        String: Identyfikator przekazany. Czas dowiedzieć się, gdzie znajduje się ekipa badawcza Hadrian i Percivala.
-      - Language: Portuguese_Brazil
-        String: Eu entreguei a identificação. Hora de descobrir a localização da equipe de pesquisa de Hadrian e Percival.
-      - Language: ChineseSimplified
-        String: 我已经交出了ID，是时候取得哈德良和珀西瓦里的研究小组的位置了。
+      Value: I've handed over the ID. Time to get the location of Hadrian and Percival's research team.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -1472,25 +1237,7 @@ Stages:
     Note: Quest done. On to the next one!
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Vae Victis sorgt dafür, dass das Forschungsteam sich zum Hauptquartier der Red Devils begibt. Nur Kaiser müssen wir von Niira abholen. Vae Victis meinte, ich soll Hadrian nach ihm fragen, da sie voraussichtlich mehr über ihn weiß.
-      - Language: English
-        String: Vae Victis is going to arrange to have the research team arrive at the Red Devils HQ. All but one - Kaiser - who I'll need to recover from Niira. Vae Victis suggested I check in with Hadrian first, as she'll likely have more information about this missing teammate.
-      - Language: Spanish
-        String: Vae Victis va a organizar la llegada del equipo de investigación a la sede de los Diablos Rojos. Todos menos uno, Kaiser, a quien tengo que recoger en Niira. Vae Victis me ha recomendado que hable antes con Hadrian, ya que seguro que ella tiene más información del compañero desaparecido.
-      - Language: French
-        String: Vae Victis va s'arranger pour que l'équipe de recherche arrive au QG des Diables ardents. Tous sauf un, Kaiser, que je dois aller chercher sur Niira. Vae Victis m'a conseillé d'en parler avec Hadrian, qui pourrait avoir des informations sur ce coéquipier disparu.
-      - Language: Italian
-        String: Vae Victis farà in modo che la squadra di ricerca arrivi al quartier generale dei Diavoli Rossi. Tutti i membri tranne uno, Kaiser, che dovrò recuperare su Niira. Vae Victis mi ha innanzitutto suggerito di parlare con Hadrian, che quasi certamente avrà informazioni sul compagno di squadra smarrito.
-      - Language: Japanese
-        String: 研究チームがレッド・デビルズ本部に到着するように、ヴェイ・ヴィクティスが手配してくれる。ただしカイザーは例外で、ニーラから救出しなければならない。まず行方不明のチームメイトについて知っている、ヘイドリアンと話をするようヴェイ・ヴィクティスに言われた
-      - Language: Polish
-        String: Vae Victis zadba, by ekipa badawcza dotarła do centrali Czerwonych Diabłów. Wszyscy poza jednym, Kaiserem, którego mam uratować z Niiry. Zasugerował, by porozmawiać najpierw z Hadrian, jako że może mieć więcej informacji na temat zagubionego członka ekipy.
-      - Language: Portuguese_Brazil
-        String: Vae Victis vai providenciar que a equipe de pesquisa chegue no QG dos Diabos Vermelhos. Todos os integrantes com exceção de um, Kaiser, que eu preciso recuperar em Niira. Vae Victis sugeriu que eu procurasse Hadrian primeiro, pois é provável que ela tenha mais informações sobre o colega de equipe perdido.
-      - Language: ChineseSimplified
-        String: 瓦维刻提斯将会安排让研究小组抵达红魔部队总部，但只有一个人除外，凯撒，我需要去涅伊拉星找到他。瓦维刻提斯建议我先与哈德良确认一下，因为她可能掌握了这位失踪队友的更多信息。
+      Value: Vae Victis is going to arrange to have the research team arrive at the Red Devils HQ. All but one - Kaiser - who I'll need to recover from Niira. Vae Victis suggested I check in with Hadrian first, as she'll likely have more information about this missing teammate.
     StageCompleteDatas:
     - QSRD: 0x02000000
       RewardDatas:
@@ -1503,7 +1250,6 @@ Stages:
         BonusCredits: 1460FE:Starfield.esm
         Conditions:
         - MutagenObjectType: ConditionFloat
-          Unknown1: 0xA17FA2
           Data:
             MutagenObjectType: HasPerkConditionData
             FirstParameter: 227FD4:Starfield.esm
@@ -1514,29 +1260,10 @@ Objectives:
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Geh zu deinem Meeting (Untersektion Sieben).
-    - Language: English
-      String: Proceed to your meeting (Subsection Seven)
-    - Language: Spanish
-      String: Dirígete a la reunión (subsección siete)
-    - Language: French
-      String: Allez au rendez-vous (Sous-section sept).
-    - Language: Italian
-      String: Raggiungi il luogo dell’incontro (sottosezione 7)
-    - Language: Japanese
-      String: 話し合いに向かう(サブセクション7)
-    - Language: Polish
-      String: Udaj się na spotkanie (podsekcja siódma)
-    - Language: Portuguese_Brazil
-      String: Siga para a sua reunião (Subseção Sete)
-    - Language: ChineseSimplified
-      String: 前去参加你的会面（第七分部）
+    Value: Proceed to your meeting (Subsection Seven)
   Targets:
   - Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 248CF0:Starfield.esm
@@ -1545,7 +1272,6 @@ Objectives:
   - AliasID: 41
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 248CF0:Starfield.esm
@@ -1554,187 +1280,59 @@ Objectives:
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Nutze das Intercom.
-    - Language: English
-      String: Use the intercom
-    - Language: Spanish
-      String: Usa el intercomunicador.
-    - Language: French
-      String: Utilisez l'intercom.
-    - Language: Italian
-      String: Usa l’interfono
-    - Language: Japanese
-      String: インターコムを使う
-    - Language: Polish
-      String: Użyj interkomu
-    - Language: Portuguese_Brazil
-      String: Use o comunicador
-    - Language: ChineseSimplified
-      String: 使用对讲机
+    Value: Use the intercom
   Targets:
   - AliasID: 33
 - Index: 110
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Sprich mit der fremden Person.
-    - Language: English
-      String: Speak to the stranger
-    - Language: Spanish
-      String: Habla con el desconocido.
-    - Language: French
-      String: Parlez à l'étranger.
-    - Language: Italian
-      String: Parla con lo sconosciuto
-    - Language: Japanese
-      String: 謎の人物と話す
-    - Language: Polish
-      String: Porozmawiaj z nieznajomym
-    - Language: Portuguese_Brazil
-      String: Fale com a pessoa desconhecida
-    - Language: ChineseSimplified
-      String: 与陌生人交谈
+    Value: Speak to the stranger
   Targets:
   - AliasID: 33
 - Index: 120
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Sprich mit Vae Victis.
-    - Language: English
-      String: Speak to Vae Victis
-    - Language: Spanish
-      String: Habla con Vae Victis.
-    - Language: French
-      String: Parlez à Vae Victis.
-    - Language: Italian
-      String: Parla con Vae Victis
-    - Language: Japanese
-      String: ヴェイ・ヴィクティスと話す
-    - Language: Polish
-      String: Porozmawiaj z Vae Victisem
-    - Language: Portuguese_Brazil
-      String: Fale com Vae Victis
-    - Language: ChineseSimplified
-      String: 与瓦维刻提斯交谈
+    Value: Speak to Vae Victis
   Targets:
   - AliasID: 33
 - Index: 150
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: (Optional) Sprich mit Vizeministerin MacIntyre.
-    - Language: English
-      String: (Optional) Speak to Deputy MacIntyre
-    - Language: Spanish
-      String: (Opcional) Habla con la diputada MacIntyre.
-    - Language: French
-      String: (Optionnel) Parlez à l'adjointe MacIntyre.
-    - Language: Italian
-      String: (Opzionale) Parla con la vice MacIntyre
-    - Language: Japanese
-      String: (オプション)マッキンタイア補佐官と話す
-    - Language: Polish
-      String: (Opcj.) Porozmawiaj z zastępczynią MacIntyre
-    - Language: Portuguese_Brazil
-      String: (Opc.) Fale com a suplente MacIntyre
-    - Language: ChineseSimplified
-      String: （可选）与麦金泰尔副部长交谈
+    Value: (Optional) Speak to Deputy MacIntyre
   Targets:
   - AliasID: 15
 - Index: 200
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Sprich mit Captain Marquez.
-    - Language: English
-      String: Speak to Captain Marquez
-    - Language: Spanish
-      String: Habla con la capitana Marquez.
-    - Language: French
-      String: Parlez au capitaine Marquez.
-    - Language: Italian
-      String: Parla con la capitana Marquez
-    - Language: Japanese
-      String: マルケズ大尉と話す
-    - Language: Polish
-      String: Porozmawiaj z kapitan Marquez
-    - Language: Portuguese_Brazil
-      String: Fale com a comandante Marquez
-    - Language: ChineseSimplified
-      String: 与马奎斯船长交谈
+    Value: Speak to Captain Marquez
   Targets:
   - AliasID: 2
 - Index: 300
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Finde die „Warlock“.
-    - Language: English
-      String: Find "The Warlock"
-    - Language: Spanish
-      String: Busca la “Warlock”.
-    - Language: French
-      String: Trouvez le “Warlock”.
-    - Language: Italian
-      String: Trova la “Warlock”
-    - Language: Japanese
-      String: '"ウォーロック"を見つける'
-    - Language: Polish
-      String: Znajdź „Warlocka”
-    - Language: Portuguese_Brazil
-      String: Encontre a “Warlock”
-    - Language: ChineseSimplified
-      String: 找到术士号
+    Value: Find "The Warlock"
   Targets:
   - AliasID: 3
 - Index: 400
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Zerstöre das Schiff.
-    - Language: English
-      String: Destroy the ship
-    - Language: Spanish
-      String: Destruye la nave.
-    - Language: French
-      String: Détruisez le vaisseau.
-    - Language: Italian
-      String: Distruggi la nave
-    - Language: Japanese
-      String: 船を破壊する
-    - Language: Polish
-      String: Zniszcz statek
-    - Language: Portuguese_Brazil
-      String: Destrua a nave
-    - Language: ChineseSimplified
-      String: 摧毁飞船
+    Value: Destroy the ship
   Targets:
   - AliasID: 3
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: IsDockedWithConditionData
         RunOnType: PlayerShip
         UseAliases: True
         FirstParameter: 3
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetInCellConditionData
         RunOnType: Reference
@@ -1743,53 +1341,16 @@ Objectives:
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: ODER schalte den Antrieb aus.
-    - Language: English
-      String: OR Disable the engines
-    - Language: Spanish
-      String: O desactiva los motores.
-    - Language: French
-      String: OU Désactivez les moteurs.
-    - Language: Italian
-      String: O disattiva i motori
-    - Language: Japanese
-      String: もしくはエンジンを停止させる
-    - Language: Polish
-      String: ALBO wyłącz silniki
-    - Language: Portuguese_Brazil
-      String: OU desligue os motores
-    - Language: ChineseSimplified
-      String: 或关闭引擎
+    Value: OR Disable the engines
 - Index: 420
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: ODER gehe an Bord der „Warlock“.
-    - Language: English
-      String: OR Board "The Warlock"
-    - Language: Spanish
-      String: O aborda la “Warlock”.
-    - Language: French
-      String: OU Montez à bord du “Warlock”.
-    - Language: Italian
-      String: O abborda la “Warlock”
-    - Language: Japanese
-      String: もしくは"ウォーロック"に乗り込む
-    - Language: Polish
-      String: ALBO wejdź na pokład „Warlocka”
-    - Language: Portuguese_Brazil
-      String: OU embarque na “Warlock”
-    - Language: ChineseSimplified
-      String: 或登上术士号
+    Value: OR Board "The Warlock"
   Targets:
   - AliasID: 17
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: IsDockedWithConditionData
         RunOnType: PlayerShip
@@ -1800,30 +1361,11 @@ Objectives:
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: ODER verhafte den Piloten.
-    - Language: English
-      String: OR Arrest the pilot
-    - Language: Spanish
-      String: O arresta a su piloto.
-    - Language: French
-      String: OU Arrêtez le pilote.
-    - Language: Italian
-      String: O arresta il pilota
-    - Language: Japanese
-      String: もしくはパイロットを逮捕する
-    - Language: Polish
-      String: ALBO aresztuj pilota
-    - Language: Portuguese_Brazil
-      String: OU prenda o piloto
-    - Language: ChineseSimplified
-      String: 或逮捕飞行员
+    Value: OR Arrest the pilot
   Targets:
   - AliasID: 17
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetLockedConditionData
         RunOnType: QuestAlias
@@ -1831,7 +1373,6 @@ Objectives:
   - AliasID: 25
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetLockedConditionData
         RunOnType: QuestAlias
@@ -1841,32 +1382,13 @@ Objectives:
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: (Optional) Finde einen Kabinenschlüssel im Schiff.
-    - Language: English
-      String: (Optional) Search the ship for a cabin key
-    - Language: Spanish
-      String: (Opcional) Busca la llave en la nave.
-    - Language: French
-      String: (Opt.) Cherchez la clé de cabine dans le vaisseau.
-    - Language: Italian
-      String: (Opzionale) Trova la chiave della cabina sulla nave
-    - Language: Japanese
-      String: (オプション)キャビンの鍵を探す
-    - Language: Polish
-      String: (Opcj.) Znajdź klucz do kabiny
-    - Language: Portuguese_Brazil
-      String: (Opc.) Ache a chave da cabine na nave
-    - Language: ChineseSimplified
-      String: （可选）搜索飞船，寻找客舱钥匙
+    Value: (Optional) Search the ship for a cabin key
   Targets:
   - AliasID: 23
     Conditions:
     - MutagenObjectType: ConditionFloat
       Flags:
       - OR
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetInCellConditionData
         RunOnType: Reference
@@ -1876,7 +1398,6 @@ Objectives:
       CompareOperator: LessThanOrEqualTo
       Flags:
       - OR
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetDistanceConditionData
         RunOnType: Reference
@@ -1888,30 +1409,11 @@ Objectives:
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Nimm den Beweis an dich.
-    - Language: English
-      String: Collect the evidence
-    - Language: Spanish
-      String: Hazte con las pruebas.
-    - Language: French
-      String: Récupérez les preuves.
-    - Language: Italian
-      String: Recupera le prove
-    - Language: Japanese
-      String: 証拠を回収する
-    - Language: Polish
-      String: Zbierz dowody
-    - Language: Portuguese_Brazil
-      String: Obtenha a evidência
-    - Language: ChineseSimplified
-      String: 收集证据
+    Value: Collect the evidence
   Targets:
   - AliasID: 3
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetDestroyedConditionData
         RunOnType: QuestAlias
@@ -1920,7 +1422,6 @@ Objectives:
   - AliasID: 17
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetDestroyedConditionData
         RunOnType: QuestAlias
@@ -1929,30 +1430,11 @@ Objectives:
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Gib Vae Victis die Beweise zurück.
-    - Language: English
-      String: Return the evidence to Vae Victis
-    - Language: Spanish
-      String: Devuelve las pruebas a Vae Victis.
-    - Language: French
-      String: Rapportez vos preuves à Vae Victis.
-    - Language: Italian
-      String: Consegna la prova a Vae Victis
-    - Language: Japanese
-      String: ヴェイ・ヴィクティスに証拠を渡す
-    - Language: Polish
-      String: Przekaż dowód Vae Victisowi
-    - Language: Portuguese_Brazil
-      String: Entregue a evidência a Vae Victis
-    - Language: ChineseSimplified
-      String: 将证据返还给瓦维刻提斯
+    Value: Return the evidence to Vae Victis
   Targets:
   - AliasID: 33
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetInSameCellConditionData
         RunOnType: Reference
@@ -1962,7 +1444,6 @@ Objectives:
   - AliasID: 39
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetInSameCellConditionData
         RunOnType: Reference
@@ -1974,32 +1455,13 @@ Objectives:
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Gib Vae Victis die ID.
-    - Language: English
-      String: Transfer the ID to Vae Victis
-    - Language: Spanish
-      String: Pásale la identificación a Vae Victis.
-    - Language: French
-      String: Transférez l'identifiant à Vae Victis.
-    - Language: Italian
-      String: Trasferisci a Vae Victis il documento d’identità
-    - Language: Japanese
-      String: 身分証をヴェイ・ヴィクティスに転送する
-    - Language: Polish
-      String: Przekaż identyfikator Vae Victisowi
-    - Language: Portuguese_Brazil
-      String: Transfira a identificação para Vae Victis
-    - Language: ChineseSimplified
-      String: 将ID传输给瓦维刻提斯
+    Value: Transfer the ID to Vae Victis
   Targets:
   - AliasID: 34
     Conditions:
     - MutagenObjectType: ConditionFloat
       Flags:
       - OR
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 248CF0:Starfield.esm
@@ -2007,7 +1469,6 @@ Objectives:
     - MutagenObjectType: ConditionFloat
       Flags:
       - OR
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetInCellConditionData
         RunOnType: Reference
@@ -2017,25 +1478,7 @@ Objectives:
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Sprich mit Vae Victis.
-    - Language: English
-      String: Speak to Vae Victis
-    - Language: Spanish
-      String: Habla con Vae Victis.
-    - Language: French
-      String: Parlez à Vae Victis.
-    - Language: Italian
-      String: Parla con Vae Victis
-    - Language: Japanese
-      String: ヴェイ・ヴィクティスと話す
-    - Language: Polish
-      String: Porozmawiaj z Vae Victisem
-    - Language: Portuguese_Brazil
-      String: Fale com Vae Victis
-    - Language: ChineseSimplified
-      String: 与瓦维刻提斯交谈
+    Value: Speak to Vae Victis
   Targets:
   - AliasID: 33
 Aliases:
@@ -2441,4 +1884,3 @@ Aliases:
   ALFG: 0
   UniqueActor: 0124B4:Starfield.esm
   VoiceTypes: Null
-Timestamp: 12497

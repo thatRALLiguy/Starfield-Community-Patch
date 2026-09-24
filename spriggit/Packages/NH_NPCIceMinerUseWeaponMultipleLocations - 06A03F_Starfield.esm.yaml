@@ -1,6 +1,6 @@
 FormKey: 06A03F:Starfield.esm
 EditorID: NH_NPCIceMinerUseWeaponMultipleLocations
-FormVersion: 559
+FormVersion: 576
 Flags:
 - WeaponDrawn
 Type: Package
@@ -28,8 +28,7 @@ ScheduleMinute: -1
 Unknown3: 0x000000
 Conditions:
 - MutagenObjectType: ConditionFloat
-  Unknown1: 0x8D1400
-  Unknown2: 86
+  Unknown2: 16617
   Data:
     MutagenObjectType: HasRefTypeConditionData
     FirstParameter: 06A040:Starfield.esm

@@ -1,6 +1,6 @@
 FormKey: 1FF69A:Starfield.esm
 EditorID: Drink_Alc_Can_Erdebrau_Pilsner
-FormVersion: 559
+FormVersion: 576
 ObjectBounds:
   First: -0.05001831, -0.05001831, 0
   Second: 0.05001831, 0.05001831, 0.20666504
@@ -11,25 +11,7 @@ Transforms:
   Workbench: 0CC66F:Starfield.esm
 Name:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: Erdebrau Pils (Dose)
-  - Language: English
-    String: Erdebrau Pils Can
-  - Language: Spanish
-    String: Lata de Erdebrau pilsner
-  - Language: French
-    String: Cannette d'Erdebrau Pils
-  - Language: Italian
-    String: Lattina di Erdebrau Pils
-  - Language: Japanese
-    String: アーデブローのピルス缶
-  - Language: Polish
-    String: Puszka Erdebrau Pils
-  - Language: Portuguese_Brazil
-    String: Lata de Erdebrau Pilsen
-  - Language: ChineseSimplified
-    String: 爱德堡精酿比尔森罐装
+  Value: Erdebrau Pils Can
 Keywords:
 - 055ECC:Starfield.esm
 - 2CF289:Starfield.esm
@@ -47,25 +29,7 @@ CraftingSound:
   Start: 580e474d-4c10-e197-848f-5a4632615aa7
 Description:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: Ein Pilsner von Erdebrau, mit Weizenimitatkulturen und simuliertem Hopfen gebraut.
-  - Language: English
-    String: Erdebrau's pilsner beer, brewed with imitation wheat cultures and simulated hops.
-  - Language: Spanish
-    String: Cerveza pilsner de Erdebrau, elaborada con trigo de imitación y lúpulo simulado.
-  - Language: French
-    String: Bière blonde Erdebrau, brassée à base de succédané de blé et de houblon simulé.
-  - Language: Italian
-    String: Birra pilsner Erdebrau, preparata con frumento finto e luppoli simulati.
-  - Language: Japanese
-    String: アーデブローのピルスナービール。模造栽培の小麦とシミュレートホップから醸造されている
-  - Language: Polish
-    String: Piwo Erdebrau pilzner uwarzone z imitacji pszenicy i symulowanego chmielu.
-  - Language: Portuguese_Brazil
-    String: A cerveja pilsen da Erdebrau, preparada com culturas de imitação de trigo e lúpulo simulado.
-  - Language: ChineseSimplified
-    String: 爱德堡精酿的比尔森啤酒，使用模拟栽种小麦和模拟啤酒花酿制而成。
+  Value: Erdebrau's pilsner beer, brewed with imitation wheat cultures and simulated hops.
 Resources:
 - Resource: 29B02E:Starfield.esm
   Count: 1
@@ -78,6 +42,7 @@ ConsumeSound:
   Start: 534d4d1c-5a43-05f7-75ee-feb0fa7771b5
 AddictionName:
   TargetLanguage: English
+  Value: ''
 Effects:
 - BaseEffect: 1BF5AD:Starfield.esm
   Data:
@@ -112,18 +77,17 @@ Effects:
 - BaseEffect: 2EE936:Starfield.esm
   Data:
     Magnitude: 1
-    Duration: 1200
+    Duration: 1
   Conditions:
   - MutagenObjectType: ConditionFloat
     CompareOperator: GreaterThanOrEqualTo
-    Unknown1: 0x8D1400
-    Unknown2: 16650
+    Unknown2: 16658
     Data:
       MutagenObjectType: GetGlobalValueConditionData
       FirstParameter: 31324C:Starfield.esm
     ComparisonValue: 1
   Magnitude: 2EFD77:Starfield.esm
-  Duration: 313264:Starfield.esm
+  Duration: 2F0AD4:Starfield.esm
   EFIF: 0
   MUID: 5
 - BaseEffect: 2EE4B2:Starfield.esm

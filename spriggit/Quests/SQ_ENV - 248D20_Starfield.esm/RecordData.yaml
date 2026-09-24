@@ -1,87 +1,56 @@
 FormKey: 248D20:Starfield.esm
 EditorID: SQ_ENV
-FormVersion: 559
+FormVersion: 576
 VirtualMachineAdapter:
   Scripts:
-  - Name: sq_env_afflictionsscript
+  - Name: sq_envscript
     Properties:
     - MutagenObjectType: ScriptObjectProperty
-      Name: ENV_AFFL_Gained_Msg
-      Object: 2F443D:Starfield.esm
+      Name: ENV_DEBUG_AFFL_Fall_Msg
+      Object: 3E5BE2:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: PEO_AfflictionTreatment_GV
-      Object: 2FBE26:Starfield.esm
+      Name: Player
+      Object: 248D20:Starfield.esm
+      Alias: 0
     - MutagenObjectType: ScriptObjectProperty
-      Name: ENV_AFFL_Treatment_CureChance_Infection
-      Object: 205A12:Starfield.esm
+      Name: ENV_AFFL_FallDamageAfflictionChance
+      Object: 3E5BE1:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: ENV_AFFL_WorsenAllowed
-      Object: 31323E:Starfield.esm
+      Name: ENV_Hazard_PK_Vent_Gas_Corrosive
+      Object: 2184D7:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: TextReplacementRefAlias
+      Object: 248D20:Starfield.esm
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_ENV_Tutorial
+      Object: 131E6F:Starfield.esm
+  - Name: sq_env_afflictionsscript
+    Properties:
     - MutagenObjectType: ScriptObjectProperty
       Name: ENV_AFFL_Cured_Msg
       Object: 2F4434:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: ENV_AFFL_InfectionSpreadAllowed
-      Object: 079579:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: ENV_AFFL_Improved_Severity_Msg
-      Object: 205AA3:Starfield.esm
+      Name: PEO_AfflictionTreatment_GV
+      Object: 2FBE26:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: ENV_AFFL_Improved_Msg
       Object: 0295FD:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_ENV
+      Object: 248D20:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ENV_AFFL_Gained_Msg
+      Object: 2F443D:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ENV_AFFL_InfectionSpreadAllowed
+      Object: 079579:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
       Name: ENV_AFFL_AttemptedToCure_Msg
       Object: 2EDFF6:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: ENV_AFFL_Worsened_Msg
-      Object: 2F443E:Starfield.esm
-    - MutagenObjectType: ScriptStructListProperty
-      Name: FallingAfflictionData
-      Structs:
-      - Members:
-        - MutagenObjectType: ScriptObjectProperty
-          Name: Affliction
-          Object: 2F4447:Starfield.esm
-        - MutagenObjectType: ScriptBoolProperty
-          Name: SmallFall
-          Data: True
-      - Members:
-        - MutagenObjectType: ScriptObjectProperty
-          Name: Affliction
-          Object: 2F4454:Starfield.esm
-        - MutagenObjectType: ScriptBoolProperty
-          Name: MediumFall
-          Data: True
-        - MutagenObjectType: ScriptBoolProperty
-          Name: SmallFall
-          Data: True
-      - Members:
-        - MutagenObjectType: ScriptObjectProperty
-          Name: Affliction
-          Object: 2F4455:Starfield.esm
-        - MutagenObjectType: ScriptBoolProperty
-          Name: MediumFall
-          Data: True
-      - Members:
-        - MutagenObjectType: ScriptObjectProperty
-          Name: Affliction
-          Object: 2F4448:Starfield.esm
-        - MutagenObjectType: ScriptBoolProperty
-          Name: LargeFall
-          Data: True
-        - MutagenObjectType: ScriptBoolProperty
-          Name: MediumFall
-          Data: True
-      - Members:
-        - MutagenObjectType: ScriptObjectProperty
-          Name: Affliction
-          Object: 2F4449:Starfield.esm
-        - MutagenObjectType: ScriptBoolProperty
-          Name: LargeFall
-          Data: True
-    - MutagenObjectType: ScriptObjectProperty
-      Name: ENV_AFFL_Treatment_CureChance_Injury
-      Object: 205A15:Starfield.esm
+      Name: ENV_AFFL_WorsenAllowed
+      Object: 31323E:Starfield.esm
     - MutagenObjectType: ScriptObjectListProperty
       Name: AfflictionData
       Objects:
@@ -132,30 +101,61 @@ VirtualMachineAdapter:
       - Name: ''
         Object: 2F4455:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: SQ_ENV
-      Object: 248D20:Starfield.esm
-  - Name: sq_envscript
-    Properties:
+      Name: ENV_AFFL_Treatment_CureChance_Injury
+      Object: 205A15:Starfield.esm
+    - MutagenObjectType: ScriptStructListProperty
+      Name: FallingAfflictionData
+      Structs:
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: Affliction
+          Object: 2F4447:Starfield.esm
+        - MutagenObjectType: ScriptBoolProperty
+          Name: SmallFall
+          Data: True
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: Affliction
+          Object: 2F4454:Starfield.esm
+        - MutagenObjectType: ScriptBoolProperty
+          Name: MediumFall
+          Data: True
+        - MutagenObjectType: ScriptBoolProperty
+          Name: SmallFall
+          Data: True
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: Affliction
+          Object: 2F4455:Starfield.esm
+        - MutagenObjectType: ScriptBoolProperty
+          Name: MediumFall
+          Data: True
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: Affliction
+          Object: 2F4448:Starfield.esm
+        - MutagenObjectType: ScriptBoolProperty
+          Name: LargeFall
+          Data: True
+        - MutagenObjectType: ScriptBoolProperty
+          Name: MediumFall
+          Data: True
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: Affliction
+          Object: 2F4449:Starfield.esm
+        - MutagenObjectType: ScriptBoolProperty
+          Name: LargeFall
+          Data: True
     - MutagenObjectType: ScriptObjectProperty
-      Name: ENV_DEBUG_AFFL_Fall_Msg
-      Object: 3E5BE2:Starfield.esm
+      Name: ENV_AFFL_Treatment_CureChance_Infection
+      Object: 205A12:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: Player
-      Object: 248D20:Starfield.esm
-      Alias: 0
+      Name: ENV_AFFL_Worsened_Msg
+      Object: 2F443E:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: ENV_AFFL_FallDamageAfflictionChance
-      Object: 3E5BE1:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: ENV_Hazard_PK_Vent_Gas_Corrosive
-      Object: 2184D7:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: TextReplacementRefAlias
-      Object: 248D20:Starfield.esm
-      Alias: 1
-    - MutagenObjectType: ScriptObjectProperty
-      Name: SQ_ENV_Tutorial
-      Object: 131E6F:Starfield.esm
+      Name: ENV_AFFL_Improved_Severity_Msg
+      Object: 205AA3:Starfield.esm
   Versioning:
   - Break0
   ExtraBindDataVersion: 0
@@ -163,25 +163,7 @@ VirtualMachineAdapter:
     Name: ''
 Name:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: Enviromental Gameplay System Quest
-  - Language: English
-    String: Enviromental Gameplay System Quest
-  - Language: Spanish
-    String: Misión de sistema de jugabilidad ambiental
-  - Language: French
-    String: Quête système de gameplay environnemental
-  - Language: Italian
-    String: Missione sistema gameplay ambientale
-  - Language: Japanese
-    String: 環境ゲームプレイシステムクエスト
-  - Language: Polish
-    String: Zadanie systemowe rozgrywki środowiskowej
-  - Language: Portuguese_Brazil
-    String: Missão de Sistema de Jogabilidade Ambiental
-  - Language: ChineseSimplified
-    String: 环境玩法系统任务
+  Value: Enviromental Gameplay System Quest
 Data:
   Flags:
   - StartGameEnabled

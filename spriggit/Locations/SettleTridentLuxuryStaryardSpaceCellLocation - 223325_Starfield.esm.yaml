@@ -1,35 +1,18 @@
 FormKey: 223325:Starfield.esm
 EditorID: SettleTridentLuxuryStaryardSpaceCellLocation
-FormVersion: 559
+FormVersion: 576
 AddedUniqueBaseForms:
 - GenericBaseForm: 0090B8:Starfield.esm
   Ref: 3120D5:Starfield.esm
   Location: 223325:Starfield.esm
 Name:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: Trident Luxury Lines-Sternenwerft
-  - Language: English
-    String: Trident Luxury Lines Staryard
-  - Language: Spanish
-    String: Astillero de Trident Luxury Lines
-  - Language: French
-    String: Chantier spatial Trident Luxury Lines
-  - Language: Italian
-    String: Astrocantiere Trident Luxury LS
-  - Language: Japanese
-    String: トライデント・スターヤード
-  - Language: Polish
-    String: Stocznia Trident Luxury Lines
-  - Language: Portuguese_Brazil
-    String: Astroleiro Trident Luxury Lines
-  - Language: ChineseSimplified
-    String: 海神叉豪华造船厂
+  Value: Trident Luxury Lines Staryard
 Keywords:
 - 08A8F9:Starfield.esm
 - 01674D:Starfield.esm
-UnknownDATA2: 16
+Faction:
+  UnknownDATA2: 16
 ParentLocation: 01ABE5:Starfield.esm
 WorldLocationRadius: 0
 ActorFadeMult: 1

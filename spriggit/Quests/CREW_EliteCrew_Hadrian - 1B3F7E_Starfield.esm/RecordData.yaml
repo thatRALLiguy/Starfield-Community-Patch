@@ -1,6 +1,6 @@
 FormKey: 1B3F7E:Starfield.esm
 EditorID: CREW_EliteCrew_Hadrian
-FormVersion: 559
+FormVersion: 576
 VirtualMachineAdapter:
   Scripts:
   - Name: Crew_EliteCrewQuestScript
@@ -85,25 +85,7 @@ VirtualMachineAdapter:
     FragmentName: Fragment_Stage_0450_Item_00
 Name:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: Hadrian
-  - Language: English
-    String: Hadrian
-  - Language: Spanish
-    String: Hadrian
-  - Language: French
-    String: Hadrian
-  - Language: Italian
-    String: Hadrian
-  - Language: Japanese
-    String: ヘイドリアン
-  - Language: Polish
-    String: Hadrian
-  - Language: Portuguese_Brazil
-    String: Hadrian
-  - Language: ChineseSimplified
-    String: 哈德良
+  Value: Hadrian
 Data:
   Flags:
   - RunOnce
@@ -114,8 +96,7 @@ TextDisplayGlobals:
 - 27072B:Starfield.esm
 DialogConditions:
 - MutagenObjectType: ConditionFloat
-  Unknown1: 0x8C1400
-  Unknown2: 16650
+  Unknown2: 16658
   Data:
     MutagenObjectType: GetIsIDConditionData
     FirstParameter: 29C17F:Starfield.esm
@@ -148,7 +129,6 @@ Stages:
   - Flags: []
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetInFactionConditionData
         RunOnType: QuestAlias
@@ -243,4 +223,3 @@ Aliases:
     Quest: 2A567D:Starfield.esm
     AliasID: 30
   VoiceTypes: Null
-Timestamp: 12497

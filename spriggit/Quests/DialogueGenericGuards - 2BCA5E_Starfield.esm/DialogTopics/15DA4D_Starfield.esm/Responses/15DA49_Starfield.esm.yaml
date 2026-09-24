@@ -1,5 +1,5 @@
 FormKey: 15DA49:Starfield.esm
-FormVersion: 559
+FormVersion: 576
 Flags:
   Flags:
   - Random
@@ -33,39 +33,19 @@ Responses:
     UnknownFloat: 4.033334
   Text:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Sehr schick.
-    - Language: English
-      String: Nice hat.
-    - Language: Spanish
-      String: Bonito sombrero.
-    - Language: French
-      String: Joli chapeau.
-    - Language: Italian
-      String: Bel cappello.
-    - Language: Japanese
-      String: いい帽子だ
-    - Language: Polish
-      String: Ładna czapeczka.
-    - Language: Portuguese_Brazil
-      String: Belo chapéu.
-    - Language: ChineseSimplified
-      String: 帽子真不错。
+    Value: Nice hat.
   ScriptNotes: ''
   Edits: ''
   AlternateLipText: ''
   TextHash: 0x3091184CE14CD701
 Conditions:
 - MutagenObjectType: ConditionFloat
-  Unknown1: 0x000000
-  Unknown2: 16493
+  Unknown2: 16617
   Data:
     MutagenObjectType: GetInFactionConditionData
     FirstParameter: 26FDEA:Starfield.esm
 - MutagenObjectType: ConditionFloat
-  Unknown1: 0x000000
-  Unknown2: 16493
+  Unknown2: 16617
   Data:
     MutagenObjectType: WornHasKeywordConditionData
     RunOnType: Reference
@@ -75,24 +55,21 @@ Conditions:
 - MutagenObjectType: ConditionFloat
   Flags:
   - OR
-  Unknown1: 0x000000
-  Unknown2: 16493
+  Unknown2: 16617
   Data:
     MutagenObjectType: IsTrueForConditionFormConditionData
     RunOnType: Reference
     Reference: 000014:Starfield.esm
     FirstParameter: 0BEA53:Starfield.esm
 - MutagenObjectType: ConditionFloat
-  Unknown1: 0x000000
-  Unknown2: 16493
+  Unknown2: 16617
   Data:
     MutagenObjectType: IsTrueForConditionFormConditionData
     RunOnType: Reference
     Reference: 000014:Starfield.esm
     FirstParameter: 194ABF:Starfield.esm
 - MutagenObjectType: ConditionFloat
-  Unknown1: 0x000000
-  Unknown2: 16493
+  Unknown2: 16617
   Data:
     MutagenObjectType: WornCoversBipedSlotConditionData
     RunOnType: Reference
@@ -102,8 +79,7 @@ Conditions:
 - MutagenObjectType: ConditionFloat
   Flags:
   - OR
-  Unknown1: 0x000000
-  Unknown2: 16493
+  Unknown2: 16617
   Data:
     MutagenObjectType: WornHasKeywordConditionData
     RunOnType: Reference
@@ -111,8 +87,7 @@ Conditions:
     FirstParameter: 33B2DD:Starfield.esm
 - MutagenObjectType: ConditionFloat
   CompareOperator: GreaterThanOrEqualTo
-  Unknown1: 0x000000
-  Unknown2: 16493
+  Unknown2: 16617
   Data:
     MutagenObjectType: WornApparelHasKeywordCountConditionData
     RunOnType: Reference
@@ -120,16 +95,14 @@ Conditions:
     FirstParameter: 0E048B:Starfield.esm
   ComparisonValue: 2
 - MutagenObjectType: ConditionFloat
-  Unknown1: 0x000000
-  Unknown2: 16493
+  Unknown2: 16617
   Data:
     MutagenObjectType: GetEquippedConditionData
     RunOnType: Reference
     Reference: 000014:Starfield.esm
     FirstParameter: 02E554:Starfield.esm
 - MutagenObjectType: ConditionFloat
-  Unknown1: 0x000000
-  Unknown2: 16493
+  Unknown2: 16617
   Data:
     MutagenObjectType: GetEquippedConditionData
     RunOnType: Reference

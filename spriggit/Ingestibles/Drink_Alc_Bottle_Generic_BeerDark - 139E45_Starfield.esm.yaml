@@ -1,6 +1,6 @@
 FormKey: 139E45:Starfield.esm
 EditorID: Drink_Alc_Bottle_Generic_BeerDark
-FormVersion: 559
+FormVersion: 576
 ObjectBounds:
   First: -0.032836914, -0.032318115, -0.00039672852
   Second: 0.032836914, 0.032318115, 0.24780273
@@ -11,25 +11,7 @@ Transforms:
   Workbench: 03D201:Starfield.esm
 Name:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: Dunkles Lager
-  - Language: English
-    String: Dark Lager
-  - Language: Spanish
-    String: Lager negra
-  - Language: French
-    String: Bière brune
-  - Language: Italian
-    String: Birra scura
-  - Language: Japanese
-    String: ダークラガー
-  - Language: Polish
-    String: Ciemny lager
-  - Language: Portuguese_Brazil
-    String: Lager Escura
-  - Language: ChineseSimplified
-    String: 黑拉格啤酒
+  Value: Dark Lager
 Keywords:
 - 14253C:Starfield.esm
 - 055ECC:Starfield.esm
@@ -47,25 +29,7 @@ DropdownSound:
   Start: d3b24339-670b-3933-e56f-3fc3189523a6
 Description:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: Gewöhnliches, massenproduziertes Bier.
-  - Language: English
-    String: Mass-produced generic beer.
-  - Language: Spanish
-    String: Cerveza normal y corriente producida en masa.
-  - Language: French
-    String: Bière générique de masse.
-  - Language: Italian
-    String: Birra generica prodotta su larga scala.
-  - Language: Japanese
-    String: 大量生産された一般的なビール
-  - Language: Polish
-    String: Zwykłe masowo produkowane piwo.
-  - Language: Portuguese_Brazil
-    String: Cerveja genérica produzida em massa.
-  - Language: ChineseSimplified
-    String: 批量生产的普通啤酒。
+  Value: Mass-produced generic beer.
 Resources:
 - Resource: 29B02E:Starfield.esm
   Count: 1
@@ -78,6 +42,7 @@ ConsumeSound:
   Start: abcc440c-55e5-bbd4-167f-b9ab79fae3b3
 AddictionName:
   TargetLanguage: English
+  Value: ''
 Effects:
 - BaseEffect: 1BF5AD:Starfield.esm
   Data:
@@ -112,18 +77,17 @@ Effects:
 - BaseEffect: 2EE936:Starfield.esm
   Data:
     Magnitude: 1
-    Duration: 1200
+    Duration: 1
   Conditions:
   - MutagenObjectType: ConditionFloat
     CompareOperator: GreaterThanOrEqualTo
-    Unknown1: 0x8D1400
-    Unknown2: 16650
+    Unknown2: 16658
     Data:
       MutagenObjectType: GetGlobalValueConditionData
       FirstParameter: 31324C:Starfield.esm
     ComparisonValue: 1
   Magnitude: 2EFD77:Starfield.esm
-  Duration: 313264:Starfield.esm
+  Duration: 2F0AD4:Starfield.esm
   EFIF: 0
   MUID: 5
 - BaseEffect: 2EE4B2:Starfield.esm

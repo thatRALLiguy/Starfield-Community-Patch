@@ -1,7 +1,7 @@
 FormKey: 000813:StarfieldCommunityPatch.esm
 MajorRecordFlagsRaw: 68
 EditorID: SpaceSuit_Starborn_HunterMQ401h_NOTPLAYABLE
-FormVersion: 559
+FormVersion: 576
 StarfieldMajorRecordFlags:
 - NotPlayable
 - 0x40
@@ -13,25 +13,7 @@ Transforms:
   InventoryIcon: 0E7EB9:Starfield.esm
 Name:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: Starborn Spacesuit Venator
-  - Language: English
-    String: Starborn Spacesuit Venator
-  - Language: Spanish
-    String: Traje Estelar de Venator
-  - Language: French
-    String: Combinaison spatiale astrienne Venator
-  - Language: Italian
-    String: Tuta spaziale da Astrale Venator
-  - Language: Japanese
-    String: スターボーン宇宙服ヴェネター
-  - Language: Polish
-    String: Astrański skafander Venator
-  - Language: Portuguese_Brazil
-    String: Traje Espacial Estelar Venator
-  - Language: ChineseSimplified
-    String: 星裔宇航服（维纳托）
+  Value: Starborn Spacesuit Venator
 ObjectEffect: 015420:Starfield.esm
 WorldModel:
   Male:
@@ -57,6 +39,7 @@ Keywords:
 - 3E612E:Starfield.esm
 Description:
   TargetLanguage: English
+  Value: ''
 Armatures:
 - AddonModel: 3E3DB0:Starfield.esm
 - AddonModel: 3E3DAB:Starfield.esm

@@ -1,0 +1,29 @@
+FormKey: 33A089:Starfield.esm
+FormVersion: 576
+Flags:
+  Flags:
+  - Random
+DialogGroup: 33A07F:Starfield.esm
+Responses:
+- Emotion: 0FA851:Starfield.esm
+  WEMFile: 10019999
+  TROTs:
+  - UnknownVoiceType: 005984:Starfield.esm
+    UnknownFloat: 9.966667
+  Text:
+    TargetLanguage: English
+    Value: Not exactly the surface of Mercury, but this certainly is hot.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+  TextHash: 0xF06C3E2DDD3ED801
+Conditions:
+- MutagenObjectType: ConditionFloat
+  CompareOperator: NotEqualTo
+  Unknown2: 16617
+  Data:
+    MutagenObjectType: GetIsCurrentLocationConditionData
+    FirstParameter: 01B72A:Starfield.esm
+  ComparisonValue: 1
+StartScenePhase: ''
+SubtitlePriority: Low

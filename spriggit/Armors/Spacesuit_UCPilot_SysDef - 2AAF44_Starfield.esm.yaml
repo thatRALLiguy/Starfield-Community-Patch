@@ -1,7 +1,7 @@
 FormKey: 2AAF44:Starfield.esm
 MajorRecordFlagsRaw: 64
 EditorID: Spacesuit_UCPilot_SysDef
-FormVersion: 559
+FormVersion: 576
 StarfieldMajorRecordFlags:
 - 0x40
 ODTY: 0
@@ -10,25 +10,7 @@ Transforms:
   Workbench: 276B9B:Starfield.esm
 Name:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: 'Anzug: SysDef (Ass)'
-  - Language: English
-    String: SysDef Ace Spacesuit
-  - Language: Spanish
-    String: Traje espacial de as del SisDef
-  - Language: French
-    String: Combinaison de pilote chevronné du SysDef
-  - Language: Italian
-    String: Tuta spaziale Asso DifSis
-  - Language: Japanese
-    String: 防衛システムエース用宇宙服
-  - Language: Polish
-    String: Skafander asa SysObu
-  - Language: Portuguese_Brazil
-    String: Traje Espacial de Ás da DefSis
-  - Language: ChineseSimplified
-    String: 星防队王牌太空服
+  Value: SysDef Ace Spacesuit
 WorldModel:
   Male:
     File: SetDressing\SpaceSuitContainer_Green.nif
@@ -50,6 +32,7 @@ Keywords:
 - 30C1EF:Starfield.esm
 Description:
   TargetLanguage: English
+  Value: ''
 InstanceNaming: 184BC1:Starfield.esm
 Armatures:
 - AddonModel: 009ECC:Starfield.esm
@@ -81,25 +64,7 @@ ObjectTemplates:
 - IsEditorOnly: True
   Name:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Standard
-    - Language: English
-      String: Default
-    - Language: Spanish
-      String: Predeterminado
-    - Language: French
-      String: Par défaut
-    - Language: Italian
-      String: Predefinita
-    - Language: Japanese
-      String: デフォルト
-    - Language: Polish
-      String: Domyślny
-    - Language: Portuguese_Brazil
-      String: Padrão
-    - Language: ChineseSimplified
-      String: 默认
+    Value: Default
   Default: True
   Includes:
   - Mod: 11E2BB:Starfield.esm

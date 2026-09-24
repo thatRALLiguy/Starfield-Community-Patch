@@ -1,6 +1,6 @@
 FormKey: 23E8DA:Starfield.esm
 EditorID: MQ204A_030_DeathAndreja
-FormVersion: 559
+FormVersion: 576
 VirtualMachineAdapter:
   ScriptFragments:
     Script:
@@ -267,19 +267,16 @@ LastActionIndex: 23
 VNAM: 0x0300000003000000000000000300000000000000
 Conditions:
 - MutagenObjectType: ConditionFloat
-  Unknown1: 0x000000
   Data:
     MutagenObjectType: GetIsAliasRefConditionData
     FirstParameter: 22
   ComparisonValue: 1
 - MutagenObjectType: ConditionFloat
-  Unknown1: 0x000000
   Data:
     MutagenObjectType: GetStageDoneConditionData
     FirstParameter: 2C6D74:Starfield.esm
     SecondParameter: 300
 - MutagenObjectType: ConditionFloat
-  Unknown1: 0x000000
   Data:
     MutagenObjectType: GetIsIDConditionData
     FirstParameter: 0059A7:Starfield.esm

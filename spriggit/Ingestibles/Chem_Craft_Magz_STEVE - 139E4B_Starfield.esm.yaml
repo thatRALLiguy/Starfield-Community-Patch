@@ -1,7 +1,7 @@
 FormKey: 139E4B:Starfield.esm
 MajorRecordFlagsRaw: 536870912
 EditorID: Chem_Craft_Magz_STEVE
-FormVersion: 559
+FormVersion: 576
 StarfieldMajorRecordFlags:
 - 0x20000000
 ObjectBounds:
@@ -14,25 +14,7 @@ Transforms:
   Workbench: 2B669B:Starfield.esm
 Name:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: S.T.E.V.E.
-  - Language: English
-    String: S.T.E.V.E.
-  - Language: Spanish
-    String: S.T.E.V.E.
-  - Language: French
-    String: S.T.E.V.E.
-  - Language: Italian
-    String: S.T.E.V.E.
-  - Language: Japanese
-    String: S.T.E.V.E.
-  - Language: Polish
-    String: STEVE
-  - Language: Portuguese_Brazil
-    String: S.T.E.V.E.
-  - Language: ChineseSimplified
-    String: 史蒂夫极光
+  Value: S.T.E.V.E.
 Keywords:
 - 0F4AE7:Starfield.esm
 - 11A47A:Starfield.esm
@@ -50,25 +32,7 @@ CraftingSound:
   Start: beb644dc-3806-fc10-b40a-1fd694f5d6b9
 Description:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: Ein Cocktail aus Aurora und dem Pharmazeutikum Panopticon. Dehnt die Zeitwahrnehmung und verbessert die Hand-Augen-Koordination.
-  - Language: English
-    String: A cocktail made from Aurora and the chem Panopticon. Dilates perception of time and improves hand-eye coordination.
-  - Language: Spanish
-    String: Cóctel consistente en Aurora mezclada con el estupefaciente Panóptico. Dilata la percepción del tiempo y mejora la coordinación.
-  - Language: French
-    String: Un cocktail d'Aurore et d'un autre produit, le Panopticon. Ralentit la perception du temps et améliore la coordination main-œil.
-  - Language: Italian
-    String: Cocktail formato da aurora e dalla sostanza panopticon. Dilata la percezione del tempo e migliora la coordinazione oculo-manuale.
-  - Language: Japanese
-    String: オーロラとパノプティコンという薬品から作った混合薬。時間の感覚を刺激し、反射神経を改善させる
-  - Language: Polish
-    String: Koktajl z mieszanki aurory i substancji zwanej panoptikonem. Odmienia percepcję czasu i poprawia koordynację wzrokowo-ruchową.
-  - Language: Portuguese_Brazil
-    String: Um coquetel feito com Aurora e o químico Panóptico. Dilata a percepção do tempo e melhora a coordenação motora.
-  - Language: ChineseSimplified
-    String: 使用极光和药品“环形监狱”制作的鸡尾酒。它能够放大饮用者的时间感知能力，还能改善手眼协调能力。
+  Value: A cocktail made from Aurora and the chem Panopticon. Dilates perception of time and improves hand-eye coordination.
 Weight: 0.1
 Value: 450
 Flags:
@@ -80,25 +44,7 @@ ConsumeSound:
   Start: 3cd64f9d-032b-d344-2773-c652c620ef98
 AddictionName:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: Stimulanzien
-  - Language: English
-    String: Stimulants
-  - Language: Spanish
-    String: Estimulantes
-  - Language: French
-    String: Stimulants
-  - Language: Italian
-    String: Stimolanti
-  - Language: Japanese
-    String: 興奮剤
-  - Language: Polish
-    String: Stymulanty
-  - Language: Portuguese_Brazil
-    String: Estimulantes
-  - Language: ChineseSimplified
-    String: 刺激剂
+  Value: Stimulants
 Effects:
 - BaseEffect: 2A34F1:Starfield.esm
   Data:

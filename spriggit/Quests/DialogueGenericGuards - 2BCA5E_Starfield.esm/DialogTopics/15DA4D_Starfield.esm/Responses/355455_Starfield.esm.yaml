@@ -1,5 +1,5 @@
 FormKey: 355455:Starfield.esm
-FormVersion: 559
+FormVersion: 576
 Flags:
   Flags:
   - Random
@@ -18,45 +18,24 @@ Responses:
     UnknownFloat: 6.7000003
   Text:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: So eine Panzerung habe ich noch nie gesehen. Sieh zu, dass wir sie nicht testen müssen.
-    - Language: English
-      String: Never seen armor like that. Just don't give us any reason to test it, you understand?
-    - Language: Spanish
-      String: Jamás había visto un blindaje así. No nos des motivos para ponerlo a prueba, ¿entendido?
-    - Language: French
-      String: Je n'ai jamais vu une combi pareille. Ne nous donnez aucune raison de la mettre à l'épreuve, compris ?
-    - Language: Italian
-      String: Mai vista una corazza simile. Non darci motivo di metterla alla prova, intesi?
-    - Language: Japanese
-      String: 初めて見るアーマーだな。くれぐれも、試させるようなことはするなよ？
-    - Language: Polish
-      String: Pierwszy raz widzę taki pancerz. Tylko nie każ nam go testować, rozumiemy się?
-    - Language: Portuguese_Brazil
-      String: Nunca vi uma armadura como essa. Não vá nos dar motivo pra testar ela, entendido?
-    - Language: ChineseSimplified
-      String: 我从没见过这样的护甲。我们不想测试它的性能，你懂我的意思吧？
+    Value: Never seen armor like that. Just don't give us any reason to test it, you understand?
   ScriptNotes: player is wearing a Starborn suit, which looks almost alien
   Edits: ''
   AlternateLipText: ''
   TextHash: 0x4080F9201649D801
 Conditions:
 - MutagenObjectType: ConditionFloat
-  Unknown1: 0x000000
-  Unknown2: 16493
+  Unknown2: 16617
   Data:
     MutagenObjectType: GetInFactionConditionData
     FirstParameter: 27AD57:Starfield.esm
 - MutagenObjectType: ConditionFloat
-  Unknown1: 0x000000
-  Unknown2: 16493
+  Unknown2: 16617
   Data:
     MutagenObjectType: GetInFactionConditionData
     FirstParameter: 12E72E:Starfield.esm
 - MutagenObjectType: ConditionFloat
-  Unknown1: 0x000000
-  Unknown2: 16493
+  Unknown2: 16617
   Data:
     MutagenObjectType: WornHasKeywordConditionData
     RunOnType: Reference
@@ -64,15 +43,13 @@ Conditions:
     FirstParameter: 35545C:Starfield.esm
   ComparisonValue: 1
 - MutagenObjectType: ConditionFloat
-  Unknown1: 0x000000
-  Unknown2: 16493
+  Unknown2: 16617
   Data:
     MutagenObjectType: GetIsVoiceTypeConditionData
-    FirstParameter: 2891D1:Starfield.esm
+    VoiceTypeOrList: 2891D1:Starfield.esm
   ComparisonValue: 1
 - MutagenObjectType: ConditionFloat
-  Unknown1: 0x000000
-  Unknown2: 16493
+  Unknown2: 16617
   Data:
     MutagenObjectType: IsTrueForConditionFormConditionData
     RunOnType: Reference

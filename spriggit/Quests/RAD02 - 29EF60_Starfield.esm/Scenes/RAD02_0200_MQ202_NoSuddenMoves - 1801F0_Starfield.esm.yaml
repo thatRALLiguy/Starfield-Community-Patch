@@ -1,0 +1,255 @@
+FormKey: 1801F0:Starfield.esm
+EditorID: RAD02_0200_MQ202_NoSuddenMoves
+FormVersion: 576
+Flags:
+- Interruptable
+- 0x20
+- DisableDialogueCamera
+- 0x2000
+Phases:
+- Name: ''
+  EditorWidth: 500
+- Name: ''
+  EditorWidth: 500
+- Name: 1st
+  EditorWidth: 500
+- Name: ''
+  EditorWidth: 500
+- Name: 2nd
+  EditorWidth: 500
+- Name: ''
+  EditorWidth: 500
+- Name: 3rd
+  EditorWidth: 500
+- Name: ''
+  EditorWidth: 500
+- Name: 4th
+  EditorWidth: 500
+- Name: ''
+  EditorWidth: 500
+- Name: ''
+  StartConditions:
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: GreaterThanOrEqualTo
+    Unknown2: 16617
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      FirstParameter: 1829F7:Starfield.esm
+    ComparisonValue: 6
+  EditorWidth: 500
+- Name: ''
+  StartConditions:
+  - MutagenObjectType: ConditionFloat
+    Unknown2: 16617
+    Data:
+      MutagenObjectType: GetStageDoneConditionData
+      FirstParameter: 017CE8:Starfield.esm
+      SecondParameter: 2000
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: GreaterThanOrEqualTo
+    Unknown2: 16617
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      FirstParameter: 1829F7:Starfield.esm
+    ComparisonValue: 5
+  EditorWidth: 350
+  PhaseSetParentQuestStage:
+    OnBegin: 8000
+    OnEnd: -1
+Actors:
+- Flags:
+  - NoCommandState
+  BehaviorFlags:
+  - DeathEnd
+  - CombatEnd
+  - 0x100
+- ID: 4294967294
+  Flags:
+  - NoCommandState
+  BehaviorFlags:
+  - DeathEnd
+  - CombatEnd
+  - 0x100
+Actions:
+- MutagenObjectType: DialogueSceneAction
+  Name: ''
+  AliasID: -2
+  Index: 1
+  Flags: []
+  Topic: 180249:Starfield.esm
+  LoopingMax: 10
+  LoopingMin: 1
+- MutagenObjectType: DialogueSceneAction
+  Name: ''
+  AliasID: 0
+  Index: 2
+  Flags: []
+  StartPhase: 1
+  EndPhase: 1
+  Topic: 18024A:Starfield.esm
+  LoopingMax: 10
+  LoopingMin: 1
+- MutagenObjectType: PlayerDialogueSceneAction
+  Name: ''
+  AliasID: 0
+  Index: 3
+  Flags: []
+  StartPhase: 2
+  EndPhase: 2
+  HNAM:
+    ReferenceAliasIDs:
+    - -2
+  DialogueTargetActor: 0
+  DialogueList:
+  - PlayerChoice: 18024B:Starfield.esm
+    NpcResponse: 18024C:Starfield.esm
+  - PlayerChoice: 18024D:Starfield.esm
+    NpcResponse: 18024E:Starfield.esm
+  - PlayerChoice: 18024F:Starfield.esm
+    NpcResponse: 180250:Starfield.esm
+- MutagenObjectType: DialogueSceneAction
+  Name: ''
+  AliasID: 0
+  Index: 4
+  Flags: []
+  StartPhase: 3
+  EndPhase: 3
+  Topic: 180251:Starfield.esm
+  LoopingMax: 10
+  LoopingMin: 1
+- MutagenObjectType: PlayerDialogueSceneAction
+  Name: ''
+  AliasID: 0
+  Index: 5
+  Flags: []
+  StartPhase: 4
+  EndPhase: 4
+  HNAM:
+    ReferenceAliasIDs:
+    - -2
+  DialogueTargetActor: 0
+  DialogueList:
+  - PlayerChoice: 180254:Starfield.esm
+    NpcResponse: 180255:Starfield.esm
+  - PlayerChoice: 180252:Starfield.esm
+    NpcResponse: 180253:Starfield.esm
+  - PlayerChoice: 180256:Starfield.esm
+    NpcResponse: 180257:Starfield.esm
+- MutagenObjectType: DialogueSceneAction
+  Name: ''
+  AliasID: 0
+  Index: 6
+  Flags: []
+  StartPhase: 5
+  EndPhase: 5
+  Topic: 180258:Starfield.esm
+  LoopingMax: 10
+  LoopingMin: 1
+- MutagenObjectType: PlayerDialogueSceneAction
+  Name: ''
+  AliasID: 0
+  Index: 7
+  Flags: []
+  StartPhase: 6
+  EndPhase: 6
+  HNAM:
+    ReferenceAliasIDs:
+    - -2
+  DialogueTargetActor: 0
+  DialogueList:
+  - PlayerChoice: 180259:Starfield.esm
+    NpcResponse: 18025A:Starfield.esm
+  - PlayerChoice: 18025B:Starfield.esm
+    NpcResponse: 18025C:Starfield.esm
+  - PlayerChoice: 18025D:Starfield.esm
+    NpcResponse: 18025E:Starfield.esm
+  - PlayerChoice: 18025F:Starfield.esm
+    NpcResponse: 180260:Starfield.esm
+- MutagenObjectType: DialogueSceneAction
+  Name: ''
+  AliasID: 0
+  Index: 8
+  Flags: []
+  StartPhase: 7
+  EndPhase: 7
+  Topic: 180261:Starfield.esm
+  LoopingMax: 10
+  LoopingMin: 1
+- MutagenObjectType: PlayerDialogueSceneAction
+  Name: ''
+  AliasID: 0
+  Index: 9
+  Flags: []
+  StartPhase: 8
+  EndPhase: 8
+  HNAM:
+    ReferenceAliasIDs:
+    - -2
+  DialogueTargetActor: 0
+  DialogueList:
+  - PlayerChoice: 180262:Starfield.esm
+    NpcResponse: 180263:Starfield.esm
+  - PlayerChoice: 180264:Starfield.esm
+    NpcResponse: 180265:Starfield.esm
+  - PlayerChoice: 180266:Starfield.esm
+    NpcResponse: 180267:Starfield.esm
+- MutagenObjectType: DialogueSceneAction
+  Name: ''
+  AliasID: 0
+  Index: 10
+  Flags: []
+  StartPhase: 9
+  EndPhase: 9
+  Topic: 180268:Starfield.esm
+  LoopingMax: 10
+  LoopingMin: 1
+- MutagenObjectType: StartSceneAction
+  Name: ''
+  AliasID: 0
+  Index: 11
+  Flags: []
+  StartPhase: 10
+  EndPhase: 10
+  StartScenes:
+  - LCEPScene: 08CCB9:Starfield.esm
+    StartPhaseForScene: INTRO
+    Conditions: []
+- MutagenObjectType: StartSceneAction
+  Name: ''
+  AliasID: 0
+  Index: 12
+  Flags: []
+  StartPhase: 11
+  EndPhase: 11
+  StartScenes:
+  - LCEPScene: 08CCB9:Starfield.esm
+    StartPhaseForScene: INTRO
+    Conditions: []
+Quest: 29EF60:Starfield.esm
+LastActionIndex: 12
+VNAM: 0x0300000003000000030000000300000003000000
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Unknown2: 12816
+  Data:
+    MutagenObjectType: GetStageDoneConditionData
+    FirstParameter: 29EF60:Starfield.esm
+    SecondParameter: 200
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Unknown2: 12816
+  Data:
+    MutagenObjectType: GetStageDoneConditionData
+    FirstParameter: 29EF60:Starfield.esm
+    SecondParameter: 299
+- MutagenObjectType: ConditionFloat
+  Unknown2: 12816
+  Data:
+    MutagenObjectType: GetIsIDConditionData
+    FirstParameter: 0124AC:Starfield.esm
+  ComparisonValue: 1
+Notes: The player can talk about the robbery of the Scow. The player did the robbery, although the player may not admit it.
+BOLV: '[]'
+Index: 0
+SCPI: 0x3200

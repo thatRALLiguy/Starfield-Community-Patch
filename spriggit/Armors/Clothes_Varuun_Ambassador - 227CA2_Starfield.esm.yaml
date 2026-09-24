@@ -1,6 +1,6 @@
 FormKey: 227CA2:Starfield.esm
 EditorID: Clothes_Varuun_Ambassador
-FormVersion: 559
+FormVersion: 576
 ObjectBounds:
   First: -0.26464844, -0.20669045, 0.0009460449
   Second: 0.26416016, 0.20712791, 0.23083496
@@ -9,25 +9,7 @@ Transforms:
   InventoryIcon: 0E7EB9:Starfield.esm
 Name:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: "Anzug: Va'ruun-Botschafter"
-  - Language: English
-    String: Va'ruun Ambassador Suit
-  - Language: Spanish
-    String: Traje de embajador de Va'ruun
-  - Language: French
-    String: Tenue d'ambassadeur de Va'ruun
-  - Language: Italian
-    String: Abito da ambasciatore Va’ruun
-  - Language: Japanese
-    String: ヴァルーン大使のスーツ
-  - Language: Polish
-    String: Garnitur ambasadora Va'ruun
-  - Language: Portuguese_Brazil
-    String: Traje da Embaixada Va'ruun
-  - Language: ChineseSimplified
-    String: 瓦鲁大使套装
+  Value: Va'ruun Ambassador Suit
 WorldModel:
   Male:
     File: SetDressing\OutfitContainer01.nif
@@ -43,6 +25,7 @@ Keywords:
 - 000809:StarfieldCommunityPatch.esm
 Description:
   TargetLanguage: English
+  Value: ''
 Armatures:
 - AddonModel: 1E299C:Starfield.esm
 - AddonModel: 001846:Starfield.esm

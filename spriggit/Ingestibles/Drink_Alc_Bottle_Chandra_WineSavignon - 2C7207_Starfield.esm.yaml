@@ -1,6 +1,6 @@
 FormKey: 2C7207:Starfield.esm
 EditorID: Drink_Alc_Bottle_Chandra_WineSavignon
-FormVersion: 559
+FormVersion: 576
 ObjectBounds:
   First: -0.03302002, -0.03295883, 0.00079345703
   Second: 0.032958984, 0.032959137, 0.26904297
@@ -11,25 +11,7 @@ Transforms:
   Workbench: 05451C:Starfield.esm
 Name:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: Chandra Sauvignon Blanc
-  - Language: English
-    String: Chandra Sauvignon Blanc
-  - Language: Spanish
-    String: Chandra sauvignon blanc
-  - Language: French
-    String: Chandra Sauvignon Blanc
-  - Language: Italian
-    String: Sauvignon Chandra
-  - Language: Japanese
-    String: チャンドラ(ソーヴィニョン・ブラン)
-  - Language: Polish
-    String: Chandra Sauvignon Blanc
-  - Language: Portuguese_Brazil
-    String: Chandra Sauvignon Blanc
-  - Language: ChineseSimplified
-    String: 钱卓拉长相思
+  Value: Chandra Sauvignon Blanc
 Keywords:
 - 055ECC:Starfield.esm
 - 2CF288:Starfield.esm
@@ -47,25 +29,7 @@ CraftingSound:
   Start: 580e474d-4c10-e197-848f-5a4632615aa7
 Description:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: Leichter Weißwein von Chandra Vineyards, mit Aromen von Passionsfrucht und frisch gemähtem Gras.
-  - Language: English
-    String: Chandra Vineyards' light white wine, with notes of passion fruit and freshly cut grass.
-  - Language: Spanish
-    String: Vino blanco ligero de Chandra Vineyards, con notas de fruta de la pasión y césped recién cortado.
-  - Language: French
-    String: Vin blanc léger Château Chandra, aux notes de fruit de la passion et d'herbe fraîchement coupée.
-  - Language: Italian
-    String: Vino bianco leggero di Chandra Vineyards, con note di frutto della passione ed erba appena tagliata.
-  - Language: Japanese
-    String: チャンドラ・バインヤーズの軽口の白ワイン。パッションフルーツと新鮮葉野菜の風味が広がる
-  - Language: Polish
-    String: Lekkie białe wino Chandra Vineyards z nutą marakui i świeżo ściętej trawy.
-  - Language: Portuguese_Brazil
-    String: Vinho branco leve da Chandra Vineyards, com notas de maracujá e grama cortada.
-  - Language: ChineseSimplified
-    String: 钱卓拉葡萄园出品的清爽白葡萄酒，带有百香果和新割青草的味道。
+  Value: Chandra Vineyards' light white wine, with notes of passion fruit and freshly cut grass.
 Resources:
 - Resource: 29B02F:Starfield.esm
   Count: 1
@@ -80,6 +44,7 @@ ConsumeSound:
   Start: 049e4e48-ef25-50c1-f0bf-12128e5b9682
 AddictionName:
   TargetLanguage: English
+  Value: ''
 Effects:
 - BaseEffect: 2D88C3:Starfield.esm
   Data:
@@ -114,18 +79,17 @@ Effects:
 - BaseEffect: 2EE936:Starfield.esm
   Data:
     Magnitude: 1
-    Duration: 1200
+    Duration: 1
   Conditions:
   - MutagenObjectType: ConditionFloat
     CompareOperator: GreaterThanOrEqualTo
-    Unknown1: 0x8D1400
-    Unknown2: 16650
+    Unknown2: 16658
     Data:
       MutagenObjectType: GetGlobalValueConditionData
       FirstParameter: 31324C:Starfield.esm
     ComparisonValue: 1
   Magnitude: 2EFD77:Starfield.esm
-  Duration: 313264:Starfield.esm
+  Duration: 2F0AD4:Starfield.esm
   EFIF: 0
   MUID: 5
 - BaseEffect: 2EE4B2:Starfield.esm

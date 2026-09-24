@@ -1,5 +1,9 @@
 {
   "PackageName": "Spriggit.Yaml",
   "Release": "Starfield",
-  "Version": "0.20"
+  "Version": "0.36.13",
+  "KnownMasters": [
+    { "ModKey": "Starfield.esm", "Style": "Full" },
+    { "ModKey": "SFBGS003.esm", "Style": "Medium" }
+  ]
 }

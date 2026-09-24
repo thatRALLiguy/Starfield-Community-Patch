@@ -1,31 +1,13 @@
 FormKey: 2184C1:Starfield.esm
 MajorRecordFlagsRaw: 4
 EditorID: SWA_EM_Ballistic_EMP-80_lvl08
-FormVersion: 559
+FormVersion: 576
 StarfieldMajorRecordFlags:
 - NotPlayable
 ODTY: 0
 Name:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: Dämpfer EM-80
-  - Language: English
-    String: EMP-80 suppressor
-  - Language: Spanish
-    String: Supresor EMP-80
-  - Language: French
-    String: Silencieux EMP-80
-  - Language: Italian
-    String: Soppressore EMP-80
-  - Language: Japanese
-    String: EMP-80サプレッサー
-  - Language: Polish
-    String: Tłumik EMP-80
-  - Language: Portuguese_Brazil
-    String: Supressor EMP-80
-  - Language: ChineseSimplified
-    String: EMP-80抑制器
+  Value: EMP-80 suppressor
 Model:
   FLLD: 0x01000000
 EquipmentType: 000046:Starfield.esm
@@ -36,6 +18,7 @@ Keywords:
 - 249FB6:Starfield.esm
 Description:
   TargetLanguage: English
+  Value: ''
 EmbeddedWeaponMod: Null
 SightedTransitionSeconds: 0.25
 AimDownSightTemplate: 04B246:Starfield.esm
@@ -94,25 +77,7 @@ BaseSpeed: 1
 AttackOxygenCost: 60
 General:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: '[EM]'
-  - Language: English
-    String: EM
-  - Language: Spanish
-    String: EM
-  - Language: French
-    String: EM
-  - Language: Italian
-    String: EM
-  - Language: Japanese
-    String: EM
-  - Language: Polish
-    String: EM
-  - Language: Portuguese_Brazil
-    String: EM
-  - Language: ChineseSimplified
-    String: 电磁
+  Value: EM
 WMELUnknown1: 2
 MeleeReach: 1
 MeleeStagger: Medium

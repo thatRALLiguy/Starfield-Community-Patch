@@ -1,50 +1,50 @@
 FormKey: 21710B:Starfield.esm
 EditorID: FFNewHomesteadZ01
-FormVersion: 559
+FormVersion: 576
 VirtualMachineAdapter:
   Script:
     Name: Fragments:Quests:QF_FFNewHomesteadZ01_0021710B
     Properties:
     - MutagenObjectType: ScriptObjectProperty
-      Name: FFNewHomesteadZ01_Bill_Tour05
-      Object: 00B53D:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: FFNewHomesteadZ01_Bill_Tour09
-      Object: 00B532:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: FFNewHomesteadZ01_Bill_Tour03
-      Object: 00B53E:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: FFNewHomesteadZ01_TourTip
-      Object: 00B51B:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: FFNewHomesteadZ01_Bill_Tour06
-      Object: 00B53A:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Credits
-      Object: 00000F:Starfield.esm
+      Name: FFNewHomesteadZ01_Bill_Tour04
+      Object: 00B53F:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: FFNewHomesteadZ01_Bill_Tour02
       Object: 00B54B:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: FFNewHomesteadZ01_Bill_Tour01
-      Object: 00B536:Starfield.esm
+      Name: FFNewHomesteadZ01_Bill_Tour09
+      Object: 00B532:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FFNewHomesteadZ01_TourTip
+      Object: 00B51B:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: FFNewHomesteadZ01_Bill_Tour07
       Object: 00B538:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: FFNewHomesteadZ01_Bill_Tour04
-      Object: 00B53F:Starfield.esm
+      Name: Credits
+      Object: 00000F:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Bill
-      Object: 21710B:Starfield.esm
-      Alias: 2
+      Name: FFNewHomesteadZ01_Bill_Tour06
+      Object: 00B53A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FFNewHomesteadZ01_Bill_Tour05
+      Object: 00B53D:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FFNewHomesteadZ01_Bill_Tour01
+      Object: 00B536:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FFNewHomesteadZ01_Bill_Tour03
+      Object: 00B53E:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: FFNewHomesteadZ01Misc
       Object: 00B78A:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: FFNewHomesteadZ01_Bill_Tour08
       Object: 00B534:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Bill
+      Object: 21710B:Starfield.esm
+      Alias: 2
     - MutagenObjectType: ScriptObjectProperty
       Name: FFNewHomesteadZ01_Foreknowledge_AV
       Object: 00B554:Starfield.esm
@@ -135,25 +135,7 @@ VirtualMachineAdapter:
     FragmentName: Fragment_Stage_0650_Item_00
 Name:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: Starsap Tours
-  - Language: English
-    String: Starsap Tours
-  - Language: Spanish
-    String: Starsap Tours
-  - Language: French
-    String: Starsap Tours
-  - Language: Italian
-    String: Starsap Tours
-  - Language: Japanese
-    String: スターサップツアー
-  - Language: Polish
-    String: Wycieczki Wędrogwiazda
-  - Language: Portuguese_Brazil
-    String: Starsap Turismo
-  - Language: ChineseSimplified
-    String: 星海萨普之旅
+  Value: Starsap Tours
 Data:
   Flags:
   - RunOnce
@@ -175,25 +157,7 @@ Stages:
     Note: Follow Bill. Tour01 - Domocile
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Ich habe mich entschlossen, eine Tour durch New Homestead mit Bill Starsap mitzumachen, um mehr über die Geschichte der Kolonie zu erfahren.
-      - Language: English
-        String: I decided to take a tour of New Homestead with Bill Starsap, so I can learn more about its history.
-      - Language: Spanish
-        String: Decidí hacer un recorrido por Nueva Hacienda con Bill Starsap para conocer mejor su historia.
-      - Language: French
-        String: J'ai accepté de visiter Nouveau-Départ avec Bill Starsap, pour en apprendre davantage sur l'histoire de la colonie.
-      - Language: Italian
-        String: Ho deciso di fare un tour di Seconda Casa con Bill Starsap per apprendere di più sulla storia della colonia.
-      - Language: Japanese
-        String: ニューホームステッドの歴史を知るため、ビル・スターサップに案内してもらうことにした
-      - Language: Polish
-        String: Chcę zwiedzić Nową Osadę z Billem Wędrogwiazdem i dowiedzieć się więcej o jej historii.
-      - Language: Portuguese_Brazil
-        String: Decidi fazer um passeio turístico por Novo Lar com Bill Starsap para aprender mais sobre a história.
-      - Language: ChineseSimplified
-        String: 我决定和比尔·星海萨普去新家园游览一番，这样我就能进一步了解它的历史。
+      Value: I decided to take a tour of New Homestead with Bill Starsap, so I can learn more about its history.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -373,25 +337,7 @@ Stages:
     Note: Quest End
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Ich habe mich von Bill Starsap durch New Homestead führen lassen und er hat mir von der Geschichte der Kolonie erzählt.
-      - Language: English
-        String: I took a tour of New Homestead with Bill Starsap, where he taught me about the colony's history.
-      - Language: Spanish
-        String: Hice un recorrido por Nueva Hacienda con Bill Starsap, quien me enseñó la historia de la colonia.
-      - Language: French
-        String: J'ai visité Nouveau-Départ avec Bill Starsap, qui m'a raconté l'histoire de la colonie.
-      - Language: Italian
-        String: Ho fatto un tour di Seconda Casa con Bill Starsap, che mi ha dato molte informazioni sulla storia della colonia.
-      - Language: Japanese
-        String: ビル・スターサップにニューホームステッドを案内してもらい、このコロニーについて教わった
-      - Language: Polish
-        String: Bill Wędrogwiazd oprowadził mnie po Nowej Osadzie i opowiedział o historii kolonii.
-      - Language: Portuguese_Brazil
-        String: Fiz um passeio turístico por Novo Lar com Bill Starsap em que ele me ensinou sobre a história da colônia.
-      - Language: ChineseSimplified
-        String: 我和比尔·星海萨普去新家园游览了一番，他教了我有关这一殖民地的历史。
+      Value: I took a tour of New Homestead with Bill Starsap, where he taught me about the colony's history.
     StageCompleteDatas:
     - QSRD: 0x01000000
       RewardDatas:
@@ -403,450 +349,126 @@ Objectives:
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Folge Bill.
-    - Language: English
-      String: Follow Bill
-    - Language: Spanish
-      String: Sigue a Bill.
-    - Language: French
-      String: Suivez Bill.
-    - Language: Italian
-      String: Segui Bill
-    - Language: Japanese
-      String: ビルについて行く
-    - Language: Polish
-      String: Podążaj za Billem
-    - Language: Portuguese_Brazil
-      String: Siga Bill
-    - Language: ChineseSimplified
-      String: 跟随比尔
+    Value: Follow Bill
   Targets:
   - AliasID: 2
 - Index: 150
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Sprich mit Bill.
-    - Language: English
-      String: Speak with Bill
-    - Language: Spanish
-      String: Habla con Bill.
-    - Language: French
-      String: Parlez à Bill.
-    - Language: Italian
-      String: Parla con Bill
-    - Language: Japanese
-      String: ビルと話す
-    - Language: Polish
-      String: Porozmawiaj z Billem
-    - Language: Portuguese_Brazil
-      String: Fale com Bill
-    - Language: ChineseSimplified
-      String: 与比尔交谈
+    Value: Speak with Bill
   Targets:
   - AliasID: 2
 - Index: 200
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Folge Bill.
-    - Language: English
-      String: Follow Bill
-    - Language: Spanish
-      String: Sigue a Bill.
-    - Language: French
-      String: Suivez Bill.
-    - Language: Italian
-      String: Segui Bill
-    - Language: Japanese
-      String: ビルについて行く
-    - Language: Polish
-      String: Podążaj za Billem
-    - Language: Portuguese_Brazil
-      String: Siga Bill
-    - Language: ChineseSimplified
-      String: 跟随比尔
+    Value: Follow Bill
   Targets:
   - AliasID: 2
 - Index: 250
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Sprich mit Bill.
-    - Language: English
-      String: Speak with Bill
-    - Language: Spanish
-      String: Habla con Bill.
-    - Language: French
-      String: Parlez à Bill.
-    - Language: Italian
-      String: Parla con Bill
-    - Language: Japanese
-      String: ビルと話す
-    - Language: Polish
-      String: Porozmawiaj z Billem
-    - Language: Portuguese_Brazil
-      String: Fale com Bill
-    - Language: ChineseSimplified
-      String: 与比尔交谈
+    Value: Speak with Bill
   Targets:
   - AliasID: 2
 - Index: 300
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Folge Bill.
-    - Language: English
-      String: Follow Bill
-    - Language: Spanish
-      String: Sigue a Bill.
-    - Language: French
-      String: Suivez Bill.
-    - Language: Italian
-      String: Segui Bill
-    - Language: Japanese
-      String: ビルについて行く
-    - Language: Polish
-      String: Podążaj za Billem
-    - Language: Portuguese_Brazil
-      String: Siga Bill
-    - Language: ChineseSimplified
-      String: 跟随比尔
+    Value: Follow Bill
   Targets:
   - AliasID: 2
 - Index: 350
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Sprich mit Bill.
-    - Language: English
-      String: Speak with Bill
-    - Language: Spanish
-      String: Habla con Bill.
-    - Language: French
-      String: Parlez à Bill.
-    - Language: Italian
-      String: Parla con Bill
-    - Language: Japanese
-      String: ビルと話す
-    - Language: Polish
-      String: Porozmawiaj z Billem
-    - Language: Portuguese_Brazil
-      String: Fale com Bill
-    - Language: ChineseSimplified
-      String: 与比尔交谈
+    Value: Speak with Bill
   Targets:
   - AliasID: 2
 - Index: 400
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Folge Bill.
-    - Language: English
-      String: Follow Bill
-    - Language: Spanish
-      String: Sigue a Bill.
-    - Language: French
-      String: Suivez Bill.
-    - Language: Italian
-      String: Segui Bill
-    - Language: Japanese
-      String: ビルについて行く
-    - Language: Polish
-      String: Podążaj za Billem
-    - Language: Portuguese_Brazil
-      String: Siga Bill
-    - Language: ChineseSimplified
-      String: 跟随比尔
+    Value: Follow Bill
   Targets:
   - AliasID: 2
 - Index: 450
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Sprich mit Bill.
-    - Language: English
-      String: Speak with Bill
-    - Language: Spanish
-      String: Habla con Bill.
-    - Language: French
-      String: Parlez à Bill.
-    - Language: Italian
-      String: Parla con Bill
-    - Language: Japanese
-      String: ビルと話す
-    - Language: Polish
-      String: Porozmawiaj z Billem
-    - Language: Portuguese_Brazil
-      String: Fale com Bill
-    - Language: ChineseSimplified
-      String: 与比尔交谈
+    Value: Speak with Bill
   Targets:
   - AliasID: 2
 - Index: 500
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Folge Bill.
-    - Language: English
-      String: Follow Bill
-    - Language: Spanish
-      String: Sigue a Bill.
-    - Language: French
-      String: Suivez Bill.
-    - Language: Italian
-      String: Segui Bill
-    - Language: Japanese
-      String: ビルについて行く
-    - Language: Polish
-      String: Podążaj za Billem
-    - Language: Portuguese_Brazil
-      String: Siga Bill
-    - Language: ChineseSimplified
-      String: 跟随比尔
+    Value: Follow Bill
   Targets:
   - AliasID: 2
 - Index: 550
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Sprich mit Bill.
-    - Language: English
-      String: Speak with Bill
-    - Language: Spanish
-      String: Habla con Bill.
-    - Language: French
-      String: Parlez à Bill.
-    - Language: Italian
-      String: Parla con Bill
-    - Language: Japanese
-      String: ビルと話す
-    - Language: Polish
-      String: Porozmawiaj z Billem
-    - Language: Portuguese_Brazil
-      String: Fale com Bill
-    - Language: ChineseSimplified
-      String: 与比尔交谈
+    Value: Speak with Bill
   Targets:
   - AliasID: 2
 - Index: 600
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Folge Bill.
-    - Language: English
-      String: Follow Bill
-    - Language: Spanish
-      String: Sigue a Bill.
-    - Language: French
-      String: Suivez Bill.
-    - Language: Italian
-      String: Segui Bill
-    - Language: Japanese
-      String: ビルについて行く
-    - Language: Polish
-      String: Podążaj za Billem
-    - Language: Portuguese_Brazil
-      String: Siga Bill
-    - Language: ChineseSimplified
-      String: 跟随比尔
+    Value: Follow Bill
   Targets:
   - AliasID: 2
 - Index: 650
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Sprich mit Bill.
-    - Language: English
-      String: Speak with Bill
-    - Language: Spanish
-      String: Habla con Bill.
-    - Language: French
-      String: Parlez à Bill.
-    - Language: Italian
-      String: Parla con Bill
-    - Language: Japanese
-      String: ビルと話す
-    - Language: Polish
-      String: Porozmawiaj z Billem
-    - Language: Portuguese_Brazil
-      String: Fale com Bill
-    - Language: ChineseSimplified
-      String: 与比尔交谈
+    Value: Speak with Bill
   Targets:
   - AliasID: 2
 - Index: 700
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Folge Bill.
-    - Language: English
-      String: Follow Bill
-    - Language: Spanish
-      String: Sigue a Bill.
-    - Language: French
-      String: Suivez Bill.
-    - Language: Italian
-      String: Segui Bill
-    - Language: Japanese
-      String: ビルについて行く
-    - Language: Polish
-      String: Podążaj za Billem
-    - Language: Portuguese_Brazil
-      String: Siga Bill
-    - Language: ChineseSimplified
-      String: 跟随比尔
+    Value: Follow Bill
   Targets:
   - AliasID: 2
 - Index: 750
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Sprich mit Bill.
-    - Language: English
-      String: Speak with Bill
-    - Language: Spanish
-      String: Habla con Bill.
-    - Language: French
-      String: Parlez à Bill.
-    - Language: Italian
-      String: Parla con Bill
-    - Language: Japanese
-      String: ビルと話す
-    - Language: Polish
-      String: Porozmawiaj z Billem
-    - Language: Portuguese_Brazil
-      String: Fale com Bill
-    - Language: ChineseSimplified
-      String: 与比尔交谈
+    Value: Speak with Bill
   Targets:
   - AliasID: 2
 - Index: 800
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Folge Bill.
-    - Language: English
-      String: Follow Bill
-    - Language: Spanish
-      String: Sigue a Bill.
-    - Language: French
-      String: Suivez Bill.
-    - Language: Italian
-      String: Segui Bill
-    - Language: Japanese
-      String: ビルについて行く
-    - Language: Polish
-      String: Podążaj za Billem
-    - Language: Portuguese_Brazil
-      String: Siga Bill
-    - Language: ChineseSimplified
-      String: 跟随比尔
+    Value: Follow Bill
   Targets:
   - AliasID: 2
 - Index: 850
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Sprich mit Bill.
-    - Language: English
-      String: Speak with Bill
-    - Language: Spanish
-      String: Habla con Bill.
-    - Language: French
-      String: Parlez à Bill.
-    - Language: Italian
-      String: Parla con Bill
-    - Language: Japanese
-      String: ビルと話す
-    - Language: Polish
-      String: Porozmawiaj z Billem
-    - Language: Portuguese_Brazil
-      String: Fale com Bill
-    - Language: ChineseSimplified
-      String: 与比尔交谈
+    Value: Speak with Bill
   Targets:
   - AliasID: 2
 - Index: 900
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Folge Bill.
-    - Language: English
-      String: Follow Bill
-    - Language: Spanish
-      String: Sigue a Bill.
-    - Language: French
-      String: Suivez Bill.
-    - Language: Italian
-      String: Segui Bill
-    - Language: Japanese
-      String: ビルについて行く
-    - Language: Polish
-      String: Podążaj za Billem
-    - Language: Portuguese_Brazil
-      String: Siga Bill
-    - Language: ChineseSimplified
-      String: 跟随比尔
+    Value: Follow Bill
   Targets:
   - AliasID: 2
 - Index: 950
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Sprich mit Bill.
-    - Language: English
-      String: Speak with Bill
-    - Language: Spanish
-      String: Habla con Bill.
-    - Language: French
-      String: Parlez à Bill.
-    - Language: Italian
-      String: Parla con Bill
-    - Language: Japanese
-      String: ビルと話す
-    - Language: Polish
-      String: Porozmawiaj z Billem
-    - Language: Portuguese_Brazil
-      String: Fale com Bill
-    - Language: ChineseSimplified
-      String: 与比尔交谈
+    Value: Speak with Bill
   Targets:
   - AliasID: 2
 Aliases:
@@ -1021,4 +643,3 @@ Aliases:
     Quest: 2A567C:Starfield.esm
     AliasID: 0
   VoiceTypes: 02935D:Starfield.esm
-Timestamp: 12497

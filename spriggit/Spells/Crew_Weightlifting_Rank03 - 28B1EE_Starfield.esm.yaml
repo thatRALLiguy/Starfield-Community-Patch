@@ -1,0 +1,41 @@
+FormKey: 28B1EE:Starfield.esm
+EditorID: Crew_Weightlifting_Rank03
+FormVersion: 576
+ODTY: 0
+Name:
+  TargetLanguage: English
+  Value: Crew Weightlifting Rank 3 spell
+EquipmentType: 013F44:Starfield.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+Type:
+- Ability
+Effects:
+- BaseEffect: 04B24F:Starfield.esm
+  Data:
+    Magnitude: 60
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: NotEqualTo
+    Data:
+      MutagenObjectType: GetPerkRankConditionData
+      RunOnType: Reference
+      Reference: 000014:Starfield.esm
+      FirstParameter: 2C890D:Starfield.esm
+    ComparisonValue: 4
+  EFIF: 0
+  MUID: 1
+- BaseEffect: 04B24F:Starfield.esm
+  Data:
+    Magnitude: 120
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetPerkRankConditionData
+      RunOnType: Reference
+      Reference: 000014:Starfield.esm
+      FirstParameter: 2C890D:Starfield.esm
+    ComparisonValue: 4
+  EFIF: 0
+  MUID: 2

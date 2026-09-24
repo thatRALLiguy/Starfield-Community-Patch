@@ -1,23 +1,24 @@
 FormKey: 1E7A0A:Starfield.esm
 EditorID: UCR04
-FormVersion: 559
+FormVersion: 576
 VirtualMachineAdapter:
   Scripts:
   - Name: UCR04QuestScript
     Properties:
     - MutagenObjectType: ScriptObjectProperty
-      Name: PatrolingEnemies
+      Name: ActiveCreatureSamples
       Object: 1E7A0A:Starfield.esm
-      Alias: 38
-    - MutagenObjectType: ScriptObjectProperty
-      Name: REScenePatrolStartLocRef
-      Object: 260E06:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UCR04_Critters_ReduceIncomingDamage_c75
-      Object: 1CBA53:Starfield.esm
+      Alias: 23
     - MutagenObjectType: ScriptObjectProperty
       Name: UCR04_MinSamplesRequired
       Object: 1E79AC:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CreatureSamples
+      Object: 1E7A0A:Starfield.esm
+      Alias: 21
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Confidence
+      Object: 0002BD:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: UCR04_MaxSamplesRequired
       Object: 1E79AD:Starfield.esm
@@ -29,116 +30,115 @@ VirtualMachineAdapter:
       Name: UCR04_SamplesTotalRequired
       Object: 1E79B2:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: LegendaryAlias
-      Object: 1E7A0A:Starfield.esm
-      Alias: 31
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Confidence
-      Object: 0002BD:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UCR04_LegendaryCritterChance
-      Object: 1D0384:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: enemies
-      Object: 1E7A0A:Starfield.esm
-      Alias: 3
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UCR04_MinPatrollingEnemies
-      Object: 2CD563:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: PatrolingEnemy
-      Object: 1E7A0A:Starfield.esm
-      Alias: 17
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Player
-      Object: 1E7A0A:Starfield.esm
-      Alias: 24
-    - MutagenObjectType: ScriptObjectProperty
-      Name: DialogueUCFactionAlwaysOn
-      Object: 14618F:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: SpawnMarkers
-      Object: 1E7A0A:Starfield.esm
-      Alias: 9
-    - MutagenObjectType: ScriptObjectProperty
       Name: UCR04_RequireOutOfCombatHarvesting
       Object: 06AB7C:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UCR04_MaxPatrollingEnemies
-      Object: 2CD562:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CreatureSamples
-      Object: 1E7A0A:Starfield.esm
-      Alias: 21
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UCR04_SamplesHarvested
-      Object: 1E79B1:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UCR04_TotalPatrollingEnemies
-      Object: 2CD564:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UCR04SpecimenTarget
-      Object: 0066AB:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: PatrolStartMarker
       Object: 1E7A0A:Starfield.esm
       Alias: 18
     - MutagenObjectType: ScriptObjectProperty
-      Name: UCR04_SpecimenSample
-      Object: 1E79B0:Starfield.esm
+      Name: UCR04_TotalPatrollingEnemies
+      Object: 2CD564:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: ActiveCreatureSamples
+      Name: UCR04_SamplesHarvested
+      Object: 1E79B1:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PatrolingEnemies
       Object: 1E7A0A:Starfield.esm
-      Alias: 23
+      Alias: 38
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DialogueUCFactionAlwaysOn
+      Object: 14618F:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PatrolingEnemy
+      Object: 1E7A0A:Starfield.esm
+      Alias: 17
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UCR04_MinPatrollingEnemies
+      Object: 2CD563:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: NotAllowedDuringCombat
       Object: 1413FD:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UCR04_Critters_ReduceIncomingDamage_c75
+      Object: 1CBA53:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UCR04_LegendaryCritterChance
+      Object: 1D0384:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LegendaryAlias
+      Object: 1E7A0A:Starfield.esm
+      Alias: 31
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Player
+      Object: 1E7A0A:Starfield.esm
+      Alias: 24
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UCR04_MaxPatrollingEnemies
+      Object: 2CD562:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: enemies
+      Object: 1E7A0A:Starfield.esm
+      Alias: 3
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UCR04SpecimenTarget
+      Object: 0066AB:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SpawnMarkers
+      Object: 1E7A0A:Starfield.esm
+      Alias: 9
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UCR04_SpecimenSample
+      Object: 1E79B0:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: REScenePatrolStartLocRef
+      Object: 260E06:Starfield.esm
   Script:
     Name: Fragments:Quests:QF_UCR04_001E7A0A
     Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UCR04_100_Jakob_StartUp
+      Object: 1E79B3:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UCR04_SpecimenSample
+      Object: 1E79B0:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_DropOffNPC
       Object: 1E7A0A:Starfield.esm
       Alias: 28
     - MutagenObjectType: ScriptObjectProperty
-      Name: DialogueUCFaction
-      Object: 2C5402:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UCR04_DEBUG_HadrianForKaiser
-      Object: 1868D0:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_RDHQMapMarker
-      Object: 1E7A0A:Starfield.esm
-      Alias: 30
-    - MutagenObjectType: ScriptObjectProperty
       Name: UCR04_SamplesTotalRequired
       Object: 1E79B2:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: DialogueRedDevilsHQ
-      Object: 1E7A0B:Starfield.esm
+      Name: UCR04_DebugMarker
+      Object: 1E79A7:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: UCR04_100_Jakob_StartUp
-      Object: 1E79B3:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UCR04_TimesCompleted
-      Object: 1E79B4:Starfield.esm
+      Name: UCR04_HarvestSamplePerk
+      Object: 0066AA:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_ActiveUCR04Instance
       Object: 1E7A0A:Starfield.esm
       Alias: 39
     - MutagenObjectType: ScriptObjectProperty
+      Name: DialogueRedDevilsHQ
+      Object: 1E7A0B:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_RDHQMapMarker
+      Object: 1E7A0A:Starfield.esm
+      Alias: 30
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UCR04_DEBUG_HadrianForKaiser
+      Object: 1868D0:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
       Name: Alias_DebugMarker
       Object: 1E7A0A:Starfield.esm
       Alias: 25
     - MutagenObjectType: ScriptObjectProperty
-      Name: UCR04_HarvestSamplePerk
-      Object: 0066AA:Starfield.esm
+      Name: DialogueUCFaction
+      Object: 2C5402:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: UCR04_DebugMarker
-      Object: 1E79A7:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UCR04_SpecimenSample
-      Object: 1E79B0:Starfield.esm
+      Name: UCR04_TimesCompleted
+      Object: 1E79B4:Starfield.esm
   Fragments:
   - Stage: 999
     Unknown2: 1
@@ -215,25 +215,7 @@ VirtualMachineAdapter:
         Object: 2CD560:Starfield.esm
 Name:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: Spitzenprädator
-  - Language: English
-    String: Apex Predator
-  - Language: Spanish
-    String: Depredador alfa
-  - Language: French
-    String: Prédateur alpha
-  - Language: Italian
-    String: Superpredatore
-  - Language: Japanese
-    String: 頂点捕食者
-  - Language: Polish
-    String: Drapieżnik alfa
-  - Language: Portuguese_Brazil
-    String: Superpredador
-  - Language: ChineseSimplified
-    String: 顶级掠食者
+  Value: Apex Predator
 Data:
   Flags:
   - WarnOnAliasFillFailure
@@ -283,25 +265,7 @@ Stages:
     Note: 'P1: START-UP: Get the player headed to the right location'
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Ich habe meine Ziele. Also auf nach <Alias=PlanetLocation> zum Probensammeln.
-      - Language: English
-        String: I've got my targets. Time to head to <Alias=PlanetLocation> and harvest those samples.
-      - Language: Spanish
-        String: Tengo los objetivos. Es hora de ir a <Alias=PlanetLocation> y recoger esas muestras.
-      - Language: French
-        String: Cibles acquises. Je dois me rendre sur <Alias=PlanetLocation> pour récolter ces échantillons.
-      - Language: Italian
-        String: 'Ho i miei obiettivi. È ora di andare su: <Alias=PlanetLocation> e raccogliere quei campioni.'
-      - Language: Japanese
-        String: ターゲットを仕留めた。<Alias=PlanetLocation>に行ってサンプルを採集しよう
-      - Language: Polish
-        String: Mam już lokalizację celów (<Alias=PlanetLocation>). Pora więc ruszać po próbki.
-      - Language: Portuguese_Brazil
-        String: Já tenho os meus alvos. É hora de ir para <Alias=PlanetLocation> e coletar essas amostras.
-      - Language: ChineseSimplified
-        String: 任务已接受。现在该前往<Alias=PlanetLocation>收集那些样本了。
+      Value: I've got my targets. Time to head to <Alias=PlanetLocation> and harvest those samples.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -312,25 +276,7 @@ Stages:
     Note: 'P1: COMBAT: Sufficent samples acquired. Direct the player back to Jakob.'
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Ich habe die Proben gesammelt. Jetzt muss ich sie nur noch zu Percival im TMD-Hauptquartier auf dem Mars bringen.
-      - Language: English
-        String: Samples collected. Now I just need to return them to Percival at TMD HQ on Mars.
-      - Language: Spanish
-        String: Muestras recogidas. Ahora solo tengo que llevárselas a Percival en el cuartel general de la DGH, en Marte.
-      - Language: French
-        String: Échantillons récoltés. Je dois maintenant les rapporter à Percival, au QG du DGH sur Mars.
-      - Language: Italian
-        String: Campioni raccolti. Devo consegnarli a Percival al QG DAT su Marte.
-      - Language: Japanese
-        String: サンプルを回収した。火星のTMD本部にいるパーシバルのところに持っていこう
-      - Language: Polish
-        String: Próbki zebrane. Pora oddać je Percivalowi w siedzibie WKT na Marsie.
-      - Language: Portuguese_Brazil
-        String: Amostras coletadas. Agora só preciso devolvê-las a Percival Walker no QG da DCT em Marte.
-      - Language: ChineseSimplified
-        String: 样本已收集。现在，我得去火星的骇变兽管理局总部将它们交给珀西瓦里。
+      Value: Samples collected. Now I just need to return them to Percival at TMD HQ on Mars.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -350,25 +296,7 @@ Stages:
     Note: 'P1: TURN-IN: Player handed over the samples to Jakob. Wrap this up!'
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Ich habe Percival die Proben übergeben und wurde bezahlt. Wenn ich noch mehr Proben einsammeln möchte, hat er sicher noch mehr Aufträge für mich.
-      - Language: English
-        String: I handed over the samples to Percival and got my payment. If I'm looking to collect more, I'm sure he'd be willing to get me the specifics.
-      - Language: Spanish
-        String: Entregué las muestras a Percival y me pagó. Si quiero recoger más, seguro que estará dispuesto a darme los detalles.
-      - Language: French
-        String: J'ai remis les échantillons à Percival, contre paiement. Si je souhaite en récolter davantage, il pourra sans doute me donner des indications.
-      - Language: Italian
-        String: Ho consegnato i campioni a Percival e ottenuto il mio pagamento. Se voglio raccoglierne altri, credo che mi darà volentieri i dettagli.
-      - Language: Japanese
-        String: サンプルをパーシバルに渡し、報酬を得た。もっと報酬を得たいなら、パーシバルに聞けば喜んで詳細を教えてくれるだろう
-      - Language: Polish
-        String: Percival otrzymał ode mnie próbki, a ja zapłatę. Jeśli zechcę zebrać kolejne, z pewnością powie mi, czego mu potrzeba.
-      - Language: Portuguese_Brazil
-        String: Entreguei as amostras a Percival e recebi meu pagamento. Se eu quiser coletar mais, tenho certeza que ele estaria disposto a me passar os detalhes.
-      - Language: ChineseSimplified
-        String: 我把样本交给了珀西瓦里并且拿到了我的报酬。如果我想再去多收集一些，我相信他会愿意告诉我我需要的信息。
+      Value: I handed over the samples to Percival and got my payment. If I'm looking to collect more, I'm sure he'd be willing to get me the specifics.
     StageCompleteDatas:
     - QSRD: 0x02000000
       RewardDatas:
@@ -381,7 +309,6 @@ Stages:
         BonusCredits: 1460FD:Starfield.esm
         Conditions:
         - MutagenObjectType: ConditionFloat
-          Unknown1: 0x71C3A3
           Data:
             MutagenObjectType: HasPerkConditionData
             FirstParameter: 227FD4:Starfield.esm
@@ -392,30 +319,11 @@ Objectives:
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: 'Sammle Proben auf: <Alias=PlanetLocation>. (<Global=UCR04_SamplesHarvested>/<Global=UCR04_SamplesTotalRequired>)'
-    - Language: English
-      String: Collect samples on <Alias=PlanetLocation> (<Global=UCR04_SamplesHarvested>/<Global=UCR04_SamplesTotalRequired>)
-    - Language: Spanish
-      String: Recoge muestras en <Alias=PlanetLocation> (<Global=UCR04_SamplesHarvested>/<Global=UCR04_SamplesTotalRequired>).
-    - Language: French
-      String: Récoltez des échantillons sur <Alias=PlanetLocation> (<Global=UCR04_SamplesHarvested>/<Global=UCR04_SamplesTotalRequired>).
-    - Language: Italian
-      String: 'Raccogli campioni su: <Alias=PlanetLocation> (<Global=UCR04_SamplesHarvested>/<Global=UCR04_SamplesTotalRequired>)'
-    - Language: Japanese
-      String: <Alias=PlanetLocation>でサンプルを集める(<Global=UCR04_SamplesHarvested>/<Global=UCR04_SamplesTotalRequired>)
-    - Language: Polish
-      String: '<Alias=PlanetLocation>: zbierz próbki (<Global=UCR04_SamplesHarvested>/<Global=UCR04_SamplesTotalRequired>)'
-    - Language: Portuguese_Brazil
-      String: Colete amostras em <Alias=PlanetLocation> (<Global=UCR04_SamplesHarvested>/<Global=UCR04_SamplesTotalRequired>)
-    - Language: ChineseSimplified
-      String: 收集<Alias=PlanetLocation>上的样本（<Global=UCR04_SamplesHarvested>/<Global=UCR04_SamplesTotalRequired>）
+    Value: Collect samples on <Alias=PlanetLocation> (<Global=UCR04_SamplesHarvested>/<Global=UCR04_SamplesTotalRequired>)
   Targets:
   - AliasID: 10
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: IsInSameCurrentLocationAsAliasConditionData
         RunOnType: Reference
@@ -424,18 +332,15 @@ Objectives:
   - AliasID: 3
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetDisabledConditionData
     - MutagenObjectType: ConditionFloat
       CompareOperator: GreaterThanOrEqualTo
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetItemCountConditionData
         FirstParameter: 1E79B0:Starfield.esm
       ComparisonValue: 1
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: IsInSameCurrentLocationAsAliasConditionData
         RunOnType: Reference
@@ -445,18 +350,15 @@ Objectives:
   - AliasID: 31
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetDisabledConditionData
     - MutagenObjectType: ConditionFloat
       CompareOperator: GreaterThanOrEqualTo
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetItemCountConditionData
         FirstParameter: 1E79B0:Starfield.esm
       ComparisonValue: 1
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: IsInSameCurrentLocationAsAliasConditionData
         RunOnType: Reference
@@ -467,71 +369,17 @@ Objectives:
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: (Optional) Nähere dich den Zielen heimlich, um ohne Gewalt zu sammeln.
-    - Language: English
-      String: (Optional) Approach targets undetected to harvest non-lethally
-    - Language: Spanish
-      String: (Opcional) Acércate a los objetivos sin que te detecten para obtener la información sin matar.
-    - Language: French
-      String: (Optionnel) Approchez-vous sans vous faire détecter pour un prélèvement non létal.
-    - Language: Italian
-      String: (Opzionale) Avvicinati ai bersagli di nascosto per prelevare ciò che ti serve senza ucciderli
-    - Language: Japanese
-      String: (オプション)ターゲットに気づかれずに近づいて、殺傷することなく採取する
-    - Language: Polish
-      String: '(Opcj.) Podejdź do celów, unikając wykrycia, aby pobrać próbki bez ich zabijania '
-    - Language: Portuguese_Brazil
-      String: (Opc.) Aproxime-se furtivamente dos alvos para concluir a tarefa de modo não letal
-    - Language: ChineseSimplified
-      String: （可选）不被发现的情况下非致命收割目标
+    Value: (Optional) Approach targets undetected to harvest non-lethally
 - Index: 111
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: (Optional) Nähere dich den Zielen heimlich, um ohne Gewalt zu sammeln.
-    - Language: English
-      String: (Optional) Approach targets to harvest non-lethally
-    - Language: Spanish
-      String: (Opcional) Acércate a los objetivos para obtener la información sin matar.
-    - Language: French
-      String: (Optionnel) Approchez-vous des cibles pour un prélèvement non létal.
-    - Language: Italian
-      String: (Opzionale) Avvicinati ai bersagli per prelevare ciò che ti serve senza ucciderli
-    - Language: Japanese
-      String: (オプション)ターゲットに近づいて、殺傷することなく採取する
-    - Language: Polish
-      String: (Opcj.) Podejdź do celów, aby pobrać próbki bez ich zabijania
-    - Language: Portuguese_Brazil
-      String: (Opc.) Aproxime-se dos alvos para concluir a tarefa de modo não letal
-    - Language: ChineseSimplified
-      String: （可选）接近目标，完成非致命收割
+    Value: (Optional) Approach targets to harvest non-lethally
 - Index: 500
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Bringe die Proben zurück.
-    - Language: English
-      String: Return the samples
-    - Language: Spanish
-      String: Entrega las muestras.
-    - Language: French
-      String: Rapportez les échantillons.
-    - Language: Italian
-      String: Consegna i campioni
-    - Language: Japanese
-      String: サンプルを渡す
-    - Language: Polish
-      String: Dostarcz próbki
-    - Language: Portuguese_Brazil
-      String: Devolva as amostras
-    - Language: ChineseSimplified
-      String: 返还样本
+    Value: Return the samples
   Targets:
   - AliasID: 28
 Aliases:
@@ -558,7 +406,6 @@ Aliases:
   ALFG: 0
   Conditions:
   - MutagenObjectType: ConditionFloat
-    Unknown1: 0x000000
     Data:
       MutagenObjectType: BiomeSupportsCreatureConditionData
       FirstParameter: 06E06A:Starfield.esm
@@ -566,23 +413,19 @@ Aliases:
   ALPS:
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: IsEncounterAbovePlayerLevelConditionData
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: BiomeSupportsCreatureConditionData
         FirstParameter: 06E06A:Starfield.esm
       ComparisonValue: 1
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: IsInSameCurrentLocationAsRefConditionData
         FirstParameter: 000014:Starfield.esm
         SecondParameter: 070A54:Starfield.esm
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: BodyHasKeywordConditionData
         FirstParameter: 070A54:Starfield.esm
@@ -598,13 +441,11 @@ Aliases:
   ALFG: 0
   Conditions:
   - MutagenObjectType: ConditionFloat
-    Unknown1: 0x000000
     Data:
       MutagenObjectType: BodyHasKeywordConditionData
       FirstParameter: 070A54:Starfield.esm
     ComparisonValue: 1
   - MutagenObjectType: ConditionFloat
-    Unknown1: 0x000000
     Data:
       MutagenObjectType: IsInSameCurrentLocationAsAliasConditionData
       FirstParameter: 5
@@ -931,4 +772,3 @@ Aliases:
   Keywords:
   - 1AA357:Starfield.esm
   VoiceTypes: Null
-Timestamp: 12497

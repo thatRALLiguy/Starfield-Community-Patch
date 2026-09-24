@@ -1,0 +1,17 @@
+FormKey: 24577F:Starfield.esm
+EditorID: ResMfg_Tier01_Polytextile
+FormVersion: 576
+Name:
+  TargetLanguage: English
+  Value: Polytextile
+Keywords:
+- 0424A8:Starfield.esm
+- 23CEB6:Starfield.esm
+CraftingSound:
+  Start: 8f644ce4-8ff9-5217-90b6-cba2f6b0b18d
+Rarity: Uncommon
+SurfaceColor: '#003B424A'
+ResourceType: Polytextile
+ActorValue: 24579E:Starfield.esm
+Produce: 2457C9:Starfield.esm
+Interval: 14E924:Starfield.esm

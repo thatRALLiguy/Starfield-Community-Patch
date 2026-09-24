@@ -1,0 +1,261 @@
+FormKey: 08C3EE:Starfield.esm
+EditorID: Skill_BoostAssaultTraining
+FormVersion: 576
+Name:
+  TargetLanguage: English
+  Value: Boost Assault Training
+Description:
+  TargetLanguage: English
+  Value: Combat training with boost packs allows for more shock and awe tactics.
+Categroy: Tech
+SkillGroup: Master
+Flags:
+- PcPlayable
+PerkIcon: Patch_Technology_BoostAssaultTraining
+Ranks:
+- Effects:
+  - MutagenObjectType: PerkEntryPointSelectSpell
+    EntryPoint: ApplyJetpackSpell
+    PerkConditionTabCount: 2
+    PerkEntryID: 2
+    Spell: 2339B2:Starfield.esm
+  - MutagenObjectType: PerkEntryPointSelectSpell
+    EntryPoint: ApplyJetpackSpell
+    PerkConditionTabCount: 2
+    PerkEntryID: 12
+    Spell: 04AC2B:Starfield.esm
+  Activities:
+  - ATAN: Take Actor Damage
+    Name:
+      TargetLanguage: English
+      Value: Boost Assault Training Damage
+    Description:
+      TargetLanguage: English
+      Value: Deal <repetitions> damage to enemies using the boost pack.
+    ProgressionEvalutor:
+    - Name: Target Actor
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        CompareOperator: NotEqualTo
+        Data:
+          MutagenObjectType: GetDeadConditionData
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Data:
+          MutagenObjectType: HasMagicEffectConditionData
+          FirstParameter: 1A4689:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Data:
+          MutagenObjectType: HasMagicEffectConditionData
+          FirstParameter: 13BB24:Starfield.esm
+        ComparisonValue: 1
+    - Name: Source Actor
+      Conditions: []
+    ANAM: res:0848381A:0005FB31:A19607F5
+    Configuration: >-
+      {
+      	"Data" : 
+      	{
+      		"IncrementByDamageValue" : "true",
+      		"Repetitions" : "200",
+      		"TrackFatalDamageOnly" : "false",
+      		"TrackTarget" : "TrackOnSource",
+      		"TrackedDamageCause" : "None"
+      	},
+      	"Type" : "BGSTakeActorDamageActivity"
+      }
+  Description:
+    TargetLanguage: English
+    Value: Nearby enemies take damage when you boost and have a chance to catch on fire.
+- Effects:
+  - MutagenObjectType: PerkEntryPointSelectSpell
+    Rank: 1
+    EntryPoint: ApplyJetpackSpell
+    PerkConditionTabCount: 2
+    PerkEntryID: 3
+    Spell: 2339B2:Starfield.esm
+  - MutagenObjectType: PerkEntryPointSelectSpell
+    Rank: 1
+    EntryPoint: ApplyJetpackSpell
+    PerkConditionTabCount: 2
+    PerkEntryID: 9
+    Spell: 04AC2B:Starfield.esm
+  Activities:
+  - ATAN: Apply Magic Effect
+    Name:
+      TargetLanguage: English
+      Value: Boost Assault Training Knockdown
+    Description:
+      TargetLanguage: English
+      Value: Knockdown <repetitions> enemies with a boost.
+    ProgressionEvalutor:
+    - Name: Target
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        CompareOperator: NotEqualTo
+        Data:
+          MutagenObjectType: GetDeadConditionData
+        ComparisonValue: 1
+    - Name: Caster
+      Conditions: []
+    - Name: Spell
+      Conditions: []
+    ANAM: res:03C7E4D0:0005FB31:A19607F5
+    Configuration: >-
+      {
+      	"Data" : 
+      	{
+      		"FirstApplyOnly" : "false",
+      		"Repetitions" : "20",
+      		"TrackTarget" : "TrackOnCaster",
+      		"TrackedEffects" : 
+      		{
+      			"Data" : 
+      			[
+      				null
+      			],
+      			"ElementType" : "pointer",
+      			"Type" : "<collection>"
+      		},
+      		"UniqueCasterTargets" : "true"
+      	},
+      	"Stream" : 
+      	[
+      		"4076550"
+      	],
+      	"Type" : "BGSApplyMagicEffectActivity"
+      }
+  Description:
+    TargetLanguage: English
+    Value: Chance to knockdown nearby enemies when you boost.
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 2
+    Priority: 3
+    EntryPoint: EnableJetpackHover
+    PerkConditionTabCount: 1
+    PerkEntryID: 6
+    Value: 1
+  - MutagenObjectType: PerkEntryPointSelectSpell
+    Rank: 2
+    EntryPoint: ApplyJetpackSpell
+    PerkConditionTabCount: 2
+    PerkEntryID: 4
+    Spell: 2339B2:Starfield.esm
+  - MutagenObjectType: PerkEntryPointSelectSpell
+    Rank: 2
+    EntryPoint: ApplyJetpackSpell
+    PerkConditionTabCount: 2
+    PerkEntryID: 10
+    Spell: 04AC2B:Starfield.esm
+  Activities:
+  - ATAN: Take Actor Damage
+    Description:
+      TargetLanguage: English
+      Value: Deal <repetitions> damage to enemies using the boost pack.
+    ProgressionEvalutor:
+    - Name: Target Actor
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        CompareOperator: NotEqualTo
+        Data:
+          MutagenObjectType: GetDeadConditionData
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Data:
+          MutagenObjectType: HasMagicEffectConditionData
+          FirstParameter: 1A4689:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Data:
+          MutagenObjectType: HasMagicEffectConditionData
+          FirstParameter: 13BB24:Starfield.esm
+        ComparisonValue: 1
+    - Name: Source Actor
+      Conditions: []
+    ANAM: res:5B503039:0005F9B5:A19607F5
+    Configuration: >-
+      {
+      	"Data" : 
+      	{
+      		"IncrementByDamageValue" : "true",
+      		"Repetitions" : "500",
+      		"TrackFatalDamageOnly" : "false",
+      		"TrackTarget" : "TrackOnSource",
+      		"TrackedDamageCause" : "None"
+      	},
+      	"Type" : "BGSTakeActorDamageActivity"
+      }
+  Description:
+    TargetLanguage: English
+    Value: Aiming down sights while boosting will let you hover in place. Fuel is still expended until empty.
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    Priority: 4
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown2: 22498
+        Data:
+          MutagenObjectType: IsBoostPackHoveringConditionData
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Unknown2: 22498
+        Data:
+          MutagenObjectType: HasMagicEffectConditionData
+          FirstParameter: 2C5A71:Starfield.esm
+    EntryPoint: ModPlayerMagicSlowdown
+    PerkConditionTabCount: 2
+    PerkEntryID: 0
+    Value: 1
+  - MutagenObjectType: PerkEntryPointSelectSpell
+    Rank: 3
+    Priority: 4
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown2: 22498
+        Data:
+          MutagenObjectType: IsBoostPackHoveringConditionData
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Unknown2: 22498
+        Data:
+          MutagenObjectType: HasMagicEffectConditionData
+          FirstParameter: 2C5A71:Starfield.esm
+    EntryPoint: ApplyAimDownSightSpell
+    PerkConditionTabCount: 2
+    PerkEntryID: 1
+    Spell: 0B0885:Starfield.esm
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    Priority: 3
+    EntryPoint: EnableJetpackHover
+    PerkConditionTabCount: 1
+    PerkEntryID: 7
+    Value: 1
+  - MutagenObjectType: PerkEntryPointSelectSpell
+    Rank: 3
+    EntryPoint: ApplyJetpackSpell
+    PerkConditionTabCount: 2
+    PerkEntryID: 5
+    Spell: 2339B2:Starfield.esm
+  - MutagenObjectType: PerkEntryPointSelectSpell
+    Rank: 3
+    EntryPoint: ApplyJetpackSpell
+    PerkConditionTabCount: 2
+    PerkEntryID: 11
+    Spell: 04AC2B:Starfield.esm
+  Description:
+    TargetLanguage: English
+    Value: While hovering, time slows down and the world moves 70% slower around you.

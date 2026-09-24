@@ -1,6 +1,6 @@
 FormKey: 2C8E91:Starfield.esm
 EditorID: DR021World
-FormVersion: 559
+FormVersion: 576
 Components:
 - MutagenObjectType: WorldSpaceOverlayComponent
   SNAM: 0x00000000
@@ -24,32 +24,13 @@ Components:
   NAM9: 0
   Conditions:
   - MutagenObjectType: ConditionFloat
-    Unknown1: 0x000000
     Data:
       MutagenObjectType: IsTrueForConditionFormConditionData
       FirstParameter: 1C3FB6:Starfield.esm
     ComparisonValue: 1
 Name:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: Planetares Treibstoffdepot
-  - Language: English
-    String: Planetside Fuel Depot
-  - Language: Spanish
-    String: Depósito de combustible planetario
-  - Language: French
-    String: Dépôt de carburant sur la terre ferme
-  - Language: Italian
-    String: Deposito planetario di carburante
-  - Language: Japanese
-    String: 惑星側燃料基地
-  - Language: Polish
-    String: Magazyn paliw na planecie
-  - Language: Portuguese_Brazil
-    String: Depósito de Combustível Planetário
-  - Language: ChineseSimplified
-    String: 行星边际燃料仓库
+  Value: Planetside Fuel Depot
 Location: 265609:Starfield.esm
 Water: 000018:Starfield.esm
 LodWater: 000018:Starfield.esm
@@ -68,4 +49,3 @@ GNAM: 1
 XCLWs: []
 WHGTs: []
 HNAM: 0x05
-SubCellsTimestamp: 12497

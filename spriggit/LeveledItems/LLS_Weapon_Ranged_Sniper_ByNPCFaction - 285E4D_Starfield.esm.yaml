@@ -1,0 +1,512 @@
+FormKey: 285E4D:Starfield.esm
+EditorID: LLS_Weapon_Ranged_Sniper_ByNPCFaction
+FormVersion: 576
+ODTY: 0
+MaxCount: 0
+Flags:
+- CalculateFromAllLevelsLessThanOrEqualPlayer
+- CalculateForEachItemInCount
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Unknown2: 55300
+  Data:
+    MutagenObjectType: GetIsIDConditionData
+    FirstParameter: 000007:Starfield.esm
+Entries:
+- Level: 1
+  Unused: 95
+  Reference: 051649:Starfield.esm
+  Count: 1
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 55300
+    Data:
+      MutagenObjectType: GetInFactionConditionData
+      FirstParameter: 04CE25:Starfield.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 55300
+    Data:
+      MutagenObjectType: IsTrueForConditionFormConditionData
+      FirstParameter: 285E44:Starfield.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 55300
+    Data:
+      MutagenObjectType: GetInFactionConditionData
+      FirstParameter: 04CE26:Starfield.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 55300
+    Data:
+      MutagenObjectType: GetInFactionConditionData
+      FirstParameter: 04CE28:Starfield.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 55300
+    Data:
+      MutagenObjectType: IsTrueForConditionFormConditionData
+      FirstParameter: 285E45:Starfield.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 55300
+    Data:
+      MutagenObjectType: IsTrueForConditionFormConditionData
+      FirstParameter: 00D707:Starfield.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 55300
+    Data:
+      MutagenObjectType: GetInFactionConditionData
+      FirstParameter: 04CE29:Starfield.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 55300
+    Data:
+      MutagenObjectType: GetInFactionConditionData
+      FirstParameter: 04CE27:Starfield.esm
+    ComparisonValue: 1
+- Level: 1
+  Unused: 95
+  Reference: 234FFA:Starfield.esm
+  Count: 1
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 55300
+    Data:
+      MutagenObjectType: GetInFactionConditionData
+      FirstParameter: 04CE24:Starfield.esm
+    ComparisonValue: 1
+- Level: 8
+  Unused: 95
+  Reference: 2EDF2D:Starfield.esm
+  Count: 1
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 55300
+    Data:
+      MutagenObjectType: GetInFactionConditionData
+      FirstParameter: 04CE26:Starfield.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 55300
+    Data:
+      MutagenObjectType: GetInFactionConditionData
+      FirstParameter: 26FB5B:Starfield.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 55300
+    Data:
+      MutagenObjectType: GetInFactionConditionData
+      FirstParameter: 29A8EF:Starfield.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 55300
+    Data:
+      MutagenObjectType: IsTrueForConditionFormConditionData
+      FirstParameter: 285E44:Starfield.esm
+    ComparisonValue: 1
+- Level: 10
+  Unused: 95
+  Reference: 09E943:Starfield.esm
+  Count: 1
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 55300
+    Data:
+      MutagenObjectType: GetInFactionConditionData
+      FirstParameter: 26FB5B:Starfield.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 55300
+    Data:
+      MutagenObjectType: GetInFactionConditionData
+      FirstParameter: 04CE26:Starfield.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 55300
+    Data:
+      MutagenObjectType: IsTrueForConditionFormConditionData
+      FirstParameter: 285E44:Starfield.esm
+    ComparisonValue: 1
+- Level: 10
+  Unused: 95
+  Reference: 234FF8:Starfield.esm
+  Count: 1
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 55300
+    Data:
+      MutagenObjectType: GetInFactionConditionData
+      FirstParameter: 04CE26:Starfield.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 55300
+    Data:
+      MutagenObjectType: GetInFactionConditionData
+      FirstParameter: 04CE28:Starfield.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 55300
+    Data:
+      MutagenObjectType: GetInFactionConditionData
+      FirstParameter: 04CE27:Starfield.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 55300
+    Data:
+      MutagenObjectType: IsTrueForConditionFormConditionData
+      FirstParameter: 00D707:Starfield.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 55300
+    Data:
+      MutagenObjectType: GetInFactionConditionData
+      FirstParameter: 04CE24:Starfield.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 55300
+    Data:
+      MutagenObjectType: GetInFactionConditionData
+      FirstParameter: 04CE25:Starfield.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 55300
+    Data:
+      MutagenObjectType: IsTrueForConditionFormConditionData
+      FirstParameter: 285E45:Starfield.esm
+    ComparisonValue: 1
+- Level: 12
+  Unused: 95
+  Reference: 235000:Starfield.esm
+  Count: 1
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 55300
+    Data:
+      MutagenObjectType: GetInFactionConditionData
+      FirstParameter: 04CE27:Starfield.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 55300
+    Data:
+      MutagenObjectType: GetInFactionConditionData
+      FirstParameter: 04CE26:Starfield.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 55300
+    Data:
+      MutagenObjectType: IsTrueForConditionFormConditionData
+      FirstParameter: 00D707:Starfield.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 55300
+    Data:
+      MutagenObjectType: GetInFactionConditionData
+      FirstParameter: 04CE25:Starfield.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 55300
+    Data:
+      MutagenObjectType: IsTrueForConditionFormConditionData
+      FirstParameter: 285E45:Starfield.esm
+    ComparisonValue: 1
+- Level: 16
+  Unused: 95
+  Reference: 234FF6:Starfield.esm
+  Count: 1
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 55300
+    Data:
+      MutagenObjectType: GetInFactionConditionData
+      FirstParameter: 04CE26:Starfield.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 55300
+    Data:
+      MutagenObjectType: GetInFactionConditionData
+      FirstParameter: 04CE28:Starfield.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 55300
+    Data:
+      MutagenObjectType: IsTrueForConditionFormConditionData
+      FirstParameter: 285E44:Starfield.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 55300
+    Data:
+      MutagenObjectType: IsTrueForConditionFormConditionData
+      FirstParameter: 00D707:Starfield.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 55300
+    Data:
+      MutagenObjectType: GetInFactionConditionData
+      FirstParameter: 04CE27:Starfield.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 55300
+    Data:
+      MutagenObjectType: GetInFactionConditionData
+      FirstParameter: 04CE24:Starfield.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 55300
+    Data:
+      MutagenObjectType: IsTrueForConditionFormConditionData
+      FirstParameter: 285E45:Starfield.esm
+    ComparisonValue: 1
+- Level: 16
+  Unused: 95
+  Reference: 234FFC:Starfield.esm
+  Count: 1
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 55300
+    Data:
+      MutagenObjectType: GetInFactionConditionData
+      FirstParameter: 04CE26:Starfield.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 55300
+    Data:
+      MutagenObjectType: GetInFactionConditionData
+      FirstParameter: 26FB5B:Starfield.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 55300
+    Data:
+      MutagenObjectType: GetInFactionConditionData
+      FirstParameter: 29A8EF:Starfield.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 55300
+    Data:
+      MutagenObjectType: IsTrueForConditionFormConditionData
+      FirstParameter: 285E44:Starfield.esm
+    ComparisonValue: 1
+- Level: 19
+  Unused: 95
+  Reference: 234FF4:Starfield.esm
+  Count: 1
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 55300
+    Data:
+      MutagenObjectType: GetInFactionConditionData
+      FirstParameter: 04CE26:Starfield.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 55300
+    Data:
+      MutagenObjectType: GetInFactionConditionData
+      FirstParameter: 04CE25:Starfield.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 55300
+    Data:
+      MutagenObjectType: IsTrueForConditionFormConditionData
+      FirstParameter: 00D707:Starfield.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 55300
+    Data:
+      MutagenObjectType: IsTrueForConditionFormConditionData
+      FirstParameter: 285E45:Starfield.esm
+    ComparisonValue: 1
+- Level: 32
+  Unused: 95
+  Reference: 036903:Starfield.esm
+  Count: 1
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 55300
+    Data:
+      MutagenObjectType: GetInFactionConditionData
+      FirstParameter: 04CE28:Starfield.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 55300
+    Data:
+      MutagenObjectType: IsTrueForConditionFormConditionData
+      FirstParameter: 00D707:Starfield.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 55300
+    Data:
+      MutagenObjectType: GetInFactionConditionData
+      FirstParameter: 04CE27:Starfield.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 55300
+    Data:
+      MutagenObjectType: GetInFactionConditionData
+      FirstParameter: 04CE26:Starfield.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 55300
+    Data:
+      MutagenObjectType: GetInFactionConditionData
+      FirstParameter: 04CE24:Starfield.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 55300
+    Data:
+      MutagenObjectType: IsTrueForConditionFormConditionData
+      FirstParameter: 285E45:Starfield.esm
+    ComparisonValue: 1
+- Level: 40
+  Unused: 95
+  Reference: 03690A:Starfield.esm
+  Count: 1
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 55300
+    Data:
+      MutagenObjectType: GetInFactionConditionData
+      FirstParameter: 04CE28:Starfield.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 55300
+    Data:
+      MutagenObjectType: GetInFactionConditionData
+      FirstParameter: 04CE26:Starfield.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 55300
+    Data:
+      MutagenObjectType: GetInFactionConditionData
+      FirstParameter: 04CE27:Starfield.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 55300
+    Data:
+      MutagenObjectType: GetInFactionConditionData
+      FirstParameter: 04CE29:Starfield.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 55300
+    Data:
+      MutagenObjectType: GetInFactionConditionData
+      FirstParameter: 04CE25:Starfield.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown2: 55300
+    Data:
+      MutagenObjectType: GetInFactionConditionData
+      FirstParameter: 04CE24:Starfield.esm
+    ComparisonValue: 1
+Model:
+  FLLD: 0x01000000

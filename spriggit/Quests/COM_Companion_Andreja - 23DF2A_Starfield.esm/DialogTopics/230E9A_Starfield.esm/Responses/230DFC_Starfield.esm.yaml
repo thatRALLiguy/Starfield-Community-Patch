@@ -1,5 +1,5 @@
 FormKey: 230DFC:Starfield.esm
-FormVersion: 559
+FormVersion: 576
 Flags: {}
 Responses:
 - Emotion: 0FA84C:Starfield.esm
@@ -7,25 +7,7 @@ Responses:
   TRDAUnknown: 3.266667
   Text:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: 'Was ich sagen will: Ich frage mich nun, ob es die richtige Entscheidung war, mich von anderen zu distanzieren.'
-    - Language: English
-      String: What I am trying to say is that I now wonder whether it has been the right decision to distance myself from others.
-    - Language: Spanish
-      String: Lo que intento decirte es que ahora me pregunto si distanciarme de los demás fue la decisión correcta.
-    - Language: French
-      String: Ce que j'essaie de dire, c'est que je me demande si maintenir une telle distance avec les autres était la bonne décision.
-    - Language: Italian
-      String: Quello che sto cercando di dire è che ora mi chiedo se abbia fatto bene a tenermi a distanza dagli altri.
-    - Language: Japanese
-      String: 私が言いたいのは、他人と距離をとり続けたこれまでの生き方が正しかったのか、悩みはじめてるってこと
-    - Language: Polish
-      String: Zaczynam się zastanawiać, czy dystansowanie się od innych było dobrą decyzją.
-    - Language: Portuguese_Brazil
-      String: O que quero dizer é que agora me pergunto se fiz a coisa certa ao decidir manter distância das outras pessoas.
-    - Language: ChineseSimplified
-      String: 我不知道之前故意与其他人疏远，究竟是不是正确的决定。
+    Value: What I am trying to say is that I now wonder whether it has been the right decision to distance myself from others.
   ScriptNotes: ''
   Edits: ''
   AlternateLipText: ''
@@ -41,7 +23,6 @@ Responses:
   XNAM: True
 Conditions:
 - MutagenObjectType: ConditionFloat
-  Unknown1: 0x000000
   Data:
     MutagenObjectType: GetGlobalValueConditionData
     FirstParameter: 036E00:Starfield.esm

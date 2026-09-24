@@ -1,6 +1,6 @@
 FormKey: 20276D:Starfield.esm
 EditorID: OutpostHarvesterSolid_Rothicite_03_Large
-FormVersion: 559
+FormVersion: 576
 ODTY: 0
 Transforms:
   Outpost: 1C384D:Starfield.esm
@@ -13,25 +13,7 @@ Components:
   CNAM: setdressing\harvesters\solid\large\animations
 Name:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: 'Extraktor: Rothizit – gewerblich'
-  - Language: English
-    String: Extractor - Rothicite - Industrial
-  - Language: Spanish
-    String: Extractor comercial de rocicita
-  - Language: French
-    String: Extracteur - Rothicite - Commercial
-  - Language: Italian
-    String: Estrattore - Rothicite - Commerciale
-  - Language: Japanese
-    String: 抽出装置 - ロシサイト - 商業
-  - Language: Polish
-    String: Ekstraktor - rotycyt - przemysłowy
-  - Language: Portuguese_Brazil
-    String: Extrator - Roticita - Comercial
-  - Language: ChineseSimplified
-    String: 提取器：镙 - 商业
+  Value: Extractor - Rothicite - Industrial
 Model:
   File: SetDressing\Harvesters\Solid\OutpostHarvesterSolidLarge01.nif
   FLLD: 0x01000000

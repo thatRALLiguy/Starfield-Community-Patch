@@ -1,5 +1,5 @@
 FormKey: 15DA44:Starfield.esm
-FormVersion: 559
+FormVersion: 576
 Flags:
   Flags:
   - Random
@@ -33,58 +33,35 @@ Responses:
     UnknownFloat: 0.26666668
   Text:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: N'abend, Ma'am.
-    - Language: English
-      String: Evening, ma'am.
-    - Language: Spanish
-      String: Buenas noches.
-    - Language: French
-      String: Bonsoir, madame.
-    - Language: Italian
-      String: Buonasera, signora.
-    - Language: Japanese
-      String: こんばんは
-    - Language: Polish
-      String: Dobry wieczór pani.
-    - Language: Portuguese_Brazil
-      String: Boa noite, senhora.
-    - Language: ChineseSimplified
-      String: 晚上好，女士。
+    Value: Evening, ma'am.
   ScriptNotes: ''
   Edits: ''
   AlternateLipText: ''
   TextHash: 0x3013A6A0E14CD701
 Conditions:
 - MutagenObjectType: ConditionFloat
-  Unknown1: 0x000000
-  Unknown2: 16493
+  Unknown2: 16617
   Data:
     MutagenObjectType: GetInFactionConditionData
     FirstParameter: 26FDEA:Starfield.esm
 - MutagenObjectType: ConditionFloat
   Flags:
   - OR
-  Unknown1: 0x000000
-  Unknown2: 16493
+  Unknown2: 16617
   Data:
     MutagenObjectType: IsTimeSpanSunsetConditionData
   ComparisonValue: 1
 - MutagenObjectType: ConditionFloat
-  Unknown1: 0x000000
-  Unknown2: 16493
+  Unknown2: 16617
   Data:
     MutagenObjectType: IsTimeSpanNightConditionData
   ComparisonValue: 1
 - MutagenObjectType: ConditionFloat
-  Unknown1: 0x000000
-  Unknown2: 16493
+  Unknown2: 16617
   Data:
     MutagenObjectType: IsTimeSpanMidnightConditionData
 - MutagenObjectType: ConditionFloat
-  Unknown1: 0x000000
-  Unknown2: 16493
+  Unknown2: 16617
   Data:
     MutagenObjectType: IsTrueForConditionFormConditionData
     FirstParameter: 239CE6:Starfield.esm

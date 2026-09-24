@@ -1,0 +1,15 @@
+FormKey: 203EA6:Starfield.esm
+EditorID: ResMfg_Tier03_TasineSuperconductor
+FormVersion: 576
+Name:
+  TargetLanguage: English
+  Value: Tasine Superconductor
+Keywords:
+- 0424A9:Starfield.esm
+- 23CEB6:Starfield.esm
+Rarity: Unique
+SurfaceColor: '#003B424A'
+ResourceType: TasineSuperconductor
+ActorValue: 203EB5:Starfield.esm
+Produce: 203EA7:Starfield.esm
+Interval: 14EB75:Starfield.esm

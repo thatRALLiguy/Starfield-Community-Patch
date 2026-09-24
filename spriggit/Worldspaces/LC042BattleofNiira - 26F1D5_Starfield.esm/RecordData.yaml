@@ -1,7 +1,7 @@
 FormKey: 26F1D5:Starfield.esm
 MajorRecordFlagsRaw: 4
 EditorID: LC042BattleofNiira
-FormVersion: 559
+FormVersion: 576
 StarfieldMajorRecordFlags:
 - NotPlayable
 Components:
@@ -11,25 +11,7 @@ Components:
   SurfaceBlock: 26F1D4:Starfield.esm
 Name:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: Schlacht von Niira
-  - Language: English
-    String: Battle of Niira
-  - Language: Spanish
-    String: Batalla de Niira
-  - Language: French
-    String: Bataille de Niira
-  - Language: Italian
-    String: Battaglia di Niira
-  - Language: Japanese
-    String: ニーラの戦い
-  - Language: Polish
-    String: Bitwa o Niirę
-  - Language: Portuguese_Brazil
-    String: Batalha de Niira
-  - Language: ChineseSimplified
-    String: 涅伊拉星之战
+  Value: Battle of Niira
 Location: 2AC0E2:Starfield.esm
 Biome: 0B2D7D:Starfield.esm
 Climate: 174E32:Starfield.esm
@@ -52,6 +34,5 @@ GNAM: 1
 XCLWs: []
 WHGTs: []
 HNAM: 0x05
-SubCellsTimestamp: 12497
 MajorFlags:
 - 0x4

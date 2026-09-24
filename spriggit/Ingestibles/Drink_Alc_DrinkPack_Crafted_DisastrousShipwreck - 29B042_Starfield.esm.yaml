@@ -1,6 +1,6 @@
 FormKey: 29B042:Starfield.esm
 EditorID: Drink_Alc_DrinkPack_Crafted_DisastrousShipwreck
-FormVersion: 559
+FormVersion: 576
 ObjectBounds:
   First: -0.068115234, -0.03515625, -0.00289917
   Second: 0.07092285, 0.037139893, 0.21643066
@@ -11,25 +11,7 @@ Transforms:
   Workbench: 03D201:Starfield.esm
 Name:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: Disastrous Shipwreck
-  - Language: English
-    String: Disastrous Shipwreck
-  - Language: Spanish
-    String: Accidente desastroso
-  - Language: French
-    String: Épave désastreuse
-  - Language: Italian
-    String: Relitto Gastrico
-  - Language: Japanese
-    String: ディザスタラス・シップレック
-  - Language: Polish
-    String: Katastrofalny wrak
-  - Language: Portuguese_Brazil
-    String: Naufrágio Desastroso
-  - Language: ChineseSimplified
-    String: 沉船灾难
+  Value: Disastrous Shipwreck
 Keywords:
 - 055ECC:Starfield.esm
 - 14253C:Starfield.esm
@@ -47,25 +29,7 @@ CraftingSound:
   Start: 580e474d-4c10-e197-848f-5a4632615aa7
 Description:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: Ein Cocktail aus Soda, dunklem Rum und Crème de Menthe, mit einer Prise Schießpulver.
-  - Language: English
-    String: A cocktail of soda, dark rum, and crème de menthe, with a pinch of gunpowder.
-  - Language: Spanish
-    String: Cóctel de soda, ron oscuro y crema de menta, con una pizca de pólvora.
-  - Language: French
-    String: Un cocktail mélangeant soda, rhum et crème de menthe avec une pincée de poudre à canon.
-  - Language: Italian
-    String: Un cocktail di soda, rum scuro e crème de menthe, con un pizzico di polvere da sparo.
-  - Language: Japanese
-    String: ソーダ、ダークラム、およびクレームドミントに火薬を一つまみ加えたカクテル
-  - Language: Polish
-    String: Koktajl z napojów gazowanych, ciemnego rumu i mentolówki ze szczyptą prochu strzelniczego.
-  - Language: Portuguese_Brazil
-    String: Um coquetel de refrigerante, rum escuro creme de menta e uma pitada de pólvora.
-  - Language: ChineseSimplified
-    String: 一款用苏打水、黑朗姆酒以及薄荷甜酒调制而成的鸡尾酒，而且撒了一小撮火药。
+  Value: A cocktail of soda, dark rum, and crème de menthe, with a pinch of gunpowder.
 Weight: 0.3
 Value: 350
 Flags:
@@ -75,6 +39,7 @@ ConsumeSound:
   Start: abcc440c-55e5-bbd4-167f-b9ab79fae3b3
 AddictionName:
   TargetLanguage: English
+  Value: ''
 Effects:
 - BaseEffect: 1BF5AD:Starfield.esm
   Data:
@@ -90,8 +55,7 @@ Effects:
     Duration: 300
   Conditions:
   - MutagenObjectType: ConditionFloat
-    Unknown1: 0x8D1400
-    Unknown2: 16650
+    Unknown2: 16658
     Data:
       MutagenObjectType: IsTrueForConditionFormConditionData
       FirstParameter: 1BBAB0:Starfield.esm
@@ -119,18 +83,17 @@ Effects:
 - BaseEffect: 31325F:Starfield.esm
   Data:
     Magnitude: 1
-    Duration: 3600
+    Duration: 1
   Conditions:
   - MutagenObjectType: ConditionFloat
     CompareOperator: GreaterThanOrEqualTo
-    Unknown1: 0x8D1400
-    Unknown2: 16650
+    Unknown2: 16658
     Data:
       MutagenObjectType: GetGlobalValueConditionData
       FirstParameter: 31324C:Starfield.esm
     ComparisonValue: 1
   Magnitude: 2EFD79:Starfield.esm
-  Duration: 2EE14C:Starfield.esm
+  Duration: 2F0AD4:Starfield.esm
   EFIF: 0
   MUID: 5
 - BaseEffect: 25A8B5:Starfield.esm

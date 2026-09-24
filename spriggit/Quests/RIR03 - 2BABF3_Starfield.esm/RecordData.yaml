@@ -1,6 +1,6 @@
 FormKey: 2BABF3:Starfield.esm
 EditorID: RIR03
-FormVersion: 559
+FormVersion: 576
 VirtualMachineAdapter:
   Scripts:
   - Name: ri_crimetrackingquestscript
@@ -9,41 +9,41 @@ VirtualMachineAdapter:
       Name: RewardGlobal
       Object: 23DF2E:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: RI_CreditsRewardDeductionMedium
-      Object: 0BCFBE:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI_TotalBountiesCount
-      Object: 3B3CC1:Starfield.esm
+      Name: RI_CreditsRewardDeductionSmall
+      Object: 0E5193:Starfield.esm
     - MutagenObjectType: ScriptIntProperty
       Name: iCompletionStage
       Data: 10000
     - MutagenObjectType: ScriptObjectProperty
-      Name: RI_CrimeCountSmall
-      Object: 03EED6:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI_CrimeCountLarge
-      Object: 03EED7:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI08_MasakoRemainedCEO
-      Object: 17F175:Starfield.esm
+      Name: RI_TotalArrestCount
+      Object: 23DE15:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: RI_TotalBodyCount
       Object: 23DE16:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: RI_TotalArrestCount
-      Object: 23DE15:Starfield.esm
+      Name: RI_CreditsRewardDeductionMedium
+      Object: 0BCFBE:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI_CrimeCountLarge
+      Object: 03EED7:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: RI_CreditsRewardDeductionLarge
       Object: 03EED0:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: RI_CreditsRewardDeductionSmall
-      Object: 0E5193:Starfield.esm
+      Name: RI_CrimeCountSmall
+      Object: 03EED6:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI_TotalBountiesCount
+      Object: 3B3CC1:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI_CreditsReward
+      Object: 03EECF:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: RI_CrimeCountMedium
       Object: 03EED5:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: RI_CreditsReward
-      Object: 03EECF:Starfield.esm
+      Name: RI08_MasakoRemainedCEO
+      Object: 17F175:Starfield.esm
   - Name: RIR03_QuestScript
     Properties:
     - MutagenObjectType: ScriptIntProperty
@@ -71,116 +71,116 @@ VirtualMachineAdapter:
     Name: Fragments:Quests:QF_RIR03_002BABF3
     Properties:
     - MutagenObjectType: ScriptObjectProperty
+      Name: CityNeonLocation
+      Object: 015FFE:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI_RadiantQuestGiver
+      Object: 2BA8AC:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
       Name: Alias_Keycard
       Object: 2BABF3:Starfield.esm
       Alias: 7
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Ularu
-      Object: 2BABF3:Starfield.esm
-      Alias: 11
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_KeyCardSafe
-      Object: 2BABF3:Starfield.esm
-      Alias: 28
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RIR03_Keycard
-      Object: 2BA8AD:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_MasakoQS
-      Object: 2BABF3:Starfield.esm
-      Alias: 20
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Clothes_UCPolice
-      Object: 25E8D4:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_ChosenLocation
-      Object: 2BABF3:Starfield.esm
-      Alias: 15
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RIR03_RadiantCount
-      Object: 2B55A7:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI01_JobAdRadio
-      Object: 2C9C96:Starfield.esm
+      Name: Manipulation
+      Object: 2C5555:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_ImogeneQS
       Object: 2BABF3:Starfield.esm
       Alias: 19
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_ChosenMapMarker
+      Name: Alias_KeyCardSafe
       Object: 2BABF3:Starfield.esm
-      Alias: 24
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_UlaruQS
-      Object: 2BABF3:Starfield.esm
-      Alias: 21
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CityNeonLocation
-      Object: 015FFE:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Clothes_BusinessFashionable_Male_01
-      Object: 250C86:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Guard
-      Object: 2BABF3:Starfield.esm
-      Alias: 8
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI_RadiantSupport
-      Object: 2A8318:Starfield.esm
+      Alias: 28
     - MutagenObjectType: ScriptObjectProperty
       Name: RI_LastChosenRadiant
       Object: 0C4081:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: RI_RadiantPointerQuest
-      Object: 0C41A3:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: LC044
-      Object: 22F264:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI01
-      Object: 2C9C97:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI02
-      Object: 2AAC9C:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
       Name: FactionRyujinIndustriesPerk
       Object: 1C5152:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI08
-      Object: 18B717:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RIR01
-      Object: 2C572B:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: RI07_PlayerHasInternalNeuroamp
       Object: 0D6B04:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: RIR02
-      Object: 2C2561:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RIR03
+      Name: Alias_MasakoQS
       Object: 2BABF3:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Imogene
-      Object: 2BABF3:Starfield.esm
-      Alias: 9
+      Alias: 20
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_QuestGiver
       Object: 2BABF3:Starfield.esm
       Alias: 3
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Masako
+      Name: Alias_UlaruQS
       Object: 2BABF3:Starfield.esm
-      Alias: 10
+      Alias: 21
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_ChosenMapMarker
+      Object: 2BABF3:Starfield.esm
+      Alias: 24
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Clothes_BusinessFashionable_Male_01
+      Object: 250C86:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Imogene
+      Object: 2BABF3:Starfield.esm
+      Alias: 9
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Clothes_UCPolice
+      Object: 25E8D4:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RIR03_Keycard
+      Object: 2BA8AD:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI01_JobAdRadio
+      Object: 2C9C96:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RIR02
+      Object: 2C2561:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI_RadiantSupport
+      Object: 2A8318:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI02
+      Object: 2AAC9C:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LC044
+      Object: 22F264:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI08
+      Object: 18B717:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RIR03
+      Object: 2BABF3:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: LocTypeStarstationInterior
       Object: 01674E:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: Manipulation
-      Object: 2C5555:Starfield.esm
+      Name: RI01
+      Object: 2C9C97:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: RI_RadiantQuestGiver
-      Object: 2BA8AC:Starfield.esm
+      Name: Alias_Guard
+      Object: 2BABF3:Starfield.esm
+      Alias: 8
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Ularu
+      Object: 2BABF3:Starfield.esm
+      Alias: 11
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RIR01
+      Object: 2C572B:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Masako
+      Object: 2BABF3:Starfield.esm
+      Alias: 10
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_ChosenLocation
+      Object: 2BABF3:Starfield.esm
+      Alias: 15
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI_RadiantPointerQuest
+      Object: 0C41A3:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RIR03_RadiantCount
+      Object: 2B55A7:Starfield.esm
   Fragments:
   - Unknown2: 1
     ScriptName: Fragments:Quests:QF_RIR03_002BABF3
@@ -288,32 +288,32 @@ VirtualMachineAdapter:
     - Name: RIR03_PlayerAliasScript
       Properties:
       - MutagenObjectType: ScriptIntProperty
+        Name: iPrereqStage
+        Data: 150
+      - MutagenObjectType: ScriptIntProperty
+        Name: iTurnOffStage
+        Data: 300
+      - MutagenObjectType: ScriptObjectProperty
+        Name: RI_Outfit_UCGuardAttireKeyword
+        Object: 2BA8A6:Starfield.esm
+      - MutagenObjectType: ScriptIntProperty
         Name: iStageToSet
         Data: 120
       - MutagenObjectType: ScriptObjectProperty
         Name: RI_Outfit_BusinessAttireKeyword
         Object: 2BA8A7:Starfield.esm
       - MutagenObjectType: ScriptObjectProperty
+        Name: RI_Outfit_NeonGuardAttireKeyword
+        Object: 1DBE39:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
         Name: RIR03_Suit_Keyword
         Object: 000809:StarfieldCommunityPatch.esm
       - MutagenObjectType: ScriptObjectProperty
         Name: RI_Outfit_FCGuardAttireKeyword
         Object: 2B55A6:Starfield.esm
-      - MutagenObjectType: ScriptIntProperty
-        Name: iTurnOffStage
-        Data: 300
       - MutagenObjectType: ScriptObjectProperty
         Name: RI_Outfit_MiscGuardAttireKeyword
         Object: 1DBE3A:Starfield.esm
-      - MutagenObjectType: ScriptObjectProperty
-        Name: RI_Outfit_NeonGuardAttireKeyword
-        Object: 1DBE39:Starfield.esm
-      - MutagenObjectType: ScriptIntProperty
-        Name: iPrereqStage
-        Data: 150
-      - MutagenObjectType: ScriptObjectProperty
-        Name: RI_Outfit_UCGuardAttireKeyword
-        Object: 2BA8A6:Starfield.esm
   - Property:
       Name: ''
       Object: 2BABF3:Starfield.esm
@@ -327,55 +327,17 @@ VirtualMachineAdapter:
     - Name: RIR03_GuardAliasScript
       Properties:
       - MutagenObjectType: ScriptObjectProperty
-        Name: RIR03_KeycardName_Paradiso
-        Object: 04AC0A:Starfield.esm
-      - MutagenObjectType: ScriptObjectProperty
-        Name: CrimeFactionFreestar_Keyword
-        Object: 1F324E:Starfield.esm
-      - MutagenObjectType: ScriptObjectProperty
-        Name: RIR03_KeycardName_Freestar
-        Object: 04AC09:Starfield.esm
-      - MutagenObjectType: ScriptObjectProperty
-        Name: CrimeFactionFreestar
-        Object: 0638E5:Starfield.esm
-      - MutagenObjectType: ScriptObjectProperty
-        Name: Outfit_Clothes_Neon_Security_NoHelmet
-        Object: 133DA2:Starfield.esm
-      - MutagenObjectType: ScriptObjectProperty
-        Name: CrimeFactionParadiso_Keyword
-        Object: 028D0D:Starfield.esm
-      - MutagenObjectType: ScriptObjectProperty
-        Name: RIR03_KeycardName_HopeTown
-        Object: 04AC10:Starfield.esm
-      - MutagenObjectType: ScriptObjectProperty
-        Name: GuardFaction
-        Object: 0A179C:Starfield.esm
-      - MutagenObjectType: ScriptObjectProperty
-        Name: Outfit_Clothes_NewAtlantis_Security_NoHelmet
-        Object: 133DA1:Starfield.esm
+        Name: Outfit_Clothes_Security_Guard_01_with_Helmet
+        Object: 133D62:Starfield.esm
       - MutagenObjectType: ScriptObjectProperty
         Name: CrimeFactionUC
         Object: 05BD93:Starfield.esm
       - MutagenObjectType: ScriptObjectProperty
-        Name: ChosenLocation
-        Object: 2BABF3:Starfield.esm
-        Alias: 15
+        Name: RIR03_KeycardName_Freestar
+        Object: 04AC09:Starfield.esm
       - MutagenObjectType: ScriptObjectProperty
-        Name: CrimeFactionUC_Keyword
-        Object: 1F324F:Starfield.esm
-      - MutagenObjectType: ScriptObjectProperty
-        Name: RIR03_KeycardName_AkilaCity
-        Object: 2BA8AA:Starfield.esm
-      - MutagenObjectType: ScriptObjectProperty
-        Name: CrimeFactionNeon
-        Object: 26FDEA:Starfield.esm
-      - MutagenObjectType: ScriptObjectProperty
-        Name: CrimeFactionHopeTown_Keyword
-        Object: 1AB1C3:Starfield.esm
-      - MutagenObjectType: ScriptObjectProperty
-        Name: Keycard
-        Object: 2BABF3:Starfield.esm
-        Alias: 7
+        Name: CrimeFactionFreestar_Keyword
+        Object: 1F324E:Starfield.esm
       - MutagenObjectType: ScriptObjectProperty
         Name: RIR03_SecurityGuardName_Neon
         Object: 04AC05:Starfield.esm
@@ -384,44 +346,82 @@ VirtualMachineAdapter:
         Object: 2BABF3:Starfield.esm
         Alias: 28
       - MutagenObjectType: ScriptObjectProperty
-        Name: RIR03_SecurityGuardName_UC
-        Object: 04AC0E:Starfield.esm
+        Name: CrimeFactionParadiso
+        Object: 26310C:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: RIR03_KeycardName_Paradiso
+        Object: 04AC0A:Starfield.esm
       - MutagenObjectType: ScriptObjectProperty
         Name: Outfit_Clothes_Akila_Security_NoHeadwear
         Object: 1341DF:Starfield.esm
       - MutagenObjectType: ScriptObjectProperty
-        Name: Outfit_Freestar_Militia_NoHat
-        Object: 26FB5F:Starfield.esm
+        Name: CrimeFactionNeon
+        Object: 26FDEA:Starfield.esm
       - MutagenObjectType: ScriptObjectProperty
-        Name: RIR03_KeycardName_Neon
-        Object: 04AC06:Starfield.esm
+        Name: Outfit_Clothes_Neon_Security_NoHelmet
+        Object: 133DA2:Starfield.esm
       - MutagenObjectType: ScriptObjectProperty
-        Name: RIR03_KeycardName_UC
-        Object: 04AC0B:Starfield.esm
+        Name: RIR03_KeycardName_AkilaCity
+        Object: 2BA8AA:Starfield.esm
       - MutagenObjectType: ScriptObjectProperty
-        Name: Outfit_Clothes_Security_Guard_01_with_Helmet
-        Object: 133D62:Starfield.esm
+        Name: ChosenLocation
+        Object: 2BABF3:Starfield.esm
+        Alias: 15
       - MutagenObjectType: ScriptObjectProperty
-        Name: RIR03_SecurityGuardName_AkilaCity
-        Object: 2BA8AB:Starfield.esm
+        Name: CrimeFactionUC_Keyword
+        Object: 1F324F:Starfield.esm
       - MutagenObjectType: ScriptObjectProperty
-        Name: RIR03_SecurityGuardName_Freestar
-        Object: 04AC0C:Starfield.esm
+        Name: CrimeFactionFreestar
+        Object: 0638E5:Starfield.esm
       - MutagenObjectType: ScriptObjectProperty
-        Name: RIR03_SecurityGuardName_HopeTown
-        Object: 0575A7:Starfield.esm
-      - MutagenObjectType: ScriptObjectProperty
-        Name: RIR03_SecurityGuardName_Paradiso
-        Object: 04AC0D:Starfield.esm
+        Name: RIR03_SecurityGuardName_UC
+        Object: 04AC0E:Starfield.esm
       - MutagenObjectType: ScriptObjectProperty
         Name: CrimeFactionNeon_Keyword
         Object: 1F324D:Starfield.esm
       - MutagenObjectType: ScriptObjectProperty
+        Name: RIR03_SecurityGuardName_AkilaCity
+        Object: 2BA8AB:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Outfit_Freestar_Militia_NoHat
+        Object: 26FB5F:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: CrimeFactionHopeTown_Keyword
+        Object: 1AB1C3:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: RIR03_SecurityGuardName_Freestar
+        Object: 04AC0C:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
         Name: CrimeFactionAkilaCity_Keyword
         Object: 04AC08:Starfield.esm
       - MutagenObjectType: ScriptObjectProperty
-        Name: CrimeFactionParadiso
-        Object: 26310C:Starfield.esm
+        Name: RIR03_KeycardName_Neon
+        Object: 04AC06:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: RIR03_KeycardName_HopeTown
+        Object: 04AC10:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Outfit_Clothes_NewAtlantis_Security_NoHelmet
+        Object: 133DA1:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Keycard
+        Object: 2BABF3:Starfield.esm
+        Alias: 7
+      - MutagenObjectType: ScriptObjectProperty
+        Name: RIR03_SecurityGuardName_Paradiso
+        Object: 04AC0D:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: RIR03_KeycardName_UC
+        Object: 04AC0B:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: RIR03_SecurityGuardName_HopeTown
+        Object: 0575A7:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: CrimeFactionParadiso_Keyword
+        Object: 028D0D:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: GuardFaction
+        Object: 0A179C:Starfield.esm
   - Property:
       Name: ''
       Object: 2BABF3:Starfield.esm
@@ -434,25 +434,7 @@ VirtualMachineAdapter:
         Data: 300
 Name:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: Zugang ist der Schlüssel
-  - Language: English
-    String: Access is Key
-  - Language: Spanish
-    String: Con toda seguridad
-  - Language: French
-    String: Accès privilégié
-  - Language: Italian
-    String: La chiave è l’accesso
-  - Language: Japanese
-    String: アクセスが鍵
-  - Language: Polish
-    String: Dostępna karta
-  - Language: Portuguese_Brazil
-    String: O Acesso é a Chave
-  - Language: ChineseSimplified
-    String: 通行是关键
+  Value: Access is Key
 Data:
   Flags:
   - WarnOnAliasFillFailure
@@ -521,25 +503,7 @@ Stages:
     Note: 'QO: Talk to Quest Giver - Imogene/Masako/Ularu'
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Ich sollte mit <Alias=QuestGiver> sprechen, um herauszufinden, wie mein nächster Auftrag lautet.
-      - Language: English
-        String: I should speak to <Alias=QuestGiver> to find out what my next assignment is.
-      - Language: Spanish
-        String: Debería hablar con <Alias=QuestGiver> para saber cuál será mi próximo encargo.
-      - Language: French
-        String: Je dois parler à <Alias=QuestGiver> pour connaître ma prochaine mission.
-      - Language: Italian
-        String: Devo parlare con <Alias=QuestGiver> per conoscere il mio prossimo incarico.
-      - Language: Japanese
-        String: <Alias=QuestGiver>と話をして、次の任務が何なのか聞こう
-      - Language: Polish
-        String: <Alias=QuestGiver> powie mi, na czym polega moje następne zadanie.
-      - Language: Portuguese_Brazil
-        String: Preciso falar com <Alias=QuestGiver> para descobrir qual é minha próxima tarefa.
-      - Language: ChineseSimplified
-        String: 我应该去和<Alias=QuestGiver>谈谈，确定我的下个任务。
+      Value: I should speak to <Alias=QuestGiver> to find out what my next assignment is.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -558,25 +522,7 @@ Stages:
     Note: 'QO: Travel to ChosenLocation'
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: 'Ich muss eine Schlüsselkarte besorgen und zwar an folgendem Ort auf <Alias=ChosenLocation_Planet> im <Alias=ChosenLocation_System>-System: <Alias=ChosenLocation>. Wenn ich will, dass der Security Chief mit mir spricht, dann sollte ich einen Anzug oder eine Security-Uniform tragen. Einen Anzug kann bei Aito in der Ryujin-Tower-Lobby kaufen.'
-      - Language: English
-        String: I need to travel to <Alias=ChosenLocation> on <Alias=ChosenLocation_Planet> in the <Alias=ChosenLocation_System> System to obtain a Security Keycard. If I want the Security Chief to speak to me, I should wear a suit or security uniform. I can buy a suit from Aito in the Ryujin Tower lobby.
-      - Language: Spanish
-        String: Tengo que viajar a <Alias=ChosenLocation>, en <Alias=ChosenLocation_Planet>, en el sistema de <Alias=ChosenLocation_System>, para hacerme con una tarjeta de seguridad. Si pretendo hablar con quien dirige el departamento de seguridad, será mejor ponerse un traje o un uniforme de seguridad. Puedo comprarle un traje a Aito, en el vestíbulo de la Torre Ryujin.
-      - Language: French
-        String: "Je dois obtenir un pass d'accès à l'endroit suivant : <Alias=ChosenLocation> sur <Alias=ChosenLocation_Planet>, dans le système <Alias=ChosenLocation_System>. Je devrai porter une combinaison ou un uniforme de sécurité pour que le chef de la sécurité s'adresse à moi. Je peux acheter une combinaison auprès d'Aito dans le hall d'entrée de la tour Ryujin."
-      - Language: Italian
-        String: 'Devo raggiungere questo luogo: <Alias=ChosenLocation>, su <Alias=ChosenLocation_Planet> nel sistema <Alias=ChosenLocation_System>, per ottenere una chiave di sicurezza. Se voglio parlare con il capo della sicurezza, devo indossare un abito o un’uniforme della sicurezza. Posso acquistare un abito da Aito, nell’atrio della Torre Ryujin.'
-      - Language: Japanese
-        String: セキュリティーカードキーを確保するには、<Alias=ChosenLocation_System>星系の<Alias=ChosenLocation_Planet>にある<Alias=ChosenLocation>へ行く必要がある。警備主任と話をしたいなら、適切な服装をしなければならない。スーツか警備員の制服があれば上手くいくはずだ。リュウジン・タワーのロビーにあるアイトの店で買えるだろう
-      - Language: Polish
-        String: Po kartę dostępu muszę się udać do miejsca o nazwie <Alias=ChosenLocation> (<Alias=ChosenLocation_Planet> w układzie <Alias=ChosenLocation_System>). Jeśli chcę, aby wierchuszka ochrony chciała ze mną rozmawiać, muszę się odpowiednio ubrać. Garnitur lub mundur strażnika ochrony powinien zadziałać. Mogę kupić stosowny ubiór u Aito w lobby Wieży Ryujina.
-      - Language: Portuguese_Brazil
-        String: Preciso viajar para <Alias=ChosenLocation>, em <Alias=ChosenLocation_Planet>, no sistema <Alias=ChosenLocation_System> para obter um cartão de acesso de segurança. Se eu quiser que o chefe de segurança fale comigo, tenho que botar uma roupa social ou um uniforme de segurança. A loja do Aito no saguão da Torre Ryujin vende roupas sociais.
-      - Language: ChineseSimplified
-        String: 我需要前往<Alias=ChosenLocation_System>星系<Alias=ChosenLocation_Planet>上的<Alias=ChosenLocation>，以取得安全通行卡。如果我想让安保主管见我，就得穿一套西装或者安保制服。在龙神大楼大厅里的和斗那里能买到西装。
+      Value: I need to travel to <Alias=ChosenLocation> on <Alias=ChosenLocation_Planet> in the <Alias=ChosenLocation_System> System to obtain a Security Keycard. If I want the Security Chief to speak to me, I should wear a suit or security uniform. I can buy a suit from Aito in the Ryujin Tower lobby.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -587,25 +533,7 @@ Stages:
     Note: 'QO: Travel to ChosenLocation - Starstation'
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: 'Ich muss eine Schlüsselkarte besorgen und zwar an folgendem Ort im Orbit von <Alias=ChosenLocation_Planet> im <Alias=ChosenLocation_System>-System: <Alias=ChosenLocation>. Wenn ich will, dass der Security Chief mit mir spricht, dann sollte ich einen Anzug oder eine Security-Uniform tragen. Einen Anzug kann bei Aito in der Ryujin-Tower-Lobby kaufen.'
-      - Language: English
-        String: I need to travel to <Alias=ChosenLocation> orbiting <Alias=ChosenLocation_Planet> in the <Alias=ChosenLocation_System> System to obtain a Security Keycard. If I want the Security Chief to speak to me, I should wear a suit or security uniform. I can buy a suit from Aito in the Ryujin Tower lobby.
-      - Language: Spanish
-        String: Tengo que viajar a <Alias=ChosenLocation>, que está en la órbita de <Alias=ChosenLocation_Planet>, en el sistema de <Alias=ChosenLocation_System>, para hacerme con una tarjeta de seguridad. Si pretendo hablar con quien dirige el departamento de seguridad, será mejor ponerse un traje o un uniforme de seguridad. Puedo comprarle un traje a Aito, en el vestíbulo de la Torre Ryujin.
-      - Language: French
-        String: "Je dois obtenir un pass d'accès à l'endroit suivant : <Alias=ChosenLocation> en orbite de la planète <Alias=ChosenLocation_Planet>, dans le système <Alias=ChosenLocation_System>. Je devrai porter une combinaison ou un uniforme de sécurité pour que le chef de la sécurité s'adresse à moi. Je peux acheter une combinaison auprès d'Aito dans le hall d'entrée de la tour Ryujin."
-      - Language: Italian
-        String: 'Devo raggiungere questo luogo: <Alias=ChosenLocation>, in orbita intorno al pianeta <Alias=ChosenLocation_Planet> nel sistema <Alias=ChosenLocation_System>, per ottenere una chiave di sicurezza. Se voglio parlare con il capo della sicurezza, devo indossare un abito o un’uniforme della sicurezza. Posso acquistare un abito da Aito, nell’atrio della Torre Ryujin.'
-      - Language: Japanese
-        String: セキュリティカードキーを確保するには、<Alias=ChosenLocation_System>星系の<Alias=ChosenLocation_Planet>を周回する<Alias=ChosenLocation>へ行く必要がある。警備主任と話をしたいなら、適切な服装をしなければならない。スーツか警備員の制服があれば上手くいくはずだ。リュウジン・タワーのロビーにあるアイトの店で買えるだろう
-      - Language: Polish
-        String: Po kartę dostępu muszę się udać do miejsca o nazwie <Alias=ChosenLocation>, które ma na swojej orbicie <Alias=ChosenLocation_Planet> w układzie <Alias=ChosenLocation_System>. Jeśli chcę, aby wierchuszka ochrony chciała ze mną rozmawiać, muszę się odpowiednio ubrać. Garnitur lub mundur strażnika ochrony powinien zadziałać. Mogę kupić stosowny ubiór u Aito w lobby Wieży Ryujina.
-      - Language: Portuguese_Brazil
-        String: Preciso viajar até <Alias=ChosenLocation>, na órbita de <Alias=ChosenLocation_Planet>, no sistema <Alias=ChosenLocation_System> para obter um cartão de acesso de segurança. Se eu quiser que o chefe de segurança fale comigo, tenho que botar uma roupa social ou um uniforme de segurança. A loja do Aito no saguão da Torre Ryujin vende roupas sociais.
-      - Language: ChineseSimplified
-        String: 我需要前往<Alias=ChosenLocation_System>星系<Alias=ChosenLocation_Planet>轨道上的<Alias=ChosenLocation>，以取得安全通行卡。如果我想让安保主管见我，就得穿一套西装或者安保制服。在龙神大楼大厅里的和斗那里能买到西装。
+      Value: I need to travel to <Alias=ChosenLocation> orbiting <Alias=ChosenLocation_Planet> in the <Alias=ChosenLocation_System> System to obtain a Security Keycard. If I want the Security Chief to speak to me, I should wear a suit or security uniform. I can buy a suit from Aito in the Ryujin Tower lobby.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -616,25 +544,7 @@ Stages:
     Note: 'QO: Obtain the Security Key Card'
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: 'Ich muss eine Security-Schlüsselkarte besorgen, und zwar hier: <Alias=ChosenLocation>. Dabei sollte ich mich am besten nicht erwischen lassen. Wenn ich will, dass der Security Chief mit mir spricht, dann sollte ich einen Anzug oder eine Security-Uniform tragen. Einen Anzug kann bei Aito in der Ryujin-Tower-Lobby kaufen.'
-      - Language: English
-        String: I need to obtain a Security Keycard in <Alias=ChosenLocation> and do my best not to get caught. If I want the Security Chief to speak to me, I should wear a suit or security uniform. I can buy a suit from Aito in the Ryujin Tower lobby.
-      - Language: Spanish
-        String: Debo hacerme con una tarjeta de seguridad en <Alias=ChosenLocation> sin levantar sospechas. Si pretendo hablar con quien dirige el departamento de seguridad, será mejor ponerse un traje o un uniforme de seguridad. Puedo comprarle un traje a Aito, en el vestíbulo de la Torre Ryujin.
-      - Language: French
-        String: "Je dois obtenir un pass d'accès sans me faire prendre à l'endroit suivant : <Alias=ChosenLocation>. Je devrai porter une combinaison ou un uniforme de sécurité pour que le chef de la sécurité s'adresse à moi. Je peux acheter une combinaison auprès d'Aito dans le hall d'entrée de la tour Ryujin."
-      - Language: Italian
-        String: 'Devo ottenere una chiave di sicurezza in questo luogo: <Alias=ChosenLocation>, senza farmi scoprire. Se voglio parlare con il capo della sicurezza, devo indossare un abito o un’uniforme della sicurezza. Posso acquistare un abito da Aito, nell’atrio della Torre Ryujin.'
-      - Language: Japanese
-        String: 捕まらないようにしながら、<Alias=ChosenLocation>でセキュリティカードキーを確保する。警備主任と話をしたいなら、スーツか警備員の制服があれば上手くいくはずだ。リュウジン・タワーのロビーにあるアイトの店で買えるだろう
-      - Language: Polish
-        String: Muszę zdobyć kartę dostępu ochrony w miejscu o nazwie <Alias=ChosenLocation>. Jeśli chcę, aby wierchuszka ochrony chciała ze mną rozmawiać, muszę się odpowiednio ubrać. Garnitur lub mundur strażnika ochrony powinien zadziałać. Mogę kupić stosowny ubiór u Aito w lobby Wieży Ryujina.
-      - Language: Portuguese_Brazil
-        String: Preciso obter um cartão de acesso de segurança em <Alias=ChosenLocation> e fazer o máximo para que não me peguem. Se eu quiser que o chefe de segurança fale comigo, tenho que botar uma roupa social ou um uniforme de segurança. A loja do Aito no saguão da Torre Ryujin vende roupas sociais.
-      - Language: ChineseSimplified
-        String: 我需要去<Alias=ChosenLocation>取得安全通行卡，而且不能被抓住。如果我想让安保主管见我，就得穿一套西装或者安保制服。在龙神大楼大厅里的和斗那里能买到西装。
+      Value: I need to obtain a Security Keycard in <Alias=ChosenLocation> and do my best not to get caught. If I want the Security Chief to speak to me, I should wear a suit or security uniform. I can buy a suit from Aito in the Ryujin Tower lobby.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -677,25 +587,7 @@ Stages:
     Note: 'QO: Return to Quest Giver at Ryujin Tower - Imogene/Masako/Ularu'
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Ich bin erfolgreich an die Security-Schlüsselkarte gekommen. Ich muss zu <Alias=QuestGiver> im Ryujin Tower zurückkehren, um sie zu übergeben.
-      - Language: English
-        String: I successfully obtained the Security Keycard. I need to return to <Alias=QuestGiver> at Ryujin Tower to hand it over.
-      - Language: Spanish
-        String: He obtenido la tarjeta de seguridad. Tengo que volver a la Torre Ryujin y entregársela a <Alias=QuestGiver>.
-      - Language: French
-        String: J'ai réussi à obtenir le pass d'accès. Je dois retourner voir <Alias=QuestGiver> à la tour Ryujin pour lui remettre.
-      - Language: Italian
-        String: Ho ottenuto la chiave di sicurezza. Devo consegnarla a <Alias=QuestGiver> alla Torre Ryujin.
-      - Language: Japanese
-        String: 首尾よくセキュリティカードキーを確保できた。リュウジン・タワーに戻って<Alias=QuestGiver>に渡そう
-      - Language: Polish
-        String: Udało mi się zdobyć kartę dostępu ochrony. Teraz muszę wrócić do Wieży Ryujina, w której czeka na nią <Alias=QuestGiver>.
-      - Language: Portuguese_Brazil
-        String: Consegui obter o cartão de acesso de segurança. Preciso voltar para falar com <Alias=QuestGiver> na Torre Ryujin para entregá-lo.
-      - Language: ChineseSimplified
-        String: 我成功得到了安全通行卡。我需要回到龙神大楼，把它交给<Alias=QuestGiver>。
+      Value: I successfully obtained the Security Keycard. I need to return to <Alias=QuestGiver> at Ryujin Tower to hand it over.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -723,25 +615,7 @@ Stages:
     Note: Complete Quest
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Ich konnte eine Security-Schlüsselkarte für <Alias=QuestGiver> beschaffen.
-      - Language: English
-        String: I was able to acquire a Security Keycard for <Alias=QuestGiver>.
-      - Language: Spanish
-        String: He conseguido una tarjeta de seguridad para <Alias=QuestGiver>.
-      - Language: French
-        String: J'ai réussi à obtenir un pass d'accès pour <Alias=QuestGiver>.
-      - Language: Italian
-        String: Ho ottenuto una chiave di sicurezza per <Alias=QuestGiver>.
-      - Language: Japanese
-        String: <Alias=QuestGiver>のためにセキュリティカードキーを入手できた
-      - Language: Polish
-        String: Udało mi się zdobyć kartę dostępu ochrony, której potrzebuje <Alias=QuestGiver>.
-      - Language: Portuguese_Brazil
-        String: Consegui adquirir o cartão de acesso de segurança de <Alias=QuestGiver>.
-      - Language: ChineseSimplified
-        String: 我帮<Alias=QuestGiver>拿到了安全通行卡。
+      Value: I was able to acquire a Security Keycard for <Alias=QuestGiver>.
     StageCompleteDatas:
     - QSRD: 0x02000000
       RewardDatas:
@@ -754,7 +628,6 @@ Stages:
         BonusCredits: 1460FD:Starfield.esm
         Conditions:
         - MutagenObjectType: ConditionFloat
-          Unknown1: 0xC701A3
           Data:
             MutagenObjectType: HasPerkConditionData
             FirstParameter: 227FD3:Starfield.esm
@@ -765,123 +638,33 @@ Objectives:
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Sprich mit <Alias.ShortName=QuestGiver>.
-    - Language: English
-      String: Talk to <Alias.ShortName=QuestGiver>
-    - Language: Spanish
-      String: Habla con <Alias.ShortName=QuestGiver>.
-    - Language: French
-      String: Parlez à <Alias.ShortName=QuestGiver>.
-    - Language: Italian
-      String: Parla con <Alias.ShortName=QuestGiver>
-    - Language: Japanese
-      String: <Alias.ShortName=QuestGiver>と話す
-    - Language: Polish
-      String: Zobacz, co ma do powiedzenia <Alias.ShortName=QuestGiver>
-    - Language: Portuguese_Brazil
-      String: Fale com <Alias.ShortName=QuestGiver>
-    - Language: ChineseSimplified
-      String: 与<Alias.ShortName=QuestGiver>交谈
+    Value: Talk to <Alias.ShortName=QuestGiver>
   Targets:
   - AliasID: 3
 - Index: 110
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: (Optional) Trage einen Anzug oder die Uniform einer Security-Wache.
-    - Language: English
-      String: (Optional) Wear a Suit or Security Guard Uniform
-    - Language: Spanish
-      String: (Opcional) Vístete de traje o uniforme de guardia de seguridad.
-    - Language: French
-      String: (Optionnel) Enfilez une combinaison ou un uniforme de sécurité.
-    - Language: Italian
-      String: (Opzionale) Indossa una tuta o un’uniforme da guardia di sicurezza
-    - Language: Japanese
-      String: (オプション)スーツか警備員の制服を着る
-    - Language: Polish
-      String: (Opcj.) Włóż garnitur lub mundur strażnika ochrony
-    - Language: Portuguese_Brazil
-      String: (Opc.) Vista uma roupa ou uniforme da segurança
-    - Language: ChineseSimplified
-      String: （可选）穿上西装或者安保警卫制服
+    Value: (Optional) Wear a Suit or Security Guard Uniform
 - Index: 150
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: 'Reise hierhin: <Alias=ChosenLocation>. '
-    - Language: English
-      String: 'Travel to <Alias=ChosenLocation> '
-    - Language: Spanish
-      String: 'Viaja a <Alias=ChosenLocation>. '
-    - Language: French
-      String: "Rendez-vous à l'endroit indiqué : <Alias=ChosenLocation>. "
-    - Language: Italian
-      String: 'Raggiungi questo luogo: <Alias=ChosenLocation> '
-    - Language: Japanese
-      String: '<Alias=ChosenLocation>へ行く '
-    - Language: Polish
-      String: 'Udaj się do: <Alias=ChosenLocation> '
-    - Language: Portuguese_Brazil
-      String: 'Viaje até <Alias=ChosenLocation> '
-    - Language: ChineseSimplified
-      String: '前往<Alias=ChosenLocation> '
+    Value: 'Travel to <Alias=ChosenLocation> '
   Targets:
   - AliasID: 6
 - Index: 200
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Besorge die Security-Schlüsselkarte.
-    - Language: English
-      String: Retrieve the Security Keycard
-    - Language: Spanish
-      String: Consigue la tarjeta de seguridad.
-    - Language: French
-      String: Récupérez le pass d'accès.
-    - Language: Italian
-      String: Recupera la chiave di sicurezza
-    - Language: Japanese
-      String: セキュリティカードキーを入手する
-    - Language: Polish
-      String: Zdobądź kartę dostępu ochrony
-    - Language: Portuguese_Brazil
-      String: Recupere o cartão de acesso de segurança
-    - Language: ChineseSimplified
-      String: 获取安全通行卡
+    Value: Retrieve the Security Keycard
   Targets:
   - AliasID: 7
 - Index: 300
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Kehre zu <Alias.ShortName=QuestGiver> im Ryujin Tower zurück.
-    - Language: English
-      String: Return to <Alias.ShortName=QuestGiver> at Ryujin Tower
-    - Language: Spanish
-      String: Vuelve con <Alias.ShortName=QuestGiver>, en la Torre Ryujin.
-    - Language: French
-      String: Retournez voir <Alias.ShortName=QuestGiver> à la tour Ryujin.
-    - Language: Italian
-      String: Torna da <Alias.ShortName=QuestGiver> alla Torre Ryujin
-    - Language: Japanese
-      String: リュウジン・タワーにいる<Alias.ShortName=QuestGiver>のところに戻る
-    - Language: Polish
-      String: <Alias.ShortName=QuestGiver> czeka na ciebie w Wieży Ryujina
-    - Language: Portuguese_Brazil
-      String: Volte à Torre Ryujin para falar com <Alias.ShortName=QuestGiver>
-    - Language: ChineseSimplified
-      String: 回龙神大楼找<Alias.ShortName=QuestGiver>
+    Value: Return to <Alias.ShortName=QuestGiver> at Ryujin Tower
   Targets:
   - AliasID: 3
 Aliases:
@@ -965,13 +748,11 @@ Aliases:
   AliasIDToForceIntoWhenFilled: 15
   Conditions:
   - MutagenObjectType: ConditionFloat
-    Unknown1: 0x000000
     Data:
       MutagenObjectType: LocationHasRefTypeConditionData
       FirstParameter: 25050C:Starfield.esm
     ComparisonValue: 1
   - MutagenObjectType: ConditionFloat
-    Unknown1: 0x000000
     Data:
       MutagenObjectType: LocationHasKeywordConditionData
       FirstParameter: 2D6B82:Starfield.esm
@@ -988,12 +769,10 @@ Aliases:
   AliasIDToForceIntoWhenFilled: 15
   Conditions:
   - MutagenObjectType: ConditionFloat
-    Unknown1: 0x000000
     Data:
       MutagenObjectType: LocationHasKeywordConditionData
       FirstParameter: 2D6B82:Starfield.esm
   - MutagenObjectType: ConditionFloat
-    Unknown1: 0x000000
     Data:
       MutagenObjectType: LocationHasRefTypeConditionData
       FirstParameter: 25050C:Starfield.esm
@@ -1071,12 +850,10 @@ Aliases:
   AliasIDToForceIntoWhenFilled: 18
   Conditions:
   - MutagenObjectType: ConditionFloat
-    Unknown1: 0x000000
     Data:
       MutagenObjectType: GetGlobalValueConditionData
       FirstParameter: 2B55A7:Starfield.esm
   - MutagenObjectType: ConditionFloat
-    Unknown1: 0x000000
     Data:
       MutagenObjectType: LocationHasRefTypeConditionData
       FirstParameter: 2A3905:Starfield.esm
@@ -1097,13 +874,11 @@ Aliases:
   Conditions:
   - MutagenObjectType: ConditionFloat
     CompareOperator: GreaterThanOrEqualTo
-    Unknown1: 0x000000
     Data:
       MutagenObjectType: GetGlobalValueConditionData
       FirstParameter: 2B55A7:Starfield.esm
     ComparisonValue: 1
   - MutagenObjectType: ConditionFloat
-    Unknown1: 0x000000
     Data:
       MutagenObjectType: LocationHasRefTypeConditionData
       FirstParameter: 2A3905:Starfield.esm
@@ -1238,5 +1013,4 @@ Aliases:
     AliasID: 31
     Create: In
   VoiceTypes: Null
-Timestamp: 12497
 Unknown: 2

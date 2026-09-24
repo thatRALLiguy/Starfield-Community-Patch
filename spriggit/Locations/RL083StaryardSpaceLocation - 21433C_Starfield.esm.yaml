@@ -1,36 +1,19 @@
 FormKey: 21433C:Starfield.esm
 EditorID: RL083StaryardSpaceLocation
-FormVersion: 559
+FormVersion: 576
 AddedUniqueBaseForms:
 - GenericBaseForm: 0196D3:Starfield.esm
   Ref: 01BF86:Starfield.esm
   Location: 21433C:Starfield.esm
 Name:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: Autonome Sternenwerft
-  - Language: English
-    String: Autonomous Staryard
-  - Language: Spanish
-    String: Astillero autónomo
-  - Language: French
-    String: Chantier spatial autonome
-  - Language: Italian
-    String: Astrocantiere autonomo
-  - Language: Japanese
-    String: 自律型スターヤード
-  - Language: Polish
-    String: Autonomiczna stocznia
-  - Language: Portuguese_Brazil
-    String: Astroleiro Autônomo
-  - Language: ChineseSimplified
-    String: 自动化造船厂
+  Value: Autonomous Staryard
 Keywords:
 - 2253D1:Starfield.esm
 - 08A8F9:Starfield.esm
 - 01674D:Starfield.esm
-UnknownDATA2: 16
+Faction:
+  UnknownDATA2: 16
 ParentLocation: 01A988:Starfield.esm
 WorldLocationRadius: 0
 ActorFadeMult: 1

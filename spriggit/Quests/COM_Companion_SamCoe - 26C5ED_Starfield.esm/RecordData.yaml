@@ -1,111 +1,56 @@
 FormKey: 26C5ED:Starfield.esm
 EditorID: COM_Companion_SamCoe
-FormVersion: 559
+FormVersion: 576
 VirtualMachineAdapter:
   Scripts:
   - Name: com_companionquestscript
     Properties:
     - MutagenObjectType: ScriptObjectProperty
-      Name: CompanionCheckPerk
-      Object: 1C514D:Starfield.esm
+      Name: COM_CommitmentQuest_Started
+      Object: 030167:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: PersonalQuest
-      Object: 263262:Starfield.esm
+      Name: SQ_Companions
+      Object: 2A567C:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: SQ_Followers
-      Object: 00D773:Starfield.esm
+      Name: COM_FlirtCount
+      Object: 2C8E56:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: COM_CommitmentDesired
-      Object: 27B78B:Starfield.esm
+      Name: Companion_Andreja
+      Object: 0059A7:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CommitmentQuest
+      Object: 0DF7AD:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_PersonalQuest_Finished
+      Object: 073743:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: COM_IsCommitted
       Object: 27B78C:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: COM_FlirtCooldownDays
-      Object: 1EA0D5:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: COM_AngerSecondChances
-      Object: 2C7AE7:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
       Name: COM_FlirtCooldownExpiry
       Object: 1EA0D6:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: COM_AffinityLevel_2_Affection
-      Object: 00D84E:Starfield.esm
+      Name: COM_CurrentStoryGateTimerExpired
+      Object: 2B9007:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_AngerCoolDownTimerExpired
+      Object: 2C8DF2:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_StarbornSaveActorValue_MaxStoryGate
+      Object: 31C39C:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_PlayerShipInteriorLocation
       Object: 26C5ED:Starfield.esm
       Alias: 3
     - MutagenObjectType: ScriptObjectProperty
-      Name: COM_AngerCoolDownTimerExpired
-      Object: 2C8DF2:Starfield.esm
+      Name: WantsToTalkConditionForm
+      Object: 2BCB91:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: COM_AngerSceneCompleted
       Object: 2C7AE3:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_PlayerShipCrewMarker
-      Object: 26C5ED:Starfield.esm
-      Alias: 2
-    - MutagenObjectType: ScriptObjectProperty
-      Name: WantsToTalkAnnouncementScene
-      Object: 26BDB4:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: WantsToTalkConditionForm
-      Object: 2BCB91:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: COM_Event_PlayerBecomesRomantic_AndrejaJealous
-      Object: 3EAD2E:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: COM_IsRomantic
-      Object: 2BFAB9:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: COM_CommitmentRefusedPermanently
-      Object: 2B5ED0:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: COM_CommitmentPossible
-      Object: 03016D:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Companion_Andreja
-      Object: 0059A7:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: COM_FlirtCount
-      Object: 2C8E56:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: COM_HasBeenRomantic
-      Object: 2B4321:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: COM_CurrentStoryGateTimerExpired
-      Object: 2B9007:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: COM_CommitmentQuest_Started
-      Object: 030167:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: COM_PersonalQuest_Finished
-      Object: 073743:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: COM_StarbornSaveActorValue_MaxStoryGate
-      Object: 31C39C:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: COM_PersonalQuest_Started
-      Object: 073742:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: COM_AffinityLevel_3_Commitment
-      Object: 2B5EC9:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CommitmentQuest
-      Object: 0DF7AD:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: COM_StoryGatesCompleted
-      Object: 2B9006:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Companion
-      Object: 26C5ED:Starfield.esm
-      Alias: 0
-    - MutagenObjectType: ScriptObjectListProperty
-      Name: PrioritizedAngerReasons
-      Objects:
-      - Name: ''
-        Object: 2C2A36:Starfield.esm
+      Name: PersonalQuest
+      Object: 263262:Starfield.esm
     - MutagenObjectType: ScriptStructListProperty
       Name: StoryGateData
       Structs:
@@ -166,11 +111,66 @@ VirtualMachineAdapter:
           Name: TimerDuration
           Object: 2B9017:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: SQ_Companions
-      Object: 2A567C:Starfield.esm
+      Name: COM_AffinityLevel_3_Commitment
+      Object: 2B5EC9:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_CommitmentRefusedPermanently
+      Object: 2B5ED0:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_HasBeenRomantic
+      Object: 2B4321:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_Event_PlayerBecomesRomantic_AndrejaJealous
+      Object: 3EAD2E:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: WantsToTalkAnnouncementScene
+      Object: 26BDB4:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_StoryGatesCompleted
+      Object: 2B9006:Starfield.esm
+    - MutagenObjectType: ScriptObjectListProperty
+      Name: PrioritizedAngerReasons
+      Objects:
+      - Name: ''
+        Object: 2C2A36:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_AngerSecondChances
+      Object: 2C7AE7:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_IsRomantic
+      Object: 2BFAB9:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CompanionCheckPerk
+      Object: 1C514D:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_FlirtCooldownDays
+      Object: 1EA0D5:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_AffinityLevel_2_Affection
+      Object: 00D84E:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_PlayerShipCrewMarker
+      Object: 26C5ED:Starfield.esm
+      Alias: 2
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_PersonalQuest_Started
+      Object: 073742:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Companion
+      Object: 26C5ED:Starfield.esm
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_CommitmentDesired
+      Object: 27B78B:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: COM_FlirtChoice
       Object: 1EA0D4:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_Followers
+      Object: 00D773:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_CommitmentPossible
+      Object: 03016D:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: COM_AffinityLevel_1_Friendship
       Object: 00D84F:Starfield.esm
@@ -303,25 +303,7 @@ VirtualMachineAdapter:
     FragmentName: Fragment_Stage_0825_Item_00
 Name:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: Begleiter – Sam Coe
-  - Language: English
-    String: Companion - Sam Coe
-  - Language: Spanish
-    String: 'Acompañante: Sam Coe'
-  - Language: French
-    String: Compagnon - Sam Coe
-  - Language: Italian
-    String: Compagno - Sam Coe
-  - Language: Japanese
-    String: 仲間 - サム・コー
-  - Language: Polish
-    String: 'Towarzysz: Sam Coe'
-  - Language: Portuguese_Brazil
-    String: Companheiro - Sam Coe
-  - Language: ChineseSimplified
-    String: 同伴 - 萨姆·科尔
+  Value: Companion - Sam Coe
 Data:
   Flags:
   - StartGameEnabled
@@ -336,8 +318,7 @@ DialogConditions:
 - MutagenObjectType: ConditionFloat
   Flags:
   - OR
-  Unknown1: 0x8C1400
-  Unknown2: 16650
+  Unknown2: 16658
   Data:
     MutagenObjectType: GetIsAliasRefConditionData
   ComparisonValue: 1
@@ -691,32 +672,13 @@ Objectives:
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Sprich mit Sam Coe.
-    - Language: English
-      String: Talk with Sam Coe
-    - Language: Spanish
-      String: Habla con Sam Coe.
-    - Language: French
-      String: Parlez à Sam Coe.
-    - Language: Italian
-      String: Parla con Sam Coe
-    - Language: Japanese
-      String: サム・コーと話す
-    - Language: Polish
-      String: Porozmawiaj z Samem Coe
-    - Language: Portuguese_Brazil
-      String: Fale com Sam Coe
-    - Language: ChineseSimplified
-      String: 与萨姆·科尔对话
+    Value: Talk with Sam Coe
   Targets:
   - {}
   - AliasID: 4
     Conditions:
     - MutagenObjectType: ConditionFloat
       CompareOperator: GreaterThanOrEqualTo
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetDistanceConditionData
         RunOnType: QuestAlias
@@ -726,7 +688,6 @@ Objectives:
       ComparisonValue: 7
     - MutagenObjectType: ConditionFloat
       CompareOperator: GreaterThanOrEqualTo
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetDistanceConditionData
         RunOnType: QuestAlias
@@ -734,14 +695,12 @@ Objectives:
         UseAliases: True
       ComparisonValue: 15
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 26C5ED:Starfield.esm
         SecondParameter: 799
       ComparisonValue: 1
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 26C5ED:Starfield.esm
@@ -750,75 +709,21 @@ Objectives:
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Sprich in der Nähe von Cora mit Sam Coe.
-    - Language: English
-      String: Talk to Sam near Cora
-    - Language: Spanish
-      String: Habla con Sam Coe cerca de Cora.
-    - Language: French
-      String: Parlez à Sam Coe près de Cora.
-    - Language: Italian
-      String: Parla con Sam in presenza di Cora
-    - Language: Japanese
-      String: コラの近くでサムと話す
-    - Language: Polish
-      String: Porozmawiaj z Samem przy Corze
-    - Language: Portuguese_Brazil
-      String: Fale com Sam Coe perto de Cora
-    - Language: ChineseSimplified
-      String: 与科拉旁边的萨姆交谈
+    Value: Talk to Sam near Cora
   Targets:
   - AliasID: 4
 - Index: 801
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Sprich mit Cora Coe.
-    - Language: English
-      String: Talk with Cora Coe
-    - Language: Spanish
-      String: Habla con Cora Coe.
-    - Language: French
-      String: Parlez à Cora Coe.
-    - Language: Italian
-      String: Parla con Cora Coe
-    - Language: Japanese
-      String: コラ・コーと話す
-    - Language: Polish
-      String: Porozmawiaj z Corą Coe
-    - Language: Portuguese_Brazil
-      String: Fale com Cora Coe
-    - Language: ChineseSimplified
-      String: 与科拉·科尔交谈
+    Value: Talk with Cora Coe
   Targets:
   - AliasID: 4
 - Index: 802
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Sprich mit Sam Coe.
-    - Language: English
-      String: Talk with Sam Coe
-    - Language: Spanish
-      String: Habla con Sam Coe.
-    - Language: French
-      String: Parlez à Sam Coe.
-    - Language: Italian
-      String: Parla con Sam Coe
-    - Language: Japanese
-      String: サム・コーと話す
-    - Language: Polish
-      String: Porozmawiaj z Samem Coe
-    - Language: Portuguese_Brazil
-      String: Fale com Sam Coe
-    - Language: ChineseSimplified
-      String: 与萨姆·科尔交谈
+    Value: Talk with Sam Coe
   Targets:
   - {}
 Aliases:
@@ -874,4 +779,3 @@ Aliases:
   ALFG: 0
   ForcedReference: 21D003:Starfield.esm
   VoiceTypes: Null
-Timestamp: 12497

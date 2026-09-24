@@ -1,0 +1,144 @@
+FormKey: 00D175:Starfield.esm
+IsCompressed: True
+MajorRecordFlagsRaw: 262144
+EditorID: PackInShipPISMODHabStroudLivingSpace2L1W1HAIntStorageCell
+FormVersion: 576
+StarfieldMajorRecordFlags:
+- Compressed
+Flags:
+- IsInteriorCell
+Lighting:
+  AmbientColor: '#00000000'
+  DirectionalColor: '#00000000'
+  FogNearColor: '#00000000'
+  DirectionalFade: 1
+  FogPower: 1
+  FogFarColor: '#00000000'
+  FogMax: 1
+  Unknown1: 1951
+  NearHeightRange: 10000
+  ForColorHighNear: '#00000000'
+  ForColorHighFar: '#00000000'
+  HighDensityScale: 1
+  FogNearScale: 1
+  FogFarScale: 1
+  FogHighNearScale: 1
+  FogHighFarScale: 1
+  FarHeightRange: 10000
+  Unknown2: -1414812925
+LightingTemplate: Null
+WaterHeight: 3.4028235E+38
+XILS: 1
+XCLAs:
+- XCLA: 1
+  XCLD: Default Layer Name 1
+- XCLA: 2
+  XCLD: Default Layer Name 2
+- XCLA: 3
+  XCLD: Default Layer Name 3
+- XCLA: 4
+  XCLD: Default Layer Name 4
+ImageSpace: 06AD68:Starfield.esm
+UnknownGroupData: 1
+TemporaryUnknownGroupData: 1
+Temporary:
+- MutagenObjectType: PlacedObject
+  FormKey: 21809F:Starfield.esm
+  MajorRecordFlagsRaw: 2048
+  FormVersion: 576
+  StarfieldMajorRecordFlags:
+  - InitiallyDisabled
+  Base: 3C6C49:Starfield.esm
+  Primitive:
+    Bounds: 12.983841, 2, 6.9228625
+    Color: '#0000FFFF'
+    Unknown: 0.3
+    Type: Plane
+  Layer: 0758E3:Starfield.esm
+  Position: 0.12848091, 8.2916155, 1.1784437
+  Rotation: 1.5707964, -0, 0
+- MutagenObjectType: PlacedObject
+  FormKey: 21809C:Starfield.esm
+  MajorRecordFlagsRaw: 2048
+  FormVersion: 576
+  StarfieldMajorRecordFlags:
+  - InitiallyDisabled
+  Base: 3C6C49:Starfield.esm
+  Primitive:
+    Bounds: 13.796297, 2, 6.3172874
+    Color: '#0000FFFF'
+    Unknown: 0.3
+    Type: Plane
+  Layer: 0758E3:Starfield.esm
+  Position: -6.2516913, 1.8012638, 2.7019582
+  Rotation: -1.5708007, 1.558405, 3.1415877
+- MutagenObjectType: PlacedObject
+  FormKey: 218099:Starfield.esm
+  MajorRecordFlagsRaw: 2048
+  FormVersion: 576
+  StarfieldMajorRecordFlags:
+  - InitiallyDisabled
+  Base: 3C6C49:Starfield.esm
+  Primitive:
+    Bounds: 13.796297, 2, 6.3172874
+    Color: '#0000FFFF'
+    Unknown: 0.3
+    Type: Plane
+  Layer: 0758E3:Starfield.esm
+  Position: 4.026031, -0.46249416, 1.3714052
+  Rotation: -1.5708007, 1.558405, 3.1415877
+- MutagenObjectType: PlacedObject
+  FormKey: 21809A:Starfield.esm
+  MajorRecordFlagsRaw: 2048
+  FormVersion: 576
+  StarfieldMajorRecordFlags:
+  - InitiallyDisabled
+  Base: 3C6C49:Starfield.esm
+  Primitive:
+    Bounds: 13.796297, 2, 6.3172874
+    Color: '#0000FFFF'
+    Unknown: 0.3
+    Type: Plane
+  Layer: 0758E3:Starfield.esm
+  Position: -3.990528, 0.25760078, 1.8695945
+  Rotation: -1.5708007, 1.558405, 3.1415877
+- MutagenObjectType: PlacedObject
+  FormKey: 21809D:Starfield.esm
+  MajorRecordFlagsRaw: 2048
+  FormVersion: 576
+  StarfieldMajorRecordFlags:
+  - InitiallyDisabled
+  Base: 3C6C49:Starfield.esm
+  Primitive:
+    Bounds: 13.796297, 2, 6.3172874
+    Color: '#0000FFFF'
+    Unknown: 0.3
+    Type: Plane
+  Layer: 0758E3:Starfield.esm
+  Position: -0.57898855, -0.015843846, 1.8695941
+  Rotation: 1.5707965, -0, 0
+- MutagenObjectType: PlacedObject
+  FormKey: 21809E:Starfield.esm
+  MajorRecordFlagsRaw: 2048
+  FormVersion: 576
+  StarfieldMajorRecordFlags:
+  - InitiallyDisabled
+  Base: 3C6C49:Starfield.esm
+  Primitive:
+    Bounds: 12.983841, 2, 6.9228625
+    Color: '#0000FFFF'
+    Unknown: 0.3
+    Type: Plane
+  Layer: 0758E3:Starfield.esm
+  Position: -0.5302156, -8.156115, 1.565645
+  Rotation: 1.5707964, -0, 0
+- MutagenObjectType: PlacedObject
+  FormKey: 1D617C:Starfield.esm
+  FormVersion: 576
+  Base: 25E8E6:Starfield.esm
+  LinkedReferences:
+  - KeywordOrReference: 1DB867:Starfield.esm
+    Reference: 3C1541:Starfield.esm
+  Position: 0.0138938725, -5.469475, -1.25
+MajorFlags:
+- 0x40000

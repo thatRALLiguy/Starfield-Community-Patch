@@ -1,0 +1,15 @@
+FormKey: 245772:Starfield.esm
+EditorID: ResMfg_Tier01_TauGradeRheostat
+FormVersion: 576
+Name:
+  TargetLanguage: English
+  Value: Tau Grade Rheostat
+Keywords:
+- 0424A8:Starfield.esm
+- 23CEB6:Starfield.esm
+Rarity: Uncommon
+SurfaceColor: '#003B424A'
+ResourceType: TauGradeRheostat
+ActorValue: 245792:Starfield.esm
+Produce: 245773:Starfield.esm
+Interval: 14E924:Starfield.esm

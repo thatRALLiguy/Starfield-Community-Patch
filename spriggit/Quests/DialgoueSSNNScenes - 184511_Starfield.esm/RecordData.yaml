@@ -1,27 +1,9 @@
 FormKey: 184511:Starfield.esm
 EditorID: DialgoueSSNNScenes
-FormVersion: 559
+FormVersion: 576
 Name:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: SNN News Story Scenes
-  - Language: English
-    String: SSNN News Story Scenes
-  - Language: Spanish
-    String: Escenas de las noticias de la NSC
-  - Language: French
-    String: Scènes d'informations de SOTV
-  - Language: Italian
-    String: SCNN News Story Scenes
-  - Language: Japanese
-    String: SSNNのニュースシーン
-  - Language: Polish
-    String: Sceny z wiadomościami ZUinfo
-  - Language: Portuguese_Brazil
-    String: Cenas de Notícias da ANSC
-  - Language: ChineseSimplified
-    String: 定居新闻台新闻故事场景
+  Value: SSNN News Story Scenes
 Data:
   Flags:
   - StartGameEnabled
@@ -39,4 +21,3 @@ Aliases:
   ALFG: 0
   DisplayName: 0CFDF1:Starfield.esm
   VoiceTypes: Null
-Timestamp: 12497

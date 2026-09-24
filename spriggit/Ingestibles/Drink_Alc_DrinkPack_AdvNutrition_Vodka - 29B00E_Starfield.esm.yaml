@@ -1,6 +1,6 @@
 FormKey: 29B00E:Starfield.esm
 EditorID: Drink_Alc_DrinkPack_AdvNutrition_Vodka
-FormVersion: 559
+FormVersion: 576
 ObjectBounds:
   First: -0.051882323, -0.023651123, 0
   Second: 0.052121583, 0.023773193, 0.14038086
@@ -11,25 +11,7 @@ Transforms:
   Workbench: 03D201:Starfield.esm
 Name:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: Wodka (Trinkpack)
-  - Language: English
-    String: 'Drink Pack: Vodka'
-  - Language: Spanish
-    String: 'Paquete de bebidas: vodka'
-  - Language: French
-    String: Pack Vodka
-  - Language: Italian
-    String: 'Confezione bevanda: vodka'
-  - Language: Japanese
-    String: ドリンクパック：ウォッカ
-  - Language: Polish
-    String: 'Pakiet do picia: wódka'
-  - Language: Portuguese_Brazil
-    String: 'Pacote de Bebidas: Vodca'
-  - Language: ChineseSimplified
-    String: 饮料箱：伏特加
+  Value: 'Drink Pack: Vodka'
 Keywords:
 - 055ECC:Starfield.esm
 - 2CF286:Starfield.esm
@@ -47,25 +29,7 @@ CraftingSound:
   Start: 580e474d-4c10-e197-848f-5a4632615aa7
 Description:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: Standardpack Wodka von Advanced Nutrition.
-  - Language: English
-    String: Advanced Nutrition's standard pack of vodka.
-  - Language: Spanish
-    String: Paquete de vodka estándar de Advanced Nutrition.
-  - Language: French
-    String: Pack de vodka standard Advanced Nutrition.
-  - Language: Italian
-    String: Confezione di vodka standard di Advanced Nutrition.
-  - Language: Japanese
-    String: アドバンスド・ニュートリションのウォッカのスタンダードパック
-  - Language: Polish
-    String: Standardowa wódka Advanced Nutrition.
-  - Language: Portuguese_Brazil
-    String: Pacote padrão de vodca da Advanced Nutrition.
-  - Language: ChineseSimplified
-    String: 先进食品公司的标准包装伏特加。
+  Value: Advanced Nutrition's standard pack of vodka.
 Resources:
 - Resource: 29B02D:Starfield.esm
   Count: 1
@@ -78,6 +42,7 @@ ConsumeSound:
   Start: abcc440c-55e5-bbd4-167f-b9ab79fae3b3
 AddictionName:
   TargetLanguage: English
+  Value: ''
 Effects:
 - BaseEffect: 1BB407:Starfield.esm
   Data:
@@ -112,18 +77,17 @@ Effects:
 - BaseEffect: 2EE936:Starfield.esm
   Data:
     Magnitude: 1
-    Duration: 1200
+    Duration: 1
   Conditions:
   - MutagenObjectType: ConditionFloat
     CompareOperator: GreaterThanOrEqualTo
-    Unknown1: 0x8D1400
-    Unknown2: 16650
+    Unknown2: 16658
     Data:
       MutagenObjectType: GetGlobalValueConditionData
       FirstParameter: 31324C:Starfield.esm
     ComparisonValue: 1
   Magnitude: 2EFD77:Starfield.esm
-  Duration: 313264:Starfield.esm
+  Duration: 2F0AD4:Starfield.esm
   EFIF: 0
   MUID: 5
 - BaseEffect: 2EE4B2:Starfield.esm

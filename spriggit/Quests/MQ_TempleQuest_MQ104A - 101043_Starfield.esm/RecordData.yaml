@@ -1,6 +1,6 @@
 FormKey: 101043:Starfield.esm
 EditorID: MQ_TempleQuest_MQ104A
-FormVersion: 559
+FormVersion: 576
 VirtualMachineAdapter:
   Scripts:
   - Name: defaultquestchangelocationscript
@@ -59,13 +59,55 @@ VirtualMachineAdapter:
   - Name: MQ_Temple_SubScript
     Properties:
     - MutagenObjectType: ScriptObjectProperty
+      Name: TemplePowerTrigger
+      Object: 101043:Starfield.esm
+      Alias: 14
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MUSGenesisStingerStarbornAppearB
+      Object: 1BC2BF:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlanetTrait26GravitationalAnomaly
+      Object: 111F62:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AnomalyMapMarker
+      Object: 101043:Starfield.esm
+      Alias: 5
+    - MutagenObjectType: ScriptObjectProperty
+      Name: OutpostScannerMultiplier
+      Object: 2CBE73:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LvlStarborn_Boss_Aggro
+      Object: 15E245:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ106
+      Object: 021BEF:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
       Name: TempleMapMarker
       Object: 101043:Starfield.esm
       Alias: 6
     - MutagenObjectType: ScriptObjectProperty
+      Name: TempleLocation
+      Object: 101043:Starfield.esm
+      Alias: 3
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlanetWithTrait
+      Object: 101043:Starfield.esm
+      Alias: 2
+    - MutagenObjectType: ScriptIntProperty
+      Name: PowerNumber
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQTempleQuestActive
+      Object: 08691D:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
       Name: PlayerShip
       Object: 101043:Starfield.esm
       Alias: 8
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ_TempleTutorial_DistanceMSG
+      Object: 0328A2:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: StarbornTempleQuest
+      Object: 214707:Starfield.esm
     - MutagenObjectType: ScriptStructListProperty
       Name: TempleScanImods
       Structs:
@@ -97,53 +139,11 @@ VirtualMachineAdapter:
           Name: requiredAngleExtent
           Data: 85
     - MutagenObjectType: ScriptObjectProperty
-      Name: LvlStarborn_Boss_Aggro
-      Object: 15E245:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MUSGenesisStingerStarbornAppearB
-      Object: 1BC2BF:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: TempleLocation
-      Object: 101043:Starfield.esm
-      Alias: 3
-    - MutagenObjectType: ScriptObjectProperty
-      Name: PlanetTrait26GravitationalAnomaly
-      Object: 111F62:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: AnomalyMapMarker
-      Object: 101043:Starfield.esm
-      Alias: 5
-    - MutagenObjectType: ScriptObjectProperty
-      Name: OutpostScannerMultiplier
-      Object: 2CBE73:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
       Name: MQ_TempleQuest_SpawnTemple
       Object: 032898:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: LocTypeMajorOrbital
       Object: 070A54:Starfield.esm
-    - MutagenObjectType: ScriptIntProperty
-      Name: PowerNumber
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ_TempleTutorial_DistanceMSG
-      Object: 0328A2:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ106
-      Object: 021BEF:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: PlanetWithTrait
-      Object: 101043:Starfield.esm
-      Alias: 2
-    - MutagenObjectType: ScriptObjectProperty
-      Name: TemplePowerTrigger
-      Object: 101043:Starfield.esm
-      Alias: 14
-    - MutagenObjectType: ScriptObjectProperty
-      Name: StarbornTempleQuest
-      Object: 214707:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQTempleQuestActive
-      Object: 08691D:Starfield.esm
   Script:
     Name: Fragments:Quests:QF_MQ_TempleQuest_MQ104A_00101043
     Properties:
@@ -253,8 +253,6 @@ Aliases:
   ALFG: 0
   Conditions:
   - MutagenObjectType: ConditionFloat
-    Unknown1: 0x2C8C57
-    Unknown2: 17624
     Data:
       MutagenObjectType: LocationHasKeywordConditionData
       FirstParameter: 20C59F:Starfield.esm

@@ -1,5 +1,5 @@
 FormKey: 1E9FAB:Starfield.esm
-FormVersion: 559
+FormVersion: 576
 Branch: 23B32F:Starfield.esm
 Quest: 23DF2A:Starfield.esm
 AffinityEvent: 00E382:Starfield.esm
@@ -142,4 +142,3 @@ TopicInfoList:
 - 1E9D23:Starfield.esm
 - 1E9D22:Starfield.esm
 - 1E9D21:Starfield.esm
-Timestamp: 12497

@@ -1,0 +1,16 @@
+FormKey: 22462B:Starfield.esm
+EditorID: ResOrgUniqueGastronomicFaunaHerbivore
+FormVersion: 576
+Name:
+  TargetLanguage: English
+  Value: Gastro Delight
+Keywords:
+- 279E39:Starfield.esm
+CraftingSound:
+  Start: 0c3843e3-17df-4b3a-ca59-f5a8a8c0a8a2
+Rarity: Unique
+SurfaceColor: '#00A1E4DB'
+ResourceType: GastronomicDelight
+ActorValue: 22469F:Starfield.esm
+Produce: 224675:Starfield.esm
+Interval: 05EF41:Starfield.esm

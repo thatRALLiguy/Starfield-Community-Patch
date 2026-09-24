@@ -1,6 +1,6 @@
 FormKey: 29B04F:Starfield.esm
 EditorID: Drink_Alc_DrinkPack_Crafted_AlienLiquor
-FormVersion: 559
+FormVersion: 576
 ObjectBounds:
   First: -0.06793213, -0.034973145, -0.0027160645
   Second: 0.070739746, 0.03692627, 0.2163086
@@ -11,25 +11,7 @@ Transforms:
   Workbench: 03D201:Starfield.esm
 Name:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: Xeno-Schnaps
-  - Language: English
-    String: Alien Liquor
-  - Language: Spanish
-    String: Licor alienígena
-  - Language: French
-    String: Liqueur alien
-  - Language: Italian
-    String: Liquore alieno
-  - Language: Japanese
-    String: 異星の酒
-  - Language: Polish
-    String: Ksenoalkohol
-  - Language: Portuguese_Brazil
-    String: Destilado Alienígena
-  - Language: ChineseSimplified
-    String: 外星酒
+  Value: Alien Liquor
 Keywords:
 - 055ECC:Starfield.esm
 - 14253C:Starfield.esm
@@ -47,25 +29,7 @@ CraftingSound:
   Start: 580e474d-4c10-e197-848f-5a4632615aa7
 Description:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: Destillierter Alkohol, gewonnen durch das Fermentieren bestimmter Xeno-Pflanzen.
-  - Language: English
-    String: Distilled alcohol, formed by fermenting certain alien plants.
-  - Language: Spanish
-    String: Alcohol destilado que se forma al fermentar ciertas plantas alienígenas.
-  - Language: French
-    String: De l'alcool distillé, créé à partir de plantes aliens fermentées.
-  - Language: Italian
-    String: Alcol distillato derivante dalla fermentazione di piante aliene.
-  - Language: Japanese
-    String: 異星植物をいくつか発酵させて作った蒸留酒
-  - Language: Polish
-    String: Destylowany alkohol wyprodukowany poprzez fermentację pewnych ksenoroślin.
-  - Language: Portuguese_Brazil
-    String: Álcool destilado criado ao fermentar certas plantas alienígenas.
-  - Language: ChineseSimplified
-    String: 蒸馏酒精，通过将特定的外星植物发酵制成。
+  Value: Distilled alcohol, formed by fermenting certain alien plants.
 Resources:
 - Resource: 29B02D:Starfield.esm
   Count: 1
@@ -78,6 +42,7 @@ ConsumeSound:
   Start: abcc440c-55e5-bbd4-167f-b9ab79fae3b3
 AddictionName:
   TargetLanguage: English
+  Value: ''
 Effects:
 - BaseEffect: 1BB407:Starfield.esm
   Data:
@@ -112,18 +77,17 @@ Effects:
 - BaseEffect: 31325F:Starfield.esm
   Data:
     Magnitude: 1
-    Duration: 3600
+    Duration: 1
   Conditions:
   - MutagenObjectType: ConditionFloat
     CompareOperator: GreaterThanOrEqualTo
-    Unknown1: 0x8D1400
-    Unknown2: 16650
+    Unknown2: 16658
     Data:
       MutagenObjectType: GetGlobalValueConditionData
       FirstParameter: 31324C:Starfield.esm
     ComparisonValue: 1
   Magnitude: 2EFD79:Starfield.esm
-  Duration: 2EE14C:Starfield.esm
+  Duration: 2F0AD4:Starfield.esm
   EFIF: 0
   MUID: 5
 - BaseEffect: 2EE498:Starfield.esm

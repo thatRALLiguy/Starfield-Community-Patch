@@ -1,0 +1,1245 @@
+FormKey: 2250C4:Starfield.esm
+EditorID: City_Neon_Gang03
+FormVersion: 576
+VirtualMachineAdapter:
+  Scripts:
+  - Name: defaultquestchangelocationscript
+    Properties:
+    - MutagenObjectType: ScriptStructListProperty
+      Name: ChangeLocationStages
+      Structs:
+      - Members:
+        - MutagenObjectType: ScriptBoolProperty
+          Name: SetStageOnEnterLocation
+        - MutagenObjectType: ScriptIntProperty
+          Name: PrereqStage
+          Data: 1100
+        - MutagenObjectType: ScriptObjectProperty
+          Name: targetLocationAlias
+          Object: 2250C4:Starfield.esm
+          Alias: 20
+        - MutagenObjectType: ScriptIntProperty
+          Name: StageToSet
+          Data: 9000
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_PlayerShip
+      Object: 0174A2:Starfield.esm
+  - Name: Gang03_Script
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerFaction
+      Object: 01C21C:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Gang03_HangoutsCleared
+      Object: 224FF3:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Gang03_FinaleEntranceMarker
+      Object: 214822:Starfield.esm
+  Script:
+    Name: Fragments:Quests:QF_City_Neon_Gang03_002250C4
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Disciple01Leader
+      Object: 2250C4:Starfield.esm
+      Alias: 9
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerFaction
+      Object: 01C21C:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Disciples_Hangout01
+      Object: 2250C4:Starfield.esm
+      Alias: 15
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Aggression
+      Object: 0002BC:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_BackupSecurity
+      Object: 2250C4:Starfield.esm
+      Alias: 27
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Gang03_OutsideFinalMarker_Vogal
+      Object: 224FEF:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Outfit_Scum_NoHelmet
+      Object: 133D60:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DisciplesGangFaction
+      Object: 29AF30:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Outfit_Clothes_Neon_Security_NoHelmet
+      Object: 133DA2:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Gang03_PostQuestStrikerMarker
+      Object: 12DCAD:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Briggs
+      Object: 2250C4:Starfield.esm
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Disciples_Hangout02
+      Object: 2250C4:Starfield.esm
+      Alias: 16
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Gang03_OutsideFinalMarker_Owen
+      Object: 224FEE:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CrimeFactionNeon
+      Object: 26FDEA:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_StrikerLeaders
+      Object: 2250C4:Starfield.esm
+      Alias: 23
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Gang03_FinaleEntranceMarker
+      Object: 214822:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FFNeonZ10
+      Object: 2E8297:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AnimFlavorCrouching
+      Object: 089DB7:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Vogal
+      Object: 2250C4:Starfield.esm
+      Alias: 3
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Gang03_OutsideFinalMarker_Briggs
+      Object: 224FF1:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_HoltHenley
+      Object: 2250C4:Starfield.esm
+      Alias: 5
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Gang03_Foreknowledge_HelpedStrikersAV
+      Object: 1259E8:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Gang03_0900_OwenArrives
+      Object: 211C0C:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Gang03_OutsideFinalMarker_Hatchet
+      Object: 224FED:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Disciples_Warehouse
+      Object: 2250C4:Starfield.esm
+      Alias: 19
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Gang03_0500_HoltEncounter
+      Object: 224FF8:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Gang03_0400_GangEncounter
+      Object: 224FF9:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_OwenDexler
+      Object: 2250C4:Starfield.esm
+      Alias: 7
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerEnemyFaction
+      Object: 106C2F:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Gang03_OutsideFinalMarker_Aura
+      Object: 224FF0:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Aura
+      Object: 2250C4:Starfield.esm
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Hatchet
+      Object: 2250C4:Starfield.esm
+      Alias: 11
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Disciples_Hangout03
+      Object: 2250C4:Starfield.esm
+      Alias: 17
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AnimFlavorArmsCrossedCasual
+      Object: 0DB9EB:Starfield.esm
+  Fragments:
+  - Stage: 430
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_Neon_Gang03_002250C4
+    FragmentName: Fragment_Stage_0430_Item_00
+  - Stage: 810
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_Neon_Gang03_002250C4
+    FragmentName: Fragment_Stage_0810_Item_00
+  - Stage: 1200
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_Neon_Gang03_002250C4
+    FragmentName: Fragment_Stage_1200_Item_00
+  - Stage: 500
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_Neon_Gang03_002250C4
+    FragmentName: Fragment_Stage_0500_Item_00
+  - Stage: 2
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_Neon_Gang03_002250C4
+    FragmentName: Fragment_Stage_0002_Item_00
+  - Stage: 700
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_Neon_Gang03_002250C4
+    FragmentName: Fragment_Stage_0700_Item_00
+  - Stage: 1000
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_Neon_Gang03_002250C4
+    FragmentName: Fragment_Stage_1000_Item_00
+  - Stage: 400
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_Neon_Gang03_002250C4
+    FragmentName: Fragment_Stage_0400_Item_00
+  - Stage: 100
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_Neon_Gang03_002250C4
+    FragmentName: Fragment_Stage_0100_Item_00
+  - Stage: 1100
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_Neon_Gang03_002250C4
+    FragmentName: Fragment_Stage_1100_Item_00
+  - Stage: 505
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_Neon_Gang03_002250C4
+    FragmentName: Fragment_Stage_0505_Item_00
+  - Stage: 875
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_Neon_Gang03_002250C4
+    FragmentName: Fragment_Stage_0875_Item_00
+  - Stage: 405
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_Neon_Gang03_002250C4
+    FragmentName: Fragment_Stage_0405_Item_00
+  - Stage: 510
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_Neon_Gang03_002250C4
+    FragmentName: Fragment_Stage_0510_Item_00
+  - Stage: 1
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_Neon_Gang03_002250C4
+    FragmentName: Fragment_Stage_0001_Item_00
+  - Stage: 800
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_Neon_Gang03_002250C4
+    FragmentName: Fragment_Stage_0800_Item_00
+  - Stage: 9000
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_Neon_Gang03_002250C4
+    FragmentName: Fragment_Stage_9000_Item_00
+  - Stage: 200
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_Neon_Gang03_002250C4
+    FragmentName: Fragment_Stage_0200_Item_00
+  - Stage: 820
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_Neon_Gang03_002250C4
+    FragmentName: Fragment_Stage_0820_Item_00
+  - Stage: 850
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_Neon_Gang03_002250C4
+    FragmentName: Fragment_Stage_0850_Item_00
+  - Stage: 300
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_Neon_Gang03_002250C4
+    FragmentName: Fragment_Stage_0300_Item_00
+  - Stage: 900
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_Neon_Gang03_002250C4
+    FragmentName: Fragment_Stage_0900_Item_00
+  - Stage: 410
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_Neon_Gang03_002250C4
+    FragmentName: Fragment_Stage_0410_Item_00
+  - Stage: 650
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_Neon_Gang03_002250C4
+    FragmentName: Fragment_Stage_0650_Item_00
+  - Stage: 600
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_Neon_Gang03_002250C4
+    FragmentName: Fragment_Stage_0600_Item_00
+  - Stage: 520
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_Neon_Gang03_002250C4
+    FragmentName: Fragment_Stage_0520_Item_00
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 2250C4:Starfield.esm
+      Alias: 0
+    Scripts:
+    - Name: DefaultAliasOnDeath
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 875
+  - Property:
+      Name: ''
+      Object: 2250C4:Starfield.esm
+      Alias: 3
+    Scripts:
+    - Name: DefaultAliasOnDeath
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 875
+  - Property:
+      Name: ''
+      Object: 2250C4:Starfield.esm
+      Alias: 1
+    Scripts:
+    - Name: DefaultAliasOnDeath
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 875
+  - Property:
+      Name: ''
+      Object: 2250C4:Starfield.esm
+      Alias: 11
+    Scripts:
+    - Name: DefaultAliasOnDeath
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 875
+  - Property:
+      Name: ''
+      Object: 2250C4:Starfield.esm
+      Alias: 5
+    Scripts:
+    - Name: defaultaliasondistancelessthan
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: TargetAlias
+        Object: 2250C4:Starfield.esm
+        Alias: 22
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 505
+      - MutagenObjectType: ScriptFloatProperty
+        Name: TargetDistance
+        Data: 9
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 300
+  - Property:
+      Name: ''
+      Object: 2250C4:Starfield.esm
+      Alias: 9
+    Scripts:
+    - Name: defaultaliasondistancelessthan
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: TargetAlias
+        Object: 2250C4:Starfield.esm
+        Alias: 22
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 405
+      - MutagenObjectType: ScriptFloatProperty
+        Name: TargetDistance
+        Data: 5
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 300
+  - Property:
+      Name: ''
+      Object: 2250C4:Starfield.esm
+      Alias: 15
+    Scripts:
+    - Name: defaultcollectionaliasondeath
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 400
+    - Name: DefaultCollectionAliasOnHit
+      Properties:
+      - MutagenObjectType: ScriptBoolProperty
+        Name: OnFirstRef
+        Data: True
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 430
+      - MutagenObjectType: ScriptBoolProperty
+        Name: PlayerOnly
+        Data: True
+  - Property:
+      Name: ''
+      Object: 2250C4:Starfield.esm
+      Alias: 16
+    Scripts:
+    - Name: defaultcollectionaliasondeath
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 500
+    - Name: DefaultCollectionAliasOnHit
+      Properties:
+      - MutagenObjectType: ScriptBoolProperty
+        Name: OnFirstRef
+        Data: True
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 510
+      - MutagenObjectType: ScriptBoolProperty
+        Name: PlayerOnly
+        Data: True
+  - Property:
+      Name: ''
+      Object: 2250C4:Starfield.esm
+      Alias: 14
+    Scripts:
+    - Name: defaultaliasondistancelessthan
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: TargetAlias
+        Object: 2250C4:Starfield.esm
+        Alias: 22
+      - MutagenObjectType: ScriptFloatProperty
+        Name: TargetDistance
+        Data: 40
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 650
+  - Property:
+      Name: ''
+      Object: 2250C4:Starfield.esm
+      Alias: 17
+    Scripts:
+    - Name: defaultcollectionaliasondeath
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 600
+    - Name: DefaultCollectionAliasOnHit
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 650
+  - Property:
+      Name: ''
+      Object: 2250C4:Starfield.esm
+      Alias: 19
+    Scripts:
+    - Name: defaultcollectionaliasondeath
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 900
+  - Property:
+      Name: ''
+      Object: 2250C4:Starfield.esm
+      Alias: 23
+    Scripts:
+    - Name: defaultcollectionaliasondeath
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 1200
+Name:
+  TargetLanguage: English
+  Value: The Showdown
+Data:
+  Flags:
+  - RunOnce
+  - 0x10000
+  Priority: 50
+  Unused: 0x000000
+QuestType: 047600:Starfield.esm
+TextDisplayGlobals:
+- 224FF3:Starfield.esm
+- 1CEDAC:Starfield.esm
+- 1CEDAD:Starfield.esm
+UnusedConditions: []
+Stages:
+- Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: STAGE 0
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1
+  Flags:
+  - RunOnStart
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: ON START
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 2
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'DEBUG: Finale'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 100
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Received the quest from Briggs
+    Entry:
+      TargetLanguage: English
+      Value: The Ebbside Strikers are finally going to hit the Disciples back. To learn the details, I should speak to Vogal.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 200
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Arranged Armor for the Strikers
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 210
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Convinced Newill
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 220
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'SC Success: Discount on Armor'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 230
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'SC Fail: No discount'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 300
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Talked with Vogal
+    Entry:
+      TargetLanguage: English
+      Value: The Ebbside Strikers are finally going to hit the Disciples back. I need to clear out three hangouts of the Disciples to buy time for Vogal to secure a weapons cache. Briggs also asked me to buy some armor from Newill - he claims he'll pay me back.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 400
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Hangout 1 Dealt with
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 405
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Disciple 1 Leader Talks
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 410
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'Disciple: Speech Success'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 420
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: 'Disciple: Speech Failure'
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 430
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Hangout 1 attacks
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 500
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Hangout 2 Dealt with
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 505
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Holt speaks to player
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 510
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Holt Attacks
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 520
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: PC Agrees to Betray Strikers
+    Entry:
+      TargetLanguage: English
+      Value: I made a deal with the Disciples to betray the Strikers. They've offered me a lot more credits than the Strikers will pay. All I have to do is take out the Strikers and they'll wire payment. It's not too late for me to help the Strikers.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 600
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Hangout 3 Dealt with
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 650
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Got near Hangout 3 - they go hostile
+    ScriptFlagComment: Distance check script on Marker03
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 700
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Hangouts cleared
+    Entry:
+      TargetLanguage: English
+      Value: I dealt with all the Disciple hangouts. Now I need to regroup with the Strikers for the final assault on one of the Disciples bases.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 800
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Spoke to Andrea
+    Entry:
+      TargetLanguage: English
+      Value: It's show time. Time to hit the Disciples back where it hurts.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 810
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Strikers go with player
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 820
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Strikers Port In
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 825
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Striker Move Done
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 850
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Betrayed the Strikers
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 875
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Killed one of the Strikers
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 900
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Defeated all the Disciples
+    Entry:
+      TargetLanguage: English
+      Value: After defeating the Disciples, I heard a commotion downstairs. I should investigate.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1000
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Spoke to Owen Dexler
+    Entry:
+      TargetLanguage: English
+      Value: Neon Security has offered to hire the Strikers to continue to keep the Disciples in check - except officially. Owen Dexler has asked me to make sure Briggs makes the right decision.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1100
+  Unknown: 171
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+    Note: (Complete) Spoke to Briggs
+    Entry:
+      TargetLanguage: English
+      Value: The Strikers are no more. Owen Dexler offered them a job working for Neon Security with the mandate to keep the Disciples in check. It's as happy an ending as you see on Neon.
+    StageCompleteDatas:
+    - QSRD: 0x03000000
+      RewardDatas:
+      - XpAwarded: 23DF34:Starfield.esm
+        BonusCredits: Null
+        Rewards:
+        - Item: 2BCBEB:Starfield.esm
+          Count: 1
+      - XpAwarded: Null
+        BonusCredits: 07950F:Starfield.esm
+        Conditions:
+        - MutagenObjectType: ConditionFloat
+          Data:
+            MutagenObjectType: GetStageDoneConditionData
+            FirstParameter: 2250C4:Starfield.esm
+            SecondParameter: 200
+          ComparisonValue: 1
+      - XpAwarded: Null
+        BonusCredits: Null
+        Rewards:
+        - Item: 2F3B1A:Starfield.esm
+          Count: 1
+    - QSRD: '[]'
+- Index: 1200
+  Unknown: 171
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+    Note: (Complete) Killed all the Strikers
+    Entry:
+      TargetLanguage: English
+      Value: After a lot of credits changing hands, I put down the Strikers for the Disciples. Ebbside's not going to get any better (probably worse) - but I got paid a mint.
+    StageCompleteDatas:
+    - QSRD: 0x02000000
+      RewardDatas:
+      - XpAwarded: 23DF34:Starfield.esm
+        BonusCredits: Null
+        Rewards:
+        - Item: 2BCBEB:Starfield.esm
+          Count: 1
+      - XpAwarded: Null
+        BonusCredits: Null
+        Rewards:
+        - Item: 2F3B1A:Starfield.esm
+          Count: 1
+    - QSRD: '[]'
+- Index: 9000
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: QUEST STOPS
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+Objectives:
+- Index: 200
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: (Optional) Get Armor for the Strikers
+  Targets:
+  - AliasID: 8
+- Index: 300
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Speak to Vogal Fuches
+  Targets:
+  - AliasID: 3
+- Index: 520
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: (Optional) Betray the Strikers
+  Targets:
+  - AliasID: 1
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetDeadConditionData
+  - Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetDeadConditionData
+  - AliasID: 11
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetDeadConditionData
+  - AliasID: 3
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetDeadConditionData
+- Index: 700
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Clear Disciples Hangouts (<global=Gang03_HangoutsCleared>/3)
+  Targets:
+  - AliasID: 15
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 2250C4:Starfield.esm
+        SecondParameter: 400
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 2250C4:Starfield.esm
+        SecondParameter: 430
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetDeadConditionData
+  - AliasID: 16
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 2250C4:Starfield.esm
+        SecondParameter: 510
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetDeadConditionData
+  - AliasID: 14
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 2250C4:Starfield.esm
+        SecondParameter: 650
+  - AliasID: 17
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 2250C4:Starfield.esm
+        SecondParameter: 650
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetDeadConditionData
+  - AliasID: 9
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetDeadConditionData
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 2250C4:Starfield.esm
+        SecondParameter: 400
+  - AliasID: 5
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 2250C4:Starfield.esm
+        SecondParameter: 500
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetDeadConditionData
+- Index: 800
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Speak to Andrea Sandoval
+  Targets:
+  - AliasID: 1
+- Index: 900
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Defeat the Disciples
+  Targets:
+  - AliasID: 19
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      CompareOperator: GreaterThanOrEqualTo
+      Data:
+        MutagenObjectType: GetDeadCountConditionData
+      ComparisonValue: 4
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetDeadConditionData
+  - AliasID: 18
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetIsCurrentLocationConditionData
+        RunOnType: Reference
+        Reference: 000014:Starfield.esm
+        UseAliases: True
+        FirstParameter: 2181155
+- Index: 1000
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Speak to Owen Dexler
+  Targets:
+  - AliasID: 7
+- Index: 1100
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Speak to Briggs
+  Targets:
+  - {}
+- Index: 1200
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Kill the Striker Leaders
+  Targets:
+  - AliasID: 1
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetDeadConditionData
+  - Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetDeadConditionData
+  - AliasID: 11
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetDeadConditionData
+  - AliasID: 3
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetDeadConditionData
+Aliases:
+- MutagenObjectType: QuestLocationAlias
+  ID: 21
+  Name: NeonCityLocation
+  Flags:
+  - AllowReserved
+  - AllowCleared
+  ALFG: 0
+  SpecificLocation: 015FFE:Starfield.esm
+- MutagenObjectType: QuestLocationAlias
+  ID: 20
+  Name: FinaleWarehouseLocation
+  Flags:
+  - ReservesLocationOrReference
+  - AllowReserved
+  - AllowCleared
+  ALFG: 0
+  SpecificLocation: 214823:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  Name: Briggs
+  Flags:
+  - AllowReuseInQuest
+  ALFG: 0
+  UniqueActor: 229E63:Starfield.esm
+  PackageData:
+  - 211C0D:Starfield.esm
+  - 176250:Starfield.esm
+  - 211C0E:Starfield.esm
+  - 12DCB2:Starfield.esm
+  ScriptComment: 875
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 3
+  Name: Vogal
+  Flags:
+  - AllowReuseInQuest
+  ALFG: 0
+  UniqueActor: 229E65:Starfield.esm
+  PackageData:
+  - 17623E:Starfield.esm
+  - 211C0E:Starfield.esm
+  - 12DCB2:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 1
+  Name: Andrea
+  Flags:
+  - AllowReuseInQuest
+  ALFG: 0
+  UniqueActor: 229E5E:Starfield.esm
+  PackageData:
+  - 211C0F:Starfield.esm
+  - 211C0E:Starfield.esm
+  - 12DCB2:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 11
+  Name: Hatchet
+  Flags:
+  - AllowReuseInQuest
+  ALFG: 0
+  UniqueActor: 229E61:Starfield.esm
+  PackageData:
+  - 17622D:Starfield.esm
+  - 211C0E:Starfield.esm
+  - 12DCB2:Starfield.esm
+  ScriptComment: 875
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 8
+  Name: JamesNewill
+  Flags:
+  - Optional
+  ALFG: 0
+  UniqueActor: 2C4884:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 5
+  Name: HoltHenley
+  Flags:
+  - AllowDisabled
+  ALFG: 0
+  UniqueActor: 224FF7:Starfield.esm
+  PackageData:
+  - 211C18:Starfield.esm
+  ScriptComment: 505
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 7
+  Name: OwenDexler
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  ALFG: 0
+  UniqueActor: 26FDD8:Starfield.esm
+  PackageData:
+  - 176254:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 12
+  Name: Marker_Hangout01
+  Flags: []
+  ALFG: 0
+  ForcedReference: 21481A:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 9
+  Name: Disciple01Leader
+  Flags:
+  - AllowDisabled
+  - InitiallyDisabled
+  - CreateRefTemp
+  ALFG: 0
+  CreateReferenceToObject:
+    Object: 11687F:Starfield.esm
+    AliasID: 12
+  PackageData:
+  - 0F65F1:Starfield.esm
+  - 0B1124:Starfield.esm
+  ScriptComment: 405
+  VoiceTypes: Null
+- MutagenObjectType: QuestCollectionAlias
+  Collection:
+  - ID: 15
+    MaxInitialFillCount: 20
+    ALAM: 0
+    ReferenceAlias:
+      ID: 15
+      Name: Disciples_Hangout01
+      Flags:
+      - AllowDisabled
+      - UsesStoredText
+      ALFG: 0
+      Location:
+        AliasID: 21
+        RefType: 214821:Starfield.esm
+      PackageData:
+      - 0F65F1:Starfield.esm
+      - 0B1124:Starfield.esm
+      ScriptComment: >-
+        400
+
+        On Hit: 430
+      VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 13
+  Name: Marker_Hangout02
+  Flags: []
+  ALFG: 0
+  ForcedReference: 21481E:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestCollectionAlias
+  Collection:
+  - ID: 16
+    MaxInitialFillCount: 20
+    ALAM: 0
+    ReferenceAlias:
+      ID: 16
+      Name: Disciples_Hangout02
+      Flags:
+      - AllowDisabled
+      - UsesStoredText
+      ALFG: 0
+      Location:
+        AliasID: 21
+        RefType: 214820:Starfield.esm
+      PackageData:
+      - 211C18:Starfield.esm
+      ScriptComment: >-
+        500
+
+        On Hit: 510
+      VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 14
+  Name: Marker_Hangout03
+  Flags: []
+  ALFG: 0
+  ForcedReference: 214816:Starfield.esm
+  Factions:
+  - 03E0C8:Starfield.esm
+  ScriptComment: 650
+  VoiceTypes: Null
+- MutagenObjectType: QuestCollectionAlias
+  Collection:
+  - ID: 17
+    MaxInitialFillCount: 20
+    ALAM: 0
+    ReferenceAlias:
+      ID: 17
+      Name: Disciples_Hangout03
+      Flags:
+      - AllowDisabled
+      - UsesStoredText
+      ALFG: 0
+      Location:
+        AliasID: 21
+        RefType: 21481F:Starfield.esm
+      PackageData:
+      - 211C18:Starfield.esm
+      ScriptComment: >-
+        600
+
+        On Hit: 650
+      VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 18
+  Name: Marker_Warehouse
+  Flags: []
+  ALFG: 0
+  ForcedReference: 214822:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestCollectionAlias
+  Collection:
+  - ID: 19
+    MaxInitialFillCount: 50
+    ALAM: 0
+    ReferenceAlias:
+      ID: 19
+      Name: Disciples_Warehouse
+      Flags:
+      - Optional
+      - AllowReuseInQuest
+      - AllowDead
+      - AllowDisabled
+      - AllowReserved
+      - AllowDestroyed
+      - UsesStoredText
+      - InitiallyDisabled
+      - CreateRefTemp
+      - 0x2000000
+      ALFG: 0
+      Location:
+        AliasID: 20
+        RefType: 21482C:Starfield.esm
+      DisplayName: 21482D:Starfield.esm
+      Factions:
+      - 106C2F:Starfield.esm
+      ScriptComment: 900
+      VoiceTypes: Null
+- MutagenObjectType: QuestCollectionAlias
+  Collection:
+  - ID: 27
+    MaxInitialFillCount: 3
+    ALAM: 0
+    ReferenceAlias:
+      ID: 27
+      Name: BackupSecurity
+      Flags:
+      - Optional
+      - AllowDisabled
+      ALFG: 0
+      Location:
+        AliasID: 20
+        RefType: 07828B:Starfield.esm
+      PackageData:
+      - 03AC4A:Starfield.esm
+      VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 22
+  Name: Player
+  Flags: []
+  ALFG: 0
+  UniqueActor: 000007:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestCollectionAlias
+  Collection:
+  - ID: 23
+    MaxInitialFillCount: 1
+    ALAM: 0
+    ReferenceAlias:
+      ID: 23
+      Name: StrikerLeaders
+      Flags:
+      - Optional
+      - AllowReuseInQuest
+      ALFG: 0
+      ScriptComment: 1200
+      VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 24
+  Name: Companion
+  Flags:
+  - Optional
+  - ExternalAliasLinked
+  - IsCompanion
+  - OptionalAllScenes
+  ALFG: 0
+  External:
+    Quest: 2A567C:Starfield.esm
+    AliasID: 0
+  VoiceTypes: Null

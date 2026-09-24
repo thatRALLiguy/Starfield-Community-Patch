@@ -1,6 +1,10 @@
 FormKey: 30D630:Starfield.esm
+IsCompressed: True
+MajorRecordFlagsRaw: 262144
 EditorID: Neon_Announcer_07_Legrande_AUDIOONLY_NoAppearanceData
-FormVersion: 559
+FormVersion: 576
+StarfieldMajorRecordFlags:
+- Compressed
 ObjectBounds:
   First: -0.31000048, -0.31000048, -4.7683716E-07
   Second: 0.31000048, 0.31000048, 1.8000004
@@ -46,25 +50,7 @@ Packages:
 Class: 01326B:Starfield.esm
 Name:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: Legrande's Liquors
-  - Language: English
-    String: Legrande's Liquors
-  - Language: Spanish
-    String: Legrande's Liquors
-  - Language: French
-    String: Spiritueux Legrande
-  - Language: Italian
-    String: Legrande’s Liquors
-  - Language: Japanese
-    String: レグランズ・リカーズ
-  - Language: Polish
-    String: Legrande's Liquors
-  - Language: Portuguese_Brazil
-    String: Adega Legrande
-  - Language: ChineseSimplified
-    String: 朗格莱德酒业
+  Value: Legrande's Liquors
 CalculatedHealth: 220
 CalculatedActionPoints: 50
 GearedUpWeapons: 1
@@ -81,3 +67,5 @@ MorphBlends:
   Intensity: 0.05
 SkinToneIndex: 0
 Pronoun: Unspecified
+MajorFlags:
+- 0x40000

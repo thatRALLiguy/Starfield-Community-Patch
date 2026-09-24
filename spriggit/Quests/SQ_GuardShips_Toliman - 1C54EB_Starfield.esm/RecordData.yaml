@@ -1,6 +1,6 @@
 FormKey: 1C54EB:Starfield.esm
 EditorID: SQ_GuardShips_Toliman
-FormVersion: 559
+FormVersion: 576
 VirtualMachineAdapter:
   Scripts:
   - Name: defaultquestchangelocationscript
@@ -59,25 +59,7 @@ VirtualMachineAdapter:
     FragmentName: Fragment_Stage_1000_Item_00
 Name:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: 'Dialog: Verbrechen des Wachschiffs'
-  - Language: English
-    String: Guard ship crime dialogue
-  - Language: Spanish
-    String: Diálogo de crimen de nave de defensa
-  - Language: French
-    String: Dialogue de crime du garde de vaisseau
-  - Language: Italian
-    String: Dialogo guardia crimine nave
-  - Language: Japanese
-    String: 警備船の犯罪会話
-  - Language: Polish
-    String: Przestępczy dialog okrętu strażniczego
-  - Language: Portuguese_Brazil
-    String: Diálogo de crime com nave de defesa
-  - Language: ChineseSimplified
-    String: 警备舰犯罪对话
+  Value: Guard ship crime dialogue
 Data:
   Flags:
   - AllowRepeatedStages
@@ -86,16 +68,14 @@ Data:
 Event: CLOC
 DialogConditions:
 - MutagenObjectType: ConditionFloat
-  Unknown1: 0x8C1400
-  Unknown2: 16650
+  Unknown2: 16658
   Data:
     MutagenObjectType: GetIsCurrentLocationConditionData
     FirstParameter: 3D9E19:Starfield.esm
   ComparisonValue: 1
 UnusedConditions:
 - MutagenObjectType: ConditionFloat
-  Unknown1: 0x8C1400
-  Unknown2: 16650
+  Unknown2: 16658
   Data:
     MutagenObjectType: GetEventDataConditionData
     RunOnType: PlayerShip
@@ -103,8 +83,7 @@ UnusedConditions:
     Record: 3D9E19:Starfield.esm
   ComparisonValue: 1
 - MutagenObjectType: ConditionFloat
-  Unknown1: 0x8C1400
-  Unknown2: 16650
+  Unknown2: 16658
   Data:
     MutagenObjectType: GetStageDoneConditionData
     FirstParameter: 2062C3:Starfield.esm
@@ -158,7 +137,7 @@ Aliases:
   ClosestToAlias: 0
   Conditions:
   - MutagenObjectType: ConditionFloat
-    Unknown1: 0x000000
+    Unknown2: 4616
     Data:
       MutagenObjectType: ShipContainsRefConditionData
       FirstParameter: 000014:Starfield.esm
@@ -185,14 +164,12 @@ Aliases:
   ALFG: 0
   Conditions:
   - MutagenObjectType: ConditionFloat
-    Unknown1: 0x000000
     Data:
       MutagenObjectType: IsInSameCurrentLocationAsAliasConditionData
       FirstParameter: 8
       SecondParameter: 070A54:Starfield.esm
     ComparisonValue: 1
   - MutagenObjectType: ConditionFloat
-    Unknown1: 0x000000
     Data:
       MutagenObjectType: LocationHasKeywordConditionData
       FirstParameter: 070A54:Starfield.esm

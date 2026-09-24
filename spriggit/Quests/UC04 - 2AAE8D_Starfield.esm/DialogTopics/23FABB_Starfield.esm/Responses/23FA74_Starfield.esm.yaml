@@ -1,5 +1,5 @@
 FormKey: 23FA74:Starfield.esm
-FormVersion: 559
+FormVersion: 576
 Flags: {}
 Responses:
 - Emotion: 029A41:Starfield.esm
@@ -10,25 +10,7 @@ Responses:
     UnknownFloat: 1.5666667
   Text:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Dann müssen wir das Beste aus dem machen, was wir haben.
-    - Language: English
-      String: Well then, we'll have to make do with the tools we've got.
-    - Language: Spanish
-      String: Entonces habrá que apañarse con las herramientas que tenemos.
-    - Language: French
-      String: Dans ce cas, nous devrons nous contenter des outils dont nous disposons.
-    - Language: Italian
-      String: Beh, ci dovremo arrangiare con quello che abbiamo.
-    - Language: Japanese
-      String: では、現状の戦力でなんとかしましょう
-    - Language: Polish
-      String: W takim razie musimy sobie poradzić z narzędziami, które mamy.
-    - Language: Portuguese_Brazil
-      String: Muito bem, vamos ter que nos virar com as ferramentas à disposição.
-    - Language: ChineseSimplified
-      String: 那好吧，我们现在只能充分利用现有的力量。
+    Value: Well then, we'll have to make do with the tools we've got.
   ScriptNotes: Gravely serious.
   Edits: This is a subjectivce change as both are acceptable.
   AlternateLipText: ''

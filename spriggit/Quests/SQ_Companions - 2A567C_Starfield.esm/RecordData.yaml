@@ -1,0 +1,801 @@
+FormKey: 2A567C:Starfield.esm
+EditorID: SQ_Companions
+FormVersion: 576
+VirtualMachineAdapter:
+  Scripts:
+  - Name: sq_companionsscript
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ActiveEliteCrew
+      Object: 2A567C:Starfield.esm
+      Alias: 25
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_Crew
+      Object: 2A567D:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SleepCompanionRomantic
+      Object: 2A567C:Starfield.esm
+      Alias: 23
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_ActorRoles_SuppressMessages
+      Object: 2073D9:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Active
+      Object: 2A567C:Starfield.esm
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerBedNoReuse
+      Object: 2A567C:Starfield.esm
+      Alias: 24
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Available
+      Object: 2A567C:Starfield.esm
+      Alias: 6
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_AngerReason
+      Object: 2C2A38:Starfield.esm
+    - MutagenObjectType: ScriptStructListProperty
+      Name: AngerLevelData
+      Structs:
+      - Members:
+        - MutagenObjectType: ScriptBoolProperty
+          Name: AutoDismiss
+        - MutagenObjectType: ScriptObjectProperty
+          Name: AngerLevel
+          Object: 010919:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: MessageToDisplay
+          Object: 2C8FF7:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptBoolProperty
+          Name: AutoDismiss
+        - MutagenObjectType: ScriptObjectProperty
+          Name: AngerLevel
+          Object: 01061A:Starfield.esm
+        - MutagenObjectType: ScriptFloatProperty
+          Name: CoolDownTimerDuration
+          Data: 6
+        - MutagenObjectType: ScriptObjectProperty
+          Name: MessageToDisplay
+      - Members:
+        - MutagenObjectType: ScriptBoolProperty
+          Name: AutoDismiss
+          Data: True
+        - MutagenObjectType: ScriptObjectProperty
+          Name: AngerLevel
+          Object: 01061B:Starfield.esm
+        - MutagenObjectType: ScriptFloatProperty
+          Name: CoolDownTimerDuration
+          Data: 24
+        - MutagenObjectType: ScriptObjectProperty
+          Name: MessageToDisplay
+          Object: 2C8FF6:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptBoolProperty
+          Name: AutoDismiss
+          Data: True
+        - MutagenObjectType: ScriptObjectProperty
+          Name: AngerLevel
+          Object: 2AF547:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: MessageToDisplay
+          Object: 2C8FF5:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Crew_CrewTypeElite
+      Object: 270729:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AV_Available
+      Object: 2A9DE0:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PotentialCrewFaction
+      Object: 0143A2:Starfield.esm
+    - MutagenObjectType: ScriptStructListProperty
+      Name: AffinityLevelData
+      Structs:
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: AffinityLevel
+          Object: 00D850:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: MessageToDisplay
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: AffinityLevel
+          Object: 00D84F:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: MessageToDisplay
+          Object: 2BCB8C:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: AffinityLevel
+          Object: 00D84E:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: MessageToDisplay
+          Object: 2BCB8D:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: AffinityLevel
+          Object: 2B5EC9:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: MessageToDisplay
+          Object: 2BCB8E:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_NoSleepTeleportLocation
+      Object: 0015A4:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_PQ_LockedInReminder
+      Object: 0963DF:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_MessageTextReplaceRef
+      Object: 2A567C:Starfield.esm
+      Alias: 26
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SleepCompanionFurniture
+      Object: 2A567C:Starfield.esm
+      Alias: 12
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_AffinityLevel_0_Neutral
+      Object: 00D850:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_AngerReason_Common_0_NotAngry
+      Object: 2C2A37:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_AngerLevel_1_Annoyed
+      Object: 01061A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CommitmentGifts
+      Object: 2A567C:Starfield.esm
+      Alias: 32
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Achievements_Quest
+      Object: 29E183:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_SleepTopic_WakeUpInPlayersBed
+      Object: 2B479A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_AngerReason_Common_3_BreakCommitment
+      Object: 24685D:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_PQ_LockedInCompanion
+      Object: 0963E7:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AvailableMessage
+      Object: 2A6C50:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SleepCompanion
+      Object: 2A567C:Starfield.esm
+      Alias: 9
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_AngerLevel_2_Angry
+      Object: 01061B:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_PQ_LockedInMsg
+      Object: 0963E5:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_PQ_LockedIn
+      Object: 0963E6:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_PQ_AdvancingQuestWarning
+      Object: 0963E8:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_MessageTextReplaceActor
+      Object: 2A567C:Starfield.esm
+      Alias: 20
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_PQ_LockedInReleasedMsg
+      Object: 0963E4:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_Followers
+      Object: 00D773:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_SleepTopic_PlayerWakesUp
+      Object: 2B479B:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_AngerLevel_0_NotAngry
+      Object: 010919:Starfield.esm
+    - MutagenObjectType: ScriptObjectListProperty
+      Name: COM_AngerLevel_EnumGlobals
+      Objects:
+      - Name: ''
+        Object: 010919:Starfield.esm
+      - Name: ''
+        Object: 01061A:Starfield.esm
+      - Name: ''
+        Object: 01061B:Starfield.esm
+      - Name: ''
+        Object: 2AF547:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_IsRomantic
+      Object: 2BFAB9:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_PlayerShip
+      Object: 0174A2:Starfield.esm
+    - MutagenObjectType: ScriptObjectListProperty
+      Name: BedTypeKeywords
+      Objects:
+      - Name: ''
+        Object: 0BC262:Starfield.esm
+      - Name: ''
+        Object: 03ADA2:Starfield.esm
+      - Name: ''
+        Object: 2BE2D9:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_FlirtCount
+      Object: 2C8E56:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_PreventRecalc
+      Object: 3D2EBB:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_Companions
+      Object: 2A567C:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_AffinityLevel_3_Commitment
+      Object: 2B5EC9:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_Traits
+      Object: 146687:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: NotAvailableMessage
+      Object: 2A6C52:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_AngerSceneCompleted
+      Object: 2C7AE3:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: NotActiveMessage
+      Object: 2A6C51:Starfield.esm
+    - MutagenObjectType: ScriptObjectListProperty
+      Name: COM_AngerReason_EnumGlobals
+      Objects:
+      - Name: ''
+        Object: 2C2A37:Starfield.esm
+      - Name: ''
+        Object: 2C2A36:Starfield.esm
+      - Name: ''
+        Object: 2AAE98:Starfield.esm
+      - Name: ''
+        Object: 24685D:Starfield.esm
+    - MutagenObjectType: ScriptStringProperty
+      Name: SubLogName
+      Data: sq_companionsscript
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_AngerLevel
+      Object: 02DA12:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_AffinityLevel_2_Affection
+      Object: 00D84E:Starfield.esm
+    - MutagenObjectType: ScriptStringProperty
+      Name: MainLogName
+      Data: Companions
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_AngerLevel_3_Furious
+      Object: 2AF547:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AV_Active
+      Object: 2A9DDF:Starfield.esm
+    - MutagenObjectType: ScriptObjectListProperty
+      Name: COM_AffinityLevel_EnumGlobals
+      Objects:
+      - Name: ''
+        Object: 00D850:Starfield.esm
+      - Name: ''
+        Object: 00D84F:Starfield.esm
+      - Name: ''
+        Object: 00D84E:Starfield.esm
+      - Name: ''
+        Object: 2B5EC9:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_AffinityLevel
+      Object: 2B5EC8:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ActiveMessage
+      Object: 2A6C4F:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_Affinity
+      Object: 0A1B80:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_AffinityLevel_1_Friendship
+      Object: 00D84F:Starfield.esm
+  - Name: companionaffinityeventsscript
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_Event_Action_HealCompanion
+      Object: 00E38C:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: BEHostileBoardingEncounterKeyword
+      Object: 0BCC27:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_Event_Action_GravityHigh
+      Object: 11FF8C:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_AddictionEffect
+      Object: 02A74C:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_Event_Action_DropUsefulItem
+      Object: 00E389:Starfield.esm
+    - MutagenObjectType: ScriptObjectListProperty
+      Name: DischargeWeapon_WeaponKeywordExceptions
+      Objects:
+      - Name: ''
+        Object: 04A0A4:Starfield.esm
+      - Name: ''
+        Object: 04A0A5:Starfield.esm
+      - Name: ''
+        Object: 05240E:Starfield.esm
+      - Name: ''
+        Object: 1F70DF:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ENV_EnvDamageType_Airborne
+      Object: 1EBE87:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_Event_Action_StealPickpocket
+      Object: 00E39D:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_Event_Action_Harvest_Plant
+      Object: 2A8019:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_Event_Action_Crafting_CreateShipModule
+      Object: 2A38F9:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ActiveEliteCrew
+      Object: 2A567C:Starfield.esm
+      Alias: 25
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_Event_Action_EnvironmentalDamage_Thermal
+      Object: 2A8020:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ENV_EnvDamageType_Corrosive
+      Object: 1EBE86:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Artifact_Power
+      Object: 1EC4E4:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_Event_Action_UseHandScanner
+      Object: 2A8017:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_Event_Action_ZeroG
+      Object: 229404:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_Event_Action_ChemAddiction
+      Object: 00E37F:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ENV_EnvDamageType_Radiation
+      Object: 1EBE85:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_Event_Action_EnvironmentalDamage_Airborne
+      Object: 2A801F:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_Event_Action_PickLock
+      Object: 2A8016:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_Event_Action_Consume_Drugs
+      Object: 2A8011:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_Event_Action_DischargeWeapon
+      Object: 00E387:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_LocationKeywords_VeryHot
+      Object: 17749D:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ENV_EnvDamageType_Thermal
+      Object: 1EBE84:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_DropUsefulItemList
+      Object: 0101DE:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_Event_Action_EnvironmentalDamage_Corrosive
+      Object: 2A801E:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_Event_Action_Swim
+      Object: 00E39E:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_ObjType_Drink
+      Object: 07956D:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_Event_Action_UseWorkbench
+      Object: 00E3A0:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_LocationKeywords_VeryCold
+      Object: 1749EC:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_Event_Action_Steal
+      Object: 00E39C:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_Companions_RecentlyDisembarked
+      Object: 276B0E:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_DropUsefulItemList_Ignored
+      Object: 2483B1:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerShip
+      Object: 2A567C:Starfield.esm
+      Alias: 31
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_Event_Action_Hack
+      Object: 2A8015:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_Event_Action_ShipEmbark
+      Object: 2A38FB:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_Event_Action_Consume_Alcohol
+      Object: 2A8010:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_Event_Action_EnvironmentalHazardWarning
+      Object: 2A801C:Starfield.esm
+    - MutagenObjectType: ScriptObjectListProperty
+      Name: DischargeWeapon_LocationKeywordRequirements
+      Objects:
+      - Name: ''
+        Object: 0234F1:Starfield.esm
+      - Name: ''
+        Object: 0141F2:Starfield.esm
+      - Name: ''
+        Object: 022611:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_ActionEventScriptFilter_CoolDownMinutes
+      Object: 3CE690:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CurrentCompanion
+      Object: 2A567C:Starfield.esm
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_Event_Action_Crafting_Mod_Armor
+      Object: 00E3A3:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_CREW_CND_Comment_TemperatureCommentsAllowed
+      Object: 0CBAA8:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FloraTypeInorganic
+      Object: 222E04:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ENV_EffectTypeEnvironmentalDamageSoak
+      Object: 1EBE83:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_Event_Action_WalkAroundNaked
+      Object: 00E3A1:Starfield.esm
+    - MutagenObjectType: ScriptStructListProperty
+      Name: ImportantSceneData
+      Structs:
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: AliasToCheck
+          Object: 26621E:Starfield.esm
+          Alias: 0
+        - MutagenObjectType: ScriptObjectProperty
+          Name: ImportantScene
+          Object: 1C71BC:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: AliasToCheck
+          Object: 2A39BC:Starfield.esm
+          Alias: 0
+        - MutagenObjectType: ScriptObjectProperty
+          Name: ImportantScene
+          Object: 2A3959:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_IgnoreAffinityEventCooldownOnChangeLocation_Locations
+      Object: 276B03:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_Event_Action_UseStarbornPower
+      Object: 2A801B:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_Event_Action_Crafting_CreateOutpostModule
+      Object: 2A38F8:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_Event_Action_JailComplete
+      Object: 229405:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_Event_Action_Harvest_Mineral
+      Object: 2A8018:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_Event_Action_JumpFromHeight
+      Object: 00E38D:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_Event_Action_GravityLow
+      Object: 11FF8E:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ResourceTypeOrganic
+      Object: 2C5A95:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ActorTypeNPC
+      Object: 013794:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_Event_Action_Harvest_Animal
+      Object: 2A801A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_Event_Action_EnvironmentalDamage_Radiation
+      Object: 2A801D:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_Event_Action_Crafting_Mod_Weapon
+      Object: 00E391:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_Event_Action_LootCorpse
+      Object: 00E38E:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_Event_Action_TempLow
+      Object: 11FF8B:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_Event_Action_Enhance_PlayerChangeAppearance
+      Object: 2A800E:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_Event_Action_Arrival
+      Object: 00E382:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_Event_Action_BecomeOverEncumbered
+      Object: 2A800F:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_Event_Action_TempHigh
+      Object: 11FF8A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ActiveCompanion
+      Object: 2A567C:Starfield.esm
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_Event_Action_Crafting_CreateItem
+      Object: 2A8012:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_ObjType_ChemBad
+      Object: 0A7296:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_Event_Action_ShipBoardingOther
+      Object: 2A8014:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FloraTypeOrganic
+      Object: 222E03:Starfield.esm
+  Script:
+    Name: ''
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 2A567C:Starfield.esm
+      Alias: 0
+    Scripts:
+    - Name: SQ_Companions_ActiveCompanionScript
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: PlayerSkills
+        Object: 2C59E4:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: MQ302b
+        Object: 18AE76:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Skill_Leadership
+        Object: 2C890D:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: COM_AffinityTravelCoolDown
+        Object: 001D22:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: COM_AffinityTravelBonus_PreMQ
+        Object: 001D30:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: COM_AffinityTravelBonus_PostMQ
+        Object: 001D31:Starfield.esm
+Name:
+  TargetLanguage: English
+  Value: Handles various systems for Companions
+Data:
+  Flags:
+  - StartGameEnabled
+  - StartsEnabled
+  - WarnOnAliasFillFailure
+  - 0x80000
+  - 0x100000
+  - 0x400000
+  Priority: 70
+  Unused: 0x000000
+Filter: Followers\SQ\
+UnusedConditions: []
+Stages:
+- Flags:
+  - RunOnStart
+  - KeepInstanceDataFromHereOn
+  Unknown: 115
+Aliases:
+- MutagenObjectType: QuestReferenceAlias
+  Name: ActiveCompanion
+  Flags:
+  - Optional
+  - AllowReuseInQuest
+  - Essential
+  - StoresText
+  - IsCompanion
+  ALFG: 0
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Unknown2: 4616
+    Data:
+      MutagenObjectType: GetInFactionConditionData
+      FirstParameter: 023C01:Starfield.esm
+    ComparisonValue: 1
+  Keywords:
+  - 123DD4:Starfield.esm
+  - 1D03E1:Starfield.esm
+  CombatOverridePackageList: 00D843:Starfield.esm
+  Factions:
+  - 023C01:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestCollectionAlias
+  Collection:
+  - ID: 6
+    ALAM: 0
+    ReferenceAlias:
+      ID: 6
+      Name: availableCompanions
+      Flags:
+      - Optional
+      - AllowReuseInQuest
+      ALFG: 0
+      Factions:
+      - 00D875:Starfield.esm
+      VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 23
+  Name: SleepCompanionRomantic
+  Flags:
+  - Optional
+  - AllowReuseInQuest
+  - MatchingRefInLoadedArea
+  - MatchingRefForActorsOnly
+  ALFG: 0
+  AliasIDToForceIntoWhenFilled: 9
+  ClosestToAlias: 0
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: IsTrueForConditionFormConditionData
+      FirstParameter: 2B59F0:Starfield.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetValueConditionData
+      FirstParameter: 2882233
+    ComparisonValue: 1
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 9
+  Name: SleepCompanion
+  Flags:
+  - Optional
+  - AllowReuseInQuest
+  - MatchingRefInLoadedArea
+  - ForcedByAliases
+  - MatchingRefClosest
+  - MatchingRefForActorsOnly
+  ALFG: 0
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: IsTrueForConditionFormConditionData
+      FirstParameter: 2B59F0:Starfield.esm
+    ComparisonValue: 1
+  Factions:
+  - 17F45B:Starfield.esm
+  PackageData:
+  - 2B59F1:Starfield.esm
+  - 2F8E76:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 24
+  Name: PlayerBedNoReuse
+  Flags:
+  - Optional
+  ALFG: 0
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 12
+  Name: SleepCompanionFurniture
+  Flags:
+  - Optional
+  - MatchingRefInLoadedArea
+  - MatchingRefClosest
+  ALFG: 0
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: IsTrueForConditionFormConditionData
+      FirstParameter: 2B59EF:Starfield.esm
+    ComparisonValue: 1
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 20
+  Name: MessageTextReplaceActor
+  Flags:
+  - Optional
+  - StoresText
+  ALFG: 0
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 26
+  Name: MessageTextReplaceRef
+  Flags:
+  - Optional
+  - StoresText
+  ALFG: 0
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 22
+  Name: AngryWaitOnShipRef
+  Flags:
+  - Optional
+  - ExternalAliasLinked
+  ALFG: 0
+  External:
+    Quest: 0174A2:Starfield.esm
+    AliasID: 6
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 25
+  Name: ActiveEliteCrew
+  Flags:
+  - Optional
+  - ExternalAliasLinked
+  ALFG: 0
+  External:
+    Quest: 2A567D:Starfield.esm
+    AliasID: 30
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 27
+  Name: CoraCoe
+  Flags:
+  - Optional
+  ALFG: 0
+  UniqueActor: 00D653:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestLocationAlias
+  ID: 30
+  Name: WantsToTalkSceneLocation
+  Flags:
+  - Optional
+  - AllowReuseInQuest
+  - AllowReserved
+  - AllowCleared
+  - 0x40000000
+  ALFG: 0
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Unknown2: 43952
+    Data:
+      MutagenObjectType: LocationHasRefTypeConditionData
+      FirstParameter: 1482D5:Starfield.esm
+    ComparisonValue: 1
+  ParentSystemLocationAliasID: -2
+- MutagenObjectType: QuestCollectionAlias
+  Collection:
+  - ID: 29
+    ALAM: 0
+    ReferenceAlias:
+      ID: 29
+      Name: WantsToTalkSceneMarkers
+      Flags:
+      - Optional
+      ALFG: 0
+      Location:
+        AliasID: 30
+        RefType: 1482D5:Starfield.esm
+      VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 31
+  Name: PlayerShip
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - ExternalAliasLinked
+  ALFG: 0
+  External:
+    Quest: 0174A2:Starfield.esm
+    AliasID: 0
+  VoiceTypes: Null
+- MutagenObjectType: QuestCollectionAlias
+  Collection:
+  - ID: 32
+    ALAM: 0
+    ReferenceAlias:
+      ID: 32
+      Name: CommitmentGifts
+      Flags:
+      - Optional
+      - QuestObject
+      ALFG: 0
+      VoiceTypes: Null

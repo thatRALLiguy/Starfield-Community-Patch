@@ -1,22 +1,19 @@
 FormKey: 054B37:Starfield.esm
 EditorID: SQ_Followers_CND_PACK_StandStillDuringDialogueScenes
-FormVersion: 559
+FormVersion: 576
 Conditions:
 - MutagenObjectType: ConditionFloat
-  Unknown1: 0x8D1400
-  Unknown2: 86
+  Unknown2: 16617
   Data:
     MutagenObjectType: IsInDialogueWithPlayerConditionData
   ComparisonValue: 1
 - MutagenObjectType: ConditionFloat
-  Unknown1: 0x8D1400
-  Unknown2: 86
+  Unknown2: 16617
   Data:
     MutagenObjectType: HasLoaded3DConditionData
   ComparisonValue: 1
 - MutagenObjectType: ConditionFloat
-  Unknown1: 0x8D1400
-  Unknown2: 86
+  Unknown2: 16617
   Data:
     MutagenObjectType: GetIsCurrentPackageConditionData
     FirstParameter: 225B31:Starfield.esm

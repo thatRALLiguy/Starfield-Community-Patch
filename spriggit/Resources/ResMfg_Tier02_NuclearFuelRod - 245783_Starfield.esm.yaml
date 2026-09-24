@@ -1,0 +1,17 @@
+FormKey: 245783:Starfield.esm
+EditorID: ResMfg_Tier02_NuclearFuelRod
+FormVersion: 576
+Name:
+  TargetLanguage: English
+  Value: Nuclear Fuel Rod
+Keywords:
+- 0424A6:Starfield.esm
+- 23CEB6:Starfield.esm
+CraftingSound:
+  Start: 8f644ce4-8ff9-5217-90b6-cba2f6b0b18d
+Rarity: Exotic
+SurfaceColor: '#003B424A'
+ResourceType: NuclearFuelRod
+ActorValue: 2457A1:Starfield.esm
+Produce: 2457D1:Starfield.esm
+Interval: 14EB51:Starfield.esm

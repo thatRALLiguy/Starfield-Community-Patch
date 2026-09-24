@@ -1,7 +1,7 @@
 FormKey: 122EAD:Starfield.esm
 MajorRecordFlagsRaw: 536870912
 EditorID: Chem_Craft_SuperMassiveHeart
-FormVersion: 559
+FormVersion: 576
 StarfieldMajorRecordFlags:
 - 0x20000000
 ObjectBounds:
@@ -14,25 +14,7 @@ Transforms:
   Workbench: 2B669B:Starfield.esm
 Name:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: Herz der Schwarzen Supermasse
-  - Language: English
-    String: Supermassive Black Heart
-  - Language: Spanish
-    String: Corazón negro supermasivo
-  - Language: French
-    String: Cœur de trou noir supermassif
-  - Language: Italian
-    String: Cuore nero supermassiccio
-  - Language: Japanese
-    String: スーパーマッシブ・ブラックハート
-  - Language: Polish
-    String: Serce supermasywnej czarnej dziury
-  - Language: Portuguese_Brazil
-    String: Coração de Buraco Negro Supermassivo
-  - Language: ChineseSimplified
-    String: 超大质量黑洞之心
+  Value: Supermassive Black Heart
 Keywords:
 - 0F4AE7:Starfield.esm
 - 11A47A:Starfield.esm
@@ -50,25 +32,7 @@ CraftingSound:
   Start: beb644dc-3806-fc10-b40a-1fd694f5d6b9
 Description:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: Ein seltsames, selbstgemachtes Chem. Wer es einnimmt, kann seine Umgebung wie in „Zeitlupe“ wahrnehmen, gepaart mit extremer Wut.
-  - Language: English
-    String: A strange, homemade chem concoction. Users may experience a "slow motion"-like sensation coupled with intense rage.
-  - Language: Spanish
-    String: Un estupefaciente artesanal con el que experimentar la “ralentización” del tiempo y una ira casi incontrolable.
-  - Language: French
-    String: Une drogue maison étrange qui donne à son consommateur l'impression que le temps ralentit, ainsi qu'une rage intense.
-  - Language: Italian
-    String: Strano intruglio medicinale fatto in casa. Consumarlo può provocare la sensazione di muoversi al “rallentatore” e rabbia intensa.
-  - Language: Japanese
-    String: 奇妙な自家製調合薬。使用者は"スローモーション"のような感覚に加え、激しい怒りを覚えることがある
-  - Language: Polish
-    String: Domowej roboty dziwna mieszanina farmaceutyków. Użytkownicy mogą doświadczyć uczucia spowolnienia czasu oraz intensywnej wściekłości.
-  - Language: Portuguese_Brazil
-    String: Mistura caseira e estranha de químicos. Pode provocar uma sensação similar ao efeito de câmera lenta, assim como fúria intensa.
-  - Language: ChineseSimplified
-    String: 一种奇怪的自制药品混合物。使用后可能会有“慢动作”式的体验，伴随着难以遏制的愤怒情绪。
+  Value: A strange, homemade chem concoction. Users may experience a "slow motion"-like sensation coupled with intense rage.
 Weight: 0.1
 Value: 665
 Flags:
@@ -79,6 +43,7 @@ ConsumeSound:
   Start: 3cd64f9d-032b-d344-2773-c652c620ef98
 AddictionName:
   TargetLanguage: English
+  Value: ''
 Effects:
 - BaseEffect: 122EB7:Starfield.esm
   Data:

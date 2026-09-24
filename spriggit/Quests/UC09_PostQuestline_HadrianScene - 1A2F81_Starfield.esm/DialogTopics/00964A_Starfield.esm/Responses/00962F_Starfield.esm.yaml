@@ -1,5 +1,5 @@
 FormKey: 00962F:Starfield.esm
-FormVersion: 559
+FormVersion: 576
 Flags: {}
 Responses:
 - Emotion: 0C866F:Starfield.esm
@@ -9,25 +9,7 @@ Responses:
     UnknownFloat: 7.833334
   Text:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Die besten Freunde schon!
-    - Language: English
-      String: The best ones certainly do.
-    - Language: Spanish
-      String: Al menos los buenos, sí.
-    - Language: French
-      String: Les meilleurs en tout cas, ça ne fait pas de doute.
-    - Language: Italian
-      String: I migliori lo fanno senz’altro.
-    - Language: Japanese
-      String: 親友ってそういうものよね
-    - Language: Polish
-      String: Ci najlepsi z pewnością.
-    - Language: Portuguese_Brazil
-      String: Os melhores com certeza.
-    - Language: ChineseSimplified
-      String: 最好的朋友之间的确如此。
+    Value: The best ones certainly do.
   ScriptNotes: Referring to the player here.
   Edits: Apostrophes don't make things plural!
   AlternateLipText: ''

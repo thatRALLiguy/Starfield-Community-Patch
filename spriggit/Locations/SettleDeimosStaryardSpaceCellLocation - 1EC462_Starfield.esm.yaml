@@ -1,37 +1,20 @@
 FormKey: 1EC462:Starfield.esm
 EditorID: SettleDeimosStaryardSpaceCellLocation
-FormVersion: 559
+FormVersion: 576
 AddedUniqueBaseForms:
 - GenericBaseForm: 0090B3:Starfield.esm
   Ref: 3120D6:Starfield.esm
   Location: 1EC462:Starfield.esm
 Name:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: Deimos-Sternenwerft
-  - Language: English
-    String: Deimos Staryard
-  - Language: Spanish
-    String: Astillero Deimos
-  - Language: French
-    String: Chantier spatial Deimos
-  - Language: Italian
-    String: Astrocantiere Deimos
-  - Language: Japanese
-    String: ダイモス・スターヤード
-  - Language: Polish
-    String: Deimos Staryard
-  - Language: Portuguese_Brazil
-    String: Astroleiro Deimos
-  - Language: ChineseSimplified
-    String: 火卫二造船厂
+  Value: Deimos Staryard
 Keywords:
 - 2253D1:Starfield.esm
 - 08A8F9:Starfield.esm
 - 3902DC:Starfield.esm
 - 01674D:Starfield.esm
-UnknownDATA2: 16
+Faction:
+  UnknownDATA2: 16
 ParentLocation: 01B73F:Starfield.esm
 WorldLocationRadius: 0
 ActorFadeMult: 1

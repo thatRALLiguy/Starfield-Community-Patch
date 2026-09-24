@@ -1,0 +1,16 @@
+FormKey: 224629:Starfield.esm
+EditorID: ResOrgUniqueImmunostimulantFaunaHerbivore
+FormVersion: 576
+Name:
+  TargetLanguage: English
+  Value: Immunostimulant
+Keywords:
+- 279E37:Starfield.esm
+CraftingSound:
+  Start: beb644dc-3806-fc10-b40a-1fd694f5d6b9
+Rarity: Unique
+SurfaceColor: '#00A1E4DB'
+ResourceType: Immunostimulant
+ActorValue: 22469D:Starfield.esm
+Produce: 224671:Starfield.esm
+Interval: 05EF41:Starfield.esm

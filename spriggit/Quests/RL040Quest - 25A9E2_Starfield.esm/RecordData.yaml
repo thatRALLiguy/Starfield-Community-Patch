@@ -1,6 +1,6 @@
 FormKey: 25A9E2:Starfield.esm
 EditorID: RL040Quest
-FormVersion: 559
+FormVersion: 576
 VirtualMachineAdapter:
   Script:
     Name: Fragments:Quests:QF_RL040Quest_0025A9E2
@@ -49,25 +49,7 @@ VirtualMachineAdapter:
     FragmentName: Fragment_Stage_0030_Item_00
 Name:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: Ungewöhnliches SOS
-  - Language: English
-    String: Unusual SOS
-  - Language: Spanish
-    String: Señal de socorro insólita
-  - Language: French
-    String: SOS insolite
-  - Language: Italian
-    String: SOS insoliti
-  - Language: Japanese
-    String: 異例の救難信号
-  - Language: Polish
-    String: Nietypowe SOS
-  - Language: Portuguese_Brazil
-    String: S.O.S. Incomum
-  - Language: ChineseSimplified
-    String: 异常求救信号
+  Value: Unusual SOS
 Data:
   Flags:
   - RunOnce
@@ -86,25 +68,7 @@ Stages:
     Note: Victim Stage
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Startet Szene mit schreiendem Opfer.
-      - Language: English
-        String: Starts screaming victim scene.
-      - Language: Spanish
-        String: Comienza escena de víctima gritando.
-      - Language: French
-        String: Début de la scène de victime hurlante.
-      - Language: Italian
-        String: Avvia scena vittima che urla.
-      - Language: Japanese
-        String: 被害者の悲鳴シーンを開始します
-      - Language: Polish
-        String: Rozpoczęcie sceny krzyczącej ofiary.
-      - Language: Portuguese_Brazil
-        String: Inicia a cena de vítima gritando.
-      - Language: ChineseSimplified
-        String: 开始尖叫的受害者场景。
+      Value: Starts screaming victim scene.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -115,25 +79,7 @@ Stages:
     Note: Ambush Stage
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Startet Piratenüberfallszene.
-      - Language: English
-        String: Starts pirate ambush scene.
-      - Language: Spanish
-        String: Comienza escena de emboscada pirata.
-      - Language: French
-        String: Début de la scène d'embuscade pirate.
-      - Language: Italian
-        String: Avvia scena imboscata pirata.
-      - Language: Japanese
-        String: 海賊奇襲シーンを開始します
-      - Language: Polish
-        String: Rozpoczęcie sceny zasadzki piratów.
-      - Language: Portuguese_Brazil
-        String: Inicia a cena de emboscada pirata.
-      - Language: ChineseSimplified
-        String: 开始海盗埋伏场景。
+      Value: Starts pirate ambush scene.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -143,25 +89,7 @@ Stages:
     Note: Player Knows
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Spieler hat Funk deaktiviert. Start deaktiviert Funkszene.
-      - Language: English
-        String: Player disabled radio. Start Disables Radio Scene
-      - Language: Spanish
-        String: El jugador ha desactivado la radio. Comienza desactivación de la escena de radio.
-      - Language: French
-        String: Le joueur a désactivé la radio. Début de la scène de radio désactivée.
-      - Language: Italian
-        String: Radio disattivata. Disattiva scena radio all’avvio.
-      - Language: Japanese
-        String: プレイヤーが無線を無効化しました。無線無効化シーンを開始します
-      - Language: Polish
-        String: Gracz wyłączył radio. Rozpoczęcie wyłączy scenę radiową.
-      - Language: Portuguese_Brazil
-        String: O jogador desativou o rádio. Iniciar cena de rádio desativado.
-      - Language: ChineseSimplified
-        String: 玩家已禁用无线电。开始禁用无线电场景
+      Value: Player disabled radio. Start Disables Radio Scene
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -170,25 +98,7 @@ Objectives:
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Geh dem Notruf nach.
-    - Language: English
-      String: Investigate the Distress Call
-    - Language: Spanish
-      String: Investiga la llamada de socorro.
-    - Language: French
-      String: Enquêtez sur le signal de détresse.
-    - Language: Italian
-      String: Indaga sulla richiesta di soccorso
-    - Language: Japanese
-      String: 救難信号を調査する
-    - Language: Polish
-      String: Zbadaj źródło wezwania o pomoc
-    - Language: Portuguese_Brazil
-      String: Investigue o pedido de socorro
-    - Language: ChineseSimplified
-      String: 调查求救信号
+    Value: Investigate the Distress Call
   Targets:
   - AliasID: 3
 Aliases:

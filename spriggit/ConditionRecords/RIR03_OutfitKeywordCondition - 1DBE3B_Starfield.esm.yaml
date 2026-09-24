@@ -1,12 +1,11 @@
 FormKey: 1DBE3B:Starfield.esm
 EditorID: RIR03_OutfitKeywordCondition
-FormVersion: 559
+FormVersion: 576
 Conditions:
 - MutagenObjectType: ConditionFloat
   Flags:
   - OR
-  Unknown1: 0x8D1400
-  Unknown2: 86
+  Unknown2: 16617
   Data:
     MutagenObjectType: WornHasKeywordConditionData
     RunOnType: Reference
@@ -16,8 +15,7 @@ Conditions:
 - MutagenObjectType: ConditionFloat
   Flags:
   - OR
-  Unknown1: 0x8D1400
-  Unknown2: 86
+  Unknown2: 16617
   Data:
     MutagenObjectType: WornHasKeywordConditionData
     RunOnType: Reference
@@ -27,8 +25,7 @@ Conditions:
 - MutagenObjectType: ConditionFloat
   Flags:
   - OR
-  Unknown1: 0x8D1400
-  Unknown2: 86
+  Unknown2: 16617
   Data:
     MutagenObjectType: WornHasKeywordConditionData
     RunOnType: Reference
@@ -38,8 +35,7 @@ Conditions:
 - MutagenObjectType: ConditionFloat
   Flags:
   - OR
-  Unknown1: 0x8D1400
-  Unknown2: 86
+  Unknown2: 16617
   Data:
     MutagenObjectType: WornHasKeywordConditionData
     RunOnType: Reference
@@ -49,8 +45,7 @@ Conditions:
 - MutagenObjectType: ConditionFloat
   Flags:
   - OR
-  Unknown1: 0x8D1400
-  Unknown2: 86
+  Unknown2: 16617
   Data:
     MutagenObjectType: WornHasKeywordConditionData
     RunOnType: Reference
@@ -60,8 +55,7 @@ Conditions:
 - MutagenObjectType: ConditionFloat
   Flags:
   - OR
-  Unknown1: 0x8D1400
-  Unknown2: 86
+  Unknown2: 16617
   Data:
     MutagenObjectType: WornHasKeywordConditionData
     RunOnType: Reference
@@ -71,8 +65,7 @@ Conditions:
 - MutagenObjectType: ConditionFloat
   Flags:
   - OR
-  Unknown1: 0x8D1400
-  Unknown2: 86
+  Unknown2: 16617
   Data:
     MutagenObjectType: WornHasKeywordConditionData
     RunOnType: Reference
@@ -82,8 +75,7 @@ Conditions:
 - MutagenObjectType: ConditionFloat
   Flags:
   - OR
-  Unknown1: 0x8D1400
-  Unknown2: 86
+  Unknown2: 16617
   Data:
     MutagenObjectType: WornHasKeywordConditionData
     RunOnType: Reference
@@ -93,8 +85,7 @@ Conditions:
 - MutagenObjectType: ConditionFloat
   Flags:
   - OR
-  Unknown1: 0x8D1400
-  Unknown2: 86
+  Unknown2: 16617
   Data:
     MutagenObjectType: WornHasKeywordConditionData
     RunOnType: Reference

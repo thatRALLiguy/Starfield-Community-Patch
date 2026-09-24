@@ -1,0 +1,57 @@
+FormKey: 189658:Starfield.esm
+EditorID: SQ_Doctors
+FormVersion: 576
+VirtualMachineAdapter:
+  Scripts:
+  - Name: SQ_DoctorsScript
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: EnvDmg
+      Object: 0002E1:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_Doctors_Price_Wounds
+      Object: 1895F1:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_Doctors_Price_Everything
+      Object: 1895EF:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_Doctors_Price_Afflictions
+      Object: 1895F0:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_Doctors_Price_Addictions
+      Object: 2CD8D1:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_Doctors_CureAll
+      Object: 1880E6:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PrimaryAliasDoctor
+      Object: 189658:Starfield.esm
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CureAddictions
+      Object: 1C9A6A:Starfield.esm
+  Versioning:
+  - Break0
+  ExtraBindDataVersion: 0
+  Script:
+    Name: ''
+Data:
+  Flags:
+  - StartGameEnabled
+  - StartsEnabled
+  - RunOnce
+  - 0x10000
+  Unused: 0x000000
+TextDisplayGlobals:
+- 1895F1:Starfield.esm
+- 1895F0:Starfield.esm
+- 1895EF:Starfield.esm
+- 2CD8D1:Starfield.esm
+UnusedConditions: []
+Aliases:
+- MutagenObjectType: QuestReferenceAlias
+  Name: PrimaryAliasDoctor
+  Flags:
+  - Optional
+  ALFG: 0
+  VoiceTypes: 189604:Starfield.esm

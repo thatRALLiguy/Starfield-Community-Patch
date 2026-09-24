@@ -1,0 +1,62 @@
+FormKey: 2FAA04:Starfield.esm
+EditorID: PEO_ENV_CND_EnvironmentalDamageClearing_Setting_2
+FormVersion: 576
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Unknown2: 16617
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    FirstParameter: 2FAA0A:Starfield.esm
+  ComparisonValue: 2
+- MutagenObjectType: ConditionFloat
+  Unknown2: 16617
+  Data:
+    MutagenObjectType: IsTrueForConditionFormConditionData
+    FirstParameter: 2FAA06:Starfield.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Unknown2: 16617
+  Data:
+    MutagenObjectType: IsTrueForConditionFormConditionData
+    FirstParameter: 2FAA03:Starfield.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Flags:
+  - OR
+  Unknown2: 16617
+  Data:
+    MutagenObjectType: IsTrueForConditionFormConditionData
+    FirstParameter: 0EF1DF:Starfield.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Flags:
+  - OR
+  Unknown2: 16617
+  Data:
+    MutagenObjectType: LocationHasKeywordConditionData
+    FirstParameter: 0234F1:Starfield.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Flags:
+  - OR
+  Unknown2: 16617
+  Data:
+    MutagenObjectType: LocationHasKeywordConditionData
+    FirstParameter: 022611:Starfield.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Flags:
+  - OR
+  Unknown2: 16617
+  Data:
+    MutagenObjectType: LocationHasKeywordConditionData
+    FirstParameter: 2EF272:Starfield.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Flags:
+  - OR
+  Unknown2: 16617
+  Data:
+    MutagenObjectType: GetIsCurrentLocationConditionData
+    FirstParameter: 27C8ED:Starfield.esm
+  ComparisonValue: 1

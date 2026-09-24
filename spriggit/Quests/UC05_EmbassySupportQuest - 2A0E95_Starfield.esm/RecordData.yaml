@@ -1,27 +1,9 @@
 FormKey: 2A0E95:Starfield.esm
 EditorID: UC05_EmbassySupportQuest
-FormVersion: 559
+FormVersion: 576
 Name:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: '[UC05 – Unterstützungsquest]'
-  - Language: English
-    String: '[UC05 Support Quest]'
-  - Language: Spanish
-    String: '[Misión de apoyo UC05]'
-  - Language: French
-    String: '[UC05 Support Quest]'
-  - Language: Italian
-    String: '[Missione di supporto UC05]'
-  - Language: Japanese
-    String: '[UC05 支援クエスト]'
-  - Language: Polish
-    String: '[Zadanie wsparcia ZK05]'
-  - Language: Portuguese_Brazil
-    String: '[Missão Complementar UC05]'
-  - Language: ChineseSimplified
-    String: '[联殖05支援任务]'
+  Value: '[UC05 Support Quest]'
 Data:
   Flags:
   - StartGameEnabled
@@ -52,4 +34,3 @@ Stages:
     - QSRD: 0x00000000
     - QSRD: '[]'
 Aliases: []
-Timestamp: 12497

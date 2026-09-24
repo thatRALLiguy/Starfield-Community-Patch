@@ -1,5 +1,5 @@
 FormKey: 32C7CD:Starfield.esm
-FormVersion: 559
+FormVersion: 576
 Flags: {}
 Responses:
 - Emotion: None
@@ -9,33 +9,14 @@ Responses:
     UnknownFloat: 7.433334
   Text:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Kein Kopfgeld. Okay. Schönen Aufenthalt in Neon.
-    - Language: English
-      String: No bounty. You're clear. Enjoy your stay in Neon.
-    - Language: Spanish
-      String: No te buscan. Puedes pasar. Disfruta de tu estancia en Neón.
-    - Language: French
-      String: Aucun avis de recherche. Vous pouvez y aller. Bon séjour à Néon.
-    - Language: Italian
-      String: Nessuna taglia. Sei a posto. Buon soggiorno a Neon.
-    - Language: Japanese
-      String: 賞金はかかってないわね。どうぞ。ネオンでゆっくりしていって
-    - Language: Polish
-      String: Brak listu gończego. Wszystko w porządku. Miłej wizyty w Neonie.
-    - Language: Portuguese_Brazil
-      String: Sem recompensas. Tudo liberado. Aproveite sua estadia em Neon.
-    - Language: ChineseSimplified
-      String: 没有悬赏，你没事了。祝你在霓虹城待得愉快。
+    Value: No bounty. You're clear. Enjoy your stay in Neon.
   ScriptNotes: ''
   Edits: ''
   AlternateLipText: ''
   TextHash: 0x907340199038D801
 Conditions:
 - MutagenObjectType: ConditionFloat
-  Unknown1: 0x000000
-  Unknown2: 16493
+  Unknown2: 16617
   Data:
     MutagenObjectType: GetInFactionConditionData
     RunOnType: QuestAlias
@@ -43,32 +24,28 @@ Conditions:
     FirstParameter: 26FDEA:Starfield.esm
   ComparisonValue: 1
 - MutagenObjectType: ConditionFloat
-  Unknown1: 0x000000
-  Unknown2: 16493
+  Unknown2: 16617
   Data:
     MutagenObjectType: GetCrimeGoldConditionData
     RunOnType: Reference
     Reference: 000014:Starfield.esm
     FirstParameter: 05BD93:Starfield.esm
 - MutagenObjectType: ConditionFloat
-  Unknown1: 0x000000
-  Unknown2: 16493
+  Unknown2: 16617
   Data:
     MutagenObjectType: GetCrimeGoldConditionData
     RunOnType: Reference
     Reference: 000014:Starfield.esm
     FirstParameter: 0638E5:Starfield.esm
 - MutagenObjectType: ConditionFloat
-  Unknown1: 0x000000
-  Unknown2: 16493
+  Unknown2: 16617
   Data:
     MutagenObjectType: GetCrimeGoldConditionData
     RunOnType: Reference
     Reference: 000014:Starfield.esm
     FirstParameter: 26FDEA:Starfield.esm
 - MutagenObjectType: ConditionFloat
-  Unknown1: 0x000000
-  Unknown2: 16493
+  Unknown2: 16617
   Data:
     MutagenObjectType: GetCrimeGoldConditionData
     RunOnType: Reference
@@ -76,8 +53,7 @@ Conditions:
     FirstParameter: 26310C:Starfield.esm
 - MutagenObjectType: ConditionFloat
   CompareOperator: LessThan
-  Unknown1: 0x000000
-  Unknown2: 16493
+  Unknown2: 16617
   Data:
     MutagenObjectType: IsWeaponOutConditionData
     RunOnType: Reference

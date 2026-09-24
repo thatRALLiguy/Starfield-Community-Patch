@@ -1,0 +1,1932 @@
+FormKey: 07092C:Starfield.esm
+EditorID: SQ_Parent
+FormVersion: 576
+VirtualMachineAdapter:
+  Scripts:
+  - Name: defaulttutorialquestscript
+    Properties:
+    - MutagenObjectType: ScriptStructListProperty
+      Name: TutorialMessageData
+      Structs:
+      - Members:
+        - MutagenObjectType: ScriptStringProperty
+          Name: asEvent
+          Data: OutpostStart
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TutorialMessage
+          Object: 1EE4D4:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptStringProperty
+          Name: asEvent
+          Data: OutpostPlaced
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TutorialMessage
+          Object: 1EE4D3:Starfield.esm
+  - Name: sq_parentscript
+    Properties:
+    - MutagenObjectType: ScriptStructListProperty
+      Name: TutorialMessages
+      Structs:
+      - Members:
+        - MutagenObjectType: ScriptIntProperty
+          Name: tutorialID
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TutorialMessage
+          Object: 38B938:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptIntProperty
+          Name: tutorialID
+          Data: 1
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TutorialMessage
+          Object: 38B939:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptIntProperty
+          Name: tutorialID
+          Data: 2
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TutorialMessage
+          Object: 18A4A8:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptIntProperty
+          Name: tutorialID
+          Data: 3
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TutorialMessage
+          Object: 38E3C9:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptIntProperty
+          Name: tutorialID
+          Data: 4
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TutorialMessage
+          Object: 38E978:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlanetTraitXPRewardSkillBonus
+      Object: 1AEB4E:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_ParentPlanetTraitExploreMessage
+      Object: 26FCCC:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LocTypeStarSystem
+      Object: 00149F:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlanetTraitName
+      Object: 07092C:Starfield.esm
+      Alias: 5
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MB_Parent
+      Object: 015300:Starfield.esm
+    - MutagenObjectType: ScriptStructListProperty
+      Name: PlanetTraits
+      Structs:
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: AssociatedSkill
+          Object: 2C5552:Starfield.esm
+        - MutagenObjectType: ScriptIntProperty
+          Name: discoverCountRequired
+          Data: 3
+        - MutagenObjectType: ScriptObjectProperty
+          Name: PlanetTrait
+          Object: 225597:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: PlanetTraitAV
+          Object: 225583:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TraitCategoryMarker
+          Object: 27A573:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TraitNameMarker
+          Object: 225548:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: AssociatedSkill
+          Object: 2C5557:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: AssociatedSkill02
+          Object: 2C5552:Starfield.esm
+        - MutagenObjectType: ScriptIntProperty
+          Name: discoverCountRequired
+          Data: 4
+        - MutagenObjectType: ScriptObjectProperty
+          Name: PlanetTrait
+          Object: 225596:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: PlanetTraitAV
+          Object: 225582:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TraitCategoryMarker
+          Object: 27A573:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TraitNameMarker
+          Object: 22555B:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: AssociatedSkill
+          Object: 2CE29F:Starfield.esm
+        - MutagenObjectType: ScriptIntProperty
+          Name: discoverCountRequired
+          Data: 2
+        - MutagenObjectType: ScriptObjectProperty
+          Name: PlanetTrait
+          Object: 29081C:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: PlanetTraitAV
+          Object: 27BAE0:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TraitCategoryMarker
+          Object: 27A572:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TraitNameMarker
+          Object: 27A56C:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: AssociatedSkill
+          Object: 2CE29F:Starfield.esm
+        - MutagenObjectType: ScriptIntProperty
+          Name: discoverCountRequired
+          Data: 3
+        - MutagenObjectType: ScriptObjectProperty
+          Name: PlanetTrait
+          Object: 225595:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: PlanetTraitAV
+          Object: 225581:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TraitCategoryMarker
+          Object: 23C332:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TraitNameMarker
+          Object: 22555A:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: AssociatedSkill
+          Object: 2C5557:Starfield.esm
+        - MutagenObjectType: ScriptIntProperty
+          Name: discoverCountRequired
+          Data: 3
+        - MutagenObjectType: ScriptObjectProperty
+          Name: PlanetTrait
+          Object: 225594:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: PlanetTraitAV
+          Object: 225580:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TraitCategoryMarker
+          Object: 27A572:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TraitNameMarker
+          Object: 225559:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: AssociatedSkill
+          Object: 2CE29F:Starfield.esm
+        - MutagenObjectType: ScriptIntProperty
+          Name: discoverCountRequired
+          Data: 2
+        - MutagenObjectType: ScriptObjectProperty
+          Name: PlanetTrait
+          Object: 225593:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: PlanetTraitAV
+          Object: 22557E:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TraitCategoryMarker
+          Object: 23C332:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TraitNameMarker
+          Object: 225558:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: AssociatedSkill
+          Object: 2C5552:Starfield.esm
+        - MutagenObjectType: ScriptIntProperty
+          Name: discoverCountRequired
+          Data: 3
+        - MutagenObjectType: ScriptObjectProperty
+          Name: PlanetTrait
+          Object: 225592:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: PlanetTraitAV
+          Object: 22557D:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TraitCategoryMarker
+          Object: 27A573:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TraitNameMarker
+          Object: 225557:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: AssociatedSkill
+          Object: 2CE29F:Starfield.esm
+        - MutagenObjectType: ScriptIntProperty
+          Name: discoverCountRequired
+          Data: 2
+        - MutagenObjectType: ScriptObjectProperty
+          Name: PlanetTrait
+          Object: 246C66:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: PlanetTraitAV
+          Object: 246B59:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TraitCategoryMarker
+          Object: 27A571:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TraitNameMarker
+          Object: 246B58:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: AssociatedSkill
+          Object: 2C5557:Starfield.esm
+        - MutagenObjectType: ScriptIntProperty
+          Name: discoverCountRequired
+          Data: 4
+        - MutagenObjectType: ScriptObjectProperty
+          Name: PlanetTrait
+          Object: 225591:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: PlanetTraitAV
+          Object: 22557C:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TraitCategoryMarker
+          Object: 27A572:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TraitNameMarker
+          Object: 225556:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: AssociatedSkill
+          Object: 2C5552:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: AssociatedSkill02
+          Object: 2C5557:Starfield.esm
+        - MutagenObjectType: ScriptIntProperty
+          Name: discoverCountRequired
+          Data: 3
+        - MutagenObjectType: ScriptObjectProperty
+          Name: PlanetTrait
+          Object: 225590:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: PlanetTraitAV
+          Object: 22557B:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TraitCategoryMarker
+          Object: 27A572:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TraitNameMarker
+          Object: 225555:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: AssociatedSkill
+          Object: 2CE29F:Starfield.esm
+        - MutagenObjectType: ScriptIntProperty
+          Name: discoverCountRequired
+          Data: 2
+        - MutagenObjectType: ScriptObjectProperty
+          Name: PlanetTrait
+          Object: 22558F:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: PlanetTraitAV
+          Object: 22557A:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TraitCategoryMarker
+          Object: 27A571:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TraitNameMarker
+          Object: 225554:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: AssociatedSkill
+          Object: 2CE29F:Starfield.esm
+        - MutagenObjectType: ScriptIntProperty
+          Name: discoverCountRequired
+          Data: 2
+        - MutagenObjectType: ScriptObjectProperty
+          Name: PlanetTrait
+          Object: 290819:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: PlanetTraitAV
+          Object: 27BADD:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TraitCategoryMarker
+          Object: 23C332:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TraitNameMarker
+          Object: 27A569:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: AssociatedSkill
+          Object: 2C5557:Starfield.esm
+        - MutagenObjectType: ScriptIntProperty
+          Name: discoverCountRequired
+          Data: 3
+        - MutagenObjectType: ScriptObjectProperty
+          Name: PlanetTrait
+          Object: 22558E:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: PlanetTraitAV
+          Object: 22557F:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TraitCategoryMarker
+          Object: 27A572:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TraitNameMarker
+          Object: 225553:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: AssociatedSkill
+          Object: 2CE29F:Starfield.esm
+        - MutagenObjectType: ScriptIntProperty
+          Name: discoverCountRequired
+          Data: 2
+        - MutagenObjectType: ScriptObjectProperty
+          Name: PlanetTrait
+          Object: 29081B:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: PlanetTraitAV
+          Object: 27BADF:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TraitCategoryMarker
+          Object: 27A574:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TraitNameMarker
+          Object: 27A56B:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: AssociatedSkill
+          Object: 2CE29F:Starfield.esm
+        - MutagenObjectType: ScriptIntProperty
+          Name: discoverCountRequired
+          Data: 3
+        - MutagenObjectType: ScriptObjectProperty
+          Name: PlanetTrait
+          Object: 22558D:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: PlanetTraitAV
+          Object: 225579:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TraitCategoryMarker
+          Object: 27A571:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TraitNameMarker
+          Object: 225552:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: AssociatedSkill
+          Object: 2CE29F:Starfield.esm
+        - MutagenObjectType: ScriptIntProperty
+          Name: discoverCountRequired
+          Data: 2
+        - MutagenObjectType: ScriptObjectProperty
+          Name: PlanetTrait
+          Object: 22558C:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: PlanetTraitAV
+          Object: 225578:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TraitCategoryMarker
+          Object: 23C332:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TraitNameMarker
+          Object: 225551:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: AssociatedSkill
+          Object: 2CE29F:Starfield.esm
+        - MutagenObjectType: ScriptIntProperty
+          Name: discoverCountRequired
+          Data: 4
+        - MutagenObjectType: ScriptObjectProperty
+          Name: PlanetTrait
+          Object: 22558B:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: PlanetTraitAV
+          Object: 225577:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TraitCategoryMarker
+          Object: 27A574:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TraitNameMarker
+          Object: 225550:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: AssociatedSkill
+          Object: 2C5557:Starfield.esm
+        - MutagenObjectType: ScriptIntProperty
+          Name: discoverCountRequired
+          Data: 3
+        - MutagenObjectType: ScriptObjectProperty
+          Name: PlanetTrait
+          Object: 29081A:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: PlanetTraitAV
+          Object: 27BADE:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TraitCategoryMarker
+          Object: 27A572:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TraitNameMarker
+          Object: 27A56A:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: AssociatedSkill
+          Object: 2CE29F:Starfield.esm
+        - MutagenObjectType: ScriptIntProperty
+          Name: discoverCountRequired
+          Data: 3
+        - MutagenObjectType: ScriptObjectProperty
+          Name: PlanetTrait
+          Object: 22558A:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: PlanetTraitAV
+          Object: 225576:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TraitCategoryMarker
+          Object: 27A574:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TraitNameMarker
+          Object: 22554F:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: AssociatedSkill
+          Object: 2CE29F:Starfield.esm
+        - MutagenObjectType: ScriptIntProperty
+          Name: discoverCountRequired
+          Data: 2
+        - MutagenObjectType: ScriptObjectProperty
+          Name: PlanetTrait
+          Object: 225589:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: PlanetTraitAV
+          Object: 225575:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TraitCategoryMarker
+          Object: 27A574:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TraitNameMarker
+          Object: 22554E:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: AssociatedSkill
+          Object: 2C5552:Starfield.esm
+        - MutagenObjectType: ScriptIntProperty
+          Name: discoverCountRequired
+          Data: 4
+        - MutagenObjectType: ScriptObjectProperty
+          Name: PlanetTrait
+          Object: 225588:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: PlanetTraitAV
+          Object: 225574:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TraitCategoryMarker
+          Object: 27A572:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TraitNameMarker
+          Object: 22554D:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: AssociatedSkill
+          Object: 2CE29F:Starfield.esm
+        - MutagenObjectType: ScriptIntProperty
+          Name: discoverCountRequired
+          Data: 3
+        - MutagenObjectType: ScriptObjectProperty
+          Name: PlanetTrait
+          Object: 225587:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: PlanetTraitAV
+          Object: 225573:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TraitCategoryMarker
+          Object: 23C332:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TraitNameMarker
+          Object: 22554C:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: AssociatedSkill
+          Object: 2CE29F:Starfield.esm
+        - MutagenObjectType: ScriptIntProperty
+          Name: discoverCountRequired
+          Data: 2
+        - MutagenObjectType: ScriptObjectProperty
+          Name: PlanetTrait
+          Object: 225586:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: PlanetTraitAV
+          Object: 22555E:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TraitCategoryMarker
+          Object: 23C332:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TraitNameMarker
+          Object: 22554B:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: AssociatedSkill
+          Object: 2CE29F:Starfield.esm
+        - MutagenObjectType: ScriptIntProperty
+          Name: discoverCountRequired
+          Data: 3
+        - MutagenObjectType: ScriptObjectProperty
+          Name: PlanetTrait
+          Object: 225585:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: PlanetTraitAV
+          Object: 22555D:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TraitCategoryMarker
+          Object: 23C332:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TraitNameMarker
+          Object: 22554A:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: AssociatedSkill
+          Object: 2CE29F:Starfield.esm
+        - MutagenObjectType: ScriptIntProperty
+          Name: discoverCountRequired
+          Data: 3
+        - MutagenObjectType: ScriptObjectProperty
+          Name: PlanetTrait
+          Object: 225584:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: PlanetTraitAV
+          Object: 22555C:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TraitCategoryMarker
+          Object: 23C332:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TraitNameMarker
+          Object: 225549:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: AssociatedSkill
+          Object: 2C5552:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: AssociatedSkill02
+          Object: 2C5557:Starfield.esm
+        - MutagenObjectType: ScriptIntProperty
+          Name: discoverCountRequired
+          Data: 4
+        - MutagenObjectType: ScriptObjectProperty
+          Name: PlanetTrait
+          Object: 221980:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: PlanetTraitAV
+          Object: 22197F:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TraitCategoryMarker
+          Object: 27A572:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TraitNameMarker
+          Object: 221981:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: AssociatedSkill
+          Object: 2CE29F:Starfield.esm
+        - MutagenObjectType: ScriptIntProperty
+          Name: discoverCountRequired
+          Data: 3
+        - MutagenObjectType: ScriptObjectProperty
+          Name: PlanetTrait
+          Object: 111F62:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: PlanetTraitAV
+          Object: 111F61:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TraitCategoryMarker
+          Object: 23C332:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TraitNameMarker
+          Object: 111F60:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ShipSystemEngineHealth
+      Object: 1EF0CD:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DerelictShipNameAlias
+      Object: 07092C:Starfield.esm
+      Alias: 10
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_Companions
+      Object: 2A567C:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Perception
+      Object: 0002C3:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SurveyingTraitBonus
+      Object: 00BE83:Starfield.esm
+    - MutagenObjectType: ScriptFloatListProperty
+      Name: ScanJammerMults
+      Data:
+      - 0
+      - 0.1
+      - 0.3
+      - 0.5
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Skill_Astrophysics_DiscoverTraitChance
+      Object: 2508F2:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlanetReference
+      Object: 07092C:Starfield.esm
+      Alias: 0
+    - MutagenObjectType: ScriptStructListProperty
+      Name: RandomShipDamageData
+      Structs:
+      - Members:
+        - MutagenObjectType: ScriptFloatProperty
+          Name: ChanceDestroyed
+        - MutagenObjectType: ScriptFloatProperty
+          Name: MaxDamagePercent
+          Data: 0.95
+        - MutagenObjectType: ScriptObjectProperty
+          Name: ActorValueToDamage
+          Object: 0002D4:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptFloatProperty
+          Name: ChanceDestroyed
+          Data: 1
+        - MutagenObjectType: ScriptObjectProperty
+          Name: ActorValueToDamage
+          Object: 1EE8C9:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptFloatProperty
+          Name: ChanceDestroyed
+          Data: 0.75
+        - MutagenObjectType: ScriptObjectProperty
+          Name: ActorValueToDamage
+          Object: 1EF0CD:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptFloatProperty
+          Name: ChanceDestroyed
+          Data: 0.75
+        - MutagenObjectType: ScriptObjectProperty
+          Name: ActorValueToDamage
+          Object: 1EF0CB:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: ActorValueToDamage
+          Object: 1EF0CA:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: ActorValueToDamage
+          Object: 0003A3:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: ActorValueToDamage
+          Object: 0003A4:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: ActorValueToDamage
+          Object: 0003A5:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: OutpostLastAttackRollTimestamp
+      Object: 24F6A0:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_PlanetTraitOverrideLink
+      Object: 224607:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_PlanetIsHabitableKeyword
+      Object: 196520:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SpaceshipExternalLightsDisabledValue
+      Object: 1A4D09:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_OutpostEventAttackCreatures
+      Object: 346518:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlanetTraitLocationScanCount
+      Object: 27A566:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CarryWeightShielded
+      Object: 02B344:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ShipSystemReactorHealth
+      Object: 1EF0CA:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ZoologyNonLethalHarvestCountMax
+      Object: 20EC72:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_SurveySlateEvent
+      Object: 0C9987:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DerelictShipNameOverrideMessage
+      Object: 0ECFEB:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SurveySlates
+      Object: 07092C:Starfield.esm
+      Alias: 11
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlanetTraitLocationScanCountRequired
+      Object: 1BDC5C:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MapMarkerLinkedRefNameOverride
+      Object: 17FEBA:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ScanTarget
+      Object: 07092C:Starfield.esm
+      Alias: 7
+    - MutagenObjectType: ScriptStructListProperty
+      Name: PlanetAbundanceKeywords
+      Structs:
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: planetKeyword
+          Object: 295EB3:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: planetKeyword
+          Object: 295EB2:Starfield.esm
+        - MutagenObjectType: ScriptFloatProperty
+          Name: surveyDifficulty
+          Data: 1.5
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: planetKeyword
+          Object: 295EB1:Starfield.esm
+        - MutagenObjectType: ScriptFloatProperty
+          Name: surveyDifficulty
+          Data: 2.5
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: planetKeyword
+          Object: 295EB0:Starfield.esm
+        - MutagenObjectType: ScriptFloatProperty
+          Name: surveyDifficulty
+          Data: 4
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: planetKeyword
+          Object: 295EAE:Starfield.esm
+        - MutagenObjectType: ScriptFloatProperty
+          Name: surveyDifficulty
+          Data: 1
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: planetKeyword
+          Object: 295EAD:Starfield.esm
+        - MutagenObjectType: ScriptFloatProperty
+          Name: surveyDifficulty
+          Data: 2.5
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: planetKeyword
+          Object: 295EAB:Starfield.esm
+        - MutagenObjectType: ScriptFloatProperty
+          Name: surveyDifficulty
+          Data: 4
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: planetKeyword
+          Object: 295EAC:Starfield.esm
+        - MutagenObjectType: ScriptFloatProperty
+          Name: surveyDifficulty
+          Data: 6
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_GuardShipSmugglingMinigameSuccess
+      Object: 1DC4A4:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Health
+      Object: 0002D4:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SurveySlate
+      Object: 07092C:Starfield.esm
+      Alias: 6
+    - MutagenObjectType: ScriptObjectProperty
+      Name: OutpostLastAttackTimestamp
+      Object: 127239:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlanetTraitXPReward
+      Object: 245AB9:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ScanTargetName
+      Object: 07092C:Starfield.esm
+      Alias: 8
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ComputersAchievementCount
+      Object: 15BE24:Starfield.esm
+    - MutagenObjectType: ScriptStructListProperty
+      Name: PlanetSurveySlates
+      Structs:
+      - Members:
+        - MutagenObjectType: ScriptFloatProperty
+          Name: minSurveyPercent
+          Data: 1
+        - MutagenObjectType: ScriptIntProperty
+          Name: minTraitValue
+          Data: 14
+        - MutagenObjectType: ScriptObjectProperty
+          Name: planetSurveySlate
+          Object: 056E61:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: RewardXP
+          Object: 23842C:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptFloatProperty
+          Name: minSurveyPercent
+          Data: 0.75
+        - MutagenObjectType: ScriptIntProperty
+          Name: minTraitValue
+          Data: 14
+        - MutagenObjectType: ScriptObjectProperty
+          Name: planetSurveySlate
+          Object: 056E60:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: RewardXP
+          Object: 23842C:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptFloatProperty
+          Name: minSurveyPercent
+          Data: 0.5
+        - MutagenObjectType: ScriptIntProperty
+          Name: minTraitValue
+          Data: 14
+        - MutagenObjectType: ScriptObjectProperty
+          Name: planetSurveySlate
+          Object: 056E5F:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: RewardXP
+          Object: 23842C:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptFloatProperty
+          Name: minSurveyPercent
+          Data: 0.25
+        - MutagenObjectType: ScriptIntProperty
+          Name: minTraitValue
+          Data: 14
+        - MutagenObjectType: ScriptObjectProperty
+          Name: planetSurveySlate
+          Object: 056E5E:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: RewardXP
+          Object: 23842C:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptFloatProperty
+          Name: minSurveyPercent
+          Data: 1
+        - MutagenObjectType: ScriptIntProperty
+          Name: minTraitValue
+          Data: 9
+        - MutagenObjectType: ScriptObjectProperty
+          Name: planetSurveySlate
+          Object: 303C27:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: RewardXP
+          Object: 056E62:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptFloatProperty
+          Name: minSurveyPercent
+          Data: 0.75
+        - MutagenObjectType: ScriptIntProperty
+          Name: minTraitValue
+          Data: 9
+        - MutagenObjectType: ScriptObjectProperty
+          Name: planetSurveySlate
+          Object: 303C24:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: RewardXP
+          Object: 056E62:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptFloatProperty
+          Name: minSurveyPercent
+          Data: 0.5
+        - MutagenObjectType: ScriptIntProperty
+          Name: minTraitValue
+          Data: 9
+        - MutagenObjectType: ScriptObjectProperty
+          Name: planetSurveySlate
+          Object: 303C21:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: RewardXP
+          Object: 056E62:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptIntProperty
+          Name: minTraitValue
+          Data: 9
+        - MutagenObjectType: ScriptObjectProperty
+          Name: planetSurveySlate
+          Object: 26E6AE:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: RewardXP
+          Object: 056E62:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptFloatProperty
+          Name: minSurveyPercent
+          Data: 1
+        - MutagenObjectType: ScriptIntProperty
+          Name: minTraitValue
+          Data: 4
+        - MutagenObjectType: ScriptObjectProperty
+          Name: planetSurveySlate
+          Object: 303C26:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: RewardXP
+          Object: 30A8C7:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptFloatProperty
+          Name: minSurveyPercent
+          Data: 0.75
+        - MutagenObjectType: ScriptIntProperty
+          Name: minTraitValue
+          Data: 4
+        - MutagenObjectType: ScriptObjectProperty
+          Name: planetSurveySlate
+          Object: 303C23:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: RewardXP
+          Object: 30A8C7:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptFloatProperty
+          Name: minSurveyPercent
+          Data: 0.5
+        - MutagenObjectType: ScriptIntProperty
+          Name: minTraitValue
+          Data: 4
+        - MutagenObjectType: ScriptObjectProperty
+          Name: planetSurveySlate
+          Object: 303C20:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: RewardXP
+          Object: 30A8C7:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptIntProperty
+          Name: minTraitValue
+          Data: 4
+        - MutagenObjectType: ScriptObjectProperty
+          Name: planetSurveySlate
+          Object: 26E6AF:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: RewardXP
+          Object: 30A8C7:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptFloatProperty
+          Name: minSurveyPercent
+          Data: 1
+        - MutagenObjectType: ScriptIntProperty
+          Name: minTraitValue
+          Data: 1
+        - MutagenObjectType: ScriptObjectProperty
+          Name: planetSurveySlate
+          Object: 23842B:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: RewardXP
+          Object: 30A8C6:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptFloatProperty
+          Name: minSurveyPercent
+          Data: 0.75
+        - MutagenObjectType: ScriptIntProperty
+          Name: minTraitValue
+          Data: 1
+        - MutagenObjectType: ScriptObjectProperty
+          Name: planetSurveySlate
+          Object: 23842A:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: RewardXP
+          Object: 30A8C6:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptFloatProperty
+          Name: minSurveyPercent
+          Data: 0.5
+        - MutagenObjectType: ScriptIntProperty
+          Name: minTraitValue
+          Data: 1
+        - MutagenObjectType: ScriptObjectProperty
+          Name: planetSurveySlate
+          Object: 238429:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: RewardXP
+          Object: 30A8C6:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptFloatProperty
+          Name: minSurveyPercent
+          Data: 0.25
+        - MutagenObjectType: ScriptIntProperty
+          Name: minTraitValue
+          Data: 1
+        - MutagenObjectType: ScriptObjectProperty
+          Name: planetSurveySlate
+          Object: 238428:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: RewardXP
+          Object: 30A8C6:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptFloatProperty
+          Name: minSurveyPercent
+          Data: 1
+        - MutagenObjectType: ScriptIntProperty
+          Name: minTraitValue
+        - MutagenObjectType: ScriptObjectProperty
+          Name: planetSurveySlate
+          Object: 303C25:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: RewardXP
+          Object: 30A8C5:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptFloatProperty
+          Name: minSurveyPercent
+          Data: 0.75
+        - MutagenObjectType: ScriptIntProperty
+          Name: minTraitValue
+        - MutagenObjectType: ScriptObjectProperty
+          Name: planetSurveySlate
+          Object: 303C22:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: RewardXP
+          Object: 30A8C5:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptFloatProperty
+          Name: minSurveyPercent
+          Data: 0.5
+        - MutagenObjectType: ScriptIntProperty
+          Name: minTraitValue
+        - MutagenObjectType: ScriptObjectProperty
+          Name: planetSurveySlate
+          Object: 303C1E:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: RewardXP
+          Object: 30A8C5:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptIntProperty
+          Name: minTraitValue
+        - MutagenObjectType: ScriptObjectProperty
+          Name: planetSurveySlate
+          Object: 26E6B1:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: RewardXP
+          Object: 30A8C5:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_ParentPlanetTraitDiscoverMessage
+      Object: 27BADA:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UICriticalHitShip
+      Object: 2F3F2C:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerShip
+      Object: 0174A2:Starfield.esm
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlanetTraitCategory
+      Object: 07092C:Starfield.esm
+      Alias: 4
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlanetReferencePlanetLocation
+      Object: 07092C:Starfield.esm
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlanetTraitScanTargetLocRef
+      Object: 27A567:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SpaceshipScanJammer
+      Object: 1AE52C:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_GuardShipSmugglingMinigameFailure
+      Object: 22E538:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_SurveySiteDiscoveredMessage
+      Object: 070A75:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlanetReferenceSystemLocation
+      Object: 07092C:Starfield.esm
+      Alias: 2
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_PlanetIsHabitable
+      Object: 196521:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_OutpostEventAttack
+      Object: 04643E:Starfield.esm
+    - MutagenObjectType: ScriptStructListProperty
+      Name: SystemSurveyRewards
+      Structs:
+      - Members:
+        - MutagenObjectType: ScriptIntProperty
+          Name: minTraitValue
+          Data: 20
+        - MutagenObjectType: ScriptObjectProperty
+          Name: RewardXP
+          Object: 30A8CB:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptIntProperty
+          Name: minTraitValue
+          Data: 12
+        - MutagenObjectType: ScriptObjectProperty
+          Name: RewardXP
+          Object: 30A8CA:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptIntProperty
+          Name: minTraitValue
+          Data: 6
+        - MutagenObjectType: ScriptObjectProperty
+          Name: RewardXP
+          Object: 30A8C9:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptIntProperty
+          Name: minTraitValue
+        - MutagenObjectType: ScriptObjectProperty
+          Name: RewardXP
+          Object: 30A8C8:Starfield.esm
+    - MutagenObjectType: ScriptStructListProperty
+      Name: MapMarkerNames
+      Structs:
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: groupTypeKeyword
+          Object: 1BBF31:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: nameMarker
+          Object: 02B397:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: groupTypeKeyword
+          Object: 027055:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: nameMarker
+          Object: 0017E1:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: groupTypeKeyword
+          Object: 027051:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: nameMarker
+          Object: 070D9C:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: groupTypeKeyword
+          Object: 027054:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: nameMarker
+          Object: 070DA6:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: groupTypeKeyword
+          Object: 027052:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: nameMarker
+          Object: 070D9D:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: OutpostCargoLinkAV
+      Object: 0A46FF:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ZoologyNonLethalHarvestCount
+      Object: 20EC73:Starfield.esm
+    - MutagenObjectType: ScriptObjectListProperty
+      Name: SystemHealthAVs
+      Objects:
+      - Name: ''
+        Object: 1EF0CD:Starfield.esm
+      - Name: ''
+        Object: 1EF0CB:Starfield.esm
+      - Name: ''
+        Object: 1EE8C9:Starfield.esm
+      - Name: ''
+        Object: 0003A3:Starfield.esm
+      - Name: ''
+        Object: 0003A4:Starfield.esm
+      - Name: ''
+        Object: 0003A5:Starfield.esm
+    - MutagenObjectType: ScriptObjectListProperty
+      Name: SystemEMHealthAVs
+      Objects:
+      - Name: ''
+        Object: 1EF0C2:Starfield.esm
+      - Name: ''
+        Object: 1EF0C1:Starfield.esm
+      - Name: ''
+        Object: 1EF0CC:Starfield.esm
+      - Name: ''
+        Object: 0003A6:Starfield.esm
+      - Name: ''
+        Object: 0003A7:Starfield.esm
+      - Name: ''
+        Object: 0003A8:Starfield.esm
+    - MutagenObjectType: ScriptStructListProperty
+      Name: surveySiteTypes
+      Structs:
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: siteTypeCount
+          Object: 25DE86:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: siteTypeMarker
+          Object: 070924:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: siteTypeCount
+          Object: 25DE87:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: siteTypeMarker
+          Object: 0759BF:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: siteTypeCount
+          Object: 25DE88:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: siteTypeMarker
+          Object: 0759C0:Starfield.esm
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: siteTypeCount
+          Object: 2CD253:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: siteTypeMarker
+          Object: 2CD256:Starfield.esm
+    - MutagenObjectType: ScriptStructListProperty
+      Name: OutpostAttackSpecialCases
+      Structs:
+      - Members:
+        - MutagenObjectType: ScriptFloatProperty
+          Name: specialCaseAttackChance
+          Data: 0.5
+        - MutagenObjectType: ScriptObjectProperty
+          Name: specialCaseCondition
+          Object: 2BAA4B:Starfield.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: StoryEventKeyword
+          Object: 349C9E:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_ParentPlanetTraitUpdateMessage
+      Object: 27BADB:Starfield.esm
+    - MutagenObjectType: ScriptObjectListProperty
+      Name: SystemPlanets
+      Objects:
+      - Name: ''
+        Object: 07092C:Starfield.esm
+        Alias: 1
+      - Name: ''
+        Object: 07092C:Starfield.esm
+        Alias: 15
+      - Name: ''
+        Object: 07092C:Starfield.esm
+        Alias: 16
+      - Name: ''
+        Object: 07092C:Starfield.esm
+        Alias: 17
+      - Name: ''
+        Object: 07092C:Starfield.esm
+        Alias: 18
+      - Name: ''
+        Object: 07092C:Starfield.esm
+        Alias: 19
+      - Name: ''
+        Object: 07092C:Starfield.esm
+        Alias: 20
+      - Name: ''
+        Object: 07092C:Starfield.esm
+        Alias: 21
+      - Name: ''
+        Object: 07092C:Starfield.esm
+        Alias: 22
+      - Name: ''
+        Object: 07092C:Starfield.esm
+        Alias: 23
+      - Name: ''
+        Object: 07092C:Starfield.esm
+        Alias: 24
+      - Name: ''
+        Object: 07092C:Starfield.esm
+        Alias: 25
+      - Name: ''
+        Object: 07092C:Starfield.esm
+        Alias: 26
+      - Name: ''
+        Object: 07092C:Starfield.esm
+        Alias: 27
+      - Name: ''
+        Object: 07092C:Starfield.esm
+        Alias: 28
+      - Name: ''
+        Object: 07092C:Starfield.esm
+        Alias: 29
+      - Name: ''
+        Object: 07092C:Starfield.esm
+        Alias: 30
+      - Name: ''
+        Object: 07092C:Starfield.esm
+        Alias: 31
+      - Name: ''
+        Object: 07092C:Starfield.esm
+        Alias: 32
+      - Name: ''
+        Object: 07092C:Starfield.esm
+        Alias: 33
+      - Name: ''
+        Object: 07092C:Starfield.esm
+        Alias: 34
+      - Name: ''
+        Object: 07092C:Starfield.esm
+        Alias: 35
+      - Name: ''
+        Object: 07092C:Starfield.esm
+        Alias: 36
+      - Name: ''
+        Object: 07092C:Starfield.esm
+        Alias: 37
+      - Name: ''
+        Object: 07092C:Starfield.esm
+        Alias: 38
+      - Name: ''
+        Object: 07092C:Starfield.esm
+        Alias: 39
+      - Name: ''
+        Object: 07092C:Starfield.esm
+        Alias: 40
+      - Name: ''
+        Object: 07092C:Starfield.esm
+        Alias: 41
+      - Name: ''
+        Object: 07092C:Starfield.esm
+        Alias: 42
+      - Name: ''
+        Object: 07092C:Starfield.esm
+        Alias: 43
+      - Name: ''
+        Object: 07092C:Starfield.esm
+        Alias: 44
+      - Name: ''
+        Object: 07092C:Starfield.esm
+        Alias: 45
+      - Name: ''
+        Object: 07092C:Starfield.esm
+        Alias: 46
+      - Name: ''
+        Object: 07092C:Starfield.esm
+        Alias: 47
+      - Name: ''
+        Object: 07092C:Starfield.esm
+        Alias: 48
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ComputersAchievementAV
+      Object: 15BE23:Starfield.esm
+    - MutagenObjectType: ScriptObjectListProperty
+      Name: CriticalHitMessages
+      Objects:
+      - Name: ''
+        Object: 0262F5:Starfield.esm
+      - Name: ''
+        Object: 0262FE:Starfield.esm
+      - Name: ''
+        Object: 02A6ED:Starfield.esm
+      - Name: ''
+        Object: 02A6EE:Starfield.esm
+      - Name: ''
+        Object: 02A6F0:Starfield.esm
+      - Name: ''
+        Object: 02A6F1:Starfield.esm
+      - Name: ''
+        Object: 02A6EF:Starfield.esm
+    - MutagenObjectType: ScriptFloatListProperty
+      Name: SurveyRewardThresholds
+      Data:
+      - 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: OE_CiviliansVisibleFromStarmapKeywords
+      Object: 16AB20:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_ParentPlanetTraitScanMessage
+      Object: 279294:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PayloadLevel
+      Object: 137053:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Rad01_LIST
+      Object: 192DD7:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: BEDerelict
+      Object: 13EC54:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlanetTraitXPRewardAstrophysicsMult
+      Object: 2B97EC:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SpaceshipCrew
+      Object: 040CE0:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SpaceshipCriticalHitCrew
+      Object: 0FFD8A:Starfield.esm
+    - MutagenObjectType: ScriptFloatListProperty
+      Name: PlayerSkillMults
+      Data:
+      - 0
+      - 0.111111
+      - 0.25
+      - 0.428571
+      - 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_PlanetLastSurveyReward
+      Object: 303C1F:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LocTypeMajorOrbital
+      Object: 070A54:Starfield.esm
+  Versioning:
+  - Break0
+  ExtraBindDataVersion: 0
+  Script:
+    Name: ''
+Data:
+  Flags:
+  - StartGameEnabled
+  - StartsEnabled
+  - RunOnce
+  Unused: 0x000000
+UnusedConditions: []
+Aliases:
+- MutagenObjectType: QuestReferenceAlias
+  Name: PlanetReference
+  Flags:
+  - Optional
+  - StoresText
+  ALFG: 0
+  VoiceTypes: Null
+- MutagenObjectType: QuestLocationAlias
+  ID: 1
+  Name: PlanetReferencePlanetLocation
+  Flags:
+  - Optional
+  - StoresText
+  - 0x40000000
+  ALFG: 0
+  ParentSystemLocationAliasID: 0
+  LocationTypeKeyword: 070A54:Starfield.esm
+- MutagenObjectType: QuestLocationAlias
+  ID: 2
+  Name: PlanetReferenceSystemLocation
+  Flags:
+  - Optional
+  - StoresText
+  - 0x20000000
+  ALFG: 0
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: IsInSameCurrentLocationAsAliasConditionData
+      SecondParameter: 00149F:Starfield.esm
+    ComparisonValue: 1
+  SystemLocationAliasID: 0
+  LocationTypeKeyword: 00149F:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  ID: 3
+  Name: OutpostFauna
+  Flags:
+  - Optional
+  - CanApplyDataToNonAliasedRefs
+  ALFG: 0
+  Factions:
+  - 106C31:Starfield.esm
+  PackageData:
+  - 288F8E:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 4
+  Name: PlanetTraitCategory
+  Flags:
+  - Optional
+  - StoresText
+  ALFG: 0
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 5
+  Name: PlanetTraitName
+  Flags:
+  - Optional
+  - StoresText
+  ALFG: 0
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 6
+  Name: SurveySlate
+  Flags:
+  - Optional
+  ALFG: 0
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 8
+  Name: ScanTargetName
+  Flags:
+  - Optional
+  - StoresText
+  ALFG: 0
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 7
+  Name: ScanTarget
+  Flags:
+  - Optional
+  - UsesStoredText
+  - CanApplyDataToNonAliasedRefs
+  ALFG: 0
+  DisplayName: 26D992:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 9
+  Name: AliasItem
+  Flags:
+  - Optional
+  ALFG: 0
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 10
+  Name: DerelictShipNameAlias
+  Flags:
+  - Optional
+  - UsesStoredText
+  - CanApplyDataToNonAliasedRefs
+  ALFG: 0
+  DisplayName: 0ECFEB:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestCollectionAlias
+  Collection:
+  - ID: 11
+    ALAM: 0
+    ReferenceAlias:
+      ID: 11
+      Name: SurveySlates
+      Flags:
+      - Optional
+      ALFG: 0
+      VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 13
+  Name: PlayerShip
+  Flags:
+  - Optional
+  - ExternalAliasLinked
+  ALFG: 0
+  External:
+    Quest: 0174A2:Starfield.esm
+    AliasID: 0
+  VoiceTypes: Null
+- MutagenObjectType: QuestLocationAlias
+  ID: 15
+  Name: SystemPlanet02
+  Flags:
+  - Optional
+  - AllowReserved
+  - AllowCleared
+  - 0x20000000
+  ALFG: 0
+  SystemLocationAliasID: 2
+  LocationTypeKeyword: 070A54:Starfield.esm
+- MutagenObjectType: QuestLocationAlias
+  ID: 16
+  Name: SystemPlanet03
+  Flags:
+  - Optional
+  - AllowReserved
+  - AllowCleared
+  - 0x20000000
+  ALFG: 0
+  SystemLocationAliasID: 2
+  LocationTypeKeyword: 070A54:Starfield.esm
+- MutagenObjectType: QuestLocationAlias
+  ID: 17
+  Name: SystemPlanet04
+  Flags:
+  - Optional
+  - AllowReserved
+  - AllowCleared
+  - 0x20000000
+  ALFG: 0
+  SystemLocationAliasID: 2
+  LocationTypeKeyword: 070A54:Starfield.esm
+- MutagenObjectType: QuestLocationAlias
+  ID: 18
+  Name: SystemPlanet05
+  Flags:
+  - Optional
+  - AllowReserved
+  - AllowCleared
+  - 0x20000000
+  ALFG: 0
+  SystemLocationAliasID: 2
+  LocationTypeKeyword: 070A54:Starfield.esm
+- MutagenObjectType: QuestLocationAlias
+  ID: 19
+  Name: SystemPlanet06
+  Flags:
+  - Optional
+  - AllowReserved
+  - AllowCleared
+  - 0x20000000
+  ALFG: 0
+  SystemLocationAliasID: 2
+  LocationTypeKeyword: 070A54:Starfield.esm
+- MutagenObjectType: QuestLocationAlias
+  ID: 20
+  Name: SystemPlanet07
+  Flags:
+  - Optional
+  - AllowReserved
+  - AllowCleared
+  - 0x20000000
+  ALFG: 0
+  SystemLocationAliasID: 2
+  LocationTypeKeyword: 070A54:Starfield.esm
+- MutagenObjectType: QuestLocationAlias
+  ID: 21
+  Name: SystemPlanet08
+  Flags:
+  - Optional
+  - AllowReserved
+  - AllowCleared
+  - 0x20000000
+  ALFG: 0
+  SystemLocationAliasID: 2
+  LocationTypeKeyword: 070A54:Starfield.esm
+- MutagenObjectType: QuestLocationAlias
+  ID: 22
+  Name: SystemPlanet09
+  Flags:
+  - Optional
+  - AllowReserved
+  - AllowCleared
+  - 0x20000000
+  ALFG: 0
+  SystemLocationAliasID: 2
+  LocationTypeKeyword: 070A54:Starfield.esm
+- MutagenObjectType: QuestLocationAlias
+  ID: 23
+  Name: SystemPlanet10
+  Flags:
+  - Optional
+  - AllowReserved
+  - AllowCleared
+  - 0x20000000
+  ALFG: 0
+  SystemLocationAliasID: 2
+  LocationTypeKeyword: 070A54:Starfield.esm
+- MutagenObjectType: QuestLocationAlias
+  ID: 24
+  Name: SystemPlanet11
+  Flags:
+  - Optional
+  - AllowReserved
+  - AllowCleared
+  - 0x20000000
+  ALFG: 0
+  SystemLocationAliasID: 2
+  LocationTypeKeyword: 070A54:Starfield.esm
+- MutagenObjectType: QuestLocationAlias
+  ID: 25
+  Name: SystemPlanet12
+  Flags:
+  - Optional
+  - AllowReserved
+  - AllowCleared
+  - 0x20000000
+  ALFG: 0
+  SystemLocationAliasID: 2
+  LocationTypeKeyword: 070A54:Starfield.esm
+- MutagenObjectType: QuestLocationAlias
+  ID: 26
+  Name: SystemPlanet13
+  Flags:
+  - Optional
+  - AllowReserved
+  - AllowCleared
+  - 0x20000000
+  ALFG: 0
+  SystemLocationAliasID: 2
+  LocationTypeKeyword: 070A54:Starfield.esm
+- MutagenObjectType: QuestLocationAlias
+  ID: 27
+  Name: SystemPlanet14
+  Flags:
+  - Optional
+  - AllowReserved
+  - AllowCleared
+  - 0x20000000
+  ALFG: 0
+  SystemLocationAliasID: 2
+  LocationTypeKeyword: 070A54:Starfield.esm
+- MutagenObjectType: QuestLocationAlias
+  ID: 28
+  Name: SystemPlanet15
+  Flags:
+  - Optional
+  - AllowReserved
+  - AllowCleared
+  - 0x20000000
+  ALFG: 0
+  SystemLocationAliasID: 2
+  LocationTypeKeyword: 070A54:Starfield.esm
+- MutagenObjectType: QuestLocationAlias
+  ID: 29
+  Name: SystemPlanet16
+  Flags:
+  - Optional
+  - AllowReserved
+  - AllowCleared
+  - 0x20000000
+  ALFG: 0
+  SystemLocationAliasID: 2
+  LocationTypeKeyword: 070A54:Starfield.esm
+- MutagenObjectType: QuestLocationAlias
+  ID: 30
+  Name: SystemPlanet17
+  Flags:
+  - Optional
+  - AllowReserved
+  - AllowCleared
+  - 0x20000000
+  ALFG: 0
+  SystemLocationAliasID: 2
+  LocationTypeKeyword: 070A54:Starfield.esm
+- MutagenObjectType: QuestLocationAlias
+  ID: 31
+  Name: SystemPlanet18
+  Flags:
+  - Optional
+  - AllowReserved
+  - AllowCleared
+  - 0x20000000
+  ALFG: 0
+  SystemLocationAliasID: 2
+  LocationTypeKeyword: 070A54:Starfield.esm
+- MutagenObjectType: QuestLocationAlias
+  ID: 32
+  Name: SystemPlanet19
+  Flags:
+  - Optional
+  - AllowReserved
+  - AllowCleared
+  - 0x20000000
+  ALFG: 0
+  SystemLocationAliasID: 2
+  LocationTypeKeyword: 070A54:Starfield.esm
+- MutagenObjectType: QuestLocationAlias
+  ID: 33
+  Name: SystemPlanet20
+  Flags:
+  - Optional
+  - AllowReserved
+  - AllowCleared
+  - 0x20000000
+  ALFG: 0
+  SystemLocationAliasID: 2
+  LocationTypeKeyword: 070A54:Starfield.esm
+- MutagenObjectType: QuestLocationAlias
+  ID: 34
+  Name: SystemPlanet21
+  Flags:
+  - Optional
+  - AllowReserved
+  - AllowCleared
+  - 0x20000000
+  ALFG: 0
+  SystemLocationAliasID: 2
+  LocationTypeKeyword: 070A54:Starfield.esm
+- MutagenObjectType: QuestLocationAlias
+  ID: 35
+  Name: SystemPlanet22
+  Flags:
+  - Optional
+  - AllowReserved
+  - AllowCleared
+  - 0x20000000
+  ALFG: 0
+  SystemLocationAliasID: 2
+  LocationTypeKeyword: 070A54:Starfield.esm
+- MutagenObjectType: QuestLocationAlias
+  ID: 36
+  Name: SystemPlanet23
+  Flags:
+  - Optional
+  - AllowReserved
+  - AllowCleared
+  - 0x20000000
+  ALFG: 0
+  SystemLocationAliasID: 2
+  LocationTypeKeyword: 070A54:Starfield.esm
+- MutagenObjectType: QuestLocationAlias
+  ID: 37
+  Name: SystemPlanet24
+  Flags:
+  - Optional
+  - AllowReserved
+  - AllowCleared
+  - 0x20000000
+  ALFG: 0
+  SystemLocationAliasID: 2
+  LocationTypeKeyword: 070A54:Starfield.esm
+- MutagenObjectType: QuestLocationAlias
+  ID: 38
+  Name: SystemPlanet25
+  Flags:
+  - Optional
+  - AllowReserved
+  - AllowCleared
+  - 0x20000000
+  ALFG: 0
+  SystemLocationAliasID: 2
+  LocationTypeKeyword: 070A54:Starfield.esm
+- MutagenObjectType: QuestLocationAlias
+  ID: 39
+  Name: SystemPlanet26
+  Flags:
+  - Optional
+  - AllowReserved
+  - AllowCleared
+  - 0x20000000
+  ALFG: 0
+  SystemLocationAliasID: 2
+  LocationTypeKeyword: 070A54:Starfield.esm
+- MutagenObjectType: QuestLocationAlias
+  ID: 40
+  Name: SystemPlanet27
+  Flags:
+  - Optional
+  - AllowReserved
+  - AllowCleared
+  - 0x20000000
+  ALFG: 0
+  SystemLocationAliasID: 2
+  LocationTypeKeyword: 070A54:Starfield.esm
+- MutagenObjectType: QuestLocationAlias
+  ID: 41
+  Name: SystemPlanet28
+  Flags:
+  - Optional
+  - AllowReserved
+  - AllowCleared
+  - 0x20000000
+  ALFG: 0
+  SystemLocationAliasID: 2
+  LocationTypeKeyword: 070A54:Starfield.esm
+- MutagenObjectType: QuestLocationAlias
+  ID: 42
+  Name: SystemPlanet29
+  Flags:
+  - Optional
+  - AllowReserved
+  - AllowCleared
+  - 0x20000000
+  ALFG: 0
+  SystemLocationAliasID: 2
+  LocationTypeKeyword: 070A54:Starfield.esm
+- MutagenObjectType: QuestLocationAlias
+  ID: 43
+  Name: SystemPlanet30
+  Flags:
+  - Optional
+  - AllowReserved
+  - AllowCleared
+  - 0x20000000
+  ALFG: 0
+  SystemLocationAliasID: 2
+  LocationTypeKeyword: 070A54:Starfield.esm
+- MutagenObjectType: QuestLocationAlias
+  ID: 44
+  Name: SystemPlanet31
+  Flags:
+  - Optional
+  - AllowReserved
+  - AllowCleared
+  - 0x20000000
+  ALFG: 0
+  SystemLocationAliasID: 2
+  LocationTypeKeyword: 070A54:Starfield.esm
+- MutagenObjectType: QuestLocationAlias
+  ID: 45
+  Name: SystemPlanet32
+  Flags:
+  - Optional
+  - AllowReserved
+  - AllowCleared
+  - 0x20000000
+  ALFG: 0
+  SystemLocationAliasID: 2
+  LocationTypeKeyword: 070A54:Starfield.esm
+- MutagenObjectType: QuestLocationAlias
+  ID: 46
+  Name: SystemPlanet33
+  Flags:
+  - Optional
+  - AllowReserved
+  - AllowCleared
+  - 0x20000000
+  ALFG: 0
+  SystemLocationAliasID: 2
+  LocationTypeKeyword: 070A54:Starfield.esm
+- MutagenObjectType: QuestLocationAlias
+  ID: 47
+  Name: SystemPlanet34
+  Flags:
+  - Optional
+  - AllowReserved
+  - AllowCleared
+  - 0x20000000
+  ALFG: 0
+  SystemLocationAliasID: 2
+  LocationTypeKeyword: 070A54:Starfield.esm
+- MutagenObjectType: QuestLocationAlias
+  ID: 48
+  Name: SystemPlanet35
+  Flags:
+  - Optional
+  - AllowReserved
+  - AllowCleared
+  - 0x20000000
+  ALFG: 0
+  SystemLocationAliasID: 2
+  LocationTypeKeyword: 070A54:Starfield.esm

@@ -1,5 +1,5 @@
 FormKey: 1D8AE0:Starfield.esm
-FormVersion: 559
+FormVersion: 576
 Quest: 1D8AE3:Starfield.esm
 Category: Misc
 Subtype: QuestOrSpecialHellos
@@ -30,4 +30,3 @@ TopicInfoList:
 - 310A45:Starfield.esm
 - 310A46:Starfield.esm
 - 310A47:Starfield.esm
-Timestamp: 12497

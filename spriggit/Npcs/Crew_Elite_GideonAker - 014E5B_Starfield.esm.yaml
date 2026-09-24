@@ -1,53 +1,57 @@
 FormKey: 014E5B:Starfield.esm
+IsCompressed: True
+MajorRecordFlagsRaw: 262144
 EditorID: Crew_Elite_GideonAker
-FormVersion: 559
+FormVersion: 576
+StarfieldMajorRecordFlags:
+- Compressed
 VirtualMachineAdapter:
   Scripts:
-  - Name: EliteCrew_StartQuestonLoadScript
+  - Name: EliteCrewCrimeResponseScript
     Properties:
     - MutagenObjectType: ScriptObjectProperty
-      Name: ECQuest
-      Object: 014E55:Starfield.esm
+      Name: SQ_Companions
+      Object: 2A567C:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Aggression
+      Object: 0002BC:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AffinityEventOnKill
+      Object: 180F0B:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_AngerReason_Common_1_Murder
+      Object: 2C2A36:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AffinityEventOnCombat
+      Object: 180F0A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_NotCivilian
+      Object: 0F223F:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CurrentCompanionFaction
+      Object: 023C01:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Assistance
+      Object: 0002C1:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_Crew
+      Object: 2A567D:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: EliteCrew_Angry_Message
+      Object: 0C6587:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CREW_Elite_IsAngry
+      Object: 06D17D:Starfield.esm
   - Name: elitecrewdebugscript
     Properties:
     - MutagenObjectType: ScriptObjectProperty
       Name: CrewQuest
       Object: 014E55:Starfield.esm
-  - Name: EliteCrewCrimeResponseScript
+  - Name: EliteCrew_StartQuestonLoadScript
     Properties:
     - MutagenObjectType: ScriptObjectProperty
-      Name: COM_AngerReason_Common_1_Murder
-      Object: 2C2A36:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: COM_NotCivilian
-      Object: 0F223F:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Assistance
-      Object: 0002C1:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: AffinityEventOnCombat
-      Object: 180F0A:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Aggression
-      Object: 0002BC:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: EliteCrew_Angry_Message
-      Object: 0C6587:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: SQ_Companions
-      Object: 2A567C:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CREW_Elite_IsAngry
-      Object: 06D17D:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: AffinityEventOnKill
-      Object: 180F0B:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CurrentCompanionFaction
-      Object: 023C01:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: SQ_Crew
-      Object: 2A567D:Starfield.esm
+      Name: ECQuest
+      Object: 014E55:Starfield.esm
 ObjectBounds:
   First: -0.31000048, -0.31000048, -4.7683716E-07
   Second: 0.31000048, 0.31000048, 1.8000004
@@ -125,46 +129,10 @@ Keywords:
 Class: 010B2F:Starfield.esm
 Name:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: Gideon Aker
-  - Language: English
-    String: Gideon Aker
-  - Language: Spanish
-    String: Gideon Aker
-  - Language: French
-    String: Gideon Aker
-  - Language: Italian
-    String: Gideon Aker
-  - Language: Japanese
-    String: ギデオン・アケル
-  - Language: Polish
-    String: Gideon Aker
-  - Language: Portuguese_Brazil
-    String: Gideon Aker
-  - Language: ChineseSimplified
-    String: 吉迪恩·艾克
+  Value: Gideon Aker
 ShortName:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: Gideon
-  - Language: English
-    String: Gideon
-  - Language: Spanish
-    String: Gideon
-  - Language: French
-    String: Gideon
-  - Language: Italian
-    String: Gideon
-  - Language: Japanese
-    String: ギデオン
-  - Language: Polish
-    String: Gideon
-  - Language: Portuguese_Brazil
-    String: Gideon
-  - Language: ChineseSimplified
-    String: 吉迪恩
+  Value: Gideon
 CalculatedHealth: 500
 CalculatedActionPoints: 50
 GearedUpWeapons: 1
@@ -221,90 +189,90 @@ Tints:
   TintColor: '#94FF252D'
   TintIntensity: 50
 FaceDialPositions:
-- Index: 24
-  Position: -0.27
-- Index: 27
-  Position: -0.62
 - Index: 29
   Position: 0.2
-- Index: 31
-  Position: -0.41
-- Index: 32
-  Position: 0.54
-- Index: 36
-  Position: 1
-- Index: 37
-  Position: 0.4
-- Index: 39
-  Position: -0.32
-- Index: 54
-  Position: 0.47
-- Index: 58
-  Position: 0.08
-- Index: 60
-  Position: -0.22
-- Index: 63
-  Position: -0.45
-- Index: 64
-  Position: -0.31
-- Index: 65
-  Position: -0.28
-- Index: 67
-  Position: -0.07
-- Index: 68
-  Position: -0.13
-- Index: 69
-  Position: -0.35
-- Index: 70
-  Position: -0.23
 - Index: 71
   Position: 0.3
+- Index: 58
+  Position: 0.08
+- Index: 39
+  Position: -0.32
+- Index: 31
+  Position: -0.41
+- Index: 37
+  Position: 0.4
+- Index: 88
+  Position: 0.27
+- Index: 78
+  Position: 0.54
+- Index: 69
+  Position: -0.35
+- Index: 85
+  Position: 1
+- Index: 67
+  Position: -0.07
+- Index: 65
+  Position: -0.28
+- Index: 60
+  Position: -0.22
+- Index: 27
+  Position: -0.62
+- Index: 77
+  Position: 0.23
+- Index: 70
+  Position: -0.23
+- Index: 80
+  Position: -0.21
+- Index: 89
+  Position: -0.72
+- Index: 36
+  Position: 1
+- Index: 68
+  Position: -0.13
+- Index: 79
+  Position: -0.04
+- Index: 24
+  Position: -0.27
+- Index: 84
+  Position: 1
+- Index: 63
+  Position: -0.45
+- Index: 76
+  Position: 0.08
 - Index: 73
   Position: 0.61
+- Index: 64
+  Position: -0.31
 - Index: 74
   Position: 0.15
 - Index: 75
   Position: -0.55
-- Index: 76
-  Position: 0.08
-- Index: 77
-  Position: 0.23
-- Index: 78
+- Index: 54
+  Position: 0.47
+- Index: 32
   Position: 0.54
-- Index: 79
-  Position: -0.04
-- Index: 80
-  Position: -0.21
 - Index: 83
   Position: -0.63
-- Index: 84
-  Position: 1
-- Index: 85
-  Position: 1
-- Index: 88
-  Position: 0.27
-- Index: 89
-  Position: -0.72
 FaceMorphs:
 - Index: 12
   MorphGroups:
-  - MorphGroup: Cheeks
-    BlendIntensity: 0.64
-  - MorphGroup: Chin
-    BlendIntensity: 0.43
-  - MorphGroup: Ears
-    BlendIntensity: 0.67
-  - MorphGroup: Eyes
-    BlendIntensity: 0.66
-  - MorphGroup: Forehead
-    BlendIntensity: 0.75
-  - MorphGroup: Jaw
-    BlendIntensity: 0.39
-  - MorphGroup: Mouth
-    BlendIntensity: 0.25
   - MorphGroup: Neck
     BlendIntensity: 0.63
+  - MorphGroup: Ears
+    BlendIntensity: 0.67
+  - MorphGroup: Jaw
+    BlendIntensity: 0.39
+  - MorphGroup: Forehead
+    BlendIntensity: 0.75
+  - MorphGroup: Eyes
+    BlendIntensity: 0.66
+  - MorphGroup: Mouth
+    BlendIntensity: 0.25
+  - MorphGroup: Chin
+    BlendIntensity: 0.43
   - MorphGroup: Nose
+    BlendIntensity: 0.64
+  - MorphGroup: Cheeks
     BlendIntensity: 0.64
 - Index: 16
   MorphGroups:
@@ -315,47 +283,49 @@ FaceMorphs:
   - MorphGroup: Mouth
     BlendIntensity: 0.59
 MorphBlends:
-- BlendName: male_af_md1_Mouth
-  Intensity: 0.23
-- BlendName: male_as_ol1_Ears
-  Intensity: 0.35
-- BlendName: male_as_ol1_Eyes
-  Intensity: 0.4698445
+- BlendName: male_eu_yo1_Jaw
+  Intensity: 0.59
+- BlendName: male_eu_yo1_Ears
+  Intensity: 0.3835
 - BlendName: male_as_yo1_Eyes
   Intensity: 0.011673224
+- BlendName: male_eu_md2_Neck
+  Intensity: 0.63
+- BlendName: male_as_ol1_Eyes
+  Intensity: 0.4698445
+- BlendName: male_eu_md2_Forehead
+  Intensity: 0.75
+- BlendName: male_eu_yo1_Mouth
+  Intensity: 0.26
+- BlendName: male_eu_md2_Mouth
+  Intensity: 0.029761905
+- BlendName: male_eu_md2_Nose
+  Intensity: 0.26
+- BlendName: male_eu_yo1_Nose
+  Intensity: 0.74
+- BlendName: male_as_ol1_Ears
+  Intensity: 0.35
+- BlendName: male_eu_yo1_Chin
+  Intensity: 0.56
+- BlendName: male_eu_ol1_Eyes
+  Intensity: 0.008482274
+- BlendName: male_eu_yo1_Eyes
+  Intensity: 0.51
+- BlendName: male_af_md1_Mouth
+  Intensity: 0.23
 - BlendName: male_eu_md2_Cheeks
   Intensity: 0.64
+- BlendName: male_eu_md2_Jaw
+  Intensity: 0.39
 - BlendName: male_eu_md2_Chin
   Intensity: 0.43
 - BlendName: male_eu_md2_Ears
   Intensity: 0.2665
-- BlendName: male_eu_md2_Forehead
-  Intensity: 0.75
-- BlendName: male_eu_md2_Jaw
-  Intensity: 0.39
-- BlendName: male_eu_md2_Mouth
-  Intensity: 0.029761905
-- BlendName: male_eu_md2_Neck
-  Intensity: 0.63
-- BlendName: male_eu_md2_Nose
-  Intensity: 0.26
-- BlendName: male_eu_ol1_Eyes
-  Intensity: 0.008482274
-- BlendName: male_eu_yo1_Chin
-  Intensity: 0.56
-- BlendName: male_eu_yo1_Ears
-  Intensity: 0.3835
-- BlendName: male_eu_yo1_Eyes
-  Intensity: 0.51
-- BlendName: male_eu_yo1_Jaw
-  Intensity: 0.59
-- BlendName: male_eu_yo1_Mouth
-  Intensity: 0.26
-- BlendName: male_eu_yo1_Nose
-  Intensity: 0.74
 SkinToneIndex: 3
 HairColor: Jet
 FacialHairColor: Jet
 EyebrowColor: Jet
 EyeColor: Brown
 Pronoun: HeHim
+MajorFlags:
+- 0x40000

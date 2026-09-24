@@ -1,6 +1,6 @@
 FormKey: 2C7211:Starfield.esm
 EditorID: Drink_Alc_DrinkPack_Generic_Bourbon
-FormVersion: 559
+FormVersion: 576
 ObjectBounds:
   First: -0.06793213, -0.034973145, -0.0027160645
   Second: 0.070739746, 0.03692627, 0.2163086
@@ -11,25 +11,7 @@ Transforms:
   Workbench: 03D201:Starfield.esm
 Name:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: Bourbon
-  - Language: English
-    String: Bourbon
-  - Language: Spanish
-    String: Bourbon
-  - Language: French
-    String: Bourbon
-  - Language: Italian
-    String: Bourbon
-  - Language: Japanese
-    String: バーボン
-  - Language: Polish
-    String: Burbon
-  - Language: Portuguese_Brazil
-    String: Bourbon
-  - Language: ChineseSimplified
-    String: '波本威士忌 '
+  Value: Bourbon
 Keywords:
 - 055ECC:Starfield.esm
 - 2CF28A:Starfield.esm
@@ -47,25 +29,7 @@ CraftingSound:
   Start: 580e474d-4c10-e197-848f-5a4632615aa7
 Description:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: Ein starker Bourbon Whiskey, angeblich hergestellt auf Basis von Techniken aus „Kentucky“, einem Ort auf der Erde.
-  - Language: English
-    String: A strong bourbon whiskey, supposedly brewed using techniques from a place called "Kentucky," on Old Earth.
-  - Language: Spanish
-    String: Fuerte whiskey bourbon, supuestamente elaborado mediante las técnicas de un lugar llamado “Kentucky” de la vieja Tierra.
-  - Language: French
-    String: Whisky Bourbon bien fort, censé être brassé à l'aide de techniques du “Kentucky”, un patelin du Vieux Monde.
-  - Language: Italian
-    String: Un bourbon molto forte, teoricamente prodotto usando tecniche di un luogo noto come “Kentucky” della Prima Casa.
-  - Language: Japanese
-    String: アルコール度数の高いバーボンウィスキー。地球の"ケンタッキー"と呼ばれる場所から伝わる技術を用いて醸成される
-  - Language: Polish
-    String: Mocny burbon warzony za pomocą metod z miejsca zwanego „Kentucky” - znajdującego się na starej Ziemi.
-  - Language: Portuguese_Brazil
-    String: Um uísque bourbon forte, supostamente produzido usando técnicas de um lugar chamado “Kentucky”, na velha Terra.
-  - Language: ChineseSimplified
-    String: 一种烈性波本威士忌，据说它的酿造技术来自旧地球上一个叫做“肯塔基”的地方。
+  Value: A strong bourbon whiskey, supposedly brewed using techniques from a place called "Kentucky," on Old Earth.
 Resources:
 - Resource: 29B02D:Starfield.esm
   Count: 1
@@ -78,6 +42,7 @@ ConsumeSound:
   Start: abcc440c-55e5-bbd4-167f-b9ab79fae3b3
 AddictionName:
   TargetLanguage: English
+  Value: ''
 Effects:
 - BaseEffect: 1BB407:Starfield.esm
   Data:
@@ -112,18 +77,17 @@ Effects:
 - BaseEffect: 2EE936:Starfield.esm
   Data:
     Magnitude: 1
-    Duration: 1200
+    Duration: 1
   Conditions:
   - MutagenObjectType: ConditionFloat
     CompareOperator: GreaterThanOrEqualTo
-    Unknown1: 0x8D1400
-    Unknown2: 16650
+    Unknown2: 16658
     Data:
       MutagenObjectType: GetGlobalValueConditionData
       FirstParameter: 31324C:Starfield.esm
     ComparisonValue: 1
   Magnitude: 2EFD77:Starfield.esm
-  Duration: 313264:Starfield.esm
+  Duration: 2F0AD4:Starfield.esm
   EFIF: 0
   MUID: 5
 - BaseEffect: 2EE4B2:Starfield.esm

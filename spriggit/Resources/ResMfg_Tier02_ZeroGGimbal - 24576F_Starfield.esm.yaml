@@ -1,0 +1,17 @@
+FormKey: 24576F:Starfield.esm
+EditorID: ResMfg_Tier02_ZeroGGimbal
+FormVersion: 576
+Name:
+  TargetLanguage: English
+  Value: Zero-G Gimbal
+Keywords:
+- 0424A7:Starfield.esm
+- 23CEB6:Starfield.esm
+CraftingSound:
+  Start: 8f644ce4-8ff9-5217-90b6-cba2f6b0b18d
+Rarity: Rare
+SurfaceColor: '#003B424A'
+ResourceType: ZeroGGimbal
+ActorValue: 24578F:Starfield.esm
+Produce: 2457BE:Starfield.esm
+Interval: 14EA72:Starfield.esm

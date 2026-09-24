@@ -1,0 +1,17 @@
+FormKey: 077832:Starfield.esm
+EditorID: ResOrgUniqueMemorySubstrate
+FormVersion: 576
+Name:
+  TargetLanguage: English
+  Value: Memory Substrate
+Keywords:
+- 0424A4:Starfield.esm
+- 279E34:Starfield.esm
+CraftingSound:
+  Start: beb644dc-3806-fc10-b40a-1fd694f5d6b9
+Rarity: Unique
+SurfaceColor: '#00A1E4DB'
+ResourceType: MemorySubstrate
+ActorValue: 2AC104:Starfield.esm
+Produce: 2AC0F5:Starfield.esm
+Interval: 05EF41:Starfield.esm

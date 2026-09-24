@@ -14,3 +14,9 @@ Strings/
 # Other
 Caprica.exe
 .tools/
+
+# Immutable SFCP release used to recover and verify the source baseline.
+!baseline/1.0.0/*.esm
+!baseline/1.0.0/*.ba2
+dist/
+__pycache__/

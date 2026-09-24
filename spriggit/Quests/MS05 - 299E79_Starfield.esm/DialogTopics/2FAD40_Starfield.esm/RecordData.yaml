@@ -1,5 +1,5 @@
 FormKey: 2FAD40:Starfield.esm
-FormVersion: 559
+FormVersion: 576
 Quest: 299E79:Starfield.esm
 Category: Scene
 Subtype: CustomScene
@@ -9,4 +9,3 @@ TopicInfoList:
 - 2FAD42:Starfield.esm
 - 2FAD43:Starfield.esm
 - 2FAD44:Starfield.esm
-Timestamp: 12497

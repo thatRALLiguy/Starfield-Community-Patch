@@ -1,27 +1,9 @@
 FormKey: 2218DF:Starfield.esm
 EditorID: ENV_DMG_Radiation_AppliedSpell_Generic_Effect
-FormVersion: 559
+FormVersion: 576
 Name:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: Strahlung
-  - Language: English
-    String: Radiation
-  - Language: Spanish
-    String: Radiación
-  - Language: French
-    String: Radiation
-  - Language: Italian
-    String: Radiazioni
-  - Language: Japanese
-    String: 放射能
-  - Language: Polish
-    String: Promieniowanie
-  - Language: Portuguese_Brazil
-    String: Radiação
-  - Language: ChineseSimplified
-    String: 辐射
+  Value: Radiation
 Keywords:
 - 1EBE85:Starfield.esm
 - 21BBD5:Starfield.esm
@@ -47,10 +29,10 @@ Unknown: 0x00000000000000000000000000000000000000000000
 Unknown2: '[]'
 Description:
   TargetLanguage: English
+  Value: ''
 Conditions:
 - MutagenObjectType: ConditionFloat
-  Unknown1: 0x8C1400
-  Unknown2: 16650
+  Unknown2: 16658
   Data:
     MutagenObjectType: IsTrueForConditionFormConditionData
     FirstParameter: 223D0B:Starfield.esm

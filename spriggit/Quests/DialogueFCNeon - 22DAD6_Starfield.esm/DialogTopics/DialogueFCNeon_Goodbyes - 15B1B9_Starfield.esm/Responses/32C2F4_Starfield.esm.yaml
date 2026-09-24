@@ -1,5 +1,5 @@
 FormKey: 32C2F4:Starfield.esm
-FormVersion: 559
+FormVersion: 576
 Flags:
   Flags:
   - Random
@@ -12,25 +12,7 @@ Responses:
     UnknownFloat: 10.000001
   Text:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Fertig? Gut.
-    - Language: English
-      String: Are we done? Good.
-    - Language: Spanish
-      String: ¿Ya está? Bien.
-    - Language: French
-      String: Vous avez fini ? Bien.
-    - Language: Italian
-      String: Abbiamo finito? Bene.
-    - Language: Japanese
-      String: 終わりか？ よし
-    - Language: Polish
-      String: To wszystko? Dobrze.
-    - Language: Portuguese_Brazil
-      String: Deu aqui? Que bom.
-    - Language: ChineseSimplified
-      String: 就这样？很好。
+    Value: Are we done? Good.
   ScriptNotes: dismissive goodbye
   Edits: ''
   AlternateLipText: ''

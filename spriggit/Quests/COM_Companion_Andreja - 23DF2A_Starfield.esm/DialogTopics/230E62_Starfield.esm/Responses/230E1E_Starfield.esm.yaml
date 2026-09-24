@@ -1,5 +1,5 @@
 FormKey: 230E1E:Starfield.esm
-FormVersion: 559
+FormVersion: 576
 Flags: {}
 Responses:
 - Emotion: 0C866C:Starfield.esm
@@ -7,25 +7,7 @@ Responses:
   TRDAUnknown: 0.53333336
   Text:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Aber meine Familie hat immer betont, wie wichtig es ist, einen Sinn im Leben zu haben. Man braucht einen Daseinszweck.
-    - Language: English
-      String: But my family always stressed the importance of having a purpose in life. You must have a reason for being.
-    - Language: Spanish
-      String: Pero mi familia siempre subrayó la importancia de tener un propósito en la vida. Debes tener una razón de ser.
-    - Language: French
-      String: Mais ma famille a toujours insisté sur l'importance d'avoir un but dans la vie. Il faut avoir une raison d'exister.
-    - Language: Italian
-      String: Ma la mia famiglia ha sempre sottolineato l’importanza di avere uno scopo nella vita. Una ragione per esistere.
-    - Language: Japanese
-      String: でも家では目的の重要性について強く説かれてきた。人は存在意義を持たなければいけない
-    - Language: Polish
-      String: W mojej rodzinie zawsze ważne było mieć jakiś cel w życiu. Trzeba mieć powód, by być.
-    - Language: Portuguese_Brazil
-      String: Mas minha família sempre enfatizou a importância de ter um propósito na vida. É preciso ter uma razão de ser.
-    - Language: ChineseSimplified
-      String: 但我的家族一直向我强调，人生必须有目标。人必须找到存在的意义。
+    Value: But my family always stressed the importance of having a purpose in life. You must have a reason for being.
   ScriptNotes: ''
   Edits: ''
   AlternateLipText: ''
@@ -40,29 +22,11 @@ Responses:
   ATAC: 0x00000000
   XNAM: True
 - Emotion: 0C866C:Starfield.esm
-  WEMFile: 42542359
+  WEMFile: 25765143
   TRDAUnknown: 0.53333336
   Text:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Das hat mir all die Jahre über den Weg gewiesen. Ganz gleich, was früher war, nun ist die Constellation mein Sinn.
-    - Language: English
-      String: That has guided me throughout my years. No matter what it was in the past, Constellation is now my purpose.
-    - Language: Spanish
-      String: Eso es lo que me ha guiado. El pasado no importa, ahora mi propósito es Constelación.
-    - Language: French
-      String: Ce principe m'a toujours guidé. Peu importe mon passé, Constellation est mon but dans la vie désormais.
-    - Language: Italian
-      String: È ciò che mi ha guidato negli anni. Adesso non importa quale fosse in passato. Ora il mio scopo è Constellation.
-    - Language: Japanese
-      String: 長年その指針に従ってきた。過去に何があったにせよ、今はコンステレーションが私の目的なの
-    - Language: Polish
-      String: To kierowało mną przez lata. Cokolwiek by się nie wydarzyło w przeszłości, teraz to Konstelacja jest moim celem.
-    - Language: Portuguese_Brazil
-      String: Isso me guiou ao longo dos anos. Não importa como as coisas eram no passado, a Constelação agora é o meu propósito.
-    - Language: ChineseSimplified
-      String: 多年以来，那个理念一直指引着我。无论过去发生过什么事，群星组织就是我现在的目标。
+    Value: That has guided me throughout my years. No matter what it was in the past, Constellation is now my purpose.
   ScriptNotes: ''
   Edits: ''
   AlternateLipText: ''

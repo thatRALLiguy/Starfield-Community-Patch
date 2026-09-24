@@ -1,0 +1,20 @@
+FormKey: 252074:Starfield.esm
+EditorID: ResInorgUniqueCaelumite
+FormVersion: 576
+Name:
+  TargetLanguage: English
+  Value: Caelumite
+Keywords:
+- 04248F:Starfield.esm
+- 299549:Starfield.esm
+CraftingSound:
+  Start: afdb4c86-846f-6fa4-4b36-e473d658fbb5
+List: 270294:Starfield.esm
+Rarity: Unique
+SurfaceColor: '#00000000'
+ShortName:
+  TargetLanguage: English
+  Value: Ct
+ActorValue: 252075:Starfield.esm
+Produce: 252073:Starfield.esm
+Interval: 05EF41:Starfield.esm

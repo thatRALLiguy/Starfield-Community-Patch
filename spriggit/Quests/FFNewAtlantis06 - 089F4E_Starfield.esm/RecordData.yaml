@@ -1,6 +1,6 @@
 FormKey: 089F4E:Starfield.esm
 EditorID: FFNewAtlantis06
-FormVersion: 559
+FormVersion: 576
 VirtualMachineAdapter:
   Scripts:
   - Name: defaultquestchangelocationscript
@@ -67,18 +67,13 @@ VirtualMachineAdapter:
     Name: Fragments:Quests:QF_FFNewAtlantis06_00089F4E
     Properties:
     - MutagenObjectType: ScriptObjectProperty
-      Name: FFNewAtlantis06_TL_Mark_Stage80
-      Object: 088A23:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC_NA_DonnaRain
-      Object: 113905:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_TahirVala
+      Name: Alias_SuspectArrested
       Object: 089F4E:Starfield.esm
-      Alias: 10
+      Alias: 15
     - MutagenObjectType: ScriptObjectProperty
-      Name: FFNewAtlantis06Faction
-      Object: 088B6D:Starfield.esm
+      Name: Alias_Trucker
+      Object: 089F4E:Starfield.esm
+      Alias: 7
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_OfficerSweep
       Object: 089F4E:Starfield.esm
@@ -88,75 +83,61 @@ VirtualMachineAdapter:
       Object: 089F4E:Starfield.esm
       Alias: 14
     - MutagenObjectType: ScriptObjectProperty
-      Name: FFNewAtlantis02Misc
-      Object: 042C70:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Book
+      Name: Alias_MASTMarker
       Object: 089F4E:Starfield.esm
-      Alias: 8
+      Alias: 4
     - MutagenObjectType: ScriptObjectProperty
-      Name: FFNewAtlantis06_StartingScene01
-      Object: 088D43:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_FunctionaryEndMarker
-      Object: 089F4E:Starfield.esm
-      Alias: 22
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_MarkannenMarker
-      Object: 089F4E:Starfield.esm
-      Alias: 23
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_PrisonFunctionary
-      Object: 089F4E:Starfield.esm
-      Alias: 16
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_SergeantYumi
-      Object: 089F4E:Starfield.esm
-      Alias: 0
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Markkanen
-      Object: 089F4E:Starfield.esm
-      Alias: 1
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Vandal
-      Object: 089F4E:Starfield.esm
-      Alias: 3
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_SuspectArrested
-      Object: 089F4E:Starfield.esm
-      Alias: 15
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_NATenableMarker
-      Object: 089F4E:Starfield.esm
-      Alias: 5
+      Name: FFNewAtlantis06Faction
+      Object: 088B6D:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_Terminal
       Object: 089F4E:Starfield.esm
       Alias: 6
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Trucker
+      Name: FFNewAtlantis02
+      Object: 24C46C:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_SergeantYumi
       Object: 089F4E:Starfield.esm
-      Alias: 7
+      Alias: 0
     - MutagenObjectType: ScriptObjectProperty
       Name: City_NewAtlantis_Z_TheKindnessOfStrangers
       Object: 09BD47:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: FFNewAtlantis02
-      Object: 24C46C:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: FFNewAtlantis06_080_TL_Mark_Stage80
+      Name: FFNewAtlantis06_TL_Mark_Stage80
       Object: 088A23:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_MASTMarker
+      Name: Alias_FunctionaryEndMarker
       Object: 089F4E:Starfield.esm
-      Alias: 4
+      Alias: 22
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_Chair
       Object: 089F4E:Starfield.esm
       Alias: 9
     - MutagenObjectType: ScriptObjectProperty
-      Name: FFNewAtlantis06_085_SC_TahirValaNoCameraEND
-      Object: 088A22:Starfield.esm
+      Name: Alias_PrisonFunctionary
+      Object: 089F4E:Starfield.esm
+      Alias: 16
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_Followers
+      Object: 00D773:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FFNewAtlantis06_StartingScene01
+      Object: 088D43:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_TahirVala
+      Object: 089F4E:Starfield.esm
+      Alias: 10
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_NATenableMarker
+      Object: 089F4E:Starfield.esm
+      Alias: 5
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FFNewAtlantis06_080_TL_Mark_Stage80
+      Object: 088A23:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FFNewAtlantis02Misc
+      Object: 042C70:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: FFNewAtlantis06_TL_Mark_Stage60
       Object: 088B66:Starfield.esm
@@ -165,17 +146,36 @@ VirtualMachineAdapter:
       Object: 089F4E:Starfield.esm
       Alias: 21
     - MutagenObjectType: ScriptObjectProperty
+      Name: UC_NA_DonnaRain
+      Object: 113905:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FFNewAtlantis06_085_SC_TahirValaNoCameraEND
+      Object: 088A22:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Markkanen
+      Object: 089F4E:Starfield.esm
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_MarkannenMarker
+      Object: 089F4E:Starfield.esm
+      Alias: 23
+    - MutagenObjectType: ScriptObjectProperty
       Name: FFNewAtlantis06_Greet_TahirValaNoCamera
       Object: 088A24:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: FFNewAtlantis06_SpeechChallengeQuest
       Object: 088B26:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Book
+      Object: 089F4E:Starfield.esm
+      Alias: 8
+    - MutagenObjectType: ScriptObjectProperty
       Name: FFNewAtlantis06_TL_Functionary_Greet
       Object: 088B6A:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: SQ_Followers
-      Object: 00D773:Starfield.esm
+      Name: Alias_Vandal
+      Object: 089F4E:Starfield.esm
+      Alias: 3
   Fragments:
   - Unknown2: 1
     ScriptName: Fragments:Quests:QF_FFNewAtlantis06_00089F4E
@@ -420,25 +420,7 @@ VirtualMachineAdapter:
         Data: 4
 Name:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: Zwei Geschichten, zwei Städte
-  - Language: English
-    String: Two Tales, Two Cities
-  - Language: Spanish
-    String: Dos historias, dos ciudades
-  - Language: French
-    String: Deux contes, deux cités
-  - Language: Italian
-    String: Due racconti, due città
-  - Language: Japanese
-    String: 二都の物語
-  - Language: Polish
-    String: Dwie opowieści, dwa miasta
-  - Language: Portuguese_Brazil
-    String: Dois Contos, Duas Cidades
-  - Language: ChineseSimplified
-    String: 双城传说
+  Value: Two Tales, Two Cities
 Data:
   Flags:
   - AllowRepeatedStages
@@ -533,25 +515,7 @@ Stages:
     Note: 'QO: Go to tram'
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Sergeant Yumi hat mich über einen versuchten Fall von Vandalismus informiert, der sich im Botschaftsdistrikt ereignet hat. Ich sollte mit dem Officer vor Ort sprechen.
-      - Language: English
-        String: Sergeant Yumi has informed me of an attempted vandalization that took place in the Embassy District. I should go there and speak to the officer on site.
-      - Language: Spanish
-        String: El sargento Yumi me ha contado que se ha producido un intento de vandalismo en el distrito de la embajada. Será mejor que vaya a hablar con la agente de servicio.
-      - Language: French
-        String: Le sergent Yumi m'a parlé d'une tentative de vandalisme qui s'est déroulée dans le quartier des ambassades. Je devrais y aller pour discuter avec l'agent sur place.
-      - Language: Italian
-        String: Il sergente Yumi mi ha informato di un tentato atto vandalico avvenuto nel quartiere delle ambasciate. Dovrei recarmi lì e parlare con l’agente sul posto.
-      - Language: Japanese
-        String: ユミ軍曹から、大使館地区で発生した器物破損未遂について聞いた。大使館地区に行き、現場の警備隊員と話そう
-      - Language: Polish
-        String: Sierżant Yumi poinformował mnie o próbie wandalizmu, do jakiej doszło w dzielnicy Ambasad. Muszę się tam udać i porozmawiać z będącą na miejscu funkcjonariuszką.
-      - Language: Portuguese_Brazil
-        String: O sargento Yumi me informou de uma tentativa de vandalismo que ocorreu no distrito das embaixadas. Tenho que ir até lá para falar com a agente do local.
-      - Language: ChineseSimplified
-        String: 由实中士通知我说，使馆区发生了一起蓄意破坏公物的事件。我应该去和现场的警官谈谈。
+      Value: Sergeant Yumi has informed me of an attempted vandalization that took place in the Embassy District. I should go there and speak to the officer on site.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -584,7 +548,6 @@ Stages:
   - Flags: []
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 089F4E:Starfield.esm
@@ -614,25 +577,7 @@ Stages:
     Note: Markkanen Following
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Sergeant Yumi hat mich über einen versuchten Fall von Vandalismus informiert, der sich im Botschaftsdistrikt ereignet hat. Nach dem Gespräch mit dem Officer vor Ort habe ich den Eindruck, dass wir jemandem im Amt für Interstellare Angelegenheiten ein paar Fragen stellen sollten.
-      - Language: English
-        String: Sergeant Yumi has informed me of an attempted vandalization that took place in the Embassy District. After speaking with the officer on site, it seems we need to interrogate a Functionary in Interstellar Affairs.
-      - Language: Spanish
-        String: El sargento Yumi me contó que se produjo un intento de vandalismo en el distrito de la embajada. Tras hablar con la agente de servicio, parece ser que debemos interrogar a un funcionario de Relaciones Interestelares.
-      - Language: French
-        String: Le sergent Yumi m'a parlé d'une tentative de vandalisme qui s'est déroulée dans le quartier des ambassades. Après avoir discuté avec l'agent sur place, il semblerait que nous devions maintenant interroger un fonctionnaire des Affaires interstellaires.
-      - Language: Italian
-        String: Il sergente Yumi mi ha informato di un tentato atto vandalico avvenuto nel quartiere delle ambasciate. Dopo aver parlato con l’agente sul posto, sembra che dovremo interrogare un funzionario degli Affari interstellari.
-      - Language: Japanese
-        String: ユミ軍曹から、大使館地区で発生した器物破損未遂について聞いた。現場の警備隊員と話をしたところ、星務庁の職員に質問する必要があるようだ
-      - Language: Polish
-        String: Sierżant Yumi poinformował mnie o próbie wandalizmu, do jakiej doszło w dzielnicy Ambasad. Po rozmowie z będącą na miejscu funkcjonariuszką wydaje się, że należy przesłuchać urzędnika z Biura Spraw Międzygwiezdnych.
-      - Language: Portuguese_Brazil
-        String: O sargento Yumi me informou de uma tentativa de vandalismo que ocorreu no distrito das embaixadas. Nós falamos com a agente no local e agora temos que interrogar um oficial das Relações Interestelares.
-      - Language: ChineseSimplified
-        String: 由实中士通知我说，使馆区发生了一起蓄意破坏公物的事件。和现场的警官交谈后，看来我们需要审问星际事务部的一名行政官。
+      Value: Sergeant Yumi has informed me of an attempted vandalization that took place in the Embassy District. After speaking with the officer on site, it seems we need to interrogate a Functionary in Interstellar Affairs.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -666,25 +611,7 @@ Stages:
     Note: 'QO: Speak to Markkanen'
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Sergeant Yumi hat mich über einen versuchten Fall von Vandalismus informiert, der sich im Botschaftsdistrikt ereignet hat. Nach dem Gespräch mit dem Officer vor Ort stellten wir jemandem im Amt für Interstellare Angelegenheiten ein paar Fragen und wurden dabei auf den Computer des Beamten verwiesen.
-      - Language: English
-        String: Sergeant Yumi has informed me of an attempted vandalization that took place in the Embassy District. After speaking with the officer on site, we went to interrogate a Functionary in Interstellar Affairs, who directed us to their computer.
-      - Language: Spanish
-        String: El sargento Yumi me contó que se produjo un intento de vandalismo en el distrito de la embajada. Tras hablar con la agente de servicio, fuimos a interrogar a un funcionario de Relaciones Interestelares, que nos sugirió que consultásemos su ordenador.
-      - Language: French
-        String: Le sergent Yumi m'a parlé d'une tentative de vandalisme qui s'est déroulée dans le quartier des ambassades. Après avoir discuté avec l'agent sur place, nous sommes allés interroger un fonctionnaire des Affaires interstellaires, qui nous a dit de consulter son ordinateur.
-      - Language: Italian
-        String: Il sergente Yumi mi ha informato di un tentato atto vandalico avvenuto nel quartiere delle ambasciate. Dopo aver parlato con l’agente sul posto, siamo andati a interrogare un funzionario degli Affari interstellari, che ci ha suggerito di controllare il suo computer.
-      - Language: Japanese
-        String: ユミ軍曹から、大使館地区で発生した器物破損未遂について聞いた。現場の警備隊員と話をしたあと、星務庁の職員へ質問をしに行くと、コンピューターへの道順を教えられた
-      - Language: Polish
-        String: Sierżant Yumi poinformował mnie o próbie wandalizmu, do jakiej doszło w dzielnicy Ambasad. Po rozmowie z będącą na miejscu funkcjonariuszką udaliśmy się przesłuchać urzędnika z Biura Spraw Międzygwiezdnych, który polecił nam sprawdzić jego komputer.
-      - Language: Portuguese_Brazil
-        String: O sargento Yumi me informou de uma tentativa de vandalismo que ocorreu no distrito das embaixadas. Após falarmos com a agente no local, fomos interrogar um oficial das Relações Interestelares, que nos dirigiu ao seu computador de trabalho.
-      - Language: ChineseSimplified
-        String: 由实中士通知我说，使馆区发生了一起蓄意破坏公物的事件。和现场的警官交谈后，我们去审问了星际事务部的一名行政官，他让我们去调查部所内的电脑。
+      Value: Sergeant Yumi has informed me of an attempted vandalization that took place in the Embassy District. After speaking with the officer on site, we went to interrogate a Functionary in Interstellar Affairs, who directed us to their computer.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -694,25 +621,7 @@ Stages:
     Note: 'QO: Arrest Tahir Vala'
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Sergeant Yumi hat mich über einen versuchten Fall von Vandalismus informiert, der sich im Botschaftsdistrikt ereignet hat. Nach dem Gespräch mit dem Officer vor Ort stellten wir jemandem im Amt für Interstellare Angelegenheiten ein paar Fragen und wurden dabei auf den Computer des Beamten verwiesen. Der vermeintliche Vandale soll ein gewisser Tahir Vala sein, ein Bewohner des Unterdecks.
-      - Language: English
-        String: Sergeant Yumi has informed me of an attempted vandalization that took place in the Embassy District. After speaking with the officer on site, we went to interrogate a Functionary in Interstellar Affairs, who directed us to their computer. The Functionary has pinpointed a Well resident named Tahir Vala as the vandal.
-      - Language: Spanish
-        String: El sargento Yumi me contó que se produjo un intento de vandalismo en el distrito de la embajada. Tras hablar con la agente de servicio, fuimos a interrogar a un funcionario de Relaciones Interestelares, que nos sugirió que consultásemos su ordenador. El funcionario señala como responsable del delito al residente del pozo Tahir Vala.
-      - Language: French
-        String: Le sergent Yumi m'a parlé d'une tentative de vandalisme qui s'est déroulée dans le quartier des ambassades. Après avoir discuté avec l'agent sur place, nous sommes allés interroger un fonctionnaire des Affaires interstellaires, qui nous a dit de consulter son ordinateur. Le fonctionnaire a identifié le vandale comme étant un résident du Puits appelé Tahir Vala.
-      - Language: Italian
-        String: Il sergente Yumi mi ha informato di un tentato atto vandalico avvenuto nel quartiere delle ambasciate. Dopo aver parlato con l’agente sul posto, siamo andati a interrogare un funzionario degli Affari interstellari, che ci ha suggerito di controllare il suo computer. Il funzionario ha identificato un residente del Pozzo di nome Tahir Vala come colpevole del crimine.
-      - Language: Japanese
-        String: ユミ軍曹から、大使館地区で発生した器物破損未遂について聞いた。現場の警備隊員と話をしたあと、星務庁の職員へ質問をしに行くと、コンピューターへの道順を教えられた。職員は犯人として、ウェルの住人であるタヒル・ヴァラの名前を挙げた
-      - Language: Polish
-        String: Sierżant Yumi poinformował mnie o próbie wandalizmu, do jakiej doszło w Dzielnicy Ambasad. Po rozmowie z będącą na miejscu funkcjonariuszką należało przesłuchać urzędnika z Biura Spraw Międzygwiezdnych, który polecił nam sprawdzić jego komputer. Urzędnik wskazuje jako wandala mieszkańca Studni imieniem Tahir Vala.
-      - Language: Portuguese_Brazil
-        String: O sargento Yumi me informou de uma tentativa de vandalismo que ocorreu no distrito das embaixadas. Após falarmos com a agente no local, fomos interrogar um oficial das Relações Interestelares, que nos dirigiu ao seu computador de trabalho. O oficial afirma que o vândalo é um morador do Poço chamado Tahir Vala.
-      - Language: ChineseSimplified
-        String: 由实中士通知我说，使馆区发生了一起蓄意破坏公物的事件。和现场的警官交谈后，我们去审问了星际事务部的一名行政官，他让我们去调查部所内的电脑。该行政官指称犯人为名叫塔希尔·瓦拉的深井区市民。
+      Value: Sergeant Yumi has informed me of an attempted vandalization that took place in the Embassy District. After speaking with the officer on site, we went to interrogate a Functionary in Interstellar Affairs, who directed us to their computer. The Functionary has pinpointed a Well resident named Tahir Vala as the vandal.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -730,25 +639,7 @@ Stages:
     Note: 'QO: Arrest Functionary Gershon'
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Sergeant Yumi hat mich über einen versuchten Fall von Vandalismus informiert, der sich im Botschaftsdistrikt ereignet hat. Nach dem Gespräch mit dem Officer vor Ort stellten wir jemandem im Amt für Interstellare Angelegenheiten ein paar Fragen und wurden dabei auf den Computer des Beamten verwiesen. Nach genauerer Durchsuchung dieses Arbeitsplatzes habe ich allerdings den Beamten als Hauptverdächtigen im Visier.
-      - Language: English
-        String: Sergeant Yumi has informed me of an attempted vandalization that took place in the Embassy District. After speaking with the officer on site, we went to interrogate a Functionary in Interstellar Affairs, who directed us to their computer. However, after searching their cubicle, I've turned my sights on the Functionary as my primary suspect.
-      - Language: Spanish
-        String: El sargento Yumi me contó que se produjo un intento de vandalismo en el distrito de la embajada. Tras hablar con la agente de servicio, fuimos a interrogar a un funcionario de Relaciones Interestelares, que nos sugirió que consultásemos su ordenador. No obstante, tras registrar su cubículo, el funcionario ha pasado a ser el principal sospechoso a mi entender.
-      - Language: French
-        String: Le sergent Yumi m'a parlé d'une tentative de vandalisme qui s'est déroulée dans le quartier des ambassades. Après avoir discuté avec l'agent sur place, nous sommes allés interroger un fonctionnaire des Affaires interstellaires, qui nous a dit de consulter son ordinateur. Cependant, après avoir fouillé son bureau, le fonctionnaire est devenu mon principal suspect.
-      - Language: Italian
-        String: Il sergente Yumi mi ha informato di un tentato atto vandalico avvenuto nel quartiere delle ambasciate. Dopo aver parlato con l’agente sul posto, siamo andati a interrogare un funzionario degli Affari interstellari, che ci ha suggerito di controllare il suo computer. Tuttavia, dopo aver perquisito la sua postazione, il funzionario è diventato il mio sospettato principale.
-      - Language: Japanese
-        String: ユミ軍曹から、大使館地区で発生した器物破損未遂について聞いた。現場の警備隊員と話をしたあと、星務庁の職員へ質問をしに行くと、コンピューターへの道順を教えられた。しかし業務スペースを調べると、職員が第一容疑者になった
-      - Language: Polish
-        String: Sierżant Yumi poinformował mnie o próbie wandalizmu, do jakiej doszło w Dzielnicy Ambasad. Po rozmowie z będącą na miejscu funkcjonariuszką należało przesłuchać urzędnika z Biura Spraw Międzygwiezdnych, który polecił nam sprawdzić jego komputer. Po przeszukaniu jego stanowiska pracy mam wrażenie, że to on sam jest tu głównym podejrzanym.
-      - Language: Portuguese_Brazil
-        String: O sargento Yumi me informou de uma tentativa de vandalismo que ocorreu no distrito das embaixadas. Após falarmos com a agente no local, fomos interrogar um oficial das Relações Interestelares, que nos dirigiu ao seu computador de trabalho. Entretanto, após vasculhar o cubículo dele, decidi que o oficial é o maior suspeito do caso.
-      - Language: ChineseSimplified
-        String: 由实中士通知我说，使馆区发生了一起蓄意破坏公物的事件。和现场的警官交谈后，我们去审问了星际事务部的一名行政官，他让我们去调查部所内的电脑。然而，在搜查行政官的隔间后，我把行政官定为主要嫌疑人。
+      Value: Sergeant Yumi has informed me of an attempted vandalization that took place in the Embassy District. After speaking with the officer on site, we went to interrogate a Functionary in Interstellar Affairs, who directed us to their computer. However, after searching their cubicle, I've turned my sights on the Functionary as my primary suspect.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -845,25 +736,7 @@ Stages:
     Note: Quest Complete
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Sergeant Yumi hat mich gebeten, einen Vorfall in der Nähe der NAT zu untersuchen. Ich habe den Verantwortlichen gefunden und festgenommen.
-      - Language: English
-        String: Sergeant Yumi asked me to investigate an incident near the NAT. I identified the perpetrator and had him arrested.
-      - Language: Spanish
-        String: El sargento Yumi me pidió que investigase un incidente ocurrido en los alrededores del TNA. Identifiqué al responsable y facilité su arresto.
-      - Language: French
-        String: Le sergent Yumi m'a demandé d'enquêter sur un incident près de l'ETNA. J'ai identifié et arrêté le coupable.
-      - Language: Italian
-        String: Il sergente Yumi mi ha chiesto di indagare su un incidente avvenuto vicino alla NAT. Ho identificato il responsabile e l’ho assicurato alla giustizia.
-      - Language: Japanese
-        String: ユミ軍曹から、NAT付近の事件について調査するように頼まれた。そして、犯人を特定して逮捕することができた
-      - Language: Polish
-        String: Sierżant Yumi poprosił mnie o zbadanie incydentu nieopodal NAT-u. Sprawca został zidentyfikowany i aresztowany.
-      - Language: Portuguese_Brazil
-        String: O sargento Yumi me pediu pra investigar um incidente perto da NAT. Identifiquei o criminoso e fiz com que ele fosse preso.
-      - Language: ChineseSimplified
-        String: 由实中士请我调查新亚交通附近发生的一起事件。我找出了肇事者并逮捕了他。
+      Value: Sergeant Yumi asked me to investigate an incident near the NAT. I identified the perpetrator and had him arrested.
     StageCompleteDatas:
     - QSRD: 0x01000000
       RewardDatas:
@@ -886,255 +759,74 @@ Objectives:
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Untersuche den Vorfall im Botschaftsdistrikt.
-    - Language: English
-      String: Investigate the incident at Embassy District
-    - Language: Spanish
-      String: Investiga el incidente (distrito de la embajada).
-    - Language: French
-      String: Enquêtez sur l'incident dans le q. des ambassades.
-    - Language: Italian
-      String: Indaga sull’incidente nel quartiere delle ambasciate
-    - Language: Japanese
-      String: 大使館地区での事件について調べる
-    - Language: Polish
-      String: Przyjrzyj się incydentowi w dzielnicy Ambasad
-    - Language: Portuguese_Brazil
-      String: Investigue o incidente no distrito das embaixadas
-    - Language: ChineseSimplified
-      String: 调查使馆区事件
+    Value: Investigate the incident at Embassy District
   Targets:
   - AliasID: 1
 - Index: 20
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Sprich mit Officer Markkanen.
-    - Language: English
-      String: Speak to Officer Markkanen
-    - Language: Spanish
-      String: Habla con la agente Markkanen.
-    - Language: French
-      String: Parlez à l'officier Markkanen.
-    - Language: Italian
-      String: Parla con l’agente Markkanen
-    - Language: Japanese
-      String: マルケネンと話す
-    - Language: Polish
-      String: Porozmawiaj z funkcjonariuszką Markkanen
-    - Language: Portuguese_Brazil
-      String: Fale com a agente Markkanen
-    - Language: ChineseSimplified
-      String: 与马尔卡宁警官交谈
+    Value: Speak to Officer Markkanen
   Targets:
   - AliasID: 1
 - Index: 30
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Sprich mit dem Zeugen.
-    - Language: English
-      String: Speak to the Witness
-    - Language: Spanish
-      String: Habla con el testigo.
-    - Language: French
-      String: Parlez au témoin.
-    - Language: Italian
-      String: Parla con il testimone
-    - Language: Japanese
-      String: 目撃者と話す
-    - Language: Polish
-      String: Porozmawiaj ze świadkiem
-    - Language: Portuguese_Brazil
-      String: Fale com a testemunha
-    - Language: ChineseSimplified
-      String: 与证人交谈
+    Value: Speak to the Witness
   Targets:
   - AliasID: 2
 - Index: 40
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Sprich mit Gershon.
-    - Language: English
-      String: Speak to Functionary Gershon
-    - Language: Spanish
-      String: Habla con el funcionario Gershon.
-    - Language: French
-      String: Parlez au fonctionnaire Gershon.
-    - Language: Italian
-      String: Parla con il funzionario Gershon
-    - Language: Japanese
-      String: 職員のガーションと話す
-    - Language: Polish
-      String: Porozmawiaj z urzędnikiem Gershonem
-    - Language: Portuguese_Brazil
-      String: Fale com o oficial Gershon
-    - Language: ChineseSimplified
-      String: 与行政官格森交谈
+    Value: Speak to Functionary Gershon
   Targets:
   - AliasID: 3
 - Index: 45
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Durchsuche den Computer nach Hinweisen zum Täter.
-    - Language: English
-      String: Check the computer for evidence on the vandal
-    - Language: Spanish
-      String: Busca pruebas del vándalo en el ordenador.
-    - Language: French
-      String: Consultez l'ordinateur pour obtenir des preuves.
-    - Language: Italian
-      String: Controlla il computer in cerca di indizi sul vandalo
-    - Language: Japanese
-      String: コンピューターで犯人に関する証拠を集める
-    - Language: Polish
-      String: Poszukaj w komputerze dowodów dotyczących wandala
-    - Language: Portuguese_Brazil
-      String: Procure por provas do vândalo no computador
-    - Language: ChineseSimplified
-      String: 检查电脑以获取有关犯人的证据
+    Value: Check the computer for evidence on the vandal
   Targets:
   - AliasID: 6
 - Index: 50
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Sprich mit Officer Markkanen.
-    - Language: English
-      String: Speak to Officer Markkanen
-    - Language: Spanish
-      String: Habla con la agente Markkanen.
-    - Language: French
-      String: Parlez à l'officier Markkanen.
-    - Language: Italian
-      String: Parla con l’agente Markkanen
-    - Language: Japanese
-      String: マルケネンと話す
-    - Language: Polish
-      String: Porozmawiaj z funkcjonariuszką Markkanen
-    - Language: Portuguese_Brazil
-      String: Fale com a agente Markkanen
-    - Language: ChineseSimplified
-      String: 与马尔卡宁警官交谈
+    Value: Speak to Officer Markkanen
   Targets:
   - AliasID: 1
 - Index: 60
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Nimm Tahir Vala auf dem Unterdeck fest.
-    - Language: English
-      String: Arrest Tahir Vala in the Well
-    - Language: Spanish
-      String: Arresta a Tahir Vala en el Pozo.
-    - Language: French
-      String: Arrêtez Tahir Vala dans le Puits.
-    - Language: Italian
-      String: Arresta Tahir Vala nel Pozzo
-    - Language: Japanese
-      String: ウェルでタヒル・ヴァラを逮捕する
-    - Language: Polish
-      String: Aresztuj Tahira Valę w Studni
-    - Language: Portuguese_Brazil
-      String: Prenda Tahir Vala no Poço
-    - Language: ChineseSimplified
-      String: 前往深井区逮捕塔希尔·瓦拉
+    Value: Arrest Tahir Vala in the Well
   Targets:
   - AliasID: 10
 - Index: 70
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Nimm Gershon bei der UC-Security fest.
-    - Language: English
-      String: Arrest Functionary Gershon at UC Security
-    - Language: Spanish
-      String: Arresta a Gershon (seguridad de las CU).
-    - Language: French
-      String: Arrêtez le fonct. Gershon à la sécurité de l'UC.
-    - Language: Italian
-      String: Arresta il funzionario Gershon nella Sicurezza UC
-    - Language: Japanese
-      String: UC警備隊で職員のガーションを逮捕する
-    - Language: Polish
-      String: Aresztuj Gershona na posterunku ochrony ZK
-    - Language: Portuguese_Brazil
-      String: Prenda o oficial Gershon na segurança da UC
-    - Language: ChineseSimplified
-      String: 前往联殖安保逮捕行政官格森
+    Value: Arrest Functionary Gershon at UC Security
   Targets:
   - {}
 - Index: 80
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Sprich mit Officer Markkanen.
-    - Language: English
-      String: Speak to Officer Markkanen
-    - Language: Spanish
-      String: Habla con la agente Markkanen.
-    - Language: French
-      String: Parlez à l'officier Markkanen.
-    - Language: Italian
-      String: Parla con l’agente Markkanen
-    - Language: Japanese
-      String: マルケネンと話す
-    - Language: Polish
-      String: Porozmawiaj z funkcjonariuszką Markkanen
-    - Language: Portuguese_Brazil
-      String: Fale com a agente Markkanen
-    - Language: ChineseSimplified
-      String: 与马尔卡宁警官交谈
+    Value: Speak to Officer Markkanen
   Targets:
   - AliasID: 1
 - Index: 88
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Sammle weitere Beweise.
-    - Language: English
-      String: Gather additional evidence
-    - Language: Spanish
-      String: Busca más pruebas.
-    - Language: French
-      String: Rassemblez des preuves supplémentaires.
-    - Language: Italian
-      String: Raccogli altre prove
-    - Language: Japanese
-      String: さらに証拠を集める
-    - Language: Polish
-      String: Zbierz dodatkowe dowody
-    - Language: Portuguese_Brazil
-      String: Colete mais provas
-    - Language: ChineseSimplified
-      String: 收集更多证据
+    Value: Gather additional evidence
   Targets:
   - AliasID: 8
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 089F4E:Starfield.esm
@@ -1142,7 +834,6 @@ Objectives:
   - AliasID: 7
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 089F4E:Starfield.esm
@@ -1151,25 +842,7 @@ Objectives:
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Sprich mit Sergeant Yumi.
-    - Language: English
-      String: Speak to Sergeant Yumi
-    - Language: Spanish
-      String: Habla con el sargento Yumi.
-    - Language: French
-      String: Parlez au sergent Yumi.
-    - Language: Italian
-      String: Parla con il sergente Yumi
-    - Language: Japanese
-      String: ユミ軍曹と話す
-    - Language: Polish
-      String: Porozmawiaj z sierżantem Yumim
-    - Language: Portuguese_Brazil
-      String: Fale com o sargento Yumi
-    - Language: ChineseSimplified
-      String: 与由实中士交谈
+    Value: Speak to Sergeant Yumi
   Targets:
   - {}
 Aliases:

@@ -1,0 +1,17 @@
+FormKey: 27319D:Starfield.esm
+EditorID: ResMfg_Tier01_AusteniticManifold
+FormVersion: 576
+Name:
+  TargetLanguage: English
+  Value: Austenitic Manifold
+Keywords:
+- 0424A8:Starfield.esm
+- 23CEB6:Starfield.esm
+CraftingSound:
+  Start: 8f644ce4-8ff9-5217-90b6-cba2f6b0b18d
+Rarity: Uncommon
+SurfaceColor: '#003B424A'
+ResourceType: AusteniticManifold
+ActorValue: 2457AD:Starfield.esm
+Produce: 2457D3:Starfield.esm
+Interval: 14E924:Starfield.esm

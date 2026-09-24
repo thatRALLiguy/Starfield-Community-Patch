@@ -1,6 +1,6 @@
 FormKey: 0A91FA:Starfield.esm
 EditorID: OEBB021World
-FormVersion: 559
+FormVersion: 576
 Components:
 - MutagenObjectType: WorldSpaceOverlayComponent
   SNAM: 0xFFFFFFFF
@@ -24,38 +24,18 @@ Components:
   NAM9: 0
   Conditions:
   - MutagenObjectType: ConditionFloat
-    Unknown1: 0x000000
     Data:
       MutagenObjectType: IsTrueForConditionFormConditionData
       FirstParameter: 1C3FB6:Starfield.esm
     ComparisonValue: 1
   - MutagenObjectType: ConditionFloat
-    Unknown1: 0x000000
     Data:
       MutagenObjectType: IsTrueForConditionFormConditionData
       FirstParameter: 1ABF53:Starfield.esm
     ComparisonValue: 1
 Name:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: Solarfarm
-  - Language: English
-    String: Solar Farm
-  - Language: Spanish
-    String: Granja solar
-  - Language: French
-    String: Parc solaire
-  - Language: Italian
-    String: Impianto solare
-  - Language: Japanese
-    String: 太陽光発電所
-  - Language: Polish
-    String: Farma solarna
-  - Language: Portuguese_Brazil
-    String: Estação Fotovoltaica
-  - Language: ChineseSimplified
-    String: 太阳能农场
+  Value: Solar Farm
 Location: 09B082:Starfield.esm
 LodWater: 000018:Starfield.esm
 LodWaterHeight: 0
@@ -74,4 +54,3 @@ GNAM: 1
 XCLWs: []
 WHGTs: []
 HNAM: 0x05
-SubCellsTimestamp: 12497

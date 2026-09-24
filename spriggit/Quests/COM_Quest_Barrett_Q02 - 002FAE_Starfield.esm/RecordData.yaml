@@ -1,8 +1,23 @@
 FormKey: 002FAE:Starfield.esm
 EditorID: COM_Quest_Barrett_Q02
-FormVersion: 559
+FormVersion: 576
 VirtualMachineAdapter:
   Scripts:
+  - Name: gamedayspassedglobalsquestscript
+    Properties:
+    - MutagenObjectType: ScriptStructListProperty
+      Name: GameDaysPassedGlobalsAndQuestStages
+      Structs:
+      - Members:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: DaysToAdd
+          Object: 074DDC:Starfield.esm
+        - MutagenObjectType: ScriptIntProperty
+          Name: QuestStage
+          Data: 230
+        - MutagenObjectType: ScriptObjectProperty
+          Name: NextAllowed
+          Object: 07D9EB:Starfield.esm
   - Name: defaultquestchangelocationscript
     Properties:
     - MutagenObjectType: ScriptStructListProperty
@@ -67,100 +82,152 @@ VirtualMachineAdapter:
       Name: MQ_TempleQuest_SpawnTemple
       Object: 032898:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: PlayerShip
-      Object: 002FAE:Starfield.esm
-      Alias: 105
-    - MutagenObjectType: ScriptObjectProperty
       Name: Location_Temple
       Object: 002FAE:Starfield.esm
       Alias: 96
-  - Name: gamedayspassedglobalsquestscript
-    Properties:
-    - MutagenObjectType: ScriptStructListProperty
-      Name: GameDaysPassedGlobalsAndQuestStages
-      Structs:
-      - Members:
-        - MutagenObjectType: ScriptObjectProperty
-          Name: DaysToAdd
-          Object: 074DDC:Starfield.esm
-        - MutagenObjectType: ScriptIntProperty
-          Name: QuestStage
-          Data: 230
-        - MutagenObjectType: ScriptObjectProperty
-          Name: NextAllowed
-          Object: 07D9EB:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerShip
+      Object: 002FAE:Starfield.esm
+      Alias: 105
   Script:
     Name: Fragments:Quests:QF_COM_Quest_Barrett_Q02_00002FAE
     Properties:
     - MutagenObjectType: ScriptObjectProperty
-      Name: BarrettSpell
-      Object: 23AF08:Starfield.esm
+      Name: StarbornPerk
+      Object: 1D7053:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_Companions
+      Object: 2A567C:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: BQ02CompanionLockInOverMSG
+      Object: 005BA3:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_BQ01_WaitToggle
+      Object: 09ACD6:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_Marker_Temple_Barrett
       Object: 002FAE:Starfield.esm
       Alias: 132
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Barrett
+      Name: COM_Quest_Barrett_Q01_Complete_AV
+      Object: 336C1C:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_Quest_Barrett_Q02_Complete_AV
+      Object: 034C13:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CollisionMarkers
       Object: 002FAE:Starfield.esm
-      Alias: 6
+      Alias: 144
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Activator_Temple_Puzzle
-      Object: 002FAE:Starfield.esm
-      Alias: 100
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Scene_SolvedPuzzle
-      Object: 005B8B:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: AbStarbornTeleport
-      Object: 3A289E:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Location_Temple
-      Object: 002FAE:Starfield.esm
-      Alias: 96
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_MapMarker_Temple
-      Object: 002FAE:Starfield.esm
-      Alias: 98
-    - MutagenObjectType: ScriptObjectProperty
-      Name: StarbornPerk
-      Object: 1D7053:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: BarrettTempleLocationAlias
-      Object: 1C7187:Starfield.esm
-      Alias: 12
+      Name: BE_KT02_ExplosionHavok
+      Object: 01B283:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_Marker_HoldingCell
       Object: 002FAE:Starfield.esm
       Alias: 85
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Marker_Temple_OtherBarrett
-      Object: 002FAE:Starfield.esm
-      Alias: 111
+      Name: Scene_OtherBarrettAppears
+      Object: 005B8E:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: BQ02CompanionLockInOverMSG
-      Object: 005BA3:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_OtherBarrett
+      Name: Alias_Actor_Starborn
       Object: 002FAE:Starfield.esm
-      Alias: 106
+      Alias: 108
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_MapMarker_Temple
+      Object: 002FAE:Starfield.esm
+      Alias: 98
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SceneThankYou
+      Object: 005B95:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_Activator_Temple_TriggerEntry
       Object: 002FAE:Starfield.esm
       Alias: 139
     - MutagenObjectType: ScriptObjectProperty
-      Name: Scene_AlreadyDo
-      Object: 005B91:Starfield.esm
+      Name: Scene_ArrivedAtTemple
+      Object: 005B8C:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_PlayerPilotSeat
+      Name: Alias_Activator_Temple_Trigger
       Object: 002FAE:Starfield.esm
-      Alias: 146
+      Alias: 135
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Marker_Temple_OtherBarrett
+      Object: 002FAE:Starfield.esm
+      Alias: 111
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Scene_OtherBarrettExitWarning
+      Object: 005B93:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Scene_CherishThem
+      Object: 005B94:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Location_Temple
+      Object: 002FAE:Starfield.esm
+      Alias: 96
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Scene_SolvedPuzzle
+      Object: 005B8B:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ScenePuzzleSolved
+      Object: 005BA5:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: BQ01_Scene_BARK_8499_Barrett_Temple_PuzzleSolved
+      Object: 028349:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Barrett
+      Object: 002FAE:Starfield.esm
+      Alias: 6
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Marker_Temple_Player
+      Object: 002FAE:Starfield.esm
+      Alias: 133
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_Spaceship_Starborn
       Object: 002FAE:Starfield.esm
       Alias: 107
     - MutagenObjectType: ScriptObjectProperty
+      Name: BQ01_Scene_GREET_8700_TalkToBarretts
+      Object: 005B8F:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Marker_Temple_LandingPad
+      Object: 002FAE:Starfield.esm
+      Alias: 101
+    - MutagenObjectType: ScriptObjectProperty
+      Name: BarrettSpell
+      Object: 23AF08:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: BQ02CompanionLockInMSG
+      Object: 005BA2:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Scene_HelloBarrett
+      Object: 005B8E:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Scene_InsideTemple
+      Object: 005B7E:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_Followers
+      Object: 00D773:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Marker_Temple_Starborn
+      Object: 002FAE:Starfield.esm
+      Alias: 145
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Activator_Temple_Puzzle
+      Object: 002FAE:Starfield.esm
+      Alias: 100
+    - MutagenObjectType: ScriptObjectProperty
       Name: AbStarbornTeleportAlt
       Object: 3A289E:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_PlayerPilotSeat
+      Object: 002FAE:Starfield.esm
+      Alias: 146
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_Quest_Barrett_Q01
+      Object: 0369AB:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Scene_BarrettUsesPower
+      Object: 005B8B:Starfield.esm
     - MutagenObjectType: ScriptObjectListProperty
       Name: BarrettSpacesuitForms
       Objects:
@@ -439,101 +506,34 @@ VirtualMachineAdapter:
       - Name: ''
         Object: 16D3D1:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: BE_KT02_ExplosionHavok
-      Object: 01B283:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_CollisionMarkers
+      Name: Alias_OtherBarrett
       Object: 002FAE:Starfield.esm
-      Alias: 144
+      Alias: 106
     - MutagenObjectType: ScriptObjectProperty
-      Name: BarrettQuest
-      Object: 002FAE:Starfield.esm
+      Name: BarrettTempleLocationAlias
+      Object: 1C7187:Starfield.esm
+      Alias: 12
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Actor_Starborn
-      Object: 002FAE:Starfield.esm
-      Alias: 108
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Scene_OtherBarrettAppears
-      Object: 005B8E:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Activator_Temple_Trigger
-      Object: 002FAE:Starfield.esm
-      Alias: 135
-    - MutagenObjectType: ScriptObjectProperty
-      Name: AIPower_ParallelSelf
-      Object: 23AF08:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: BQ01_Scene_BARK_8499_Barrett_Temple_PuzzleSolved
-      Object: 028349:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: BQ01_Scene_GREET_8700_TalkToBarretts
-      Object: 005B8F:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: BQ02CompanionLockInMSG
-      Object: 005BA2:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Marker_Temple_LandingPad
-      Object: 002FAE:Starfield.esm
-      Alias: 101
-    - MutagenObjectType: ScriptObjectProperty
-      Name: AbStarbornDeath
-      Object: 3A289F:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Scene_CherishThem
-      Object: 005B94:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Marker_Temple_Starborn
-      Object: 002FAE:Starfield.esm
-      Alias: 145
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Scene_InsideTemple
-      Object: 005B7E:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Scene_HelloBarrett
-      Object: 005B8E:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Scene_OtherBarrettExitWarning
-      Object: 005B93:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: COM_Quest_Barrett_Q01
-      Object: 0369AB:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: COM_Quest_Barrett_Q01_Complete_AV
-      Object: 336C1C:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: COM_Quest_Barrett_Q02_Complete_AV
-      Object: 034C13:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Scene_LosingPower
-      Object: 005B99:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: SQ_Companions
-      Object: 2A567C:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: SceneThankYou
-      Object: 005B95:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: SQ_Followers
-      Object: 00D773:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: ScenePuzzleSolved
-      Object: 005BA5:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Scene_ArrivedAtTemple
-      Object: 005B8C:Starfield.esm
+      Name: AbStarbornTeleport
+      Object: 3A289E:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Scene_BarrettReplies
       Object: 005B8D:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Marker_Temple_Player
+      Name: BarrettQuest
       Object: 002FAE:Starfield.esm
-      Alias: 133
     - MutagenObjectType: ScriptObjectProperty
-      Name: Scene_BarrettUsesPower
-      Object: 005B8B:Starfield.esm
+      Name: Scene_LosingPower
+      Object: 005B99:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: COM_BQ01_WaitToggle
-      Object: 09ACD6:Starfield.esm
+      Name: AbStarbornDeath
+      Object: 3A289F:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Scene_AlreadyDo
+      Object: 005B91:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AIPower_ParallelSelf
+      Object: 23AF08:Starfield.esm
   Fragments:
   - Unknown2: 1
     ScriptName: Fragments:Quests:QF_COM_Quest_Barrett_Q02_00002FAE
@@ -931,25 +931,7 @@ VirtualMachineAdapter:
         Data: 8405
 Name:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: Welten auseinander
-  - Language: English
-    String: Worlds Apart
-  - Language: Spanish
-    String: Mundos separados
-  - Language: French
-    String: Mondes opposés
-  - Language: Italian
-    String: Mondi distanti
-  - Language: Japanese
-    String: 別の宇宙
-  - Language: Polish
-    String: Dwa światy
-  - Language: Portuguese_Brazil
-    String: Mundos de Distância
-  - Language: ChineseSimplified
-    String: 阴阳两隔
+  Value: Worlds Apart
 Data:
   Flags:
   - RunOnce
@@ -1057,25 +1039,7 @@ Stages:
     Note: TALK to Barrett. (QO)
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Durch das Treffen mit dem Gesandten habe ich mehr über die Artefakte und die Existenz des Multiversums erfahren. Vielleicht sollte ich Barrett von dieser Entdeckung und ihren Auswirkungen für ihn erzählen.
-      - Language: English
-        String: After meeting with the Emissary, I learned more about the Artifacts and the existence of the multiverse. Barrett might be interested in this discovery and what it means for him.
-      - Language: Spanish
-        String: Tras reunirme con el Heraldo, conseguí más información sobre los Artefactos y la existencia del multiverso. Puede que a Barrett le interese lo que he descubierto y lo que significa para él.
-      - Language: French
-        String: À la suite de notre rencontre avec l'Émissaire, j'en ai appris plus sur les artefacts et l'existence du multivers. Barrett sera peut-être intéressé par ces découvertes et ce que cela implique pour lui.
-      - Language: Italian
-        String: Dopo aver incontrato l’Emissario, ho appreso di più sui Manufatti e sull’esistenza del multiverso. Barrett potrebbe essere interessato a questa scoperta e al suo significato.
-      - Language: Japanese
-        String: エミッサリーと出会い、アーティファクトと多元宇宙の存在についてより多くのことを学べた。バレットはこの発見と、それが自分に何を意味するのかについて興味を示すかもしれない
-      - Language: Polish
-        String: Po spotkaniu z Emisariuszem wiem więcej o artefaktach i o istnieniu wieloświata. Barrett może być zainteresowany tymi informacjami oraz tym, co mogą dla niego oznaczać.
-      - Language: Portuguese_Brazil
-        String: Graças à minha conversa com o Arauto, eu entendi melhor os artefatos e a existência do multiverso. Acho que o Barrett vai se interessar por essa descoberta e o que isso significa para ele.
-      - Language: ChineseSimplified
-        String: 在和星使会面后，我了解到了有关神器和多重宇宙存在的详情。巴雷特可能对这个发现感兴趣，以及了解它对他所具有的意义。
+      Value: After meeting with the Emissary, I learned more about the Artifacts and the existence of the multiverse. Barrett might be interested in this discovery and what it means for him.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -1088,25 +1052,7 @@ Stages:
     Note: '    TALKED to Barrett. (QO)'
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Barrett hat vorgeschlagen, dass wir den Tempel zu seinem Artefakt finden. Er glaubt, dass Vladimir uns die Koordinaten zum Tempel geben kann.
-      - Language: English
-        String: Barrett has suggested we find the Temple associated with his Artifact. He believes Vladimir can provide us with coordinates to the location.
-      - Language: Spanish
-        String: Barrett sugirió que encontrásemos el Templo asociado con su Artefacto. Cree que Vladimir puede darnos las coordenadas de su ubicación.
-      - Language: French
-        String: Barrett a suggéré que nous nous mettions en quête du temple associé à son artefact. Il pense que Vladimir pourrait nous fournir les coordonnées de l'endroit où il se trouve.
-      - Language: Italian
-        String: Barrett ha suggerito di trovare il Tempio associato al suo Manufatto. Crede che Vladimir possa fornirci le coordinate del posto.
-      - Language: Japanese
-        String: バレットは自分のアーティファクトに関連する聖堂を見つけるべきだと提案している。彼の考えでは、ウラジミールがその場所の座標を提供してくれるだろうとのことだ
-      - Language: Polish
-        String: Barrett zaproponował, aby poszukać świątyni powiązanej z jego artefaktem. Jest przekonany, że Vladimir może dla nas ustalić jej współrzędne.
-      - Language: Portuguese_Brazil
-        String: Barrett sugeriu que procuremos pelo templo relacionado ao artefato dele e acha que o Vladimir pode nos dar as coordenadas do local.
-      - Language: ChineseSimplified
-        String: 巴雷特建议我们去找他的神器所对应的神殿。他认为弗拉迪米尔可以为我们提供地点坐标。
+      Value: Barrett has suggested we find the Temple associated with his Artifact. He believes Vladimir can provide us with coordinates to the location.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -1233,25 +1179,7 @@ Stages:
     Note: FIND Barrett's Temple (QO)
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Durch das Treffen mit dem Gesandten habe ich mehr über die Artefakte und die Existenz des Multiversums erfahren. Vielleicht sollte ich Barrett von dieser Entdeckung und ihren Auswirkungen für ihn erzählen.
-      - Language: English
-        String: After meeting with the Emissary, I learned more about the Artifacts and the existence of the multiverse. Barrett might be interested in this discovery and what it means for him.
-      - Language: Spanish
-        String: Tras reunirme con el Heraldo, conseguí más información sobre los Artefactos y la existencia del multiverso. Puede que a Barrett le interese lo que he descubierto y lo que significa para él.
-      - Language: French
-        String: À la suite de notre rencontre avec l'Émissaire, j'en ai appris plus sur les artefacts et l'existence du multivers. Barrett sera peut-être intéressé par ces découvertes et ce que cela implique pour lui.
-      - Language: Italian
-        String: Dopo aver incontrato l’Emissario, ho appreso di più sui Manufatti e sull’esistenza del multiverso. Barrett potrebbe essere interessato a questa scoperta e al suo significato.
-      - Language: Japanese
-        String: エミッサリーと出会い、アーティファクトと多元宇宙の存在についてより多くのことを学べた。バレットはこの発見と、それが自分に何を意味するのかについて興味を示すかもしれない
-      - Language: Polish
-        String: Po spotkaniu z Emisariuszem wiem więcej o artefaktach i o istnieniu wieloświata. Barrett może być zainteresowany tymi informacjami oraz tym, co mogą dla niego oznaczać.
-      - Language: Portuguese_Brazil
-        String: Graças à minha conversa com o Arauto, eu entendi melhor os artefatos e a existência do multiverso. Acho que o Barrett vai se interessar por essa descoberta e o que isso significa para ele.
-      - Language: ChineseSimplified
-        String: 在和星使会面后，我了解到了有关神器和多重宇宙存在的详情。巴雷特可能对这个发现感兴趣，以及了解它对他所具有的意义。
+      Value: After meeting with the Emissary, I learned more about the Artifacts and the existence of the multiverse. Barrett might be interested in this discovery and what it means for him.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -1293,25 +1221,7 @@ Stages:
     Note: 'HELP Barrett get his Power. (QO) '
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Wir haben den Tempel zu Barretts Artefakt ausfindig gemacht. Ich sollte Barrett so gut wie möglich dabei helfen, seine Kraft zu erhalten.
-      - Language: English
-        String: We located the Temple associated with Barrett's Artifact. I should do what I can to help Barrett get his power.
-      - Language: Spanish
-        String: Encontramos el Templo asociado con el Artefacto de Barrett. Debería hacer todo lo posible por ayudar a Barrett a obtener su poder.
-      - Language: French
-        String: Nous avons identifié le temple associé à l'artefact de Barrett. Je dois l'aider à récupérer son pouvoir.
-      - Language: Italian
-        String: Abbiamo trovato il Tempio associato al Manufatto di Barrett. Devo fare il possibile per aiutarlo a ottenere il suo potere.
-      - Language: Japanese
-        String: バレットのアーティファクトに関連する聖堂を発見した。バレットが力を得られるよう、できるだけのことをしよう
-      - Language: Polish
-        String: Zlokalizowaliśmy świątynię powiązaną z artefaktem Barretta. Zrobię wszystko, aby mu pomóc w zdobyciu mocy.
-      - Language: Portuguese_Brazil
-        String: Nós localizamos o templo relacionado ao artefato do Barrett. Preciso fazer o possível para ajudá-lo a obter o poder dele.
-      - Language: ChineseSimplified
-        String: 我们找到了巴雷特的神器对应的神殿。我应该尽我所能帮助巴雷特得到他的能力。
+      Value: We located the Temple associated with Barrett's Artifact. I should do what I can to help Barrett get his power.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -1330,25 +1240,7 @@ Stages:
     Note: Entered interior
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Nach dem Treffen mit Vladimir haben wir die Koordinaten des Tempels zu Barretts Artefakt erhalten und uns Zugang zum Tempel verschafft.
-      - Language: English
-        String: After meeting with Vladimir, we obtained the coordinates to the Temple associated with Barrett's Artifact and entered the Temple.
-      - Language: Spanish
-        String: Tras reunirnos con Vladimir, conseguimos las coordenadas del Templo asociado con el Artefacto de Barrett y entramos en él.
-      - Language: French
-        String: Après notre rencontre avec Vladimir, nous avons obtenu les coordonnées du temple associé à l'artefact de Barrett et nous sommes entrés dans le temple.
-      - Language: Italian
-        String: Dopo aver incontrato Vladimir, ottenendo le coordinate che cercavamo, siamo entrati nel Tempio associato al Manufatto di Barrett.
-      - Language: Japanese
-        String: ウラジミールと出会い、バレットのアーティファクトに関連する聖堂の座標を入手して、聖堂へと入った
-      - Language: Polish
-        String: Po spotkaniu z Vladimirem zdobyliśmy współrzędne świątyni powiązanej z artefaktem Barretta i dostaliśmy się do jej wnętrza.
-      - Language: Portuguese_Brazil
-        String: Após falarmos com o Vladimir, nós conseguimos as coordenadas do templo relacionado ao artefato do Barrett e entramos lá.
-      - Language: ChineseSimplified
-        String: 在和弗拉迪米尔会面后，我们得到了巴雷特的神器对应神殿的坐标，并进入了神殿。
+      Value: After meeting with Vladimir, we obtained the coordinates to the Temple associated with Barrett's Artifact and entered the Temple.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -1403,25 +1295,7 @@ Stages:
     Note: '    SOLVED Temple Puzzle.'
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Wir haben den Tempel zu Barretts Artefakt ausfindig gemacht und Barrett hat seine Kraft erhalten.
-      - Language: English
-        String: We located the Temple associated with Barrett's artifact and Barrett received his power.
-      - Language: Spanish
-        String: Encontramos el Templo asociado con el Artefacto de Barrett y este recibió su poder.
-      - Language: French
-        String: Nous avons identifié le temple associé à l'artefact de Barrett et celui-ci a reçu son pouvoir.
-      - Language: Italian
-        String: Abbiamo trovato il Tempio associato al Manufatto di Barrett, che ha ricevuto il suo potere.
-      - Language: Japanese
-        String: バレットのアーティファクトと関連する聖堂を発見して、バレットは力を手に入れた。
-      - Language: Polish
-        String: Zlokalizowaliśmy świątynię powiązaną z artefaktem Barretta, w której ten zdobył swoją moc.
-      - Language: Portuguese_Brazil
-        String: Nós localizamos o templo relacionado ao artefato do Barrett, que recebeu o poder dele com sucesso.
-      - Language: ChineseSimplified
-        String: 我们找到了巴雷特的神器所对应的神殿，巴雷特得到了他的能力。
+      Value: We located the Temple associated with Barrett's artifact and Barrett received his power.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -1508,25 +1382,7 @@ Stages:
     Note: TALK to both Barretts. (QO)
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Wir haben den Tempel zu Barretts Artefakt ausfindig gemacht und Barrett hat seine Kraft erhalten. Nachdem er sie eingesetzt hat, scheint im Tempel ein anderer Barrett erschienen zu sein.
-      - Language: English
-        String: We located the Temple associated with Barrett's Artifact and Barrett received his power. After using it, another Barrett seems to have spawned inside the Temple.
-      - Language: Spanish
-        String: Encontramos el Templo asociado con el Artefacto de Barrett y este recibió su poder. Tras usarlo, parece que otro Barrett ha aparecido en el Templo.
-      - Language: French
-        String: Nous avons identifié le temple associé à l'artefact de Barrett et celui-ci a reçu son pouvoir. Après qu'il l'a utilisé, un autre Barrett semble être apparu à l'intérieur du temple.
-      - Language: Italian
-        String: Abbiamo trovato il Tempio associato al Manufatto di Barrett, che ha ricevuto il suo potere. Dopo averlo utilizzato, sembra che un altro Barrett sia comparso all’interno del Tempio.
-      - Language: Japanese
-        String: バレットのアーティファクトと関連する聖堂を発見して、バレットは力を手に入れた。その力を使うと、もう一人のバレットが聖堂内に現れた気配がした
-      - Language: Polish
-        String: Zlokalizowaliśmy świątynię powiązaną z artefaktem Barretta, w której ten zdobył swoją moc. Gdy jej użył, drugi Barrett pojawił się we wnętrzu świątyni.
-      - Language: Portuguese_Brazil
-        String: Nós localizamos o templo relacionado ao artefato do Barrett, que recebeu o poder dele com sucesso. Após ser usado, o poder parece ter feito outro Barrett surgir dentro do templo.
-      - Language: ChineseSimplified
-        String: 我们找到了巴雷特的神器所对应的神殿，巴雷特得到了他的能力。在使用神器后，另一个巴雷特似乎出现在了神殿内部。
+      Value: We located the Temple associated with Barrett's Artifact and Barrett received his power. After using it, another Barrett seems to have spawned inside the Temple.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -1595,25 +1451,7 @@ Stages:
     Note: 'FIGHT the Starborn. (QO) '
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Wir haben den Tempel zu Barretts Artefakt ausfindig gemacht und Barrett hat seine Kraft erhalten. Ein Sternenblut scheint dies jedoch bemerkt zu haben und außerhalb des Tempels gelandet zu sein.
-      - Language: English
-        String: We located the Temple associated with Barrett's Artifact and Barrett received his power. However, it seems a Starborn has taken notice and landed outside the Temple.
-      - Language: Spanish
-        String: Encontramos el Templo asociado con el Artefacto de Barrett y este recibió su poder. Sin embargo, parece que un Estelar se dio cuenta y aterrizó fuera del Templo.
-      - Language: French
-        String: Nous avons identifié le temple associé à l'artefact de Barrett et celui-ci a reçu son pouvoir, mais il semblerait qu'un Astrien nous a repérés et s'est posé à l'extérieur du temple.
-      - Language: Italian
-        String: Abbiamo trovato il Tempio associato al Manufatto di Barrett, che ha ricevuto il suo potere. Tuttavia, la cosa non è passata inosservata a un Astrale, che è atterrato all’esterno del Tempio.
-      - Language: Japanese
-        String: バレットのアーティファクトと関連する聖堂を発見して、バレットは力を手に入れた。しかし、どうやらスターボーンがそれに気づき、聖堂の外に着陸したようだ
-      - Language: Polish
-        String: Zlokalizowaliśmy świątynię powiązaną z artefaktem Barretta, w której ten zdobył swoją moc. Wygląda na to, że zwróciło to uwagę astran - ich statek wylądował nieopodal świątyni.
-      - Language: Portuguese_Brazil
-        String: Nós localizamos o templo relacionado ao artefato do Barrett, que recebeu o poder dele com sucesso. O problema é que um Estelar percebeu isso e pousou do lado de fora do templo.
-      - Language: ChineseSimplified
-        String: 我们找到了巴雷特的神器所对应的神殿，巴雷特得到了他的能力。但是，有一个星裔似乎注意到了，并且降落在了神殿外面。
+      Value: We located the Temple associated with Barrett's Artifact and Barrett received his power. However, it seems a Starborn has taken notice and landed outside the Temple.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -1722,25 +1560,7 @@ Stages:
     Note: 'TALK to Barrett. (QO) '
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Wir haben den Tempel zu Barretts Artefakt ausfindig gemacht und Barrett hat seine Kraft erhalten. Er konnte die Verbindung jedoch nicht lang aufrechterhalten, woraufhin der andere Barrett in sein Heimatuniversum zurückgekehrt zu sein scheint. Ich sollte mich mit Barrett darüber unterhalten, was gerade passiert ist.
-      - Language: English
-        String: We located the Temple associated with Barrett's Artifact and Barrett received his power. He was not able to hold the connection for long, however, and the Other Barrett seems to have returned to his home universe. I should discuss what just happened with Barrett.
-      - Language: Spanish
-        String: Encontramos el Templo asociado con el Artefacto de Barrett y este recibió su poder. Sin embargo, no pudo mantener la conexión durante mucho tiempo, y parece que el otro Barrett ha regresado a su universo de origen. Debería comentar lo ocurrido con Barrett.
-      - Language: French
-        String: Nous avons identifié le temple associé à l'artefact de Barrett et celui-ci a reçu son pouvoir. Il n'a cependant pas réussi à maintenir longtemps la connexion, et Barrett Bis semble être retourné dans son univers natal. Je devrais parler de ce qui vient de se passer avec Barrett.
-      - Language: Italian
-        String: Abbiamo trovato il Tempio associato al Manufatto di Barrett, che ha ricevuto il suo potere. Tuttavia, non è riuscito a mantenere a lungo la connessione, tant’è che l’altro Barrett pare essere tornato nel suo universo. Dovrei discutere di questi ultimi sviluppi con Barrett.
-      - Language: Japanese
-        String: バレットのアーティファクトと関連する聖堂を発見して、バレットは力を手に入れた。しかし彼は長く接続を維持できず、もう一人のバレットは元の宇宙に戻っていったようだ。今起きた出来事について、バレットと話し合う
-      - Language: Polish
-        String: Zlokalizowaliśmy świątynię powiązaną z artefaktem Barretta, w której ten zdobył swoją moc. Połączenie nie trwało jednak długo i drugi Barrett wrócił do swojego wszechświata. Muszę porozmawiać o tym z Barrettem.
-      - Language: Portuguese_Brazil
-        String: Nós localizamos o templo relacionado ao artefato do Barrett, que recebeu o poder dele mas não conseguiu manter a conexão por muito tempo, o que fez o outro Barrett retornar para o seu próprio universo. Preciso falar com o Barrett sobre o que aconteceu.
-      - Language: ChineseSimplified
-        String: 我们找到了巴雷特的神器所对应的神殿，巴雷特得到了他的能力。但他没法长时间保持这种联系，另一个巴雷特似乎已经回到了自己的宇宙。我应该和巴雷特讨论下刚才发生的事。
+      Value: We located the Temple associated with Barrett's Artifact and Barrett received his power. He was not able to hold the connection for long, however, and the Other Barrett seems to have returned to his home universe. I should discuss what just happened with Barrett.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -1802,25 +1622,7 @@ Stages:
     Note: QUEST COMPLETE.
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Wir haben den Tempel zu Barretts Artefakt ausfindig gemacht. Barrett hat seine Kraft erhalten und ist jetzt in der Lage, Barretts aus anderen Universen herbeizurufen.
-      - Language: English
-        String: We located the Temple associated with Barrett's Artifact and Barrett received his power, allowing him to summon Barretts from other universes.
-      - Language: Spanish
-        String: Encontramos el Templo asociado con el Artefacto de Barrett y este recibió su poder, lo que le permitió invocar a Barretts de otros universos.
-      - Language: French
-        String: Nous avons identifié le temple associé à l'artefact de Barrett et celui-ci a reçu son pouvoir, qui lui permet d'invoquer d'autres Barrett depuis d'autres univers.
-      - Language: Italian
-        String: Abbiamo trovato il Tempio associato al Manufatto di Barrett, che ha ricevuto il suo potere, permettendogli di evocare i Barrett di altri universi.
-      - Language: Japanese
-        String: バレットのアーティファクトと関連する聖堂を発見して、バレットは力を手に入れた。これでバレットは、他の宇宙のバレットを呼び出せるようになった
-      - Language: Polish
-        String: Zlokalizowaliśmy świątynię powiązaną z artefaktem Barretta, w której ten zdobył swoją moc umożliwiającą mu przywoływanie Barrettów z innych wszechświatów.
-      - Language: Portuguese_Brazil
-        String: Nós localizamos o templo relacionado ao artefato do Barrett, que recebeu o poder dele e agora consegue invocar Barretts de outros universos.
-      - Language: ChineseSimplified
-        String: 我们找到了巴雷特的神器所对应的神殿，巴雷特得到了他的能力，他可以从其他宇宙召唤其他的巴雷特了。
+      Value: We located the Temple associated with Barrett's Artifact and Barrett received his power, allowing him to summon Barretts from other universes.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -1874,25 +1676,7 @@ Stages:
     Note: Barrett dies during MQ204
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Barrett ist tot. Ich kann nichts mehr für ihn tun.
-      - Language: English
-        String: Barrett is dead. There is nothing more I can do for him.
-      - Language: Spanish
-        String: Barrett está muerto. No puedo hacer nada más por él.
-      - Language: French
-        String: Barrett est mort. Je ne peux plus rien faire pour lui.
-      - Language: Italian
-        String: Barrett è morto. Non posso fare nient’altro per lui.
-      - Language: Japanese
-        String: バレットは死んだ。彼にしてやれることはもうない
-      - Language: Polish
-        String: Barrett nie żyje. Nie mogę mu już pomóc.
-      - Language: Portuguese_Brazil
-        String: Barrett está morto. Não há mais nada que eu possa fazer por ele.
-      - Language: ChineseSimplified
-        String: 巴雷特已经死了。我没法再为他做什么了。
+      Value: Barrett is dead. There is nothing more I can do for him.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -1901,991 +1685,234 @@ Objectives:
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Begib dich nach Gagarin.
-    - Language: English
-      String: Go to Gagarin
-    - Language: Spanish
-      String: Ve a Gagarin.
-    - Language: French
-      String: Rendez-vous sur Gagarin.
-    - Language: Italian
-      String: Raggiungi Gagarin
-    - Language: Japanese
-      String: ガガーリンに行く
-    - Language: Polish
-      String: Udaj się na Gagarina
-    - Language: Portuguese_Brazil
-      String: Vá para Gagarin
-    - Language: ChineseSimplified
-      String: 前往加加林星
+    Value: Go to Gagarin
 - Index: 230
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Sprich mit Barrett.
-    - Language: English
-      String: Speak with Barrett
-    - Language: Spanish
-      String: Habla con Barrett.
-    - Language: French
-      String: Parlez à Barrett.
-    - Language: Italian
-      String: Parla con Barrett
-    - Language: Japanese
-      String: バレットと話す
-    - Language: Polish
-      String: Porozmawiaj z Barrettem
-    - Language: Portuguese_Brazil
-      String: Fale com Barrett
-    - Language: ChineseSimplified
-      String: 与巴雷特交谈
+    Value: Speak with Barrett
   Targets:
   - AliasID: 6
 - Index: 300
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Sprich mit Barrett.
-    - Language: English
-      String: Speak with Barrett
-    - Language: Spanish
-      String: Habla con Barrett.
-    - Language: French
-      String: Parlez à Barrett.
-    - Language: Italian
-      String: Parla con Barrett
-    - Language: Japanese
-      String: バレットと話す
-    - Language: Polish
-      String: Porozmawiaj z Barrettem
-    - Language: Portuguese_Brazil
-      String: Fale com Barrett
-    - Language: ChineseSimplified
-      String: 与巴雷特交谈
+    Value: Speak with Barrett
   Targets:
   - AliasID: 6
 - Index: 400
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Sprich mit der Anwältin.
-    - Language: English
-      String: Speak with the lawyer
-    - Language: Spanish
-      String: Habla con la abogada.
-    - Language: French
-      String: Parlez à l'avocate.
-    - Language: Italian
-      String: Parla con l’avvocata
-    - Language: Japanese
-      String: 弁護士と話す
-    - Language: Polish
-      String: Porozmawiaj z prawniczką
-    - Language: Portuguese_Brazil
-      String: Fale com a advogada
-    - Language: ChineseSimplified
-      String: 与律师交谈
+    Value: Speak with the lawyer
 - Index: 1000
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Finde Ervins Wohnung.
-    - Language: English
-      String: Find Ervin's apartment
-    - Language: Spanish
-      String: Encuentra el apartamento de Ervin.
-    - Language: French
-      String: Trouvez l'appartement d'Ervin.
-    - Language: Italian
-      String: Trova l’appartamento di Ervin
-    - Language: Japanese
-      String: アーヴィンのアパートを探す
-    - Language: Polish
-      String: Znajdź mieszkanie Ervina
-    - Language: Portuguese_Brazil
-      String: Encontre o apartamento do Ervin
-    - Language: ChineseSimplified
-      String: 找到欧文的公寓
+    Value: Find Ervin's apartment
 - Index: 1100
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Betritt Ervins Wohnung.
-    - Language: English
-      String: Enter Ervin's apartment
-    - Language: Spanish
-      String: Entra en el apartamento de Ervin.
-    - Language: French
-      String: Entrez dans l'appartement d'Ervin.
-    - Language: Italian
-      String: Entra nell’appartamento di Ervin
-    - Language: Japanese
-      String: アーヴィンのアパートに入る
-    - Language: Polish
-      String: Wejdź do mieszkania Ervina
-    - Language: Portuguese_Brazil
-      String: Entre no apartamento do Ervin
-    - Language: ChineseSimplified
-      String: 进入欧文的公寓
+    Value: Enter Ervin's apartment
 - Index: 1200
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Durchsuche die Wohnung nach Beweisen.
-    - Language: English
-      String: Search the apartment for evidence
-    - Language: Spanish
-      String: Registra el apartamento en busca de pruebas.
-    - Language: French
-      String: Fouillez l'appartement à la recherche de preuves.
-    - Language: Italian
-      String: Ispeziona l’appartamento in cerca di prove
-    - Language: Japanese
-      String: アパートで証拠を探す
-    - Language: Polish
-      String: Poszukaj w mieszkaniu dowodów
-    - Language: Portuguese_Brazil
-      String: Procure evidências no apartamento
-    - Language: ChineseSimplified
-      String: 在公寓寻找证据
+    Value: Search the apartment for evidence
 - Index: 1300
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Sprich mit Barrett über die Beweise.
-    - Language: English
-      String: Discuss evidence with Barrett
-    - Language: Spanish
-      String: Comenta las pruebas con Barrett.
-    - Language: French
-      String: Discutez des preuves avec Barrett.
-    - Language: Italian
-      String: Discuti delle prove con Barrett
-    - Language: Japanese
-      String: バレットと証拠について話す
-    - Language: Polish
-      String: Omów dowody z Barrettem
-    - Language: Portuguese_Brazil
-      String: Debata as evidências com Barrett
-    - Language: ChineseSimplified
-      String: 与巴雷特谈谈证据的事
+    Value: Discuss evidence with Barrett
   Targets:
   - AliasID: 6
 - Index: 1500
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Geh zum Rathaus.
-    - Language: English
-      String: Go to Town Hall
-    - Language: Spanish
-      String: Ve al ayuntamiento.
-    - Language: French
-      String: Rendez-vous à l'hôtel de ville.
-    - Language: Italian
-      String: Raggiungi il municipio
-    - Language: Japanese
-      String: タウンホールに行く
-    - Language: Polish
-      String: Udaj się do ratusza
-    - Language: Portuguese_Brazil
-      String: Vá à prefeitura
-    - Language: ChineseSimplified
-      String: 前往市政厅
+    Value: Go to Town Hall
 - Index: 1510
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Sieh dir Ervins Jagdlizenz an.
-    - Language: English
-      String: Look up Ervin's Hunting License
-    - Language: Spanish
-      String: Busca la licencia de caza de Ervin.
-    - Language: French
-      String: Cherchez le permis de chasse d'Ervin.
-    - Language: Italian
-      String: Cerca la licenza di caccia di Ervin
-    - Language: Japanese
-      String: アーヴィンの狩猟免許を探す
-    - Language: Polish
-      String: Poszukaj licencji łowieckiej Ervina
-    - Language: Portuguese_Brazil
-      String: Procure a licença de caça do Ervin
-    - Language: ChineseSimplified
-      String: 寻找欧文的狩猎执照
+    Value: Look up Ervin's Hunting License
 - Index: 1600
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Sprich mit der Anwältin.
-    - Language: English
-      String: Speak to the lawyer
-    - Language: Spanish
-      String: Habla con la abogada.
-    - Language: French
-      String: Parlez à l'avocate.
-    - Language: Italian
-      String: Parla con l’avvocata
-    - Language: Japanese
-      String: 弁護士と話す
-    - Language: Polish
-      String: Porozmawiaj z prawniczką
-    - Language: Portuguese_Brazil
-      String: Fale com a advogada
-    - Language: ChineseSimplified
-      String: 与律师交谈
+    Value: Speak to the lawyer
 - Index: 2000
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Begib dich zum Gießereidistrikt.
-    - Language: English
-      String: Go to the Foundry District
-    - Language: Spanish
-      String: Ve al distrito de la fundición.
-    - Language: French
-      String: Rendez-vous au district de la Fonderie.
-    - Language: Italian
-      String: Raggiungi il quartiere della Fucina
-    - Language: Japanese
-      String: 鋳造所のターミナルへ行く
-    - Language: Polish
-      String: Udaj się do dzielnicy Odlewni
-    - Language: Portuguese_Brazil
-      String: Vá ao distrito da fábrica
-    - Language: ChineseSimplified
-      String: 前往铸造厂区
+    Value: Go to the Foundry District
 - Index: 2100
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Nutze deinen Account.
-    - Language: English
-      String: Use your account
-    - Language: Spanish
-      String: Usa tu cuenta.
-    - Language: French
-      String: Utilisez votre compte.
-    - Language: Italian
-      String: Usa il tuo account
-    - Language: Japanese
-      String: 自分のアカウントを使う
-    - Language: Polish
-      String: Użyj swojego konta
-    - Language: Portuguese_Brazil
-      String: Use a sua conta
-    - Language: ChineseSimplified
-      String: 使用你的账户
+    Value: Use your account
 - Index: 2120
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Nutze Ervins Zugangscode.
-    - Language: English
-      String: Use Ervin's passcode
-    - Language: Spanish
-      String: Usa el código de Ervin.
-    - Language: French
-      String: Utilisez le code d'accès d'Ervin.
-    - Language: Italian
-      String: Usa la password di Ervin
-    - Language: Japanese
-      String: アーヴィンのパスコードを使う
-    - Language: Polish
-      String: Użyj kodu dostępu Ervina
-    - Language: Portuguese_Brazil
-      String: Use a senha do Ervin
-    - Language: ChineseSimplified
-      String: 使用欧文的密码
+    Value: Use Ervin's passcode
 - Index: 2130
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Nutze den Mitarbeiter-Account.
-    - Language: English
-      String: Use the employee's account
-    - Language: Spanish
-      String: Usa la cuenta de empleado.
-    - Language: French
-      String: Utilisez le compte d'employé.
-    - Language: Italian
-      String: Usa l’account del dipendente
-    - Language: Japanese
-      String: 従業員のアカウントを使う
-    - Language: Polish
-      String: Użyj konta pracownika
-    - Language: Portuguese_Brazil
-      String: Use a conta de funcionário
-    - Language: ChineseSimplified
-      String: 使用员工账户
+    Value: Use the employee's account
 - Index: 2140
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Beschaffe dir einen Zugangscode.
-    - Language: English
-      String: Acquire a passcode
-    - Language: Spanish
-      String: Consigue un código.
-    - Language: French
-      String: Procurez-vous un code d'accès.
-    - Language: Italian
-      String: Acquisisci una password
-    - Language: Japanese
-      String: パスコードを入手する
-    - Language: Polish
-      String: Zdobądź kod dostępu
-    - Language: Portuguese_Brazil
-      String: Consiga uma senha
-    - Language: ChineseSimplified
-      String: 获得密码
+    Value: Acquire a passcode
 - Index: 2155
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Nutze das Gießerei-Terminal.
-    - Language: English
-      String: Use the Foundry Terminal
-    - Language: Spanish
-      String: Usa el terminal de la fundición.
-    - Language: French
-      String: Utilisez le terminal de la Fonderie.
-    - Language: Italian
-      String: Usa il terminale della Fucina
-    - Language: Japanese
-      String: 鋳造所のターミナルを使う
-    - Language: Polish
-      String: Użyj terminalu Odlewni
-    - Language: Portuguese_Brazil
-      String: Use o terminal da fábrica
-    - Language: ChineseSimplified
-      String: 使用铸造厂终端
+    Value: Use the Foundry Terminal
 - Index: 2160
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Nutze den Administratoren-Account.
-    - Language: English
-      String: Use the Admin account
-    - Language: Spanish
-      String: Usa la cuenta de administrador.
-    - Language: French
-      String: Utilisez le compte admin.
-    - Language: Italian
-      String: Usa l’account amministratore
-    - Language: Japanese
-      String: 管理者アカウントを使う
-    - Language: Polish
-      String: Użyj konta administratora
-    - Language: Portuguese_Brazil
-      String: Use a conta de administrador
-    - Language: ChineseSimplified
-      String: 使用管理员账户
+    Value: Use the Admin account
 - Index: 2300
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Erhalte einen Zugangscode von einem Mitarbeiter.
-    - Language: English
-      String: Get a passcode from an employee
-    - Language: Spanish
-      String: Consigue el código de un empleado.
-    - Language: French
-      String: Obtenez un code d'accès auprès d'un employé.
-    - Language: Italian
-      String: Recupera una password da un dipendente
-    - Language: Japanese
-      String: 従業員からパスコードを入手する
-    - Language: Polish
-      String: Zdobądź kod dostępu od pracownika
-    - Language: Portuguese_Brazil
-      String: Consiga uma senha com um funcionário
-    - Language: ChineseSimplified
-      String: 从员工那里获得密码
+    Value: Get a passcode from an employee
 - Index: 2400
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Sprich mit Barrett.
-    - Language: English
-      String: Speak with Barrett
-    - Language: Spanish
-      String: Habla con Barrett.
-    - Language: French
-      String: Parlez à Barrett.
-    - Language: Italian
-      String: Parla con Barrett
-    - Language: Japanese
-      String: バレットと話す
-    - Language: Polish
-      String: Porozmawiaj z Barrettem
-    - Language: Portuguese_Brazil
-      String: Fale com Barrett
-    - Language: ChineseSimplified
-      String: 与巴雷特交谈
+    Value: Speak with Barrett
   Targets:
   - AliasID: 6
 - Index: 2500
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Finde die Koordinaten der Mine.
-    - Language: English
-      String: Find the mine's coordinates
-    - Language: Spanish
-      String: Encuentra las coordenadas de la mina.
-    - Language: French
-      String: Trouvez les coordonnées de la mine.
-    - Language: Italian
-      String: Trova le coordinate della miniera
-    - Language: Japanese
-      String: 鉱山の座標を探す
-    - Language: Polish
-      String: Znajdź współrzędne kopalni
-    - Language: Portuguese_Brazil
-      String: Encontre as coordenadas da mina
-    - Language: ChineseSimplified
-      String: 找到矿井的坐标
+    Value: Find the mine's coordinates
 - Index: 2800
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Sprich mit Barrett.
-    - Language: English
-      String: Speak with Barrett
-    - Language: Spanish
-      String: Habla con Barrett.
-    - Language: French
-      String: Parlez à Barrett.
-    - Language: Italian
-      String: Parla con Barrett
-    - Language: Japanese
-      String: バレットと話す
-    - Language: Polish
-      String: Porozmawiaj z Barrettem
-    - Language: Portuguese_Brazil
-      String: Fale com Barrett
-    - Language: ChineseSimplified
-      String: 与巴雷特交谈
+    Value: Speak with Barrett
   Targets:
   - AliasID: 6
 - Index: 5000
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Begib dich zur Hephaestus-Mine.
-    - Language: English
-      String: Go to the Hephaestus Mine
-    - Language: Spanish
-      String: Ve a la mina de Hephaestus.
-    - Language: French
-      String: Rendez-vous dans la mine d'Héphaïstos.
-    - Language: Italian
-      String: Raggiungi la miniera della Hephaestus
-    - Language: Japanese
-      String: ヘパイストスの鉱山へ行く
-    - Language: Polish
-      String: Udaj się do kopalni Hephaestusa
-    - Language: Portuguese_Brazil
-      String: Vá à mina da Hephaestus
-    - Language: ChineseSimplified
-      String: 前往赫菲斯托斯矿井
+    Value: Go to the Hephaestus Mine
 - Index: 5100
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Suche nach Beweisen.
-    - Language: English
-      String: Search for evidence
-    - Language: Spanish
-      String: Busca pruebas.
-    - Language: French
-      String: Cherchez des preuves.
-    - Language: Italian
-      String: Cerca delle prove
-    - Language: Japanese
-      String: 証拠を探す
-    - Language: Polish
-      String: Poszukaj dowodów
-    - Language: Portuguese_Brazil
-      String: Procure evidências
-    - Language: ChineseSimplified
-      String: 搜查证据
+    Value: Search for evidence
 - Index: 6000
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Bring Ellie Beweise.
-    - Language: English
-      String: Bring evidence to Ellie
-    - Language: Spanish
-      String: Lleva pruebas a Ellie.
-    - Language: French
-      String: Apportez des preuves à Ellie.
-    - Language: Italian
-      String: Porta le prove a Ellie
-    - Language: Japanese
-      String: エリーに証拠を届ける
-    - Language: Polish
-      String: Zanieś dowody do Ellie
-    - Language: Portuguese_Brazil
-      String: Leve evidências para Ellie
-    - Language: ChineseSimplified
-      String: 把证据带给艾莉
+    Value: Bring evidence to Ellie
 - Index: 6300
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Finde Helgi.
-    - Language: English
-      String: Find Helgi
-    - Language: Spanish
-      String: Busca a Helgi.
-    - Language: French
-      String: Trouvez Helgi.
-    - Language: Italian
-      String: Trova Helgi
-    - Language: Japanese
-      String: ヘルギを探す
-    - Language: Polish
-      String: Znajdź Helgiego
-    - Language: Portuguese_Brazil
-      String: Encontre Helgi
-    - Language: ChineseSimplified
-      String: 找到海尔吉
+    Value: Find Helgi
 - Index: 6400
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Sprich mit Dr. Keala über Helgi.
-    - Language: English
-      String: Speak to Dr. Keala about Helgi
-    - Language: Spanish
-      String: Habla con la Dra. Keala sobre Helgi.
-    - Language: French
-      String: Parlez au Dr Keala à propos d'Helgi.
-    - Language: Italian
-      String: Parla di Helgi alla dottoressa Keala
-    - Language: Japanese
-      String: ヘルギについてケアラと話す
-    - Language: Polish
-      String: Porozmawiaj z doktor Kealą o Helgim
-    - Language: Portuguese_Brazil
-      String: Fale com a Dra. Keala sobre Helgi
-    - Language: ChineseSimplified
-      String: 与凯拉医生谈谈海尔吉的事
+    Value: Speak to Dr. Keala about Helgi
 - Index: 6500
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Sprich mit Lizzy über Helgi.
-    - Language: English
-      String: Speak to Lizzy about Helgi
-    - Language: Spanish
-      String: Habla con Lizzy sobre Helgi.
-    - Language: French
-      String: Parlez à Lizzy à propos d'Helgi.
-    - Language: Italian
-      String: Parla di Helgi a Lizzy
-    - Language: Japanese
-      String: ヘルギについてリジーと話す
-    - Language: Polish
-      String: Porozmawiaj z Lizzy o Helgim
-    - Language: Portuguese_Brazil
-      String: Fale com Lizzy sobre Helgi
-    - Language: ChineseSimplified
-      String: 与莉兹谈谈海尔吉的事
+    Value: Speak to Lizzy about Helgi
 - Index: 6650
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Sprich mit Barrett.
-    - Language: English
-      String: Speak with Barrett
-    - Language: Spanish
-      String: Habla con Barrett.
-    - Language: French
-      String: Parlez à Barrett.
-    - Language: Italian
-      String: Parla con Barrett
-    - Language: Japanese
-      String: バレットと話す
-    - Language: Polish
-      String: Porozmawiaj z Barrettem
-    - Language: Portuguese_Brazil
-      String: Fale com Barrett
-    - Language: ChineseSimplified
-      String: 与巴雷特交谈
+    Value: Speak with Barrett
   Targets:
   - AliasID: 6
 - Index: 6652
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Lenke Chief Dalitso Pretorius ab.
-    - Language: English
-      String: Distract Chief Dalitso Pretorius
-    - Language: Spanish
-      String: Distrae a la jefa Dalitso Pretorius.
-    - Language: French
-      String: Faites diversion auprès du chef Dalitso Pretorius.
-    - Language: Italian
-      String: Distrai il capo Dalitso Pretorius
-    - Language: Japanese
-      String: ダルティソ・プレトリウス主任の注意を引く
-    - Language: Polish
-      String: Odwróć uwagę szefowej Dalitso Pretorius
-    - Language: Portuguese_Brazil
-      String: Distraia a chefe Dalitso Pretorius
-    - Language: ChineseSimplified
-      String: 让达利佐·普瑞陀利乌斯主管分心
+    Value: Distract Chief Dalitso Pretorius
 - Index: 6653
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Hacke den UC-Security-Computer.
-    - Language: English
-      String: Hack the UC Security computer
-    - Language: Spanish
-      String: Hackea el ordenador de la seguridad de las CU.
-    - Language: French
-      String: Piratez l'ordinateur de la sécurité de l'UC.
-    - Language: Italian
-      String: Viola il computer della Sicurezza UC
-    - Language: Japanese
-      String: UC警備隊のコンピューターをハッキングする
-    - Language: Polish
-      String: Zhakuj komputer ochrony ZK
-    - Language: Portuguese_Brazil
-      String: Hackeie o computador da segurança da UC
-    - Language: ChineseSimplified
-      String: 黑入联殖安保电脑
+    Value: Hack the UC Security computer
 - Index: 6657
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Sprich mit Barrett.
-    - Language: English
-      String: Speak with Barrett
-    - Language: Spanish
-      String: Habla con Barrett.
-    - Language: French
-      String: Parlez à Barrett.
-    - Language: Italian
-      String: Parla con Barrett
-    - Language: Japanese
-      String: バレットと話す
-    - Language: Polish
-      String: Porozmawiaj z Barrettem
-    - Language: Portuguese_Brazil
-      String: Fale com Barrett
-    - Language: ChineseSimplified
-      String: 与巴雷特交谈
+    Value: Speak with Barrett
   Targets:
   - AliasID: 6
 - Index: 6670
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: (Optional) Durchsuche das Terminal.
-    - Language: English
-      String: (Optional) Search the terminal
-    - Language: Spanish
-      String: (Opcional) Busca el terminal.
-    - Language: French
-      String: (Optionnel) Fouillez dans le terminal.
-    - Language: Italian
-      String: (Opzionale) Ispeziona il terminale
-    - Language: Japanese
-      String: (オプション)ターミナルを調べる
-    - Language: Polish
-      String: (Opcj.) Przeszukaj terminal
-    - Language: Portuguese_Brazil
-      String: (Opc.) Procure no terminal
-    - Language: ChineseSimplified
-      String: （可选）搜索终端
+    Value: (Optional) Search the terminal
 - Index: 6700
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Sprich mit Clint über Helgi.
-    - Language: English
-      String: Speak to Clint about Helgi
-    - Language: Spanish
-      String: Habla con Clint sobre Helgi.
-    - Language: French
-      String: Parlez à Clint à propos d'Helgi.
-    - Language: Italian
-      String: Parla di Helgi a Clint
-    - Language: Japanese
-      String: ヘルギについてクリントと話す
-    - Language: Polish
-      String: Porozmawiaj z Clintem o Helgim
-    - Language: Portuguese_Brazil
-      String: Fale com Clint sobre Helgi
-    - Language: ChineseSimplified
-      String: 与克林特谈谈海尔吉的事
+    Value: Speak to Clint about Helgi
 - Index: 6720
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Sprich mit Dalitso über Helgi.
-    - Language: English
-      String: Speak to Dalitso about Helgi
-    - Language: Spanish
-      String: Habla con Dalitso sobre Helgi.
-    - Language: French
-      String: Parlez à Dalitso à propos d'Helgi.
-    - Language: Italian
-      String: Parla di Helgi a Dalitso
-    - Language: Japanese
-      String: ヘルギについてダリーツォと話す
-    - Language: Polish
-      String: Porozmawiaj z Dalitso o Helgim
-    - Language: Portuguese_Brazil
-      String: Fale com Dalitso sobre Helgi
-    - Language: ChineseSimplified
-      String: 与达利佐谈谈海尔吉的事
+    Value: Speak to Dalitso about Helgi
 - Index: 7000
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Bringe Helgi dazu, auszusagen.
-    - Language: English
-      String: Convince Helgi to testify
-    - Language: Spanish
-      String: Convence a Helgi para que testifique.
-    - Language: French
-      String: Persuadez Helgi de témoigner.
-    - Language: Italian
-      String: Convinci Helgi a testimoniare
-    - Language: Japanese
-      String: ヘルギを説得して証言させる
-    - Language: Polish
-      String: Namów Helgiego do zeznawania
-    - Language: Portuguese_Brazil
-      String: Convença Helgi a testemunhar
-    - Language: ChineseSimplified
-      String: 说服海尔吉作证
+    Value: Convince Helgi to testify
 - Index: 7100
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: (Optional) Finde einen potenziellen Leumundszeugen.
-    - Language: English
-      String: (Optional) Find a potential character witnesses
-    - Language: Spanish
-      String: (Opcional) Busca a un posible testigo.
-    - Language: French
-      String: (Optionnel) Trouvez un potentiel témoin de moralité.
-    - Language: Italian
-      String: (Opzionale) Trova qualcuno che garantisca per Helgi
-    - Language: Japanese
-      String: (オプション)性格証人の候補を探す
-    - Language: Polish
-      String: (Opcj.) Znajdź świadka, który poręczy za Helgiego
-    - Language: Portuguese_Brazil
-      String: (Opc.) Encontre possíveis testemunhas de caráter
-    - Language: ChineseSimplified
-      String: （可选）寻找潜在的品格见证人
+    Value: (Optional) Find a potential character witnesses
 - Index: 7300
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Sprich mit Ellie.
-    - Language: English
-      String: Speak with Ellie
-    - Language: Spanish
-      String: Habla con Ellie.
-    - Language: French
-      String: Parlez à Ellie.
-    - Language: Italian
-      String: Parla con Ellie
-    - Language: Japanese
-      String: エリーと話す
-    - Language: Polish
-      String: Porozmawiaj z Ellie
-    - Language: Portuguese_Brazil
-      String: Fale com Ellie
-    - Language: ChineseSimplified
-      String: 与艾莉交谈
+    Value: Speak with Ellie
 - Index: 7400
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Sprich auf deinem Schiff mit Barrett.
-    - Language: English
-      String: Speak with Barrett on your ship
-    - Language: Spanish
-      String: Habla con Barrett en tu nave.
-    - Language: French
-      String: Parlez à Barrett à bord de votre vaisseau.
-    - Language: Italian
-      String: Parla con Barrett sulla tua nave
-    - Language: Japanese
-      String: 船でバレットと話す
-    - Language: Polish
-      String: Porozmawiaj z Barrettem na pokładzie swojego statku
-    - Language: Portuguese_Brazil
-      String: Fale com Barrett na sua nave
-    - Language: ChineseSimplified
-      String: 在你的飞船上与巴雷特交谈
+    Value: Speak with Barrett on your ship
   Targets:
   - AliasID: 6
 - Index: 7500
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Sprich mit Vladimir.
-    - Language: English
-      String: Speak to Vladimir
-    - Language: Spanish
-      String: Habla con Vladimir.
-    - Language: French
-      String: Parlez à Vladimir.
-    - Language: Italian
-      String: Parla con Vladimir
-    - Language: Japanese
-      String: ウラジミールと話す
-    - Language: Polish
-      String: Porozmawiaj z Vladimirem
-    - Language: Portuguese_Brazil
-      String: Fale com Vladimir
-    - Language: ChineseSimplified
-      String: 与弗拉迪米尔交谈
+    Value: Speak to Vladimir
 - Index: 8100
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Sprich mit Barrett.
-    - Language: English
-      String: Speak with Barrett
-    - Language: Spanish
-      String: Habla con Barrett.
-    - Language: French
-      String: Parlez à Barrett.
-    - Language: Italian
-      String: Parla con Barrett
-    - Language: Japanese
-      String: バレットと話す
-    - Language: Polish
-      String: Porozmawiaj z Barrettem
-    - Language: Portuguese_Brazil
-      String: Fale com Barrett
-    - Language: ChineseSimplified
-      String: 与巴雷特交谈
+    Value: Speak with Barrett
   Targets:
   - AliasID: 6
 - Index: 8300
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: 'Bring Barrett hierhin: <Alias=Location_TemplePlanet>.'
-    - Language: English
-      String: Take Barrett to <Alias=Location_TemplePlanet>
-    - Language: Spanish
-      String: Lleva a Barrett a <Alias=Location_TemplePlanet>.
-    - Language: French
-      String: Emmenez Barrett sur <Alias=Location_TemplePlanet>.
-    - Language: Italian
-      String: Raggiungi <Alias=Location_TemplePlanet> con Barrett
-    - Language: Japanese
-      String: バレットを<Alias=Location_TemplePlanet>に連れていく
-    - Language: Polish
-      String: 'Zabierz Barretta we wskazane miejsce: <Alias=Location_TemplePlanet>'
-    - Language: Portuguese_Brazil
-      String: Leve Barrett para <Alias=Location_TemplePlanet>
-    - Language: ChineseSimplified
-      String: 带巴雷特前往<Alias=Location_TemplePlanet>
+    Value: Take Barrett to <Alias=Location_TemplePlanet>
   Targets:
   - AliasID: 101
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetIsCurrentLocationAliasConditionData
         RunOnType: Reference
@@ -2895,31 +1922,12 @@ Objectives:
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Hilf Barrett, seine Kraft zu erhalten.
-    - Language: English
-      String: Help Barrett acquire his Power
-    - Language: Spanish
-      String: Ayuda a Barrett a obtener su poder.
-    - Language: French
-      String: Aidez Barrett à obtenir son pouvoir.
-    - Language: Italian
-      String: Aiuta Barrett ad acquisire il suo potere
-    - Language: Japanese
-      String: バレットが力を手に入れるのを手伝う
-    - Language: Polish
-      String: Pomóż Barrettowi zdobyć moc
-    - Language: Portuguese_Brazil
-      String: Ajude Barrett a obter o poder dele
-    - Language: ChineseSimplified
-      String: 帮巴雷特得到他的能力
+    Value: Help Barrett acquire his Power
   Targets:
   - AliasID: 138
     Conditions:
     - MutagenObjectType: ConditionFloat
       CompareOperator: GreaterThan
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetDistanceConditionData
         RunOnType: QuestAlias
@@ -2928,7 +1936,6 @@ Objectives:
         FirstParameter: 4294967294
       ComparisonValue: 10
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 002FAE:Starfield.esm
@@ -2937,14 +1944,12 @@ Objectives:
     Conditions:
     - MutagenObjectType: ConditionFloat
       CompareOperator: LessThan
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetDistanceConditionData
         UseAliases: True
         FirstParameter: 4294967294
       ComparisonValue: 10
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 002FAE:Starfield.esm
@@ -2952,14 +1957,12 @@ Objectives:
   - AliasID: 99
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 002FAE:Starfield.esm
         SecondParameter: 8410
       ComparisonValue: 1
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 002FAE:Starfield.esm
@@ -2968,80 +1971,25 @@ Objectives:
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Warte auf Barrett.
-    - Language: English
-      String: Wait for Barrett
-    - Language: Spanish
-      String: Espera a Barrett.
-    - Language: French
-      String: Attendez Barrett.
-    - Language: Italian
-      String: Aspetta Barrett
-    - Language: Japanese
-      String: バレットを待つ
-    - Language: Polish
-      String: Poczekaj na Barretta
-    - Language: Portuguese_Brazil
-      String: Espere por Barrett
-    - Language: ChineseSimplified
-      String: 等待巴雷特
+    Value: Wait for Barrett
   Targets:
   - AliasID: 6
 - Index: 8700
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Sprich mit den Barretts.
-    - Language: English
-      String: Speak with the Barretts
-    - Language: Spanish
-      String: Habla con los Barretts.
-    - Language: French
-      String: Parlez aux Barrett.
-    - Language: Italian
-      String: Parla coi Barrett
-    - Language: Japanese
-      String: バレットと話す
-    - Language: Polish
-      String: Porozmawiaj z Barrettami
-    - Language: Portuguese_Brazil
-      String: Fale com os Barretts
-    - Language: ChineseSimplified
-      String: 和巴雷特交谈
+    Value: Speak with the Barretts
   Targets:
   - AliasID: 6
 - Index: 8800
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Verteidige dich gegen das Sternenblut.
-    - Language: English
-      String: Defend against the Starborn
-    - Language: Spanish
-      String: Defiéndete del Estelar.
-    - Language: French
-      String: Repoussez l'Astrien.
-    - Language: Italian
-      String: Difenditi dall’Astrale
-    - Language: Japanese
-      String: スターボーン相手に身を守る
-    - Language: Polish
-      String: Broń się przed atakiem astrana
-    - Language: Portuguese_Brazil
-      String: Defenda-se do ataque Estelar
-    - Language: ChineseSimplified
-      String: 抵御星裔
+    Value: Defend against the Starborn
   Targets:
   - AliasID: 108
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 002FAE:Starfield.esm
@@ -3051,50 +1999,14 @@ Objectives:
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Sieh nach Barrett.
-    - Language: English
-      String: Check on Barrett
-    - Language: Spanish
-      String: Comprueba cómo está Barrett.
-    - Language: French
-      String: Allez voir comment va Barrett.
-    - Language: Italian
-      String: Passa da Barrett
-    - Language: Japanese
-      String: バレットの様子を確認する
-    - Language: Polish
-      String: Sprawdź, co z Barrettem
-    - Language: Portuguese_Brazil
-      String: Vá ver Barrett
-    - Language: ChineseSimplified
-      String: 查看巴雷特的情况
+    Value: Check on Barrett
   Targets:
   - AliasID: 6
 - Index: 9999
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Begib dich nach Gagarin.
-    - Language: English
-      String: Go to Gagarin
-    - Language: Spanish
-      String: Ve a Gagarin.
-    - Language: French
-      String: Rendez-vous sur Gagarin.
-    - Language: Italian
-      String: Raggiungi Gagarin
-    - Language: Japanese
-      String: ガガーリンに行く
-    - Language: Polish
-      String: Udaj się na Gagarina
-    - Language: Portuguese_Brazil
-      String: Vá para Gagarin
-    - Language: ChineseSimplified
-      String: 前往加加林星
+    Value: Go to Gagarin
 Aliases:
 - MutagenObjectType: QuestLocationAlias
   ID: 4
@@ -3196,19 +2108,16 @@ Aliases:
     Conditions:
     - MutagenObjectType: ConditionGlobal
       CompareOperator: LessThan
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetDistanceGalacticLightYearsConditionData
         FirstParameter: 012894:Starfield.esm
       ComparisonValue: 0263E7:Starfield.esm
     - MutagenObjectType: ConditionFloat
       CompareOperator: LessThanOrEqualTo
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetLevelConditionData
       ComparisonValue: 40
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: IsTrueForConditionFormConditionData
         FirstParameter: 12C5AB:Starfield.esm
@@ -3225,14 +2134,12 @@ Aliases:
   ALFG: 0
   Conditions:
   - MutagenObjectType: ConditionFloat
-    Unknown1: 0x000000
     Data:
       MutagenObjectType: IsInSameCurrentLocationAsAliasConditionData
       FirstParameter: 96
       SecondParameter: 070A54:Starfield.esm
     ComparisonValue: 1
   - MutagenObjectType: ConditionFloat
-    Unknown1: 0x000000
     Data:
       MutagenObjectType: LocationHasKeywordConditionData
       FirstParameter: 070A54:Starfield.esm

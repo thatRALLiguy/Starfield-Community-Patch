@@ -1,5 +1,5 @@
 FormKey: 06175C:Starfield.esm
-FormVersion: 559
+FormVersion: 576
 Flags:
   Flags:
   - Random
@@ -25,33 +25,14 @@ Responses:
     UnknownFloat: 7.4000006
   Text:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Die Waffe ins Halfter, wenn ich bitten darf.
-    - Language: English
-      String: Gonna need you to holster that weapon.
-    - Language: Spanish
-      String: Te pido que enfundes esa arma.
-    - Language: French
-      String: Je vais vous demander de ranger cette arme.
-    - Language: Italian
-      String: Rinfodera quell’arma.
-    - Language: Japanese
-      String: その武器はしまってもらうぞ
-    - Language: Polish
-      String: Musisz schować tę broń.
-    - Language: Portuguese_Brazil
-      String: Vou precisar que você guarde essa arma.
-    - Language: ChineseSimplified
-      String: 你得把那武器放好。
+    Value: Gonna need you to holster that weapon.
   ScriptNotes: ''
   Edits: ''
   AlternateLipText: ''
   TextHash: 0xF0DA17D5C24ED501
 Conditions:
 - MutagenObjectType: ConditionFloat
-  Unknown1: 0x000000
-  Unknown2: 16493
+  Unknown2: 16617
   Data:
     MutagenObjectType: IsWeaponOutConditionData
     RunOnType: Reference

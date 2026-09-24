@@ -1,6 +1,6 @@
 FormKey: 1FB85C:Starfield.esm
 EditorID: RI04
-FormVersion: 559
+FormVersion: 576
 VirtualMachineAdapter:
   Scripts:
   - Name: ri_crimetrackingquestscript
@@ -9,224 +9,224 @@ VirtualMachineAdapter:
       Name: RewardGlobal
       Object: 23DF3A:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: RI_CreditsRewardDeductionMedium
-      Object: 0BCFBE:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI_TotalBountiesCount
-      Object: 3B3CC1:Starfield.esm
+      Name: RI_CreditsRewardDeductionSmall
+      Object: 0E5193:Starfield.esm
     - MutagenObjectType: ScriptIntProperty
       Name: iCompletionStage
       Data: 10000
     - MutagenObjectType: ScriptObjectProperty
-      Name: RI_CrimeCountSmall
-      Object: 03EED6:Starfield.esm
+      Name: RI_TotalArrestCount
+      Object: 23DE15:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI_TotalBodyCount
+      Object: 23DE16:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI_CreditsRewardDeductionMedium
+      Object: 0BCFBE:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: RI_CrimeCountLarge
       Object: 03EED7:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: RI08_MasakoRemainedCEO
-      Object: 17F175:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI_TotalBodyCount
-      Object: 23DE16:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI_TotalArrestCount
-      Object: 23DE15:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
       Name: RI_CreditsRewardDeductionLarge
       Object: 03EED0:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: RI_CreditsRewardDeductionSmall
-      Object: 0E5193:Starfield.esm
+      Name: RI_CrimeCountSmall
+      Object: 03EED6:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI_TotalBountiesCount
+      Object: 3B3CC1:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI_CreditsReward
+      Object: 03EECF:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: RI_CrimeCountMedium
       Object: 03EED5:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: RI_CreditsReward
-      Object: 03EECF:Starfield.esm
+      Name: RI08_MasakoRemainedCEO
+      Object: 17F175:Starfield.esm
   Script:
     Name: Fragments:Quests:QF_RI04_001FB85C
     Properties:
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI04_0400_Companion_InfiltrationCompleteScene
-      Object: 1D218E:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI04_TowerGuardsEnteredCombat
-      Object: 16AF6A:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_UlaruQS
-      Object: 1FB85C:Starfield.esm
-      Alias: 28
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI_TotalArrestCount
-      Object: 23DE15:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_NyxExteriorApartmentDoor
-      Object: 1FB85C:Starfield.esm
-      Alias: 63
-    - MutagenObjectType: ScriptObjectProperty
-      Name: FactionRyujinIndustriesPerk
-      Object: 1C5152:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_MasakoQS
-      Object: 1FB85C:Starfield.esm
-      Alias: 27
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Disruptor
-      Object: 26D968:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Nyx
-      Object: 1FB85C:Starfield.esm
-      Alias: 5
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_NyxApartmentQS
-      Object: 1FB85C:Starfield.esm
-      Alias: 18
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_NyxEncryptedData
-      Object: 1FB85C:Starfield.esm
-      Alias: 25
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_NovablastDisrupter
-      Object: 1FB85C:Starfield.esm
-      Alias: 44
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_DRONESecurityBot
-      Object: 1FB85C:Starfield.esm
-      Alias: 56
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Dalton
-      Object: 1FB85C:Starfield.esm
-      Alias: 0
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI04_RyujinTowerBodyCount
-      Object: 1D2199:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_NyxLapTopEnableMarker
-      Object: 1FB85C:Starfield.esm
-      Alias: 52
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_DaltonQS
-      Object: 1FB85C:Starfield.esm
-      Alias: 19
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_NyxMonitor01
-      Object: 1FB85C:Starfield.esm
-      Alias: 47
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI04_Track_PlayerStoleCamdenChoInfo
-      Object: 1A798D:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI01_JobAdRadio
-      Object: 2C9C96:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_NyxMonitor02
-      Object: 1FB85C:Starfield.esm
-      Alias: 48
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_NyxBackpack
-      Object: 1FB85C:Starfield.esm
-      Alias: 57
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI_TotalBodyCount
-      Object: 23DE16:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_NyxProgram
-      Object: 1FB85C:Starfield.esm
-      Alias: 16
-    - MutagenObjectType: ScriptObjectProperty
-      Name: LC044RyujinGuardCrimeFaction
-      Object: 22F214:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_NyxMoveToMarker
-      Object: 1FB85C:Starfield.esm
-      Alias: 21
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI04_NyxProgram
-      Object: 1FB79A:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_DRONESanitationBot
-      Object: 1FB85C:Starfield.esm
-      Alias: 55
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_NyxFurniture
-      Object: 1FB85C:Starfield.esm
-      Alias: 14
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_RyujinTowerQS
-      Object: 1FB85C:Starfield.esm
-      Alias: 22
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_VentEntrance
-      Object: 1FB85C:Starfield.esm
-      Alias: 39
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_VentFinalExit
-      Object: 1FB85C:Starfield.esm
-      Alias: 53
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Masako
-      Object: 1FB85C:Starfield.esm
-      Alias: 1
-    - MutagenObjectType: ScriptObjectProperty
-      Name: AmmoNeuralDisrupter
-      Object: 2B558B:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: NPCDemandMoney_Large
-      Object: 275224:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_MadameSauvageQS
-      Object: 1FB85C:Starfield.esm
-      Alias: 17
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_CraneButton
-      Object: 1FB85C:Starfield.esm
-      Alias: 38
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI_Support
-      Object: 2A8318:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: LC044
-      Object: 22F264:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_MasakoOfficeDoor
-      Object: 1FB85C:Starfield.esm
-      Alias: 58
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_NyxMonitor03
       Object: 1FB85C:Starfield.esm
       Alias: 49
     - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Nyx
+      Object: 1FB85C:Starfield.esm
+      Alias: 5
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LC044RyujinGuardCrimeFaction
+      Object: 22F214:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI04_0000_Masako_DaltonIntercomScene
+      Object: 1D36CF:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: NPCDemandMoney_Large
+      Object: 275224:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI04_EncryptedFiles
+      Object: 1FAC99:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI_Support
+      Object: 2A8318:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_MadameSauvageQS
+      Object: 1FB85C:Starfield.esm
+      Alias: 17
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI04_0400_Companion_InfiltrationCompleteScene
+      Object: 1D218E:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_NyxApartmentQS
+      Object: 1FB85C:Starfield.esm
+      Alias: 18
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_RyujinTowerQS
+      Object: 1FB85C:Starfield.esm
+      Alias: 22
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_UlaruQS
+      Object: 1FB85C:Starfield.esm
+      Alias: 28
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_DRONESanitationBot
+      Object: 1FB85C:Starfield.esm
+      Alias: 55
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_NyxBackpack
+      Object: 1FB85C:Starfield.esm
+      Alias: 57
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI04_Track_PlayerStoleCamdenChoInfo
+      Object: 1A798D:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_NyxExteriorApartmentDoor
+      Object: 1FB85C:Starfield.esm
+      Alias: 63
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI01_JobAdRadio
+      Object: 2C9C96:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_VentEntrance
+      Object: 1FB85C:Starfield.esm
+      Alias: 39
+    - MutagenObjectType: ScriptObjectProperty
       Name: Credits
       Object: 00000F:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_NovablastDisrupter
+      Object: 1FB85C:Starfield.esm
+      Alias: 44
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI_TotalArrestCount
+      Object: 23DE15:Starfield.esm
+    - MutagenObjectType: ScriptFloatProperty
+      Name: cooldownDays
+      Data: 2
+    - MutagenObjectType: ScriptObjectProperty
+      Name: NPCDemandMoney_Medium
+      Object: 275225:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_NyxProgram
+      Object: 1FB85C:Starfield.esm
+      Alias: 16
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_VentFinalExit
+      Object: 1FB85C:Starfield.esm
+      Alias: 53
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AmmoNeuralDisrupter
+      Object: 2B558B:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: SE_Player_ZW13_Timestamp
       Object: 1EFCF3:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: RI04_0000_Masako_DaltonIntercomScene
-      Object: 1D36CF:Starfield.esm
+      Name: Alias_MasakoQS
+      Object: 1FB85C:Starfield.esm
+      Alias: 27
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Masako
+      Object: 1FB85C:Starfield.esm
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Dalton
+      Object: 1FB85C:Starfield.esm
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI04_NyxProgram
+      Object: 1FB79A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_NyxEncryptedData
+      Object: 1FB85C:Starfield.esm
+      Alias: 25
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FactionRyujinIndustriesPerk
+      Object: 1C5152:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI04_TowerGuardsEnteredCombat
+      Object: 16AF6A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI_TotalBodyCount
+      Object: 23DE16:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_NyxFurniture
+      Object: 1FB85C:Starfield.esm
+      Alias: 14
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_NyxMonitor02
+      Object: 1FB85C:Starfield.esm
+      Alias: 48
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Disruptor
+      Object: 26D968:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_MasakoOfficeDoor
+      Object: 1FB85C:Starfield.esm
+      Alias: 58
+    - MutagenObjectType: ScriptObjectProperty
+      Name: NPCDemandMoney_Small
+      Object: 275226:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI05
+      Object: 1EE0C8:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_NyxMoveToMarker
+      Object: 1FB85C:Starfield.esm
+      Alias: 21
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI04_RyujinTowerArrestsCount
+      Object: 1D2198:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_NyxLapTopEnableMarker
+      Object: 1FB85C:Starfield.esm
+      Alias: 52
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_DRONESecurityBot
+      Object: 1FB85C:Starfield.esm
+      Alias: 56
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LC044
+      Object: 22F264:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_NyxMonitor01
+      Object: 1FB85C:Starfield.esm
+      Alias: 47
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CraneButton
+      Object: 1FB85C:Starfield.esm
+      Alias: 38
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_DaltonQS
+      Object: 1FB85C:Starfield.esm
+      Alias: 19
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_CamdenQS
       Object: 1FB85C:Starfield.esm
       Alias: 29
     - MutagenObjectType: ScriptObjectProperty
-      Name: NPCDemandMoney_Small
-      Object: 275226:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI04_EncryptedFiles
-      Object: 1FAC99:Starfield.esm
-    - MutagenObjectType: ScriptFloatProperty
-      Name: cooldownDays
-      Data: 2
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI04_RyujinTowerArrestsCount
-      Object: 1D2198:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI05
-      Object: 1EE0C8:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: NPCDemandMoney_Medium
-      Object: 275225:Starfield.esm
+      Name: RI04_RyujinTowerBodyCount
+      Object: 1D2199:Starfield.esm
   Fragments:
   - Unknown2: 1
     ScriptName: Fragments:Quests:QF_RI04_001FB85C
@@ -616,25 +616,7 @@ VirtualMachineAdapter:
         Data: 380
 Name:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: Backgroundchecks
-  - Language: English
-    String: Background Checks
-  - Language: Spanish
-    String: Comprobación de antecedentes
-  - Language: French
-    String: Vérification d'antécédents
-  - Language: Italian
-    String: Scheletri nell’armadio
-  - Language: Japanese
-    String: 身元調査
-  - Language: Polish
-    String: Prześwietlenie
-  - Language: Portuguese_Brazil
-    String: Verificações de Antecedentes
-  - Language: ChineseSimplified
-    String: 背景调查
+  Value: Background Checks
 Data:
   Flags:
   - RunOnce
@@ -745,25 +727,7 @@ Stages:
     Note: 'QO: Talk to Dalton Fiennes'
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Ich sollte zu Dalton Fiennes in seinem Büro auf der Chefetage gehen, um herauszufinden, wie ich den Maulwurf bei Ryujin Industries finden kann.
-      - Language: English
-        String: I need to find Dalton Fiennes in his office on the Executive Floor and see what I can do to help find the mole at Ryujin Industries.
-      - Language: Spanish
-        String: Tengo que buscar a Dalton Fiennes en su despacho de la planta de ejecutivos y ver qué puedo hacer para ayudarle a encontrar al topo de Ryujin Industries.
-      - Language: French
-        String: Je dois trouver Dalton Fiennes dans son bureau à l'étage de la direction et voir ce que je peux faire pour aider à découvrir la taupe chez Ryujin Industries.
-      - Language: Italian
-        String: Devo andare nell’ufficio di Dalton Fiennes al piano dirigenziale per farmi dire cosa posso fare per aiutare a scovare la talpa nelle Ryujin Industries.
-      - Language: Japanese
-        String: 役員フロアのオフィスでダルトン・ファインズを見つけて、リュウジン・インダストリーズに潜り込んだ内通者を見つける手助けをしよう
-      - Language: Polish
-        String: Muszę znaleźć Daltona Fiennesa w jego biurze na piętrze kierownictwa i dowiedzieć się, jak mogę pomóc w odnalezieniu kreta w korporacji Ryujin Industries.
-      - Language: Portuguese_Brazil
-        String: Preciso falar com Dalton Fiennes em sua sala no andar executivo e perguntar o que posso fazer para ajudar a achar o espião na Ryujin Industries.
-      - Language: ChineseSimplified
-        String: 我需要去道尔顿·费因斯在行政楼层的办公室找他，看看我能不能帮忙抓到龙神集团里的内鬼。
+      Value: I need to find Dalton Fiennes in his office on the Executive Floor and see what I can do to help find the mole at Ryujin Industries.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -806,25 +770,7 @@ Stages:
     Note: "QO: Meet Nyx at Madame Sauvage's Place"
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Ich soll in Madame Sauvage's Place in Neon jemanden namens Nyx treffen. Er sollte bereits wissen, dass Direktive Theta aktiviert wurde.
-      - Language: English
-        String: I need to meet a person named Nyx at Madame Sauvage's Place in Neon. He should already know that Directive Theta has been enacted.
-      - Language: Spanish
-        String: Tengo que reunirme con una persona llamada Nyx en Madame Sauvage's Place, en Neón. Ya debería saber que la directiva Zeta está en marcha.
-      - Language: French
-        String: Je dois rencontrer un certain Nyx chez Madame Sauvage à Néon. Il devrait déjà être au courant que la directive Thêta a été déclenchée.
-      - Language: Italian
-        String: Devo incontrare un certo Nyx al Madame Sauvage di Neon. Dovrebbe già sapere che la Direttiva Teta è stata promulgata.
-      - Language: Japanese
-        String: ネオンにあるマダム・ソバージュの店でニックスという名の人物と話す必要がある。彼は既にシータ指令が発令されたことを知っているはずだ
-      - Language: Polish
-        String: Muszę spotkać się z niejakim Nyxem w Madame Sauvage's Place w Neonie. On powinien już wiedzieć, że uruchomiono Dyrektywę Theta.
-      - Language: Portuguese_Brazil
-        String: Preciso encontrar uma pessoa chamada Nyx no Madame Sauvage's, em Neon. Ele já deve saber que a diretiva Theta foi aplicada.
-      - Language: ChineseSimplified
-        String: 我需要去霓虹城的索维奇夫人酒吧见一个叫尼克斯的人。他应该早就知道指令西塔已经启动。
+      Value: I need to meet a person named Nyx at Madame Sauvage's Place in Neon. He should already know that Directive Theta has been enacted.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -835,25 +781,7 @@ Stages:
     Note: 'QO: Talk to Nyx'
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Ich habe Nyx in Madame Sauvage's Place getroffen. Ich sollte ihn fragen, was ich für Direktive Theta tun soll.
-      - Language: English
-        String: I met Nyx at Madame Sauvage's Place. I need to speak to him to find out what I need to do for Directive Theta.
-      - Language: Spanish
-        String: Me reuní con Nyx en Madame Sauvage's Place. Debo hablar con él para descubrir lo que tengo que hacer para la directiva Zeta.
-      - Language: French
-        String: J'ai retrouvé Nyx chez Madame Sauvage. Je dois lui parler pour savoir ce que je dois faire dans le cadre de la directive Thêta.
-      - Language: Italian
-        String: Ho incontrato Nyx al Madame Sauvage. Devo parlargli per farmi dire cosa devo fare per la Direttiva Teta.
-      - Language: Japanese
-        String: マダム・ソバージュの店でニックスに会った。シータ指令を受けて何をすべきか調べるために彼と話す必要がある
-      - Language: Polish
-        String: Udało mi się znaleźć Nyxa w Madame Sauvage's Place w Neonie. Muszę z nim porozmawiać, aby dowiedzieć się, jakie działania mam wykonać w ramach Dyrektywy Theta.
-      - Language: Portuguese_Brazil
-        String: Encontrei o Nyx no Madame Sauvage's. Preciso falar com ele e saber o que preciso fazer para a diretiva Theta.
-      - Language: ChineseSimplified
-        String: 我在索维奇夫人酒吧见到了尼克斯，我得和他谈谈，并弄清楚我需要为西塔指令做些什么。
+      Value: I met Nyx at Madame Sauvage's Place. I need to speak to him to find out what I need to do for Directive Theta.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -960,25 +888,7 @@ Stages:
     Note: 'QO: Find a way into Ryujin Tower'
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: 'Da Dalton meinte, dass ich zu den Aufzügen vorübergehend keinen Zugang habe, muss ich einen anderen Weg in den Ryujin Tower finden. '
-      - Language: English
-        String: 'I need to find an alternate way into Ryujin Tower since Dalton said my access to the elevators will be temporarily disabled. '
-      - Language: Spanish
-        String: 'Tengo que encontrar otra forma de acceder a la Torre Ryujin, ya que Dalton dijo que no podría acceder temporalmente a los ascensores. '
-      - Language: French
-        String: "Je dois trouver un autre moyen de pénétrer dans la tour Ryujin puisque Dalton m'a informé que mon accès aux ascenseurs avait été temporairement désactivé. "
-      - Language: Italian
-        String: 'Devo trovare un modo alternativo per entrare nella Torre Ryujin, dato che i miei permessi per usare gli ascensori sono temporaneamente revocati. '
-      - Language: Japanese
-        String: 'ダルトンによると一時的にエレベーターを使用できなくなっている。リュウジン・タワーに入る他の方法を見つけなければ '
-      - Language: Polish
-        String: 'Muszę znaleźć alternatywną metodę dostania się do wnętrza Wieży Ryujina, ponieważ z tego, co powiedział Dalton, wynika, że tymczasowo utracę dostęp do wind. '
-      - Language: Portuguese_Brazil
-        String: 'Preciso achar outro jeito de entrar na Torre Ryujin, pois o Dalton disse que meu acesso aos elevadores vai estar temporariamente desativado. '
-      - Language: ChineseSimplified
-        String: '由于道尔顿说我暂时无法使用电梯，我需要另想办法进入龙神大楼。 '
+      Value: 'I need to find an alternate way into Ryujin Tower since Dalton said my access to the elevators will be temporarily disabled. '
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -1013,25 +923,7 @@ Stages:
     Note: "QO: Run Nyx's Program on Ularu's Computer, Equip Disruptor"
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Ich sollte bei Ryujin Industries auf Ularus Computer das Programm von Nyx ausführen.
-      - Language: English
-        String: I need to enter Ryujin Industries and run the program Nyx gave me on Ularu's computer.
-      - Language: Spanish
-        String: Tengo que entrar en Ryujin Industries y ejecutar el programa que me dio Nyx en el ordenador de Ularu.
-      - Language: French
-        String: Je dois pénétrer dans Ryujin Industries et exécuter le programme que Nyx m'a donné sur l'ordinateur d'Ularu.
-      - Language: Italian
-        String: Devo entrare nelle Ryujin Industries ed eseguire il programma di Nyx sul computer di Ularu.
-      - Language: Japanese
-        String: リュウジン・インダストリーズ社に侵入して、ニックスのプログラムをウラルのコンピューターで実行しよう
-      - Language: Polish
-        String: Muszę dostać się do siedziby korporacji Ryujin Industries i uruchomić na komputerze Ularu program, który dał mi Nyx.
-      - Language: Portuguese_Brazil
-        String: Preciso entrar na Ryujin Industries e executar o programa que o Nyx me passou no computador da Ularu.
-      - Language: ChineseSimplified
-        String: 我需要进入龙神集团，然后在乌拉鲁的电脑上运行尼克斯给我的程序。
+      Value: I need to enter Ryujin Industries and run the program Nyx gave me on Ularu's computer.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -1132,25 +1024,7 @@ Stages:
     Note: "QO: Run Nyx's Program on Camden Cho's Computer"
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Ich sollte bei Ryujin Industries auf Ularus und Camdens Computern das Programm von Nyx ausführen.
-      - Language: English
-        String: I need to enter Ryujin Industries and run the program Nyx gave me on Ularu's and Camden's computers.
-      - Language: Spanish
-        String: Tengo que entrar en Ryujin Industries y ejecutar el programa que me dio Nyx en los ordenadores de Ularu y Camden.
-      - Language: French
-        String: Je dois pénétrer dans Ryujin Industries et exécuter le programme que Nyx m'a donné sur les ordinateurs d'Ularu et de Camden.
-      - Language: Italian
-        String: Devo entrare nelle Ryujin Industries ed eseguire il programma di Nyx sui computer di Ularu e Camden.
-      - Language: Japanese
-        String: リュウジン・インダストリーズ社に侵入して、ニックスのプログラムをウラルとカムデンのコンピューターで実行しよう
-      - Language: Polish
-        String: Muszę dostać się do siedziby korporacji Ryujin Industries i uruchomić na komputerach Ularu i Camdena program, który dał mi Nyx.
-      - Language: Portuguese_Brazil
-        String: Preciso entrar na Ryujin Industries e executar o programa que o Nyx me passou nos computadores da Ularu e do Camden.
-      - Language: ChineseSimplified
-        String: 我需要进入龙神集团，然后在乌拉鲁和卡姆登的电脑上运行尼克斯给我的程序。
+      Value: I need to enter Ryujin Industries and run the program Nyx gave me on Ularu's and Camden's computers.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -1169,25 +1043,7 @@ Stages:
     Note: 'QO: Exit Ryujin Tower'
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Da ich Nyx' Programm ausgeführt habe, sollte ich den Ryujin Tower verlassen und in seiner Wohnung mit ihm reden.
-      - Language: English
-        String: Now that I've finished running Nyx's program, I should leave Ryujin Tower and return to him at his apartment.
-      - Language: Spanish
-        String: Ahora que he terminado de ejecutar el programa de Nyx, debería irme de la Torre Ryujin y volver con él, a su apartamento.
-      - Language: French
-        String: Maintenant que j'ai exécuté le programme de Nyx, je dois quitter la tour Ryujin et retourner le voir dans son appartement.
-      - Language: Italian
-        String: Ora che ho finito di eseguire il programma di Nyx, devo andarmene dalla Torre Ryujin e tornare al suo appartamento.
-      - Language: Japanese
-        String: ニックスのプログラムを実行し終えた。リュウジン・タワーを離れて彼のアパートへ戻ろう
-      - Language: Polish
-        String: Program Nyxa zrobił swoje, więc pora opuścić Wieżę Ryujina i spotkać się z nim w jego mieszkaniu.
-      - Language: Portuguese_Brazil
-        String: Agora que terminei de executar o programa do Nyx, preciso sair da Torre Ryujin e voltar ao apartamento dele.
-      - Language: ChineseSimplified
-        String: 既然我已经成功运行了尼克斯的程序，我要离开龙神大楼去他的公寓找他。
+      Value: Now that I've finished running Nyx's program, I should leave Ryujin Tower and return to him at his apartment.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -1214,25 +1070,7 @@ Stages:
     Note: 'QO: Meet Nyx at his Apartment'
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Da ich Nyx' Programm ausgeführt habe, sollte ich in seiner Wohnung mit ihm reden und sehen, was ich herausfinden kann.
-      - Language: English
-        String: Now that I've finished running Nyx's program, I need to return to him at his apartment and see what he can find.
-      - Language: Spanish
-        String: Ahora que he terminado de ejecutar el programa de Nyx, tengo que volver a su apartamento, a ver qué descubre.
-      - Language: French
-        String: Maintenant que j'ai exécuté le programme de Nyx, je dois retourner le voir dans son appartement pour découvrir les résultats.
-      - Language: Italian
-        String: Ora che ho finito di eseguire il programma di Nyx, devo tornare al suo appartamento e vedere cosa riesce a scoprire.
-      - Language: Japanese
-        String: ニックスのプログラムを実行し終えた。彼のアパートへ戻って何があるか探してみよう
-      - Language: Polish
-        String: Program Nyxa zrobił swoje, więc pora spotkać się z nim w jego mieszkaniu i zobaczyć, co jest w stanie odkryć.
-      - Language: Portuguese_Brazil
-        String: Agora que terminei de executar o programa do Nyx, preciso voltar ao apartamento dele e ver o que ele descobre.
-      - Language: ChineseSimplified
-        String: 既然我已经成功运行了尼克斯的程序，我要去他的公寓找他，看看他会有什么发现。
+      Value: Now that I've finished running Nyx's program, I need to return to him at his apartment and see what he can find.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -1251,25 +1089,7 @@ Stages:
     Note: 'QO: Talk to Nyx'
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Ich sollte Nyx in seiner Wohnung das Programm zurückgeben, das er mir gegeben hat.
-      - Language: English
-        String: I need to speak to Nyx at his apartment to hand back the program he gave me.
-      - Language: Spanish
-        String: Tengo que hablar con Nyx en su apartamento para devolverle el programa que me dio.
-      - Language: French
-        String: Je dois aller voir Nyx dans son appartement pour lui rendre le programme qu'il m'a donné.
-      - Language: Italian
-        String: Devo tornare all’appartamento di Nyx per riconsegnargli il programma.
-      - Language: Japanese
-        String: ニックスのアパートまで行って、彼が渡してくれたプログラムを返そう
-      - Language: Polish
-        String: Muszę porozmawiać z Nyxem w jego mieszkaniu, aby oddać mu jego program.
-      - Language: Portuguese_Brazil
-        String: Tenho que falar com Nyx em seu apartamento para devolver o programa que ele me deu.
-      - Language: ChineseSimplified
-        String: 我要去尼克斯的公寓和他谈谈，把他给我的程序还给他。
+      Value: I need to speak to Nyx at his apartment to hand back the program he gave me.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -1288,25 +1108,7 @@ Stages:
     Note: 'QO: Wait for Nyx'
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Ich sollte abwarten, bis Nyx die Daten von mir analysiert hat.
-      - Language: English
-        String: I need to wait for Nyx to analyze the data I gave him.
-      - Language: Spanish
-        String: Tengo que esperar a que Nyx analice los datos que le di.
-      - Language: French
-        String: Je dois attendre que Nyx ait fini d'analyser les données que je lui ai données.
-      - Language: Italian
-        String: Devo aspettare che Nyx analizzi i dati che gli ho dato.
-      - Language: Japanese
-        String: 提供したデータをニックスが分析し終えるまでを待とう
-      - Language: Polish
-        String: Muszę poczekać, aż Nyx przeanalizuje otrzymane ode mnie dane.
-      - Language: Portuguese_Brazil
-        String: Tenho que esperar Nyx analisar os dados que entreguei.
-      - Language: ChineseSimplified
-        String: 我要等尼克斯分析我给他的数据。
+      Value: I need to wait for Nyx to analyze the data I gave him.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -1325,25 +1127,7 @@ Stages:
     Note: 'QO: Talk to Nyx'
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Nyx hat die Daten analysiert und sie auf eine Slate geladen, die ich Dalton geben sollte. Ich sollte ihn fragen, was er herausgefunden hat.
-      - Language: English
-        String: Nyx finished analyzing the data and downloaded it onto a slate that I need to give to Dalton. I should talk to him about what he found.
-      - Language: Spanish
-        String: Nyx terminó de analizar los datos y los descargó en una tábula que tengo que darle a Dalton. Debería hablar con él acerca de lo que descubrió.
-      - Language: French
-        String: Nyx a fini d'analyser les données et les a transférées sur une tablette que je dois donner à Dalton. Je devrais lui demander ce qu'il a trouvé.
-      - Language: Italian
-        String: Nyx ha ultimato l’analisi dei dati e li ha caricati su una tabula che devo consegnare a Dalton. Devo farmi dire cos’ha scoperto.
-      - Language: Japanese
-        String: ニックスはデータの分析を終え、スレートにダウンロードした。このスレートをダルトンに渡そう。発見した情報について彼に話をしなければ
-      - Language: Polish
-        String: Nyx zakończył analizowanie danych i przesłał wynik na tabliczkę, którą mam przekazać Daltonowi. Muszę zapytać go o to, co znalazł.
-      - Language: Portuguese_Brazil
-        String: Nyx terminou de analisar os dados e baixou tudo num códice que eu devo entregar ao Dalton. Tenho que falar com ele sobre o que ele achou.
-      - Language: ChineseSimplified
-        String: 尼克斯完成了对数据的分析，并把它下载到了数据板上，我需要把它交给道尔顿。我得和他谈谈他的发现。
+      Value: Nyx finished analyzing the data and downloaded it onto a slate that I need to give to Dalton. I should talk to him about what he found.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -1370,25 +1154,7 @@ Stages:
     Note: 'QO: Return to Dalton at Ryujin Tower'
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Ich habe die Daten, die Dalton für Direktive Theta haben wollte. Ich sollte im Ryujin Tower mit ihm sprechen.
-      - Language: English
-        String: I have the data that Dalton wanted as part of Directive Theta. I need to return to him at Ryujin Tower.
-      - Language: Spanish
-        String: Tengo los datos que Dalton quería para la directiva Zeta. Debo volver con él, en la Torre Ryujin.
-      - Language: French
-        String: J'ai les données que voulait Dalton concernant la directive Thêta. Je dois retourner le voir à la tour Ryujin.
-      - Language: Italian
-        String: Ho i dati richiesti da Dalton, nell’ambito della Direttiva Teta. Devo tornare da lui alla Torre Ryujin.
-      - Language: Japanese
-        String: ダルトンが求めていたシータ指令のデータを手に入れた。リュウジン・タワーに戻って彼に渡そう
-      - Language: Polish
-        String: Mam dane, których Dalton potrzebuje w ramach Dyrektywy Theta. Muszę wrócić do niego - czeka na mnie w Wieży Ryujina.
-      - Language: Portuguese_Brazil
-        String: Estou com os dados que Dalton pediu como parte da diretiva Theta. Tenho que voltar até ele na Torre Ryujin.
-      - Language: ChineseSimplified
-        String: 我拿到了道尔顿想要的数据，那是西塔指令的一部分。我需要返回龙神大楼去找他。
+      Value: I have the data that Dalton wanted as part of Directive Theta. I need to return to him at Ryujin Tower.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -1399,25 +1165,7 @@ Stages:
     Note: 'QO: Talk to Dalton'
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Ich sollte Dalton nach den Daten fragen, die ich ihm für Direktive Theta gegeben habe.
-      - Language: English
-        String: I need to speak to Dalton about the data I've brought him for Directive Theta.
-      - Language: Spanish
-        String: Tengo que hablar con Dalton sobre los datos que le llevé para la directiva Zeta.
-      - Language: French
-        String: Je dois parler à Dalton au sujet des données que je lui ai apportées pour la directive Thêta.
-      - Language: Italian
-        String: Devo discutere con Dalton dei dati per la Direttiva Teta che gli ho portato.
-      - Language: Japanese
-        String: ダルトンに渡したシータ指令のデータについて彼と話をしよう
-      - Language: Polish
-        String: Muszę porozmawiać z Daltonem o dostarczonych mu przeze mnie danych związanych z Dyrektywą Theta.
-      - Language: Portuguese_Brazil
-        String: Tenho que falar com Dalton sobre os dados que trouxe da diretiva Theta.
-      - Language: ChineseSimplified
-        String: 我需要和道尔顿聊一聊我为西塔指令带给他的数据。
+      Value: I need to speak to Dalton about the data I've brought him for Directive Theta.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -1445,25 +1193,7 @@ Stages:
     Note: 'QO: Wait for Dalton'
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Ich muss abwarten, bis Dalton die Daten von Nyx analysiert hat.
-      - Language: English
-        String: I need to wait for Dalton to analyze the data Nyx provided.
-      - Language: Spanish
-        String: Tengo que esperar a que Dalton analice los datos que proporcionó Nyx.
-      - Language: French
-        String: Je dois attendre que Dalton ait fini d'analyser les données fournies par Nyx.
-      - Language: Italian
-        String: Devo aspettare che Dalton analizzi i dati fornitici da Nyx.
-      - Language: Japanese
-        String: ニックスが提供したデータをダルトンが分析し終えるまでを待とう
-      - Language: Polish
-        String: Muszę poczekać, aż Dalton przeanalizuje dane dostarczone przez Nyxa.
-      - Language: Portuguese_Brazil
-        String: Tenho que esperar o Dalton analisar os dados fornecidos por Nyx.
-      - Language: ChineseSimplified
-        String: 我要等道尔顿分析尼克斯提供的数据。
+      Value: I need to wait for Dalton to analyze the data Nyx provided.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -1474,25 +1204,7 @@ Stages:
     Note: 'QO: Talk to Dalton'
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Dalton hat die Daten analysiert. Ich sollte ihn fragen, was er herausgefunden hat.
-      - Language: English
-        String: Dalton has finished analyzing the information. I need to speak to him to see what he's discovered.
-      - Language: Spanish
-        String: Dalton ha terminado de analizar la información. Tengo que hablar con él para ver qué ha descubierto.
-      - Language: French
-        String: Dalton a fini d'analyser les informations. Je dois aller le voir pour savoir ce qu'il a découvert.
-      - Language: Italian
-        String: Dalton ha ultimato l’analisi dei dati. Devo farmi dire cos’ha scoperto.
-      - Language: Japanese
-        String: ダルトンはデータの分析を終えた。どんな発見があったのか聞きに行こう
-      - Language: Polish
-        String: Dalton zakończył analizę informacji. Muszę z nim porozmawiać, aby dowiedzieć się, co odkrył.
-      - Language: Portuguese_Brazil
-        String: Daltou terminou de analisar as informações. Devo falar com ele para ver o que ele descobriu.
-      - Language: ChineseSimplified
-        String: 道尔顿已经完成了对信息的分析，我需要和他谈谈，看看他有什么发现。
+      Value: Dalton has finished analyzing the information. I need to speak to him to see what he's discovered.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -1536,25 +1248,7 @@ Stages:
     Note: Complete Quest
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Im Rahmen von Sicherheitsdirektive Theta habe ich den Ryujin Tower infiltriert, um herauszufinden, ob Ularu Chen ein Maulwurf ist. Ein Freelancer-Hacker namens Nyx hat allerdings Daten analysiert, die zu Imogene Salzo führen.
-      - Language: English
-        String: I infiltrated Ryujin Tower as part of something called Security Directive Theta to investigate Ularu Chen as the potential mole. A contract hacker, Nyx, analyzed the data which pointed to Imogene Salzo.
-      - Language: Spanish
-        String: Me infiltré en la Torre Ryujin como parte de la directiva de seguridad Zeta para investigar a Ularu Chen, sospechosa de ser el topo. Nyx, un hacker al que habían contratado, analizó los datos que apuntaban a Imogene Salzo.
-      - Language: French
-        String: J'ai infiltré la tour Ryujin dans le cadre de la directive de sécurité Thêta pour enquêter sur Ularu Chen qui est suspectée d'être la taupe. Un hacker indépendant du nom de Nyx a analysé les données qui pointaient dans la direction d'Imogene Salzo.
-      - Language: Italian
-        String: Ho completato l’infiltrazione nella Torre Ryujin, nell’ambito della cosiddetta Direttiva Teta, per scoprire se Ularu Chen è la talpa. Un hacker mercenario, Nyx, ha analizzato i dati, i quali puntano a Imogene Salzo.
-      - Language: Japanese
-        String: 内通者の疑いのあるウラル・チェンを捜査するために、シータ指令という保安措置に便乗してリュウジン・タワーに潜入した。雇われハッカーのニックスがデータを解析すると、イモジェン・サルゾの名が指摘された
-      - Language: Polish
-        String: Infiltruję Wieżę Ryujina w ramach procedury bezpieczeństwa o nazwie „Dyrektywa Theta”, aby sprawdzić, czy Ularu Chen nie jest kretem. Wynajęty haker, Nyx, przeanalizował dane, z których wynikło, że zdrajczynią może być Imogene Salzo.
-      - Language: Portuguese_Brazil
-        String: Eu me infiltrei na Torre Ryujin como parte de uma tal “diretiva Theta de segurança” para investigar se Ularu Chen é uma espiã corporativa. A análise dos dados, feita por Nyx, um hacker de aluguel, apontou para Imogene Salzo.
-      - Language: ChineseSimplified
-        String: 我潜入了龙神大楼，这是安全西塔指令的一部分，为了调查乌拉鲁·陈是否就是那个潜在的内鬼。有一位叫尼克斯的合同工黑客分析了数据。数据一切指向伊莫金·萨尔佐。
+      Value: I infiltrated Ryujin Tower as part of something called Security Directive Theta to investigate Ularu Chen as the potential mole. A contract hacker, Nyx, analyzed the data which pointed to Imogene Salzo.
     StageCompleteDatas:
     - QSRD: 0x02000000
       RewardDatas:
@@ -1567,7 +1261,6 @@ Stages:
         BonusCredits: 1460FE:Starfield.esm
         Conditions:
         - MutagenObjectType: ConditionFloat
-          Unknown1: 0x14DFA1
           Data:
             MutagenObjectType: HasPerkConditionData
             FirstParameter: 227FD3:Starfield.esm
@@ -1578,118 +1271,43 @@ Objectives:
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Sprich mit Dalton Fiennes.
-    - Language: English
-      String: Talk to Dalton Fiennes
-    - Language: Spanish
-      String: Habla con Dalton Fiennes.
-    - Language: French
-      String: Parlez à Dalton Fiennes.
-    - Language: Italian
-      String: Parla con Dalton Fiennes
-    - Language: Japanese
-      String: ダルトン・ファインズと話す
-    - Language: Polish
-      String: Porozmawiaj z Daltonem Fiennesem
-    - Language: Portuguese_Brazil
-      String: Fale com Dalton Fiennes
-    - Language: ChineseSimplified
-      String: 与道尔顿·费因斯交谈
+    Value: Talk to Dalton Fiennes
   Targets:
   - {}
 - Index: 200
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Triff Nyx in Madame Sauvage's Place.
-    - Language: English
-      String: Meet Nyx at Madame Sauvage's Place
-    - Language: Spanish
-      String: Reúnete con Nyx en Madame Sauvage's Place.
-    - Language: French
-      String: Rencontrez Nyx chez Madame Sauvage.
-    - Language: Italian
-      String: Incontra Nyx al Madame Sauvage
-    - Language: Japanese
-      String: マダム・ソバージュの店でニックスに会う
-    - Language: Polish
-      String: Spotkaj się z Nyxem w Madame Sauvage's Place
-    - Language: Portuguese_Brazil
-      String: Encontre Nyx no Madame Sauvage's
-    - Language: ChineseSimplified
-      String: 在索维奇夫人酒吧与尼克斯见面
+    Value: Meet Nyx at Madame Sauvage's Place
   Targets:
   - AliasID: 5
 - Index: 300
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Sprich mit Nyx.
-    - Language: English
-      String: Talk to Nyx
-    - Language: Spanish
-      String: Habla con Nyx.
-    - Language: French
-      String: Parlez à Nyx.
-    - Language: Italian
-      String: Parla con Nyx
-    - Language: Japanese
-      String: ニックスと話す
-    - Language: Polish
-      String: Porozmawiaj z Nyxem
-    - Language: Portuguese_Brazil
-      String: Fale com Nyx
-    - Language: ChineseSimplified
-      String: 与尼克斯交谈
+    Value: Talk to Nyx
   Targets:
   - AliasID: 5
 - Index: 375
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Finde einen Weg in den Ryujin Tower.
-    - Language: English
-      String: Find a way into Ryujin Tower
-    - Language: Spanish
-      String: Averigua cómo entrar en la Torre Ryujin.
-    - Language: French
-      String: Trouvez le moyen d'entrer dans la tour Ryujin.
-    - Language: Italian
-      String: Trova un modo per entrare nella Torre Ryujin
-    - Language: Japanese
-      String: リュウジン・タワーに行く方法を見つける
-    - Language: Polish
-      String: Dostań się do Wieży Ryujina
-    - Language: Portuguese_Brazil
-      String: Encontre um jeito de entrar na Torre Ryujin
-    - Language: ChineseSimplified
-      String: 想办法进入龙神大楼
+    Value: Find a way into Ryujin Tower
   Targets:
   - AliasID: 38
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 1FB85C:Starfield.esm
         SecondParameter: 375
       ComparisonValue: 1
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 1FB85C:Starfield.esm
         SecondParameter: 380
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 1FB85C:Starfield.esm
@@ -1697,21 +1315,18 @@ Objectives:
   - AliasID: 39
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 1FB85C:Starfield.esm
         SecondParameter: 375
       ComparisonValue: 1
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 1FB85C:Starfield.esm
         SecondParameter: 380
       ComparisonValue: 1
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 1FB85C:Starfield.esm
@@ -1720,30 +1335,11 @@ Objectives:
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Führe Nyx' Programm auf Ularus Computer aus.
-    - Language: English
-      String: Run Nyx's Program on Ularu's Computer
-    - Language: Spanish
-      String: Ejecuta el programa de Nyx en el ordenador de Ularu.
-    - Language: French
-      String: Exécutez le programme de Nyx sur l'ordinateur d'Ularu.
-    - Language: Italian
-      String: Esegui il programma di Nyx sul computer di Ularu
-    - Language: Japanese
-      String: ウラルのコンピューターでニックスのプログラムを実行する
-    - Language: Polish
-      String: Uruchom program Nyxa na komputerze Ularu
-    - Language: Portuguese_Brazil
-      String: Execute o programa do Nyx no computador de Ularu
-    - Language: ChineseSimplified
-      String: 在乌拉鲁的电脑上运行尼克斯的程序
+    Value: Run Nyx's Program on Ularu's Computer
   Targets:
   - AliasID: 30
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetIsCurrentLocationConditionData
         RunOnType: Reference
@@ -1751,20 +1347,17 @@ Objectives:
         FirstParameter: 29B71E:Starfield.esm
       ComparisonValue: 1
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 1FB85C:Starfield.esm
         SecondParameter: 400
       ComparisonValue: 1
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 1FB85C:Starfield.esm
         SecondParameter: 410
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 1FB85C:Starfield.esm
@@ -1772,7 +1365,6 @@ Objectives:
   - AliasID: 31
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetIsCurrentLocationConditionData
         RunOnType: Reference
@@ -1780,20 +1372,17 @@ Objectives:
         FirstParameter: 29B71E:Starfield.esm
       ComparisonValue: 1
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 1FB85C:Starfield.esm
         SecondParameter: 430
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 1FB85C:Starfield.esm
         SecondParameter: 410
       ComparisonValue: 1
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 1FB85C:Starfield.esm
@@ -1801,7 +1390,6 @@ Objectives:
   - AliasID: 32
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetIsCurrentLocationConditionData
         RunOnType: Reference
@@ -1809,20 +1397,17 @@ Objectives:
         FirstParameter: 29B71E:Starfield.esm
       ComparisonValue: 1
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 1FB85C:Starfield.esm
         SecondParameter: 430
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 1FB85C:Starfield.esm
         SecondParameter: 415
       ComparisonValue: 1
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 1FB85C:Starfield.esm
@@ -1830,7 +1415,6 @@ Objectives:
   - AliasID: 13
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetIsCurrentLocationConditionData
         RunOnType: Reference
@@ -1838,7 +1422,6 @@ Objectives:
         FirstParameter: 29B71E:Starfield.esm
       ComparisonValue: 1
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 1FB85C:Starfield.esm
@@ -1846,7 +1429,6 @@ Objectives:
     - MutagenObjectType: ConditionFloat
       Flags:
       - OR
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 1FB85C:Starfield.esm
@@ -1855,7 +1437,6 @@ Objectives:
     - MutagenObjectType: ConditionFloat
       Flags:
       - OR
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 1FB85C:Starfield.esm
@@ -1864,7 +1445,6 @@ Objectives:
   - AliasID: 59
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetIsCurrentLocationConditionData
         RunOnType: Reference
@@ -1872,14 +1452,12 @@ Objectives:
         FirstParameter: 29B71E:Starfield.esm
       ComparisonValue: 1
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 278F1A:Starfield.esm
         SecondParameter: 40
       ComparisonValue: 1
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 278F1A:Starfield.esm
@@ -1887,7 +1465,6 @@ Objectives:
   - AliasID: 39
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: IsInsidePrimitiveConditionData
         RunOnType: Reference
@@ -1895,7 +1472,6 @@ Objectives:
         FirstParameter: 313203:Starfield.esm
       ComparisonValue: 1
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: IsInsidePrimitiveConditionData
         RunOnType: Reference
@@ -1904,14 +1480,12 @@ Objectives:
   - AliasID: 64
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetIsCurrentLocationConditionData
         RunOnType: Reference
         Reference: 000014:Starfield.esm
         FirstParameter: 29B71E:Starfield.esm
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: IsInsidePrimitiveConditionData
         RunOnType: Reference
@@ -1920,7 +1494,6 @@ Objectives:
   - AliasID: 41
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: IsInsidePrimitiveConditionData
         RunOnType: Reference
@@ -1931,53 +1504,16 @@ Objectives:
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: (Optional) Rüste den Arboron NovaBlast Disruptor aus.
-    - Language: English
-      String: (Optional) Equip the Arboron Novablast Disrupter
-    - Language: Spanish
-      String: (Opcional) Equipa el disruptor NovaBlast de Arboron.
-    - Language: French
-      String: (Optionnel) Équipez le disrupteur Novablast Arboron.
-    - Language: Italian
-      String: (Opzionale) Equipaggia il Disruptor Novablast della Arboron
-    - Language: Japanese
-      String: (オプション)アルボロンのノバブラスト・ディスラプターを装備する
-    - Language: Polish
-      String: (Opcj.) Wyposaż się w zakłócacz Arboron Novablast
-    - Language: Portuguese_Brazil
-      String: (Opc.) Equipe o subversor Novablast
-    - Language: ChineseSimplified
-      String: （可选）装备亚伯伦公司新星爆炸裂解枪
+    Value: (Optional) Equip the Arboron Novablast Disrupter
 - Index: 500
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Führe Nyx' Programm auf Camden Chos Computer aus.
-    - Language: English
-      String: Run Nyx's Program on Camden Cho's computer
-    - Language: Spanish
-      String: Ejecuta el programa de Nyx en el ordenador de Camden Cho.
-    - Language: French
-      String: Exécutez le programme de Nyx sur l'ordinateur de Camden Cho.
-    - Language: Italian
-      String: Esegui il programma di Nyx sul computer di Camden Cho
-    - Language: Japanese
-      String: カムデン・チョウのコンピューターでニックスのプログラムを実行する
-    - Language: Polish
-      String: Uruchom program Nyxa na komputerze Camdena Cho
-    - Language: Portuguese_Brazil
-      String: Execute o programa do Nyx no computador de Camden
-    - Language: ChineseSimplified
-      String: 在卡姆登·曹的电脑上运行尼克斯的程序
+    Value: Run Nyx's Program on Camden Cho's computer
   Targets:
   - AliasID: 30
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetIsCurrentLocationConditionData
         RunOnType: Reference
@@ -1985,14 +1521,12 @@ Objectives:
         FirstParameter: 29B71E:Starfield.esm
       ComparisonValue: 1
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 1FB85C:Starfield.esm
         SecondParameter: 500
       ComparisonValue: 1
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 1FB85C:Starfield.esm
@@ -2000,7 +1534,6 @@ Objectives:
   - AliasID: 9
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetIsCurrentLocationConditionData
         RunOnType: Reference
@@ -2008,14 +1541,12 @@ Objectives:
         FirstParameter: 29B71E:Starfield.esm
       ComparisonValue: 1
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 1FB85C:Starfield.esm
         SecondParameter: 500
       ComparisonValue: 1
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 1FB85C:Starfield.esm
@@ -2024,7 +1555,6 @@ Objectives:
   - AliasID: 59
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetIsCurrentLocationConditionData
         RunOnType: Reference
@@ -2032,14 +1562,12 @@ Objectives:
         FirstParameter: 29B71E:Starfield.esm
       ComparisonValue: 1
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 278F1A:Starfield.esm
         SecondParameter: 40
       ComparisonValue: 1
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 278F1A:Starfield.esm
@@ -2047,14 +1575,12 @@ Objectives:
   - AliasID: 39
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: IsInsidePrimitiveConditionData
         RunOnType: Reference
         Reference: 000014:Starfield.esm
         FirstParameter: 313206:Starfield.esm
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: IsInsidePrimitiveConditionData
         RunOnType: Reference
@@ -2064,14 +1590,12 @@ Objectives:
   - AliasID: 64
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetIsCurrentLocationConditionData
         RunOnType: Reference
         Reference: 000014:Starfield.esm
         FirstParameter: 29B71E:Starfield.esm
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: IsInsidePrimitiveConditionData
         RunOnType: Reference
@@ -2080,7 +1604,6 @@ Objectives:
   - AliasID: 41
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: IsInsidePrimitiveConditionData
         RunOnType: Reference
@@ -2091,43 +1614,22 @@ Objectives:
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Verlasse den Ryujin Tower.
-    - Language: English
-      String: Exit Ryujin Tower
-    - Language: Spanish
-      String: Sal de la Torre Ryujin.
-    - Language: French
-      String: Quittez la tour Ryujin.
-    - Language: Italian
-      String: Lascia la Torre Ryujin
-    - Language: Japanese
-      String: リュウジン・タワーから出る
-    - Language: Polish
-      String: Wyjdź z Wieży Ryujina
-    - Language: Portuguese_Brazil
-      String: Saia da Torre Ryujin
-    - Language: ChineseSimplified
-      String: 离开龙神大楼
+    Value: Exit Ryujin Tower
   Targets:
   - AliasID: 40
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 1FB85C:Starfield.esm
         SecondParameter: 575
       ComparisonValue: 1
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 1FB85C:Starfield.esm
         SecondParameter: 580
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 1FB85C:Starfield.esm
@@ -2135,21 +1637,18 @@ Objectives:
   - AliasID: 41
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 1FB85C:Starfield.esm
         SecondParameter: 575
       ComparisonValue: 1
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 1FB85C:Starfield.esm
         SecondParameter: 580
       ComparisonValue: 1
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 1FB85C:Starfield.esm
@@ -2158,200 +1657,56 @@ Objectives:
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Triff Nyx in seiner Wohnung.
-    - Language: English
-      String: Meet Nyx at his Apartment
-    - Language: Spanish
-      String: Reúnete con Nyx en su apartamento.
-    - Language: French
-      String: Retrouvez Nyx dans son appartement.
-    - Language: Italian
-      String: Incontra Nyx al suo appartamento
-    - Language: Japanese
-      String: アパートでニックスに会う
-    - Language: Polish
-      String: Spotkaj się z Nyxem w jego mieszkaniu
-    - Language: Portuguese_Brazil
-      String: Encontre Nyx no apartamento dele
-    - Language: ChineseSimplified
-      String: 去尼克斯的公寓见他
+    Value: Meet Nyx at his Apartment
   Targets:
   - AliasID: 5
 - Index: 700
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Sprich mit Nyx.
-    - Language: English
-      String: Talk to Nyx
-    - Language: Spanish
-      String: Habla con Nyx.
-    - Language: French
-      String: Parlez à Nyx.
-    - Language: Italian
-      String: Parla con Nyx
-    - Language: Japanese
-      String: ニックスと話す
-    - Language: Polish
-      String: Porozmawiaj z Nyxem
-    - Language: Portuguese_Brazil
-      String: Fale com Nyx
-    - Language: ChineseSimplified
-      String: 与尼克斯交谈
+    Value: Talk to Nyx
   Targets:
   - AliasID: 5
 - Index: 800
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Warte auf Nyx.
-    - Language: English
-      String: Wait for Nyx
-    - Language: Spanish
-      String: Espera a Nyx.
-    - Language: French
-      String: Attendez Nyx.
-    - Language: Italian
-      String: Attendi aggiornamenti da Nyx
-    - Language: Japanese
-      String: ニックスを待つ
-    - Language: Polish
-      String: Poczekaj na Nyxa
-    - Language: Portuguese_Brazil
-      String: Espere Nyx
-    - Language: ChineseSimplified
-      String: 等待尼克斯
+    Value: Wait for Nyx
   Targets:
   - AliasID: 5
 - Index: 900
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Sprich mit Nyx.
-    - Language: English
-      String: Talk to Nyx
-    - Language: Spanish
-      String: Habla con Nyx.
-    - Language: French
-      String: Parlez à Nyx.
-    - Language: Italian
-      String: Parla con Nyx
-    - Language: Japanese
-      String: ニックスと話す
-    - Language: Polish
-      String: Porozmawiaj z Nyxem
-    - Language: Portuguese_Brazil
-      String: Fale com Nyx
-    - Language: ChineseSimplified
-      String: 与尼克斯交谈
+    Value: Talk to Nyx
   Targets:
   - AliasID: 5
 - Index: 1000
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Kehre zu Dalton im Ryujin Tower zurück.
-    - Language: English
-      String: Return to Dalton at Ryujin Tower
-    - Language: Spanish
-      String: Vuelve con Dalton, en la Torre Ryujin.
-    - Language: French
-      String: Retournez voir Dalton à la tour Ryujin.
-    - Language: Italian
-      String: Torna da Dalton alla Torre Ryujin
-    - Language: Japanese
-      String: リュウジン・タワーにいるダルトンのところに戻る
-    - Language: Polish
-      String: Wróć do Daltona w Wieży Ryujina
-    - Language: Portuguese_Brazil
-      String: Volte para falar com Dalton na Torre Ryujin
-    - Language: ChineseSimplified
-      String: 返回龙神大楼见道尔顿
+    Value: Return to Dalton at Ryujin Tower
   Targets:
   - {}
 - Index: 1100
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Sprich mit Dalton.
-    - Language: English
-      String: Talk to Dalton
-    - Language: Spanish
-      String: Habla con Dalton.
-    - Language: French
-      String: Parlez à Dalton.
-    - Language: Italian
-      String: Parla con Dalton
-    - Language: Japanese
-      String: ダルトンと話す
-    - Language: Polish
-      String: Porozmawiaj z Daltonem
-    - Language: Portuguese_Brazil
-      String: Fale com Dalton
-    - Language: ChineseSimplified
-      String: 与道尔顿交谈
+    Value: Talk to Dalton
   Targets:
   - {}
 - Index: 1200
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Warte auf Dalton.
-    - Language: English
-      String: Wait for Dalton
-    - Language: Spanish
-      String: Espera a Dalton.
-    - Language: French
-      String: Attendez Dalton.
-    - Language: Italian
-      String: Attendi aggiornamenti da Dalton
-    - Language: Japanese
-      String: ダルトンを待つ
-    - Language: Polish
-      String: Poczekaj na Daltona
-    - Language: Portuguese_Brazil
-      String: Espere Dalton
-    - Language: ChineseSimplified
-      String: 等待道尔顿
+    Value: Wait for Dalton
   Targets:
   - {}
 - Index: 1300
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Sprich mit Dalton.
-    - Language: English
-      String: Talk to Dalton
-    - Language: Spanish
-      String: Habla con Dalton.
-    - Language: French
-      String: Parlez à Dalton.
-    - Language: Italian
-      String: Parla con Dalton
-    - Language: Japanese
-      String: ダルトンと話す
-    - Language: Polish
-      String: Porozmawiaj z Daltonem
-    - Language: Portuguese_Brazil
-      String: Fale com Dalton
-    - Language: ChineseSimplified
-      String: 与道尔顿交谈
+    Value: Talk to Dalton
   Targets:
   - {}
 Aliases:

@@ -1,27 +1,9 @@
 FormKey: 1462A3:Starfield.esm
 EditorID: ModWeaponEffect_StabilizingBarrel
-FormVersion: 559
+FormVersion: 576
 Name:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: 'Effekt: stabiler Lauf'
-  - Language: English
-    String: Stabilizing Barrel Effect
-  - Language: Spanish
-    String: Efecto de cañón estabilizador
-  - Language: French
-    String: Effet de canon stabilisant
-  - Language: Italian
-    String: Effetto Canna stabile
-  - Language: Japanese
-    String: 安定化バレル効果
-  - Language: Polish
-    String: Lufa stabilizująca
-  - Language: Portuguese_Brazil
-    String: Efeito do Cano Estabilizante
-  - Language: ChineseSimplified
-    String: 稳定枪管效果
+  Value: Stabilizing Barrel Effect
 PerkToApply: 0E812B:Starfield.esm
 Archetype:
   MutagenObjectType: MagicEffectArchetype
@@ -34,5 +16,6 @@ Unknown: 0x00000000000000000000000000000000000000000000
 Unknown2: '[]'
 Description:
   TargetLanguage: English
+  Value: ''
 DATADataTypeState:
 - Break0

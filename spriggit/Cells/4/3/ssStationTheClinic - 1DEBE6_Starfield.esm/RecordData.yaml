@@ -1,30 +1,14 @@
 FormKey: 1DEBE6:Starfield.esm
-MajorRecordFlagsRaw: 4
+IsCompressed: True
+MajorRecordFlagsRaw: 262148
 EditorID: ssStationTheClinic
-FormVersion: 559
+FormVersion: 576
 StarfieldMajorRecordFlags:
 - NotPlayable
+- Compressed
 Name:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: Die Klinik
-  - Language: English
-    String: The Clinic
-  - Language: Spanish
-    String: La Clínica
-  - Language: French
-    String: La Clinique
-  - Language: Italian
-    String: La Clinica
-  - Language: Japanese
-    String: クリニック
-  - Language: Polish
-    String: Klinika
-  - Language: Portuguese_Brazil
-    String: Clínica
-  - Language: ChineseSimplified
-    String: 星际诊所号
+  Value: The Clinic
 Flags:
 - IsInteriorCell
 - CantTravelFromHere
@@ -1950,8 +1934,48 @@ Traversals:
   UnknownVector: 1.6465156, 1.7684143, 0.82107884
   Unknown: 0x4842484200367340
 NumTraversalFluffBytes: 1508
-Timestamp: 12497
-TemporaryTimestamp: 12497
+UnknownGroupData: 1
 TemporaryUnknownGroupData: 1
+Temporary:
+- MutagenObjectType: PlacedObject
+  FormKey: 126335:Starfield.esm
+  FormVersion: 576
+  Base: 1D211F:Starfield.esm
+  Layer: 265DA5:Starfield.esm
+  Location: 1E427B:Starfield.esm
+  Position: 21.02394, -9.824221, 1.3004745
+  Rotation: 6.158942E-06, 0.00026056904, 4.7970953
+- MutagenObjectType: PlacedObject
+  FormKey: 12E038:Starfield.esm
+  FormVersion: 576
+  Base: 1D211F:Starfield.esm
+  LayeredMaterialSwaps:
+  - 33D9FB:Starfield.esm
+  Layer: 265DA5:Starfield.esm
+  Location: 1E427B:Starfield.esm
+  Position: 1.607973, -3.9945793, 1.3317565
+  Rotation: 1.5707964, -0.2617994, 1.5707964
+- MutagenObjectType: PlacedObject
+  FormKey: 1316DC:Starfield.esm
+  FormVersion: 576
+  Base: 1D211F:Starfield.esm
+  LayeredMaterialSwaps:
+  - 33DA00:Starfield.esm
+  - 33D9F9:Starfield.esm
+  Ownership:
+    Owner: 1336B4:Starfield.esm
+  Layer: 265DA5:Starfield.esm
+  Location: 1E427B:Starfield.esm
+  Position: 37.71978, 29.176102, 0.4912571
+  Rotation: -1.5718302, 0.9630811, 1.535456
+- MutagenObjectType: PlacedObject
+  FormKey: 1275BA:Starfield.esm
+  FormVersion: 576
+  Base: 1D211F:Starfield.esm
+  Layer: 265DA5:Starfield.esm
+  Location: 1E427B:Starfield.esm
+  Position: 1.5183078, -3.615147, 1.3007812
+  Rotation: 6.158942E-06, 0.00026056904, 4.7970953
 MajorFlags:
 - 0x4
+- 0x40000

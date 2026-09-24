@@ -1,0 +1,113 @@
+FormKey: 2CFB9F:Starfield.esm
+MajorRecordFlagsRaw: 4
+EditorID: LC180World
+FormVersion: 576
+StarfieldMajorRecordFlags:
+- NotPlayable
+Components:
+- MutagenObjectType: WorldSpaceOverlayComponent
+  SNAM: 0xB9D10100
+  PNAM: 0x19000000
+  SurfaceBlock: 2CFB8A:Starfield.esm
+- MutagenObjectType: PlanetContentManagerContentPropertiesComponent
+  ZNAM: 0
+  YNAM: 0
+  XNAM: 0
+  WNAM: 0
+  VNAM: 1
+  UNAM: 0
+  NAM1: 0
+  Global: Null
+  NAM3: 0
+  NAM4: 0x00FF0000
+  NAM5: 0
+  NAM6: 0
+  NAM7: 0
+  NAM8: 0
+  NAM9: 0
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: BodyHasKeywordConditionData
+      FirstParameter: 295EB4:Starfield.esm
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: IsTrueForConditionFormConditionData
+      FirstParameter: 1C3FB6:Starfield.esm
+    ComparisonValue: 1
+Name:
+  TargetLanguage: English
+  Value: Medicinal Terrarium Exterior
+Location: 2772A7:Starfield.esm
+NAM7: Data\MATERIALS\Water\WaterCalm.mat
+LodWater: 000018:Starfield.esm
+LodWaterHeight: 0
+LandDefaults:
+  DefaultLandHeight: -2048
+  DefaultWaterHeight: -500
+MapData: {}
+WorldMapOffsetScale: 1
+DistantLodMultiplier: 1
+Flags:
+- SmallWorld
+FNAM: 0x00
+ObjectBoundsMin: -0.07324219, -0.09765625
+ObjectBoundsMax: 0.09765625, 0.09765625
+AmbienceSet: 243974:Starfield.esm
+GNAM: 1
+XCLWs:
+- 0
+- NaN
+- NaN
+- 9.1834E-41
+- 1E-45
+- NaN
+WHGTs:
+- 11
+- 11
+- 11
+- 11
+- 11
+- 11
+HNAM: 0x05
+TopCell:
+  FormKey: 2CFB9E:Starfield.esm
+  IsCompressed: True
+  MajorRecordFlagsRaw: 263168
+  FormVersion: 576
+  StarfieldMajorRecordFlags:
+  - 0x400
+  - Compressed
+  Flags:
+  - HasWater
+  Grid: {}
+  LightingTemplate: Null
+  WaterHeight: 3.4028235E+38
+  XILS: 1
+  UnknownGroupData: 1
+  PersistentUnknownGroupData: 1
+  Persistent:
+  - MutagenObjectType: PlacedNpc
+    FormKey: 15DECB:Starfield.esm
+    MajorRecordFlagsRaw: 1024
+    FormVersion: 576
+    StarfieldMajorRecordFlags:
+    - 0x400
+    Base: 15DECC:Starfield.esm
+    LevelModifier: Medium
+    PersistentLocation: 2772A7:Starfield.esm
+    LinkedReferences:
+    - KeywordOrReference: 0F9E1A:Starfield.esm
+      Reference: 15DECA:Starfield.esm
+    Location: 2772A7:Starfield.esm
+    LocationRefTypes:
+    - 13D96B:Starfield.esm
+    Position: 62.4, 47.2, 17
+    Rotation: 0, -3.1415927, 1.5707964
+    MajorFlags:
+    - Persistent
+  MajorFlags:
+  - Persistent
+  - 0x40000
+MajorFlags:
+- 0x4

@@ -1,6 +1,6 @@
 FormKey: 249C2A:Starfield.esm
 EditorID: NOCLUTTER_Neon_Chem_Drink_Alc_ExclMenuItem_Legrande_Blend
-FormVersion: 559
+FormVersion: 576
 ObjectBounds:
   First: -0.045684814, -0.045684837, 5.4496923E-09
   Second: 0.045684814, 0.04571533, 0.20898436
@@ -11,25 +11,7 @@ Transforms:
   Workbench: 1017B4:Starfield.esm
 Name:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: Blend
-  - Language: English
-    String: Blend
-  - Language: Spanish
-    String: Mezcla
-  - Language: French
-    String: Blend
-  - Language: Italian
-    String: Blend
-  - Language: Japanese
-    String: ブレンド
-  - Language: Polish
-    String: Melanż
-  - Language: Portuguese_Brazil
-    String: Blend
-  - Language: ChineseSimplified
-    String: 特调酒
+  Value: Blend
 Keywords:
 - 055ECC:Starfield.esm
 - 11A47A:Starfield.esm
@@ -47,25 +29,7 @@ CraftingSound:
   Start: 35d54406-a8ad-3d76-0585-057058aa9faa
 Description:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: Ein kohlensäurehaltiges alkoholisches Getränk, mit Koffein und einer Geheimzutat gemischt.
-  - Language: English
-    String: A carbonated alcoholic beverage blended with caffeine and a potent secret ingredient.
-  - Language: Spanish
-    String: Bebida alcohólica carbonatada con cafeína y un potente ingrediente secreto.
-  - Language: French
-    String: Une boisson gazeuse alcoolisée mélangée à de la caféine et à un puissant ingrédient secret.
-  - Language: Italian
-    String: Una bibita alcolica gassata miscelata con caffeina e un potente ingrediente segreto.
-  - Language: Japanese
-    String: 炭酸入りのアルコール飲料。カフェインのほか、強烈な秘密の材料も使われている
-  - Language: Polish
-    String: Gazowany napój alkoholowy zmieszany z kofeiną i silnym, tajemniczym składnikiem.
-  - Language: Portuguese_Brazil
-    String: Bebida alcoólica gaseificada misturada com cafeína e um ingrediente secreto potente.
-  - Language: ChineseSimplified
-    String: 一种含有咖啡因，以及一种烈性神秘材料的碳酸酒精饮料。
+  Value: A carbonated alcoholic beverage blended with caffeine and a potent secret ingredient.
 Weight: 0.5
 Value: 380
 Flags:
@@ -75,6 +39,7 @@ ConsumeSound:
   Start: 534d4d1c-5a43-05f7-75ee-feb0fa7771b5
 AddictionName:
   TargetLanguage: English
+  Value: ''
 Effects:
 - BaseEffect: 2A34F1:Starfield.esm
   Data:
@@ -109,18 +74,17 @@ Effects:
 - BaseEffect: 2EE936:Starfield.esm
   Data:
     Magnitude: 1
-    Duration: 1200
+    Duration: 1
   Conditions:
   - MutagenObjectType: ConditionFloat
     CompareOperator: GreaterThanOrEqualTo
-    Unknown1: 0x8D1400
-    Unknown2: 16650
+    Unknown2: 16658
     Data:
       MutagenObjectType: GetGlobalValueConditionData
       FirstParameter: 31324C:Starfield.esm
     ComparisonValue: 1
   Magnitude: 2EFD77:Starfield.esm
-  Duration: 313264:Starfield.esm
+  Duration: 2F0AD4:Starfield.esm
   EFIF: 0
   MUID: 5
 - BaseEffect: 1BF5AA:Starfield.esm

@@ -1,7 +1,7 @@
 FormKey: 2C5885:Starfield.esm
 MajorRecordFlagsRaw: 536870912
 EditorID: Chem_Craft_Frostwolf
-FormVersion: 559
+FormVersion: 576
 StarfieldMajorRecordFlags:
 - 0x20000000
 ObjectBounds:
@@ -14,25 +14,7 @@ Transforms:
   Workbench: 2B669B:Starfield.esm
 Name:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: Frostwolf
-  - Language: English
-    String: Frostwolf
-  - Language: Spanish
-    String: Lobo gélido
-  - Language: French
-    String: Givreloup
-  - Language: Italian
-    String: Frostwolf
-  - Language: Japanese
-    String: フロストウルフ
-  - Language: Polish
-    String: Mroźny Wilk
-  - Language: Portuguese_Brazil
-    String: Lobo Gélido
-  - Language: ChineseSimplified
-    String: 霜狼
+  Value: Frostwolf
 Keywords:
 - 0F4AE7:Starfield.esm
 - 11A47A:Starfield.esm
@@ -50,25 +32,7 @@ CraftingSound:
   Start: beb644dc-3806-fc10-b40a-1fd694f5d6b9
 Description:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: Ein Cocktail aus dem Kampfrauschmittel Whiteout und dem militärischen leistungssteigernden Chem Reconstim.
-  - Language: English
-    String: A cocktail of the combat enhancer Whiteout and the military performance chem Reconstim.
-  - Language: Spanish
-    String: Cóctel del potenciador de combate Pálida y el estupefaciente de rendimiento militar Reconstimulante.
-  - Language: French
-    String: Un cocktail de Voile blanc, un boost de combat et de Reconstim, un stimulant militaire.
-  - Language: Italian
-    String: Un cocktail del potenziatore di combattimento Whiteout e della sostanza militare stimolante reconstim.
-  - Language: Japanese
-    String: 戦闘力向上薬のホワイトアウトと軍用能力増強薬のリコンスティムを混合したもの
-  - Language: Polish
-    String: Mieszanka bieli - wzmacniacza bojowego - oraz rekonstymu - wojskowego środka wydajnościowego.
-  - Language: Portuguese_Brazil
-    String: Um coquetel do estimulante de combate Whiteout e do químico de performance militar Reconstimulante.
-  - Language: ChineseSimplified
-    String: 战斗用增强药物“乳白天空”和军事表现药品“感知针剂”的混合物。
+  Value: A cocktail of the combat enhancer Whiteout and the military performance chem Reconstim.
 Weight: 0.1
 Value: 525
 Flags:
@@ -80,25 +44,7 @@ ConsumeSound:
   Start: 3cd64f9d-032b-d344-2773-c652c620ef98
 AddictionName:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: Stimulanzien
-  - Language: English
-    String: Stimulants
-  - Language: Spanish
-    String: Estimulantes
-  - Language: French
-    String: Stimulants
-  - Language: Italian
-    String: Stimolanti
-  - Language: Japanese
-    String: 興奮剤
-  - Language: Polish
-    String: Stymulanty
-  - Language: Portuguese_Brazil
-    String: Estimulantes
-  - Language: ChineseSimplified
-    String: 刺激剂
+  Value: Stimulants
 Effects:
 - BaseEffect: 2D3990:Starfield.esm
   Data:

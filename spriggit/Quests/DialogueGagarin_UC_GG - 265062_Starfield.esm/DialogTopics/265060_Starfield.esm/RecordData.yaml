@@ -1,5 +1,5 @@
 FormKey: 265060:Starfield.esm
-FormVersion: 559
+FormVersion: 576
 Quest: 265062:Starfield.esm
 Category: Misc
 Subtype: QuestOrSpecialHellos
@@ -280,4 +280,3 @@ TopicInfoList:
 - 1A4690:Starfield.esm
 - 1A4691:Starfield.esm
 - 1A4692:Starfield.esm
-Timestamp: 12497

@@ -1,9 +1,8 @@
 FormKey: 0413FE:Starfield.esm
-FormVersion: 559
+FormVersion: 576
 Quest: 009E99:Starfield.esm
 Category: Scene
 Subtype: CustomScene
 SubtypeName: SCEN
 TopicInfoList:
 - 097755:Starfield.esm
-Timestamp: 12497

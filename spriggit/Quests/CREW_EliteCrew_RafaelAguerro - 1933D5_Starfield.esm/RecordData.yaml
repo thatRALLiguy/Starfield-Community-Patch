@@ -1,0 +1,233 @@
+FormKey: 1933D5:Starfield.esm
+EditorID: CREW_EliteCrew_RafaelAguerro
+FormVersion: 576
+VirtualMachineAdapter:
+  Scripts:
+  - Name: Crew_EliteCrewQuestScript
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: TRAIT_Taskmaster
+      Object: 227FE0:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_Crew
+      Object: 2A567D:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Crew_HireSpeechChallengeAttempted
+      Object: 2636B7:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_Followers
+      Object: 00D773:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Crew_RecruitCost_TextReplacementValue
+      Object: 27072B:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CrewMember
+      Object: 1933D5:Starfield.esm
+      Alias: 0
+    - MutagenObjectType: ScriptFloatProperty
+      Name: CostMult_Taskmaster
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerShip
+      Object: 0174A2:Starfield.esm
+      Alias: 0
+  Script:
+    Name: Fragments:Quests:QF_CREW_EliteCrew_RafaelAgue_001933D5
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Crew_Outpost_Engineering
+      Object: 21B8C8:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Crew_Outpost_AneutronicFusion
+      Object: 222F83:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PotentialCrewFaction
+      Object: 0143A2:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ207C_RafaelPostquest
+      Object: 051687:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CREW_Ship_StarshipEngineering
+      Object: 222F88:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Crew_Outpost_Management
+      Object: 21B8C3:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ207C
+      Object: 257DE1:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Crew_Scavenging
+      Object: 21B8C7:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Rafael
+      Object: 1933D5:Starfield.esm
+      Alias: 0
+  Fragments:
+  - Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CREW_EliteCrew_RafaelAgue_001933D5
+    FragmentName: Fragment_Stage_0000_Item_00
+  - Stage: 50
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CREW_EliteCrew_RafaelAgue_001933D5
+    FragmentName: Fragment_Stage_0050_Item_00
+  - Stage: 600
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CREW_EliteCrew_RafaelAgue_001933D5
+    FragmentName: Fragment_Stage_0600_Item_00
+  - Stage: 700
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CREW_EliteCrew_RafaelAgue_001933D5
+    FragmentName: Fragment_Stage_0700_Item_00
+  - Stage: 1
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CREW_EliteCrew_RafaelAgue_001933D5
+    FragmentName: Fragment_Stage_0001_Item_00
+  - Stage: 20
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CREW_EliteCrew_RafaelAgue_001933D5
+    FragmentName: Fragment_Stage_0020_Item_00
+  - Stage: 500
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_CREW_EliteCrew_RafaelAgue_001933D5
+    FragmentName: Fragment_Stage_0500_Item_00
+Name:
+  TargetLanguage: English
+  Value: Rafael Aguerro
+Data:
+  Flags:
+  - RunOnce
+  - 0x10000
+  Priority: 70
+  Unused: 0x000000
+DialogConditions:
+- MutagenObjectType: ConditionFloat
+  Unknown2: 16658
+  Data:
+    MutagenObjectType: GetIsIDConditionData
+    FirstParameter: 27E28D:Starfield.esm
+  ComparisonValue: 1
+UnusedConditions: []
+Stages:
+- Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: DEBUG STAGE
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Rafael recruitable as Crew
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 20
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Rafael Aguerro Spoken To
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 50
+  Unknown: 116
+  LogEntries:
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetInFactionConditionData
+        RunOnType: QuestAlias
+        Unknown3: 0
+        FirstParameter: 014312:Starfield.esm
+    Note: Rafael Aguerro Hired
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 100
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Colleagues info toggle
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 200
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Family info toggle
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 300
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player did not think any good came from the experiment at Nishina
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 400
+  Unknown: 116
+  LogEntries:
+  - Flags: []
+    Note: Player thought some good came from the experiment at Nishina
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 500
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player told Rafael to report
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 600
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player told Rafael not to report
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 700
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player can unlock time-locked TL
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+Aliases:
+- MutagenObjectType: QuestReferenceAlias
+  Name: Rafael
+  Flags:
+  - AllowDisabled
+  ALFG: 0
+  UniqueActor: 27E28D:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 1
+  Name: ActiveCompanion
+  Flags:
+  - Optional
+  - ExternalAliasLinked
+  ALFG: 0
+  External:
+    Quest: 2A567C:Starfield.esm
+    AliasID: 0
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 2
+  Name: ActiveEliteCrew
+  Flags:
+  - Optional
+  - ExternalAliasLinked
+  ALFG: 0
+  External:
+    Quest: 2A567D:Starfield.esm
+    AliasID: 30
+  VoiceTypes: Null

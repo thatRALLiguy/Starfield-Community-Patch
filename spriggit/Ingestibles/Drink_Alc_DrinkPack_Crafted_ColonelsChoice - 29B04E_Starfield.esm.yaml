@@ -1,6 +1,6 @@
 FormKey: 29B04E:Starfield.esm
 EditorID: Drink_Alc_DrinkPack_Crafted_ColonelsChoice
-FormVersion: 559
+FormVersion: 576
 ObjectBounds:
   First: -0.06793213, -0.034973145, -0.0027160645
   Second: 0.070739746, 0.03692627, 0.2163086
@@ -11,25 +11,7 @@ Transforms:
   Workbench: 03D201:Starfield.esm
 Name:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: Colonel's Choice
-  - Language: English
-    String: Colonel's Choice
-  - Language: Spanish
-    String: Elección del coronel
-  - Language: French
-    String: Choix du colonel
-  - Language: Italian
-    String: Scelta del Colonnello
-  - Language: Japanese
-    String: カーネルズ・チョイス
-  - Language: Polish
-    String: Przysmak Pułkownika
-  - Language: Portuguese_Brazil
-    String: Escolha do Coronel
-  - Language: ChineseSimplified
-    String: 上校的选择
+  Value: Colonel's Choice
 Keywords:
 - 055ECC:Starfield.esm
 - 14253C:Starfield.esm
@@ -47,25 +29,7 @@ CraftingSound:
   Start: 580e474d-4c10-e197-848f-5a4632615aa7
 Description:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: Ein würziger Cocktail aus Bourbon und Soße. Passt gut zu gebratenem Fleisch, insbesondere zu synthetischem Hühnchen.
-  - Language: English
-    String: A spiced cocktail of bourbon and gravy. Pairs well with fried meats, particularly with synthetic chicken.
-  - Language: Spanish
-    String: Cóctel especiado de bourbon y jugo de carne, perfecto para acompañar carnes fritas (especialmente, el pollo sintético).
-  - Language: French
-    String: Un cocktail épicé à base de bourbon et de sauce. Se marie très bien avec les viandes grillées, notamment le poulet synthétique.
-  - Language: Italian
-    String: Un cocktail speziato a base di bourbon e sugo d’arrosto. Si abbina con carni fritte, in particolare il pollo sintetico.
-  - Language: Japanese
-    String: バーボンとグレイビーソースからなる香辛料の効いたカクテル。フライにした肉、特に合成鶏肉とよく合う
-  - Language: Polish
-    String: Przyprawiony koktajl z burbonu i sosu. Dobrze łączy się ze smażonym mięsem, zwłaszcza syntetycznym kurczakiem.
-  - Language: Portuguese_Brazil
-    String: Um coquetel condimentado de uísque e molho. Combina bem com carnes fritas, especialmente galinha sintética.
-  - Language: ChineseSimplified
-    String: 用波本威士忌与肉汁做成的调味鸡尾酒，适合搭配煎炸肉食，尤其是合成鸡肉。
+  Value: A spiced cocktail of bourbon and gravy. Pairs well with fried meats, particularly with synthetic chicken.
 Weight: 0.3
 Value: 350
 Flags:
@@ -75,6 +39,7 @@ ConsumeSound:
   Start: abcc440c-55e5-bbd4-167f-b9ab79fae3b3
 AddictionName:
   TargetLanguage: English
+  Value: ''
 Effects:
 - BaseEffect: 150731:Starfield.esm
   Data:
@@ -110,18 +75,17 @@ Effects:
 - BaseEffect: 31325F:Starfield.esm
   Data:
     Magnitude: 1
-    Duration: 3600
+    Duration: 1
   Conditions:
   - MutagenObjectType: ConditionFloat
     CompareOperator: GreaterThanOrEqualTo
-    Unknown1: 0x8D1400
-    Unknown2: 16650
+    Unknown2: 16658
     Data:
       MutagenObjectType: GetGlobalValueConditionData
       FirstParameter: 31324C:Starfield.esm
     ComparisonValue: 1
   Magnitude: 2EFD79:Starfield.esm
-  Duration: 2EE14C:Starfield.esm
+  Duration: 2F0AD4:Starfield.esm
   EFIF: 0
   MUID: 5
 - BaseEffect: 25A8B5:Starfield.esm

@@ -1,27 +1,9 @@
 FormKey: 1EB453:Starfield.esm
 EditorID: DR032DerelictStationSpaceCellLocation
-FormVersion: 559
+FormVersion: 576
 Name:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: Die Sonder
-  - Language: English
-    String: The Sonder
-  - Language: Spanish
-    String: La sonda
-  - Language: French
-    String: La Sonde
-  - Language: Italian
-    String: La Sonder
-  - Language: Japanese
-    String: ソンダー
-  - Language: Polish
-    String: Sonder
-  - Language: Portuguese_Brazil
-    String: A Sonder
-  - Language: ChineseSimplified
-    String: 过客号
+  Value: The Sonder
 Keywords:
 - 0254BC:Starfield.esm
 - 064EDE:Starfield.esm
@@ -29,7 +11,8 @@ Keywords:
 - 2253D1:Starfield.esm
 - 01674D:Starfield.esm
 - 08A8F9:Starfield.esm
-UnknownDATA2: 16
+Faction:
+  UnknownDATA2: 16
 ParentLocation: 01B379:Starfield.esm
 WorldLocationRadius: 0
 ActorFadeMult: 1

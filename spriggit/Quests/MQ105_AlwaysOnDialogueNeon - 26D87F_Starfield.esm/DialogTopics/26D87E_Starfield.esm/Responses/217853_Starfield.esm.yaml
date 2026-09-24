@@ -1,5 +1,5 @@
 FormKey: 217853:Starfield.esm
-FormVersion: 559
+FormVersion: 576
 Flags:
   Flags:
   - 0x4
@@ -21,33 +21,14 @@ Responses:
     UnknownFloat: 4.9
   Text:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Hey, steck die Waffe wieder ein.
-    - Language: English
-      String: Hey, keep the weapon holstered, will you?
-    - Language: Spanish
-      String: Eh, el arma enfundada, ¿vale?
-    - Language: French
-      String: Hé, vous là, rangez votre arme.
-    - Language: Italian
-      String: Ehi, metti via quell’arma, OK?
-    - Language: Japanese
-      String: おい、武器はしまっておいてくれないか？
-    - Language: Polish
-      String: Ej, schowaj tę broń, co?
-    - Language: Portuguese_Brazil
-      String: Ei, mantenha a arma no coldre, tá bom?
-    - Language: ChineseSimplified
-      String: 嘿，武器收好，好吗？
+    Value: Hey, keep the weapon holstered, will you?
   ScriptNotes: working as private security; player has their gun out
   Edits: ''
   AlternateLipText: ''
   TextHash: 0x10EC57BBF8A6D601
 Conditions:
 - MutagenObjectType: ConditionFloat
-  Unknown1: 0x000000
-  Unknown2: 16493
+  Unknown2: 16617
   Data:
     MutagenObjectType: IsWeaponOutConditionData
     RunOnType: Reference

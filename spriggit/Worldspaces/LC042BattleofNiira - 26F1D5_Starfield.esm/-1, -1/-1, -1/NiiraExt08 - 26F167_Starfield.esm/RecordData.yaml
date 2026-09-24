@@ -1,10 +1,15 @@
 FormKey: 26F167:Starfield.esm
+IsCompressed: True
+MajorRecordFlagsRaw: 262144
 EditorID: NiiraExt08
-FormVersion: 559
+FormVersion: 576
+StarfieldMajorRecordFlags:
+- Compressed
 Flags:
 - HasWater
 Grid:
   Point: -2, -1
+LightingTemplate: Null
 WaterHeight: -2.1474836E+09
 XILS: 1
 Traversals:
@@ -40994,7 +40999,40 @@ Traversals:
   UnknownVector: 2.8055513, 6.184196, 1.144899
   Unknown: 0x263C263C0F342D37
 NumTraversalFluffBytes: 32788
-Timestamp: 12497
 UnknownGroupData: 1
-TemporaryTimestamp: 12497
 TemporaryUnknownGroupData: 1
+Temporary:
+- MutagenObjectType: PlacedObject
+  FormKey: 01FE43:Starfield.esm
+  FormVersion: 576
+  Base: 0F6351:Starfield.esm
+  Layer: 26AEEB:Starfield.esm
+  Location: 2AC0E2:Starfield.esm
+  Position: -112.13617, -12.390058, 42.922302
+  Rotation: -1.7941623, -0.58999914, 1.2760599
+- MutagenObjectType: PlacedObject
+  FormKey: 01FE41:Starfield.esm
+  FormVersion: 576
+  Base: 0F6351:Starfield.esm
+  Layer: 26AEEB:Starfield.esm
+  Location: 2AC0E2:Starfield.esm
+  Position: -111.25925, -12.453568, 42.919678
+  Rotation: -1.6716703, -0.3955339, 4.2682385
+- MutagenObjectType: PlacedObject
+  FormKey: 01FE3A:Starfield.esm
+  FormVersion: 576
+  Base: 33DD93:Starfield.esm
+  Layer: 26AEEB:Starfield.esm
+  Location: 2AC0E2:Starfield.esm
+  Position: -112.97675, -12.648729, 42.8748
+  Rotation: 6.275298, 6.1438885, 5.2832155
+- MutagenObjectType: PlacedObject
+  FormKey: 01FE3C:Starfield.esm
+  FormVersion: 576
+  Base: 1557B6:Starfield.esm
+  Layer: 26AEEB:Starfield.esm
+  Location: 2AC0E2:Starfield.esm
+  Position: -112.6618, -12.080399, 42.9771
+  Rotation: 5.96783, 6.17316, 4.712389
+MajorFlags:
+- 0x40000

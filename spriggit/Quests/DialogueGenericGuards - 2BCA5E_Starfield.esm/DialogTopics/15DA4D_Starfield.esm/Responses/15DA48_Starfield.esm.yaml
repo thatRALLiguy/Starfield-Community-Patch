@@ -1,5 +1,5 @@
 FormKey: 15DA48:Starfield.esm
-FormVersion: 559
+FormVersion: 576
 Flags:
   Flags:
   - Random
@@ -33,33 +33,14 @@ Responses:
     UnknownFloat: 5.1333337
   Text:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: 'Du musst ... auf diesem Planeten keinen Helm tragen. Das weißt du schon, oder? '
-    - Language: English
-      String: "You don't... need to wear your helmet on this planet. You know that, right? "
-    - Language: Spanish
-      String: 'No es necesario llevar casco en este planeta. Lo sabes, ¿no? '
-    - Language: French
-      String: "Vous n'avez pas... besoin de porter de casque sur cette planète. Vous êtes au courant, j'espère ? "
-    - Language: Italian
-      String: 'Non... serve indossare il casco su questo pianeta. Lo sai, no? '
-    - Language: Japanese
-      String: ヘルメットは… この星では必要ない。知ってるだろ？
-    - Language: Polish
-      String: 'Nie musisz... nosić na tej planecie hełmu. Wiesz o tym, prawda? '
-    - Language: Portuguese_Brazil
-      String: 'Você não... precisa usar o capacete nesse planeta. Sabia disso, né? '
-    - Language: ChineseSimplified
-      String: '你……不需要在这个星球上戴头盔的。你知道的，对吧？ '
+    Value: "You don't... need to wear your helmet on this planet. You know that, right? "
   ScriptNotes: ''
   Edits: ''
   AlternateLipText: ''
   TextHash: 0xB0EAE05EE14CD701
 Conditions:
 - MutagenObjectType: ConditionFloat
-  Unknown1: 0x000000
-  Unknown2: 16493
+  Unknown2: 16617
   Data:
     MutagenObjectType: IsTrueForConditionFormConditionData
     RunOnType: Reference
@@ -67,27 +48,23 @@ Conditions:
     FirstParameter: 0BEA53:Starfield.esm
   ComparisonValue: 1
 - MutagenObjectType: ConditionFloat
-  Unknown1: 0x000000
-  Unknown2: 16493
+  Unknown2: 16617
   Data:
     MutagenObjectType: GetInFactionConditionData
     FirstParameter: 27AD57:Starfield.esm
 - MutagenObjectType: ConditionFloat
-  Unknown1: 0x000000
-  Unknown2: 16493
+  Unknown2: 16617
   Data:
     MutagenObjectType: IsTrueForConditionFormConditionData
     FirstParameter: 23C7B8:Starfield.esm
   ComparisonValue: 1
 - MutagenObjectType: ConditionFloat
-  Unknown1: 0x000000
-  Unknown2: 16493
+  Unknown2: 16617
   Data:
     MutagenObjectType: GetInFactionConditionData
     FirstParameter: 28B3AE:Starfield.esm
 - MutagenObjectType: ConditionFloat
-  Unknown1: 0x000000
-  Unknown2: 16493
+  Unknown2: 16617
   Data:
     MutagenObjectType: WornHasKeywordConditionData
     RunOnType: Reference
@@ -95,8 +72,7 @@ Conditions:
     FirstParameter: 23C7C1:Starfield.esm
   ComparisonValue: 1
 - MutagenObjectType: ConditionFloat
-  Unknown1: 0x000000
-  Unknown2: 16493
+  Unknown2: 16617
   Data:
     MutagenObjectType: IsTrueForConditionFormConditionData
     RunOnType: Reference

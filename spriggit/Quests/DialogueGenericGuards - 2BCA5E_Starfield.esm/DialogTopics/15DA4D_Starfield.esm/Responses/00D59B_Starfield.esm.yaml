@@ -1,5 +1,5 @@
 FormKey: 00D59B:Starfield.esm
-FormVersion: 559
+FormVersion: 576
 Flags:
   Flags:
   - Random
@@ -27,51 +27,29 @@ Responses:
     UnknownFloat: 1.7333335
   Text:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Du warst da oben, ja? Im All? Das muss so cool sein. Ich war da noch nie.
-    - Language: English
-      String: Been up there, huh? Space? Must be cool. I never get to go to space.
-    - Language: Spanish
-      String: Has estado ahí arriba, ¿eh? En el espacio. Tiene que impresionar. Yo nunca he ido.
-    - Language: French
-      String: Vous allez là-haut, hein ? Dans l'espace ? Je vous envie. Je suis jamais allé dans l'espace.
-    - Language: Italian
-      String: Vieni da lassù, eh? Dallo spazio? Dev’essere fico. Io non ci vado mai.
-    - Language: Japanese
-      String: 宇宙に行ったことがあるんだっけ？ いい場所だろうな。俺は行かないけど
-    - Language: Polish
-      String: Bywasz tam, co? W kosmosie? Musi być super. Ja tam pewnie nigdy nie trafię.
-    - Language: Portuguese_Brazil
-      String: Já esteve lá em cima? No espaço? Deve ser legal. Nunca consigo ir pro espaço.
-    - Language: ChineseSimplified
-      String: 去过那里哈？太空？那一定很酷。我还从没去过太空。
+    Value: Been up there, huh? Space? Must be cool. I never get to go to space.
   ScriptNotes: ''
   Edits: ''
   AlternateLipText: ''
   TextHash: 0x403EF5255AECD701
 Conditions:
 - MutagenObjectType: ConditionFloat
-  Unknown1: 0x000000
-  Unknown2: 16493
+  Unknown2: 16617
   Data:
     MutagenObjectType: GetInFactionConditionData
     FirstParameter: 27AD57:Starfield.esm
 - MutagenObjectType: ConditionFloat
-  Unknown1: 0x000000
-  Unknown2: 16493
+  Unknown2: 16617
   Data:
     MutagenObjectType: GetInFactionConditionData
     FirstParameter: 26FDEA:Starfield.esm
 - MutagenObjectType: ConditionFloat
-  Unknown1: 0x000000
-  Unknown2: 16493
+  Unknown2: 16617
   Data:
     MutagenObjectType: GetInFactionConditionData
     FirstParameter: 28B3AE:Starfield.esm
 - MutagenObjectType: ConditionFloat
-  Unknown1: 0x000000
-  Unknown2: 16493
+  Unknown2: 16617
   Data:
     MutagenObjectType: IsInSpaceConditionData
     FirstParameter: 91982

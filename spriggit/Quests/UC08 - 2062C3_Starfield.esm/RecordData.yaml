@@ -1,6 +1,6 @@
 FormKey: 2062C3:Starfield.esm
 EditorID: UC08
-FormVersion: 559
+FormVersion: 576
 VirtualMachineAdapter:
   Scripts:
   - Name: uc08questscript
@@ -26,252 +26,166 @@ VirtualMachineAdapter:
     Name: Fragments:Quests:QF_UC08_002062C3
     Properties:
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_TransformationRoomDoor
-      Object: 2062C3:Starfield.esm
-      Alias: 52
+      Name: UC07_JakobTeleportMarker
+      Object: 20B7DB:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: UC08_PostStage150_KaiserMarker
-      Object: 1C5398:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC08_160_FrontGateGuard_Hustle
-      Object: 1C537E:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC07_HadrianTeleportMarker
-      Object: 20B78F:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC08_DEBUG_HeatLeechesScatter
-      Object: 2060F1:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_TTCellSample
-      Object: 2062C3:Starfield.esm
-      Alias: 32
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC08_DEBUG_HadrianSceneVariant
-      Object: 2060CD:Starfield.esm
+      Name: UC08_110_Hadrian_ThePlan_Main
+      Object: 206147:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: PlayerKnows_HeatLeeches
       Object: 1F0989:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_NonHostileTT
+      Name: Alias_CacheDoors
       Object: 2062C3:Starfield.esm
-      Alias: 55
+      Alias: 128
     - MutagenObjectType: ScriptObjectProperty
-      Name: UC08_KaiserMarker_Scene150
-      Object: 206139:Starfield.esm
+      Name: LL_Weapon_Reward_UC08_X989
+      Object: 08AF5D:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: UC08_380_Kaiser_UnlockDoor
-      Object: 2060FC:Starfield.esm
+      Name: UC08_360_HadrianKaiserJakob_SampleThreeScene
+      Object: 44193A:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: UC08_410_Hadrian_BloomingPlant
-      Object: 2060F2:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC08_HadrianDamageIncreased
-      Object: 085FE6:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC08_TransformedTerrormorphTeleportMarker
-      Object: 1B6359:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: DialogueRedDevilsHQ
-      Object: 1E7A0B:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_UndergroundDoorInt
-      Object: 2062C3:Starfield.esm
-      Alias: 108
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC07_JakobTeleportMarker
-      Object: 20B7DB:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC09
-      Object: 1FC858:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC08_570_Hadrian_UtilityPanel
-      Object: 2060D8:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC09_KaiserSandboxing_PostUC08
-      Object: 1E79AA:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_TriggerStage255
-      Object: 2062C3:Starfield.esm
-      Alias: 62
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MUSGenesisStingerDread4TerrormorphTransform
-      Object: 007D99:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: QST_UC08_TowerPing
-      Object: 028FBA:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC08_DEBUG_PortPowerRestored
-      Object: 2060D1:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC07_HadrianKnowsVVLives
-      Object: 1F42E4:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: QST_UC08_UtilityControlFail
-      Object: 00C5EB:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_TriggerStage521
-      Object: 2062C3:Starfield.esm
-      Alias: 112
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_TransformationLeech
-      Object: 2062C3:Starfield.esm
-      Alias: 114
-    - MutagenObjectType: ScriptObjectProperty
-      Name: SQ_Followers
-      Object: 00D773:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_AcelesSampleTwoAct
-      Object: 2062C3:Starfield.esm
-      Alias: 48
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Hadrian
-      Object: 2062C3:Starfield.esm
-      Alias: 0
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC08_DebugMarker02a
-      Object: 1B636E:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC08_405_Hadrian_HeatLeeches
-      Object: 2060F3:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC04_JakobSandboxing_PostUC03
-      Object: 20B7DC:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_AcelesSampleTwoINV
-      Object: 2062C3:Starfield.esm
-      Alias: 49
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_AceleSampleContainer
-      Object: 2062C3:Starfield.esm
-      Alias: 69
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC08_DebugMarker01
-      Object: 206143:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC08_535_Kaiser_ExitUnlocked
-      Object: 1C1189:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: SQ_Followers_UseFollowPlayerCustom
-      Object: 09C16D:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: NPC_Terrormorph_Scream_WEF
-      Object: 07F619:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC08_331_KaiserHadrian_FindAcelesSamples
-      Object: 085FCE:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC08_SupportQuest
-      Object: 1C54EA:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_TransformMorphSpawn
-      Object: 2062C3:Starfield.esm
-      Alias: 28
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_RHQAceles
-      Object: 2062C3:Starfield.esm
-      Alias: 107
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Frontier_ModularREF
-      Object: 03F7E8:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC08_JakobMarker_Scene150
-      Object: 20613A:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_SecurityRebootButton
-      Object: 2062C3:Starfield.esm
-      Alias: 100
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC05_HadrianSandboxing_PostUC05
-      Object: 20B7C0:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_TrainyardTerrormorphs
-      Object: 2062C3:Starfield.esm
-      Alias: 53
+      Name: UC08_HadrianKaiserFollowingPlayer
+      Object: 1C5362:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_AceleSampleContainerBeta
       Object: 2062C3:Starfield.esm
       Alias: 96
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Agent
+      Name: UC08_DEBUG_HeatLeechesScatter
+      Object: 2060F1:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Hadrian
       Object: 2062C3:Starfield.esm
-      Alias: 99
+      Alias: 0
     - MutagenObjectType: ScriptObjectProperty
-      Name: UC08_520_KaiserHadrian_Queen
-      Object: 44196C:Starfield.esm
+      Name: UC08_TolimanGuard_UseRange
+      Object: 2D1C9A:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: UC08_660_HadrianJakob_ReturnToBase
-      Object: 441995:Starfield.esm
+      Name: UC04_ConvincedYasin
+      Object: 21CA91:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: UC08_379_PercivalKaiser_IntoTheTunnels_Combat
-      Object: 085FC4:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC08_510_Hadrian_UtilityPanel
-      Object: 2060D8:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC08_310_HadrianJakob_PointOne
-      Object: 206112:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_VVAudioLog
+      Name: Alias_TransformRoomDoor
       Object: 2062C3:Starfield.esm
-      Alias: 102
+      Alias: 52
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_TMSampleOneACT
+      Name: UC08_DEBUG_BouncingQueen
+      Object: 1B6354:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC08_405_Hadrian_HeatLeeches
+      Object: 2060F3:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC08_DEBUG_PortPowerRestored
+      Object: 2060D1:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RDHQShipLandingMarker
+      Object: 2239D3:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC08_Outfit_Percival_WinterGear
+      Object: 1183ED:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_SpaceportMapMarker
       Object: 2062C3:Starfield.esm
-      Alias: 20
+      Alias: 127
     - MutagenObjectType: ScriptObjectProperty
-      Name: UC08_HadrianDamageIncrease
-      Object: 085FE7:Starfield.esm
+      Name: UC08_410_Hadrian_BloomingPlant
+      Object: 2060F2:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC08_320_KaiserHadrian_ApproachAcelesPlant
+      Object: 1C5371:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC08_331_KaiserHadrian_FindAcelesSamples
+      Object: 085FCE:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: QST_UC08_ResetButtonReboot
+      Object: 00C5EC:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC08_367_JakobHadrianKaiser_ScanThree
+      Object: 1F9BCC:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_AcelesSampleTwoINV
+      Object: 2062C3:Starfield.esm
+      Alias: 49
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_AntiXenoHelmet
+      Object: 2062C3:Starfield.esm
+      Alias: 8
     - MutagenObjectType: ScriptObjectProperty
       Name: TestVSWeapons
       Object: 24AA02:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: BackgroundXenobiologist
-      Object: 22EC6E:Starfield.esm
+      Name: UC08_DebugMarker01
+      Object: 206143:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_UndergroundHeatleeches
+      Name: Alias_SpaceportGate
       Object: 2062C3:Starfield.esm
-      Alias: 82
+      Alias: 56
     - MutagenObjectType: ScriptObjectProperty
-      Name: UC08_HadrianMarker_Scene250
-      Object: 206119:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_RecorderTrigger
-      Object: 2062C3:Starfield.esm
-      Alias: 101
-    - MutagenObjectType: ScriptObjectProperty
-      Name: WwiseEvent_QST_UC08_LargeDoor_Remote_Unlock
-      Object: 000818:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_UndergroundDoor
-      Object: 2062C3:Starfield.esm
-      Alias: 22
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_AceleSampleContainerGamma
-      Object: 2062C3:Starfield.esm
-      Alias: 97
+      Name: UC07_HadrianTeleportMarker
+      Object: 20B78F:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: UC07_HadrianVVRevealQuest
       Object: 1F44B2:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: UC08_DebugMarker07
-      Object: 01713A:Starfield.esm
+      Name: UC08_FB441OwnerFaction
+      Object: 0648AC:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_TransformedTerrormorph
+      Name: Alias_TransformationRoomDoor
       Object: 2062C3:Starfield.esm
-      Alias: 27
+      Alias: 52
     - MutagenObjectType: ScriptObjectProperty
-      Name: UC08_DEBUG_TerrormorphTransformation
-      Object: 2060F0:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_AirlockGate
+      Name: Alias_AcelesSampleGammaINV
       Object: 2062C3:Starfield.esm
-      Alias: 51
+      Alias: 98
     - MutagenObjectType: ScriptObjectProperty
-      Name: UC08_550_HadrianKaiser_SealedChamber
-      Object: 441975:Starfield.esm
+      Name: UC03_RedDevilsHQKey
+      Object: 257EB6:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: UC_Hadrian_ECCombatDialogueActive
-      Object: 1477CE:Starfield.esm
+      Name: Outfit_Clothes_Colonist_CroppedVest_01
+      Object: 133D6B:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC08_380_Kaiser_UnlockDoor
+      Object: 2060FC:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC08_DEBUG_TransmitUnlockSound
+      Object: 1C538D:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Ammo777mm
+      Object: 04AD3E:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_RangeGuard
+      Object: 2062C3:Starfield.esm
+      Alias: 118
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC08_318_Hadrian_MoreThralls
+      Object: 085FE4:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC09_KaiserSandboxing_PostUC08
+      Object: 1E79AA:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_ContainerDoors
+      Object: 2062C3:Starfield.esm
+      Alias: 85
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC08_460_Hadrian_CheerOnDeadTT
+      Object: 1B6358:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC08_DebugMarker02a
+      Object: 1B636E:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC07_HadrianKnowsVVLives
+      Object: 1F42E4:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_TMSampleOneINV
+      Object: 2062C3:Starfield.esm
+      Alias: 21
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC08_507_PowerRestoredScene
+      Object: 085FBB:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_TrainyardTerrormorphs
+      Object: 2062C3:Starfield.esm
+      Alias: 53
     - MutagenObjectType: ScriptObjectProperty
       Name: UC08_600_HadrianThrowsPower
       Object: 2060D3:Starfield.esm
@@ -280,134 +194,194 @@ VirtualMachineAdapter:
       Object: 2062C3:Starfield.esm
       Alias: 2
     - MutagenObjectType: ScriptObjectProperty
+      Name: UC08_DEBUG_RadarSweepSound
+      Object: 206111:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
       Name: Alias_SupplyCaches
       Object: 2062C3:Starfield.esm
       Alias: 18
     - MutagenObjectType: ScriptObjectProperty
-      Name: UC08_317_Hadrian_1stThrall
-      Object: 085FE1:Starfield.esm
+      Name: SQ_PlayerShip
+      Object: 0174A2:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: BackgroundSoldier
-      Object: 22EC70:Starfield.esm
+      Name: UC04_JakobSandboxing_PostUC03
+      Object: 20B7DC:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_TriggerStage495
+      Name: Alias_AntiXenoPack
       Object: 2062C3:Starfield.esm
-      Alias: 75
+      Alias: 9
     - MutagenObjectType: ScriptObjectProperty
-      Name: UC08_DEBUG_BouncingQueen
-      Object: 1B6354:Starfield.esm
+      Name: UC08_HadrianDamageIncrease
+      Object: 085FE7:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: UC08_465_HadrianKaiser_HandOverSample
-      Object: 2060E7:Starfield.esm
+      Name: DialogueRedDevilsHQ
+      Object: 1E7A0B:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: UC_NA_CL_PostTerrormorphAttackScene
-      Object: 2ED3A7:Starfield.esm
+      Name: UC08_525_Hadrian_QueenAggro
+      Object: 202458:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: BackgroundProfessor
-      Object: 22EC72:Starfield.esm
+      Name: NPC_Terrormorph_Scream_WEF
+      Object: 07F619:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_SpaceportMapMarker
+      Name: BackgroundXenobiologist
+      Object: 22EC6E:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_TTCellSample
       Object: 2062C3:Starfield.esm
-      Alias: 127
+      Alias: 32
     - MutagenObjectType: ScriptObjectProperty
-      Name: UC08_530_Hadrian_BackToTheSample
-      Object: 202457:Starfield.esm
+      Name: UC08_HadrianDamageIncreased
+      Object: 085FE6:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: UC08_DebugMarker05
-      Object: 20245C:Starfield.esm
+      Name: UC08_PostStage150_KaiserMarker
+      Object: 1C5398:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: WwiseEvent_QST_UC08_Door_Remote_Unlock
-      Object: 000817:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC08_460_Hadrian_CheerOnDeadTT
-      Object: 1B6358:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC08_500_HadrianKaiserJakob_ThirdSample
-      Object: 441967:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC08_365_KaiserHadrian_SampleCollected
-      Object: 1C5359:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RDHQShipLandingMarker
-      Object: 2239D3:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC08_PercyTeleportMarker_Stage171
-      Object: 1C537A:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_CacheDoors
+      Name: Alias_AcelesSampleTwoAct
       Object: 2062C3:Starfield.esm
-      Alias: 128
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC08_DebugMarker13
-      Object: 202454:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC08_DebugMarker06
-      Object: 1E6E19:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: PercivalFinalSceneMarker
-      Object: 1B57AB:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_FinalSampleDoor
-      Object: 2062C3:Starfield.esm
-      Alias: 35
-    - MutagenObjectType: ScriptObjectProperty
-      Name: WwiseEvent_QST_UC08_Robot_Remote_Unlock
-      Object: 000B26:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC08_330_HadrianJakob_SampleOneAcquired
-      Object: 44192C:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC08_531_Hadrian_HandOverFinalSample
-      Object: 085FB2:Starfield.esm
+      Alias: 48
     - MutagenObjectType: ScriptObjectProperty
       Name: UC08_DebugMarker04
       Object: 20244A:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: UC08_DebugMarker11
-      Object: 1B6355:Starfield.esm
+      Name: UC08_160_FrontGateGuard_Hustle
+      Object: 1C537E:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Frontier_ModularREF
+      Object: 03F7E8:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC08_500_HadrianKaiserJakob_ThirdSample
+      Object: 441967:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC08_DebugMarker15
+      Object: 1B6353:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: QST_UC08_UtilityControlFail
+      Object: 00C5EB:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_AirlockGate
+      Object: 2062C3:Starfield.esm
+      Alias: 51
+    - MutagenObjectType: ScriptObjectProperty
+      Name: BackgroundSoldier
+      Object: 22EC70:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC08_QueenBattle
+      Object: 03E832:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PercivalFinalSceneMarker
+      Object: 1B57AB:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_TransformMorphSpawn
+      Object: 2062C3:Starfield.esm
+      Alias: 28
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_KaiserSocialImmune
+      Object: 2062C3:Starfield.esm
+      Alias: 129
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_AntiXenoSuit
+      Object: 2062C3:Starfield.esm
+      Alias: 10
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC08_PercyTeleportMarker_Stage171
+      Object: 1C537A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_TMSampleOneACT
+      Object: 2062C3:Starfield.esm
+      Alias: 20
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_SecurityRebootButton
+      Object: 2062C3:Starfield.esm
+      Alias: 100
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC08_330_HadrianJakob_SampleOneAcquired
+      Object: 44192C:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC08_HadrianMarker_Scene150
+      Object: 20613B:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Agent
+      Object: 2062C3:Starfield.esm
+      Alias: 99
+    - MutagenObjectType: ScriptObjectProperty
+      Name: WwiseEvent_QST_UC08_Door_Remote_Unlock
+      Object: 000817:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: WwiseEvent_QST_UC08_LargeDoor_Remote_Unlock_Fail
+      Object: 000819:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC08_DebugMarker13
+      Object: 202454:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC08_330_KaiserHadrianPercival_FindTheManifest
+      Object: 1C5370:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_AcelesSampleOne
       Object: 2062C3:Starfield.esm
       Alias: 15
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_TerrormorphQueen
+      Name: Alias_TransformationLeech
       Object: 2062C3:Starfield.esm
-      Alias: 36
+      Alias: 114
     - MutagenObjectType: ScriptObjectProperty
-      Name: FB441BaseMapMarker
-      Object: 2BE3BA:Starfield.esm
+      Name: UC08_317_Hadrian_1stThrall
+      Object: 085FE1:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: UC08_530_Hadrian_CollectSample
-      Object: 202457:Starfield.esm
+      Name: UC08_DebugMarker07
+      Object: 01713A:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: UC08_HadrianMarker_Scene150
-      Object: 20613B:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: ActorShouldHideSpacesuitHelmetCosmeticBreathable_AV
-      Object: 0B120B:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC08_DEBUG_TransmitUnlockSound
-      Object: 1C538D:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_CommanderHatoum
+      Name: Alias_TransformedTerrormorph
       Object: 2062C3:Starfield.esm
-      Alias: 6
+      Alias: 27
     - MutagenObjectType: ScriptObjectProperty
-      Name: LL_Weapon_Reward_UC08_X989
-      Object: 08AF5D:Starfield.esm
+      Name: UC08_SupportQuest
+      Object: 1C54EA:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC08_365_KaiserHadrian_SampleCollected
+      Object: 1C5359:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_SupplyCache01
+      Object: 2062C3:Starfield.esm
+      Alias: 19
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC08_310_HadrianJakob_PointOne
+      Object: 206112:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_FrontAirlock
+      Object: 2062C3:Starfield.esm
+      Alias: 87
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC08_640_Kaiser_PopChamber
+      Object: 441991:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC08_DebugMarker06
+      Object: 1E6E19:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC08_531_Hadrian_HandOverFinalSample
+      Object: 085FB2:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC_NA_CL_PostTerrormorphAttackScene
+      Object: 2ED3A7:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: UC08_KaiserTeleportMarker_Stage176
       Object: 1B636D:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: ActorShouldShowSpacesuitCosmetic_AV
-      Object: 0A73F8:Starfield.esm
+      Name: SQ_Followers
+      Object: 00D773:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_TMSampleTwoACT
+      Object: 2062C3:Starfield.esm
+      Alias: 34
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Outfit_Spacesuit_UCMarine_NoHelmet
+      Object: 258051:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_PortUtilityControls
+      Object: 2062C3:Starfield.esm
+      Alias: 41
     - MutagenObjectType: ScriptObjectProperty
       Name: UC08_382_Hadrian_HandOverSamples
       Object: 085FC3:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_AntiXenoPack
-      Object: 2062C3:Starfield.esm
-      Alias: 9
     - MutagenObjectType: ScriptObjectProperty
       Name: UC08_KaiserTeleportMarker_Stage171
       Object: 1C5379:Starfield.esm
@@ -416,15 +390,21 @@ VirtualMachineAdapter:
       Object: 2062C3:Starfield.esm
       Alias: 86
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_FrontAirlock
+      Name: UC08_HadrianTeleportMarker_Stage171
+      Object: 1C537B:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CommanderHatoum
       Object: 2062C3:Starfield.esm
-      Alias: 87
+      Alias: 6
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC08_535_Kaiser_ExitUnlocked
+      Object: 1C1189:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: UC08_371_JakobHadrianKaiser_ScanTwo
       Object: 1F9BCC:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: BackgroundCyberRunner
-      Object: 22EC7D:Starfield.esm
+      Name: UC08_520_KaiserHadrian_Queen
+      Object: 44196C:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: UC08_400_HadrianKaiser_LazarusPlant
       Object: 2060F4:Starfield.esm
@@ -435,29 +415,26 @@ VirtualMachineAdapter:
       Name: UC08_513_HadrianKaiser_UnlockDoor
       Object: 1C1193:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: Outfit_Spacesuit_UCMarine_NoHelmet
-      Object: 258051:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC08_QueenBattle
-      Object: 03E832:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_TMSampleOneINV
+      Name: Alias_RecorderTrigger
       Object: 2062C3:Starfield.esm
-      Alias: 21
+      Alias: 101
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_TransformRoomDoor
-      Object: 2062C3:Starfield.esm
-      Alias: 52
+      Name: QST_UC08_TowerPing
+      Object: 028FBA:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_AcelesSampleOneINV
+      Name: Alias_SecurityOfficeDoor
       Object: 2062C3:Starfield.esm
-      Alias: 16
+      Alias: 77
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ActorShouldHideSpacesuitHelmetCosmeticBreathable_AV
+      Object: 0B120B:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_SpaceportExit
+      Object: 2062C3:Starfield.esm
+      Alias: 81
     - MutagenObjectType: ScriptObjectProperty
       Name: UC08_366_Hadrian_GiveKaiserSample
       Object: 1BA6D1:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Outfit_Clothes_Colonist_CroppedVest_01
-      Object: 133D6B:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_SecurityOfficeEnableMarker
       Object: 2062C3:Starfield.esm
@@ -467,177 +444,200 @@ VirtualMachineAdapter:
       Object: 2062C3:Starfield.esm
       Alias: 122
     - MutagenObjectType: ScriptObjectProperty
-      Name: UC08_110_Hadrian_ThePlan_Main
-      Object: 206147:Starfield.esm
+      Name: UC08_660_HadrianJakob_ReturnToBase
+      Object: 441995:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: UC08_HadrianTeleportMarker_Stage171
-      Object: 1C537B:Starfield.esm
+      Name: Alias_TerrormorphQueen
+      Object: 2062C3:Starfield.esm
+      Alias: 36
     - MutagenObjectType: ScriptObjectProperty
-      Name: UC08_378_Hadrian_AllSamplesCollected
-      Object: 085FC5:Starfield.esm
+      Name: UC08_KaiserMarker_Scene150
+      Object: 206139:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC08_333_Hadrian_AggroTrainyardMorphs
+      Object: 07E912:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_AirlockSwitch
       Object: 2062C3:Starfield.esm
       Alias: 50
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_ContainerDoors
-      Object: 2062C3:Starfield.esm
-      Alias: 85
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_AntiXenoHelmet
-      Object: 2062C3:Starfield.esm
-      Alias: 8
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC08_333_Hadrian_AggroTrainyardMorphs
-      Object: 07E912:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_HadrianShip
-      Object: 2062C3:Starfield.esm
-      Alias: 91
-    - MutagenObjectType: ScriptObjectProperty
-      Name: QST_UC08_ResetButtonReboot
-      Object: 00C5EC:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: WwiseEvent_QST_UC08_LargeDoor_Remote_Unlock_Fail
-      Object: 000819:Starfield.esm
+      Name: UC08_HadrianMarker_Scene250
+      Object: 206119:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: UC08_180_KaiserHatoum_CodeHandoff
       Object: 1C5374:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: UC08_318_Hadrian_MoreThralls
-      Object: 085FE4:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_SpaceportExit
+      Name: Alias_NonHostileTT
       Object: 2062C3:Starfield.esm
-      Alias: 81
+      Alias: 55
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_SupplyCache01
+      Name: SpaceshipEnabledLandingLink
+      Object: 01448D:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC05_HadrianSandboxing_PostUC05
+      Object: 20B7C0:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_UndergroundHeatleeches
       Object: 2062C3:Starfield.esm
-      Alias: 19
+      Alias: 82
     - MutagenObjectType: ScriptObjectProperty
       Name: UC08_100_Hadrian_WalkIntoMainRoom
       Object: 206148:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: UC08_367_JakobHadrianKaiser_ScanThree
-      Object: 1F9BCC:Starfield.esm
+      Name: UC08_378_Hadrian_AllSamplesCollected
+      Object: 085FC5:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_SecurityOfficeDoor
-      Object: 2062C3:Starfield.esm
-      Alias: 77
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_TMSampleTwoINV
-      Object: 2062C3:Starfield.esm
-      Alias: 33
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC08_HadrianKaiserFollowingPlayer
-      Object: 1C5362:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_TMSampleTwoACT
-      Object: 2062C3:Starfield.esm
-      Alias: 34
+      Name: UC08_530_Hadrian_CollectSample
+      Object: 202457:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: UC08_165_FrontGateGuard_Direction
       Object: 1C537D:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: UC08_525_Hadrian_QueenAggro
-      Object: 202458:Starfield.esm
+      Name: UC08_550_HadrianKaiser_SealedChamber
+      Object: 441975:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_KaiserSocialImmune
-      Object: 2062C3:Starfield.esm
-      Alias: 129
+      Name: UC08_DebugMarker05
+      Object: 20245C:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_AntiXenoSuit
-      Object: 2062C3:Starfield.esm
-      Alias: 10
+      Name: UC08_DebugMarker02
+      Object: 206133:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: SQ_PlayerShip
-      Object: 0174A2:Starfield.esm
+      Name: UC08_DEBUG_HadrianSceneVariant
+      Object: 2060CD:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: UC08_360_HadrianKaiserJakob_SampleThreeScene
-      Object: 44193A:Starfield.esm
+      Name: FB441BaseMapMarker
+      Object: 2BE3BA:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_AcelesPlantThralls
-      Object: 2062C3:Starfield.esm
-      Alias: 92
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_PortUtilityControls
-      Object: 2062C3:Starfield.esm
-      Alias: 41
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC08_DebugMarker03
-      Object: 202451:Starfield.esm
+      Name: UC_Hadrian_ECCombatDialogueActive
+      Object: 1477CE:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_HadriansShip_RHQ
       Object: 2062C3:Starfield.esm
       Alias: 116
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_AntiXenoWeapon
-      Object: 2062C3:Starfield.esm
-      Alias: 11
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC04_ConvincedYasin
-      Object: 21CA91:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC08_320_KaiserHadrian_ApproachAcelesPlant
-      Object: 1C5371:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC08_DebugMarker02
-      Object: 206133:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC08_TolimanGuard_UseRange
-      Object: 2D1C9A:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC08_Outfit_Percival_WinterGear
-      Object: 1183ED:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_AcelesSampleGammaINV
-      Object: 2062C3:Starfield.esm
-      Alias: 98
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC08_507_PowerRestoredScene
-      Object: 085FBB:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC08_DebugMarker15
-      Object: 1B6353:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC03_RedDevilsHQKey
-      Object: 257EB6:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: QST_UC08_Terrormorph_Queen_Death_Scream
-      Object: 02204A:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC08_640_Kaiser_PopChamber
-      Object: 441991:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: SpaceshipEnabledLandingLink
-      Object: 01448D:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_SpaceportGate
-      Object: 2062C3:Starfield.esm
-      Alias: 56
-    - MutagenObjectType: ScriptObjectProperty
       Name: Alias_Jakob
       Object: 2062C3:Starfield.esm
       Alias: 1
     - MutagenObjectType: ScriptObjectProperty
-      Name: UC08_DEBUG_RadarSweepSound
-      Object: 206111:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
       Name: UC08_KaiserMarker_Scene250
       Object: 206117:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_RangeGuard
+      Name: UC08_465_HadrianKaiser_HandOverSample
+      Object: 2060E7:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC09
+      Object: 1FC858:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC08_570_Hadrian_UtilityPanel
+      Object: 2060D8:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: QST_UC08_Terrormorph_Queen_Death_Scream
+      Object: 02204A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_TriggerStage255
       Object: 2062C3:Starfield.esm
-      Alias: 118
+      Alias: 62
     - MutagenObjectType: ScriptObjectProperty
-      Name: UC08_330_KaiserHadrianPercival_FindTheManifest
-      Object: 1C5370:Starfield.esm
+      Name: Alias_AntiXenoWeapon
+      Object: 2062C3:Starfield.esm
+      Alias: 11
     - MutagenObjectType: ScriptObjectProperty
-      Name: UC08_FB441OwnerFaction
-      Object: 0648AC:Starfield.esm
+      Name: Alias_TMSampleTwoINV
+      Object: 2062C3:Starfield.esm
+      Alias: 33
     - MutagenObjectType: ScriptObjectProperty
-      Name: Ammo777mm
-      Object: 04AD3E:Starfield.esm
+      Name: SQ_Followers_UseFollowPlayerCustom
+      Object: 09C16D:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC08_DEBUG_TerrormorphTransformation
+      Object: 2060F0:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: BackgroundProfessor
+      Object: 22EC72:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC08_510_Hadrian_UtilityPanel
+      Object: 2060D8:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MUSGenesisStingerDread4TerrormorphTransform
+      Object: 007D99:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_RHQAceles
+      Object: 2062C3:Starfield.esm
+      Alias: 107
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_UndergroundDoor
+      Object: 2062C3:Starfield.esm
+      Alias: 22
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC08_DebugMarker11
+      Object: 1B6355:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC08_DebugMarker03
+      Object: 202451:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_AcelesPlantThralls
+      Object: 2062C3:Starfield.esm
+      Alias: 92
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_TriggerStage521
+      Object: 2062C3:Starfield.esm
+      Alias: 112
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_FinalSampleDoor
+      Object: 2062C3:Starfield.esm
+      Alias: 35
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ActorShouldShowSpacesuitCosmetic_AV
+      Object: 0A73F8:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_TriggerStage495
+      Object: 2062C3:Starfield.esm
+      Alias: 75
+    - MutagenObjectType: ScriptObjectProperty
+      Name: WwiseEvent_QST_UC08_Robot_Remote_Unlock
+      Object: 000B26:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: BackgroundCyberRunner
+      Object: 22EC7D:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_AceleSampleContainer
+      Object: 2062C3:Starfield.esm
+      Alias: 69
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC08_530_Hadrian_BackToTheSample
+      Object: 202457:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC08_JakobMarker_Scene150
+      Object: 20613A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: WwiseEvent_QST_UC08_LargeDoor_Remote_Unlock
+      Object: 000818:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC08_TransformedTerrormorphTeleportMarker
+      Object: 1B6359:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_UndergroundDoorInt
+      Object: 2062C3:Starfield.esm
+      Alias: 108
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC08_379_PercivalKaiser_IntoTheTunnels_Combat
+      Object: 085FC4:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_AceleSampleContainerGamma
+      Object: 2062C3:Starfield.esm
+      Alias: 97
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_HadrianShip
+      Object: 2062C3:Starfield.esm
+      Alias: 91
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_VVAudioLog
+      Object: 2062C3:Starfield.esm
+      Alias: 102
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_AcelesSampleOneINV
+      Object: 2062C3:Starfield.esm
+      Alias: 16
   Fragments:
   - Stage: 430
     Unknown2: 1
@@ -2027,25 +2027,7 @@ VirtualMachineAdapter:
         Data: 521
 Name:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: Feindliche Aufklärung
-  - Language: English
-    String: Hostile Intelligence
-  - Language: Spanish
-    String: Inteligencia hostil
-  - Language: French
-    String: L'ennemi intérieur
-  - Language: Italian
-    String: Intelligenza ostile
-  - Language: Japanese
-    String: 敵の知性
-  - Language: Polish
-    String: Wroga inteligencja
-  - Language: Portuguese_Brazil
-    String: Inteligência Hostil
-  - Language: ChineseSimplified
-    String: 敌方智能
+  Value: Hostile Intelligence
 Data:
   Flags:
   - RunOnce
@@ -2191,25 +2173,7 @@ Stages:
     Note: 'P1: OBJ: THE PLAN: Quest begun. Throw objectives and get Hadrian walking.'
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Hadrian hat einen Plan zur Beseitigung der Terrormorphs. Um mehr zu erfahren, sollte ich ihr folgen.
-      - Language: English
-        String: Hadrian says she has a plan for dealing with the Terrormorphs. I should follow her to find out more.
-      - Language: Spanish
-        String: Hadrian afirma tener un plan para acabar con los horromorfos. Debería seguirla para enterarme de los detalles.
-      - Language: French
-        String: Hadrian prétend avoir un plan pour régler la question des horrimorphes. Je devrais la suivre pour en savoir plus.
-      - Language: Italian
-        String: Hadrian dice di avere un piano per eliminare i terrormorfi. Dovrei seguirla per ottenere più informazioni.
-      - Language: Japanese
-        String: ヘイドリアンにはテラーモーフに対処する作戦があるという。彼女についていって詳しい話を聞こう
-      - Language: Polish
-        String: Hadrian twierdzi, że ma plan, jak rozprawić się z terrormorfami. Muszę pójść z nią, aby dowiedzieć się czegoś więcej.
-      - Language: Portuguese_Brazil
-        String: Hadrian diz que tem um plano para lidar com os terrormorfos. Tenho que ir atrás dela para saber mais.
-      - Language: ChineseSimplified
-        String: 哈德良说，她有个对付骇变兽的计划。我应该找到她了解详情。
+      Value: Hadrian says she has a plan for dealing with the Terrormorphs. I should follow her to find out more.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -2292,25 +2256,7 @@ Stages:
     Note: 'P3: OBJ: THE PLAN: Scene complete. Direct the player to Londinion.'
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Der Plan lautet, die Terrormorphs aus den Welten der Menschen zu beseitigen. Dies soll geschehen, indem wir ihren natürlichen Fressfeind zurückbringen oder eine für sie schädliche Mikrobe freisetzen. Doch zuerst benötigen wir die Rohmaterialien dafür. Und die gibt es nur auf Londinion. Ich werde mit Commander Hatoum auf der einzigen Basis auf diesem Planeten sprechen.
-      - Language: English
-        String: The plan is to remove the Terrormorphs from human worlds - by either bringing back their natural predator or releasing a microbe to deal with them. But first, we'll need some raw materials. And the only place to collect those? Londinion. I'm to speak to Commander Hatoum on the only base on the planet.
-      - Language: Spanish
-        String: El plan consiste en eliminar a los horromorfos de los mundos humanos, ya sea trayendo a su depredador natural o liberando un microbio para que se encargue de ellos. Sin embargo, primero necesitamos materias primas, y el único lugar donde se encuentran es Londinion. Tengo que hablar con la comandante Hatoum en la única base del planeta.
-      - Language: French
-        String: Le plan est d'éradiquer la présence d'horrimorphes dans les mondes habités par des humains, soit en réintroduisant leurs prédateurs naturels, soit en lâchant un microbe qui leur est fatal. Avant toute chose, nous aurons besoin de matières premières qui ne se trouvent qu'à Londinion. Je dois parler au commandant Hatoum, dans la seule base qui existe à la surface de la planète.
-      - Language: Italian
-        String: Il piano è di liberare i mondi degli umani dalla presenza dei terrormorfi sfruttando i loro predatori naturali o utilizzando un microbo. Ma prima, avremo bisogno delle materie prime necessarie. E qual è l’unico posto in cui si trovano? Londinion. Devo parlare con la comandante Hatoum sull’unica base del pianeta.
-      - Language: Japanese
-        String: この作戦の目的は、テラーモーフを人間の世界から駆除することだ。そのためには、奴らの天敵を招き入れるか、奴らに影響する病原菌を解き放つことになる。まず最初に、いくつか原材料が必要となる。そして、それらはロンディニオンでしか回収できない。惑星唯一の拠点でハトゥーム司令官と話をしよう
-      - Language: Polish
-        String: Plan zakłada usunięcie terrormorfów z planet zamieszkanych przez ludzi - sprowadzając ich naturalnego wroga lub wypuszczając specjalnego mikroba. Ale do jego zrealizowania potrzebujemy próbek. Jest tylko jedno miejsce, gdzie można je zdobyć. To Londinion. Mam porozmawiać z komandor Hatoum w jedynej bazie na planecie.
-      - Language: Portuguese_Brazil
-        String: O plano é remover os terrormorfos dos mundos humanos, seja trazendo de volta o predador natural deles ou liberando um micróbio para exterminá-los. Mas, antes de tudo, precisamos de matéria-prima. E qual é o único lugar onde podemos coletá-la? Londinion. Tenho que falar com a comandante Hatoum na única base do planeta.
-      - Language: ChineseSimplified
-        String: 计划是消灭人类世界里的骇变兽，具体手段是要么引入它们的天敌，要么释放一种微生物来对付它们。但首先，我们需要一些原材料。在哪才能找到它们呢？隆蒂涅恩城。我要在这个星球上唯一的基地和哈图姆指挥官谈谈。
+      Value: The plan is to remove the Terrormorphs from human worlds - by either bringing back their natural predator or releasing a microbe to deal with them. But first, we'll need some raw materials. And the only place to collect those? Londinion. I'm to speak to Commander Hatoum on the only base on the planet.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -2409,25 +2355,7 @@ Stages:
     Note: "P1: OBJ: HATOUM: Hatoum's done. Player's now talking with Hadrian and crew. Update objs."
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: 'Commander Hatoum ist mit dem Briefing fertig. Wir sind da draußen auf uns allein gestellt. Hadrian möchte noch ein paar Dinge besprechen. '
-      - Language: English
-        String: "Commander Hatoum's finished her briefing. We're going to be on our own out there. Hadrian has a couple remaining things she wants to discuss. "
-      - Language: Spanish
-        String: 'La comandante Hatoum ha terminado su sesión informativa. Ahí fuera no tendremos ayuda. Hadrian quiere debatir un par de cuestiones más. '
-      - Language: French
-        String: 'Le commandant Hatoum a fini sa présentation. Nous ne pourrons compter que sur nous-mêmes là dehors. Hadrian a encore quelques petites choses dont elle voudrait me parler. '
-      - Language: Italian
-        String: 'Il briefing della comandante Hatoum è terminato. Una volta lì fuori, potremo contare solo sulle nostre forze. Hadrian voleva parlarmi di un altro paio di cose. '
-      - Language: Japanese
-        String: 'ハトゥーム司令官の状況説明が終了した。向こうでは独自で行動することになる。ヘイドリアンから、まだいくつか話し合いたいことがあるそうだ '
-      - Language: Polish
-        String: 'Komandor Hatoum zakończyła odprawę. Będziemy zdani tylko na siebie. Hadrian ma jeszcze kilka spraw, które chce omówić. '
-      - Language: Portuguese_Brazil
-        String: 'A comandante Hatoum terminou de passar as instruções. Vamos estar por nossa conta lá. Hadrian quer discutir mais algumas coisas. '
-      - Language: ChineseSimplified
-        String: '哈图姆指挥官已经完成了她的报告。我们将要独自行动。哈德良还有几件事要讨论。 '
+      Value: "Commander Hatoum's finished her briefing. We're going to be on our own out there. Hadrian has a couple remaining things she wants to discuss. "
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -2486,25 +2414,7 @@ Stages:
     Note: 'P1: OBJ: HATOUM: Scene complete. Direct the player to collect their gear.'
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Briefing abgeschlossen. Ich kann entweder in der Waffenkammer meine Ausrüstung abholen oder Hadrian Bescheid geben, dass ich aufbruchbereit bin.
-      - Language: English
-        String: Briefings complete. I can either head to the armory to collect my gear or speak to Hadrian about moving out.
-      - Language: Spanish
-        String: La sesión informativa ha terminado. Puedo ir a la armería a por mi equipo o hablar con Hadrian para ponernos en marcha.
-      - Language: French
-        String: La présentation de la mission est terminée. Je peux me rendre dans l'armurerie pour récupérer mon équipement, ou aller voir Hadrian pour partir directement.
-      - Language: Italian
-        String: Briefing completato. Ora devo decidere se dirigermi all’armeria per recuperare l’attrezzatura o chiedere ad Hadrian di metterci in marcia.
-      - Language: Japanese
-        String: 状況説明は完了した。武器庫に向かって装備を回収するか、ヘイドリアンに出動することを伝えよう
-      - Language: Polish
-        String: Odprawa dobiegła końca. Mogę odebrać swój sprzęt w zbrojowni lub porozmawiać z Hadrian o tym, by wyruszyć w teren.
-      - Language: Portuguese_Brazil
-        String: Instruções concluídas. Posso me dirigir ao arsenal para pegar meu equipamento ou falar com Hadrian para prosseguir.
-      - Language: ChineseSimplified
-        String: 报告完毕。我可以去军械库领取装备，或者和哈德良谈谈出发的事。
+      Value: Briefings complete. I can either head to the armory to collect my gear or speak to Hadrian about moving out.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -2567,32 +2477,13 @@ Stages:
   - Flags: []
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 2062C3:Starfield.esm
         SecondParameter: 290
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Ausrüstung eingesammelt. Jetzt sollte ich mich bei Hadrian melden.
-      - Language: English
-        String: All gear collected. Time to check in with Hadrian.
-      - Language: Spanish
-        String: He recogido todo el equipo. Es hora de hablar con Hadrian.
-      - Language: French
-        String: J'ai tout l'équipement nécessaire. Plus qu'à aller voir Hadrian.
-      - Language: Italian
-        String: Attrezzatura recuperata. È ora di scambiare due chiacchiere con Hadrian.
-      - Language: Japanese
-        String: すべての装備を回収した。ヘイドリアンと落ち合おう
-      - Language: Polish
-        String: Sprzęt odebrany. Pora porozmawiać z Hadrian.
-      - Language: Portuguese_Brazil
-        String: Todo o equipamento foi coletado. Hora de falar com Hadrian.
-      - Language: ChineseSimplified
-        String: 所有的装备已集齐。该去找哈德良了。
+      Value: All gear collected. Time to check in with Hadrian.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -2619,25 +2510,7 @@ Stages:
     Note: 'P2: PRELOND: Finished kick-off scene with Hadrian. Close out her scene and proceed from there.'
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Londinion, wir kommen.
-      - Language: English
-        String: Into Londinion we go.
-      - Language: Spanish
-        String: Nos vamos a Londinion.
-      - Language: French
-        String: Nous allons devoir nous aventurer dans Londinion.
-      - Language: Italian
-        String: Ci stiamo addentrando in Londinion.
-      - Language: Japanese
-        String: ロンディニオンへ行こう
-      - Language: Polish
-        String: Ruszamy do Londinionu.
-      - Language: Portuguese_Brazil
-        String: Vamos entrar em Londinion.
-      - Language: ChineseSimplified
-        String: 该去隆蒂涅恩城了。
+      Value: Into Londinion we go.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -2700,32 +2573,13 @@ Stages:
   - Flags: []
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 2062C3:Starfield.esm
         SecondParameter: 330
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Percival hat die ersten Materialien bei einer nahen Schiffswerft entdeckt. Wir sind jetzt dorthin unterwegs.
-      - Language: English
-        String: Percival's found us our first materials in a nearby shipping yard. We're heading there now.
-      - Language: Spanish
-        String: Percival ha encontrado los primeros materiales en un astillero cercano. Vamos para allá.
-      - Language: French
-        String: Percival a trouvé nos premiers matériaux dans un chantier spatial proche. Nous sommes en train de nous y rendre.
-      - Language: Italian
-        String: Percival ha trovato i primi materiali all’interno di un astrocantiere nei paraggi. Ci stiamo dirigendo lì.
-      - Language: Japanese
-        String: パーシバルが近くの造船所で最初の素材を見つけてくれた。そこに向かおう
-      - Language: Polish
-        String: Percival znalazł dla nas pierwsze próbki w pobliskim doku. Ruszamy tam teraz.
-      - Language: Portuguese_Brazil
-        String: Percival encontrou nossos primeiros materiais num estaleiro próximo. Estamos indo para lá agora.
-      - Language: ChineseSimplified
-        String: 珀西瓦里在附近的货运场为我们找到了第一批材料。我们现在就去那里。
+      Value: Percival's found us our first materials in a nearby shipping yard. We're heading there now.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -2756,32 +2610,13 @@ Stages:
   - Flags: []
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 2062C3:Starfield.esm
         SecondParameter: 329
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Auf dem Weg durch die Anlage haben uns diese Kreaturen attackiert! Wir sollten sie erledigen!
-      - Language: English
-        String: Our path through the plant's blocked! We need to deal with these creatures!
-      - Language: Spanish
-        String: ¡El camino hacia la central está bloqueado! ¡Tenemos que acabar con esas criaturas!
-      - Language: French
-        String: Le passage par l'usine est bloqué ! Nous devons nous occuper de ces créatures !
-      - Language: Italian
-        String: Delle creature ci impediscono di procedere nell’impianto. Dovremo sbarazzarcene.
-      - Language: Japanese
-        String: 工場内の通路が塞がれてしまった！ クリーチャーの相手をする必要がある！
-      - Language: Polish
-        String: Droga do przetwórni jest zablokowana! Musimy rozprawić się z tymi stworami!
-      - Language: Portuguese_Brazil
-        String: Nosso trajeto na usina foi bloqueado! Precisamos dar um jeito nessas criaturas!
-      - Language: ChineseSimplified
-        String: 去加工厂的路被堵住了！我们得对付这些生物！
+      Value: Our path through the plant's blocked! We need to deal with these creatures!
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -2820,25 +2655,7 @@ Stages:
   - Flags: []
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Wir haben die Verarbeitungsanlage gesäubert. Hier gibt es ein Feldversteck. Wir sollten uns dort versorgen.
-      - Language: English
-        String: The processing plant's been cleared and it appears there's a field cache in here. We should check it out to recharge.
-      - Language: Spanish
-        String: He despejado la planta de procesamiento y parece que hay una caja de suministros por aquí. Debería abrirla para recargar.
-      - Language: French
-        String: L'usine est nettoyée, et il semblerait qu'une cache de matériel s'y trouve. Nous devrions la fouiller pour refaire le plein.
-      - Language: Italian
-        String: L’impianto di lavorazione è stato sgomberato. Sembra che al suo interno ci sia un deposito. Dovremmo dargli un’occhiata.
-      - Language: Japanese
-        String: 処理工場は制圧された。そして、どうやらここには野外の保管庫があるようだ。再チャージするために調べてみよう
-      - Language: Polish
-        String: Przetwórnia została oczyszczona i wszystko wskazuje na to, że jest tu skład polowy. Powinniśmy zajrzeć do niego, aby uzupełnić zapasy.
-      - Language: Portuguese_Brazil
-        String: A usina de processamento foi evacuada e parece que tem uma provisão de campo aqui. Temos que conferir para tentar um reabastecimento.
-      - Language: ChineseSimplified
-        String: 加工厂已肃清，这里似乎有个野外储藏室。我们应该去那里进行补给。
+      Value: The processing plant's been cleared and it appears there's a field cache in here. We should check it out to recharge.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -2869,25 +2686,7 @@ Stages:
   - Flags: []
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Kaiser hat den Standort der Aceles-Zellen in der Schiffswerft bestimmt. Jetzt muss ich sie nur noch einsammeln, ohne dabei gefressen zu werden.
-      - Language: English
-        String: Kaiser's pinpointed the location of the Aceles cells in the shipping yard. Just need to find them, collect them, and not get eaten in the process.
-      - Language: Spanish
-        String: Kaiser ha descubierto la ubicación de las células de aceles en el astillero. Solo tengo que encontrarlas, recogerlas e intentar que no me coman.
-      - Language: French
-        String: Kaiser a identifié la présence de cellules d'aceles dans le chantier spatial. Il ne nous reste qu'à les trouver et les récupérer sans nous faire dévorer.
-      - Language: Italian
-        String: Kaiser ha individuato la posizione delle cellule di aceles nell’astrocantiere. Ora non dovrò fare altro che trovarle e raccoglierle senza lasciarci le penne.
-      - Language: Japanese
-        String: カイザーが造船所でアセレスの細胞の位置を特定した。これを見つけて回収する必要がある。途中で食べられないようにしなくては
-      - Language: Polish
-        String: Kaiser namierzył komórki aceli w doku. Teraz musimy je tylko znaleźć, zebrać i nie dać się przy tym pożreć.
-      - Language: Portuguese_Brazil
-        String: Kaiser apontou a localização das células de aceles no estaleiro. Agora só preciso achá-las, coletá-las e tentar não morrer fazendo isso.
-      - Language: ChineseSimplified
-        String: 凯撒已经确定了亚斯里兽细胞在货运场的位置。接下来只要找到并收集它们就行了，但要小心别被吃了。
+      Value: Kaiser's pinpointed the location of the Aceles cells in the shipping yard. Just need to find them, collect them, and not get eaten in the process.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -2906,25 +2705,7 @@ Stages:
     Note: "P2: OBJ: ACELES: Direct the player to follow Kaiser as he collects the manifest. Turn off the NPC's follower state here."
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: 'Über den Computer der Schiffsbasis wird Kaiser versuchen, den Standort der ersten Probe ausfindig zu machen. Ich sollte ihm folgen. '
-      - Language: English
-        String: "Kaiser's going to try and find us location of this first sample using the shipping yard's computers. I should follow him. "
-      - Language: Spanish
-        String: 'Kaiser intentará encontrar la ubicación de la primera muestra mediante los ordenadores del astillero. Debería seguirle. '
-      - Language: French
-        String: "Kaiser va essayer de trouver l'emplacement du premier échantillon à l'aide des ordinateurs du chantier spatial. Je devrais le suivre. "
-      - Language: Italian
-        String: 'Kaiser cercherà di localizzare il primo campione usando i computer dell’astrocantiere. Farò meglio a seguirlo. '
-      - Language: Japanese
-        String: 'カイザーは造船所のコンピューターを使って、この最初のサンプルの位置を見つけようとしている。彼についていこう '
-      - Language: Polish
-        String: 'Kaiser spróbuje ustalić dla nas lokalizację pierwszej próbki, wykorzystując komputery doku. Pójdę z nim. '
-      - Language: Portuguese_Brazil
-        String: 'Kaiser vai tentar encontrar a localização da primeira amostra usando os computadores do estaleiro. Tenho que ir atrás dele. '
-      - Language: ChineseSimplified
-        String: '凯撒会想办法用货运场的电脑帮我们找到第一个样品的位置。我应该跟着他。 '
+      Value: "Kaiser's going to try and find us location of this first sample using the shipping yard's computers. I should follow him. "
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -2951,25 +2732,7 @@ Stages:
     Note: "P2: OBJ: ACELES: Hadrian's offered the player the manifest"
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Hadrian meint, Kaiser sei genau auf das gestoßen, wonach wir suchen. Ich sollte selbst mit ihr reden.
-      - Language: English
-        String: Kaiser's found something and Hadrian says its got the info we're looking for. I should speak to her to see for myself.
-      - Language: Spanish
-        String: Kaiser ha encontrado algo y Hadrian dice que contiene la información que buscamos. Debería hablar con ella para comprobarlo.
-      - Language: French
-        String: Kaiser a trouvé quelque chose, et Hadrian dit que ce sont les informations que nous recherchons. Je devrais aller la voir pour en savoir plus.
-      - Language: Italian
-        String: Kaiser ha trovato qualcosa. Hadrian dice che si tratta delle informazioni che stavamo cercando. Sarà meglio che vada a parlarle.
-      - Language: Japanese
-        String: カイザーが見つけたものには求めている情報があると、ヘイドリアンが言っている。彼女に話しかけて自分の目で見てみよう
-      - Language: Polish
-        String: Kaiser coś znalazł i Hadrian twierdzi, że zawiera to informacje, których szukamy. Muszę z nią porozmawiać, aby dowiedzieć się więcej.
-      - Language: Portuguese_Brazil
-        String: Kaiser encontrou algo, e Hadrian disse que é a informação de que precisamos. Tenho que falar com ela para ver com meus próprios olhos.
-      - Language: ChineseSimplified
-        String: 凯撒已有所发现，哈德良说里面有我们要找的信息。我应该和她谈谈，亲自看看。
+      Value: Kaiser's found something and Hadrian says its got the info we're looking for. I should speak to her to see for myself.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -3068,25 +2831,7 @@ Stages:
     Note: "P2: OBJ: Player's been directed to hand the first sample over to Kaiser."
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Hadrian meinte, ich soll die Probe zur Sicherheit Kaiser geben.
-      - Language: English
-        String: Hadrian's directed me to hand over the sample to Kaiser for safe keeping.
-      - Language: Spanish
-        String: Hadrian me ha ordenado que entregue la muestra a Kaiser para dejarla a buen recaudo.
-      - Language: French
-        String: Hadrian m'a demandé de remettre les échantillons à Kaiser pour qu'ils soient en sécurité.
-      - Language: Italian
-        String: Hadrian mi ha detto di consegnare il campione a Kaiser per far sì che resti al sicuro.
-      - Language: Japanese
-        String: ヘイドリアンに指示され、サンプルを安全に保管するためにカイザーに預けることにした
-      - Language: Polish
-        String: Hadrian poleciła mi przekazać próbkę Kaiserowi, który ma ją przechować.
-      - Language: Portuguese_Brazil
-        String: Hadrian me instruiu a entregar a amostra ao Kaiser para mantê-la segura.
-      - Language: ChineseSimplified
-        String: 哈德良指示我把样本交给凯撒保管。
+      Value: Hadrian's directed me to hand over the sample to Kaiser for safe keeping.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -3169,25 +2914,7 @@ Stages:
     Note: "P3: Hadrian's still engaged in combat. Throw the objective to clean up the remaining creatures."
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Wir haben sämtliche Proben! Jetzt muss ich mich nur noch um diese Feinde kümmern.
-      - Language: English
-        String: All samples collected! Now I just need to take care of these hostiles!
-      - Language: Spanish
-        String: ¡He recogido todas las muestras! ¡Ahora solo tengo que ocuparme de los enemigos!
-      - Language: French
-        String: Tous les échantillons ont été récupérés ! Plus qu'à nous occuper des éléments hostiles !
-      - Language: Italian
-        String: Ho raccolto tutti i campioni! Non mi resta che occuparmi dei nemici!
-      - Language: Japanese
-        String: すべてのサンプルを回収した！ 後はこれらの敵を始末するだけだ！
-      - Language: Polish
-        String: Wszystkie próbki zebrane! Teraz muszę tylko rozprawić się z napastnikami!
-      - Language: Portuguese_Brazil
-        String: Todas as amostras foram coletadas! Agora só preciso cuidar desses inimigos.
-      - Language: ChineseSimplified
-        String: 我拿到了所有的样本！现在我只需要对付这些敌人就行了！
+      Value: All samples collected! Now I just need to take care of these hostiles!
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -3198,25 +2925,7 @@ Stages:
     Note: 'P3: All creatures in the shipping yard dealt with. Have Hadrian direct the player to hand over the samples.'
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Wir haben sämtliche Proben! Jetzt muss ich sie nur noch zu Kaiser bringen.
-      - Language: English
-        String: All samples collected! Now I just need to hand them off to Kaiser.
-      - Language: Spanish
-        String: ¡He recogido todas las muestras! Ahora solo tengo que entregárselas a Kaiser.
-      - Language: French
-        String: Tous les échantillons ont été récupérés ! Plus qu'à les confier à Kaiser.
-      - Language: Italian
-        String: Ho raccolto tutti i campioni! Non mi resta che consegnarli a Kaiser.
-      - Language: Japanese
-        String: すべてのサンプルを回収した！ 後はカイザーに引き渡すだけだ
-      - Language: Polish
-        String: Wszystkie próbki zebrane! Teraz muszę tylko przekazać je Kaiserowi.
-      - Language: Portuguese_Brazil
-        String: Todas as amostras foram coletadas! Agora só preciso entregá-las ao Kaiser.
-      - Language: ChineseSimplified
-        String: 我拿到了所有的样本！现在我只需要把它们交给凯撒就行了。
+      Value: All samples collected! Now I just need to hand them off to Kaiser.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -3227,25 +2936,7 @@ Stages:
     Note: "P3: Remove all the Aceles cell samples from the player. Set from Kaiser's stage 382 blocking hello."
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Ich habe die Aceles-Proben Kaiser übergeben. Jetzt müssen wir herausfinden, wo es als Nächstes hingeht.
-      - Language: English
-        String: I've handed over the Aceles samples to Kaiser. Now we just need to figure out where we're heading next.
-      - Language: Spanish
-        String: Entregué las muestras de aceles a Kaiser. Ahora solo tenemos que decidir adónde nos dirigiremos después.
-      - Language: French
-        String: J'ai remis les échantillons d'aceles à Kaiser. Il ne nous reste plus qu'à trouver par où passer ensuite.
-      - Language: Italian
-        String: Ho consegnato i campioni di aceles a Kaiser. Ora, dobbiamo solo capire quale sarà la prossima tappa.
-      - Language: Japanese
-        String: アセレスのサンプルをカイザーに引き渡した。後は次にするべきことを見つけなければ
-      - Language: Polish
-        String: Kaiser otrzymał ode mnie próbki aceli. Teraz musimy ustalić, dokąd powinniśmy się udać.
-      - Language: Portuguese_Brazil
-        String: Entreguei as amostras de aceles ao Kaiser. Agora só precisamos descobrir qual é o nosso próximo destino.
-      - Language: ChineseSimplified
-        String: 我把亚斯里兽的样本给了凯撒。现在，我们只需搞清楚接下来去哪里就行了。
+      Value: I've handed over the Aceles samples to Kaiser. Now we just need to figure out where we're heading next.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -3264,25 +2955,7 @@ Stages:
     Note: 'P3: UNDER: Kaiser blew open the door. Unlock it and update the objectives '
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Der Weg zu unserer nächsten Probe führt durch die Dampftunnel von Londinion.
-      - Language: English
-        String: Looks like the path to our next sample leads through the Londinion steam tunnels.
-      - Language: Spanish
-        String: Parece que, para conseguir la siguiente muestra, tendremos que atravesar los túneles de vapor de Londinion.
-      - Language: French
-        String: On dirait que le chemin qui mène à notre prochain échantillon passe par les tunnels à vapeur de Londinion.
-      - Language: Italian
-        String: Sembra che per giungere al prossimo campione dovremo attraversare i tunnel vaporiferi di Londinion.
-      - Language: Japanese
-        String: どうやら次のサンプルのもとへ行くには、ロンディニオンの蒸気トンネルを通過する必要がある
-      - Language: Polish
-        String: Wygląda na to, że droga do następnej próbki wiedzie przez tunele parowe Londinionu.
-      - Language: Portuguese_Brazil
-        String: Parece que o caminho até a próxima amostra passa pelos túneis de vapor de Londinion.
-      - Language: ChineseSimplified
-        String: 看来，要拿到下一个样本，我们就得经过隆蒂涅恩城蒸汽通道。
+      Value: Looks like the path to our next sample leads through the Londinion steam tunnels.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -3349,25 +3022,7 @@ Stages:
     Note: 'P1: OBJ: UNDER: Hadrian finished her intro to the Heat Leech. Tell the player to watch.'
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: 'Hadrian hat eine blühende Lazaruspflanze entdeckt. Sie meint, das sei eine echte Seltenheit. Ich sollte sie mir ansehen. '
-      - Language: English
-        String: "Hadrian's spotted a Lazarus Plant in bloom - a real rarity, she says. I should go take a look. "
-      - Language: Spanish
-        String: 'Hadrian vio una planta Lázaro en flor; una auténtica rareza, según dice. Debería ir a echar un vistazo. '
-      - Language: French
-        String: "Hadrian a repéré une lazarée en fleurs, une occurrence très rare à l'en croire. Je devrais aller regarder de plus près. "
-      - Language: Italian
-        String: 'Hadrian ha rilevato una pianta di Lazzaro in fase di fioritura... è una vera rarità, a quanto dice. Dovrei andare a dare un’occhiata. '
-      - Language: Japanese
-        String: 'ヘイドリアンはラザルス・プラントが花を付けているのを目撃した。非常に珍しい光景だという。見に行ってみよう '
-      - Language: Polish
-        String: 'Hadrian zauważyła kwitnącą lazarytkę - twierdzi, że to naprawdę rzadki widok. Muszę się przyjrzeć tej roślinie. '
-      - Language: Portuguese_Brazil
-        String: 'Hadrian encontrou uma planta lázaro florescendo — o que é raro, segundo ela. Tenho que dar uma olhada. '
-      - Language: ChineseSimplified
-        String: '哈德良看到了一株正在开花的拉撒路草，她说这很罕见。我应该去看看。 '
+      Value: "Hadrian's spotted a Lazarus Plant in bloom - a real rarity, she says. I should go take a look. "
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -3410,25 +3065,7 @@ Stages:
     Note: 'P2: OBJ: UNDER: Transformation scene complete. Direct the player to speak to Hadrian. Currently set from stage 425.'
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Gerade haben wir erlebt, wie aus einem Thermoparasiten ... ein Terrormorph wurde. Ich sollte mit Hadrian darüber reden. Was hat das zu bedeuten?
-      - Language: English
-        String: We just watched a Heatleech... become a Terrormorph. I should talk to Hadrian about what this might mean!
-      - Language: Spanish
-        String: Acabamos de presenciar cómo una sanguijuela térmica se convertía en horromorfo. ¡Debería hablar con Hadrian sobre las implicaciones de esto!
-      - Language: French
-        String: Nous venons de voir une calovore se transformer en horrimorphe. Je devrais demander à Hadrian ce que ça peut bien vouloir dire !
-      - Language: Italian
-        String: Abbiamo appena visto un succhiavita... trasformarsi in un terrormorfo. Dovrei parlarne con Hadrian e cercare di capire cosa sta succedendo!
-      - Language: Japanese
-        String: 今まさにヒートリーチが… テラーモーフになるのを目撃した。この意味についてヘイドリアンと話をしなければ！
-      - Language: Polish
-        String: Właśnie widzieliśmy ciepłopijca... przemieniającego się w terrormorfa. Muszę porozmawiać z Hadrian o tym, co to może oznaczać!
-      - Language: Portuguese_Brazil
-        String: Acabamos de ver uma termossuga... se tornar um terrormorfo. Preciso falar com Hadrian para entender melhor o que isso significa.
-      - Language: ChineseSimplified
-        String: 我们刚看到一只热蛭……变成了骇变兽。我应该和哈德良谈谈这件事可能的意义！
+      Value: We just watched a Heatleech... become a Terrormorph. I should talk to Hadrian about what this might mean!
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -3487,25 +3124,7 @@ Stages:
     Note: "P1: OBJ: UNDER: Scene's done. Direct the player to catch the Terrormorph"
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Wir müssen den Terrormorph ... oder Thermoparasiten ... finden und töten. Wir müssen herausfinden, ob das etwas mit den Angriffen zu tun hatte!
-      - Language: English
-        String: We need to track and kill the Terrormorph... or Heatleech... and kill it and figure out if this might have something to do with the attacks!
-      - Language: Spanish
-        String: ¡Debemos rastrear y matar al horromorfo (o a la sanguijuela térmica) y descubrir si esto podría tener algo que ver con los ataques!
-      - Language: French
-        String: Nous devons traquer et tuer l'horrimorphe, ou la calovore, pour comprendre si ce que nous venons de voir aurait un lien quelconque avec les attaques !
-      - Language: Italian
-        String: Dobbiamo localizzare il terrormorfo... o meglio, il succhiavita... e abbatterlo. In questo modo, potremo capire se ha avuto un ruolo negli attacchi.
-      - Language: Japanese
-        String: テラーモーフ… またはヒートリーチを追跡して撃破する必要がある… そして攻撃と関係があるのか調べるとしよう
-      - Language: Polish
-        String: Musimy wytropić i zabić terrormorfa... czy ciepłopijca... A potem ustalić, jaki to ma związek z atakami!
-      - Language: Portuguese_Brazil
-        String: Precisamos localizar e matar o terrormorfo... ou termossuga... e matá-lo para descobrir se isso pode ter algo a ver com os ataques.
-      - Language: ChineseSimplified
-        String: 我们得追踪并杀死骇变兽……或者热蛭……杀了它我们就能弄清楚这和袭击有没有关系了！
+      Value: We need to track and kill the Terrormorph... or Heatleech... and kill it and figure out if this might have something to do with the attacks!
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -3516,25 +3135,7 @@ Stages:
     Note: 'P1: OBJ: UNDER: Transformed morph is dead. Direct the player to collect a sample.'
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Wir haben den Terrormorph erledigt. Jetzt muss ich bloß eine Gewebeprobe entnehmen.
-      - Language: English
-        String: We took care of the Terrormorph. I just need to collect a tissue sample.
-      - Language: Spanish
-        String: Nos ocupamos del horromorfo. Solo tengo que recoger una muestra de tejido.
-      - Language: French
-        String: L'horrimorphe ne nous posera plus de problèmes. Je dois encore prélever un échantillon de tissu sur lui.
-      - Language: Italian
-        String: Ci siamo sbarazzati del terrormorfo. Non mi resta che prelevare un campione del suo tessuto.
-      - Language: Japanese
-        String: テラーモーフを始末した。後は組織サンプルを回収するだけだ
-      - Language: Polish
-        String: Rozprawiliśmy się z terrormorfem. Muszę zebrać próbkę jego tkanki.
-      - Language: Portuguese_Brazil
-        String: Demos um jeito no terrormorfo. Agora só preciso coletar uma amostra de tecido.
-      - Language: ChineseSimplified
-        String: 我们消灭了骇变兽。我只需要收集一份组织样本。
+      Value: We took care of the Terrormorph. I just need to collect a tissue sample.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -3553,25 +3154,7 @@ Stages:
     Note: 'P1: OBJ: UNDER: Hadrian directed the player to hand over the sample to Kaiser'
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Ich sollte Kaiser die Probe übergeben. Dann können wir dieser Verwandlung auf den Grund gehen.
-      - Language: English
-        String: I need to hand over the sample to Kaiser and we can get to the bottom of the transformation we witnessed.
-      - Language: Spanish
-        String: Tengo que entregar la muestra a Kaiser para que podamos dar sentido a la transformación que presenció.
-      - Language: French
-        String: Je dois remettre l'échantillon à Kaiser avant que nous puissions nous pencher plus avant sur la transformation à laquelle nous venons d'assister.
-      - Language: Italian
-        String: Devo consegnare il campione a Kaiser. In questo modo, riusciremo a fare chiarezza sulla trasformazione alla quale abbiamo assistito.
-      - Language: Japanese
-        String: サンプルをカイザーに引き渡せば、目撃した変貌についての真相を探ることができるだろう
-      - Language: Polish
-        String: Muszę przekazać próbkę Kaiserowi, abyśmy mogli wyjaśnić przemianę, której byliśmy świadkami.
-      - Language: Portuguese_Brazil
-        String: Preciso entregar a amostra ao Kaiser para que possamos entender melhor a transformação que acabamos de testemunhar.
-      - Language: ChineseSimplified
-        String: 我得把样本交给凯撒，这样我们就可以弄明白我们目睹的变身到底是怎么回事了。
+      Value: I need to hand over the sample to Kaiser and we can get to the bottom of the transformation we witnessed.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -3582,25 +3165,7 @@ Stages:
     Note: "P1: UNDER: Player handed off the sample to Kaiser. Play his and Hadrian's scene."
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Kaiser hat die Probe. Es wird Zeit, der Sache auf den Grund zu gehen.
-      - Language: English
-        String: Kaiser's got the sample. Time to get to the bottom of this.
-      - Language: Spanish
-        String: Kaiser tiene la muestra. Es hora de llegar al fondo de este asunto.
-      - Language: French
-        String: Kaiser a récupéré l'échantillon. Il est temps d'obtenir le fin mot de l'histoire.
-      - Language: Italian
-        String: Kaiser ha il campione. È ora di arrivare in fondo a questa storia.
-      - Language: Japanese
-        String: カイザーがサンプルを手に入れた。真相を突き止めよう
-      - Language: Polish
-        String: Kaiser ma próbkę. Czas wreszcie poznać prawdę.
-      - Language: Portuguese_Brazil
-        String: Kaiser está com a amostra. Hora de descobrir o que tá acontecendo.
-      - Language: ChineseSimplified
-        String: 凯撒拿到了样本。是时候查清真相了。
+      Value: Kaiser's got the sample. Time to get to the bottom of this.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -3611,25 +3176,7 @@ Stages:
     Note: "P1: OBJ: UNDER: Kaiser's analysis is complete. Direct the player to speak to Hadrian."
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Diese Probe passt zu denen von New Atlantis und Tau Ceti. Das heißt, wahrscheinlich hat jemand diese Angriffe koordiniert. Das sollte ich mit Hadrian besprechen.
-      - Language: English
-        String: The sample we just found is a match for the ones from New Atlantis and Tau Ceti. This means someone most likely coordinated those attacks. I need to discuss this with Hadrian.
-      - Language: Spanish
-        String: La muestra que acabamos de encontrar coincide con las de Nueva Atlántida y Tau Ceti, lo que significa que alguien habrá coordinado esos ataques. Tengo que hablarlo con Hadrian.
-      - Language: French
-        String: L'échantillon que nous avons trouvé correspond à ceux de New Atlantis et de Tau Ceti. Cela signifie que ces deux attaques sont liées et coordonnées. Je dois en parler à Hadrian.
-      - Language: Italian
-        String: Il campione che abbiamo raccolto combacia con quelli trovati su Nuova Atlantide e Tau Ceti. Questo significa che qualcuno potrebbe aver coordinato gli attacchi. Devo parlarne con Hadrian.
-      - Language: Japanese
-        String: たった今見つけたサンプルは、ニューアトランティスおよびタウ・セティのものと一致している。つまり、何者かがこれらの攻撃をお膳立てした可能性が高い。この件についてヘイドリアンと話し合う必要がある
-      - Language: Polish
-        String: Próbka, którą właśnie znaleźliśmy, pasuje do tych z Nowej Atlantydy i Tau Ceti. To oznacza, że ktoś najprawdopodobniej koordynował te ataki. Muszę przedyskutować to z Hadrian.
-      - Language: Portuguese_Brazil
-        String: A amostra que acabamos de encontrar bate com as de Nova Atlântida e Tau Ceti. Isso significa que alguém provavelmente orquestrou os ataques. Preciso discutir essa hipótese com Hadrian.
-      - Language: ChineseSimplified
-        String: 我们刚找到的样本和新亚特兰蒂斯城以及天仓五的相符。这就是说，很可能有人协调发动了这些袭击。我得找哈德良谈谈。
+      Value: The sample we just found is a match for the ones from New Atlantis and Tau Ceti. This means someone most likely coordinated those attacks. I need to discuss this with Hadrian.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -3672,25 +3219,7 @@ Stages:
     Note: "P2: OBJ: UNDER: Hadrian's follow-up scene is complete. Direct the player to follow Kaiser to the exit."
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Unsere Schlussfolgerung ist, dass die Terrormorph-Angriffe bewusst ausgelöst wurden. Aber von wem und warum? Unseren aktuellen Auftrag sollten wir dennoch ausführen. Zeit für die letzte Probe.
-      - Language: English
-        String: Our conclusion is the Terrormorph attacks may well have been triggered. But by who? And why? Regardless, our current task is still worth finishing. Time to find that final sample.
-      - Language: Spanish
-        String: Hemos concluido que los ataques de los horromorfos podrían haber sido provocados, pero ¿quién lo ha hecho y por qué? Sea como fuere, aún merece la pena terminar la misión actual. Es hora de encontrar la última muestra.
-      - Language: French
-        String: Notre conclusion est que les attaques d'horrimorphes ont été déclenchées, mais comment et par qui ? Et dans quel but ? Quoi qu'il en soit, notre tâche actuelle mérite toujours d'être menée à bien. Il est temps de trouver ce dernier échantillon.
-      - Language: Italian
-        String: Pensiamo che i terrormorfi siano stati aizzati da qualcuno. Ma chi l’avrebbe fatto? E perché? Ad ogni modo, abbiamo ancora del lavoro da fare. È ora di raccogliere l’ultimo campione.
-      - Language: Japanese
-        String: テラーモーフの攻撃は人為的に引き起こされたものかもしれないという結論が出た。だが、誰が？ なんのために？ いずれにせよ、進行中の任務を完了させる価値はある。最後のサンプルを見つけるとしよう
-      - Language: Polish
-        String: Doszliśmy do wniosku, że ataki terrormorfów mogły zostać wywołane. Ale przez kogo? I dlaczego? Tak czy siak, warto dokończyć naszą bieżącą misję. Pora znaleźć ostatnią próbkę.
-      - Language: Portuguese_Brazil
-        String: Nossa conclusão é que os ataques de terrormorfos parecem ter sido provocados. Mas por quem? E por quê? Seja como for, ainda vale a pena concluir nossa tarefa atual. Hora de pegar a última amostra.
-      - Language: ChineseSimplified
-        String: 我们的结论是，骇变兽的袭击可能是什么人触发的。可那人是谁呢？又为什么这么做呢？不管怎样，我们现在的任务仍有完成的必要。是时候找到最后的样本了。
+      Value: Our conclusion is the Terrormorph attacks may well have been triggered. But by who? And why? Regardless, our current task is still worth finishing. Time to find that final sample.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -3709,25 +3238,7 @@ Stages:
     Note: 'P2: OBJ: PORT: Send the player up to turn on the power upstairs in the security office.'
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Die Tür zum Raumhafen, die zur letzten Probe führt, hat keine Energie. Im Sicherheitsbüro oben sollte es einen Sicherungskasten geben.
-      - Language: English
-        String: The door out to the spaceport - and the final sample - has lost power. There should be a power control board in the Security Office upstairs.
-      - Language: Spanish
-        String: La puerta que da acceso al espaciopuerto (y a la última muestra) no tiene corriente. Debe de haber un panel de control en la oficina de seguridad de arriba.
-      - Language: French
-        String: La porte de sortie du port spatial, et notre unique voie d'accès au dernier échantillon, n'est plus alimentée. Il devrait y avoir un panneau de commandes dans le bureau de la sécurité à l'étage.
-      - Language: Italian
-        String: La porta che conduce allo spazioporto e all’ultimo campione non ha più energia. Dovrebbe esserci un quadro elettrico nell’ufficio di sicurezza al piano superiore.
-      - Language: Japanese
-        String: 宇宙港へ出る扉… 最後のサンプルへの扉が電力を失ってしまった。上の階の保安オフィスに電力の制御盤があるはずだ
-      - Language: Polish
-        String: Drzwi prowadzące do portu kosmicznego - i ostatniej próbki - są pozbawione energii. W biurze ochrony na piętrze powinna być tablica kontrolna zasilania.
-      - Language: Portuguese_Brazil
-        String: A porta que leva ao espaçoporto e à última amostra ficou sem energia. Deve ter algum painel de controle de energia na sala de segurança no andar de cima.
-      - Language: ChineseSimplified
-        String: 通往太空港和最后样本的门已经断电了。楼上的安保办公室应该有电源控制板。
+      Value: The door out to the spaceport - and the final sample - has lost power. There should be a power control board in the Security Office upstairs.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -3746,25 +3257,7 @@ Stages:
     Note: 'P3: Player threw the power switch. Play the scene directing them to start the reboot'
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Wir haben die Energie wiederhergestellt, doch das System braucht einen Neustart. Irgendwo hier muss es einen Schalter dafür geben.
-      - Language: English
-        String: We restored the power to the room, but the system needs a reboot. Must be a reset button around here somewhere.
-      - Language: Spanish
-        String: Restablecimos la corriente de la sala, pero hay que reiniciar el sistema. Debe de haber un botón de reinicio por alguna parte.
-      - Language: French
-        String: Nous avons rétabli l'alimentation de la pièce, mais le système a besoin d'être réinitialisé. Il doit bien y avoir un bouton quelque part...
-      - Language: Italian
-        String: Abbiamo ripristinato l’energia, ma il sistema ha bisogno di un riavvio. Dovrà pur esserci un pulsante da qualche parte...
-      - Language: Japanese
-        String: 部屋の電力を復旧したが、システムを再起動する必要がある。この辺のどこかにリセットボタンがあるはずだ
-      - Language: Polish
-        String: Przywróciliśmy zasilanie w pomieszczeniu, ale system wymaga restartu. Gdzieś tu powinien być przycisk, który go zresetuje.
-      - Language: Portuguese_Brazil
-        String: Restauramos a energia da sala, mas o sistema precisa ser reiniciado. Deve ter algum botão de reiniciar em algum lugar por aqui.
-      - Language: ChineseSimplified
-        String: 我们恢复了房间的电力，但系统需要重启。这附近一定有个重置按钮。
+      Value: We restored the power to the room, but the system needs a reboot. Must be a reset button around here somewhere.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -3783,25 +3276,7 @@ Stages:
     Note: 'P2: OBJ: PORT: Player threw switch. Start VV reveal scene.'
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Ich habe das System neu gestartet. Ich solle prüfen, ob das funktioniert.
-      - Language: English
-        String: I triggered a system reboot. I should listen in to see if it fixes things.
-      - Language: Spanish
-        String: He activado el reinicio del sistema. Debería escucharla, a ver si con eso se arregla todo.
-      - Language: French
-        String: J'ai déclenché la réinitialisation du système. Je devrais tendre l'oreille pour voir si cela résout nos problèmes.
-      - Language: Italian
-        String: Ho attivato il riavvio di sistema. Spero che ci aiuterà a sistemare le cose.
-      - Language: Japanese
-        String: システム再起動が発動した。これで修復されるかどうか聞き耳を立てよう
-      - Language: Polish
-        String: Udało mi się wymusić restart systemu. Muszę sprawdzić, czy to usunęło problem.
-      - Language: Portuguese_Brazil
-        String: Eu acionei uma reinicialização do sistema. Tenho que observar para ver se isso vai resolver as coisas.
-      - Language: ChineseSimplified
-        String: 我触发了系统重启。应该监听一下，看它能否解决问题。
+      Value: I triggered a system reboot. I should listen in to see if it fixes things.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -3848,32 +3323,13 @@ Stages:
   - Flags: []
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 2062C3:Starfield.esm
         SecondParameter: 530
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Die letzte Probe ist im Körper eines Terrormorphs! Schalten wir ihn aus!
-      - Language: English
-        String: The final sample is inside a Terrormorph! We need to take it down!
-      - Language: Spanish
-        String: ¡La última muestra está dentro de un horromorfo! ¡Tenemos que abatirlo!
-      - Language: French
-        String: Le dernier échantillon se trouve à l'intérieur d'un horrimorphe ! Nous devons l'abattre !
-      - Language: Italian
-        String: L’ultimo campione si trova all’interno di un terrormorfo! Dobbiamo abbatterlo!
-      - Language: Japanese
-        String: 最後のサンプルはテラーモーフの体内にある！ 撃破しなければ！
-      - Language: Polish
-        String: Ostatnia próbka znajduje się w terrormorfie! Musimy go zabić!
-      - Language: Portuguese_Brazil
-        String: A última amostra está dentro de um terrormorfo. Temos que derrotá-lo!
-      - Language: ChineseSimplified
-        String: 最后的样本在骇变兽体内！我们得击败它！
+      Value: The final sample is inside a Terrormorph! We need to take it down!
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -3888,32 +3344,13 @@ Stages:
   - Flags: []
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 2062C3:Starfield.esm
         SecondParameter: 530
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Percival scheint einen Weg gefunden zu haben, die Verbindung der Anomalie zu ihren Sklaven aufzuheben! Dafür müssen die Radarantennen des Raumhafens in Betrieb sein!
-      - Language: English
-        String: It sounds like Percival's got a way for me to nullify the anomaly's connection to its thralls! Powering up the radar dishes around the spaceport should do the trick!
-      - Language: Spanish
-        String: ¡Parece que Percival me ha dado la forma de anular la conexión de la anomalía a sus subyugados! ¡Bastará con activar los radares del espaciopuerto!
-      - Language: French
-        String: On dirait que Percival a trouvé un moyen d'interrompre la connexion entre l'anomalie et ses esclaves ! Alimenter les antennes radar autour du port spatial devrait faire l'affaire !
-      - Language: Italian
-        String: Sembra che Percival abbia capito come interrompere la connessione tra l’anomalia e i suoi schiavi! Basterà attivare le antenne radar attorno allo spazioporto!
-      - Language: Japanese
-        String: どうやら、パーシバルは変異体とその操り人形とのつながりを切る方法を知っているようだ。宇宙港周辺のレーダーアンテナの電源を入れれば効果が現れるだろう！
-      - Language: Polish
-        String: Wygląda na to, że Percival znalazł sposób na przerwanie połączenia anomalii z jej niewolnikami! Zasilenie talerzy radaru w porcie kosmicznym powinno załatwić sprawę!
-      - Language: Portuguese_Brazil
-        String: Parece que Percival achou um jeito de anular a conexão da anomalia aos servos dela! Só preciso ativar as parabólicas em volta do espaçoporto.
-      - Language: ChineseSimplified
-        String: 听起来珀西瓦里有办法让我切断异常点和其傀儡的联系！只要给太空港周围的雷达天线通电就可以了！
+      Value: It sounds like Percival's got a way for me to nullify the anomaly's connection to its thralls! Powering up the radar dishes around the spaceport should do the trick!
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -3940,25 +3377,7 @@ Stages:
     Note: "P1: OBJ: PORT: Queen's downed. Kick off the scene for Kaiser and Hadrian to collect the sample."
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Wir haben den Terrormorph mit der letzten Probe ausgeschaltet. Sammeln wir sie ein und verschwinden von hier.
-      - Language: English
-        String: We've taken down the Terrormorph containing our final sample. Time to collect it and get out of here.
-      - Language: Spanish
-        String: Hemos eliminado al horromorfo que contenía la última muestra. Es hora de recogerla y salir de aquí.
-      - Language: French
-        String: Nous avons éliminé l'horrimorphe qui contenait le dernier échantillon. Plus qu'à le récupérer et partir d'ici.
-      - Language: Italian
-        String: Abbiamo eliminato il terrormorfo che conteneva l’ultimo campione. È ora di raccoglierlo e di uscire da questo posto.
-      - Language: Japanese
-        String: 最後のサンプルを含有していたテラーモーフを撃破した。回収して、ここから出るとしよう
-      - Language: Polish
-        String: Wyeliminowaliśmy terrormorfa, w którego wnętrzu znajduje się nasza ostatnia próbka. Pora ją zabrać i się stąd wynosić.
-      - Language: Portuguese_Brazil
-        String: Nós derrotamos o terrormorfo que contém nossa última amostra. Hora de coletá-la e dar o fora daqui.
-      - Language: ChineseSimplified
-        String: 我们击败了携带最后样本的骇变兽。是时候拿上它离开这里了。
+      Value: We've taken down the Terrormorph containing our final sample. Time to collect it and get out of here.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -3969,25 +3388,7 @@ Stages:
     Note: 'P3: Player collected the sample from the Queen. Direct the player to hand that off to Kaiser.'
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Gut. Wir haben die Probe. Jetzt muss ich sie bloß noch in Kaiser aufbewahren.
-      - Language: English
-        String: All right. Sample acquired. Just need to store it in Kaiser.
-      - Language: Spanish
-        String: Perfecto, ya tengo la muestra. Solo me queda almacenarla en Kaiser.
-      - Language: French
-        String: Très bien. Échantillon prélevé. Plus qu'à le placer dans Kaiser.
-      - Language: Italian
-        String: Perfetto. Campione acquisito. Non mi resta che salvarlo nella memoria di Kaiser.
-      - Language: Japanese
-        String: よし、サンプルは入手した。カイザーに格納しよう
-      - Language: Polish
-        String: W porządku. Mam próbkę. Muszę przekazać ją Kaiserowi.
-      - Language: Portuguese_Brazil
-        String: Certo. Amostra obtida. Só tenho que guardá-la no Kaiser.
-      - Language: ChineseSimplified
-        String: 好的。拿到样本了。只要把它放在凯撒就可以了。
+      Value: All right. Sample acquired. Just need to store it in Kaiser.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -4006,25 +3407,7 @@ Stages:
     Note: 'P2: OBJ: PORT: Queen sample collection scene complete. Direct the player to the exit'
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Probe gesichert. Jetzt sollte ich diesen Eiszapfen hochjagen und dann Percival in der Basis Bericht erstatten.
-      - Language: English
-        String: Sample secure. Time to blow this icicle stand and debrief with Percival back at the base.
-      - Language: Spanish
-        String: La muestra está a salvo. Es hora de volar este puesto de estalactitas e informar a Percival en la base.
-      - Language: French
-        String: L'échantillon est en sécurité. Il est temps de quitter ce glaçon et de retrouver Percival à la base pour faire notre compte-rendu.
-      - Language: Italian
-        String: Il campione è al sicuro. È ora di prendere il controllo della situazione e di tornare alla base per discuterne con Percival.
-      - Language: Japanese
-        String: サンプルを確保した。この氷柱の台を吹き飛ばして、基地に戻ってパーシバルに状況を報告しよう
-      - Language: Polish
-        String: Próbka zabezpieczona. Pora wynosić się z tej lodówki i zdać raport Percivalowi w bazie.
-      - Language: Portuguese_Brazil
-        String: Amostra obtida. Hora de explodir essa geleira e me reportar ao Percival na base.
-      - Language: ChineseSimplified
-        String: 拿到样本了。是该炸掉这个冰柱，回基地向珀西瓦里报告了。
+      Value: Sample secure. Time to blow this icicle stand and debrief with Percival back at the base.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -4107,25 +3490,7 @@ Stages:
     Note: "P1: OBJ: PORT: Vae Victis' portion of the final scene has started playing. Update the objectives."
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Kurz bevor er die Bombardierung des Raumhafens befahl, war Vae Victis hier. Das sollte ich mir anhören.
-      - Language: English
-        String: It sounds like Vae Victis was here just before he ordered the bombing of the spaceport. I should listen in.
-      - Language: Spanish
-        String: Parece que Vae Victis estuvo aquí justo antes de ordenar el bombardeo del espaciopuerto. Debería escuchar la grabación.
-      - Language: French
-        String: On dirait que Vae Victis était ici juste avant de donner l'ordre de bombarder le port spatial. Je devrais écouter ça.
-      - Language: Italian
-        String: Sembra che Vae Victis fosse qui poco prima del bombardamento dello spazioporto. Sarà meglio ascoltare la registrazione.
-      - Language: Japanese
-        String: どうやら、ヴェイ・ヴィクティスは宇宙港の爆撃を命じる直前までここにいたようだ。聞き耳を立てよう
-      - Language: Polish
-        String: Wygląda na to, że Vae Victis był tutaj tuż przed wydaniem rozkazu zbombardowania portu kosmicznego. Muszę tego posłuchać.
-      - Language: Portuguese_Brazil
-        String: Parece que Vae Victis esteve aqui pouco antes de ordenar a explosão do espaçoporto. Tenho que ouvir mais.
-      - Language: ChineseSimplified
-        String: 听起来瓦维刻提斯之前就在这里下令轰炸太空港。我应该听一听。
+      Value: It sounds like Vae Victis was here just before he ordered the bombing of the spaceport. I should listen in.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -4152,25 +3517,7 @@ Stages:
     Note: 'P3: Direct the to collect the physical copy of the audio slate.'
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Diese Aufnahme ... klingt so, als habe Vae Victis von der Lazaruspflanze gewusst. Ich sollte Hadrian die Transkription zeigen und die Sache mit ihm besprechen.
-      - Language: English
-        String: The recording we just heard... it sounded a lot like Vae Victis knew about the Lazarus Plant. I should grab the transcription and speak to Hadrian about what we learned.
-      - Language: Spanish
-        String: Por la grabación que acabamos de escuchar, parece que Vae Victis conocía la planta Lázaro. Debería coger la transcripción y hablar con Hadrian sobre lo que hemos descubierto.
-      - Language: French
-        String: L'enregistrement que nous venons d'entendre laisse penser que Vae Victis était au courant pour la lazarée. Je devrais prendre la transcription et faire le point avec Hadrian sur ce que nous venons d'apprendre.
-      - Language: Italian
-        String: Dalla registrazione che abbiamo ascoltato pare che Vae Victis sapesse della pianta di Lazzaro. Dovrei procurarmi la trascrizione e andare a parlare con Hadrian.
-      - Language: Japanese
-        String: たった今聞いた録音によれば… どうもヴェイ・ヴィクティスはラザルス・プラントについて知っていたと思われる。録音の書き写しを持って、内容についてヘイドリアンに話そう
-      - Language: Polish
-        String: Nagranie, którego właśnie wysłuchaliśmy, sugeruje, że Vae Victis wiedział o lazarytce. Muszę zabrać transkrypcję nagrania i porozmawiać z Hadrian o tym, czego się dowiedzieliśmy.
-      - Language: Portuguese_Brazil
-        String: A gravação que acabamos de ouvir... parecia muito que o Vae Victis sabia sobre a planta lázaro. Tenho que pegar a transcrição e falar com Hadrian sobre o que descobrimos.
-      - Language: ChineseSimplified
-        String: 我们刚听到的记录……听起来瓦维刻提斯很可能知道拉撒路草的事。我应该拿着转录记录去找哈德良，告诉他我们的发现。
+      Value: The recording we just heard... it sounded a lot like Vae Victis knew about the Lazarus Plant. I should grab the transcription and speak to Hadrian about what we learned.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -4181,25 +3528,7 @@ Stages:
     Note: "P2: OBJ: PORT: Vae Victis' scene completed. Direct the player to speak to Hadrian."
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Ich habe die Aufzeichnung, die bestätigt, dass Vae Victis hier war und von der Lazaruspflanze wusste. Ich sollte das mit Hadrian besprechen.
-      - Language: English
-        String: I've got the recorder log documenting that Vae Victis was here and knew about the Lazarus Plant. I should discuss what I've learned with Hadrian.
-      - Language: Spanish
-        String: Tengo la grabación que demuestra que Vae Victis estuvo aquí y conocía la planta Lázaro. Debería comentarle a Hadrian lo que he descubierto.
-      - Language: French
-        String: J'ai le journal prouvant que Vae Victis était ici et était au courant pour la lazarée. Je devrais faire le point sur ce que j'ai découvert ici avec Hadrian.
-      - Language: Italian
-        String: La registrazione che ho trovato dimostra che Vae Victis era qui e che sapeva dell’impiego della pianta di Lazzaro. Dovrei parlarne con Hadrian.
-      - Language: Japanese
-        String: ヴェイ・ヴィクティスがここに来ていたということ、そしてラザルス・プラントについて知っていることを記録した録音機のログを手に入れた。内容についてヘイドリアンと話し合おう
-      - Language: Polish
-        String: Mam zapis z systemu rejestratora, z którego wynika, że Vae Victis był tutaj i wiedział o lazarytce. Muszę przedyskutować zdobyte informacje z Hadrian.
-      - Language: Portuguese_Brazil
-        String: Consegui o registro de áudio que mostra que Vae Victis esteve aqui e sabia sobre a planta lázaro. Tenho que discutir minhas descobertas com Hadrian.
-      - Language: ChineseSimplified
-        String: 我拿到了一份记录日志，上面说瓦维刻提斯之前来过这里，且知道拉撒路草的事。我应该把这情况告诉哈德良。
+      Value: I've got the recorder log documenting that Vae Victis was here and knew about the Lazarus Plant. I should discuss what I've learned with Hadrian.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -4262,25 +3591,7 @@ Stages:
   - Flags: []
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Vae Victis wusste von der Lazaruspflanze. Vermutlich hat er den Raumhafen hochgejagt, um seine Spuren zu verwischen. Doch auf uns wartet immer noch Arbeit. Beschaffen wir die letzte Probe und verschwinden dann von hier.
-      - Language: English
-        String: Vae Victis knew about the Lazarus Plant and likely blew the spaceport to pieces trying to cover it up. But we've got work still to do. Time to collect that final sample and get out of here.
-      - Language: Spanish
-        String: Vae Victis conocía la planta Lázaro y seguramente voló el espaciopuerto por los aires para intentar que no le descubrieran, pero aún nos queda trabajo por hacer. Es hora de recoger la última muestra y salir de aquí.
-      - Language: French
-        String: Vae Victis était au courant pour la lazarée et a sans doute fait sauter le port spatial pour tenter de masquer ses traces, mais nous avons encore du travail. Nous devons mettre la main sur ce dernier échantillon et partir d'ici.
-      - Language: Italian
-        String: Vae Victis sapeva della pianta di Lazzaro e, probabilmente, ha fatto saltare lo spazioporto per nascondere le prove. Ma abbiamo ancora del lavoro da fare. È ora di raccogliere l’ultimo campione e uscire da questo posto.
-      - Language: Japanese
-        String: ヴェイ・ヴィクティスはラザルス・プラントについて知っており、それを隠蔽するために宇宙港を木っ端みじんに吹き飛ばした可能性が高い。最後のサンプルを回収して、ここから逃げだそう
-      - Language: Polish
-        String: Vae Victis wiedział o lazarytce i najpewniej zbombardował port kosmiczny, aby to ukryć. Ale przed nami wciąż wiele pracy. Pora zebrać ostatnią próbkę i się stąd wynosić.
-      - Language: Portuguese_Brazil
-        String: Vae Victis sabia sobre a planta lázaro, e é provável que tenha explodido o espaçoporto para tentar encobrir tudo. Ainda temos muito trabalho pela frente. Hora de coletar aquela amostra final e dar o fora daqui.
-      - Language: ChineseSimplified
-        String: 瓦维刻提斯知道拉撒路草的事，并且很可能为了掩盖真相把太空港炸毁了。不过我们还有工作要做。该去收集最后的样本，并离开这里了。
+      Value: Vae Victis knew about the Lazarus Plant and likely blew the spaceport to pieces trying to cover it up. But we've got work still to do. Time to collect that final sample and get out of here.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -4387,25 +3698,7 @@ Stages:
     Note: 'P1: OBJ: WRAP: Player arrives back at base. Direct them to speak to Jakob.'
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Wir sind zur Basis zurückgekehrt. Jetzt sollten wir über unsere Erkenntnis reden.
-      - Language: English
-        String: We've returned to base. Time to discuss what we've uncovered.
-      - Language: Spanish
-        String: Hemos regresado a la base. Es hora de hablar de lo que hemos descubierto.
-      - Language: French
-        String: Nous sommes de retour à la base. Il est temps de faire le point sur ce que nous avons découvert.
-      - Language: Italian
-        String: Abbiamo fatto ritorno alla base. È ora di discutere della nostra scoperta.
-      - Language: Japanese
-        String: 基地に帰還した。発見したことについて話し合うとしよう
-      - Language: Polish
-        String: Wróciliśmy do bazy. Pora przedyskutować nasze odkrycia.
-      - Language: Portuguese_Brazil
-        String: Retornamos à base. Hora de discutir o que descobrimos.
-      - Language: ChineseSimplified
-        String: 我们已经回到了基地。该讨论我们所发现的东西了。
+      Value: We've returned to base. Time to discuss what we've uncovered.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -4425,25 +3718,7 @@ Stages:
     Note: 'P1: QUEST COMPLETE!'
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: 'Wir haben alle Ressourcen, um das Anti-Terrormorph-Programm zu starten ... dann aber machten wir auf Londinion eine erschreckende Entdeckung: Die Lazaruspflanze wurde bei dem Angriff auf New Atlantis eingesetzt, und Vae Victis wusste von ihr. Ich werde ihn jetzt zur Rede stellen.'
-      - Language: English
-        String: We've got all the raw materials we need to get the Terrormorph clean up program off the ground... but we discovered something much bigger on Londinion - the Lazarus Plant was used in the attacks on New Atlantis and Vae Victis knew about the plant. I'm going to confront him about it now.
-      - Language: Spanish
-        String: 'Tenemos las materias primas necesarias para poner en marcha el programa para exterminar a los horromorfos, pero descubrimos algo mucho más grave en Londinion: la planta Lázaro se usó en los ataques de Nueva Atlántida y Vae Victis la conocía. Iré a pedirle explicaciones ahora mismo.'
-      - Language: French
-        String: Nous avons toutes les matières premières nécessaires pour démarrer le programme d'élimination des horrimorphes, mais nous avons découvert quelque chose de bien plus sinistre à Londinion. La lazarée a été utilisée lors de l'attaque de New Atlantis, et Vae Victis en connaît les effets. Je vais devoir le confronter à ce sujet.
-      - Language: Italian
-        String: 'Abbiamo raccolto tutti i materiali grezzi che ci servono per avviare il programma di sterminio dei terrormorfi... ma su Londinion abbiamo scoperto qualcosa di sconcertante: per gli attacchi su Nuova Atlantide è stata utilizzata la pianta di Lazzaro, e Vae Victis lo sapeva. Andrò a parlarci immediatamente.'
-      - Language: Japanese
-        String: テラーモーフ掃討計画を実行するのに必要な原材料はすべてそろった… だが、さらに大きなものがロンディニオンで発見された… ラザルス・プラントはニューアトランティスへの襲撃に利用されたもので、詳しくはヴェイ・ヴィクティスが知っている。この件について彼を問い詰めるとしよう
-      - Language: Polish
-        String: 'Mamy wszystkie próbki potrzebne do uruchomienia programu eliminowania terrormorfów... Jednak w Londinionie odkryliśmy coś znacznie ważniejszego: lazarytka została wykorzystana podczas ataku na Nową Atlantydę i Vae Victis wiedział o tej roślinie. Zamierzam z nim o tym porozmawiać.'
-      - Language: Portuguese_Brazil
-        String: 'Temos toda a matéria-prima de que precisamos para colocar em prática o programa de extermínio de terrormorfos... Só que descobrimos algo muito maior em Londinion: a planta lázaro foi usada nos ataques em Nova Atlântida, e Vae Victis sabia sobre ela. Vou confrontá-lo sobre isso agora.'
-      - Language: ChineseSimplified
-        String: 我们已经有了启动骇变兽清除计划所需的一切……但在隆蒂涅恩城，我们发现了更不得了的东西：拉撒路草被用于新亚特兰蒂斯城的袭击中，而瓦维刻提斯了解这种植物。我现在就要去找他对质。
+      Value: We've got all the raw materials we need to get the Terrormorph clean up program off the ground... but we discovered something much bigger on Londinion - the Lazarus Plant was used in the attacks on New Atlantis and Vae Victis knew about the plant. I'm going to confront him about it now.
     StageCompleteDatas:
     - QSRD: 0x02000000
       RewardDatas:
@@ -4456,7 +3731,6 @@ Stages:
         BonusCredits: 1460FE:Starfield.esm
         Conditions:
         - MutagenObjectType: ConditionFloat
-          Unknown1: 0x9DF2A1
           Data:
             MutagenObjectType: HasPerkConditionData
             FirstParameter: 227FD4:Starfield.esm
@@ -4467,180 +3741,53 @@ Objectives:
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Folge Hadrian.
-    - Language: English
-      String: Follow Hadrian
-    - Language: Spanish
-      String: Sigue a Hadrian.
-    - Language: French
-      String: Suivez Hadrian.
-    - Language: Italian
-      String: Segui Hadrian
-    - Language: Japanese
-      String: ヘイドリアンについて行く
-    - Language: Polish
-      String: Podążaj za Hadrian
-    - Language: Portuguese_Brazil
-      String: Siga Hadrian
-    - Language: ChineseSimplified
-      String: 跟随哈德良
+    Value: Follow Hadrian
   Targets:
   - {}
 - Index: 110
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Sprich mit Hadrian.
-    - Language: English
-      String: Speak to Hadrian
-    - Language: Spanish
-      String: Habla con Hadrian.
-    - Language: French
-      String: Parlez à Hadrian.
-    - Language: Italian
-      String: Parla con Hadrian
-    - Language: Japanese
-      String: ヘイドリアンと話す
-    - Language: Polish
-      String: Porozmawiaj z Hadrian
-    - Language: Portuguese_Brazil
-      String: Fale com Hadrian
-    - Language: ChineseSimplified
-      String: 与哈德良交谈
+    Value: Speak to Hadrian
   Targets:
   - {}
 - Index: 150
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Begib dich nach Londinion.
-    - Language: English
-      String: Proceed to Londinion
-    - Language: Spanish
-      String: Continúa hasta Londinion.
-    - Language: French
-      String: Rendez-vous à Londinion.
-    - Language: Italian
-      String: Raggiungi Londinion
-    - Language: Japanese
-      String: ロンディニオンへ向かう
-    - Language: Polish
-      String: Udaj się do Londinionu
-    - Language: Portuguese_Brazil
-      String: Siga para Londinion
-    - Language: ChineseSimplified
-      String: 前往隆蒂涅恩城
+    Value: Proceed to Londinion
   Targets:
   - AliasID: 59
 - Index: 151
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: (Optional) Kaufe neue Ausrüstung bei Lt. Azevedo.
-    - Language: English
-      String: (Optional) Visit Lt. Azevedo to purchase new gear
-    - Language: Spanish
-      String: (Opcional) Visita al teniente Azevedo para comprar equipo nuevo.
-    - Language: French
-      String: (Optionnel) Allez voir le Lt. Azevedo pour acheter du nouvel équipement.
-    - Language: Italian
-      String: (Opzionale) Visita il tenente Azevedo per acquistare nuove attrezzature
-    - Language: Japanese
-      String: (オプション)アゼベド大尉を訪れて新しい装備を購入する
-    - Language: Polish
-      String: (Opcj.) Odwiedź porucznika Azevedo, aby kupić nowy sprzęt
-    - Language: Portuguese_Brazil
-      String: (Opc.) Visite o Ten. Azevedo para comprar novos equipamentos
-    - Language: ChineseSimplified
-      String: （可选）找阿泽维多中尉买一件新装备
+    Value: (Optional) Visit Lt. Azevedo to purchase new gear
   Targets:
   - AliasID: 124
 - Index: 165
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Begib dich zum Kommandoposten.
-    - Language: English
-      String: Proceed to the Command Post
-    - Language: Spanish
-      String: Continúa hasta el puesto de mando.
-    - Language: French
-      String: Rendez-vous au poste de commandement.
-    - Language: Italian
-      String: Raggiungi il Comando
-    - Language: Japanese
-      String: 司令所へ向かう
-    - Language: Polish
-      String: Udaj się do stanowiska dowodzenia
-    - Language: Portuguese_Brazil
-      String: Siga para o posto de comando
-    - Language: ChineseSimplified
-      String: 前往指挥所
+    Value: Proceed to the Command Post
   Targets:
   - AliasID: 6
 - Index: 175
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Sprich über den Erkundungsplan.
-    - Language: English
-      String: Discuss the exploration plan
-    - Language: Spanish
-      String: Debate el plan de exploración.
-    - Language: French
-      String: Discutez du plan d'exploration.
-    - Language: Italian
-      String: Discuti del piano di esplorazione
-    - Language: Japanese
-      String: 探索計画について話し合う
-    - Language: Polish
-      String: Omów plan eksploracji
-    - Language: Portuguese_Brazil
-      String: Discuta o plano de exploração
-    - Language: ChineseSimplified
-      String: 讨论探索计划
+    Value: Discuss the exploration plan
   Targets:
   - {}
 - Index: 200
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: (Optional) Sammle deine Ausrüstung ein.
-    - Language: English
-      String: (Optional) Collect your gear
-    - Language: Spanish
-      String: (Opcional) Recoge tu equipo.
-    - Language: French
-      String: (Optionnel) Récupérez votre équipement.
-    - Language: Italian
-      String: (Opzionale) Recupera l’attrezzatura
-    - Language: Japanese
-      String: (オプション)装備品を回収する
-    - Language: Polish
-      String: (Opcj.) Pobierz swój sprzęt
-    - Language: Portuguese_Brazil
-      String: (Opc.) Pegue seu equipamento
-    - Language: ChineseSimplified
-      String: （可选）收集你的装备
+    Value: (Optional) Collect your gear
   Targets:
   - AliasID: 9
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 2062C3:Starfield.esm
@@ -4648,7 +3795,6 @@ Objectives:
   - AliasID: 8
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 2062C3:Starfield.esm
@@ -4656,7 +3802,6 @@ Objectives:
   - AliasID: 10
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 2062C3:Starfield.esm
@@ -4664,7 +3809,6 @@ Objectives:
   - AliasID: 11
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 2062C3:Starfield.esm
@@ -4672,69 +3816,30 @@ Objectives:
   - AliasID: 99
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 2062C3:Starfield.esm
         SecondParameter: 245
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetDisabledConditionData
 - Index: 250
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Gib Hadrian Bescheid, dass du bereit zum Aufbruch bist.
-    - Language: English
-      String: Inform Hadrian you're ready to move out
-    - Language: Spanish
-      String: Informa a Hadrian de que ya puedes ponerte en marcha.
-    - Language: French
-      String: Informez Hadrian que vous pouvez partir.
-    - Language: Italian
-      String: Riferisci ad Hadrian di voler partire
-    - Language: Japanese
-      String: 出発する準備ができたとヘイドリアンに伝える
-    - Language: Polish
-      String: Poinformuj Hadrian, że możecie ruszać
-    - Language: Portuguese_Brazil
-      String: Informe Hadrian que você quer prosseguir
-    - Language: ChineseSimplified
-      String: 告诉哈德良，你已经准备好出发
+    Value: Inform Hadrian you're ready to move out
   Targets:
   - {}
 - Index: 295
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Erlaube Kaiser, die Luftschleuse zu entriegeln.
-    - Language: English
-      String: Allow Kaiser to unlock the airlock
-    - Language: Spanish
-      String: Deja que Kaiser abra la esclusa.
-    - Language: French
-      String: Laissez Kaiser déverrouiller le sas.
-    - Language: Italian
-      String: Permetti a Kaiser di sbloccare la camera d’equilibrio
-    - Language: Japanese
-      String: カイザーにエアロックを解除させる
-    - Language: Polish
-      String: Pozwól Kaiserowi otworzyć śluzę powietrzną
-    - Language: Portuguese_Brazil
-      String: Deixe Kaiser destravar a eclusa
-    - Language: ChineseSimplified
-      String: 让凯撒解锁气闸
+    Value: Allow Kaiser to unlock the airlock
   Targets:
   - AliasID: 2
     Conditions:
     - MutagenObjectType: ConditionFloat
       CompareOperator: GreaterThanOrEqualTo
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetDistanceConditionData
         RunOnType: Reference
@@ -4746,31 +3851,12 @@ Objectives:
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Begib dich in die Stadt.
-    - Language: English
-      String: Proceed into the city
-    - Language: Spanish
-      String: Continúa hasta la ciudad.
-    - Language: French
-      String: Pénétrez dans la ville.
-    - Language: Italian
-      String: Addentrati nella città
-    - Language: Japanese
-      String: 市内へ進む
-    - Language: Polish
-      String: Udaj się do miasta
-    - Language: Portuguese_Brazil
-      String: Entre na cidade
-    - Language: ChineseSimplified
-      String: 进入城市
+    Value: Proceed into the city
   Targets:
   - AliasID: 12
     Conditions:
     - MutagenObjectType: ConditionFloat
       CompareOperator: NotEqualTo
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetOpenStateConditionData
         RunOnType: QuestAlias
@@ -4778,7 +3864,6 @@ Objectives:
       ComparisonValue: 3
     - MutagenObjectType: ConditionFloat
       CompareOperator: NotEqualTo
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetOpenStateConditionData
         RunOnType: QuestAlias
@@ -4787,7 +3872,6 @@ Objectives:
   - AliasID: 50
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetOpenStateConditionData
         RunOnType: QuestAlias
@@ -4797,14 +3881,12 @@ Objectives:
     Conditions:
     - MutagenObjectType: ConditionFloat
       CompareOperator: NotEqualTo
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetOpenStateConditionData
         RunOnType: QuestAlias
         Unknown3: 87
       ComparisonValue: 3
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetOpenStateConditionData
         RunOnType: QuestAlias
@@ -4814,31 +3896,12 @@ Objectives:
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Finde die Aceles-Genproben.
-    - Language: English
-      String: Locate the Aceles gene samples
-    - Language: Spanish
-      String: Localiza las muestras genéticas de aceles.
-    - Language: French
-      String: Localisez l'échantillon de gènes d'aceles.
-    - Language: Italian
-      String: Localizza i campioni genetici di aceles
-    - Language: Japanese
-      String: アセレス遺伝子のサンプルの場所を特定する
-    - Language: Polish
-      String: Zlokalizuj próbki genów aceli
-    - Language: Portuguese_Brazil
-      String: Localize as amostras genéticas de aceles
-    - Language: ChineseSimplified
-      String: 找到亚斯里兽的基因样本
+    Value: Locate the Aceles gene samples
   Targets:
   - AliasID: 14
     Conditions:
     - MutagenObjectType: ConditionFloat
       CompareOperator: NotEqualTo
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetOpenStateConditionData
         RunOnType: QuestAlias
@@ -4846,14 +3909,12 @@ Objectives:
       ComparisonValue: 3
     - MutagenObjectType: ConditionFloat
       CompareOperator: NotEqualTo
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetOpenStateConditionData
         RunOnType: QuestAlias
         Unknown3: 87
       ComparisonValue: 3
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 2062C3:Starfield.esm
@@ -4862,14 +3923,12 @@ Objectives:
     Conditions:
     - MutagenObjectType: ConditionFloat
       CompareOperator: NotEqualTo
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetOpenStateConditionData
         RunOnType: QuestAlias
         Unknown3: 87
       ComparisonValue: 3
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetOpenStateConditionData
         RunOnType: QuestAlias
@@ -4879,31 +3938,12 @@ Objectives:
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Säubere die Verarbeitungsanlage.
-    - Language: English
-      String: Clear the processing plant
-    - Language: Spanish
-      String: Despeja la planta de procesamiento.
-    - Language: French
-      String: Nettoyez l'usine de transformation.
-    - Language: Italian
-      String: Sgombera l’impianto di lavorazione
-    - Language: Japanese
-      String: 処理場を制圧する
-    - Language: Polish
-      String: Oczyść przetwórnię
-    - Language: Portuguese_Brazil
-      String: Faça a limpa na usina de processamento
-    - Language: ChineseSimplified
-      String: 肃清加工厂
+    Value: Clear the processing plant
   Targets:
   - AliasID: 92
     Conditions:
     - MutagenObjectType: ConditionFloat
       CompareOperator: LessThanOrEqualTo
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetNumElementsInRefCollectionConditionData
         FirstParameter: 92
@@ -4912,54 +3952,17 @@ Objectives:
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Finde die Aceles-Genproben.
-    - Language: English
-      String: Locate the Aceles gene samples
-    - Language: Spanish
-      String: Localiza las muestras genéticas de aceles.
-    - Language: French
-      String: Localisez l'échantillon de gènes d'aceles.
-    - Language: Italian
-      String: Localizza i campioni genetici di aceles
-    - Language: Japanese
-      String: アセレス遺伝子のサンプルの場所を特定する
-    - Language: Polish
-      String: Zlokalizuj próbki genów aceli
-    - Language: Portuguese_Brazil
-      String: Localize as amostras genéticas de aceles
-    - Language: ChineseSimplified
-      String: 找到亚斯里兽的基因样本
+    Value: Locate the Aceles gene samples
 - Index: 325
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: (Optional) Erkunde das Lager der Basis.
-    - Language: English
-      String: (Optional) Explore the base cache
-    - Language: Spanish
-      String: (Opcional) Explora el depósito base.
-    - Language: French
-      String: (Optionnel) Explorez la cache de la base.
-    - Language: Italian
-      String: (Opzionale) Esplora il deposito di scorte
-    - Language: Japanese
-      String: (オプション)基地の保管庫を探索する
-    - Language: Polish
-      String: (Opcj.) Zbadaj skład polowy
-    - Language: Portuguese_Brazil
-      String: (Opc.) Explore o estoque da base
-    - Language: ChineseSimplified
-      String: （可选）探索基地储藏室
+    Value: (Optional) Explore the base cache
   Targets:
   - AliasID: 14
     Conditions:
     - MutagenObjectType: ConditionFloat
       CompareOperator: GreaterThan
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetDistanceConditionData
         RunOnType: Reference
@@ -4971,55 +3974,18 @@ Objectives:
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Folge Kaiser.
-    - Language: English
-      String: Follow Kaiser
-    - Language: Spanish
-      String: Sigue a Kaiser.
-    - Language: French
-      String: Suivez Kaiser.
-    - Language: Italian
-      String: Segui Kaiser
-    - Language: Japanese
-      String: カイザーについて行く
-    - Language: Polish
-      String: Podążaj za Kaiserem
-    - Language: Portuguese_Brazil
-      String: Siga Kaiser
-    - Language: ChineseSimplified
-      String: 跟随凯撒
+    Value: Follow Kaiser
   Targets:
   - AliasID: 2
 - Index: 331
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Sammle die Aceles-Proben ein.
-    - Language: English
-      String: Collect the Aceles samples
-    - Language: Spanish
-      String: Recoge las muestras de aceles.
-    - Language: French
-      String: Récupérez les échantillons d'aceles.
-    - Language: Italian
-      String: Raccogli i campioni di aceles
-    - Language: Japanese
-      String: アセレスのサンプルを回収する
-    - Language: Polish
-      String: Zbierz próbki aceli
-    - Language: Portuguese_Brazil
-      String: Colete as amostras de aceles
-    - Language: ChineseSimplified
-      String: 收集亚斯里兽样本
+    Value: Collect the Aceles samples
   Targets:
   - AliasID: 69
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 2062C3:Starfield.esm
@@ -5027,7 +3993,6 @@ Objectives:
   - AliasID: 96
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 2062C3:Starfield.esm
@@ -5035,7 +4000,6 @@ Objectives:
   - AliasID: 97
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 2062C3:Starfield.esm
@@ -5044,75 +4008,21 @@ Objectives:
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: (Optional) Verschaffe dir Zugang zum Lagerraum.
-    - Language: English
-      String: (Optional) Access the supply caches
-    - Language: Spanish
-      String: (Opcional) Accede a los depósitos de suministros.
-    - Language: French
-      String: (Optionnel) Accédez à la caisse de ravitaillement.
-    - Language: Italian
-      String: (Opzionale) Accedi ai depositi di scorte
-    - Language: Japanese
-      String: (オプション)物資の保管庫にアクセスする
-    - Language: Polish
-      String: (Opcj.) Uzyskaj dostęp do skrytek z zaopatrzeniem
-    - Language: Portuguese_Brazil
-      String: (Opc.) Acesse os estoques de suprimentos
-    - Language: ChineseSimplified
-      String: （可选）进入物资储藏室
+    Value: (Optional) Access the supply caches
   Targets:
   - AliasID: 18
 - Index: 340
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Sammle die Ladeliste ein.
-    - Language: English
-      String: Collect the manifest
-    - Language: Spanish
-      String: Coge el manifiesto.
-    - Language: French
-      String: Récupérez le manifeste.
-    - Language: Italian
-      String: Recupera il manifesto
-    - Language: Japanese
-      String: 積荷目録を回収する
-    - Language: Polish
-      String: Zabierz list przewozowy
-    - Language: Portuguese_Brazil
-      String: Obtenha o manifesto
-    - Language: ChineseSimplified
-      String: 收集货运清单
+    Value: Collect the manifest
   Targets:
   - {}
 - Index: 350
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Finde die Aceles-Genproben.
-    - Language: English
-      String: Locate the Aceles gene samples
-    - Language: Spanish
-      String: Localiza las muestras genéticas de aceles.
-    - Language: French
-      String: Localisez l'échantillon de gènes d'aceles.
-    - Language: Italian
-      String: Localizza i campioni genetici di aceles
-    - Language: Japanese
-      String: アセレス遺伝子のサンプルの場所を特定する
-    - Language: Polish
-      String: Zlokalizuj próbki genów aceli
-    - Language: Portuguese_Brazil
-      String: Localize as amostras genéticas de aceles
-    - Language: ChineseSimplified
-      String: 找到亚斯里兽的基因样本
+    Value: Locate the Aceles gene samples
   Targets:
   - AliasID: 69
     Conditions:
@@ -5120,14 +4030,12 @@ Objectives:
       CompareOperator: LessThanOrEqualTo
       Flags:
       - OR
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetNumElementsInRefCollectionConditionData
         FirstParameter: 67
     - MutagenObjectType: ConditionFloat
       Flags:
       - OR
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 2062C3:Starfield.esm
@@ -5137,31 +4045,12 @@ Objectives:
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: (Optional) Sammle die verbleibenden Ladelisten ein.
-    - Language: English
-      String: (Optional) Collect the remaining manifests
-    - Language: Spanish
-      String: (Opcional) Recoge los manifiestos restantes.
-    - Language: French
-      String: (Optionnel) Récupérez les manifestes restants.
-    - Language: Italian
-      String: (Opzionale) Recupera gli altri manifesti
-    - Language: Japanese
-      String: (オプション)残りの積荷目録を回収する
-    - Language: Polish
-      String: (Opcj.) Zbierz pozostałe listy przewozowe
-    - Language: Portuguese_Brazil
-      String: (Opc.) Obtenha os manifestos restantes
-    - Language: ChineseSimplified
-      String: （可选）收集剩余货运清单
+    Value: (Optional) Collect the remaining manifests
   Targets:
   - AliasID: 67
     Conditions:
     - MutagenObjectType: ConditionFloat
       CompareOperator: GreaterThan
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetNumElementsInRefCollectionConditionData
         FirstParameter: 67
@@ -5169,57 +4058,20 @@ Objectives:
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Finde die nächste Probe.
-    - Language: English
-      String: Find the next sample
-    - Language: Spanish
-      String: Encuentra la siguiente muestra.
-    - Language: French
-      String: Trouvez le prochain échantillon.
-    - Language: Italian
-      String: Trova il prossimo campione
-    - Language: Japanese
-      String: 次のサンプルを見つける
-    - Language: Polish
-      String: Znajdź następną próbkę
-    - Language: Portuguese_Brazil
-      String: Encontre a próxima amostra
-    - Language: ChineseSimplified
-      String: 找到下一个样本
+    Value: Find the next sample
   Targets:
   - {}
 - Index: 365
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Kehre zur Anlage zurück.
-    - Language: English
-      String: Return to the plant
-    - Language: Spanish
-      String: Vuelve a la planta.
-    - Language: French
-      String: Retournez dans l'usine.
-    - Language: Italian
-      String: Torna all’impianto
-    - Language: Japanese
-      String: プラントに戻る
-    - Language: Polish
-      String: Wróć do przetwórni
-    - Language: Portuguese_Brazil
-      String: Volte até a usina
-    - Language: ChineseSimplified
-      String: 回到工厂
+    Value: Return to the plant
   Targets:
   - AliasID: 74
     Conditions:
     - MutagenObjectType: ConditionFloat
       Flags:
       - OR
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: IsScenePlayingConditionData
         FirstParameter: 1F9BCC:Starfield.esm
@@ -5227,7 +4079,6 @@ Objectives:
       CompareOperator: GreaterThan
       Flags:
       - OR
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetDistanceConditionData
         RunOnType: Reference
@@ -5239,80 +4090,25 @@ Objectives:
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Sprich mit Hadrian.
-    - Language: English
-      String: Speak to Hadrian
-    - Language: Spanish
-      String: Habla con Hadrian.
-    - Language: French
-      String: Parlez à Hadrian.
-    - Language: Italian
-      String: Parla con Hadrian
-    - Language: Japanese
-      String: ヘイドリアンと話す
-    - Language: Polish
-      String: Porozmawiaj z Hadrian
-    - Language: Portuguese_Brazil
-      String: Fale com Hadrian
-    - Language: ChineseSimplified
-      String: 与哈德良交谈
+    Value: Speak to Hadrian
   Targets:
   - {}
 - Index: 369
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Gib Kaiser die Proben.
-    - Language: English
-      String: Give Kaiser the samples
-    - Language: Spanish
-      String: Dale las muestras a Kaiser.
-    - Language: French
-      String: Donnez les échantillons à Kaiser.
-    - Language: Italian
-      String: Consegna i campioni a Kaiser
-    - Language: Japanese
-      String: カイザーにサンプルを渡す
-    - Language: Polish
-      String: Przekaż próbki Kaiserowi
-    - Language: Portuguese_Brazil
-      String: Dê as amostras a Kaiser
-    - Language: ChineseSimplified
-      String: 把样本给凯撒
+    Value: Give Kaiser the samples
   Targets:
   - AliasID: 2
 - Index: 370
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Begib dich zu den Dampftunneln.
-    - Language: English
-      String: Proceed to the steam tunnels
-    - Language: Spanish
-      String: Continúa hasta los túneles de vapor.
-    - Language: French
-      String: Rejoignez les tunnels à vapeur.
-    - Language: Italian
-      String: Attraversa i tunnel vaporiferi
-    - Language: Japanese
-      String: 蒸気トンネルへ向かう
-    - Language: Polish
-      String: Udaj się do tuneli parowych
-    - Language: Portuguese_Brazil
-      String: Siga para os túneis de vapor
-    - Language: ChineseSimplified
-      String: 前往蒸汽通道
+    Value: Proceed to the steam tunnels
   Targets:
   - AliasID: 104
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetInCellConditionData
         RunOnType: Reference
@@ -5321,7 +4117,6 @@ Objectives:
   - AliasID: 24
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetInCellConditionData
         RunOnType: Reference
@@ -5332,30 +4127,11 @@ Objectives:
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Begib dich zur nächsten Probe.
-    - Language: English
-      String: Head towards the next sample
-    - Language: Spanish
-      String: Dirígete hacia la siguiente muestra.
-    - Language: French
-      String: Dirigez-vous vers le prochain échantillon.
-    - Language: Italian
-      String: Dirigiti verso il prossimo campione
-    - Language: Japanese
-      String: 次のサンプルのもとへ向かう
-    - Language: Polish
-      String: Ruszaj w kierunku następnej próbki
-    - Language: Portuguese_Brazil
-      String: Dirija-se até a próxima amostra
-    - Language: ChineseSimplified
-      String: 前去找下一个样本
+    Value: Head towards the next sample
   Targets:
   - Conditions:
     - MutagenObjectType: ConditionFloat
       CompareOperator: GreaterThanOrEqualTo
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetDistanceConditionData
         RunOnType: QuestAlias
@@ -5367,61 +4143,23 @@ Objectives:
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Eliminiere die übrigen Gegner.
-    - Language: English
-      String: Eliminate the remaining hostiles
-    - Language: Spanish
-      String: Elimina a los enemigos restantes.
-    - Language: French
-      String: Éliminez les hostiles restants.
-    - Language: Italian
-      String: Elimina i nemici rimasti
-    - Language: Japanese
-      String: 残りの敵を排除する
-    - Language: Polish
-      String: Wyeliminuj pozostałych wrogów
-    - Language: Portuguese_Brazil
-      String: Elimine os inimigos restantes
-    - Language: ChineseSimplified
-      String: 消灭剩余的敌人
+    Value: Eliminate the remaining hostiles
   Targets:
   - AliasID: 53
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetDeadConditionData
 - Index: 383
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Finde die nächste Probe.
-    - Language: English
-      String: Locate the next sample
-    - Language: Spanish
-      String: Localiza la siguiente muestra.
-    - Language: French
-      String: Localisez le prochain échantillon.
-    - Language: Italian
-      String: Localizza il prossimo campione
-    - Language: Japanese
-      String: 次のサンプルの場所を特定する
-    - Language: Polish
-      String: Zlokalizuj następną próbkę
-    - Language: Portuguese_Brazil
-      String: Localize a próxima amostra
-    - Language: ChineseSimplified
-      String: 找到下一个样本
+    Value: Locate the next sample
   Targets:
   - AliasID: 2
     Conditions:
     - MutagenObjectType: ConditionFloat
       CompareOperator: GreaterThan
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetDistanceConditionData
         RunOnType: Reference
@@ -5433,32 +4171,13 @@ Objectives:
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Sieh dir mit Hadrian die Lazaruspflanze an.
-    - Language: English
-      String: Observe the Lazarus Plant with Hadrian
-    - Language: Spanish
-      String: Observa la planta Lázaro con Hadrian.
-    - Language: French
-      String: Observez la lazarée avec Hadrian.
-    - Language: Italian
-      String: Osserva la pianta di Lazzaro con Hadrian
-    - Language: Japanese
-      String: ラザルス・プラントをヘイドリアンと観察する
-    - Language: Polish
-      String: Przyjrzyj się z Hadrian lazarytce
-    - Language: Portuguese_Brazil
-      String: Observe a planta lázaro com Hadrian
-    - Language: ChineseSimplified
-      String: 与哈德良一起观察拉撒路草
+    Value: Observe the Lazarus Plant with Hadrian
   Targets:
   - AliasID: 26
     Flags:
     - UseStraightLinePathing
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetLineOfSightConditionData
         RunOnType: Reference
@@ -5469,80 +4188,25 @@ Objectives:
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Sprich mit Hadrian.
-    - Language: English
-      String: Speak to Hadrian
-    - Language: Spanish
-      String: Habla con Hadrian.
-    - Language: French
-      String: Parlez à Hadrian.
-    - Language: Italian
-      String: Parla con Hadrian
-    - Language: Japanese
-      String: ヘイドリアンと話す
-    - Language: Polish
-      String: Porozmawiaj z Hadrian
-    - Language: Portuguese_Brazil
-      String: Fale com Hadrian
-    - Language: ChineseSimplified
-      String: 与哈德良交谈
+    Value: Speak to Hadrian
   Targets:
   - {}
 - Index: 450
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Töte den Terrormorph.
-    - Language: English
-      String: Kill the Terrormorph
-    - Language: Spanish
-      String: Mata al horromorfo.
-    - Language: French
-      String: Tuez l'horrimorphe.
-    - Language: Italian
-      String: Uccidi il terrormorfo
-    - Language: Japanese
-      String: テラーモーフを倒す
-    - Language: Polish
-      String: Zabij terrormorfa
-    - Language: Portuguese_Brazil
-      String: Mate o terrormorfo
-    - Language: ChineseSimplified
-      String: 击杀骇变兽
+    Value: Kill the Terrormorph
   Targets:
   - AliasID: 27
 - Index: 460
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Entnimm dem Terrormorph eine Gewebeprobe.
-    - Language: English
-      String: Collect a tissue sample from the Terrormorph
-    - Language: Spanish
-      String: Recoge una muestra de tejido del horromorfo.
-    - Language: French
-      String: Récupérez un échantillon de tissu sur l'horrimorphe.
-    - Language: Italian
-      String: Raccogli un campione di tessuto dal terrormorfo
-    - Language: Japanese
-      String: テラーモーフから組織サンプルを回収する
-    - Language: Polish
-      String: Zbierz próbkę tkanki terrormorfa
-    - Language: Portuguese_Brazil
-      String: Colete uma amostra de tecido do terrormorfo
-    - Language: ChineseSimplified
-      String: 收集骇变兽的组织样本
+    Value: Collect a tissue sample from the Terrormorph
   Targets:
   - AliasID: 27
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 2062C3:Starfield.esm
@@ -5551,7 +4215,6 @@ Objectives:
     Conditions:
     - MutagenObjectType: ConditionFloat
       CompareOperator: GreaterThanOrEqualTo
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetDistanceConditionData
         RunOnType: Reference
@@ -5560,7 +4223,6 @@ Objectives:
         FirstParameter: 27
       ComparisonValue: 10
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 2062C3:Starfield.esm
@@ -5570,130 +4232,39 @@ Objectives:
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Gib Kaiser die Probe.
-    - Language: English
-      String: Give the sample to Kaiser
-    - Language: Spanish
-      String: Dale la muestra a Kaiser.
-    - Language: French
-      String: Donnez l'échantillon à Kaiser.
-    - Language: Italian
-      String: Dai il campione a Kaiser
-    - Language: Japanese
-      String: カイザーにサンプルを渡す
-    - Language: Polish
-      String: Przekaż próbkę Kaiserowi
-    - Language: Portuguese_Brazil
-      String: Dê a amostra a Kaiser
-    - Language: ChineseSimplified
-      String: 把样本给凯撒
+    Value: Give the sample to Kaiser
   Targets:
   - AliasID: 2
 - Index: 480
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Sprich mit dem Team über deine Funde.
-    - Language: English
-      String: Discuss the findings with the team
-    - Language: Spanish
-      String: Debate los hallazgos con el equipo.
-    - Language: French
-      String: Discutez de vos découvertes avec l'équipe.
-    - Language: Italian
-      String: Discuti le tue scoperte con il resto della squadra
-    - Language: Japanese
-      String: 調査結果についてチームと話し合う
-    - Language: Polish
-      String: Omów odkrycia z zespołem
-    - Language: Portuguese_Brazil
-      String: Discuta as descobertas com a equipe
-    - Language: ChineseSimplified
-      String: 与队员交流发现
+    Value: Discuss the findings with the team
   Targets:
   - {}
 - Index: 490
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Folge Kaiser.
-    - Language: English
-      String: Follow Kaiser
-    - Language: Spanish
-      String: Sigue a Kaiser.
-    - Language: French
-      String: Suivez Kaiser.
-    - Language: Italian
-      String: Segui Kaiser
-    - Language: Japanese
-      String: カイザーについて行く
-    - Language: Polish
-      String: Podążaj za Kaiserem
-    - Language: Portuguese_Brazil
-      String: Siga Kaiser
-    - Language: ChineseSimplified
-      String: 跟随凯撒
+    Value: Follow Kaiser
   Targets:
   - AliasID: 2
 - Index: 500
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Stelle die Energie für die Zugangsluke des Raumhafens wieder her.
-    - Language: English
-      String: Restore power to the spaceport access hatch
-    - Language: Spanish
-      String: Restablece la corriente a la escotilla de acceso del espaciopuerto.
-    - Language: French
-      String: Rétablissez l'alimentation de la trappe d'accès du port spatial.
-    - Language: Italian
-      String: Ripristina l’energia del portello di accesso dello spazioporto
-    - Language: Japanese
-      String: 宇宙港のアクセスハッチの電力を復旧する
-    - Language: Polish
-      String: Przywróć zasilanie włazu dostępowego portu kosmicznego
-    - Language: Portuguese_Brazil
-      String: Reative a escotilha de acesso do espaçoporto
-    - Language: ChineseSimplified
-      String: 恢复太空港入口舱室的电力
+    Value: Restore power to the spaceport access hatch
   Targets:
   - AliasID: 41
 - Index: 507
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Initiiere den Systemneustart.
-    - Language: English
-      String: Initiate the system reboot
-    - Language: Spanish
-      String: Reinicia el sistema.
-    - Language: French
-      String: Lancez la réinitialisation du système.
-    - Language: Italian
-      String: Inizializza il riavvio di sistema
-    - Language: Japanese
-      String: システム再起動を開始する
-    - Language: Polish
-      String: Rozpocznij restart systemu
-    - Language: Portuguese_Brazil
-      String: Reinicie o sistema
-    - Language: ChineseSimplified
-      String: 使系统重启
+    Value: Initiate the system reboot
   Targets:
   - AliasID: 100
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 2062C3:Starfield.esm
@@ -5703,31 +4274,12 @@ Objectives:
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Höre dir die Aufnahme an.
-    - Language: English
-      String: Listen to the playback
-    - Language: Spanish
-      String: Escucha la grabación.
-    - Language: French
-      String: Écoutez l'enregistrement.
-    - Language: Italian
-      String: Ascolta il playback
-    - Language: Japanese
-      String: 再生内容を聞く
-    - Language: Polish
-      String: Odsłuchaj nagranie
-    - Language: Portuguese_Brazil
-      String: Ouça a gravação
-    - Language: ChineseSimplified
-      String: 收听回放
+    Value: Listen to the playback
   Targets:
   - AliasID: 46
     Conditions:
     - MutagenObjectType: ConditionFloat
       CompareOperator: GreaterThan
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetDistanceConditionData
         RunOnType: Reference
@@ -5739,155 +4291,46 @@ Objectives:
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Kehre zu Kaiser zurück.
-    - Language: English
-      String: Return to Kaiser
-    - Language: Spanish
-      String: Vuelve con Kaiser.
-    - Language: French
-      String: Retournez voir Kaiser.
-    - Language: Italian
-      String: Torna da Kaiser
-    - Language: Japanese
-      String: カイザーのところに戻る
-    - Language: Polish
-      String: Wróć do Kaisera
-    - Language: Portuguese_Brazil
-      String: Volte até Kaiser
-    - Language: ChineseSimplified
-      String: 回去找凯撒
+    Value: Return to Kaiser
   Targets:
   - AliasID: 2
 - Index: 515
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Finde die letzte Probe.
-    - Language: English
-      String: Find the final sample
-    - Language: Spanish
-      String: Encuentra la última muestra.
-    - Language: French
-      String: Trouvez le dernier échantillon.
-    - Language: Italian
-      String: Trova l’ultimo campione
-    - Language: Japanese
-      String: 最後のサンプルを見つける
-    - Language: Polish
-      String: Znajdź ostatnią próbkę
-    - Language: Portuguese_Brazil
-      String: Encontre a última amostra
-    - Language: ChineseSimplified
-      String: 找到最后的样本
+    Value: Find the final sample
   Targets:
   - AliasID: 111
 - Index: 525
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Sichere die letzte Probe.
-    - Language: English
-      String: Secure the final sample
-    - Language: Spanish
-      String: Protege la última muestra.
-    - Language: French
-      String: Sécurisez le dernier échantillon.
-    - Language: Italian
-      String: Metti al sicuro l’ultimo campione
-    - Language: Japanese
-      String: 最後のサンプルを確保する
-    - Language: Polish
-      String: Zabezpiecz ostatnią próbkę
-    - Language: Portuguese_Brazil
-      String: Obtenha a última amostra
-    - Language: ChineseSimplified
-      String: 获取最后的样本
+    Value: Secure the final sample
   Targets:
   - AliasID: 36
 - Index: 526
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: (Optional) Aktiviere die Radarantennen des Raumhafens.
-    - Language: English
-      String: (Optional) Power up the spaceport radar dishes
-    - Language: Spanish
-      String: (Opcional) Activa los radares del espaciopuerto.
-    - Language: French
-      String: (Optionnel) Rétablissez l'alimentation des antennes radar du port spatial.
-    - Language: Italian
-      String: (Opzionale) Attiva le antenne radar dello spazioporto
-    - Language: Japanese
-      String: (オプション)宇宙港のレーダーアンテナの電力を入れる
-    - Language: Polish
-      String: (Opcj.) Przywróć zasilanie talerzy radaru portu kosmicznego
-    - Language: Portuguese_Brazil
-      String: (Opc.) Ative as parabólicas de radar do espaçoporto
-    - Language: ChineseSimplified
-      String: （可选）给太空港雷达天线供电
+    Value: (Optional) Power up the spaceport radar dishes
   Targets:
   - AliasID: 110
 - Index: 530
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Sammle die letzte Probe ein.
-    - Language: English
-      String: Collect the final sample
-    - Language: Spanish
-      String: Recoge la última muestra.
-    - Language: French
-      String: Récupérez le dernier échantillon.
-    - Language: Italian
-      String: Raccogli l’ultimo campione
-    - Language: Japanese
-      String: 最後のサンプルを回収する
-    - Language: Polish
-      String: Zbierz ostatnią próbkę
-    - Language: Portuguese_Brazil
-      String: Colete a última amostra
-    - Language: ChineseSimplified
-      String: 收集最后的样本
+    Value: Collect the final sample
   Targets:
   - AliasID: 36
 - Index: 531
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Sichere die Probe der Anomalie.
-    - Language: English
-      String: Secure the Anomalous Sample
-    - Language: Spanish
-      String: Protege la muestra anómala.
-    - Language: French
-      String: Sécurisez l'échantillon anormal.
-    - Language: Italian
-      String: Metti al sicuro il campione anomalo
-    - Language: Japanese
-      String: 変異体のサンプルを確保する
-    - Language: Polish
-      String: Zabezpiecz anomalną próbkę
-    - Language: Portuguese_Brazil
-      String: Obtenha a amostra anômala
-    - Language: ChineseSimplified
-      String: 获取异常样本
+    Value: Secure the Anomalous Sample
   Targets:
   - AliasID: 2
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 2062C3:Starfield.esm
@@ -5896,106 +4339,33 @@ Objectives:
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Stelle die Energie in der Sicherheitskammer wieder her.
-    - Language: English
-      String: Restore power to the containment chamber
-    - Language: Spanish
-      String: Restablece la corriente de la cámara de contención.
-    - Language: French
-      String: Rétablissez l'alimentation de la salle de confinement.
-    - Language: Italian
-      String: Ripristina l’energia della cella di contenimento
-    - Language: Japanese
-      String: 格納庫の電力を復旧する
-    - Language: Polish
-      String: Przywróć zasilanie komory izolacyjnej
-    - Language: Portuguese_Brazil
-      String: Restaure a energia da câmara de contenção
-    - Language: ChineseSimplified
-      String: 恢复囚禁室的电力
+    Value: Restore power to the containment chamber
   Targets:
   - AliasID: 41
 - Index: 580
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Reaktiviere die Treibstofftanks.
-    - Language: English
-      String: Reactivate the fuel tanks
-    - Language: Spanish
-      String: Reactiva los depósitos de combustible.
-    - Language: French
-      String: Réactivez les réservoirs de carburant.
-    - Language: Italian
-      String: Riattiva i serbatoi di carburante
-    - Language: Japanese
-      String: 燃料タンクを再起動する
-    - Language: Polish
-      String: Aktywuj ponownie zbiorniki z paliwem
-    - Language: Portuguese_Brazil
-      String: Reative os tanques de combustível
-    - Language: ChineseSimplified
-      String: 重新激活燃料罐
+    Value: Reactivate the fuel tanks
   Targets:
   - AliasID: 44
 - Index: 590
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Kehre zu Hadrian zurück.
-    - Language: English
-      String: Return to Hadrian
-    - Language: Spanish
-      String: Vuelve con Hadrian.
-    - Language: French
-      String: Retournez voir Hadrian.
-    - Language: Italian
-      String: Torna da Hadrian
-    - Language: Japanese
-      String: ヘイドリアンのところに戻る
-    - Language: Polish
-      String: Wróć do Hadrian
-    - Language: Portuguese_Brazil
-      String: Volte até Hadrian
-    - Language: ChineseSimplified
-      String: 回去找哈德良
+    Value: Return to Hadrian
   Targets:
   - {}
 - Index: 610
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Höre dir die Aufnahme an.
-    - Language: English
-      String: Listen to the playback
-    - Language: Spanish
-      String: Escucha la grabación.
-    - Language: French
-      String: Écoutez l'enregistrement.
-    - Language: Italian
-      String: Ascolta il playback
-    - Language: Japanese
-      String: 再生内容を聞く
-    - Language: Polish
-      String: Odsłuchaj nagranie
-    - Language: Portuguese_Brazil
-      String: Ouça a gravação
-    - Language: ChineseSimplified
-      String: 收听回放
+    Value: Listen to the playback
   Targets:
   - AliasID: 46
     Conditions:
     - MutagenObjectType: ConditionFloat
       CompareOperator: GreaterThan
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetDistanceConditionData
         RunOnType: Reference
@@ -6007,167 +4377,56 @@ Objectives:
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Sammle die Aufnahme ein.
-    - Language: English
-      String: Collect the recording
-    - Language: Spanish
-      String: Coge la grabación.
-    - Language: French
-      String: Récupérez l'enregistrement.
-    - Language: Italian
-      String: Recupera la registrazione
-    - Language: Japanese
-      String: 記録を回収する
-    - Language: Polish
-      String: Zabierz nagranie
-    - Language: Portuguese_Brazil
-      String: Obtenha a gravação
-    - Language: ChineseSimplified
-      String: 收集记录
+    Value: Collect the recording
   Targets:
   - AliasID: 101
 - Index: 620
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Sprich mit Hadrian.
-    - Language: English
-      String: Speak to Hadrian
-    - Language: Spanish
-      String: Habla con Hadrian.
-    - Language: French
-      String: Parlez à Hadrian.
-    - Language: Italian
-      String: Parla con Hadrian
-    - Language: Japanese
-      String: ヘイドリアンと話す
-    - Language: Polish
-      String: Porozmawiaj z Hadrian
-    - Language: Portuguese_Brazil
-      String: Fale com Hadrian
-    - Language: ChineseSimplified
-      String: 与哈德良交谈
+    Value: Speak to Hadrian
   Targets:
   - {}
 - Index: 630
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Kehre zu Kaiser zurück.
-    - Language: English
-      String: Return to Kaiser
-    - Language: Spanish
-      String: Vuelve con Kaiser.
-    - Language: French
-      String: Retournez voir Kaiser.
-    - Language: Italian
-      String: Torna da Kaiser
-    - Language: Japanese
-      String: カイザーのところに戻る
-    - Language: Polish
-      String: Wróć do Kaisera
-    - Language: Portuguese_Brazil
-      String: Volte até Kaiser
-    - Language: ChineseSimplified
-      String: 回去找凯撒
+    Value: Return to Kaiser
   Targets:
   - AliasID: 2
 - Index: 650
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Sammle die letzte Probe ein.
-    - Language: English
-      String: Collect the final sample
-    - Language: Spanish
-      String: Recoge la última muestra.
-    - Language: French
-      String: Récupérez le dernier échantillon.
-    - Language: Italian
-      String: Raccogli l’ultimo campione
-    - Language: Japanese
-      String: 最後のサンプルを回収する
-    - Language: Polish
-      String: Zbierz ostatnią próbkę
-    - Language: Portuguese_Brazil
-      String: Colete a última amostra
-    - Language: ChineseSimplified
-      String: 收集最后的样本
+    Value: Collect the final sample
   Targets:
   - AliasID: 48
 - Index: 660
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Kehre zur Vorgeschobenen Basis 441 zurück.
-    - Language: English
-      String: Return to Forward Base 441
-    - Language: Spanish
-      String: Vuelve a la base avanzada 441.
-    - Language: French
-      String: Retournez à la base avancée 441.
-    - Language: Italian
-      String: Torna alla Base avanzata 441
-    - Language: Japanese
-      String: 前進基地441に戻る
-    - Language: Polish
-      String: Wróć do wysuniętej bazy 441
-    - Language: Portuguese_Brazil
-      String: Volte à Base Avançada 441
-    - Language: ChineseSimplified
-      String: 回到前线基地441
+    Value: Return to Forward Base 441
   Targets:
   - AliasID: 1
 - Index: 700
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Sprich über deine Funde.
-    - Language: English
-      String: Discuss your findings
-    - Language: Spanish
-      String: Debate tus hallazgos.
-    - Language: French
-      String: Présentez vos découvertes.
-    - Language: Italian
-      String: Discuti delle tue scoperte
-    - Language: Japanese
-      String: 調査結果について話し合う
-    - Language: Polish
-      String: Omów swoje odkrycia
-    - Language: Portuguese_Brazil
-      String: Discuta suas descobertas
-    - Language: ChineseSimplified
-      String: 讨论你的发现
+    Value: Discuss your findings
   Targets:
   - AliasID: 1
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 2062C3:Starfield.esm
         SecondParameter: 665
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 2062C3:Starfield.esm
         SecondParameter: 667
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 2062C3:Starfield.esm
@@ -6176,7 +4435,6 @@ Objectives:
     - MutagenObjectType: ConditionFloat
       Flags:
       - OR
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 2062C3:Starfield.esm
@@ -6185,7 +4443,6 @@ Objectives:
     - MutagenObjectType: ConditionFloat
       Flags:
       - OR
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 2062C3:Starfield.esm
@@ -6194,7 +4451,6 @@ Objectives:
     - MutagenObjectType: ConditionFloat
       Flags:
       - OR
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 2062C3:Starfield.esm
@@ -7433,4 +5689,3 @@ Aliases:
   Keywords:
   - 21B1FC:Starfield.esm
   VoiceTypes: Null
-Timestamp: 12497

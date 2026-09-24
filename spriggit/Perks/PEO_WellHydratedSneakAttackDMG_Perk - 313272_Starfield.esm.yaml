@@ -1,48 +1,12 @@
 FormKey: 313272:Starfield.esm
 EditorID: PEO_WellHydratedSneakAttackDMG_Perk
-FormVersion: 559
+FormVersion: 576
 Name:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: Schleichen
-  - Language: English
-    String: Stealth
-  - Language: Spanish
-    String: Sigilo
-  - Language: French
-    String: Furtivité
-  - Language: Italian
-    String: Furtività
-  - Language: Japanese
-    String: ステルス
-  - Language: Polish
-    String: Skradanie się
-  - Language: Portuguese_Brazil
-    String: Furtividade
-  - Language: ChineseSimplified
-    String: 潜行
+  Value: Stealth
 Description:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: Erhöhte Tarnung
-  - Language: English
-    String: Increased stealth
-  - Language: Spanish
-    String: Mayor sigilo
-  - Language: French
-    String: Furtivité accrue
-  - Language: Italian
-    String: Maggiore furtività
-  - Language: Japanese
-    String: ステルス性の向上
-  - Language: Polish
-    String: Zwiększona niewidzialność
-  - Language: Portuguese_Brazil
-    String: Maior furtividade
-  - Language: ChineseSimplified
-    String: 增加隐身性
+  Value: Increased stealth
 Flags:
 - PcPlayable
 PerkIcon: Patch_Physical_WeightLifting
@@ -53,17 +17,23 @@ Ranks:
     - Conditions:
       - MutagenObjectType: ConditionFloat
         CompareOperator: GreaterThanOrEqualTo
-        Unknown1: 0x000000
-        Unknown2: 16612
+        Unknown2: 16618
         Data:
           MutagenObjectType: GetGlobalValueConditionData
           FirstParameter: 31324C:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Unknown2: 16618
+        Data:
+          MutagenObjectType: HasMagicEffectConditionData
+          FirstParameter: 313260:Starfield.esm
         ComparisonValue: 1
     EntryPoint: ModSneakAttackMult
     PerkConditionTabCount: 3
     PerkEntryID: 3
     ActorValue: 2EDFE4:Starfield.esm
-    Value: 0.01
-    Modification: MultiplyOnePlusAVMult
+    Value: 1
+    Modification: MultiplyAVMult
   Description:
     TargetLanguage: English
+    Value: ''

@@ -1,6 +1,6 @@
 FormKey: 249C51:Starfield.esm
 EditorID: Drink_Alc_ChunksSingle_Chunks_CabernetChunkignon
-FormVersion: 559
+FormVersion: 576
 ObjectBounds:
   First: -0.03698723, -0.037590384, -0.0020918734
   Second: 0.03698738, 0.038154244, 0.062330734
@@ -11,25 +11,7 @@ Transforms:
   Workbench: 0664C5:Starfield.esm
 Name:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: Cabernet Kubignon
-  - Language: English
-    String: Cabernet Chunkignon
-  - Language: Spanish
-    String: Cabernet Chunkignon
-  - Language: French
-    String: Cabernet Crokignon
-  - Language: Italian
-    String: Cabernet Chunkignon
-  - Language: Japanese
-    String: カベルネ・チャンキニョン
-  - Language: Polish
-    String: Cabernet Chunkignon
-  - Language: Portuguese_Brazil
-    String: Cabernet Chunkignon
-  - Language: ChineseSimplified
-    String: 块餐赤霞珠
+  Value: Cabernet Chunkignon
 Keywords:
 - 055ECC:Starfield.esm
 - 249C5C:Starfield.esm
@@ -47,25 +29,7 @@ CraftingSound:
   Start: 35d54406-a8ad-3d76-0585-057058aa9faa
 Description:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: Ein edler synthetischer Wein in Würfelform.
-  - Language: English
-    String: A cube of synthetic fine wine.
-  - Language: Spanish
-    String: Un cubo de buen vino sintético.
-  - Language: French
-    String: Un cube de bon vin synthétique.
-  - Language: Italian
-    String: Un cubetto di pregevole vino sintetico.
-  - Language: Japanese
-    String: 合成された高級ワインのキューブ
-  - Language: Polish
-    String: Kostka syntetycznego, dobrego wina.
-  - Language: Portuguese_Brazil
-    String: Cubo de vinho fino sintético.
-  - Language: ChineseSimplified
-    String: 一块合成高级红酒。
+  Value: A cube of synthetic fine wine.
 Resources:
 - Resource: 29B02F:Starfield.esm
   Count: 1
@@ -78,6 +42,7 @@ ConsumeSound:
   Start: 520f488c-bade-0b56-bf24-a28b60aca3ba
 AddictionName:
   TargetLanguage: English
+  Value: ''
 Effects:
 - BaseEffect: 2D88C3:Starfield.esm
   Data:
@@ -112,18 +77,17 @@ Effects:
 - BaseEffect: 2EE936:Starfield.esm
   Data:
     Magnitude: 1
-    Duration: 1200
+    Duration: 1
   Conditions:
   - MutagenObjectType: ConditionFloat
     CompareOperator: GreaterThanOrEqualTo
-    Unknown1: 0x8D1400
-    Unknown2: 16650
+    Unknown2: 16658
     Data:
       MutagenObjectType: GetGlobalValueConditionData
       FirstParameter: 31324C:Starfield.esm
     ComparisonValue: 1
   Magnitude: 2EFD77:Starfield.esm
-  Duration: 313264:Starfield.esm
+  Duration: 2F0AD4:Starfield.esm
   EFIF: 0
   MUID: 5
 - BaseEffect: 2EE4B2:Starfield.esm

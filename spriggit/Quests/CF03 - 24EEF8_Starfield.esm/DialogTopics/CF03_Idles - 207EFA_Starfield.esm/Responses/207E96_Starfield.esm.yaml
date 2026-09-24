@@ -1,5 +1,5 @@
 FormKey: 207E96:Starfield.esm
-FormVersion: 559
+FormVersion: 576
 Flags:
   Flags:
   - Random
@@ -12,25 +12,7 @@ Responses:
   TRDAUnknown: 2
   Text:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Man muss hier doch irgendwie rauskommen, verdammt.
-    - Language: English
-      String: Sigh. There's got to be a way out of this goddamn place.
-    - Language: Spanish
-      String: Ay. Tiene que haber algún modo de salir de este maldito lugar.
-    - Language: French
-      String: Il doit bien y avoir un moyen de quitter cet enfer.
-    - Language: Italian
-      String: Uff. Dev’esserci un modo per uscire da questo maledetto posto.
-    - Language: Japanese
-      String: はあ。この忌々しい場所から出る方法を見つけねえと…
-    - Language: Polish
-      String: Ech... Musi być jakieś wyjście z tego przeklętego więzienia.
-    - Language: Portuguese_Brazil
-      String: Tem que ter um jeito de dar o fora desse maldito lugar.
-    - Language: ChineseSimplified
-      String: 哎。一定有其他能从这鬼地方出去的办法。
+    Value: Sigh. There's got to be a way out of this goddamn place.
   ScriptNotes: ''
   Edits: ''
   AlternateLipText: ''

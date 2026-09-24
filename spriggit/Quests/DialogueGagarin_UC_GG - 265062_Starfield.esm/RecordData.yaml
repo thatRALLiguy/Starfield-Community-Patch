@@ -1,56 +1,56 @@
 FormKey: 265062:Starfield.esm
 EditorID: DialogueGagarin_UC_GG
-FormVersion: 559
+FormVersion: 576
 VirtualMachineAdapter:
   Script:
     Name: Fragments:Quests:QF_DialogueGagarin_UC_GG_00265062
     Properties:
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_KealaPoster
-      Object: 265062:Starfield.esm
-      Alias: 27
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC_GG_Bet_Liquor
-      Object: 18A86B:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
       Name: Alias_LizziePoster
       Object: 265062:Starfield.esm
       Alias: 28
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Lawan
+      Object: 265062:Starfield.esm
+      Alias: 6
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_Dalitso
       Object: 265062:Starfield.esm
       Alias: 3
     - MutagenObjectType: ScriptObjectProperty
-      Name: BackgroundExplorer
-      Object: 22EC79:Starfield.esm
+      Name: UC_GG_Bet_Liquor
+      Object: 18A86B:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: City_GG_Bet
-      Object: 18BC55:Starfield.esm
+      Name: Alias_KealaPoster
+      Object: 265062:Starfield.esm
+      Alias: 27
     - MutagenObjectType: ScriptObjectProperty
       Name: UC_GG_Bet_PlayerNegotiatedBonus
       Object: 14EAA6:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Bonifac
-      Object: 265062:Starfield.esm
-      Alias: 0
+      Name: City_GG_Bet
+      Object: 18BC55:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: BackgroundExplorer
+      Object: 22EC79:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DialogueGagarin_GG_IntroScene_TakeTwo
+      Object: 15CF62:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_EllieYankton
       Object: 265062:Starfield.esm
       Alias: 25
     - MutagenObjectType: ScriptObjectProperty
-      Name: DialogueGagarin_GG_IntroScene_TakeTwo
-      Object: 15CF62:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: BackgroundHunter
-      Object: 22EC76:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
       Name: Alias_DalitsoPoster
       Object: 265062:Starfield.esm
       Alias: 26
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Lawan
+      Name: Alias_Bonifac
       Object: 265062:Starfield.esm
-      Alias: 6
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: BackgroundHunter
+      Object: 22EC76:Starfield.esm
   Fragments:
   - Stage: 2
     Unknown2: 1
@@ -121,25 +121,7 @@ VirtualMachineAdapter:
         Data: 10
 Name:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: '[Gagarin: Siedlungsdialog]'
-  - Language: English
-    String: '[Gagarin Settlement Dialogue]'
-  - Language: Spanish
-    String: '[Diálogo de asentamiento de Gagarin]'
-  - Language: French
-    String: '[Gagarin Settlement Dialogue]'
-  - Language: Italian
-    String: '[Dialogo insediamento Gagarin]'
-  - Language: Japanese
-    String: '[ガガーリン入植地の会話]'
-  - Language: Polish
-    String: '[Dialog z osiedla Gagarin]'
-  - Language: Portuguese_Brazil
-    String: '[Gagarin Settlement Dialogue]'
-  - Language: ChineseSimplified
-    String: '[加加林星定居点对话]'
+  Value: '[Gagarin Settlement Dialogue]'
 Data:
   Flags:
   - StartGameEnabled
@@ -621,4 +603,3 @@ Aliases:
     AliasID: 22
     RefType: 13776F:Starfield.esm
   VoiceTypes: Null
-Timestamp: 12497

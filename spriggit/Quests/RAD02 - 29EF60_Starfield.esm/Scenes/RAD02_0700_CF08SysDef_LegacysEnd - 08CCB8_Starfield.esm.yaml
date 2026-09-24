@@ -1,0 +1,222 @@
+FormKey: 08CCB8:Starfield.esm
+EditorID: RAD02_0700_CF08SysDef_LegacysEnd
+FormVersion: 576
+Flags:
+- Interruptable
+- DisableDialogueCamera
+- 0x2000
+Phases:
+- Name: ''
+  EditorWidth: 500
+- Name: ''
+  EditorWidth: 500
+- Name: 1st
+  EditorWidth: 500
+- Name: ''
+  EditorWidth: 500
+- Name: 2nd
+  EditorWidth: 500
+- Name: ''
+  EditorWidth: 500
+- Name: 3rd
+  EditorWidth: 500
+- Name: ''
+  EditorWidth: 500
+- Name: ''
+  StartConditions:
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: GreaterThanOrEqualTo
+    Unknown2: 16617
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      FirstParameter: 1829F7:Starfield.esm
+    ComparisonValue: 6
+  EditorWidth: 500
+- Name: ''
+  StartConditions:
+  - MutagenObjectType: ConditionFloat
+    Unknown2: 16617
+    Data:
+      MutagenObjectType: GetStageDoneConditionData
+      FirstParameter: 017CE8:Starfield.esm
+      SecondParameter: 2000
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: GreaterThanOrEqualTo
+    Unknown2: 16617
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      FirstParameter: 1829F7:Starfield.esm
+    ComparisonValue: 5
+  EditorWidth: 350
+  PhaseSetParentQuestStage:
+    OnBegin: 8000
+    OnEnd: -1
+Actors:
+- Flags:
+  - NoCommandState
+  BehaviorFlags:
+  - DeathEnd
+  - CombatEnd
+  - 0x100
+- ID: 4294967294
+  Flags:
+  - NoCommandState
+  BehaviorFlags:
+  - DeathEnd
+  - CombatEnd
+  - 0x100
+Actions:
+- MutagenObjectType: DialogueSceneAction
+  Name: ''
+  AliasID: -2
+  Index: 1
+  Flags: []
+  Topic: 08CDC2:Starfield.esm
+  LoopingMax: 10
+  LoopingMin: 1
+- MutagenObjectType: DialogueSceneAction
+  Name: ''
+  AliasID: 0
+  Index: 2
+  Flags: []
+  StartPhase: 1
+  EndPhase: 1
+  Topic: 08CDDF:Starfield.esm
+  LoopingMax: 10
+  LoopingMin: 1
+- MutagenObjectType: PlayerDialogueSceneAction
+  Name: ''
+  AliasID: 0
+  Index: 3
+  Flags: []
+  StartPhase: 2
+  EndPhase: 2
+  HNAM:
+    ReferenceAliasIDs:
+    - -2
+  DialogueTargetActor: 0
+  DialogueList:
+  - PlayerChoice: 08CDE4:Starfield.esm
+    NpcResponse: 08CDE5:Starfield.esm
+  - PlayerChoice: 08CDE6:Starfield.esm
+    NpcResponse: 08CDE7:Starfield.esm
+  - PlayerChoice: 08CDE8:Starfield.esm
+    NpcResponse: 08CDE9:Starfield.esm
+- MutagenObjectType: DialogueSceneAction
+  Name: ''
+  AliasID: 0
+  Index: 4
+  Flags: []
+  StartPhase: 3
+  EndPhase: 3
+  Topic: 08CDEA:Starfield.esm
+  LoopingMax: 10
+  LoopingMin: 1
+- MutagenObjectType: PlayerDialogueSceneAction
+  Name: ''
+  AliasID: 0
+  Index: 5
+  Flags: []
+  StartPhase: 4
+  EndPhase: 4
+  HNAM:
+    ReferenceAliasIDs:
+    - -2
+  DialogueTargetActor: 0
+  DialogueList:
+  - PlayerChoice: 08CDEB:Starfield.esm
+    NpcResponse: 08CDEC:Starfield.esm
+  - PlayerChoice: 08CDED:Starfield.esm
+    NpcResponse: 08CDEE:Starfield.esm
+  - PlayerChoice: 08CDEF:Starfield.esm
+    NpcResponse: 08CDF0:Starfield.esm
+- MutagenObjectType: DialogueSceneAction
+  Name: ''
+  AliasID: 0
+  Index: 6
+  Flags: []
+  StartPhase: 5
+  EndPhase: 5
+  Topic: 08CDF1:Starfield.esm
+  LoopingMax: 10
+  LoopingMin: 1
+- MutagenObjectType: PlayerDialogueSceneAction
+  Name: ''
+  AliasID: 0
+  Index: 7
+  Flags: []
+  StartPhase: 6
+  EndPhase: 6
+  HNAM:
+    ReferenceAliasIDs:
+    - -2
+  DialogueTargetActor: 0
+  DialogueList:
+  - PlayerChoice: 08CDF2:Starfield.esm
+    NpcResponse: 08CDF3:Starfield.esm
+  - PlayerChoice: 08CDF4:Starfield.esm
+    NpcResponse: 08CDF5:Starfield.esm
+  - PlayerChoice: 08CDF6:Starfield.esm
+    NpcResponse: 08CDF7:Starfield.esm
+  - PlayerChoice: 08CDF8:Starfield.esm
+    NpcResponse: 08CDF9:Starfield.esm
+- MutagenObjectType: DialogueSceneAction
+  Name: ''
+  AliasID: 0
+  Index: 8
+  Flags: []
+  StartPhase: 7
+  EndPhase: 7
+  Topic: 08CDFA:Starfield.esm
+  LoopingMax: 10
+  LoopingMin: 1
+- MutagenObjectType: StartSceneAction
+  Name: ''
+  AliasID: 0
+  Index: 9
+  Flags: []
+  StartPhase: 8
+  EndPhase: 8
+  StartScenes:
+  - LCEPScene: 08CCB9:Starfield.esm
+    StartPhaseForScene: INTRO
+    Conditions: []
+- MutagenObjectType: StartSceneAction
+  Name: ''
+  AliasID: 0
+  Index: 10
+  Flags: []
+  StartPhase: 9
+  EndPhase: 9
+  StartScenes:
+  - LCEPScene: 08CCB9:Starfield.esm
+    StartPhaseForScene: INTRO
+    Conditions: []
+Quest: 29EF60:Starfield.esm
+LastActionIndex: 10
+VNAM: 0x0300000003000000030000000300000003000000
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Unknown2: 12985
+  Data:
+    MutagenObjectType: GetStageDoneConditionData
+    FirstParameter: 29EF60:Starfield.esm
+    SecondParameter: 700
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Unknown2: 12985
+  Data:
+    MutagenObjectType: GetStageDoneConditionData
+    FirstParameter: 29EF60:Starfield.esm
+    SecondParameter: 799
+- MutagenObjectType: ConditionFloat
+  Unknown2: 12985
+  Data:
+    MutagenObjectType: GetIsIDConditionData
+    FirstParameter: 0124AC:Starfield.esm
+  ComparisonValue: 1
+Notes: This is a good story - Nadia is wowed by the player's action. The good guys scored a massive victory against the pirates. So a rare feel good story that Nadia is eager to cover (and really thankful to the player for their role).
+BOLV: '[]'
+Index: 0
+SCPI: 0x3200

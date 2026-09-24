@@ -1,5 +1,5 @@
 FormKey: 15DA47:Starfield.esm
-FormVersion: 559
+FormVersion: 576
 Flags:
   Flags:
   - Random
@@ -33,33 +33,14 @@ Responses:
     UnknownFloat: 2.2333333
   Text:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Steck doch bitte die Waffe weg. Du machst mich ganz nervös.
-    - Language: English
-      String: Want to put that weapon away, chief? You're making me nervous.
-    - Language: Spanish
-      String: ¿Quieres guardar el arma? Me estás poniendo de los nervios.
-    - Language: French
-      String: Vous voulez bien ranger votre arme ? Ça me stresse.
-    - Language: Italian
-      String: Ti spiace mettere via quell’arma, capo? Mi rendi nervoso.
-    - Language: Japanese
-      String: 武器をしまったらどうだ？ 不安にさせるなよ
-    - Language: Polish
-      String: Może tak schowasz tę broń, szefuniu? Trochę mnie stresujesz.
-    - Language: Portuguese_Brazil
-      String: Não quer guardar essa arma, chefia? Tá deixando os outros nervosos.
-    - Language: ChineseSimplified
-      String: 能把那武器放一边吗，长官？你弄得我有点紧张。
+    Value: Want to put that weapon away, chief? You're making me nervous.
   ScriptNotes: ''
   Edits: ''
   AlternateLipText: ''
   TextHash: 0x20E1B271E14CD701
 Conditions:
 - MutagenObjectType: ConditionFloat
-  Unknown1: 0x000000
-  Unknown2: 16493
+  Unknown2: 16617
   Data:
     MutagenObjectType: IsWeaponOutConditionData
     RunOnType: Reference

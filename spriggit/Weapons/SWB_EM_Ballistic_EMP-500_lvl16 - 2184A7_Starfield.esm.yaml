@@ -1,31 +1,13 @@
 FormKey: 2184A7:Starfield.esm
 MajorRecordFlagsRaw: 4
 EditorID: SWB_EM_Ballistic_EMP-500_lvl16
-FormVersion: 559
+FormVersion: 576
 StarfieldMajorRecordFlags:
 - NotPlayable
 ODTY: 0
 Name:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: Stochastischer Dämpfer EM-500
-  - Language: English
-    String: EMP-500 stochastic suppressor
-  - Language: Spanish
-    String: Supresor estocástico EMP-500
-  - Language: French
-    String: Silencieux stocha. EMP-500
-  - Language: Italian
-    String: Soppressore stocastico EMP-500
-  - Language: Japanese
-    String: EMP-500推計サプレッサー
-  - Language: Polish
-    String: Tłumik stochastyczny EMP-500
-  - Language: Portuguese_Brazil
-    String: Supr. estocástico EMP-500
-  - Language: ChineseSimplified
-    String: EMP-500随机抑制器
+  Value: EMP-500 stochastic suppressor
 Model:
   FLLD: 0x01000000
 EquipmentType: 000046:Starfield.esm
@@ -36,6 +18,7 @@ Keywords:
 - 249FB6:Starfield.esm
 Description:
   TargetLanguage: English
+  Value: ''
 EmbeddedWeaponMod: Null
 SightedTransitionSeconds: 0.25
 AimDownSightTemplate: 04B246:Starfield.esm
@@ -93,25 +76,7 @@ BaseSpeed: 1
 AttackOxygenCost: 90
 General:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: '[EM]'
-  - Language: English
-    String: EM
-  - Language: Spanish
-    String: EM
-  - Language: French
-    String: EM
-  - Language: Italian
-    String: EM
-  - Language: Japanese
-    String: EM
-  - Language: Polish
-    String: EM
-  - Language: Portuguese_Brazil
-    String: EM
-  - Language: ChineseSimplified
-    String: 电磁
+  Value: EM
 WMELUnknown1: 2
 MeleeReach: 1
 MeleeStagger: Medium

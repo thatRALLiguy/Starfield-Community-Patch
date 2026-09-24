@@ -1,6 +1,6 @@
 FormKey: 29B041:Starfield.esm
 EditorID: Drink_Alc_DrinkPack_Crafted_VeryHeavyWater
-FormVersion: 559
+FormVersion: 576
 ObjectBounds:
   First: -0.06793213, -0.034973145, -0.0027160645
   Second: 0.070739746, 0.03692627, 0.2163086
@@ -11,25 +11,7 @@ Transforms:
   Workbench: 03D201:Starfield.esm
 Name:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: Very Heavy Water
-  - Language: English
-    String: Very Heavy Water
-  - Language: Spanish
-    String: Agua muy pesada
-  - Language: French
-    String: Eau très lourde
-  - Language: Italian
-    String: Acqua Molto Pesante
-  - Language: Japanese
-    String: ベリーヘビーウォーター
-  - Language: Polish
-    String: Bardzo ciężka woda
-  - Language: Portuguese_Brazil
-    String: Água Bem Pesada
-  - Language: ChineseSimplified
-    String: 超重水
+  Value: Very Heavy Water
 Keywords:
 - 055ECC:Starfield.esm
 - 14253C:Starfield.esm
@@ -47,25 +29,7 @@ CraftingSound:
   Start: 580e474d-4c10-e197-848f-5a4632615aa7
 Description:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: Ein Cocktail aus verschiedenen harten Spirituosen und Softdrinks.
-  - Language: English
-    String: A mixed cocktail of several different hard liquors and various flavors of soda.
-  - Language: Spanish
-    String: Cóctel de varios licores fuertes y distintos sabores de soda.
-  - Language: French
-    String: Un cocktail mélangeant plusieurs alcools forts et divers parfums de soda.
-  - Language: Italian
-    String: Un cocktail di superalcolici e vari gusti di soda.
-  - Language: Japanese
-    String: 複数のハードリカーと様々な風味のソーダを混ぜたカクテル
-  - Language: Polish
-    String: Mieszany koktajl z paru rodzajów mocnych alkoholi i różnych smaków napojów gazowanych.
-  - Language: Portuguese_Brazil
-    String: Um coquetel feito com vários destilados diferentes e vários sabores de refrigerante.
-  - Language: ChineseSimplified
-    String: 由多种烈酒与不同口味的苏打水调制而成的混合鸡尾酒。
+  Value: A mixed cocktail of several different hard liquors and various flavors of soda.
 Weight: 0.3
 Value: 350
 Flags:
@@ -75,6 +39,7 @@ ConsumeSound:
   Start: abcc440c-55e5-bbd4-167f-b9ab79fae3b3
 AddictionName:
   TargetLanguage: English
+  Value: ''
 Effects:
 - BaseEffect: 1BF5AD:Starfield.esm
   Data:
@@ -111,18 +76,17 @@ Effects:
 - BaseEffect: 31325F:Starfield.esm
   Data:
     Magnitude: 1
-    Duration: 3600
+    Duration: 1
   Conditions:
   - MutagenObjectType: ConditionFloat
     CompareOperator: GreaterThanOrEqualTo
-    Unknown1: 0x8D1400
-    Unknown2: 16650
+    Unknown2: 16658
     Data:
       MutagenObjectType: GetGlobalValueConditionData
       FirstParameter: 31324C:Starfield.esm
     ComparisonValue: 1
   Magnitude: 2EFD79:Starfield.esm
-  Duration: 2EE14C:Starfield.esm
+  Duration: 2F0AD4:Starfield.esm
   EFIF: 0
   MUID: 5
 - BaseEffect: 25A8B5:Starfield.esm

@@ -1,6 +1,6 @@
 FormKey: 1FC858:Starfield.esm
 EditorID: UC09
-FormVersion: 559
+FormVersion: 576
 VirtualMachineAdapter:
   Scripts:
   - Name: uc09questscript
@@ -40,62 +40,88 @@ VirtualMachineAdapter:
     Name: Fragments:Quests:QF_UC09_001FC858
     Properties:
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Jakob
+      Name: Alias_HadriansShip_RHQ
       Object: 1FC858:Starfield.esm
-      Alias: 2
+      Alias: 33
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_Followers_UseFollowPlayerCustom
+      Object: 09C16D:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Abello
+      Object: 1FC858:Starfield.esm
+      Alias: 3
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC09_DebugMarker02
+      Object: 1F8749:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Hadrian
+      Object: 1FC858:Starfield.esm
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC09_LazarusPlantResult
+      Object: 11E0B1:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DialogueUCNewAtlantisUCFaction
+      Object: 2C5402:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_WantsToTalk_UnitedColonies_Cooldown
+      Object: 0CAC22:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC09_DebugMarker04
+      Object: 1F8747:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_ContinueAddressTrigger
+      Object: 1FC858:Starfield.esm
+      Alias: 21
     - MutagenObjectType: ScriptObjectProperty
       Name: Outfit_Clothes_Colonist_CroppedVest_Hadrian
       Object: 16ADAC:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: MQ305_UC_AcelesEnding
-      Object: 1F8191:Starfield.esm
+      Name: UC09_HadsMad
+      Object: 1A690E:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC09_DebugMarker01
+      Object: 1F874A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC09_DEBUG_SpeechChallenge
+      Object: 1F8745:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UCR05_Enabled
+      Object: 003567:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ActorShouldShowSpacesuitCosmetic_AV
+      Object: 0A73F8:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC_LoganKnowsPlayerLearnedOfVaeVictis
+      Object: 101B41:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_VVDoor
+      Object: 1FC858:Starfield.esm
+      Alias: 28
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC09_PlayerChoiceResult
+      Object: 24377D:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC01
+      Object: 2C5401:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_VVCellDoor
+      Object: 1FC858:Starfield.esm
+      Alias: 35
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC_PlayerMentionedVVToHadrian
+      Object: 1C538E:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_SS7_CompanionWaitTrigger
+      Object: 1FC858:Starfield.esm
+      Alias: 37
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_NPCsToDisable
       Object: 1FC858:Starfield.esm
       Alias: 23
     - MutagenObjectType: ScriptObjectProperty
-      Name: UC_LoganKnowsPlayerLearnedOfVaeVictis
-      Object: 101B41:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: BackgroundIndustrialist
-      Object: 22EC7A:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_VaeVictis
-      Object: 1FC858:Starfield.esm
-      Alias: 0
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_HadrianShip
-      Object: 1FC858:Starfield.esm
-      Alias: 22
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC_PlayerMentionedVVToHadrian
-      Object: 1C538E:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_AdmiralLogan
-      Object: 1FC858:Starfield.esm
-      Alias: 6
-    - MutagenObjectType: ScriptObjectProperty
-      Name: COM_WantsToTalkEvent_UnitedColonies
-      Object: 1E99A2:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC09_LazarusPlantResult
-      Object: 11E0B1:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC08_QueenBattle
-      Object: 03E832:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC01
-      Object: 2C5401:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_PostQuestSlate
-      Object: 1FC858:Starfield.esm
-      Alias: 31
-    - MutagenObjectType: ScriptObjectProperty
-      Name: ActorShouldShowSpacesuitCosmetic_AV
-      Object: 0A73F8:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC09_CleanUpLazarusPlant
-      Object: 1A2E9E:Starfield.esm
+      Name: DialogueUCFactionNewAtlantis
+      Object: 2C5402:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_ChiefYasin
       Object: 1FC858:Starfield.esm
@@ -104,152 +130,135 @@ VirtualMachineAdapter:
       Name: UC07_HadrianKnowsVVLives
       Object: 1F42E4:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: COM_WantsToTalk_CooldownDays
-      Object: 0507D8:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC09_TellFreestarAboutLazPlant
-      Object: 194A37:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC09_DEBUG_AdditionalUC05Variations
-      Object: 1F8744:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_SS7_CompanionWaitTrigger
-      Object: 1FC858:Starfield.esm
-      Alias: 37
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC09_DebugMarker03
-      Object: 1F8748:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: DialogueUCNewAtlantisUCFaction
-      Object: 2C5402:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_VVDoor
-      Object: 1FC858:Starfield.esm
-      Alias: 28
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ305_UC_SterilizationEnding
-      Object: 04A45D:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC09_DebugMarker01
-      Object: 1F874A:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_ContinueAddressTrigger
-      Object: 1FC858:Starfield.esm
-      Alias: 21
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC09_DebugMarker02
-      Object: 1F8749:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: SQ_Followers_UseFollowPlayerCustom
-      Object: 09C16D:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Outfit_Clothes_ScienceLabTec
-      Object: 3AD5B5:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: ActorShouldHideSpacesuitHelmetCosmeticBreathable_AV
-      Object: 0B120B:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UCR05_Enabled
-      Object: 003567:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC09_DebugMarker04
-      Object: 1F8747:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: BackgroundXenobiologist
-      Object: 22EC6E:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
       Name: Alias_FCObserverEnableMarker
       Object: 1FC858:Starfield.esm
       Alias: 15
     - MutagenObjectType: ScriptObjectProperty
-      Name: MQ305_UC_PlagueEnding
-      Object: 1F8197:Starfield.esm
+      Name: UC09_CleanUpLazarusPlant
+      Object: 1A2E9E:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: COM_WantsToTalk_UnitedColonies_Cooldown
-      Object: 0CAC22:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC05_HadrianSandboxing_PostUC05
-      Object: 20B7C0:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_SS7FloorManager
+      Name: Alias_AdmiralLogan
       Object: 1FC858:Starfield.esm
-      Alias: 29
+      Alias: 6
     - MutagenObjectType: ScriptObjectProperty
-      Name: UC09_HadsMad
-      Object: 1A690E:Starfield.esm
+      Name: COM_WantsToTalk_CooldownDays
+      Object: 0507D8:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC09_PostQuestline_HadrianScene
+      Object: 1A2F81:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC08_VV_AudioLog
+      Object: 085FB3:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_EmergencyRecording
       Object: 1FC858:Starfield.esm
       Alias: 25
     - MutagenObjectType: ScriptObjectProperty
-      Name: UC09_PlayerChoiceResult
-      Object: 24377D:Starfield.esm
+      Name: UC09_TellFreestarAboutLazPlant
+      Object: 194A37:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: UC08_AnomalyBattle
+      Name: UC08_QueenBattle
       Object: 03E832:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: UCR05_Bonus
-      Object: 19FF83:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_FB441MarineEnableMarker
-      Object: 1FC858:Starfield.esm
-      Alias: 13
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UC09_DEBUG_SpeakToTuala
-      Object: 1F8743:Starfield.esm
+      Name: MQ305_UC_SterilizationEnding
+      Object: 04A45D:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: UC09_DEBUG_ExpansionPoint
       Object: 1F9BCD:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: UC09_300_CabinetMainScene
-      Object: 1A6958:Starfield.esm
+      Name: DialogueRedDevilsHQ
+      Object: 1E7A0B:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: UC09_PostQuestline_HadrianScene
-      Object: 1A2F81:Starfield.esm
+      Name: Alias_ChiefSarkin
+      Object: 1FC858:Starfield.esm
+      Alias: 7
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Jakob
+      Object: 1FC858:Starfield.esm
+      Alias: 2
+    - MutagenObjectType: ScriptObjectProperty
+      Name: BackgroundXenobiologist
+      Object: 22EC6E:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_PostVVSceneTrigger
+      Object: 1FC858:Starfield.esm
+      Alias: 17
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ActorShouldHideSpacesuitHelmetCosmeticBreathable_AV
+      Object: 0B120B:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC09_DEBUG_SpeakToTuala
+      Object: 1F8743:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: BackgroundDiplomat
       Object: 22EC7B:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_LondinionDoors
-      Object: 1FC858:Starfield.esm
-      Alias: 20
+      Name: UC05_HadrianSandboxing_PostUC05
+      Object: 20B7C0:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: UC08_VV_AudioLog
-      Object: 085FB3:Starfield.esm
+      Name: Outfit_Clothes_ScienceLabTec
+      Object: 3AD5B5:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: UC09_DEBUG_SpeechChallenge
-      Object: 1F8745:Starfield.esm
+      Name: MQ305_UC_AcelesEnding
+      Object: 1F8191:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Abello
-      Object: 1FC858:Starfield.esm
-      Alias: 3
-    - MutagenObjectType: ScriptObjectProperty
-      Name: DialogueUCFactionNewAtlantis
-      Object: 2C5402:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_HadriansShip_RHQ
-      Object: 1FC858:Starfield.esm
-      Alias: 33
-    - MutagenObjectType: ScriptObjectProperty
-      Name: TraitEmpath
-      Object: 227FD6:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_VVCellDoor
-      Object: 1FC858:Starfield.esm
-      Alias: 35
-    - MutagenObjectType: ScriptObjectProperty
-      Name: DialogueRedDevilsHQ
-      Object: 1E7A0B:Starfield.esm
+      Name: COM_WantsToTalkEvent_UnitedColonies
+      Object: 1E99A2:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_ChiefKulkarni
       Object: 1FC858:Starfield.esm
       Alias: 5
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC09_300_CabinetMainScene
+      Object: 1A6958:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: UC02
       Object: 2B1808:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: UC09_Foreknowledge_VVCommittedTheAttacksAV
       Object: 0ADE06:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_LondinionDoors
+      Object: 1FC858:Starfield.esm
+      Alias: 20
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC09_DEBUG_AdditionalUC05Variations
+      Object: 1F8744:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: BackgroundIndustrialist
+      Object: 22EC7A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC08_AnomalyBattle
+      Object: 03E832:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_FB441MarineEnableMarker
+      Object: 1FC858:Starfield.esm
+      Alias: 13
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_SS7FloorManager
+      Object: 1FC858:Starfield.esm
+      Alias: 29
+    - MutagenObjectType: ScriptObjectProperty
+      Name: TraitEmpath
+      Object: 227FD6:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_HadrianShip
+      Object: 1FC858:Starfield.esm
+      Alias: 22
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_VaeVictis
+      Object: 1FC858:Starfield.esm
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UCR05_Bonus
+      Object: 19FF83:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ305_UC_PlagueEnding
+      Object: 1F8197:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_PostQuestSlate
+      Object: 1FC858:Starfield.esm
+      Alias: 31
     - MutagenObjectType: ScriptObjectListProperty
       Name: Alias_Companions
       Objects:
@@ -266,17 +275,8 @@ VirtualMachineAdapter:
         Object: 009E99:Starfield.esm
         Alias: 0
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_ChiefSarkin
-      Object: 1FC858:Starfield.esm
-      Alias: 7
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Hadrian
-      Object: 1FC858:Starfield.esm
-      Alias: 1
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_PostVVSceneTrigger
-      Object: 1FC858:Starfield.esm
-      Alias: 17
+      Name: UC09_DebugMarker03
+      Object: 1F8748:Starfield.esm
   Fragments:
   - Stage: 125
     Unknown2: 1
@@ -437,25 +437,7 @@ VirtualMachineAdapter:
         Data: 105
 Name:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: Das geschmiedete Vermächtnis
-  - Language: English
-    String: A Legacy Forged
-  - Language: Spanish
-    String: Un legado forjado
-  - Language: French
-    String: Forger son héritage
-  - Language: Italian
-    String: Una nuova eredità
-  - Language: Japanese
-    String: つくられた遺産
-  - Language: Polish
-    String: Pomnik trwalszy niż ze spiżu
-  - Language: Portuguese_Brazil
-    String: Legado Forjado
-  - Language: ChineseSimplified
-    String: 铸造遗产
+  Value: A Legacy Forged
 Data:
   Flags:
   - RunOnce
@@ -523,25 +505,7 @@ Stages:
     Note: 'P1: OBJ: Quest started!'
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: In Londinion fanden wir heraus, dass der Terrormorph-Angriff auf New Atlantis womöglich Absicht war. Und unsere einzige Spur führt zu Vae Victis. Ich sollte ihm auf den Zahn fühlen.
-      - Language: English
-        String: What we learned at Londinion suggests the Terrormorph attack on New Atlantis might've been intentional. Our only lead, though, is Vae Victis. I need to talk to him and find out what he might know.
-      - Language: Spanish
-        String: Por lo que averiguamos en Londinion, el ataque de los horromorfos de Nueva Atlántida podría haber sido intencionado. Sin embargo, nuestra única pista es Vae Victis. Tengo que hablar con él para descubrir qué sabe.
-      - Language: French
-        String: Ce que nous avons appris à Londinion laisse penser que l'attaque des horrimorphes à New Atlantis était peut-être intentionnelle. Mais notre seule piste est Vae Victis. Je dois lui parler et découvrir ce qu'il sait.
-      - Language: Italian
-        String: Stando a quello che abbiamo scoperto su Londinion, gli attacchi dei terrormorfi su Nuova Atlantide potrebbero essere stati intenzionali. L’unica pista che abbiamo, però, conduce a Vae Victis. Devo parlare con lui e scoprire cosa sa.
-      - Language: Japanese
-        String: ロンディニオンでの調査の結果、ニューアトランティスでのテラーモーフの襲撃は意図的に引き起こされたかもしれないことが示唆された。だが、唯一の手がかりはヴェイ・ヴィクティスだ。彼から知っていることを聞き出そう
-      - Language: Polish
-        String: Informacje zdobyte w Londinionie sugerują, że atak terrormorfów na Nową Atlantydę mógł być zaplanowany. Naszym jedynym tropem jest Vae Victis. Muszę z nim porozmawiać i ustalić, co wie na ten temat.
-      - Language: Portuguese_Brazil
-        String: O que descobrimos em Londinion sugere que o ataque de terrormorfo em Nova Atlântida pode ter sido intencional. Nossa única pista, no entanto, é Vae Victis. Preciso falar com ele para descobrir o que ele sabe.
-      - Language: ChineseSimplified
-        String: 从我们在隆蒂涅恩城了解到的情况来看，新亚特兰蒂斯城的骇变兽袭击事件很可能是有人策划的，但我们唯一的线索是瓦维刻提斯。我得找他谈谈，看看他知道些什么。
+      Value: What we learned at Londinion suggests the Terrormorph attack on New Atlantis might've been intentional. Our only lead, though, is Vae Victis. I need to talk to him and find out what he might know.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -736,25 +700,7 @@ Stages:
     Note: 'P1: OBJ: VV: Scene with VV complete. Direct the player to Hadrian and Jakob.'
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: 'Vae Victis hat gestanden. Um den Familiennamen Sanon zu läutern, organisierte er die Angriffe auf New Atlantis und Tau Ceti. Jetzt muss ich entscheiden: Soll ich Vae Victis als Täter preisgeben oder Reginald Orlase die Schuld zuschieben?'
-      - Language: English
-        String: 'I confronted Vae Victis and he confessed. He organized the attacks on New Atlantis and Tau Ceti as part of a plot to undo the damage done to the Sanon family name. But now, I have a choice: share the truth that Vae Victis is responsible or pin the blame on Reginald Orlase.'
-      - Language: Spanish
-        String: Me enfrenté a Vae Victis, quien confesó que organizó los ataques de Nueva Atlántida y Tau Ceti como parte de un plan para paliar el daño infligido al apellido Sanon. Ahora debo decidir si contar la verdad (que Vae Victis es el responsable) o echarle la culpa a Reginald Orlase.
-      - Language: French
-        String: "J'ai mis Vae Victis devant le fait accompli et il a avoué. C'est lui qui a organisé les attaques sur New Atlantis et Tau Ceti dans le cadre d'un complot pour effacer le déshonneur du nom de la famille Sanon. Le choix est entre mes mains : révéler que Vae Victis est seul responsable, ou accuser Reginald Orlase."
-      - Language: Italian
-        String: 'Ho parlato con Vae Victis e alla fine ha confessato. Gli attacchi su Nuova Atlantide e Tau Ceti servivano a rimediare ai danni arrecati al nome della famiglia Sanon. Tuttavia, ora sono dinanzi a una scelta: potrei dire la verità e puntare il dito contro Vae Victis oppure far ricadere ogni responsabilità su Reginald Orlase.'
-      - Language: Japanese
-        String: ヴェイ・ヴィクティスを問い詰めると白状した。サノン家に付いた汚名を返上するための計略の一環として、彼はニューアトランティスとタウ・セティへの攻撃を計画したそうだ。これで、どちらか選ばなくてはならない… ヴェイ・ヴィクティスが黒幕だという真実を公表するか、レジナルド・オーラスに罪を着せるか…
-      - Language: Polish
-        String: "Vae Victis przyznał się do wszystkiego. Zorganizował ataki na Nową Atlantydę i Tau Ceti w ramach planu przywrócenia rodzinie Sanon dobrego imienia. Stoję przed wyborem: mogę powiedzieć prawdę i ujawnić, że za wszystkim stał Vae Victis, lub zrzucić winę na Reginalda Orlase'a."
-      - Language: Portuguese_Brazil
-        String: 'Eu confrontei Vae Victis e ele confessou. Ele orquestrou os ataques em Nova Atlântida e Tau Ceti como parte de um plano para reparar o dano causado à reputação da família Sanon. Agora tenho uma escolha: dizer a verdade sobre o envolvimento de Vae Victis ou culpar Reginald Orlase.'
-      - Language: ChineseSimplified
-        String: 我与瓦维刻提斯对质，他向我坦白了。他说自己策划消除萨农家族名声的污点，作为计划的一部分，他组织了对新亚特兰蒂斯城和天仓五的袭击。现在，我有两个选择：要么把瓦维刻提斯的事公之于众；要么让雷金纳德·奥拉斯背黑锅。
+      Value: 'I confronted Vae Victis and he confessed. He organized the attacks on New Atlantis and Tau Ceti as part of a plot to undo the damage done to the Sanon family name. But now, I have a choice: share the truth that Vae Victis is responsible or pin the blame on Reginald Orlase.'
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -939,7 +885,6 @@ Stages:
     - MutagenObjectType: ConditionFloat
       Flags:
       - OR
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 1FC858:Starfield.esm
@@ -948,7 +893,6 @@ Stages:
     - MutagenObjectType: ConditionFloat
       Flags:
       - OR
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 1FC858:Starfield.esm
@@ -956,32 +900,13 @@ Stages:
       ComparisonValue: 1
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Ich habe Hadrian und Percival die Wahrheit gesagt. Vae Victis war für die Angriffe verantwortlich. Jetzt wird es Zeit, sich ans Kabinett zu wenden.
-      - Language: English
-        String: I've told Hadrian and Percival the truth - that Vae Victis is responsible for the attacks. Now it's time to address the Cabinet.
-      - Language: Spanish
-        String: 'Les dije la verdad a Hadrian y Percival: Vae Victis es el responsable de los ataques. Ya es hora de dirigirse al Gabinete.'
-      - Language: French
-        String: "J'ai dit la vérité à Hadrian et à Percival : c'est Vae Victis qui est derrière ces attaques. Il est temps désormais de nous exprimer devant le Cabinet."
-      - Language: Italian
-        String: Ho deciso di dire la verità... Ora, Hadrian e Percival sanno che il vero responsabile degli attacchi è Vae Victis. Non ci resta che rivolgerci al Gabinetto.
-      - Language: Japanese
-        String: ヘイドリアンとパーシバルに、攻撃の黒幕はヴェイ・ヴィクティスだと真実を告げた。さあ、内閣と話をするとしよう
-      - Language: Polish
-        String: Hadrian i Percival usłyszeli ode mnie prawdę - że to Vae Victis odpowiada za ataki. Teraz pora przemówić do rządu.
-      - Language: Portuguese_Brazil
-        String: 'Eu falei a verdade para Hadrian e Percival: disse que Vae Victis foi o responsável pelos ataques. Agora é hora de falar com o Gabinete.'
-      - Language: ChineseSimplified
-        String: 我向哈德良和奥拉斯说了实话，告诉他们是瓦维刻提斯策划了袭击。现在，我们该找内阁谈谈了。
+      Value: I've told Hadrian and Percival the truth - that Vae Victis is responsible for the attacks. Now it's time to address the Cabinet.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
   - Flags: []
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 1FC858:Starfield.esm
@@ -989,25 +914,7 @@ Stages:
       ComparisonValue: 1
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Ich habe Hadrian und Percival erzählt, dass Dr. Orlase für die Angriffe verantwortlich war, aber das war gelogen. Jetzt wird es Zeit, sich ans Kabinett zu wenden.
-      - Language: English
-        String: I lied to Hadrian and Percival and told them that Dr. Orlase was responsible for the attacks. Now, it's time we addressed the Cabinet.
-      - Language: Spanish
-        String: Mentí a Hadrian y Percival al decirles que el Dr. Orlase fue el responsable de los ataques. Ya es hora de dirigirnos al Gabinete.
-      - Language: French
-        String: J'ai menti à Hadrian et à Percival et je leur ai dit que le Dr Orlase était responsable des attaques. Il est temps désormais de nous exprimer devant le Cabinet.
-      - Language: Italian
-        String: Ho mentito ad Hadrian e Percival. Ho detto loro che il responsabile degli attacchi era il dott. Orlase. Ora dovremo rivolgerci al Gabinetto.
-      - Language: Japanese
-        String: ヘイドリアンとパーシバルに、攻撃の黒幕はオーラス博士だったと嘘をついた。さあ、内閣と話をするとしよう
-      - Language: Polish
-        String: Hadrian i Percival usłyszeli ode mnie kłamstwo - że to doktor Orlase był odpowiedzialny za ataki. Teraz pora przemówić do rządu.
-      - Language: Portuguese_Brazil
-        String: 'Eu menti para Hadrian e Percival: disse que o Dr. Orlase foi o responsável pelos ataques. Agora é hora de falar com o Gabinete.'
-      - Language: ChineseSimplified
-        String: 我向哈德良和奥拉斯说了谎，告诉他们是奥拉斯博士策划了袭击。现在，我们该找内阁谈谈了。
+      Value: I lied to Hadrian and Percival and told them that Dr. Orlase was responsible for the attacks. Now, it's time we addressed the Cabinet.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -1278,7 +1185,6 @@ Stages:
         BonusCredits: 1460FE:Starfield.esm
         Conditions:
         - MutagenObjectType: ConditionFloat
-          Unknown1: 0xE5E4A1
           Data:
             MutagenObjectType: HasPerkConditionData
             FirstParameter: 227FD4:Starfield.esm
@@ -1287,64 +1193,26 @@ Stages:
   - Flags: []
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0xE5E4A1
       Data:
         MutagenObjectType: GetGlobalValueConditionData
         FirstParameter: 24377D:Starfield.esm
       ComparisonValue: 1
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Die Entscheidung steht. Wir setzen die Aceles ein, um die Terrormorphs zu beseitigen. Und ich bin jetzt ein „Bürger der Klasse 1“ der United Colonies. Ich soll mir bei Commander Tuala meinen nächsten Auftrag abholen, und meine Belohnungen.
-      - Language: English
-        String: The decision has been made - we're deploying the Aceles to clean up the Terrormorphs - and I've been made a "Class One Citizen" of the United Colonies. I've been directed to speak to Commander Tuala to receive my next assignment - and my rewards.
-      - Language: Spanish
-        String: 'La decisión es firme: vamos a propagar los aceles para eliminar a los horromorfos. Ahora pertenezco a los “ciudadanos de clase Uno” de las Colonias Unidas. Me han ordenado que hable con el comandante Tuala para recibir mi próximo encargo, así como las recompensas.'
-      - Language: French
-        String: La décision a été prise. Nous allons déployer les aceles pour éliminer les horrimorphes, et on m'a accordé la citoyenneté de “classe 1” de l'Union coloniale. On m'a instruit d'aller voir le commandant Tuala pour recevoir ma prochaine mission ainsi que mes récompenses.
-      - Language: Italian
-        String: 'Ormai è deciso: schiereremo gli aceles per sbarazzarci dei terrormorfi... e io entrerò a far parte dei “Cittadini di Prim’ordine” dell’Unione Coloniale. Mi è stato detto di parlare con il comandante Tuala. Sarà lui a darmi il mio prossimo incarico... e le ricompense che mi spettano.'
-      - Language: Japanese
-        String: 決断が下された。アセレスを分散してテラーモーフを駆除する。そして、自分はコロニー連合の"クラス・ワン市民"に認定された。次の任務… そして次の報酬を受け取るために、トゥアラ司令官と話をするように指示されている
-      - Language: Polish
-        String: Decyzja zapadła - użyjemy aceli, aby pozbyć się terrormorfów. Nadano mi też tytuł „obywatela pierwszej klasy” Zjednoczonych Kolonii. Polecono mi porozmawiać z komandorem Tualą, który ma mi przydzielić kolejne zadanie i przekazać mi moją nagrodę.
-      - Language: Portuguese_Brazil
-        String: 'A decisão foi tomada: vamos usar os aceles para exterminar os terrormorfos. E agora me promoveram a “civil de primeira classe” da União das Colônias. Tenho que falar com o comandante Tuala para receber minha próxima missão. E minhas recompensas.'
-      - Language: ChineseSimplified
-        String: 我们最终决定，为了消灭骇变兽，我们将部署亚斯里兽；除此之外，我已成为联合殖民地“一级公民”。我接到指示，去找图阿拉指挥官谈话，接受我的下一个任务，还有我的奖励。
+      Value: The decision has been made - we're deploying the Aceles to clean up the Terrormorphs - and I've been made a "Class One Citizen" of the United Colonies. I've been directed to speak to Commander Tuala to receive my next assignment - and my rewards.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
   - Flags: []
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetGlobalValueConditionData
         FirstParameter: 24377D:Starfield.esm
       ComparisonValue: 2
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Die Entscheidung steht. Wir setzen die Mikrobe ein, um die Terrormorphs zu beseitigen. Und ich bin jetzt ein „Bürger der Klasse 1“ der United Colonies. Ich soll mir bei Commander Tuala meinen nächsten Auftrag abholen, und meine Belohnungen.
-      - Language: English
-        String: The decision has been made - we're deploying the microbe to clean up the Terrormorphs - and I've been made a "Class One Citizen" of the United Colonies. I've been directed to speak to Commander Tuala to receive my next assignment - and my rewards.
-      - Language: Spanish
-        String: 'La decisión es firme: vamos a propagar el microbio para eliminar a los horromorfos. Ahora pertenezco a los “ciudadanos de clase Uno” de las Colonias Unidas. Me han ordenado que hable con el comandante Tuala para recibir mi próximo encargo, así como las recompensas.'
-      - Language: French
-        String: La décision a été prise. Nous allons déployer le microbe pour éliminer les horrimorphes, et on m'a accordé la citoyenneté de “classe 1” de l'Union coloniale. On m'a instruit d'aller voir le commandant Tuala pour recevoir ma prochaine mission ainsi que mes récompenses.
-      - Language: Italian
-        String: 'Ormai è deciso: impiegheremo il microbo per sbarazzarci dei terrormorfi... e io entrerò a far parte dei “Cittadini di Prim’ordine” dell’Unione Coloniale. Mi è stato detto di parlare con il comandante Tuala. Sarà lui a darmi il mio prossimo incarico... e le ricompense che mi spettano.'
-      - Language: Japanese
-        String: 決断が下された。病原菌を分散してテラーモーフを駆除する。そして、自分はコロニー連合の"クラス・ワン市民"に認定された。次の任務… そして次の報酬を受け取るために、トゥアラ司令官と話をするように指示されている
-      - Language: Polish
-        String: Decyzja zapadła - użyjemy mikrobów, aby pozbyć się terrormorfów. Nadano mi też tytuł „obywatela pierwszej klasy” Zjednoczonych Kolonii. Polecono mi porozmawiać z komandorem Tualą, który ma mi przydzielić kolejne zadanie i przekazać mi moją nagrodę.
-      - Language: Portuguese_Brazil
-        String: 'A decisão foi tomada: vamos acionar o micróbio para exterminar os terrormorfos. E agora me promoveram a “civil de primeira classe” da União das Colônias. Tenho que falar com o comandante Tuala para receber minha próxima missão. E minhas recompensas.'
-      - Language: ChineseSimplified
-        String: 我们最终决定，为了消灭骇变兽，我们将部署微生物；除此之外，我已成为联合殖民地“一级公民”。我接到指示，去找图阿拉指挥官谈话，接受我的下一个任务，还有我的奖励。
+      Value: The decision has been made - we're deploying the microbe to clean up the Terrormorphs - and I've been made a "Class One Citizen" of the United Colonies. I've been directed to speak to Commander Tuala to receive my next assignment - and my rewards.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -1352,32 +1220,13 @@ Stages:
     Conditions:
     - MutagenObjectType: ConditionFloat
       CompareOperator: GreaterThan
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetGlobalValueConditionData
         FirstParameter: 24377D:Starfield.esm
       ComparisonValue: 2
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Die Entscheidung steht. Wir setzen die Mikrobe ein, um die Thermoparasiten und Terrormorphs zu sterilisieren. Und ich bin jetzt ein „Bürger der Klasse 1“ der United Colonies. Ich soll mir bei Commander Tuala meinen nächsten Auftrag abholen, und meine Belohnungen.
-      - Language: English
-        String: The decision has been made - we're deploying the microbe to sterilize the Heatleeches and Terrormorphs - and I've been made a "Class One Citizen" of the United Colonies. I've been directed to speak to Commander Tuala to receive my next assignment - and my rewards.
-      - Language: Spanish
-        String: 'La decisión es firme: vamos a propagar el microbio para esterilizar a las sanguijuelas térmicas y a los horromorfos. Ahora pertenezco a los “ciudadanos de clase Uno” de las Colonias Unidas. Me han ordenado que hable con el comandante Tuala para recibir mi próximo encargo, así como las recompensas.'
-      - Language: French
-        String: La décision a été prise. Nous allons déployer le microbe pour stériliser les calovores et les horrimorphes, et on m'a accordé la citoyenneté de “classe 1” de l'Union coloniale. On m'a instruit d'aller voir le commandant Tuala pour recevoir ma prochaine mission ainsi que mes récompenses.
-      - Language: Italian
-        String: 'Ormai è deciso: impiegheremo il microbo per sterilizzare succhiavita e terrormorfi... e io entrerò a far parte dei “Cittadini di Prim’ordine” dell’Unione Coloniale. Mi è stato detto di parlare con il comandante Tuala. Sarà lui a darmi il mio prossimo incarico... e le ricompense che mi spettano.'
-      - Language: Japanese
-        String: 決断が下された。病原菌を分散してヒートリーチとテラーモーフを駆除する。そして、自分はコロニー連合の"クラス・ワン市民"に認定された。次の任務… そして次の報酬を受け取るために、トゥアラ司令官と話をするように指示されている
-      - Language: Polish
-        String: Decyzja zapadła - użyjemy mikrobów, aby wysterylizować ciepłopijce i terrormorfy. Nadano mi też tytuł „obywatela pierwszej klasy” Zjednoczonych Kolonii. Polecono mi porozmawiać z komandorem Tualą, który ma mi przydzielić kolejne zadanie i przekazać mi moją nagrodę.
-      - Language: Portuguese_Brazil
-        String: 'A decisão foi tomada: vamos acionar o micróbio para esterilizar as termossugas e os terrormorfos. E agora me promoveram a “civil de primeira classe” da União das Colônias. Tenho que falar com o comandante Tuala para receber minha próxima missão. E minhas recompensas.'
-      - Language: ChineseSimplified
-        String: 我们最终决定，为了灭除热蛭与骇变兽，我们将部署微生物；除此之外，我已成为联合殖民地“一级公民”。我接到指示，去找图阿拉指挥官谈话，接受我的下一个任务，还有我的奖励。
+      Value: The decision has been made - we're deploying the microbe to sterilize the Heatleeches and Terrormorphs - and I've been made a "Class One Citizen" of the United Colonies. I've been directed to speak to Commander Tuala to receive my next assignment - and my rewards.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -1386,86 +1235,30 @@ Objectives:
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Sprich mit Vae Victis.
-    - Language: English
-      String: Speak to Vae Victis
-    - Language: Spanish
-      String: Habla con Vae Victis.
-    - Language: French
-      String: Parlez à Vae Victis.
-    - Language: Italian
-      String: Parla con Vae Victis
-    - Language: Japanese
-      String: ヴェイ・ヴィクティスと話す
-    - Language: Polish
-      String: Porozmawiaj z Vae Victisem
-    - Language: Portuguese_Brazil
-      String: Fale com Vae Victis
-    - Language: ChineseSimplified
-      String: 与瓦维刻提斯交谈
+    Value: Speak to Vae Victis
   Targets:
   - AliasID: 30
 - Index: 200
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Sprich mit Hadrian und Percival.
-    - Language: English
-      String: Speak to Hadrian and Percival
-    - Language: Spanish
-      String: Habla con Hadrian y Percival.
-    - Language: French
-      String: Parlez à Hadrian et Percival.
-    - Language: Italian
-      String: Parla con Hadrian e Percival
-    - Language: Japanese
-      String: ヘイドリアンとパーシバルと話す
-    - Language: Polish
-      String: Porozmawiaj z Hadrian i Percivalem
-    - Language: Portuguese_Brazil
-      String: Fale com Hadrian e Percival
-    - Language: ChineseSimplified
-      String: 与哈德良和珀西瓦里交谈
+    Value: Speak to Hadrian and Percival
   Targets:
   - AliasID: 1
 - Index: 300
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Wende dich an das Kabinett.
-    - Language: English
-      String: Address the Cabinet
-    - Language: Spanish
-      String: Dirígete al Gabinete.
-    - Language: French
-      String: Adressez-vous au Cabinet.
-    - Language: Italian
-      String: Rivolgiti al Gabinetto
-    - Language: Japanese
-      String: 内閣と話をする
-    - Language: Polish
-      String: Przemów do rządu
-    - Language: Portuguese_Brazil
-      String: Fale com o Gabinete
-    - Language: ChineseSimplified
-      String: 找内阁谈谈
+    Value: Address the Cabinet
   Targets:
   - AliasID: 8
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 1FC858:Starfield.esm
         SecondParameter: 499
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: IsInSceneConditionData
 Aliases:
@@ -1827,4 +1620,3 @@ Aliases:
     Quest: 2A567C:Starfield.esm
     AliasID: 25
   VoiceTypes: Null
-Timestamp: 12497

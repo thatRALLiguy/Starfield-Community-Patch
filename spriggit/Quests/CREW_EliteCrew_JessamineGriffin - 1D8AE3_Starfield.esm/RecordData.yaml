@@ -1,6 +1,6 @@
 FormKey: 1D8AE3:Starfield.esm
 EditorID: CREW_EliteCrew_JessamineGriffin
-FormVersion: 559
+FormVersion: 576
 VirtualMachineAdapter:
   Scripts:
   - Name: Crew_EliteCrewQuestScript
@@ -69,25 +69,7 @@ VirtualMachineAdapter:
     FragmentName: Fragment_Stage_0100_Item_01
 Name:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: Jessamine Griffin
-  - Language: English
-    String: Jessamine Griffin
-  - Language: Spanish
-    String: Jessamine Griffin
-  - Language: French
-    String: Jessamine Griffin
-  - Language: Italian
-    String: Jessamine Griffin
-  - Language: Japanese
-    String: ジェサミン・グリフィン
-  - Language: Polish
-    String: Jessamine Griffin
-  - Language: Portuguese_Brazil
-    String: Jessamine Griffin
-  - Language: ChineseSimplified
-    String: 杰萨敏·格弗林
+  Value: Jessamine Griffin
 Data:
   Flags:
   - RunOnce
@@ -98,8 +80,7 @@ TextDisplayGlobals:
 - 27072B:Starfield.esm
 DialogConditions:
 - MutagenObjectType: ConditionFloat
-  Unknown1: 0x8C1400
-  Unknown2: 16650
+  Unknown2: 16658
   Data:
     MutagenObjectType: GetIsIDConditionData
     FirstParameter: 1D8990:Starfield.esm
@@ -129,7 +110,6 @@ Stages:
   - Flags: []
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetIsCurrentLocationConditionData
         RunOnType: Reference
@@ -162,7 +142,6 @@ Stages:
   - Flags: []
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetInFactionConditionData
         RunOnType: QuestAlias
@@ -178,7 +157,6 @@ Stages:
   - Flags: []
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: HasPerkConditionData
         RunOnType: Reference
@@ -191,7 +169,6 @@ Stages:
   - Flags: []
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: HasPerkConditionData
         RunOnType: Reference
@@ -295,4 +272,3 @@ Aliases:
     Quest: 2A567D:Starfield.esm
     AliasID: 30
   VoiceTypes: Null
-Timestamp: 12497

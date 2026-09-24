@@ -1,6 +1,6 @@
 FormKey: 1EE0C8:Starfield.esm
 EditorID: RI05
-FormVersion: 559
+FormVersion: 576
 VirtualMachineAdapter:
   Scripts:
   - Name: defaultquestchangelocationscript
@@ -23,225 +23,75 @@ VirtualMachineAdapter:
     Name: Fragments:Quests:QF_RI05_001EE0C8
     Properties:
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_MaeveGuardFurniture
-      Object: 1EE0C8:Starfield.esm
-      Alias: 51
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Imogene
-      Object: 1EE0C8:Starfield.esm
-      Alias: 0
-    - MutagenObjectType: ScriptObjectProperty
-      Name: LC115SeokguhHideout
-      Object: 2C19AA:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: LC115SeokguhFaction
-      Object: 17E22F:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: LC044
-      Object: 22F264:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: LC044RyujinGuardCrimeFaction
-      Object: 22F214:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Ularu
-      Object: 1EE0C8:Starfield.esm
-      Alias: 3
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI05_Track_PlayerSidedWithUlaru
-      Object: 18B5EA:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_ImogeneOfficeQS
-      Object: 1EE0C8:Starfield.esm
-      Alias: 13
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Credits
-      Object: 00000F:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI05_Bayu_Credits
-      Object: 19B09A:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_YukoReturnQS
-      Object: 1EE0C8:Starfield.esm
-      Alias: 54
-    - MutagenObjectType: ScriptObjectProperty
-      Name: FactionRyujinIndustriesPerk
-      Object: 1C5152:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI05_Track_BayuFavorRefused
-      Object: 1EDF5C:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: LC115Location
-      Object: 2C184C:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RyujinIndustriesFaction
-      Object: 2C9BF9:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI05_1150_Companion_RespondToBayuDecisionScene
-      Object: 1EC6D9:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI05_KumihoSlate
-      Object: 1EDF69:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_MaeveSceneMarker
-      Object: 1EE0C8:Starfield.esm
-      Alias: 39
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI05_Track_BayuBypassed
-      Object: 1EDF5D:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI06
-      Object: 1A9560:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI05_Track_BayuPlayerKeptSlate
-      Object: 19F0CE:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_SyndicateGuard01
-      Object: 1EE0C8:Starfield.esm
-      Alias: 43
-    - MutagenObjectType: ScriptObjectProperty
-      Name: PlayerFaction
-      Object: 01C21C:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI05_ImogeneDead
-      Object: 1EDF5B:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_UlaruOfficeQS
-      Object: 1EE0C8:Starfield.esm
-      Alias: 40
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI05_Track_BayuDispleased
-      Object: 19F0CD:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI05_0600_Frankie_ForceGreetScene
-      Object: 19B084:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI_Support
-      Object: 2A8318:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Aggression
-      Object: 0002BC:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_FrankiesQS
-      Object: 1EE0C8:Starfield.esm
-      Alias: 33
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_YukoDoor
-      Object: 1EE0C8:Starfield.esm
-      Alias: 58
-    - MutagenObjectType: ScriptObjectProperty
       Name: Alias_MaeveGuard
       Object: 1EE0C8:Starfield.esm
       Alias: 52
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_SeokguhQS
-      Object: 1EE0C8:Starfield.esm
-      Alias: 21
+      Name: RI07_Foreknowledge_ImogeneInnocentAV
+      Object: 32F8DD:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: RI05_Track_PlayerSidedWithMasako
-      Object: 18B5E9:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_YukoStartMarker
-      Object: 1EE0C8:Starfield.esm
-      Alias: 61
-    - MutagenObjectType: ScriptObjectProperty
-      Name: LC115SeokguhTrespassFaction
-      Object: 17E225:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_EnableFriendlyAddsMarker
-      Object: 1EE0C8:Starfield.esm
-      Alias: 64
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI05_0550_Companion_ReactToRejectingBayuScene
-      Object: 1EC6DD:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Frankie
-      Object: 1EE0C8:Starfield.esm
-      Alias: 34
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI05_0800_Imogene_PlayerAddressScene
-      Object: 1EDF51:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Maeve
-      Object: 1EE0C8:Starfield.esm
-      Alias: 31
-    - MutagenObjectType: ScriptObjectProperty
-      Name: LC115
-      Object: 22F263:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI05_UlaruDead
-      Object: 19B08A:Starfield.esm
+      Name: RI05_Imogene_Credits
+      Object: 19B09B:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_YukoTravelMarker
       Object: 1EE0C8:Starfield.esm
       Alias: 23
     - MutagenObjectType: ScriptObjectProperty
-      Name: RI05_0100_Yuko_PlayerAddressScene
-      Object: 1EDF52:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_YukoReturnStartMarker
+      Name: Alias_YukoStartMarker
       Object: 1EE0C8:Starfield.esm
-      Alias: 49
+      Alias: 61
     - MutagenObjectType: ScriptObjectProperty
-      Name: PlayerEnemyFaction
-      Object: 106C2F:Starfield.esm
+      Name: RI05_Bayu_Credits
+      Object: 19B09A:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_FrankiesDoor
+      Name: RI05_0600_Frankie_ForceGreetScene
+      Object: 19B084:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_MaeveSceneMarker
       Object: 1EE0C8:Starfield.esm
-      Alias: 36
+      Alias: 39
     - MutagenObjectType: ScriptObjectProperty
-      Name: RI04
-      Object: 1FB85C:Starfield.esm
+      Name: FactionRyujinIndustriesPerk
+      Object: 1C5152:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: Artifact_GravImmune
-      Object: 12B50D:Starfield.esm
+      Name: RI05_SeokguhSyndicateHideoutKey
+      Object: 19B082:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: RI05_UlaruKeycard
-      Object: 19A33C:Starfield.esm
+      Name: RI05_0550_Compantion_ReactToDoingBayuFavorScene
+      Object: 1EC6DC:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: RI05_Frankie_LargeCredits
-      Object: 19A342:Starfield.esm
+      Name: LC044RyujinGuardCrimeFaction
+      Object: 22F214:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_KumihoSlate
       Object: 1EE0C8:Starfield.esm
       Alias: 17
     - MutagenObjectType: ScriptObjectProperty
-      Name: RI05_930_Companion_PlayerLetImogeneLiveScene
-      Object: 1EC6DA:Starfield.esm
+      Name: RI_Support
+      Object: 2A8318:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: RI05_1000_Ularu_ConfrontationPartIIScene
-      Object: 1008F7:Starfield.esm
+      Name: RI05_Track_BayuBypassed
+      Object: 1EDF5D:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: RI05_0550_Compantion_ReactToDoingBayuFavorScene
-      Object: 1EC6DC:Starfield.esm
+      Name: PlayerEnemyFaction
+      Object: 106C2F:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: DialogueFCNeon
-      Object: 22DAD6:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_SyndicateGuard02
+      Name: Alias_YukoReturnQS
       Object: 1EE0C8:Starfield.esm
-      Alias: 44
+      Alias: 54
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_ImogeneSeokguhQS
+      Name: RI05_UlaruDead
+      Object: 19B08A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_SeokguhQS
       Object: 1EE0C8:Starfield.esm
-      Alias: 16
+      Alias: 21
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Kumiho
-      Object: 1EE0C8:Starfield.esm
-      Alias: 6
+      Name: Aggression
+      Object: 0002BC:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_ImogeneEvidenceSlate
-      Object: 1EE0C8:Starfield.esm
-      Alias: 28
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_ImogeneMarker
-      Object: 1EE0C8:Starfield.esm
-      Alias: 15
-    - MutagenObjectType: ScriptObjectProperty
-      Name: RI05_ImogeneEvidenceSlate
-      Object: 1EDDDA:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: DialogueFCSeokguhSyndicateHideout_RI05
-      Object: 19F1C4:Starfield.esm
+      Name: RI05_Track_PlayerSidedWithUlaru
+      Object: 18B5EA:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_UlaruChairSwapEnableMarker
       Object: 1EE0C8:Starfield.esm
@@ -251,42 +101,192 @@ VirtualMachineAdapter:
       Object: 1EE0C8:Starfield.esm
       Alias: 38
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_ImogeneOfficeDoor
-      Object: 1EE0C8:Starfield.esm
-      Alias: 24
+      Name: LC115
+      Object: 22F263:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: RI07_Foreknowledge_ImogeneInnocentAV
-      Object: 32F8DD:Starfield.esm
+      Name: CrimeFactionNeon
+      Object: 26FDEA:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_DaltonOfficeQS
+      Name: RI05_Track_BayuFavorRefused
+      Object: 1EDF5C:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI05_0915_Companion_PlayerKilledImogeneScene
+      Object: 1EC6DB:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI05_Frankie_LargeCredits
+      Object: 19A342:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Kumiho
       Object: 1EE0C8:Starfield.esm
-      Alias: 14
+      Alias: 6
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Credits
+      Object: 00000F:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_SyndicateGuard01
+      Object: 1EE0C8:Starfield.esm
+      Alias: 43
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Frankie
+      Object: 1EE0C8:Starfield.esm
+      Alias: 34
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_YukoReturnStartMarker
+      Object: 1EE0C8:Starfield.esm
+      Alias: 49
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI05_Track_ImogeneSpared
+      Object: 1EDF5A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI05_0100_Yuko_PlayerAddressScene
+      Object: 1EDF52:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI05_Track_BayuPlayerKeptSlate
+      Object: 19F0CE:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_EnableFriendlyAddsMarker
+      Object: 1EE0C8:Starfield.esm
+      Alias: 64
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_YukoDoor
+      Object: 1EE0C8:Starfield.esm
+      Alias: 58
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LC044
+      Object: 22F264:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RyujinIndustriesFaction
+      Object: 2C9BF9:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_SyndicateGuard02
+      Object: 1EE0C8:Starfield.esm
+      Alias: 44
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_Yuko
       Object: 1EE0C8:Starfield.esm
       Alias: 7
     - MutagenObjectType: ScriptObjectProperty
-      Name: CrimeFactionNeon
-      Object: 26FDEA:Starfield.esm
+      Name: RI05_Track_BayuDispleased
+      Object: 19F0CD:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: RI05_Track_ImogeneSpared
-      Object: 1EDF5A:Starfield.esm
+      Name: Alias_DaltonOfficeQS
+      Object: 1EE0C8:Starfield.esm
+      Alias: 14
     - MutagenObjectType: ScriptObjectProperty
-      Name: RI05_Imogene_Credits
-      Object: 19B09B:Starfield.esm
+      Name: LC115SeokguhHideout
+      Object: 2C19AA:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: RI05_0915_Companion_PlayerKilledImogeneScene
-      Object: 1EC6DB:Starfield.esm
+      Name: Alias_Imogene
+      Object: 1EE0C8:Starfield.esm
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_MaeveGuardFurniture
+      Object: 1EE0C8:Starfield.esm
+      Alias: 51
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI05_UlaruKeycard
+      Object: 19A33C:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_ImogeneOfficeQS
+      Object: 1EE0C8:Starfield.esm
+      Alias: 13
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerFaction
+      Object: 01C21C:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI05_930_Companion_PlayerLetImogeneLiveScene
+      Object: 1EC6DA:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_ImogeneEvidenceSlate
+      Object: 1EE0C8:Starfield.esm
+      Alias: 28
     - MutagenObjectType: ScriptObjectProperty
       Name: RI05_LC115PreviouslyExplored
       Object: 052515:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Ularu
+      Object: 1EE0C8:Starfield.esm
+      Alias: 3
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI05_KumihoSlate
+      Object: 1EDF69:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_TradeTowerQS
       Object: 1EE0C8:Starfield.esm
       Alias: 27
     - MutagenObjectType: ScriptObjectProperty
-      Name: RI05_SeokguhSyndicateHideoutKey
-      Object: 19B082:Starfield.esm
+      Name: Alias_Maeve
+      Object: 1EE0C8:Starfield.esm
+      Alias: 31
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI05_1000_Ularu_ConfrontationPartIIScene
+      Object: 1008F7:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DialogueFCSeokguhSyndicateHideout_RI05
+      Object: 19F1C4:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_ImogeneSeokguhQS
+      Object: 1EE0C8:Starfield.esm
+      Alias: 16
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI05_0800_Imogene_PlayerAddressScene
+      Object: 1EDF51:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI05_ImogeneEvidenceSlate
+      Object: 1EDDDA:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI06
+      Object: 1A9560:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_UlaruOfficeQS
+      Object: 1EE0C8:Starfield.esm
+      Alias: 40
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DialogueFCNeon
+      Object: 22DAD6:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_ImogeneOfficeDoor
+      Object: 1EE0C8:Starfield.esm
+      Alias: 24
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Artifact_GravImmune
+      Object: 12B50D:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LC115SeokguhFaction
+      Object: 17E22F:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LC115SeokguhTrespassFaction
+      Object: 17E225:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI05_1150_Companion_RespondToBayuDecisionScene
+      Object: 1EC6D9:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI05_0550_Companion_ReactToRejectingBayuScene
+      Object: 1EC6DD:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_ImogeneMarker
+      Object: 1EE0C8:Starfield.esm
+      Alias: 15
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LC115Location
+      Object: 2C184C:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI05_ImogeneDead
+      Object: 1EDF5B:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI04
+      Object: 1FB85C:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_FrankiesDoor
+      Object: 1EE0C8:Starfield.esm
+      Alias: 36
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_FrankiesQS
+      Object: 1EE0C8:Starfield.esm
+      Alias: 33
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RI05_Track_PlayerSidedWithMasako
+      Object: 18B5E9:Starfield.esm
   Fragments:
   - Unknown2: 1
     ScriptName: Fragments:Quests:QF_RI05_001EE0C8
@@ -1005,25 +1005,7 @@ VirtualMachineAdapter:
         Data: 600
 Name:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: Die Schuldigen
-  - Language: English
-    String: Guilty Parties
-  - Language: Spanish
-    String: Culpables
-  - Language: French
-    String: Responsables coupables
-  - Language: Italian
-    String: Colpevoli
-  - Language: Japanese
-    String: 真犯人
-  - Language: Polish
-    String: Winowajcy
-  - Language: Portuguese_Brazil
-    String: Lados Culpados
-  - Language: ChineseSimplified
-    String: 有罪方
+  Value: Guilty Parties
 Data:
   Flags:
   - RunOnce
@@ -1236,25 +1218,7 @@ Stages:
     ScriptFlagComment: Set in Stage 10000 in RI04.
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Dalton will, dass ich Imogene finde und sie zum Verhör ins Büro bringe. Ich sollte in Imogenes Büro in der Operations-Abteilung nachsehen, ob sie dort ist.
-      - Language: English
-        String: Dalton wants me to find Imogene and bring her to his office for questioning. I should go to Imogene's office on the Operations floor and see if she's there.
-      - Language: Spanish
-        String: Dalton quiere que encuentre a Imogene y la lleve a su despacho para interrogarla. Debería ir al despacho de Imogene, en la planta de Operaciones, a ver si la encuentro allí.
-      - Language: French
-        String: Dalton veut que je trouve Imogene et que je la ramène pour qu'elle soit interrogée. Je devrais commencer par son bureau à l'étage des Opérations, pour voir si elle est là.
-      - Language: Italian
-        String: Dalton vuole che trovi Imogene e la porti nel suo ufficio per interrogarla. Dovrei andare nell’ufficio di Imogene al piano operativo e capire se si trova lì.
-      - Language: Japanese
-        String: イモジェンを見つけ出して尋問のために彼のオフィスに連れ帰るようダルトンに頼まれた。事業部のフロアにある彼女のオフィスに行って、いないか探してみよう
-      - Language: Polish
-        String: Dalton oczekuje ode mnie, że znajdę Imogene i sprowadzę ją do jego biura na przesłuchanie. Zajrzę do jej biura na piętrze działu operacyjnego. Może tam ją zastanę.
-      - Language: Portuguese_Brazil
-        String: Dalton quer que eu encontre Imogene e a leve até ele para ser interrogada. Tenho que ir até o escritório da Imogene no andar do departamento de operações e ver se ela está lá.
-      - Language: ChineseSimplified
-        String: 道尔顿想让我找到伊莫金，然后带回他的办公室审问她。我应该试试去伊莫金在运营楼层的办公室，看看她在不在。
+      Value: Dalton wants me to find Imogene and bring her to his office for questioning. I should go to Imogene's office on the Operations floor and see if she's there.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -1293,25 +1257,7 @@ Stages:
     ScriptFlagComment: Set in Scene RI05_0100_Yuko_PlayerAddressScene, RI05_0100_Yuko_AltIntroScene.
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Als ich mich im Büro von Imogene umsah, bemerkte Yuko, dass ich auf der Suche nach ihr bin. Ich sollte sie fragen, ob sie weiß, wo Imogene ist.
-      - Language: English
-        String: While looking for Imogene in her office, Yuko noticed I was searching for her. I should see if she knows where Imogene is.
-      - Language: Spanish
-        String: Al buscar a Imogene en su despacho, Yuko se percató de que andaba tras ella. Debería averiguar si ella sabe dónde está Imogene.
-      - Language: French
-        String: Alors que j'essayais de trouver Imogene dans son bureau, Yuko a remarqué que je la cherchais. Je devrais lui demander si elle sait où est Imogene.
-      - Language: Italian
-        String: Mentre cercavo Imogene nel suo ufficio, Yuko ha notato la mia presenza e ha capito che stavo cercando Imogene. Forse sa dove si trova.
-      - Language: Japanese
-        String: イモジェンのオフィスで彼女を探していると、ユウコに気づかれた。イモジェンの居場所を知っていないか彼女に聞いてみよう
-      - Language: Polish
-        String: Yuko zauważyła, że szukam Imogene w jej biurze. Warto z nią porozmawiać. Może wie, gdzie jest Imogene.
-      - Language: Portuguese_Brazil
-        String: Enquanto eu tentava encontrar Imogene em seu escritório, Yuko percebeu que eu a procurava. Talvez eu deva perguntar se ela sabe do paradeiro de Imogene.
-      - Language: ChineseSimplified
-        String: 我去伊莫金的办公室找她时，被裕子发现了。我应该问问她知不知道伊莫金在哪里。
+      Value: While looking for Imogene in her office, Yuko noticed I was searching for her. I should see if she knows where Imogene is.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -1359,25 +1305,7 @@ Stages:
     ScriptFlagComment: Set in Stage 399.
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Yuko meinte, Imogene wurde zuletzt bei Frankie's Grab & Go gesehen, doch sie meinte, ich soll zuerst mit Dalton reden, bevor ich dort nach ihr suche.
-      - Language: English
-        String: Yuko told me Imogene was last seen at Frankie's Grab & Go, but she strongly suggested I speak to Dalton before trying to find her.
-      - Language: Spanish
-        String: Yuko me dijo que habían visto a Imogene por última vez en Frankie's Grab & Go, pero me recomendó encarecidamente que hablase con Dalton antes de intentar encontrarla.
-      - Language: French
-        String: Yuko m'a dit qu'Imogene avait été vue pour la dernière fois à Frankie Market, mais elle m'a conseillé d'aller voir Dalton avant d'essayer de la trouver.
-      - Language: Italian
-        String: Yuko ha detto che Imogene è stata vista l’ultima volta al Frankie’s Grab & Go, ma mi ha consigliato caldamente di rivolgermi a Dalton prima di partire alla sua ricerca.
-      - Language: Japanese
-        String: ユウコはイモジェンが最後に目撃されたのはフランキーズ・グラブ・アンド・ゴーだと伝えてくれた。だが、彼女を見つける前にダルトンと話すべきだと強く促された
-      - Language: Polish
-        String: Yuko powiedziała mi, że Imogene ostatnio widziana była w lokalu Frankie's Grab & Go. Mocno radziła mi też rozmowę z Daltonem przed wyruszeniem na dalsze poszukiwania.
-      - Language: Portuguese_Brazil
-        String: Yuko me disse que Imogene foi vista pela última vez no Rango Rápido da Frankie, mas sugeriu veementemente que eu falasse com Dalton antes de tentar encontrá-la.
-      - Language: ChineseSimplified
-        String: 裕子告诉我，伊莫金最后出现在弗兰基杂货铺，但她强烈建议我在想办法找她之前先去和道尔顿谈谈。
+      Value: Yuko told me Imogene was last seen at Frankie's Grab & Go, but she strongly suggested I speak to Dalton before trying to find her.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -1432,7 +1360,6 @@ Stages:
   - Flags: []
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 1EE0C8:Starfield.esm
@@ -1441,32 +1368,13 @@ Stages:
     ScriptFlagComment: Set in Stage 399, 450.
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Dalton möchte, dass ich mit Benjamin Bayu rede, bevor ich bei Frankie's Grab & Go nach Imogene suche. Da Bayu Verbindungen zu Seokga hat und Frankie's zum Syndikat gehört, ist es wichtig, seine Zustimmung einzuholen.
-      - Language: English
-        String: Dalton wants me to speak to Benjamin Bayu before I enter Frankie's Grab & Go to find Imogene. Since Bayu has ties to the Seokguh Syndicate and Frankie's is Syndicate territory, it's important to get his approval.
-      - Language: Spanish
-        String: Dalton quiere que hable con Benjamin Bayu antes de entrar en Frankie's Grab & Go para buscar a Imogene. Dado que Bayu tiene vínculos con el Sindicato Seokguh, y Frankie's es territorio del Sindicato, es fundamental obtener su permiso.
-      - Language: French
-        String: Dalton veut que j'aille voir Benjamin Bayu avant de rentrer chez Frankie Market pour trouver Imogene. Comme Bayu a des liens avec le clan Seokguh, et que le magasin est sur le territoire du clan, il est important d'obtenir son accord.
-      - Language: Italian
-        String: Dalton vuole che parli con Benjamin Bayu prima di entrare al Frankie’s Grab & Go per cercare Imogene. Poiché Bayu ha dei legami col Clan Seokguh e il Frankie’s rientra nel territorio del Clan, è importante ottenere la sua approvazione.
-      - Language: Japanese
-        String: フランキーズ・グラブ・アンド・ゴーに入ってイモジェンを見つける前に、ベンジャミン・バユーと話すようダルトンに頼まれた。バユーはソッカ・シンジケートとつながっていて、フランキーズはソッカ・シンジケートの縄張りなので、彼の承認が必要だ
-      - Language: Polish
-        String: Dalton polecił mi porozmawianie z Benjaminem Bayu przed wkroczeniem do Frankie's Grab & Go w poszukiwaniu Imogene. Jako że Bayu jest powiązany z syndykatem Seokga, a Frankie's to ich terytorium, ważne jest uzyskanie jego zgody.
-      - Language: Portuguese_Brazil
-        String: Dalton quer que eu fale com Benjamin Bayu antes de ir ao Rango Rápido da Frankie para encontrar Imogene. Já que o Bayu está envolvido com o Sindicato Seokguh e o Rango é território do Sindicato, é importante obter autorização dele.
-      - Language: ChineseSimplified
-        String: 道尔顿想让我先去找本杰明·巴尤谈谈，然后再进入弗兰基杂货铺找伊莫金。因为巴尤和邪迦会有联系，而且弗兰基杂货铺是邪迦会的地盘，所以得到他的首肯很重要。
+      Value: Dalton wants me to speak to Benjamin Bayu before I enter Frankie's Grab & Go to find Imogene. Since Bayu has ties to the Seokguh Syndicate and Frankie's is Syndicate territory, it's important to get his approval.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
   - Flags: []
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 1EE0C8:Starfield.esm
@@ -1475,25 +1383,7 @@ Stages:
     Note: 'QO: Talk to Benjamin Bayu - Skipped Dalton'
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Yuko sagte, Imogene wurde zuletzt bei Frankie's Grab & Go gesehen. Sie meinte, ich soll Benjamin Bayu um Erlaubnis bitten, dort hinzugehen, weil Frankie's zugleich als Versteck für das Seokga-Syndikat dient.
-      - Language: English
-        String: Yuko told me Imogene was last seen at Frankie's Grab & Go. She strongly suggested I speak to Benjamin Bayu about getting permission to enter since Frankie's is a Seokguh Syndicate hideout.
-      - Language: Spanish
-        String: Yuko me dijo que habían visto a Imogene por última vez en Frankie's Grab & Go. Me recomendó encarecidamente que hablase con Benjamin Bayu para que me permitiera acceder, ya que es una guarida del Sindicato Seokguh.
-      - Language: French
-        String: Yuko m'a dit qu'Imogene avait été vue pour la dernière fois à Frankie Market. Elle m'a conseillé d'aller voir Benjamin Bayu pour qu'il m'autorise à rentrer, puisqu'il s'agit d'un repaire du clan Seokguh.
-      - Language: Italian
-        String: Yuko ha detto che Imogene è stata vista l’ultima volta al Frankie’s Grab & Go. Mi ha consigliato caldamente di farmi dare il permesso d’ingresso da Benjamin Bayu, dato che il Frankie è un covo del Clan Seokguh.
-      - Language: Japanese
-        String: ユウコはイモジェンが最後に目撃されたのはフランキーズ・グラブ・アンド・ゴーだと伝えてくれた。フランキーズはソッカ・シンジケートの隠れ家なので、ベンジャミン・バユーと話して中に入る許可をもらうべきだと彼女に強く促された
-      - Language: Polish
-        String: Yuko powiedziała mi, że Imogene ostatnio widziana była w lokalu Frankie's Grab & Go. Mocno radziła mi też rozmowę z Benjaminem Bayu w celu uzyskania pozwolenia na wkroczenie do Frankie's, bo lokal ten jest kryjówką syndykatu Seokga.
-      - Language: Portuguese_Brazil
-        String: Yuko me disse que Imogene foi vista pela última vez no Rango Rápido da Frankie. Ela sugeriu veementemente que eu pedisse a Benjamin Bayu para autorizar minha entrada, já que o Rango é um esconderijo do Sindicato Seokguh.
-      - Language: ChineseSimplified
-        String: 裕子告诉我，伊莫金最后出现在弗兰基杂货铺。她强烈建议我去找本杰明·巴尤谈谈获得进入许可的事情，毕竟弗兰基杂货铺是一个邪迦会藏身处。
+      Value: Yuko told me Imogene was last seen at Frankie's Grab & Go. She strongly suggested I speak to Benjamin Bayu about getting permission to enter since Frankie's is a Seokguh Syndicate hideout.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -1577,25 +1467,7 @@ Stages:
     ScriptFlagComment: Set in Scene RI05_0500_Bayu_IntroScene.
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Ich habe mich geweigert, Benjamin Bayu einen Gefallen zu tun, um das Versteck des Seokga-Syndikats betreten zu dürfen. Jetzt muss ich selbst einen Weg hinein finden und vorsichtig sein.
-      - Language: English
-        String: I refused to do Benjamin Bayu a favor to get permission to enter the Seokguh Syndicate's hideout. I'll need to to find a way inside on my own and be careful.
-      - Language: Spanish
-        String: Me he negado a hacerle un favor a Benjamin Bayu a cambio de conseguirme acceso a la guarida del Sindicato Seokguh. Tendré que buscar la forma de entrar por mi cuenta, y con mucho cuidado.
-      - Language: French
-        String: J'ai refusé d'aider Benjamin Bayu en échange de son autorisation d'entrer dans le repaire du clan Seokguh. Je dois trouver un moyen d'y entrer par moi-même et faire attention.
-      - Language: Italian
-        String: Ho rifiutato di fare un favore a Benjamin Bayu per ottenere il permesso di accedere al covo del Clan Seokguh. Dovrò trovare un modo per entrare in autonomia e con attenzione.
-      - Language: Japanese
-        String: ベンジャミン・バユーの頼みを聞くのを断ったので、ソッカ・シンジケートの隠れ家に入る許可を得られなかった。自力で入り、身を守る方法を探さなければ
-      - Language: Polish
-        String: Nie będę wyświadczać przysługi Benjaminowi Bayu, aby uzyskać dostęp do kryjówki syndykatu Seokga. Muszę znaleźć sposób na dostanie się tam, a także uważać na siebie.
-      - Language: Portuguese_Brazil
-        String: Me recusei a fazer um favor para Benjamin Bayu para obter permissão de entrar no esconderijo do Sindicato Seokguh. Vou ter que me virar para conseguir entrar lá e tomar cuidado.
-      - Language: ChineseSimplified
-        String: 我拒绝帮助本杰明·巴尤，所以没能取得进入邪迦会藏身处的权限。我得自己想法进去，而且得当心。
+      Value: I refused to do Benjamin Bayu a favor to get permission to enter the Seokguh Syndicate's hideout. I'll need to to find a way inside on my own and be careful.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -1607,25 +1479,7 @@ Stages:
     ScriptFlagComment: Set in Scene RI05_0500_Bayu_IntroScene.
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Ich habe mich geweigert, Benjamin Bayu einen Gefallen zu tun, um das Versteck des Seokga-Syndikats betreten zu dürfen. Jetzt muss ich selbst einen Weg hinein finden und vorsichtig sein.
-      - Language: English
-        String: I refused to do Benjamin Bayu a favor to get permission to enter the Seokguh Syndicate's hideout. I'll need to to find a way inside on my own and be careful.
-      - Language: Spanish
-        String: Me he negado a hacerle un favor a Benjamin Bayu a cambio de conseguirme acceso a la guarida del Sindicato Seokguh. Tendré que buscar la forma de entrar por mi cuenta, y con mucho cuidado.
-      - Language: French
-        String: J'ai refusé d'aider Benjamin Bayu en échange de son autorisation d'entrer dans le repaire du clan Seokguh. Je dois trouver un moyen d'y entrer par moi-même et faire attention.
-      - Language: Italian
-        String: Ho rifiutato di fare un favore a Benjamin Bayu per ottenere il permesso di accedere al covo del Clan Seokguh. Dovrò trovare un modo per entrare in autonomia e con attenzione.
-      - Language: Japanese
-        String: ベンジャミン・バユーの頼みを聞くのを断ったので、ソッカ・シンジケートの隠れ家に入る許可を得られなかった。自力で入り、身を守る方法を探さなければ
-      - Language: Polish
-        String: Nie będę wyświadczać przysługi Benjaminowi Bayu, aby uzyskać dostęp do kryjówki syndykatu Seokga. Muszę znaleźć sposób na dostanie się tam, a także uważać na siebie.
-      - Language: Portuguese_Brazil
-        String: Me recusei a fazer um favor para Benjamin Bayu para obter permissão de entrar no esconderijo do Sindicato Seokguh. Vou ter que me virar para conseguir entrar lá e tomar cuidado.
-      - Language: ChineseSimplified
-        String: 我拒绝帮助本杰明·巴尤，所以没能取得进入邪迦会藏身处的权限。我得自己想法进去，而且得当心。
+      Value: I refused to do Benjamin Bayu a favor to get permission to enter the Seokguh Syndicate's hideout. I'll need to to find a way inside on my own and be careful.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -1668,110 +1522,51 @@ Stages:
   - Flags: []
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Ich sollte Imogene bei Frankie's Grab & Go finden, das ebenfalls als Versteck für das Seokga-Syndikat dient.
-      - Language: English
-        String: I need to find Imogene at Frankie's Grab & Go which is also known to be a major Seokguh Syndicate hideout.
-      - Language: Spanish
-        String: Tengo que encontrar a Imogene en Frankie's Grab & Go, que también es conocido por ser una de las guaridas principales del Sindicato Seokguh.
-      - Language: French
-        String: Je dois trouver Imogene chez Frankie Market, qui est connu pour être un des principaux repaires du clan Seokguh.
-      - Language: Italian
-        String: Devo trovare Imogene al Frankie’s Grab & Go, noto anche come uno dei covi principali del Clan Seokguh.
-      - Language: Japanese
-        String: ソッカ・シンジケートの主要な隠れ家としても知られている、フランキーズ・グラブ・アンド・ゴーでイモジェンを見つける必要がある
-      - Language: Polish
-        String: Muszę odnaleźć Imogene w lokalu Frankie's Grab & Go, który jest też znaną kryjówką syndykatu Seokga.
-      - Language: Portuguese_Brazil
-        String: Preciso encontrar Imogene no Rango Rápido da Frankie, que também é conhecido por ser um esconderijo importante do Sindicato Seokguh.
-      - Language: ChineseSimplified
-        String: 我需要去弗兰基杂货铺寻找伊莫金，那里也是著名的邪迦会藏身处。
+      Value: I need to find Imogene at Frankie's Grab & Go which is also known to be a major Seokguh Syndicate hideout.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
   - Flags: []
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 1EE0C8:Starfield.esm
         SecondParameter: 400
       ComparisonValue: 1
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 1EE0C8:Starfield.esm
         SecondParameter: 450
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Yuko meinte, Imogene wurde zuletzt bei Frankie's Grab & Go gesehen, doch sie meinte, ich soll zuerst mit Dalton reden, bevor ich dort nach ihr suche.
-      - Language: English
-        String: Yuko told me Imogene was last seen at Frankie's Grab & Go, but she strongly suggested I speak to Dalton before trying to find her.
-      - Language: Spanish
-        String: Yuko me dijo que habían visto a Imogene por última vez en Frankie's Grab & Go, pero me recomendó encarecidamente que hablase con Dalton antes de intentar encontrarla.
-      - Language: French
-        String: Yuko m'a dit qu'Imogene avait été vue pour la dernière fois chez Frankie Market, mais elle m'a conseillé d'aller voir Dalton avant d'essayer de la trouver.
-      - Language: Italian
-        String: Yuko ha detto che Imogene è stata vista l’ultima volta al Frankie’s Grab & Go, ma mi ha consigliato caldamente di rivolgermi a Dalton prima di partire alla sua ricerca.
-      - Language: Japanese
-        String: ユウコはイモジェンが最後に目撃されたのはフランキーズ・グラブ・アンド・ゴーだと伝えてくれた。だが、彼女を見つける前にダルトンと話すべきだと強く促された
-      - Language: Polish
-        String: Yuko powiedziała mi, że Imogene była ostatnio widziana w lokalu Frankie's Grab & Go. Mocno radziła mi też rozmowę z Daltonem przed wyruszeniem na dalsze poszukiwania.
-      - Language: Portuguese_Brazil
-        String: Yuko me disse que Imogene foi vista pela última vez no Rango Rápido da Frankie, mas sugeriu veementemente que eu falasse com Dalton antes de tentar encontrá-la.
-      - Language: ChineseSimplified
-        String: 裕子告诉我，伊莫金最后出现在弗兰基杂货铺，但她强烈建议我在想办法找她之前先去和道尔顿谈谈。
+      Value: Yuko told me Imogene was last seen at Frankie's Grab & Go, but she strongly suggested I speak to Dalton before trying to find her.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
   - Flags: []
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 1EE0C8:Starfield.esm
         SecondParameter: 350
       ComparisonValue: 1
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 1EE0C8:Starfield.esm
         SecondParameter: 500
       ComparisonValue: 1
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 1EE0C8:Starfield.esm
         SecondParameter: 550
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Yuko sagte, Imogene wurde zuletzt bei Frankie's Grab & Go gesehen. Sie meinte, ich soll Benjamin Bayu um Erlaubnis bitten, dort hinzugehen, weil Frankie's zugleich als Versteck für das Seokga-Syndikat dient.
-      - Language: English
-        String: Yuko told me Imogene was last seen at Frankie's Grab & Go. She strongly suggested I speak to Benjamin Bayu about getting permission to enter since Frankie's is a Seokguh Syndicate hideout.
-      - Language: Spanish
-        String: Yuko me dijo que habían visto a Imogene por última vez en Frankie's Grab & Go. Me recomendó encarecidamente que hablase con Benjamin Bayu para que me permitiera acceder, ya que es una guarida del Sindicato Seokguh.
-      - Language: French
-        String: Yuko m'a dit qu'Imogene avait été vue pour la dernière fois chez Frankie Market. Elle m'a conseillé d'aller voir Benjamin Bayu pour qu'il m'autorise à rentrer, puisqu'il s'agit d'un repaire du clan Seokguh.
-      - Language: Italian
-        String: Yuko ha detto che Imogene è stata vista l’ultima volta al Frankie’s Grab & Go. Mi ha consigliato caldamente di farmi dare il permesso d’ingresso da Benjamin Bayu, dato che il Frankie’s è un covo del Clan Seokguh.
-      - Language: Japanese
-        String: ユウコはイモジェンが最後に目撃されたのはフランキーズ・グラブ・アンド・ゴーだと伝えてくれた。フランキーズはソッカ・シンジケートの隠れ家なので、ベンジャミン・バユーと話して中に入る許可をもらうべきだと彼女に強く促された
-      - Language: Polish
-        String: Yuko powiedziała mi, że Imogene była ostatnio widziana w lokalu Frankie's Grab & Go. Mocno radziła mi też rozmowę z Benjaminem Bayu w celu uzyskania pozwolenia na wkroczenie do Frankie's, bo lokal ten jest kryjówką syndykatu Seokga.
-      - Language: Portuguese_Brazil
-        String: Yuko me disse que Imogene foi vista pela última vez no Rango Rápido da Frankie. Ela sugeriu veementemente que eu pedisse a Benjamin Bayu para autorizar minha entrada, já que o Rango é um esconderijo do Sindicato Seokguh.
-      - Language: ChineseSimplified
-        String: 裕子告诉我，伊莫金最后出现在弗兰基杂货铺。她强烈建议我去找本杰明·巴尤谈谈获得进入许可的事情，毕竟弗兰基杂货铺是一个邪迦会藏身处。
+      Value: Yuko told me Imogene was last seen at Frankie's Grab & Go. She strongly suggested I speak to Benjamin Bayu about getting permission to enter since Frankie's is a Seokguh Syndicate hideout.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -1783,25 +1578,7 @@ Stages:
     ScriptFlagComment: Set in Stage 550.
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Mit Benjamin Bayus Genehmigung darf ich das Versteck des Seokga-Syndikats betreten. Jetzt sollte ich bei Frankie's Grab & Go mit Frankie reden, um hineinzugelangen und endlich Imogene zu finden.
-      - Language: English
-        String: I got Benjamin Bayu's approval to enter the Seokguh Syndicate hideout. I can head to Frankie's Grab & Go now and speak to Frankie herself about getting inside to finally find Imogene.
-      - Language: Spanish
-        String: Tengo el visto bueno de Benjamin Bayu para entrar en la guarida del Sindicato Seokguh. Ya puedo ir a Frankie's Grab & Go y hablar con la mismísima Frankie para que me deje acceder y así poder buscar a Imogene.
-      - Language: French
-        String: Benjamin Bayu m'a donné l'autorisation d'entrer dans le repaire du clan Seokguh. Je peux me rendre à Frankie Market et parler à Frankie pour qu'elle me fasse rentrer afin que je puisse trouver Imogene.
-      - Language: Italian
-        String: Benjamin Bayu mi ha dato il permesso di entrare nel covo del Clan Seokguh. Devo raggiungere il Frankie’s Grab & Go e convincere la stessa Frankie a farmi accedere al covo del Clan Seokguh per trovare finalmente Imogene.
-      - Language: Japanese
-        String: ベンジャミン・バユーにソッカ・シンジケートの隠れ家へ入ることを承認してもらった。フランキーズ・グラブ・アンド・ゴーに向かい、ようやくイモジェンを見つけられるようにフランキーと直接話をして中に入れてもらう必要がある
-      - Language: Polish
-        String: Udało mi się zdobyć zgodę Benjamina Bayu na wkroczenie do kryjówki syndykatu Seokga. Mogę ruszać do Frankie's Grab & Go i porozmawiać z właścicielką lokalu, aby wejść do środka i wreszcie odnaleźć Imogene.
-      - Language: Portuguese_Brazil
-        String: Consegui autorização de Benjamin Bayu para entrar no esconderijo do Sindicato Seokguh. Agora posso ir ao Rango Rápido da Frankie falar com a própria Frankie para obter acesso. Assim finalmente posso encontrar Imogene.
-      - Language: ChineseSimplified
-        String: 我得到了本杰明·巴尤的同意，能够进入邪迦会藏身处了。我现在可以去弗兰基杂货铺然后和弗兰基本人亲自谈谈，请她让我进去并得以找到伊莫金。
+      Value: I got Benjamin Bayu's approval to enter the Seokguh Syndicate hideout. I can head to Frankie's Grab & Go now and speak to Frankie herself about getting inside to finally find Imogene.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -1813,25 +1590,7 @@ Stages:
     ScriptFlagComment: Set in Scene RI05_0600_Frankie_ConfrontScene --OR-- Set in Script DefaultAliasOnTriggerEnter on Alias FrankiesTrigger.
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Ich bin bei Frankie's Grab & Go. Ich sollte mit Frankie sprechen, damit sie mir Zugang zum Versteck des Seokga-Syndikats gewährt, wo sich Imogene versteckt.
-      - Language: English
-        String: I made it to Frankie's Grab & Go. I need to speak to Frankie to gain access to the Seokguh Syndicate hideout to find Imogene.
-      - Language: Spanish
-        String: Llegué a Frankie's Grab & Go. Tengo que hablar con Frankie para que me deje acceder a la guarida del Sindicato Seokguh y así poder buscar a Imogene.
-      - Language: French
-        String: J'ai atteint Frankie Market. Je dois parler à Frankie pour qu'elle accepte de me laisser rentrer dans le repaire du clan Seokguh pour trouver Imogene.
-      - Language: Italian
-        String: Ho raggiunto il Frankie’s Grab & Go. Devo convincere Frankie a farmi dare l’accesso al covo del Clan Seokguh per trovare Imogene.
-      - Language: Japanese
-        String: フランキーズ・グラブ・アンド・ゴーに着いた。イモジェンを見つけるために、フランキーと話をしてソッカ・シンジケートの隠れ家への進入を許可してもらう必要がある
-      - Language: Polish
-        String: Jestem w Frankie's Grab & Go. Muszę porozmawiać z Frankie, aby uzyskać dostęp do kryjówki syndykatu Seokga i odnaleźć Imogene.
-      - Language: Portuguese_Brazil
-        String: Consegui chegar ao Rango Rápido da Frankie. Preciso falar com Frankie para obter acesso ao esconderijo do Sindicato Seokguh e encontrar Imogene.
-      - Language: ChineseSimplified
-        String: 我终于来到了弗兰基杂货铺，我需要和弗兰基谈谈，获得进入邪迦会藏身处的许可，才能找到伊莫金。
+      Value: I made it to Frankie's Grab & Go. I need to speak to Frankie to gain access to the Seokguh Syndicate hideout to find Imogene.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -1843,25 +1602,7 @@ Stages:
     ScriptFlagComment: Set in Scene RI05_0600_Frankie_IntroScene.
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Frank hat mir Zugang zum Versteck des Seokga-Syndikats gewährt. Endlich kann ich hinein.
-      - Language: English
-        String: Frankie gave me access to the Seokguh Syndicate's hideout so I can finally go inside.
-      - Language: Spanish
-        String: Frankie me permitió acceder a la guarida del Sindicato Seokguh, así que conseguí entrar por fin.
-      - Language: French
-        String: Frankie a accepté de me laisser rentrer dans le repaire du clan Seokguh.
-      - Language: Italian
-        String: Frankie mi ha dato accesso al covo del Clan Seokguh. Posso finalmente entrare.
-      - Language: Japanese
-        String: フランキーがソッカ・シンジケートの隠れ家への進入を許可してくれたので、ようやく中に入ることができる
-      - Language: Polish
-        String: Frankie dała mi dostęp do kryjówki syndykatu Seokga, więc wreszcie mogę wejść do środka.
-      - Language: Portuguese_Brazil
-        String: Frankie me deu acesso ao esconderijo do Sindicato Seokguh, e agora finalmente eu posso entrar.
-      - Language: ChineseSimplified
-        String: 弗兰基允许我前往邪迦会藏身处，我终于可以进去了。
+      Value: Frankie gave me access to the Seokguh Syndicate's hideout so I can finally go inside.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -1891,25 +1632,7 @@ Stages:
     ScriptFlagComment: Set in Stage 622 --OR-- Set in Scene RI05_0600_Frankie_ConfrontScene.
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Frank hat mir Zugang zum Versteck des Seokga-Syndikats gewährt. Endlich kann ich hinein.
-      - Language: English
-        String: Frankie gave me access to the Seokguh Syndicate's hideout so I can finally go inside.
-      - Language: Spanish
-        String: Frankie me permitió acceder a la guarida del Sindicato Seokguh, así que conseguí entrar por fin.
-      - Language: French
-        String: Frankie a accepté de me laisser rentrer dans le repaire du clan Seokguh.
-      - Language: Italian
-        String: Frankie mi ha dato accesso al covo del Clan Seokguh. Posso finalmente entrare.
-      - Language: Japanese
-        String: フランキーがソッカ・シンジケートの隠れ家への進入を許可してくれたので、ようやく中に入ることができる
-      - Language: Polish
-        String: Frankie dała mi dostęp do kryjówki syndykatu Seokga, więc wreszcie mogę wejść do środka.
-      - Language: Portuguese_Brazil
-        String: Frankie me deu acesso ao esconderijo do Sindicato Seokguh, e agora finalmente eu posso entrar.
-      - Language: ChineseSimplified
-        String: 弗兰基允许我前往邪迦会藏身处，我终于可以进去了。
+      Value: Frankie gave me access to the Seokguh Syndicate's hideout so I can finally go inside.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -1939,25 +1662,7 @@ Stages:
     ScriptFlagComment: Set in Stage 630.
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Frankie wollte mich nicht ins Versteck des Seokga-Syndikats lassen. Ich muss einen anderen Weg hinein finden.
-      - Language: English
-        String: Frankie wasn't about to let me into the Seokguh Syndicate hideout. I need to find another way to get inside.
-      - Language: Spanish
-        String: Frankie no me deja pasar a la guarida del Sindicato Seokguh. Tengo que encontrar otra forma de entrar.
-      - Language: French
-        String: Frankie refuse de me laisser entrer dans le repaire du clan Seokguh. Je vais devoir trouver un autre accès.
-      - Language: Italian
-        String: Frankie non ha intenzione di farmi accedere al covo del Clan Seokguh. Dovrò trovare un metodo d’ingresso alternativo.
-      - Language: Japanese
-        String: フランキーはソッカ・シンジケートの隠れ家に入れてくれる気はなかった。中に入るには他の方法を見つける必要がある
-      - Language: Polish
-        String: Frankie nie zamierza wpuścić mnie do kryjówki syndykatu Seokga. Muszę znaleźć jakąś inną drogę do środka.
-      - Language: Portuguese_Brazil
-        String: Frankie vetou minha entrada no esconderijo do Sindicato Seokguh. Preciso achar outro jeito de entrar.
-      - Language: ChineseSimplified
-        String: 弗兰基不打算让我进入邪迦会藏身处，我需要另想办法。
+      Value: Frankie wasn't about to let me into the Seokguh Syndicate hideout. I need to find another way to get inside.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -1987,25 +1692,7 @@ Stages:
     ScriptFlagComment: Set in Script DefaultQuestChangeLocationScript on Scripts tab.
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Endlich bin ich im Versteck des Seokga-Syndikats. Ich muss Imogene finden und sie zu Ryujin Industries zurückbringen, damit sie verhört werden kann.
-      - Language: English
-        String: I finally made it inside the Seokguh Syndicate hideout. I need to find Imogene and bring her back to Ryujin Industries for questioning.
-      - Language: Spanish
-        String: Por fin entré en la guarida del Sindicato Seokguh. Debo encontrar a Imogene y llevarla a Ryujin Industries para interrogarla.
-      - Language: French
-        String: J'ai réussi à pénétrer dans le repaire du clan Seokguh. Je dois trouver Imogene et la conduire à Ryujin Industries pour qu'elle soit interrogée.
-      - Language: Italian
-        String: Finalmente ho messo piede nel covo del Clan Seokguh. Devo trovare Imogene e riportarla alle Ryujin Industries per interrogarla.
-      - Language: Japanese
-        String: ようやくソッカ・シンジケートの隠れ家の内部に入り込めた。イモジェンを見つけ出して、尋問のためにリュウジン・インダストリーズに連れ帰る必要がある
-      - Language: Polish
-        String: Wreszcie udało mi się dostać do środka kryjówki syndykatu Seokga. Muszę znaleźć Imogene i doprowadzić ją do Ryujin Industries na przesłuchanie.
-      - Language: Portuguese_Brazil
-        String: Finalmente consegui entrar no esconderijo do Sindicato Seokguh. Preciso encontrar Imogene e levá-la de volta à Ryujin Industries para ser interrogada.
-      - Language: ChineseSimplified
-        String: 我终于进入了邪迦会藏身处，我需要找到伊莫金，然后把她带回龙神集团审问。
+      Value: I finally made it inside the Seokguh Syndicate hideout. I need to find Imogene and bring her back to Ryujin Industries for questioning.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -2116,25 +1803,7 @@ Stages:
     ScriptFlagComment: Set in Stage 660.
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Endlich bin ich im Versteck des Seokga-Syndikats. Ich muss Imogene finden und sie zu Ryujin Industries zurückbringen, damit sie verhört werden kann. Anschließend sollte ich für Verwalter Bayu Kumihos Slate ausfindig machen. Er hat mich vor ihr gewarnt, falls ich erwischt werde.
-      - Language: English
-        String: I finally made it inside the Seokguh Syndicate hideout. I need to find Imogene and bring her back to Ryujin Industries for questioning. Then I need to find Kumiho's slate for Administrator Bayu. He warned me she wouldn't be friendly if I got caught.
-      - Language: Spanish
-        String: Por fin entré en la guarida del Sindicato Seokguh. Debo encontrar a Imogene y llevarla a Ryujin Industries para interrogarla. Luego, tengo que encontrar la tábula de Kumiho para llevársela al administrador Bayu. Me advirtió que ella no se tomaría nada bien que me atraparan.
-      - Language: French
-        String: J'ai réussi à pénétrer dans le repaire du clan Seokguh. Je dois trouver Imogene et la conduire à Ryujin Industries pour qu'elle soit interrogée. Puis je devrai trouver la tablette de Kumiho pour l'administrateur Bayu. Il m'a dit qu'elle deviendrait hostile si je me faisais prendre.
-      - Language: Italian
-        String: Finalmente ho messo piede nel covo del Clan Seokguh. Devo trovare Imogene e riportarla alle Ryujin Industries per interrogarla. Devo anche recuperare la tabula di Kumiho per l’amministratore Bayu. Mi ha avvertito che non sarebbe stata amichevole, se mi avessero beccato.
-      - Language: Japanese
-        String: ようやくソッカ・シンジケートの隠れ家の内部に入り込めた。イモジェンを見つけ出して、尋問のためにリュウジン・インダストリーズに連れ帰る必要がある。その後はバユー行政官のためにクミホのスレートを見つけねばならない。もし捕まってしまったら、彼女は友好的には接してくれないだろうと彼に警告された
-      - Language: Polish
-        String: Wreszcie udało mi się dostać do środka kryjówki syndykatu Seokga. Muszę znaleźć Imogene i doprowadzić ją do Ryujin Industries na przesłuchanie. Następnie muszę znaleźć tabliczkę Kumiho dla administratora Bayu. Ostrzegł mnie, że Kumiho nie będzie przyjazna, jeśli dam się przyłapać.
-      - Language: Portuguese_Brazil
-        String: 'Finalmente consegui entrar no esconderijo do Sindicato Seokguh. Preciso encontrar Imogene e levá-la de volta à Ryujin Industries para ser interrogada. Depois tenho que encontrar o códice de Kumiho para o gestor Bayu. Ele me avisou: se me pegassem, ela não agiria de modo amigável.'
-      - Language: ChineseSimplified
-        String: 我终于进入了邪迦会藏身处，我需要找到伊莫金，然后把她带回龙神集团审问。之后我需要帮行政长官巴尤找到九尾的数据板，他警告我，如果我被抓住的话，她可不会客气。
+      Value: I finally made it inside the Seokguh Syndicate hideout. I need to find Imogene and bring her back to Ryujin Industries for questioning. Then I need to find Kumiho's slate for Administrator Bayu. He warned me she wouldn't be friendly if I got caught.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -2159,7 +1828,6 @@ Stages:
   - Flags: []
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 1EE0C8:Starfield.esm
@@ -2167,44 +1835,23 @@ Stages:
     Note: Quest Log
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Ich habe Kumihos Slate gefunden. Jetzt muss ich noch Imogene finden und sie zurückbringen, damit sie verhört werden kann.
-      - Language: English
-        String: I found Kumiho's slate. All I have left to do is now is find Imogene and bring her back for questioning.
-      - Language: Spanish
-        String: Encontré la tábula de Kumiho. Ahora solo me queda encontrar a Imogene y llevármela para que la interroguen.
-      - Language: French
-        String: J'ai trouvé la tablette de Kumiho. Il ne me reste plus qu'à trouver Imogene et la ramener pour qu'elle soit interrogée.
-      - Language: Italian
-        String: Ho trovato la tabula di Kumiho. Ora non mi resta che trovare Imogene e riportarla alla base per interrogarla.
-      - Language: Japanese
-        String: クミホのスレートを見つけた。後はイモジェンを見つけ出して、尋問のために連れ帰るだけだ
-      - Language: Polish
-        String: Mam tabliczkę Kumiho. Pozostało mi tylko odnalezienie Imogene i doprowadzenie jej na przesłuchanie.
-      - Language: Portuguese_Brazil
-        String: Encontrei o códice de Kumiho. Agora só tenho que encontrar Imogene e trazê-la de volta para um interrogatório.
-      - Language: ChineseSimplified
-        String: 我找到了九尾的数据板，唯一需要做的就是找到伊莫金，然后把她带回去审问。
+      Value: I found Kumiho's slate. All I have left to do is now is find Imogene and bring her back for questioning.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
   - Flags: []
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetGlobalValueConditionData
         FirstParameter: 1EDF5B:Starfield.esm
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 1EE0C8:Starfield.esm
         SecondParameter: 800
       ComparisonValue: 1
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 1EE0C8:Starfield.esm
@@ -2212,44 +1859,23 @@ Stages:
     Note: Quest Log
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Ich habe Kumihos Slate gefunden. Jetzt muss ich noch Imogene zur Rede stellen.
-      - Language: English
-        String: I found Kumiho's slate. All I have left to do is finish confronting Imogene.
-      - Language: Spanish
-        String: Encontré la tábula de Kumiho. Ahora solo me queda enfrentarme a Imogene de una vez por todas.
-      - Language: French
-        String: J'ai trouvé la tablette de Kumiho. Il ne me reste plus qu'à trouver Imogene.
-      - Language: Italian
-        String: Ho trovato la tabula di Kumiho. Ora non mi resta che affrontare Imogene.
-      - Language: Japanese
-        String: クミホのスレートを見つけた。後はイモジェンを問い詰めるだけだ
-      - Language: Polish
-        String: Mam tabliczkę Kumiho. Pozostało mi tylko zakończenie konfrontacji z Imogene.
-      - Language: Portuguese_Brazil
-        String: Encontrei o códice de Kumiho. Agora só tenho que terminar de confrontar Imogene.
-      - Language: ChineseSimplified
-        String: 我找到了九尾的数据板，唯一需要做的就是完成对伊莫金的质问。
+      Value: I found Kumiho's slate. All I have left to do is finish confronting Imogene.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
   - Flags: []
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 1EE0C8:Starfield.esm
         SecondParameter: 990
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetGlobalValueConditionData
         FirstParameter: 1EDF5B:Starfield.esm
       ComparisonValue: 1
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 1EE0C8:Starfield.esm
@@ -2258,25 +1884,7 @@ Stages:
     Note: Quest Log
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Ich habe Kumihos Slate gefunden. Jetzt muss ich noch Imogenes Leiche nach Beweisen durchsuchen, die ich Dalton zeigen kann.
-      - Language: English
-        String: I found Kumiho's slate. All I have left to do is search Imogene's body for any evidence I could bring to Dalton.
-      - Language: Spanish
-        String: Encontré la tábula de Kumiho. Ahora solo me queda registrar el cadáver de Imogene en busca de pruebas que pueda llevar a Dalton.
-      - Language: French
-        String: J'ai trouvé la tablette de Kumiho. Il ne me reste plus qu'à fouiller le cadavre d'Imogene à la recherche de preuves pour Dalton.
-      - Language: Italian
-        String: Ho trovato la tabula di Kumiho. Ora non mi resta che perquisire il cadavere di Imogene in cerca di prove da portare a Dalton.
-      - Language: Japanese
-        String: クミホのスレートを見つけた。後はイモジェンの死体からダルトンに引き渡せるような証拠を探し出すだけだ
-      - Language: Polish
-        String: Mam tabliczkę Kumiho. Pozostało mi tylko sprawdzenie, czy przy ciele Imogene są dowody, które zainteresowałyby Daltona.
-      - Language: Portuguese_Brazil
-        String: Encontrei o códice de Kumiho. Agora só tenho que revistar o corpo de Imogene em busca de evidências que eu possa entregar ao Dalton.
-      - Language: ChineseSimplified
-        String: 我找到了九尾的数据板，唯一需要做的就是搜索伊莫金的遗体，寻找任何可以交给道尔顿的证据。
+      Value: I found Kumiho's slate. All I have left to do is search Imogene's body for any evidence I could bring to Dalton.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -2288,7 +1896,6 @@ Stages:
     - MutagenObjectType: ConditionFloat
       Flags:
       - OR
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 1EE0C8:Starfield.esm
@@ -2296,7 +1903,6 @@ Stages:
     - MutagenObjectType: ConditionFloat
       Flags:
       - OR
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 1EE0C8:Starfield.esm
@@ -2306,39 +1912,19 @@ Stages:
     ScriptFlagComment: Set in Scene RI05_0800_Imogene_PlayerAddressScene.
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Ich habe Imogene im Versteck des Seokga-Syndikats gefunden. Ich muss sie wegen des Maulwurfs zur Rede stellen und sie dann zu Dalton bringen.
-      - Language: English
-        String: I found Imogene in the Seokguh Syndicate's hideout. I need to confront her about being the mole and bring her in to Dalton.
-      - Language: Spanish
-        String: Encontré a Imogene en la guarida del Sindicato Seokguh. Debo preguntarle si es el topo y llevarla con Dalton.
-      - Language: French
-        String: J'ai trouvé Imogene dans le repaire du clan Seokguh. Je dois découvrir si c'est bien elle la taupe et la conduire à Dalton.
-      - Language: Italian
-        String: Ho trovato Imogene, nel covo del Clan Seokguh. Devo scoprire se è davvero la talpa e riportarla da Dalton.
-      - Language: Japanese
-        String: イモジェンをソッカ・シンジケートの隠れ家で見つけた。内通者だったことについて彼女を問い詰めて、ダルトンのもとへ連行する必要がある
-      - Language: Polish
-        String: Udało mi się znaleźć Imogene w kryjówce syndykatu Seokga. Muszę skonfrontować się z nią i doprowadzić ją do Daltona.
-      - Language: Portuguese_Brazil
-        String: Encontrei Imogene no esconderijo do Sindicato Seokguh. Preciso confrontá-la sobre o fato de ela ser a informante e levá-la até o Dalton.
-      - Language: ChineseSimplified
-        String: 我在邪迦会藏身处找到了伊莫金，我需要质问她内鬼的事情，并带她回去见道尔顿。
+      Value: I found Imogene in the Seokguh Syndicate's hideout. I need to confront her about being the mole and bring her in to Dalton.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
   - Flags: []
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 1EE0C8:Starfield.esm
         SecondParameter: 700
       ComparisonValue: 1
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 1EE0C8:Starfield.esm
@@ -2346,25 +1932,7 @@ Stages:
     Note: 'QO: Confront Imogene - With Kumiho objective'
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Ich habe Imogene im Versteck des Seokga-Syndikats gefunden. Ich muss sie wegen des Maulwurfs zur Rede stellen und sie dann zu Dalton bringen. Anschließend sollte ich für Benjamin Bayu Kumihos Slate ausfindig machen.
-      - Language: English
-        String: I found Imogene in the Seokguh Syndicate's hideout. I need to confront her about being the mole and bring her in to Dalton. Then I need to find Kumiho's slate for Benjamin Bayu.
-      - Language: Spanish
-        String: Encontré a Imogene en la guarida del Sindicato Seokguh. Debo preguntarle si es el topo y llevarla con Dalton. Luego, tengo que encontrar la tábula de Kumiho para llevársela a Benjamin Bayu.
-      - Language: French
-        String: J'ai trouvé Imogene dans le repaire du clan Seokguh. Je dois découvrir si c'est bien elle la taupe et la conduire à Dalton. Puis je devrai trouver la tablette de Kumiho pour Benjamin Bayu.
-      - Language: Italian
-        String: Ho trovato Imogene, nel covo del Clan Seokguh. Devo scoprire se è davvero la talpa e riportarla da Dalton. E devo anche recuperare la tabula di Kumiho per Benjamin Bayu.
-      - Language: Japanese
-        String: イモジェンをソッカ・シンジケートの隠れ家で見つけた。内通者だったことについて彼女を問い詰めて、ダルトンのもとへ連行する必要がある。その後、ベンジャミン・バユーのためにクミホのスレートを見つけよう
-      - Language: Polish
-        String: Udało mi się znaleźć Imogene w kryjówce syndykatu Seokga. Muszę skonfrontować się z nią i doprowadzić ją do Daltona. Później muszę znaleźć tabliczkę Kumiho dla Benjamina Bayu.
-      - Language: Portuguese_Brazil
-        String: Encontrei Imogene no esconderijo do Sindicato Seokguh. Preciso confrontá-la sobre o fato de ela ser a informante e levá-la até o Dalton. Depois tenho que encontrar o códice de Kumiho para Benjamin Bayu.
-      - Language: ChineseSimplified
-        String: 我在邪迦会藏身处找到了伊莫金，我需要质问她内鬼的事情，并带她回去见道尔顿。之后我需要帮本杰明·巴尤找到九尾的数据板。
+      Value: I found Imogene in the Seokguh Syndicate's hideout. I need to confront her about being the mole and bring her in to Dalton. Then I need to find Kumiho's slate for Benjamin Bayu.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -2412,7 +1980,6 @@ Stages:
     - MutagenObjectType: ConditionFloat
       Flags:
       - OR
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 1EE0C8:Starfield.esm
@@ -2420,7 +1987,6 @@ Stages:
     - MutagenObjectType: ConditionFloat
       Flags:
       - OR
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 1EE0C8:Starfield.esm
@@ -2430,39 +1996,19 @@ Stages:
     ScriptFlagComment: Set in Scene RI05_0800_Imogene_ConfrontationScene --OR-- Set in Scene RI05_0900_Imogene_PlayerChoiceScene.
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Imogene beteuert ihre Unschuld, will aber nicht mit mir zurückkommen. Soll ich ihr vertrauen oder sie töten?
-      - Language: English
-        String: Imogene claims she's innocent but will not return with me. I either need to trust her or kill her.
-      - Language: Spanish
-        String: Imogene dice que es inocente, pero no quiere acompañarme. Debo decidir si confiar en ella o matarla.
-      - Language: French
-        String: Imogene prétend être innocente, mais refuse de venir avec moi. Je dois lui faire confiance, ou la tuer.
-      - Language: Italian
-        String: Imogene sostiene di essere innocente, ma non vuole rientrare alla base con me. Non mi resta che fidarmi di lei o eliminarla.
-      - Language: Japanese
-        String: イモジェンは無実を主張しているが、一緒には戻ろうとしない。彼女を信頼するか、殺害するか二つに一つだ
-      - Language: Polish
-        String: Imogene twierdzi, że jest niewinna, ale nie zamierza ze mną wrócić. Muszę jej zaufać lub ją zabić.
-      - Language: Portuguese_Brazil
-        String: Imogene afirma ser inocente, mas não vai voltar comigo. Ou eu confio no que ela diz ou eu mato ela.
-      - Language: ChineseSimplified
-        String: 伊莫金声称自己是无辜的，但是不会跟我回去，我只能选择相信她或者是杀了她。
+      Value: Imogene claims she's innocent but will not return with me. I either need to trust her or kill her.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
   - Flags: []
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 1EE0C8:Starfield.esm
         SecondParameter: 700
       ComparisonValue: 1
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 1EE0C8:Starfield.esm
@@ -2470,25 +2016,7 @@ Stages:
     Note: "QO: Decide Imogene's Fate - With Kumiho's objective"
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Imogene beteuert ihre Unschuld, will aber nicht mit mir zurückkommen. Soll ich ihr vertrauen oder sie töten? So oder so sollte ich anschließend für Verwalter Bayu Kumihos Slate ausfindig machen.
-      - Language: English
-        String: Imogene claims she's innocent but will not return with me. I either need to trust her or kill her. Then I need to find Kumiho's slate for Administrator Bayu.
-      - Language: Spanish
-        String: Imogene dice que es inocente, pero no quiere acompañarme. Debo decidir si confiar en ella o matarla. Luego, tengo que encontrar la tábula de Kumiho para llevársela al administrador Bayu.
-      - Language: French
-        String: Imogene prétend être innocente, mais refuse de venir avec moi. Je dois lui faire confiance, ou la tuer. Puis je devrai trouver la tablette de Kumiho pour l'administrateur Bayu.
-      - Language: Italian
-        String: Imogene sostiene di essere innocente, ma non vuole rientrare alla base con me. Non mi resta che fidarmi di lei o eliminarla. E devo anche recuperare la tabula di Kumiho per l’amministratore Bayu.
-      - Language: Japanese
-        String: イモジェンは無実を主張しているが、一緒には戻ろうとしない。彼女を信頼するか、殺害するか二つに一つだ。その後は、バユー行政官のためにクミホのスレートを見つけよう
-      - Language: Polish
-        String: Imogene twierdzi, że jest niewinna, ale nie zamierza ze mną wrócić. Muszę jej zaufać lub ją zabić. Następnie muszę znaleźć tabliczkę Kumiho dla administratora Bayu.
-      - Language: Portuguese_Brazil
-        String: Imogene afirma que é inocente, mas não vai voltar comigo. Ou eu confio no que ela diz ou eu mato ela. Depois preciso encontrar o códice de Kumiho para o gestor Bayu.
-      - Language: ChineseSimplified
-        String: 伊莫金声称自己是无辜的，但是不会跟我回去，我只能选择相信她或者是杀了她。之后我需要帮行政长官巴尤找到九尾的数据板。
+      Value: Imogene claims she's innocent but will not return with me. I either need to trust her or kill her. Then I need to find Kumiho's slate for Administrator Bayu.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -2564,7 +2092,6 @@ Stages:
     - MutagenObjectType: ConditionFloat
       Flags:
       - OR
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 1EE0C8:Starfield.esm
@@ -2572,7 +2099,6 @@ Stages:
     - MutagenObjectType: ConditionFloat
       Flags:
       - OR
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 1EE0C8:Starfield.esm
@@ -2582,39 +2108,19 @@ Stages:
     ScriptFlagComment: Set in Stage 910, 911.
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Ich muss Imogene töten.
-      - Language: English
-        String: I need to kill Imogene.
-      - Language: Spanish
-        String: Debo matar a Imogene.
-      - Language: French
-        String: Je dois tuer Imogene.
-      - Language: Italian
-        String: Devo eliminare Imogene.
-      - Language: Japanese
-        String: イモジェンを殺害する必要がある
-      - Language: Polish
-        String: Muszę zabić Imogene.
-      - Language: Portuguese_Brazil
-        String: Preciso matar a Imogene.
-      - Language: ChineseSimplified
-        String: 我需要杀了伊莫金。
+      Value: I need to kill Imogene.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
   - Flags: []
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 1EE0C8:Starfield.esm
         SecondParameter: 700
       ComparisonValue: 1
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 1EE0C8:Starfield.esm
@@ -2622,25 +2128,7 @@ Stages:
     Note: 'QO: Kill Imogene - With Kumiho objective'
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Ich muss Imogene töten. Anschließend sollte ich für Benjamin Bayu Kumihos Slate ausfindig machen.
-      - Language: English
-        String: I need to kill Imogene. Once that's done, I need to find Kumiho's slate for Benjamin Bayu.
-      - Language: Spanish
-        String: Debo matar a Imogene. En cuanto lo haga, tengo que encontrar la tábula de Kumiho para llevársela a Benjamin Bayu.
-      - Language: French
-        String: Je dois tuer Imogene. Une fois que ce sera fait, je devrai trouver la tablette de Kumiho pour Benjamin Bayu.
-      - Language: Italian
-        String: Devo eliminare Imogene. Fatto questo, non mi resta che trovare la tabula di Kumiho per Benjamin Bayu.
-      - Language: Japanese
-        String: イモジェンを殺害する必要がある。それが片付いたら、ベンジャミン・バユーのためにクミホのスレートを見つけよう
-      - Language: Polish
-        String: Muszę zabić Imogene, a później poszukać tabliczki Kumiho dla Benjamina Bayu.
-      - Language: Portuguese_Brazil
-        String: Preciso matar a Imogene. Depois isso, preciso encontrar o códice de Kumiho para Benjamin Bayu.
-      - Language: ChineseSimplified
-        String: 我需要杀了伊莫金，完成之后，我需要帮本杰明·巴尤找到九尾的数据板。
+      Value: I need to kill Imogene. Once that's done, I need to find Kumiho's slate for Benjamin Bayu.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -2658,7 +2146,6 @@ Stages:
     - MutagenObjectType: ConditionFloat
       Flags:
       - OR
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 1EE0C8:Starfield.esm
@@ -2666,7 +2153,6 @@ Stages:
     - MutagenObjectType: ConditionFloat
       Flags:
       - OR
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 1EE0C8:Starfield.esm
@@ -2675,39 +2161,19 @@ Stages:
     Note: 'QO: Search Imogene for Evidence - No Kumiho objective'
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Imogene ist tot. Ich sollte sie nach Beweisen durchsuchen.
-      - Language: English
-        String: Imogene is dead. I need to search her body for evidence.
-      - Language: Spanish
-        String: Imogene está muerta. Tengo que registrar su cadáver en busca de pruebas.
-      - Language: French
-        String: Imogene est morte. Je dois fouiller son cadavre à la recherche de preuves.
-      - Language: Italian
-        String: Imogene è morta. Devo perquisire il suo cadavere in cerca di prove.
-      - Language: Japanese
-        String: イモジェンは死亡した。彼女の死体から証拠を探し出す必要がある
-      - Language: Polish
-        String: Imogene nie żyje. Muszę sprawdzić, czy nie miała przy sobie dowodów.
-      - Language: Portuguese_Brazil
-        String: Imogene está morta. Preciso revistar seu corpo em busca de provas.
-      - Language: ChineseSimplified
-        String: 伊莫金死了，我需要搜索她的遗体寻找证据。
+      Value: Imogene is dead. I need to search her body for evidence.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
   - Flags: []
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 1EE0C8:Starfield.esm
         SecondParameter: 700
       ComparisonValue: 1
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 1EE0C8:Starfield.esm
@@ -2715,25 +2181,7 @@ Stages:
     Note: 'QO: Search Imogene for Evidence - With Kumiho objective'
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Imogene ist tot. Ich sollte sie nach Beweisen durchsuchen und dann für Benjamin Bayu Kumihos Slate ausfindig machen.
-      - Language: English
-        String: Imogene is dead. I need to search her body for evidence, and then find Kumiho's slate for Benjamin Bayu.
-      - Language: Spanish
-        String: Imogene está muerta. Tengo que registrar su cadáver en busca de pruebas y, luego, encontrar la tábula de Kumiho para llevársela a Benjamin Bayu.
-      - Language: French
-        String: Imogene est morte. Je dois fouiller son cadavre à la recherche de preuves, puis trouver la tablette de Kumiho pour Benjamin Bayu.
-      - Language: Italian
-        String: Imogene è morta. Devo perquisire il suo cadavere in cerca di prove e poi trovare la tabula di Kumiho per Benjamin Bayu.
-      - Language: Japanese
-        String: イモジェンは死亡した。彼女の死体から証拠を探し出してから、ベンジャミン・バユーのためにクミホのスレートを見つけよう
-      - Language: Polish
-        String: Imogene nie żyje. Muszę sprawdzić, czy miała przy sobie dowody, a następnie poszukać tabliczki Kumiho dla Benjamina Bayu.
-      - Language: Portuguese_Brazil
-        String: Imogene está morta. Preciso revistar o corpo dela em busca de provas e depois encontrar o códice de Kumiho para Benjamin Bayu.
-      - Language: ChineseSimplified
-        String: 伊莫金死了，我需要搜索她的遗体寻找证据，然后帮本杰明·巴尤找到九尾的数据板。
+      Value: Imogene is dead. I need to search her body for evidence, and then find Kumiho's slate for Benjamin Bayu.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -2761,7 +2209,6 @@ Stages:
   - Flags: []
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 1EE0C8:Starfield.esm
@@ -2771,25 +2218,7 @@ Stages:
     ScriptFlagComment: Set in Stage 925.
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Ich habe Imogene gefunden. Jetzt muss ich für Benjamin Bayu nur noch Kumihos Slate finden.
-      - Language: English
-        String: I found Imogene. Now all I have left to do is find Kumiho's slate for Benjamin Bayu.
-      - Language: Spanish
-        String: Encontré a Imogene. Ahora solo tengo que encontrar la tábula de Kumiho para llevársela a Benjamin Bayu.
-      - Language: French
-        String: J'ai trouvé Imogene. Il ne me reste plus qu'à trouver la tablette de Kumiho pour Benjamin Bayu.
-      - Language: Italian
-        String: Ho trovato Imogene. Ora non mi resta che recuperare la tabula di Kumiho per Benjamin Bayu.
-      - Language: Japanese
-        String: イモジェンを見つけた。後はベンジャミン・バユーのためにクミホのスレートを見つけるだけだ
-      - Language: Polish
-        String: Udało mi się znaleźć Imogene. Teraz pozostało tylko odnaleźć tabliczkę Kumiho dla Benjamina Bayu.
-      - Language: Portuguese_Brazil
-        String: Encontrei a Imogene. Agora só preciso encontrar o códice de Kumiho para Benjamin Bayu.
-      - Language: ChineseSimplified
-        String: 我找到了伊莫金，现在我唯一需要做的就是帮本杰明·巴尤找到九尾的数据板。
+      Value: I found Imogene. Now all I have left to do is find Kumiho's slate for Benjamin Bayu.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -2801,25 +2230,7 @@ Stages:
     ScriptFlagComment: Set in Stage 1200.
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Ich sollte Dalton die Slate zurückgeben. Imogene hat nach Beweisen gegen Ularu gesucht. Ich sollte sie wohl zur Rede stellen.
-      - Language: English
-        String: I need to return to Dalton and give him the slate. Imogene was collecting evidence against Ularu. Perhaps I should confront her.
-      - Language: Spanish
-        String: Tengo que volver con Dalton para darle la tábula. Imogene estaba reuniendo pruebas contra Ularu. Creo que debería enfrentarme a ella.
-      - Language: French
-        String: Je dois retourner voir Dalton et lui donner la tablette. Imogene amassait des preuves contre Ularu. Je devrais peut-être aller la voir.
-      - Language: Italian
-        String: Devo tornare da Dalton per consegnargli la tabula. Imogene stava raccogliendo prove contro Ularu. Forse dovrei affrontarla.
-      - Language: Japanese
-        String: ダルトンのところに戻って彼にスレートを渡す必要がある。イモジェンはウラルの犯行の証拠を集めていた。彼女を問い詰めるべきかもしれない
-      - Language: Polish
-        String: Muszę wrócić do Daltona i przekazać mu tabliczkę. Imogene gromadziła dowody przeciwko Ularu. Może warto skonfrontować się z Ularu.
-      - Language: Portuguese_Brazil
-        String: Tenho que entregar o códice a Dalton. Imogene estava coletando provas contra Ularu. Talvez eu devesse confrontá-la.
-      - Language: ChineseSimplified
-        String: 我需要回到道尔顿那里，把数据板交给他。伊莫金在收集证据对付乌拉鲁，也许我应该去质问她。
+      Value: I need to return to Dalton and give him the slate. Imogene was collecting evidence against Ularu. Perhaps I should confront her.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -3016,7 +2427,6 @@ Stages:
   - Flags: []
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetGlobalValueConditionData
         FirstParameter: 18B5EA:Starfield.esm
@@ -3024,32 +2434,13 @@ Stages:
     Note: Player sided with Ularu
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Ich helfe Ularu, die das Dominion-Projekt geleakt hat, um Masako zu stürzen. Ich sollte Dalton Bericht erstatten, aber dafür sorgen, dass er Imogene für die Schuldige hält.
-      - Language: English
-        String: I agreed to help Ularu who admitted to leaking Project Dominion as part of her plan to overthrow Masako. I still need to report to Dalton but also make sure he believes Imogene is guilty.
-      - Language: Spanish
-        String: Acordé ayudar a Ularu, que admitió haber filtrado el proyecto Dominio como parte de su plan para derrocar a Masako. Aún tengo que informar a Dalton, así como asegurarme de que crea que Imogene es culpable.
-      - Language: French
-        String: J'ai accepté d'aider Ularu après qu'elle a admis que c'était elle qui avait fait fuiter le projet Domination dans le but de renverser Masako. Je dois faire mon rapport à Dalton en m'assurant qu'il croit que c'était Imogene la coupable.
-      - Language: Italian
-        String: Ho accettato di aiutare Ularu, la quale ha ammesso di aver fatto trapelare il Progetto Dominio con l’intento di rovesciare Masako. Ora non solo devo riferire a Dalton, ma anche convincerlo che la colpevole è Imogene.
-      - Language: Japanese
-        String: マサコを失脚させる計略の一環としてドミニオン計画を漏洩していたことを認めたウラルに、手を貸すことで合意した。まだダルトンに報告する必要があるが、彼にはイモジェンが犯人だと思い込ませなければならない
-      - Language: Polish
-        String: Zamierzam pomóc Ularu, która przyznała się do odpowiedzialności za wyciek projektu Dominion - było to częścią jej planu pozbycia się Masako. Dalton wciąż czeka na mój raport. Muszę dopilnować, aby uwierzył w winę Imogene.
-      - Language: Portuguese_Brazil
-        String: Eu concordei em ajudar Ularu, que admitiu ter vazado o Projeto Domínio como parte de seu plano de derrubar Masako. Ainda preciso informar o Dalton, mas também preciso ter certeza de que ele acredita que Imogene é a culpada.
-      - Language: ChineseSimplified
-        String: 我同意帮助乌拉鲁，她承认了泄漏主宰计划，这在她推翻雅子的计谋之中。我仍然需要去向道尔顿汇报，但也要确保他相信伊莫金是罪魁祸首。
+      Value: I agreed to help Ularu who admitted to leaking Project Dominion as part of her plan to overthrow Masako. I still need to report to Dalton but also make sure he believes Imogene is guilty.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
   - Flags: []
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetGlobalValueConditionData
         FirstParameter: 19B08A:Starfield.esm
@@ -3057,114 +2448,54 @@ Stages:
     Note: Player sided with Masako and killed Ularu
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Ularu hat den Leak des Dominion-Projekts zugegeben. Ich habe diese Verräterin getötet. Jetzt sollte ich Dalton Bericht erstatten.
-      - Language: English
-        String: Ularu confessed to leaking Project Dominion. She was a traitor, and I killed her. I need to report to Dalton.
-      - Language: Spanish
-        String: Ularu confesó haber filtrado el proyecto Dominio. La maté por traidora. Tengo que informar a Dalton.
-      - Language: French
-        String: Ularu a avoué que c'est elle qui a fait fuiter le projet Domination. Elle nous a trahis, et je l'ai tuée. Je dois faire mon rapport à Dalton.
-      - Language: Italian
-        String: Ularu ha confessato di aver fatto trapelare il Progetto Dominio. Era una traditrice, perciò l’ho eliminata. Devo riferire a Dalton.
-      - Language: Japanese
-        String: ウラルはドミニオン計画を漏洩していたことを白状した。彼女は裏切り者だったのだ。ダルトンに報告する必要がある
-      - Language: Polish
-        String: Ularu przyznała się do odpowiedzialności za wyciek projektu Dominion. Była zdrajczynią, więc zginęła z mojej ręki. Muszę złożyć raport Daltonowi.
-      - Language: Portuguese_Brazil
-        String: Ularu confessou ter vazado o Projeto Domínio. Ela era uma traidora, então eu a matei. Tenho que informar o Dalton.
-      - Language: ChineseSimplified
-        String: 乌拉鲁承认了泄露主宰计划，这是她推翻雅子的计谋。她是个叛徒，所以我杀了她。我需要去向道尔顿汇报。
+      Value: Ularu confessed to leaking Project Dominion. She was a traitor, and I killed her. I need to report to Dalton.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
   - Flags: []
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 1EE0C8:Starfield.esm
         SecondParameter: 1040
       ComparisonValue: 1
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetGlobalValueConditionData
         FirstParameter: 18B5E9:Starfield.esm
       ComparisonValue: 1
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetGlobalValueConditionData
         FirstParameter: 19B08A:Starfield.esm
     Note: Player sided with Masako and let Ularu live
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Ularu hat den Leak des Dominion-Projekts zugegeben, sie wollte Masako stürzen. Als sie mich anwerben wollte, habe ich abgelehnt. Ich sollte Dalton die Slate übergeben und ihm Bericht erstatten.
-      - Language: English
-        String: Ularu confessed to leaking Project Dominion in a plan to overthrow Masako. She tried to recruit me, but I refused. I need to report to Dalton to give him the slate and let him know what I've learned.
-      - Language: Spanish
-        String: Ularu confesó haber filtrado el proyecto Dominio en un plan para derrocar a Masako. Intentó reclutarme, pero me negué. Tengo que informar a Dalton para darle la tábula y contarle lo que he descubierto.
-      - Language: French
-        String: Ularu a avoué que c'est elle qui a fait fuiter le projet Domination pour tenter de renverser Masako. Elle a essayé de me recruter, mais j'ai refusé. Je dois faire mon rapport à Dalton et lui donner la tablette pour qu'il sache ce que j'ai appris.
-      - Language: Italian
-        String: Ularu ha confessato di aver fatto trapelare il Progetto Dominio con l’intento di rovesciare Masako. Ha cercato di reclutarmi, ma ho rifiutato. Devo tornare da Dalton per consegnargli la tabula e metterlo al corrente delle mie scoperte.
-      - Language: Japanese
-        String: ウラルはマサコを失脚させる計略としてドミニオン計画を漏洩したことを白状した。彼女に仲間になるよう誘われたが、拒否した。ダルトンのところに帰還してスレートを渡し、判明した事柄を伝える必要がある
-      - Language: Polish
-        String: Ularu przyznała się do odpowiedzialności za wyciek projektu Dominion - było to częścią jej planu pozbycia się Masako. Próbowała przeciągnąć mnie na swoją stronę, ale bezskutecznie. Muszę spotkać się z Daltonem, aby przekazać mu tabliczkę i wszystkie zdobyte informacje.
-      - Language: Portuguese_Brazil
-        String: Ularu confessou ter vazado o Projeto Domínio em um plano para derrubar Masako. Ela tentou me recrutar, mas eu recusei. Preciso voltar até o Dalton, entregar-lhe o códice e informá-lo do que descobri.
-      - Language: ChineseSimplified
-        String: 乌拉鲁承认了泄露主宰计划，这是她推翻雅子的计谋。她想要招揽我，但我拒绝了。我需要去向道尔顿汇报，把数据板交给他，并告诉他我所得知的情况。
+      Value: Ularu confessed to leaking Project Dominion in a plan to overthrow Masako. She tried to recruit me, but I refused. I need to report to Dalton to give him the slate and let him know what I've learned.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
   - Flags: []
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 1EE0C8:Starfield.esm
         SecondParameter: 1040
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetGlobalValueConditionData
         FirstParameter: 18B5E9:Starfield.esm
       ComparisonValue: 1
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetGlobalValueConditionData
         FirstParameter: 19B08A:Starfield.esm
     Note: Player sided with Masako - Ularu did NOT confess
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Ularu hat nicht gestanden, der Maulwurf zu sein. Ich muss Dalton Bericht erstatten und ihm Imogenes Slate als Beweis geben.
-      - Language: English
-        String: Ularu wouldn't confess to being the mole. I need to report to Dalton and give him Imogene's evidence slate.
-      - Language: Spanish
-        String: Ularu se niega a confesar que el topo es ella. Tengo que informar a Dalton y entregarle la tábula incriminatoria de Imogene.
-      - Language: French
-        String: Ularu a refusé d'avouer être la taupe. Je dois retourner voir Dalton et lui donner la tablette d'Imogene.
-      - Language: Italian
-        String: Ularu non avrebbe confessato di essere la talpa. Devo riferire a Dalton e consegnargli la tabula con le prove di Imogene.
-      - Language: Japanese
-        String: ウラルはスパイであることを自白しない。ダルトンに報告して、イモジェンの証拠のスレートを渡そう
-      - Language: Polish
-        String: Ularu nie chce się przyznać, że jest kretem. Muszę wrócić do Daltona i przekazać mu tabliczkę z dowodami Imogene.
-      - Language: Portuguese_Brazil
-        String: Ularu não confessou ser a informante. Tenho que falar com o Dalton e entregar o códice de evidência da Imogene a ele.
-      - Language: ChineseSimplified
-        String: 乌拉鲁不承认自己是内鬼。我需要回去向道尔顿报告，把存有伊莫金证据的数据板交给他。
+      Value: Ularu wouldn't confess to being the mole. I need to report to Dalton and give him Imogene's evidence slate.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -3176,25 +2507,7 @@ Stages:
     ScriptFlagComment: Set in Stage 799, 925.
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Ich habe Imogene zur Rede gestellt und Kumihos Slate gefunden. Jetzt sollte ich sie Benjamin Bayu geben, bevor ich zurück zum Ryujin Tower gehe.
-      - Language: English
-        String: I confronted Imogene and found Kumiho's slate. I need to deliver it to Benjamin Bayu before heading back to Ryujin Tower.
-      - Language: Spanish
-        String: Me enfrenté a Imogene y encontré la tábula de Kumiho. Debo entregársela a Benjamin Bayu antes de volver a la Torre Ryujin.
-      - Language: French
-        String: J'ai interrogé Imogene et trouvé la tablette de Kumiho. Je dois l'apporter à Benjamin Bayu avant de retourner à la tour Ryujin.
-      - Language: Italian
-        String: Ho affrontato Imogene e trovato la tabula di Kumiho. Devo consegnarla a Benjamin Bayu prima di tornare alla Torre Ryujin.
-      - Language: Japanese
-        String: イモジェンを問い詰めてクミホのスレートを見つけた。リュウジン・タワーに戻る前に、ベンジャミン・バユーにスレートを届ける必要がある
-      - Language: Polish
-        String: Mam za sobą konfrontację z Imogene. Udało mi się też znaleźć tabliczkę Kumiho. Muszę ją dostarczyć do Benjamina Bayu w Astral Lounge, zanim udam się do Wieży Ryujina.
-      - Language: Portuguese_Brazil
-        String: Confrontei a Imogene e encontrei o códice de Kumiho. Preciso entregá-lo a Benjamin Bayu antes de voltar para a Torre Ryujin.
-      - Language: ChineseSimplified
-        String: 我质问了伊莫金，并找到了九尾的数据板。我要在回到龙神大楼之前把数据板交给本杰明·巴尤。
+      Value: I confronted Imogene and found Kumiho's slate. I need to deliver it to Benjamin Bayu before heading back to Ryujin Tower.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -3269,25 +2582,7 @@ Stages:
     ScriptFlagComment: Set in Stage 925, 1150.
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Ich sollte Dalton die Slate zurückgeben.
-      - Language: English
-        String: I need to return to Dalton and give him the slate.
-      - Language: Spanish
-        String: Tengo que volver con Dalton para darle la tábula.
-      - Language: French
-        String: Je dois retourner voir Dalton et lui donner la tablette.
-      - Language: Italian
-        String: Devo tornare da Dalton per consegnargli la tabula.
-      - Language: Japanese
-        String: ダルトンのところに戻って彼にスレートを渡す必要がある
-      - Language: Polish
-        String: Muszę wrócić do Daltona i przekazać mu tabliczkę.
-      - Language: Portuguese_Brazil
-        String: Tenho que voltar até o Dalton e dar o códice a ele.
-      - Language: ChineseSimplified
-        String: 我需要回到道尔顿那里，把数据板交给他。
+      Value: I need to return to Dalton and give him the slate.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -3420,7 +2715,6 @@ Stages:
   - Flags: []
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 1EE0C8:Starfield.esm
@@ -3429,32 +2723,13 @@ Stages:
     Note: Talk to Yuko - With Ularu Optional
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Auf dem Weg zu Dalton bin ich Yuko über den Weg gelaufen. Ich könnte ihr von meinem aktuellen Auftrag berichten oder weiter zu Dalton oder Ularu gehen.
-      - Language: English
-        String: On my way to Dalton, I ran into Yuko. I could give her an update on my current assignment if I feel like talking to her or continue on to Dalton or Ularu.
-      - Language: Spanish
-        String: Mientras iba a ver a Dalton, me topé con Yuko. Podría informarla de mi misión actual si me apetece hablar con ella o ir directamente a hablar con Dalton o Ularu.
-      - Language: French
-        String: J'ai rencontré Yuko en allant voir Dalton. Je pourrais la mettre au courant de l'avancée de ma mission, ou aller voir Dalton ou Ularu directement.
-      - Language: Italian
-        String: Ho incontrato Yuko mentre mi recavo da Dalton. Potrei aggiornarla sul mio incarico, se mi va di parlarle, oppure proseguire per la mia strada o andare da Ularu.
-      - Language: Japanese
-        String: ダルトンのところに向かう途中、ユウコに鉢合わせした。彼女と話をする気があるなら現在の任務について最新の情報を伝えてもいいし、このままダルトンかウラルのもとへ進んでもいいだろう
-      - Language: Polish
-        String: Idę do Daltona, ale na drodze stanęła mi Yuko. Mogę podzielić się z nią najnowszymi informacjami o moim bieżącym zadaniu albo pójść dalej do Daltona lub Ularu.
-      - Language: Portuguese_Brazil
-        String: A caminho da conversa com Dalton, me deparei com Yuko. Se quiser falar com ela, posso atualizá-la sobre a minha missão atual, ou então posso seguir direto até Dalton ou Ularu.
-      - Language: ChineseSimplified
-        String: 我在去道尔顿那里的路上恰巧碰到了裕子。如果我想和她聊聊的话，我可以告诉她我现在的任务情况，或者继续去找道尔顿或是乌拉鲁。
+      Value: On my way to Dalton, I ran into Yuko. I could give her an update on my current assignment if I feel like talking to her or continue on to Dalton or Ularu.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
   - Flags: []
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 1EE0C8:Starfield.esm
@@ -3462,25 +2737,7 @@ Stages:
     Note: Talk to Yuko - No Ularu Optional
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Auf dem Weg zu Dalton bin ich Yuko über den Weg gelaufen. Ich könnte ihr von meinem aktuellen Auftrag berichten oder weiter zu Dalton gehen.
-      - Language: English
-        String: On my way to Dalton, I ran into Yuko. I could give her an update on my current assignment if I feel like talking to her or continue on to Dalton.
-      - Language: Spanish
-        String: Mientras iba a ver a Dalton, me topé con Yuko. Podría informarla de mi misión actual si me apetece hablar con ella o ir directamente a hablar con Dalton.
-      - Language: French
-        String: J'ai rencontré Yuko en allant voir Dalton. Je pourrais la mettre au courant de l'avancée de ma mission, ou aller voir Dalton directement.
-      - Language: Italian
-        String: Ho incontrato Yuko mentre mi recavo da Dalton. Potrei aggiornarla sul mio incarico, se mi va di parlarle, oppure proseguire per la mia strada.
-      - Language: Japanese
-        String: ダルトンのところに向かう途中、ユウコに鉢合わせした。彼女と話をする気があるなら現在の任務について最新の情報を伝えてもいいし、このままダルトンのもとへ進んでもいいだろう
-      - Language: Polish
-        String: Idę do Daltona, ale na drodze stanęła mi Yuko. Mogę podzielić się z nią najnowszymi informacjami o moim bieżącym zadaniu albo pójść dalej.
-      - Language: Portuguese_Brazil
-        String: A caminho da conversa com Dalton, me deparei com Yuko. Se quiser falar com ela, posso atualizá-la sobre a minha missão atual, ou então posso seguir direto até Dalton.
-      - Language: ChineseSimplified
-        String: 我在去道尔顿那里的路上恰巧碰到了裕子。如果我想和她聊聊的话，我可以告诉她我现在的任务情况，或者继续去找道尔顿。
+      Value: On my way to Dalton, I ran into Yuko. I could give her an update on my current assignment if I feel like talking to her or continue on to Dalton.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -3640,7 +2897,6 @@ Stages:
   - Flags: []
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 1EE0C8:Starfield.esm
@@ -3648,64 +2904,26 @@ Stages:
       ComparisonValue: 1
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Ich habe kurz mit Yuko gesprochen. Jetzt sollte ich wirklich Dalton berichten.
-      - Language: English
-        String: I briefly stopped to speak to Yuko. I really need to report to Dalton now.
-      - Language: Spanish
-        String: Hice una breve parada para hablar con Yuko. Tengo que informar a Dalton urgentemente.
-      - Language: French
-        String: J'ai pris le temps de discuter avec Yuko. Je dois faire mon rapport à Dalton de toute urgence.
-      - Language: Italian
-        String: Ho parlato brevemente con Yuko. Devo assolutamente riferire la questione a Dalton.
-      - Language: Japanese
-        String: ユウコのもとに立ち寄り手短に話をしてきた。そろそろダルトンに報告しに行かなくては
-      - Language: Polish
-        String: Yuko mnie zatrzymała na krótką pogawędkę. Teraz muszę udać się do Daltona.
-      - Language: Portuguese_Brazil
-        String: Eu parei brevemente para falar com Yuko. Tenho que repassar isso a Dalton agora mesmo.
-      - Language: ChineseSimplified
-        String: 我稍作停留，和裕子谈了谈。我现在必须去向道尔顿汇报。
+      Value: I briefly stopped to speak to Yuko. I really need to report to Dalton now.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
   - Flags: []
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 1EE0C8:Starfield.esm
         SecondParameter: 1000
       ComparisonValue: 1
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 1EE0C8:Starfield.esm
         SecondParameter: 1090
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Ich habe kurz mit Yuko gesprochen. Jetzt sollte ich Dalton berichten oder Ularu zur Rede stellen.
-      - Language: English
-        String: I briefly stopped to talk to Yuko. I need to either report to Dalton or go confront Ularu.
-      - Language: Spanish
-        String: Hice una breve parada para hablar con Yuko. Tengo que informar a Dalton o enfrentarme a Ularu.
-      - Language: French
-        String: J'ai pris le temps de discuter avec Yuko. Je dois faire mon rapport à Dalton ou confronter Ularu.
-      - Language: Italian
-        String: Ho parlato brevemente con Yuko. Devo riferire a Dalton o andare ad affrontare Ularu.
-      - Language: Japanese
-        String: ユウコのもとに立ち寄り手短に話をした。ダルトンに報告するか、ウラルを問い詰めに行く必要がある
-      - Language: Polish
-        String: Yuko mnie zatrzymała na krótką pogawędkę. Teraz muszę udać się do Daltona lub skonfrontować się z Ularu.
-      - Language: Portuguese_Brazil
-        String: Eu parei brevemente para falar com Yuko. Tenho que repassar isso a Dalton ou confrontar Yuko.
-      - Language: ChineseSimplified
-        String: 我稍作停留，和裕子聊了聊。我需要去向道尔顿汇报，或者去质问乌拉鲁。
+      Value: I briefly stopped to talk to Yuko. I need to either report to Dalton or go confront Ularu.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -3718,25 +2936,7 @@ Stages:
     ScriptFlagComment: Set in Scene RI05_1200_Dalton_ReturnUlaruAliveScene.
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: 'Ich habe Imogene im Versteck des Seokga-Syndikats gefunden. Ihre Beweise belegen, dass Ularu der Maulwurf ist, doch Dalton braucht etwas Zeit, um die Beweise zu untersuchen. '
-      - Language: English
-        String: 'I found Imogene in the Seokguh Syndicate hideout. She had evidence to prove Ularu is the mole, but Dalton needs time to examine it. '
-      - Language: Spanish
-        String: 'Encontré a Imogene en la guarida del Sindicato Seokguh. Tenía pruebas para demostrar que Ularu es el topo, pero Dalton necesita tiempo para examinarlas. '
-      - Language: French
-        String: "J'ai trouvé Imogene dans le repaire du clan Seokguh. Elle possède les preuves qu'Ularu est la taupe, mais Dalton a besoin de temps pour les étudier. "
-      - Language: Italian
-        String: 'Ho trovato Imogene, nel covo del Clan Seokguh. Era in possesso di prove che dimostrano che Ularu è la talpa, ma a Dalton serve tempo per esaminarle. '
-      - Language: Japanese
-        String: 'ソッカ・シンジケートの隠れ家でイモジェンを見つけた。彼女はウラルが内通者である証拠を持っていたが、ダルトンがそれを調査する時間が必要だ '
-      - Language: Polish
-        String: Udało mi się znaleźć Imogene w kryjówce syndykatu Seokga. Miała dowody na to, że Ularu jest kretem, ale Dalton potrzebuje czasu, aby je przeanalizować.
-      - Language: Portuguese_Brazil
-        String: 'Encontrei Imogene no esconderijo do Sindicato Seokguh. Ela tinha evidências que comprovam que Ularu é a informante, mas Dalton precisa de tempo para examiná-las. '
-      - Language: ChineseSimplified
-        String: '我在邪迦会藏身处找到了伊莫金，她有证据证明乌拉鲁就是那个内鬼，但是道尔顿需要时间对其进行检验。 '
+      Value: 'I found Imogene in the Seokguh Syndicate hideout. She had evidence to prove Ularu is the mole, but Dalton needs time to examine it. '
     StageCompleteDatas:
     - QSRD: 0x02000000
       RewardDatas:
@@ -3751,7 +2951,6 @@ Stages:
         BonusCredits: 1460FE:Starfield.esm
         Conditions:
         - MutagenObjectType: ConditionFloat
-          Unknown1: 0x9AD2A3
           Data:
             MutagenObjectType: HasPerkConditionData
             FirstParameter: 227FD3:Starfield.esm
@@ -3762,137 +2961,45 @@ Objectives:
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Sprich mit Imogene in der Operations-Abteilung.
-    - Language: English
-      String: Talk to Imogene on the Operations Floor
-    - Language: Spanish
-      String: Habla con Imogene en la planta de Operaciones.
-    - Language: French
-      String: Parlez à Imogene à l'étage des Opérations.
-    - Language: Italian
-      String: Parla con Imogene al piano operativo
-    - Language: Japanese
-      String: 事業部フロアでイモジェンと話す
-    - Language: Polish
-      String: Porozmawiaj z Imogene na piętrze działu operacyjnego
-    - Language: Portuguese_Brazil
-      String: Fale com Imogene no andar do departamento de operações
-    - Language: ChineseSimplified
-      String: 去运营楼层与伊莫金交谈
+    Value: Talk to Imogene on the Operations Floor
   Targets:
   - AliasID: 24
 - Index: 300
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Sprich mit Yuko.
-    - Language: English
-      String: Talk to Yuko
-    - Language: Spanish
-      String: Habla con Yuko.
-    - Language: French
-      String: Parlez à Yuko.
-    - Language: Italian
-      String: Parla con Yuko
-    - Language: Japanese
-      String: ユウコと話す
-    - Language: Polish
-      String: Porozmawiaj z Yuko
-    - Language: Portuguese_Brazil
-      String: Fale com Yuko
-    - Language: ChineseSimplified
-      String: 与裕子交谈
+    Value: Talk to Yuko
   Targets:
   - AliasID: 7
 - Index: 400
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: (Optional) Sprich mit Dalton in der Chefetage des Ryujin Towers.
-    - Language: English
-      String: (Optional) Talk to Dalton on the Executive Offices Floor
-    - Language: Spanish
-      String: (Opcional) Habla con Dalton en la planta de los despachos ejecutivos.
-    - Language: French
-      String: (Optionnel) Parlez à Dalton dans les bureaux de la direction.
-    - Language: Italian
-      String: (Opzionale) Parla con Dalton nel suo ufficio al piano dirigenziale
-    - Language: Japanese
-      String: (オプション)役員フロアでダルトンと話す
-    - Language: Polish
-      String: (Opcj.) Porozmawiaj z Daltonem na piętrze biur kierowniczych
-    - Language: Portuguese_Brazil
-      String: (Opc.) Fale com Dalton no andar dos escritórios executivos
-    - Language: ChineseSimplified
-      String: （可选）去行政办公室楼层与道尔顿交谈
+    Value: (Optional) Talk to Dalton on the Executive Offices Floor
   Targets:
   - AliasID: 1
 - Index: 500
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: (Optional) Sprich mit Benjamin Bayu.
-    - Language: English
-      String: (Optional) Talk to Benjamin Bayu
-    - Language: Spanish
-      String: (Opcional) Habla con Benjamin Bayu.
-    - Language: French
-      String: (Optionnel) Parlez à Benjamin Bayu.
-    - Language: Italian
-      String: (Opzionale) Parla con Benjamin Bayu
-    - Language: Japanese
-      String: (オプション)ベンジャミン・バユーと話す
-    - Language: Polish
-      String: (Opcj.) Porozmawiaj z Benjaminem Bayu
-    - Language: Portuguese_Brazil
-      String: (Opc.) Fale com Benjamin Bayu
-    - Language: ChineseSimplified
-      String: （可选）与本杰明·巴尤交谈
+    Value: (Optional) Talk to Benjamin Bayu
   Targets:
   - AliasID: 2
 - Index: 600
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Finde Imogene im Versteck des Seokga-Syndikats.
-    - Language: English
-      String: Find Imogene in the Seokguh Syndicate Hideout
-    - Language: Spanish
-      String: Busca a Imogene en la guarida del Sindicato Seokguh.
-    - Language: French
-      String: Trouvez Imogene dans le repaire du clan Seokguh.
-    - Language: Italian
-      String: Trova Imogene nel covo del Clan Seokguh
-    - Language: Japanese
-      String: ソッカ・シンジケートの隠れ家でイモジェンを見つける
-    - Language: Polish
-      String: Znajdź Imogene w kryjówce syndykatu Seokga
-    - Language: Portuguese_Brazil
-      String: Encontre Imogene no esconderijo do Sindicato Seokguh
-    - Language: ChineseSimplified
-      String: 在邪迦会藏身处找到伊莫金
+    Value: Find Imogene in the Seokguh Syndicate Hideout
   Targets:
   - AliasID: 36
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 1EE0C8:Starfield.esm
         SecondParameter: 666
   - Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 1EE0C8:Starfield.esm
@@ -3902,104 +3009,31 @@ Objectives:
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: (Optional) Begib dich zu Frankie's Grab & Go.
-    - Language: English
-      String: (Optional) Head to Frankie's Grab & Go
-    - Language: Spanish
-      String: (Opcional) Ve a Frankie's Grab & Go.
-    - Language: French
-      String: (Optionnel) Rendez-vous à Frankie Market.
-    - Language: Italian
-      String: (Opzionale) Raggiungi il Frankie’s Grab & Go
-    - Language: Japanese
-      String: (オプション)フランキーズ・グラブ・アンド・ゴーに向かう
-    - Language: Polish
-      String: (Opcj.) Udaj się do Frankie's Grab & Go
-    - Language: Portuguese_Brazil
-      String: (Opc.) Vá até o Rango Rápido da Frankie
-    - Language: ChineseSimplified
-      String: （可选）前往弗兰基杂货铺
+    Value: (Optional) Head to Frankie's Grab & Go
   Targets:
   - AliasID: 34
 - Index: 620
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: (Optional) Sprich mit Franchesca „Frankie“ Moore.
-    - Language: English
-      String: (Optional) Talk to Franchesca "Frankie" Moore
-    - Language: Spanish
-      String: (Opcional) Habla con Franchesca “Frankie” Moore.
-    - Language: French
-      String: (Optionnel) Parlez à Franchesca “Frankie” Moore.
-    - Language: Italian
-      String: (Opzionale) Parla con Franchesca “Frankie” Moore
-    - Language: Japanese
-      String: (オプション)フランチェスカ"フランキー"ムーアと話す
-    - Language: Polish
-      String: (Opcj.) Porozmawiaj z Franchescą „Frankie” Moore
-    - Language: Portuguese_Brazil
-      String: (Opc.) Fale com Franchesca “Frankie” Moore
-    - Language: ChineseSimplified
-      String: （可选）与“弗兰基”·摩尔交谈
+    Value: (Optional) Talk to Franchesca "Frankie" Moore
   Targets:
   - AliasID: 34
 - Index: 650
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Finde einen Weg ins Versteck des Seokga-Syndikats.
-    - Language: English
-      String: (Optional) Find a Way Into the Seokguh Syndicate Hideout
-    - Language: Spanish
-      String: (Opcional) Averigua cómo entrar en la guardia del Sindicato Seokguh.
-    - Language: French
-      String: (Optionnel) Trouvez le moyen d'entrer dans le repaire du clan Seokguh.
-    - Language: Italian
-      String: (Opzionale) Trova un modo per entrare nel covo del Clan Seokguh
-    - Language: Japanese
-      String: (オプション)ソッカ・シンジケートの隠れ家に入る方法を探す
-    - Language: Polish
-      String: (Opcj.) Znajdź sposób na dostanie się do kryjówki syndykatu Seokga
-    - Language: Portuguese_Brazil
-      String: (Opc.) Descubra como entrar no esconderijo do Sindicato Seokguh
-    - Language: ChineseSimplified
-      String: （可选）想办法进入邪迦会藏身处
+    Value: (Optional) Find a Way Into the Seokguh Syndicate Hideout
   Targets:
   - AliasID: 37
 - Index: 660
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Finde Imogene.
-    - Language: English
-      String: Find Imogene
-    - Language: Spanish
-      String: Busca a Imogene.
-    - Language: French
-      String: Trouvez Imogene.
-    - Language: Italian
-      String: Trova Imogene
-    - Language: Japanese
-      String: イモジェンを見つける
-    - Language: Polish
-      String: Znajdź Imogene
-    - Language: Portuguese_Brazil
-      String: Encontre Imogene
-    - Language: ChineseSimplified
-      String: 找到伊莫金
+    Value: Find Imogene
   Targets:
   - Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 1EE0C8:Starfield.esm
@@ -4008,7 +3042,6 @@ Objectives:
   - AliasID: 57
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 1EE0C8:Starfield.esm
@@ -4017,225 +3050,63 @@ Objectives:
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Finde Kumihos Slate.
-    - Language: English
-      String: Find Kumiho's Slate
-    - Language: Spanish
-      String: Encuentra la tábula de Kumiho.
-    - Language: French
-      String: Trouvez la tablette de Kumiho.
-    - Language: Italian
-      String: Trova la tabula di Kumiho
-    - Language: Japanese
-      String: クミホのスレートを見つける
-    - Language: Polish
-      String: Znajdź tabliczkę Kumiho
-    - Language: Portuguese_Brazil
-      String: Encontre o códice de Kumiho
-    - Language: ChineseSimplified
-      String: 找到九尾的数据板
+    Value: Find Kumiho's Slate
   Targets:
   - AliasID: 17
 - Index: 800
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Stelle Imogene zur Rede.
-    - Language: English
-      String: Confront Imogene
-    - Language: Spanish
-      String: Enfréntate a Imogene.
-    - Language: French
-      String: Confrontez Imogene.
-    - Language: Italian
-      String: Affronta Imogene
-    - Language: Japanese
-      String: イモジェンと対決する
-    - Language: Polish
-      String: Skonfrontuj się z Imogene
-    - Language: Portuguese_Brazil
-      String: Confronte Imogene
-    - Language: ChineseSimplified
-      String: 质问伊莫金
+    Value: Confront Imogene
   Targets:
   - {}
 - Index: 900
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Entscheide über Imogenes Schicksal.
-    - Language: English
-      String: Decide Imogene's Fate
-    - Language: Spanish
-      String: Decide el destino de Imogene.
-    - Language: French
-      String: Décidez du sort d'Imogene.
-    - Language: Italian
-      String: Decidi la sorte di Imogene
-    - Language: Japanese
-      String: イモジェンの処遇を決める
-    - Language: Polish
-      String: Zdecyduj o losie Imogene
-    - Language: Portuguese_Brazil
-      String: Decida o destino de Imogene
-    - Language: ChineseSimplified
-      String: 决定伊莫金的命运
+    Value: Decide Imogene's Fate
   Targets:
   - {}
 - Index: 960
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Töte Imogene.
-    - Language: English
-      String: Kill Imogene
-    - Language: Spanish
-      String: Mata a Imogene.
-    - Language: French
-      String: Tuez Imogene.
-    - Language: Italian
-      String: Elimina Imogene
-    - Language: Japanese
-      String: イモジェンを倒す
-    - Language: Polish
-      String: Zabij Imogene
-    - Language: Portuguese_Brazil
-      String: Mate Imogene
-    - Language: ChineseSimplified
-      String: 杀死伊莫金
+    Value: Kill Imogene
   Targets:
   - {}
 - Index: 965
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Durchsuche Imogene nach Beweisen.
-    - Language: English
-      String: Search Imogene for Evidence
-    - Language: Spanish
-      String: Registra a Imogene en busca de pruebas.
-    - Language: French
-      String: Fouillez Imogene à la recherche de preuves.
-    - Language: Italian
-      String: Perquisisci Imogene in cerca di prove
-    - Language: Japanese
-      String: イモジェンが証拠を持っていないか調べる
-    - Language: Polish
-      String: Poszukaj dowodów przy Imogene
-    - Language: Portuguese_Brazil
-      String: Reviste Imogene em busca de evidências
-    - Language: ChineseSimplified
-      String: 在伊莫金身上寻找罪证
+    Value: Search Imogene for Evidence
   Targets:
   - AliasID: 28
 - Index: 1000
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: (Optional) Stelle Ularu in der Chefetage des Ryujin Towers zur Rede.
-    - Language: English
-      String: (Optional) Confront Ularu on the Executive Offices Floor
-    - Language: Spanish
-      String: (Opcional) Enfréntate a Ularu en la planta de los despachos ejecutivos.
-    - Language: French
-      String: (Optionnel) Confrontez Ularu dans les bureaux de la direction.
-    - Language: Italian
-      String: (Opzionale) Affronta Ularu nel suo ufficio al piano dirigenziale
-    - Language: Japanese
-      String: (オプション)役員室フロアでウラルを問い詰める
-    - Language: Polish
-      String: (Opcj.) Skonfrontuj się z Ularu na piętrze biur kierowniczych
-    - Language: Portuguese_Brazil
-      String: (Opc.) Confronte Ularu no andar dos escritórios executivos
-    - Language: ChineseSimplified
-      String: （可选）去行政办公室楼层质问乌拉鲁
+    Value: (Optional) Confront Ularu on the Executive Offices Floor
   Targets:
   - AliasID: 3
 - Index: 1100
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Bring Kumihos Slate zu Benjamin Bayu.
-    - Language: English
-      String: Deliver Kumiho's Slate to Benjamin Bayu
-    - Language: Spanish
-      String: Entrega la tábula de Kumiho a Benjamin Bayu.
-    - Language: French
-      String: Rapportez la tablette de Kumiho à Benjamin Bayu.
-    - Language: Italian
-      String: Consegna la tabula di Kumiho a Benjamin Bayu
-    - Language: Japanese
-      String: クミホのスレートをベンジャミン・バユーに届ける
-    - Language: Polish
-      String: Dostarcz tabliczkę Kumiho do Benjamina Bayu
-    - Language: Portuguese_Brazil
-      String: Leve o códice de Kumiho até Benjamin Bayu
-    - Language: ChineseSimplified
-      String: 把九尾的数据板交给本杰明·巴尤
+    Value: Deliver Kumiho's Slate to Benjamin Bayu
   Targets:
   - AliasID: 2
 - Index: 1200
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Kehre zu Dalton in die Chefetage des Ryujin Towers zurück.
-    - Language: English
-      String: Return to Dalton at Ryujin Tower on the Executive Offices Floor
-    - Language: Spanish
-      String: Vuelve con Dalton, en la planta de los despachos ejecutivos de la Torre Ryujin.
-    - Language: French
-      String: Retournez voir Dalton à la tour Ryujin dans les bureaux de la direction.
-    - Language: Italian
-      String: Torna da Dalton nel suo ufficio al piano dirigenziale della Torre Ryujin
-    - Language: Japanese
-      String: リュウジン・タワーの役員室フロアにいるダルトンのところに戻る
-    - Language: Polish
-      String: Wróć do Daltona, który czeka w Wieży Ryujina na piętrze biur kierowniczych
-    - Language: Portuguese_Brazil
-      String: Volte para falar com Dalton no andar dos escritórios executivos da Torre Ryujin
-    - Language: ChineseSimplified
-      String: 返回龙神大楼行政办公室楼层见道尔顿
+    Value: Return to Dalton at Ryujin Tower on the Executive Offices Floor
   Targets:
   - AliasID: 1
 - Index: 1300
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: (Optional) Sprich mit Yuko.
-    - Language: English
-      String: (Optional) Talk to Yuko
-    - Language: Spanish
-      String: (Opcional) Habla con Yuko.
-    - Language: French
-      String: (Optionnel) Parlez à Yuko.
-    - Language: Italian
-      String: (Opzionale) Parla con Yuko
-    - Language: Japanese
-      String: (オプション)ユウコと話す
-    - Language: Polish
-      String: (Opcj.) Porozmawiaj z Yuko
-    - Language: Portuguese_Brazil
-      String: (Opc.) Fale com Yuko
-    - Language: ChineseSimplified
-      String: （可选）与裕子交谈
+    Value: (Optional) Talk to Yuko
   Targets:
   - AliasID: 7
 Aliases:
@@ -4892,4 +3763,3 @@ Aliases:
   ALFG: 0
   ForcedReference: 25D670:Starfield.esm
   VoiceTypes: Null
-Timestamp: 12497

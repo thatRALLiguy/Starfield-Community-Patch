@@ -1,5 +1,5 @@
 FormKey: 32C7CC:Starfield.esm
-FormVersion: 559
+FormVersion: 576
 Flags: {}
 Responses:
 - Emotion: None
@@ -9,33 +9,14 @@ Responses:
     UnknownFloat: 7.4000006
   Text:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Auf dich ist ein Kopfgeld ausgesetzt. Klär das unverzüglich, wenn du weißt, was gut für dich ist.
-    - Language: English
-      String: There's a bounty on you. Get that cleared as soon as possible if you know what's good for you.
-    - Language: Spanish
-      String: Te están buscando. Salda esa deuda lo antes posible si no quieres sufrir las consecuencias.
-    - Language: French
-      String: Votre tête est mise à prix. Vous feriez mieux de régler ça sans traîner si vous savez ce qui est bon pour vous.
-    - Language: Italian
-      String: C’è una taglia sulla tua testa. Risolvi subito la questione se non vuoi finire nei guai.
-    - Language: Japanese
-      String: 賞金がかかってるようね。早く清算したほうが身のためよ
-    - Language: Polish
-      String: Wyznaczono nagrodę za twoją głowę. Jak najszybciej to wyjaśnij, chyba że chcesz kłopotów.
-    - Language: Portuguese_Brazil
-      String: Tem uma recompensa pela sua cabeça. Resolve isso assim que puder, se souber o que é bom para a tosse.
-    - Language: ChineseSimplified
-      String: 你头上有个悬赏。尽快把它给清掉，这样对你有好处。
+    Value: There's a bounty on you. Get that cleared as soon as possible if you know what's good for you.
   ScriptNotes: ''
   Edits: ''
   AlternateLipText: ''
   TextHash: 0x50F232109038D801
 Conditions:
 - MutagenObjectType: ConditionFloat
-  Unknown1: 0x000000
-  Unknown2: 16493
+  Unknown2: 16617
   Data:
     MutagenObjectType: GetInFactionConditionData
     RunOnType: QuestAlias
@@ -46,8 +27,7 @@ Conditions:
   CompareOperator: GreaterThan
   Flags:
   - OR
-  Unknown1: 0x000000
-  Unknown2: 16493
+  Unknown2: 16617
   Data:
     MutagenObjectType: GetCrimeGoldConditionData
     RunOnType: Reference
@@ -57,8 +37,7 @@ Conditions:
   CompareOperator: GreaterThan
   Flags:
   - OR
-  Unknown1: 0x000000
-  Unknown2: 16493
+  Unknown2: 16617
   Data:
     MutagenObjectType: GetCrimeGoldConditionData
     RunOnType: Reference
@@ -68,8 +47,7 @@ Conditions:
   CompareOperator: GreaterThan
   Flags:
   - OR
-  Unknown1: 0x000000
-  Unknown2: 16493
+  Unknown2: 16617
   Data:
     MutagenObjectType: GetCrimeGoldConditionData
     RunOnType: Reference
@@ -77,8 +55,7 @@ Conditions:
     FirstParameter: 26FDEA:Starfield.esm
 - MutagenObjectType: ConditionFloat
   CompareOperator: GreaterThan
-  Unknown1: 0x000000
-  Unknown2: 16493
+  Unknown2: 16617
   Data:
     MutagenObjectType: GetCrimeGoldConditionData
     RunOnType: Reference
@@ -86,8 +63,7 @@ Conditions:
     FirstParameter: 26310C:Starfield.esm
 - MutagenObjectType: ConditionFloat
   CompareOperator: LessThan
-  Unknown1: 0x000000
-  Unknown2: 16493
+  Unknown2: 16617
   Data:
     MutagenObjectType: IsWeaponOutConditionData
     RunOnType: Reference

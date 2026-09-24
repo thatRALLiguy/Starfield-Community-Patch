@@ -1,10 +1,71 @@
 FormKey: 1E8E2A:Starfield.esm
 EditorID: CFSD01
-FormVersion: 559
+FormVersion: 576
 VirtualMachineAdapter:
   Scripts:
   - Name: CFSD01_QuestScript
     Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CFSD01_EstelleVincent
+      Object: 1E8E2A:Starfield.esm
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CFSD01_Evidence_MSC_Chunks
+      Object: 1E8E2A:Starfield.esm
+      Alias: 24
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CFSD01_Evidence_CF05_ComSpike
+      Object: 1E8E2A:Starfield.esm
+      Alias: 14
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CFSD01_Evidence_MSC_Jaso
+      Object: 1E8E2A:Starfield.esm
+      Alias: 23
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CFSD01_Evidence_CF06_EstelleVincent
+      Object: 1E8E2A:Starfield.esm
+      Alias: 18
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CFSD01_Delgado
+      Object: 1E8E2A:Starfield.esm
+      Alias: 30
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF06
+      Object: 01BD20:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CFSD01_Evidence_CF05_Daiyu
+      Object: 1E8E2A:Starfield.esm
+      Alias: 13
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LC082
+      Object: 2BF365:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CFSD01_Evidence_CFKeyZ02_Kirova
+      Object: 1E8E2A:Starfield.esm
+      Alias: 22
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CFSD01_Evidence_CFKeyZ01_Maddie
+      Object: 1E8E2A:Starfield.esm
+      Alias: 21
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CFSD01_Evidence_MSC_Durand
+      Object: 1E8E2A:Starfield.esm
+      Alias: 19
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CFSD01_Evidence_CF03_LockRiots
+      Object: 1E8E2A:Starfield.esm
+      Alias: 10
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF01
+      Object: 009136:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CFSD01_Evidence_CF07_KryxFate
+      Object: 1E8E2A:Starfield.esm
+      Alias: 17
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CFSD01_EvgenyRokov
+      Object: 1E8E2A:Starfield.esm
+      Alias: 5
     - MutagenObjectType: ScriptObjectListProperty
       Name: EvidenceList
       Objects:
@@ -49,84 +110,52 @@ VirtualMachineAdapter:
       - Name: ''
         Object: 1DEDA8:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: CFSD01_Evidence_MSC_Jaso
-      Object: 1E8E2A:Starfield.esm
-      Alias: 23
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CFSD01_Evidence_CF07_KryxFate
-      Object: 1E8E2A:Starfield.esm
-      Alias: 17
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CFSD01_Evidence_CF03_Carter
-      Object: 1E8E2A:Starfield.esm
-      Alias: 9
-    - MutagenObjectType: ScriptObjectProperty
       Name: CFSD01_Evidence_MSC_Voss
       Object: 1E8E2A:Starfield.esm
       Alias: 20
     - MutagenObjectType: ScriptObjectProperty
-      Name: CFSD01_Evidence_CFKeyZ02_Kirova
+      Name: CFSD01_HuanDaiyu
       Object: 1E8E2A:Starfield.esm
-      Alias: 22
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CFSD01_Evidence_MSC_Durand
-      Object: 1E8E2A:Starfield.esm
-      Alias: 19
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CFSD01_Evidence_CF01_Kemp
-      Object: 1E8E2A:Starfield.esm
-      Alias: 8
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CF06
-      Object: 01BD20:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CFSD01_AyumiKomiko
-      Object: 1E8E2A:Starfield.esm
-      Alias: 31
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CFSD01EvidenceTotal
-      Object: 1DEDB4:Starfield.esm
+      Alias: 2
     - MutagenObjectType: ScriptObjectProperty
       Name: CFSD01_Evidence_MSC_Kreet
       Object: 1E8E2A:Starfield.esm
       Alias: 27
     - MutagenObjectType: ScriptObjectProperty
-      Name: CFSD01_Evidence_CF05_Daiyu
+      Name: CFSD01_Evidence_CF04_Rokov
       Object: 1E8E2A:Starfield.esm
-      Alias: 13
+      Alias: 11
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CFSD01EvidenceTotal
+      Object: 1DEDB4:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: CF04
       Object: 23C6F1:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CFSD01_Evidence_CF04_GalbankScheme
+      Object: 1E8E2A:Starfield.esm
+      Alias: 12
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF05
+      Object: 21D792:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CFSD01Evidence
+      Object: 1E0656:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: CFSD01_AdlerKemp
       Object: 1E8E2A:Starfield.esm
       Alias: 0
     - MutagenObjectType: ScriptObjectProperty
-      Name: CFSD01_EstelleVincent
-      Object: 1E8E2A:Starfield.esm
-      Alias: 1
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CFSD01_EvgenyRokov
-      Object: 1E8E2A:Starfield.esm
-      Alias: 5
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CFSD01_Evidence_CF05_ComSpike
-      Object: 1E8E2A:Starfield.esm
-      Alias: 14
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CF01
-      Object: 009136:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
       Name: CFSD01_Evidence_MSC_Chiroptera
       Object: 1E8E2A:Starfield.esm
       Alias: 25
     - MutagenObjectType: ScriptObjectProperty
-      Name: CFSD01Evidence
-      Object: 1E0656:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CFSD01_Evidence_CF04_GalbankScheme
+      Name: CFSD01_Evidence_CF03_Carter
       Object: 1E8E2A:Starfield.esm
-      Alias: 12
+      Alias: 9
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LC088_Key
+      Object: 2BF36B:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: CFSD01_Evidence_CF06_AyumiKomiko
       Object: 1E8E2A:Starfield.esm
@@ -136,211 +165,182 @@ VirtualMachineAdapter:
       Object: 1E8E2A:Starfield.esm
       Alias: 15
     - MutagenObjectType: ScriptObjectProperty
-      Name: CFSD01_Evidence_CF06_EstelleVincent
+      Name: CFSD01_AyumiKomiko
       Object: 1E8E2A:Starfield.esm
-      Alias: 18
+      Alias: 31
     - MutagenObjectType: ScriptObjectProperty
-      Name: CF05
-      Object: 21D792:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CFSD01_Evidence_CFKeyZ01_Maddie
+      Name: CFSD01_Evidence_CF01_Kemp
       Object: 1E8E2A:Starfield.esm
-      Alias: 21
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CFSD01_Evidence_MSC_HopeTown
-      Object: 1E8E2A:Starfield.esm
-      Alias: 26
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CFSD01_Evidence_CF03_LockRiots
-      Object: 1E8E2A:Starfield.esm
-      Alias: 10
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CFSD01_HuanDaiyu
-      Object: 1E8E2A:Starfield.esm
-      Alias: 2
+      Alias: 8
     - MutagenObjectType: ScriptObjectProperty
       Name: CFSD01_LarryDumbrosky
       Object: 1E8E2A:Starfield.esm
       Alias: 29
     - MutagenObjectType: ScriptObjectProperty
-      Name: CFSD01_Evidence_CF04_Rokov
+      Name: CFSD01_Evidence_MSC_HopeTown
       Object: 1E8E2A:Starfield.esm
-      Alias: 11
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CFSD01_Delgado
-      Object: 1E8E2A:Starfield.esm
-      Alias: 30
-    - MutagenObjectType: ScriptObjectProperty
-      Name: LC088_Key
-      Object: 2BF36B:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: LC082
-      Object: 2BF365:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CFSD01_Evidence_MSC_Chunks
-      Object: 1E8E2A:Starfield.esm
-      Alias: 24
+      Alias: 26
   Script:
     Name: Fragments:Quests:QF_CFSD01_001E8E2A
     Properties:
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_CFSD01_Evidence_MSC_Kreet
-      Object: 1E8E2A:Starfield.esm
-      Alias: 27
-    - MutagenObjectType: ScriptObjectProperty
-      Name: LL_Weapon_Reward_CFSD01_Tofts
-      Object: 316416:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_CFSD01_Evidence_CF06_BayuGenerdyne
-      Object: 1E8E2A:Starfield.esm
-      Alias: 15
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CF06_TTGWallSafeRef
-      Object: 1AD528:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_CFSD01_AdlerKemp
-      Object: 1E8E2A:Starfield.esm
-      Alias: 0
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CydoniaFaction
-      Object: 255CF7:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_CFSD01_Evidence_CF04_GalbankScheme
-      Object: 1E8E2A:Starfield.esm
-      Alias: 12
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CrimsonFleetCaptainState_Adler
-      Object: 278E85:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_CFSD01_Evidence_MSC_Paradiso
-      Object: 1E8E2A:Starfield.esm
-      Alias: 26
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_CFSD01_Evidence_MSC_Chunks
-      Object: 1E8E2A:Starfield.esm
-      Alias: 24
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_CFSD01_Evidence_CF05_ComSpike
-      Object: 1E8E2A:Starfield.esm
-      Alias: 14
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_CFSD01_Evidence_CF05_Daiyu
-      Object: 1E8E2A:Starfield.esm
-      Alias: 13
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CFSD01_Evidence_MSC_HopeTownRef
-      Object: 1DDF99:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_CFSD01_Evidence_CF06_AyumiKomiko
-      Object: 1E8E2A:Starfield.esm
-      Alias: 16
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CrimsonFleetCaptainState_Estelle
-      Object: 278E84:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_CFSD01_Evidence_MSC_Jaso
-      Object: 1E8E2A:Starfield.esm
-      Alias: 23
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CF05_Evidence_HuanDaiyuRef
-      Object: 1DDFA3:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_CFSD01_Evidence_CFKeyZ01_Maddie
-      Object: 1E8E2A:Starfield.esm
-      Alias: 21
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_CFSD01_Evidence_CFKeyZ02_Kirova
-      Object: 1E8E2A:Starfield.esm
-      Alias: 22
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_CFSD01_Evidence_MSC_Chiroptera
-      Object: 1E8E2A:Starfield.esm
-      Alias: 25
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CFSD01_Evidence_MSC_KreetRef
-      Object: 1DDF9A:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_CFSD01_Evidence_MSC_Voss
-      Object: 1E8E2A:Starfield.esm
-      Alias: 20
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Player
-      Object: 000007:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_CFSD01_EvgenyRokov
       Object: 1E8E2A:Starfield.esm
       Alias: 5
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_CFSD01_Evidence_MSC_Durand
-      Object: 1E8E2A:Starfield.esm
-      Alias: 19
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_CFSD01_Evidence_CF06_EstelleVincent
-      Object: 1E8E2A:Starfield.esm
-      Alias: 18
-    - MutagenObjectType: ScriptObjectProperty
-      Name: PlayerFaction
-      Object: 01C21C:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CFSD01_Evidence_MSC_ChunksRef
-      Object: 1DDF9D:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CrimsonFleetCaptainState_Huan
-      Object: 278E83:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_CFSD01_Evidence_CF01_Kemp
-      Object: 1E8E2A:Starfield.esm
-      Alias: 8
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CF01_Evidence_KempRef
-      Object: 1DDFA7:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CF_Main
-      Object: 178B1E:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
       Name: CrimsonFleetCaptainState_Rokov
       Object: 278E88:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CFSD01_Evidence_MSC_Voss
+      Object: 1E8E2A:Starfield.esm
+      Alias: 20
     - MutagenObjectType: ScriptObjectProperty
       Name: CF06_Evidence_EstelleVincentRef
       Object: 1DDFA1:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_CFSD01_Evidence_CF03_LockRiots
+      Name: Alias_CFSD01_Evidence_CF05_Daiyu
       Object: 1E8E2A:Starfield.esm
-      Alias: 10
+      Alias: 13
     - MutagenObjectType: ScriptObjectProperty
-      Name: CrimeFactionUC
-      Object: 05BD93:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CFKeyZ02_Evidence_AytonRef
-      Object: 1DDF9F:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_CFSD01_Evidence_CF04_Rokov
-      Object: 1E8E2A:Starfield.esm
-      Alias: 11
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CrimeFactionCrimsonFleet
-      Object: 010B30:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_CFSD01_Evidence_CF07_KryxFate
-      Object: 1E8E2A:Starfield.esm
-      Alias: 17
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CrimeFactionNeon
-      Object: 26FDEA:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CFSD01_Evidence_MSC_ChiopteraRef
-      Object: 1DDF9E:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CF06_Evidence_AyumiKomikoRef
-      Object: 1DDFA2:Starfield.esm
+      Name: CFSD01_Evidence_MSC_KreetRef
+      Object: 1DDF9A:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_CFSD01_EstelleVincent
       Object: 1E8E2A:Starfield.esm
       Alias: 1
     - MutagenObjectType: ScriptObjectProperty
+      Name: CF06_TTGWallSafeRef
+      Object: 1AD528:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CFSD01_Evidence_CF04_GalbankScheme
+      Object: 1E8E2A:Starfield.esm
+      Alias: 12
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CydoniaFaction
+      Object: 255CF7:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CFSD01_Evidence_CF05_ComSpike
+      Object: 1E8E2A:Starfield.esm
+      Alias: 14
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerFaction
+      Object: 01C21C:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF05_Evidence_HuanDaiyuRef
+      Object: 1DDFA3:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CFSD01_AdlerKemp
+      Object: 1E8E2A:Starfield.esm
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
       Name: Alias_CFSD01_Evidence_CF03_Carter
       Object: 1E8E2A:Starfield.esm
       Alias: 9
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CrimeFactionUC
+      Object: 05BD93:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CFSD01_Evidence_MSC_Kreet
+      Object: 1E8E2A:Starfield.esm
+      Alias: 27
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF01_Evidence_KempRef
+      Object: 1DDFA7:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CFSD01_Evidence_CF01_Kemp
+      Object: 1E8E2A:Starfield.esm
+      Alias: 8
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CFSD01_Evidence_MSC_Chiroptera
+      Object: 1E8E2A:Starfield.esm
+      Alias: 25
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CrimeFactionCrimsonFleet
+      Object: 010B30:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CFSD01_Evidence_MSC_Durand
+      Object: 1E8E2A:Starfield.esm
+      Alias: 19
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF06_Evidence_AyumiKomikoRef
+      Object: 1DDFA2:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CFSD01_Evidence_CFKeyZ02_Kirova
+      Object: 1E8E2A:Starfield.esm
+      Alias: 22
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CFSD01_Evidence_MSC_Jaso
+      Object: 1E8E2A:Starfield.esm
+      Alias: 23
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LL_Weapon_Reward_CFSD01_Tofts
+      Object: 316416:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CFSD01_Evidence_CF03_LockRiots
+      Object: 1E8E2A:Starfield.esm
+      Alias: 10
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CrimsonFleetCaptainState_Huan
+      Object: 278E83:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CrimsonFleetCaptainState_Adler
+      Object: 278E85:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CFSD01_Evidence_CF06_EstelleVincent
+      Object: 1E8E2A:Starfield.esm
+      Alias: 18
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CFSD01_Evidence_MSC_Chunks
+      Object: 1E8E2A:Starfield.esm
+      Alias: 24
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF_Main
+      Object: 178B1E:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CFKeyZ02_Evidence_AytonRef
+      Object: 1DDF9F:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CFSD01_Evidence_MSC_ChunksRef
+      Object: 1DDF9D:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CFSD01_Evidence_MSC_Paradiso
+      Object: 1E8E2A:Starfield.esm
+      Alias: 26
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CFSD01_Evidence_CF06_AyumiKomiko
+      Object: 1E8E2A:Starfield.esm
+      Alias: 16
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CFSD01_Evidence_MSC_HopeTownRef
+      Object: 1DDF99:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CFSD01_Evidence_CF06_BayuGenerdyne
+      Object: 1E8E2A:Starfield.esm
+      Alias: 15
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Player
+      Object: 000007:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CrimsonFleetCaptainState_Estelle
+      Object: 278E84:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CFSD01_Evidence_CFKeyZ01_Maddie
+      Object: 1E8E2A:Starfield.esm
+      Alias: 21
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CFSD01_Evidence_CF04_Rokov
+      Object: 1E8E2A:Starfield.esm
+      Alias: 11
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CFSD01_Evidence_CF07_KryxFate
+      Object: 1E8E2A:Starfield.esm
+      Alias: 17
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CFSD01_Evidence_MSC_ChiopteraRef
+      Object: 1DDF9E:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CrimeFactionNeon
+      Object: 26FDEA:Starfield.esm
   Fragments:
   - Unknown2: 1
     ScriptName: Fragments:Quests:QF_CFSD01_001E8E2A
@@ -820,25 +820,7 @@ VirtualMachineAdapter:
         Data: 200
 Name:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: Beweislast
-  - Language: English
-    String: Burden of Proof
-  - Language: Spanish
-    String: Carga de la prueba
-  - Language: French
-    String: Charge de preuve
-  - Language: Italian
-    String: Onere probatorio
-  - Language: Japanese
-    String: 立証責任
-  - Language: Polish
-    String: Twarde dowody
-  - Language: Portuguese_Brazil
-    String: Ônus da Prova
-  - Language: ChineseSimplified
-    String: 罪证的负担
+  Value: Burden of Proof
 Data:
   Flags:
   - StartGameEnabled
@@ -873,25 +855,7 @@ Stages:
     Note: CFSD01 Triggered in CF01
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Lieutenant Jillian Toft auf der UC Vigilance hat mir aufgetragen, Beweise für die illegalen Aktivitäten der Crimson Fleet zu beschaffen. Schriftliche und Audio-Aufzeichnungen wären besonders gut geeignet, um sie zur Rechenschaft zu ziehen.
-      - Language: English
-        String: I've been tasked by Lt. Jillian Toft on the UC Vigilance to find and bring back any evidence pertaining to Crimson Fleet related illegal activities. Audio logs and text logs would be especially helpful in bringing them to justice.
-      - Language: Spanish
-        String: La teniente Jillian Toft, de la UC Vigilance, me ha pedido que encuentre y le entregue cualquier prueba relacionada con las actividades ilegales de la Flota Carmesí. Los registros de audio y texto serían especialmente útiles para llevarlos ante la justicia.
-      - Language: French
-        String: Le lieutenant Jillian Toft, sur l'UC Vigilance, m'a demandé de lui rapporter des preuves quant aux activités illégales de la Flotte écarlate. Des journaux audio et écrits seraient particulièrement utiles pour les traduire en justice.
-      - Language: Italian
-        String: La ten. Jillian Toft della UC Vigilance mi ha incaricato di trovare e portarle qualsiasi prova pertinente alle attività illegali della Flotta Cremisi. In particolare, registri audio e testuali sarebbero molto utili per assicurare i pirati alla giustizia.
-      - Language: Japanese
-        String: UCヴィジランスのジリアン・トフト大尉に、紅の艦隊が関わっている違法行為の証拠を探してくるよう指示された。裁きにかけるには、オーディオログやテキストログがもっとも有効だろう
-      - Language: Polish
-        String: Por. Jillian Toft przydzieliła mi na OZK Vigilance zadanie odnalezienia i dostarczenia dowodów dotyczących nielegalnych działań związanych z Karmazynową Flotą. Szczególnie przydatne do oddania Floty w ręce sprawiedliwości będą nagrania audio i teksty.
-      - Language: Portuguese_Brazil
-        String: A Ten. Jillian Toft da UC Vigilance me incumbiu de procurar e trazer para ela qualquer evidência referente às atividades ilegais da Frota Escarlate. Registros de áudio e de texto seriam especialmente úteis para puni-los.
-      - Language: ChineseSimplified
-        String: 联殖守望号的吉莉安·托夫特中尉让我去搜寻并带回有关深红舰队非法行径的罪证。音频日志和文字日志是能将他们绳之以法的有力证据。
+      Value: I've been tasked by Lt. Jillian Toft on the UC Vigilance to find and bring back any evidence pertaining to Crimson Fleet related illegal activities. Audio logs and text logs would be especially helpful in bringing them to justice.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -1518,25 +1482,7 @@ Stages:
     Note: Evidence Done (CF08)
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Ich habe eine Reihe von Beweisen gegen die Crimson Fleet zurückgebracht und sollte jetzt mit Lieutenant Jillian Toft sprechen.
-      - Language: English
-        String: After returning a significant amount of evidence pertaining to the Crimson Fleet, I feel I should have a chat with Lt. Jillian Toft.
-      - Language: Spanish
-        String: Tras entregar una cantidad considerable de pruebas relacionadas con la Flota Carmesí, creo que debería hablar con la teniente Jillian Toft.
-      - Language: French
-        String: Après avoir obtenu suffisamment de preuves incriminant la Flotte écarlate, je dois retrouver le lieutenant Jillian Toft pour lui faire part de mes découvertes.
-      - Language: Italian
-        String: Dopo aver portato una quantità significativa di prove pertinenti alla Flotta Cremisi, credo di dover parlare con la ten. Jillian Toft.
-      - Language: Japanese
-        String: 紅の艦隊と犯罪の関わりを裏付ける証拠をたくさん集めた。ジリアン・トフト大尉と話そう
-      - Language: Polish
-        String: Po oddaniu znacznej liczby dowodów w sprawie Karmazynowej Floty warto chyba porozmawiać z por. Jillian Toft.
-      - Language: Portuguese_Brazil
-        String: Depois de entregar muitas evidências referentes à Frota Escarlate, acho que preciso falar com a Ten. Jillian Toft.
-      - Language: ChineseSimplified
-        String: 在将有关深红舰队的大量罪证归还之后，我觉得我应该去找吉莉安·托夫特中尉聊聊。
+      Value: After returning a significant amount of evidence pertaining to the Crimson Fleet, I feel I should have a chat with Lt. Jillian Toft.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -1557,25 +1503,7 @@ Stages:
     Note: Quest Complete
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Nachdem ich eine Reihe von Beweisen gegen die Crimson Fleet beschafft hatte, überreichte Lieutenant Jillian Toft mir überraschend ein Geschenk als Dank für meine Bemühungen, Verbrechern das Handwerk zu legen.
-      - Language: English
-        String: After returning a significant amount of evidence pertaining to the Crimson Fleet, I spoke with Lt. Jillian Toft. Unexpectedly, she's presented me with a gift to thank me for my efforts and bringing criminals to justice.
-      - Language: Spanish
-        String: Tras entregar una cantidad considerable de pruebas relacionadas con la Flota Carmesí, hablé con la teniente Jillian Toft. Para mi sorpresa, me dio un regalo en agradecimiento por mis esfuerzos y por llevar a los delincuentes ante la justicia.
-      - Language: French
-        String: Après avoir obtenu suffisamment de preuves incriminant la Flotte écarlate, j'ai discuté avec le lieutenant Jillian Toft, qui m'a, contre toute attente, offert quelque chose pour me remercier de mon aide dans sa lutte contre ces criminels.
-      - Language: Italian
-        String: Dopo aver portato una quantità significativa di prove pertinenti alla Flotta Cremisi, ho parlato con la ten. Jillian Toft. Inaspettatamente, mi ha fatto un dono per ringraziarmi dei miei sforzi e per aver assicurato dei criminali alla giustizia.
-      - Language: Japanese
-        String: 紅の艦隊と犯罪の関わりを裏付ける証拠をたくさん集め、ジリアン・トフト大尉と話した。意外なことに、犯罪者を裁いた努力のお礼として贈り物を渡された
-      - Language: Polish
-        String: Po oddaniu znacznej liczby dowodów w sprawie Karmazynowej Floty por. Jillian Toft nieoczekiwanie dała mi prezent w podziękowaniu za pomoc i oddanie przestępców w ręce sprawiedliwości.
-      - Language: Portuguese_Brazil
-        String: Depois de entregar muitas evidências referentes à Frota Escarlate, falei com a Ten. Jillian Toft. Inesperadamente, ela me deu um presente de agradecimento por meus esforços e por punir os criminosos.
-      - Language: ChineseSimplified
-        String: 在将有关深红舰队的大量罪证归还之后，我与吉莉安·托夫特中尉进行了一番交谈。让我意外的是，她居然送了我一份礼物，以感谢我的付出与为了将罪犯绳之以法所做出的贡献。
+      Value: After returning a significant amount of evidence pertaining to the Crimson Fleet, I spoke with Lt. Jillian Toft. Unexpectedly, she's presented me with a gift to thank me for my efforts and bringing criminals to justice.
     StageCompleteDatas:
     - QSRD: 0x01000000
       RewardDatas:
@@ -1587,73 +1515,19 @@ Objectives:
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Such nach Beweisen.
-    - Language: English
-      String: Search for Evidence
-    - Language: Spanish
-      String: Busca pruebas.
-    - Language: French
-      String: Cherchez des preuves.
-    - Language: Italian
-      String: Cerca le prove
-    - Language: Japanese
-      String: 証拠を探す
-    - Language: Polish
-      String: Szukaj dowodów
-    - Language: Portuguese_Brazil
-      String: Procure evidências
-    - Language: ChineseSimplified
-      String: 搜寻罪证
+    Value: Search for Evidence
 - Index: 200
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Bringe die Beweise zu Lieutenant Toft.
-    - Language: English
-      String: Return Evidence to Lt. Toft
-    - Language: Spanish
-      String: Devuelve las pruebas a la teniente Toft.
-    - Language: French
-      String: Rapportez les preuves au lieutenant Toft.
-    - Language: Italian
-      String: Porta le prove alla tenente Toft
-    - Language: Japanese
-      String: トフト大尉に証拠を渡す
-    - Language: Polish
-      String: Przekaż dowody por. Toft
-    - Language: Portuguese_Brazil
-      String: Entregue evidências à Ten. Toft
-    - Language: ChineseSimplified
-      String: 将罪证还给托夫特中尉
+    Value: Return Evidence to Lt. Toft
   Targets:
   - AliasID: 7
 - Index: 300
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Sprich mit Lieutenant Toft.
-    - Language: English
-      String: Speak to Lieutenant Toft
-    - Language: Spanish
-      String: Habla con la teniente Toft.
-    - Language: French
-      String: Parlez au lieutenant Toft.
-    - Language: Italian
-      String: Parla con la tenente Toft
-    - Language: Japanese
-      String: トフト大尉と話す
-    - Language: Polish
-      String: Porozmawiaj z porucznik Toft
-    - Language: Portuguese_Brazil
-      String: Converse com a Tenente Toft
-    - Language: ChineseSimplified
-      String: 与托夫特中尉交谈
+    Value: Speak to Lieutenant Toft
   Targets:
   - AliasID: 7
 Aliases:

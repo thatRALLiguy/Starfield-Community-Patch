@@ -1,5 +1,5 @@
 FormKey: 15DA4C:Starfield.esm
-FormVersion: 559
+FormVersion: 576
 Flags:
   Flags:
   - Random
@@ -33,39 +33,19 @@ Responses:
     UnknownFloat: 2.6000001
   Text:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Schicker Anzug.
-    - Language: English
-      String: Nice suit.
-    - Language: Spanish
-      String: Bonito traje.
-    - Language: French
-      String: Sympa, la combi.
-    - Language: Italian
-      String: Bella tuta.
-    - Language: Japanese
-      String: いいスーツだ
-    - Language: Polish
-      String: Niezłe wdzianko.
-    - Language: Portuguese_Brazil
-      String: Belo traje.
-    - Language: ChineseSimplified
-      String: 宇航服真不错。
+    Value: Nice suit.
   ScriptNotes: ''
   Edits: ''
   AlternateLipText: ''
   TextHash: 0xE0D66999DE4CD701
 Conditions:
 - MutagenObjectType: ConditionFloat
-  Unknown1: 0x000000
-  Unknown2: 16493
+  Unknown2: 16617
   Data:
     MutagenObjectType: GetInFactionConditionData
     FirstParameter: 26FDEA:Starfield.esm
 - MutagenObjectType: ConditionFloat
-  Unknown1: 0x000000
-  Unknown2: 16493
+  Unknown2: 16617
   Data:
     MutagenObjectType: WornHasKeywordConditionData
     RunOnType: Reference
@@ -73,8 +53,7 @@ Conditions:
     FirstParameter: 2BA8A7:Starfield.esm
   ComparisonValue: 1
 - MutagenObjectType: ConditionFloat
-  Unknown1: 0x000000
-  Unknown2: 16493
+  Unknown2: 16617
   Data:
     MutagenObjectType: IsTrueForConditionFormConditionData
     RunOnType: Reference

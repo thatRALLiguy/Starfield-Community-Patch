@@ -1,0 +1,17 @@
+FormKey: 29F408:Starfield.esm
+EditorID: ResOrgUniqueNeurologic
+FormVersion: 576
+Name:
+  TargetLanguage: English
+  Value: Neurologic
+Keywords:
+- 0424A4:Starfield.esm
+- 279E35:Starfield.esm
+CraftingSound:
+  Start: beb644dc-3806-fc10-b40a-1fd694f5d6b9
+Rarity: Unique
+SurfaceColor: '#00A1E4DB'
+ResourceType: MoodStabilizer
+ActorValue: 29F406:Starfield.esm
+Produce: 29F407:Starfield.esm
+Interval: 05EF41:Starfield.esm

@@ -1,5 +1,5 @@
 FormKey: 230EAA:Starfield.esm
-FormVersion: 559
+FormVersion: 576
 Quest: 23DF2A:Starfield.esm
 Category: Scene
 Subtype: CustomScene
@@ -8,4 +8,3 @@ TopicInfoList:
 - 1F3B65:Starfield.esm
 - 230E07:Starfield.esm
 - 230E06:Starfield.esm
-Timestamp: 12497

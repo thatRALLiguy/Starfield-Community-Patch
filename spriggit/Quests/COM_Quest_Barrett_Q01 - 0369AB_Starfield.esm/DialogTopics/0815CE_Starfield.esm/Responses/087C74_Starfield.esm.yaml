@@ -1,5 +1,5 @@
 FormKey: 087C74:Starfield.esm
-FormVersion: 559
+FormVersion: 576
 Flags: {}
 Responses:
 - Emotion: 0C8670:Starfield.esm
@@ -9,25 +9,7 @@ Responses:
     UnknownFloat: 1.9666668
   Text:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Falls es um den Einblick in Patientendaten geht, darf ich diese nicht freigeben.
-    - Language: English
-      String: If it's patient medical records you're after, I'll remind you, I'm not at liberty to discuss that.
-    - Language: Spanish
-      String: Si lo que queréis es el historial médico de un paciente, os recuerdo que no puedo compartir tal cosa.
-    - Language: French
-      String: Si ça concerne des dossiers de patients, laissez-moi vous rappeler que je n'ai pas le droit d'en discuter.
-    - Language: Italian
-      String: Se ha a che fare con le cartelle cliniche dei miei pazienti, vi ricordo che non sono autorizzata a parlarne.
-    - Language: Japanese
-      String: あなたが探してるのが患者の医療記録なら、悪いけど話す権限はないわ
-    - Language: Polish
-      String: Jeśli chodzi wam o dane medyczne, to przypominam, że nie mogę o tym rozmawiać.
-    - Language: Portuguese_Brazil
-      String: Se são os registros médicos que você procura, devo lhe lembrar que não posso falar sobre isso.
-    - Language: ChineseSimplified
-      String: 如果你们想要查看病人的医疗记录，我得提醒你们，我无权讨论那些东西。
+    Value: If it's patient medical records you're after, I'll remind you, I'm not at liberty to discuss that.
   ScriptNotes: ''
   Edits: ''
   AlternateLipText: ''

@@ -1,6 +1,6 @@
 FormKey: 00118F:Starfield.esm
 EditorID: MQ_TutorialQuest_Misc06
-FormVersion: 559
+FormVersion: 576
 VirtualMachineAdapter:
   Script:
     Name: Fragments:Quests:QF_MQ_TutorialQuest_Misc06_0000118F
@@ -22,25 +22,7 @@ VirtualMachineAdapter:
     - Name: MQTutorialPlayerResearchScript
 Name:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: Hinweis auf Forschung
-  - Language: English
-    String: Misc Pointer to Research
-  - Language: Spanish
-    String: 'Misc.: Investigación inicial'
-  - Language: French
-    String: Curseur divers sur Recherche
-  - Language: Italian
-    String: Indicatore vario per ricerca
-  - Language: Japanese
-    String: 研究へのその他ポインター
-  - Language: Polish
-    String: Losowy wskaźnik do badań
-  - Language: Portuguese_Brazil
-    String: Indicador Adicional de Pesquisa
-  - Language: ChineseSimplified
-    String: 研究指示器
+  Value: Misc Pointer to Research
 Data:
   Flags:
   - RunOnce
@@ -56,7 +38,7 @@ Stages:
   - Flags: []
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0xE66D9F
+      Unknown2: 17676
       Data:
         MutagenObjectType: IsTrueForConditionFormConditionData
         FirstParameter: 000808:StarfieldCommunityPatch.esm
@@ -67,7 +49,7 @@ Stages:
   - Flags: []
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0xE66D9F
+      Unknown2: 17676
       Data:
         MutagenObjectType: IsTrueForConditionFormConditionData
         FirstParameter: 000808:StarfieldCommunityPatch.esm
@@ -90,25 +72,7 @@ Objectives:
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Schließe ein Forschungsprojekt ab.
-    - Language: English
-      String: Complete a Research Project
-    - Language: Spanish
-      String: Completa un proyecto de investigación.
-    - Language: French
-      String: Terminez un projet de recherche.
-    - Language: Italian
-      String: Completa un Progetto di ricerca
-    - Language: Japanese
-      String: 研究プロジェクトを完了する
-    - Language: Polish
-      String: Ukończ projekt badawczy
-    - Language: Portuguese_Brazil
-      String: Conclua um projeto de pesquisa
-    - Language: ChineseSimplified
-      String: 完成一项研究计划
+    Value: Complete a Research Project
 Aliases:
 - MutagenObjectType: QuestLocationAlias
   ID: 1

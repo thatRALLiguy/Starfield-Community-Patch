@@ -1,0 +1,16 @@
+FormKey: 224643:Starfield.esm
+EditorID: ResOrgUniqueNeurologicFaunaCarnivore
+FormVersion: 576
+Name:
+  TargetLanguage: English
+  Value: Neurologic
+Keywords:
+- 279E35:Starfield.esm
+CraftingSound:
+  Start: beb644dc-3806-fc10-b40a-1fd694f5d6b9
+Rarity: Unique
+SurfaceColor: '#00A1E4DB'
+ResourceType: MoodStabilizer
+ActorValue: 2246B7:Starfield.esm
+Produce: 224687:Starfield.esm
+Interval: 05EF41:Starfield.esm

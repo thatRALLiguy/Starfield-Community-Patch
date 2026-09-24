@@ -1,6 +1,10 @@
 FormKey: 004D90:Starfield.esm
+IsCompressed: True
+MajorRecordFlagsRaw: 262144
 EditorID: PackInShipPISMODHabNovaBerthingAll2L1W1HAIntStorageCell
-FormVersion: 559
+FormVersion: 576
+StarfieldMajorRecordFlags:
+- Compressed
 Flags:
 - IsInteriorCell
 Lighting:
@@ -22,6 +26,7 @@ Lighting:
   FogHighFarScale: 1
   FarHeightRange: 10000
   Unknown2: -253
+LightingTemplate: Null
 WaterHeight: 3.4028235E+38
 XILS: 1
 ImageSpace: 06AD68:Starfield.esm
@@ -42,6 +47,24 @@ Traversals:
   UnknownVector: 4.0477962, 5.1968946, 0.9090621
   Unknown: 0x484248421A3B263D
 NumTraversalFluffBytes: 12
-Timestamp: 12497
-TemporaryTimestamp: 12497
 TemporaryUnknownGroupData: 1
+Temporary:
+- MutagenObjectType: PlacedObject
+  FormKey: 21302C:Starfield.esm
+  MajorRecordFlagsRaw: 2048
+  FormVersion: 576
+  StarfieldMajorRecordFlags:
+  - InitiallyDisabled
+  Base: 0753E6:Starfield.esm
+  Position: 2.6583517, -6.1219306, -0.29748043
+  Rotation: 0, -0, 1.3000001
+- MutagenObjectType: PlacedObject
+  FormKey: 21302B:Starfield.esm
+  MajorRecordFlagsRaw: 2048
+  FormVersion: 576
+  StarfieldMajorRecordFlags:
+  - InitiallyDisabled
+  Base: 0753E7:Starfield.esm
+  Position: 3.577863, 4.622253, -0.0038122218
+MajorFlags:
+- 0x40000

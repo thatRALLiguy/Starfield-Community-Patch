@@ -1,0 +1,16 @@
+FormKey: 224628:Starfield.esm
+EditorID: ResOrgUniqueLuxuryTextileFaunaHerbivore
+FormVersion: 576
+Name:
+  TargetLanguage: English
+  Value: Luxury Textile
+Keywords:
+- 279E36:Starfield.esm
+CraftingSound:
+  Start: 7cf94189-9da4-3194-c07a-196cb7a9708e
+Rarity: Unique
+SurfaceColor: '#00A1E4DB'
+ResourceType: LuxuryTextile
+ActorValue: 22469C:Starfield.esm
+Produce: 22466F:Starfield.esm
+Interval: 05EF41:Starfield.esm

@@ -1,5 +1,5 @@
 FormKey: 15DA38:Starfield.esm
-FormVersion: 559
+FormVersion: 576
 Flags:
   Flags:
   - Random
@@ -31,33 +31,14 @@ Responses:
     UnknownFloat: 2.6000001
   Text:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Okay, jetzt hab ich alles erlebt.
-    - Language: English
-      String: Okay, now I've seen everything.
-    - Language: Spanish
-      String: Vale, ya lo he visto todo.
-    - Language: French
-      String: J'aurai tout vu !
-    - Language: Italian
-      String: OK, ora le ho viste tutte.
-    - Language: Japanese
-      String: うわ、驚いたな
-    - Language: Polish
-      String: No dobra, nic mnie już nie zdziwi.
-    - Language: Portuguese_Brazil
-      String: Tá, agora eu vi de tudo.
-    - Language: ChineseSimplified
-      String: 得了，现在我什么都看到了。
+    Value: Okay, now I've seen everything.
   ScriptNotes: ''
   Edits: ''
   AlternateLipText: ''
   TextHash: 0x20DEEC57E24CD701
 Conditions:
 - MutagenObjectType: ConditionFloat
-  Unknown1: 0x000000
-  Unknown2: 16493
+  Unknown2: 16617
   Data:
     MutagenObjectType: WornHasKeywordConditionData
     RunOnType: Reference
@@ -65,8 +46,7 @@ Conditions:
     FirstParameter: 1C8E67:Starfield.esm
   ComparisonValue: 1
 - MutagenObjectType: ConditionFloat
-  Unknown1: 0x000000
-  Unknown2: 16493
+  Unknown2: 16617
   Data:
     MutagenObjectType: IsTrueForConditionFormConditionData
     RunOnType: Reference

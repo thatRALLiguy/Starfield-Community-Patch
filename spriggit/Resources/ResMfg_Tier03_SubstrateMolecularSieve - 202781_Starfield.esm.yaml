@@ -1,0 +1,17 @@
+FormKey: 202781:Starfield.esm
+EditorID: ResMfg_Tier03_SubstrateMolecularSieve
+FormVersion: 576
+Name:
+  TargetLanguage: English
+  Value: Substrate Molecule Sieve
+Keywords:
+- 0424A9:Starfield.esm
+- 23CEB6:Starfield.esm
+CraftingSound:
+  Start: 8f644ce4-8ff9-5217-90b6-cba2f6b0b18d
+Rarity: Unique
+SurfaceColor: '#003B424A'
+ResourceType: SubstrateMolecularSieve
+ActorValue: 202780:Starfield.esm
+Produce: 20277F:Starfield.esm
+Interval: 14EB75:Starfield.esm

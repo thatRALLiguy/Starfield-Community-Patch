@@ -1,6 +1,6 @@
 FormKey: 2C6D74:Starfield.esm
 EditorID: MQ204
-FormVersion: 559
+FormVersion: 576
 VirtualMachineAdapter:
   Scripts:
   - Name: defaultquestchangelocationscript
@@ -105,77 +105,8 @@ VirtualMachineAdapter:
   - Name: mq204script
     Properties:
     - MutagenObjectType: ScriptObjectProperty
-      Name: MQ204MedStimMSG
-      Object: 2C6CF8:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: LodgeStartMarker
-      Object: 2824E5:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: LC165_ScriptedTeleportSourceExplosion
-      Object: 12033D:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: EyeMarker
-      Object: 005981:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: AnimFaceArchetypeInPain
-      Object: 100286:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: SarahMorgan
-      Object: 2C6D74:Starfield.esm
-      Alias: 7
-    - MutagenObjectType: ScriptObjectProperty
       Name: StarStationTheEyeLocation
       Object: 2B0801:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: TheHunter
-      Object: 2C6D74:Starfield.esm
-      Alias: 6
-    - MutagenObjectType: ScriptObjectProperty
-      Name: AvailableCompanionFaction
-      Object: 00D875:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: AnimArchetypeMQ204A_030_MaleVictim_FemaleReactsToMale
-      Object: 060023:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ204A_013_HunterSceneRepeat
-      Object: 0D092D:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ204A_030_FemaleVictim
-      Object: 0C53A2:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: SamCoe
-      Object: 2C6D74:Starfield.esm
-      Alias: 4
-    - MutagenObjectType: ScriptObjectProperty
-      Name: AnimArchetypeMQ204A_030_MaleVictim_MaleReactsToMale
-      Object: 212FDA:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: AnimArchetypeMQ204A_030_FemaleVictim_MaleReactsToFemale
-      Object: 1565B2:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Barrett
-      Object: 2C6D74:Starfield.esm
-      Alias: 18
-    - MutagenObjectType: ScriptObjectProperty
-      Name: AnimArchetypeMQ204A_030_FemaleVictim_FemaleReactsToFemale
-      Object: 212FD9:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CurrentCompanionFaction
-      Object: 023C01:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: AnimArchetypeMQ204A_030_FemaleVictim_FemaleReactsToMale
-      Object: 13C696:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Health
-      Object: 0002D4:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ00_ArtifactsHolder
-      Object: 005790:Starfield.esm
-      Alias: 16
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ00_CompanionWhoDies
-      Object: 2C6D74:Starfield.esm
-      Alias: 22
     - MutagenObjectType: ScriptObjectProperty
       Name: AbStarbornTeleport
       Object: 18B81F:Starfield.esm
@@ -183,218 +114,387 @@ VirtualMachineAdapter:
       Name: MQ204A_030_MaleVictim
       Object: 06AAE1:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: AnimArchetypeMQ204A_030_MaleVictim_MaleReactsToFemale
-      Object: 06001F:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Andreja
+      Name: TheHunter
       Object: 2C6D74:Starfield.esm
-      Alias: 16
-  Script:
-    Name: Fragments:Quests:QF_MQ204_002C6D74
-    Properties:
+      Alias: 6
     - MutagenObjectType: ScriptObjectProperty
-      Name: MQ204A_031_MedstimSarah
-      Object: 2C6CFF:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: LodgeKey
-      Object: 293A7D:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ204A_013_HunterScene01
-      Object: 10D8C5:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: COM_IsCommitted
-      Object: 27B78C:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ204EyeCompanionDeadEnableMarker
-      Object: 28A6A6:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_LodgeRoofDoor
-      Object: 2C6D74:Starfield.esm
-      Alias: 23
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ204_RunMarker_Matteo02
-      Object: 110FB0:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: FFLodge01
-      Object: 1C0F26:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ106_SamMarker01
-      Object: 2CFCB5:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_LodgeDisplay
-      Object: 2C6D74:Starfield.esm
-      Alias: 51
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQHoldingCellCenterMarker
-      Object: 2A04E3:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ204A_051_LodgeReturnScene
-      Object: 23BE36:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: COM_WantsToTalkEvent_MQ204
-      Object: 1E99A8:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CityNewAtlantisLocation
-      Object: 01295A:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Barrett
-      Object: 2C6D74:Starfield.esm
-      Alias: 18
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ204HunterReward
-      Object: 062684:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ204A_015a_CoraScene
-      Object: 23E8DB:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: EyeMarker
-      Object: 005981:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ106_VladimirMarker01
-      Object: 2CFCB6:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ204A_030a_DeathCoraScene
-      Object: 23E8DB:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_PlayerShipInventory
-      Object: 2C6D74:Starfield.esm
-      Alias: 45
-    - MutagenObjectType: ScriptObjectProperty
-      Name: NewAtlantisMapMarkerEmbassy
-      Object: 24C3A0:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_LodgeFrontDoor
-      Object: 2C6D74:Starfield.esm
-      Alias: 10
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ204UCGuard
-      Object: 2C6CF7:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ204_RunMarker_Vasco02
-      Object: 110FAF:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_LodgeRoofDoorExterior
-      Object: 2C6D74:Starfield.esm
-      Alias: 42
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Vasco
-      Object: 2C6D74:Starfield.esm
-      Alias: 25
+      Name: Health
+      Object: 0002D4:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: AvailableCompanionFaction
       Object: 00D875:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: MQ101_PlayerMarker01
-      Object: 0059B0:Starfield.esm
+      Name: MQ204A_013_HunterSceneRepeat
+      Object: 0D092D:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: MQ204A_008_NoelPackUp
-      Object: 2C6D07:Starfield.esm
+      Name: SarahMorgan
+      Object: 2C6D74:Starfield.esm
+      Alias: 7
     - MutagenObjectType: ScriptObjectProperty
-      Name: SQ_PlayerShip
-      Object: 0174A2:Starfield.esm
+      Name: AnimArchetypeMQ204A_030_FemaleVictim_FemaleReactsToMale
+      Object: 13C696:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: MQ204A_008c_WalterChoking
+      Name: AnimArchetypeMQ204A_030_FemaleVictim_MaleReactsToFemale
+      Object: 1565B2:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ204A_030_FemaleVictim
+      Object: 0C53A2:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AnimArchetypeMQ204A_030_FemaleVictim_FemaleReactsToFemale
+      Object: 212FD9:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SamCoe
+      Object: 2C6D74:Starfield.esm
+      Alias: 4
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LC165_ScriptedTeleportSourceExplosion
+      Object: 12033D:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AnimArchetypeMQ204A_030_MaleVictim_MaleReactsToFemale
+      Object: 06001F:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AnimArchetypeMQ204A_030_MaleVictim_MaleReactsToMale
+      Object: 212FDA:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CurrentCompanionFaction
+      Object: 023C01:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: EyeMarker
+      Object: 005981:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LodgeStartMarker
+      Object: 2824E5:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AnimFaceArchetypeInPain
+      Object: 100286:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Andreja
+      Object: 2C6D74:Starfield.esm
+      Alias: 16
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AnimArchetypeMQ204A_030_MaleVictim_FemaleReactsToMale
+      Object: 060023:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ00_CompanionWhoDies
+      Object: 2C6D74:Starfield.esm
+      Alias: 22
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ00_ArtifactsHolder
+      Object: 005790:Starfield.esm
+      Alias: 16
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ204MedStimMSG
+      Object: 2C6CF8:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Barrett
+      Object: 2C6D74:Starfield.esm
+      Alias: 18
+  Script:
+    Name: Fragments:Quests:QF_MQ204_002C6D74
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ204A_016_ReturnScene
+      Object: 2C6D02:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ204UCGuard
+      Object: 2C6CF7:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ204HunterInvisibility
+      Object: 1A9C71:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ201
+      Object: 017CE8:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ204A_008b_WalterGrabbed
+      Object: 3B9AA9:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: abAIPower_MoonForm_Hunter
+      Object: 113D60:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_GuardShips
+      Object: 2CE1A4:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ204_RunMarker_Walter03
+      Object: 110FA5:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ204xPostQuest
+      Object: 19D83A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ204WellKey
+      Object: 14AFDC:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FFLodge03
+      Object: 184510:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SpaceshipEnabledLandingLink
+      Object: 01448D:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ204RunningGroupFaction
+      Object: 04835E:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ204A_010_ArtifactPackUp
+      Object: 2C6D05:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ204EyeAttackEnableMarker
+      Object: 0C907A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_ArtifactCollectionTrigger
+      Object: 2C6D74:Starfield.esm
+      Alias: 36
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_WantsToTalkEvent_MQ204
+      Object: 1E99A8:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MUSGenesisCombatBoss_MQ204_A_Hunter
+      Object: 212FDF:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ204_RunMarker_Walter02
+      Object: 110FB1:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: WwiseEvent_QST_MQ204_Starborn_VoidForm_End
+      Object: 2A9EAA:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: NewAtlantisMapMarkerEmbassy
+      Object: 24C3A0:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_IsCommitted
+      Object: 27B78C:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AnimFaceArchetypeAfraid
+      Object: 0FA84B:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ204A_012b_InCity
+      Object: 23EF1F:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_PlayerPassengerMarker
+      Object: 2C6D74:Starfield.esm
+      Alias: 24
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CrewReassignDisabled
+      Object: 172F8E:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MUSGenesisStingerDread1Small
+      Object: 1F006D:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CrimeFactionUC
+      Object: 05BD93:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ204A_011b_EveryoneRuns
+      Object: 110FAA:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ204_NA_PlayerMarker
+      Object: 1DDF95:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ204LodgeDeathMarker
+      Object: 2C6CF6:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_IsRomantic
+      Object: 2BFAB9:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ204_Stage200EyeMarker_Vladimir
+      Object: 1A3A55:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ204A_008b_WalterChoking
       Object: 234EA7:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: AnimFaceArchetypeDying
-      Object: 0B6975:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: COM_Quest_SamCoe_Q01
-      Object: 263262:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: NewAtlantisShipLandingMarker
       Object: 023605:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: AnimFaceArchetypeEyesClosed
-      Object: 19E080:Starfield.esm
+      Name: CurrentCompanionFaction
+      Object: 023C01:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CoraCoe
+      Object: 2C6D74:Starfield.esm
+      Alias: 20
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_WellElevatorManagerToMAST
+      Object: 2C6D74:Starfield.esm
+      Alias: 57
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LodgeKey
+      Object: 293A7D:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ204A_031_MedstimSarah
+      Object: 2C6CFF:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ204_NoelWellEscort_Marker
+      Object: 23C7CC:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ204A_010_HunterBleedout
+      Object: 2C6D05:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ204NoelRuntoSpaceport
+      Object: 11B751:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_MatteoKhatri
+      Object: 2C6D74:Starfield.esm
+      Alias: 26
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_Companion_SarahMorgan
+      Object: 009E99:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: MQ00_CompanionWhoDies
       Object: 005790:Starfield.esm
       Alias: 4
     - MutagenObjectType: ScriptObjectProperty
-      Name: Mfg_Tier01_Structural_Frame
-      Object: 246B6A:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ204EyeMovetoMarker
-      Object: 2C6CFC:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Companion
+      Name: Alias_SamCoe
       Object: 2C6D74:Starfield.esm
-      Alias: 35
-    - MutagenObjectType: ScriptObjectProperty
-      Name: COM_WantsToTalk_MQ204_Cooldown
-      Object: 0C8F68:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ204NoelRuntoSpaceport
-      Object: 11B751:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Armillary
-      Object: 2C6D74:Starfield.esm
-      Alias: 50
+      Alias: 4
     - MutagenObjectType: ScriptObjectProperty
       Name: ArmillaryMountSwapEnableMarker
       Object: 0D0AFD:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: SQ_GuardShips01
-      Object: 1F0C33:Starfield.esm
+      Name: TestMQ204MSG02
+      Object: 339930:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: MQ204_TurnOffCF01Arrest
-      Object: 07C702:Starfield.esm
+      Name: Alias_SpaceportShip
+      Object: 2C6D74:Starfield.esm
+      Alias: 46
     - MutagenObjectType: ScriptObjectProperty
       Name: MQ204A_052_ScorpiusScene
       Object: 1A5411:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: MQAlllowArmillaryGravDrive
-      Object: 3E5D36:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_TheScorpius
-      Object: 2C6D74:Starfield.esm
-      Alias: 34
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ204_NoelWellEscort_Marker
-      Object: 23C7CC:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: COM_Quest_Barrett_Q02
-      Object: 002FAE:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: NewAtlantisMapMarkerLodge
-      Object: 0F93F1:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: SQ_GuardShips
-      Object: 2CE1A4:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: AnimFaceArchetypeAfraid
-      Object: 0FA84B:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ204A_031_MedstimMatteo
-      Object: 1A5415:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ204_WellEnableState
-      Object: 0560D3:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: COM_CompanionID_Barret
-      Object: 2BE2D6:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Sona
-      Object: 2C6D74:Starfield.esm
-      Alias: 61
-    - MutagenObjectType: ScriptObjectProperty
       Name: MQ204_BarricadeEnableMarker
       Object: 0D5B34:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Vladimir
-      Object: 2C6D74:Starfield.esm
-      Alias: 0
+      Name: TestMQ204MSG
+      Object: 003C75:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: NewAtlantisMapMarkerLodge
+      Object: 0F93F1:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: DismissedCrew
       Object: 0174A2:Starfield.esm
       Alias: 24
     - MutagenObjectType: ScriptObjectProperty
-      Name: LodgeStartMarker
-      Object: 2824E5:Starfield.esm
+      Name: MQ202
+      Object: 017CE7:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: MQ204A_008b_WalterGrabbed
-      Object: 3B9AA9:Starfield.esm
+      Name: AnimFaceArchetypeEyesClosed
+      Object: 19E080:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ204EyeCompanionDeadEnableMarker
+      Object: 28A6A6:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CompanionAtLodge
+      Object: 2C6D74:Starfield.esm
+      Alias: 14
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_WantsToTalk_CooldownDays
+      Object: 0507D8:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ204A_036b_EveryoneRuns
+      Object: 197635:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ204_RunMarker_Vasco03
+      Object: 110FA2:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_Companion_Andreja
+      Object: 23DF2A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_WellElevatorFloor_Well
+      Object: 2C6D74:Starfield.esm
+      Alias: 60
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ106_SamMarker01
+      Object: 2CFCB5:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQMisc02
+      Object: 1560EE:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_CompanionID_SarahMorgan
+      Object: 2BE2D8:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_LodgeRoofDoorExterior
+      Object: 2C6D74:Starfield.esm
+      Alias: 42
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_PlayerShip
+      Object: 0174A2:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: NewAtlantisMapMarkerResidentialDistrict
+      Object: 01531B:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ204A_013_HunterScene01
+      Object: 10D8C5:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ204BasementDoorEnableMarker
+      Object: 14B1DD:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_LodgeFrontDoorExterior
+      Object: 2C6D74:Starfield.esm
+      Alias: 41
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ106_VladimirMarker01
+      Object: 2CFCB6:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CityNewAtlantisLocation
+      Object: 01295A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_LodgeInteriorDoor
+      Object: 2C6D74:Starfield.esm
+      Alias: 48
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ204A_012c_InShip
+      Object: 23EF1E:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ204EyeMovetoMarker
+      Object: 2C6CFC:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ204A_008c_WalterChoking
+      Object: 234EA7:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_GuardShips00
+      Object: 1F0C32:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ204ArmillaryBuildMSG
+      Object: 3E5D38:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CityNewAtlantisWellLocation
+      Object: 19A5C2:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: EyeMarker
+      Object: 005981:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_Companions
+      Object: 2A567C:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LC165_ScriptedTeleportSourceExplosion
+      Object: 12033D:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ204LodgeCompanionDeadEnableMarker
+      Object: 28A6A7:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_Quest_SarahMorgan_Q01
+      Object: 2C7C11:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_PlayerShip
+      Object: 2C6D74:Starfield.esm
+      Alias: 28
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_LodgeFrontDoor
+      Object: 2C6D74:Starfield.esm
+      Alias: 10
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_Quest_Andreja_Q01
+      Object: 21ECD0:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ204SamDied
+      Object: 04BCEA:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Com_Companion_Barrett
+      Object: 1C7187:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ204A_013_HunterScene01b
+      Object: 0DCCD6:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Barrett
+      Object: 2C6D74:Starfield.esm
+      Alias: 18
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Armillary
+      Object: 2C6D74:Starfield.esm
+      Alias: 50
     - MutagenObjectType: ScriptObjectProperty
       Name: MQ204HunterArrivesMarker
       Object: 2C6CFB:Starfield.esm
@@ -402,112 +502,136 @@ VirtualMachineAdapter:
       Name: MQ204CompanionLockInOverMSG
       Object: 11A42E:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: COM_CompanionID_SamCoe
-      Object: 2BE2D7:Starfield.esm
+      Name: MQ101Debug
+      Object: 0A7D31:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: MQ204A_016_ReturnScene
-      Object: 2C6D02:Starfield.esm
+      Name: AvailableCompanionFaction
+      Object: 00D875:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: MQ204BasementDoorEnableMarker
-      Object: 14B1DD:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ_CompanionSaved
-      Object: 1D3E85:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ204A_004_NoelAmbient
-      Object: 2C6D0C:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_LodgeFrontDoorExterior
-      Object: 2C6D74:Starfield.esm
-      Alias: 41
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ204A_008a_NoelPackUp
-      Object: 2C6D07:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ204LodgeDeathNearMarker
-      Object: 057193:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: COM_Companion_SarahMorgan
-      Object: 009E99:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CrewReassignDisabled
-      Object: 172F8E:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQMisc02
-      Object: 1560EE:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_CompanionAtEye
-      Object: 2C6D74:Starfield.esm
-      Alias: 15
-    - MutagenObjectType: ScriptObjectProperty
-      Name: COM_CompanionID_Barrett
+      Name: COM_CompanionID_Barret
       Object: 2BE2D6:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: MQ204_RunMarker_Walter02
-      Object: 110FB1:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ204_RunMarker_Cora02
-      Object: 005F03:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ204RunningGroupFaction
-      Object: 04835E:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_Andreja
+      Name: Alias_LodgeSecretDoor
       Object: 2C6D74:Starfield.esm
-      Alias: 16
+      Alias: 40
     - MutagenObjectType: ScriptObjectProperty
-      Name: Health
-      Object: 0002D4:Starfield.esm
+      Name: Mfg_Tier01_Structural_Frame
+      Object: 246B6A:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: crModIncomingDamage00
-      Object: 113793:Starfield.esm
+      Name: Alias_Sona
+      Object: 2C6D74:Starfield.esm
+      Alias: 61
     - MutagenObjectType: ScriptObjectProperty
-      Name: MQ204A_037_PlayerInShip
-      Object: 19FDE9:Starfield.esm
+      Name: MQ00_CompanionWhoLives
+      Object: 005790:Starfield.esm
+      Alias: 5
     - MutagenObjectType: ScriptObjectProperty
-      Name: COM_SQ01_SonaLeft
-      Object: 104661:Starfield.esm
+      Name: FFNewAtlantis05
+      Object: 08E2D9:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: MQ204_RunMarker_Companion02
-      Object: 110FB2:Starfield.esm
+      Name: MQ204_RunMarker_Vasco02
+      Object: 110FAF:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_SarahMorgan
+      Object: 2C6D74:Starfield.esm
+      Alias: 7
     - MutagenObjectType: ScriptObjectProperty
       Name: MQ204A_007_ActivateDoor
       Object: 2C6D08:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: MQ204WellKey
-      Object: 14AFDC:Starfield.esm
+      Name: COM_CompanionID_Barrett
+      Object: 2BE2D6:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: WwiseEvent_QST_MQ204_Starborn_VoidForm_End
-      Object: 2A9EAA:Starfield.esm
+      Name: MQ204A_008a_NoelPackUp
+      Object: 2C6D07:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: MQ204_Stage200EyeMarker_Vladimir
-      Object: 1A3A55:Starfield.esm
+      Name: MQ204_WellEnableState
+      Object: 0560D3:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: MQ204A_012_Tunnel
-      Object: 2C6D04:Starfield.esm
+      Name: crModIncomingDamage00
+      Object: 113793:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_WellElevatorFloor_Well
+      Name: MQ204A_012d_InShip
+      Object: 23EF1E:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ204MedStimMSG
+      Object: 2C6CF8:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_WantsToTalk_MQ204_Cooldown
+      Object: 0C8F68:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UC04_Spaceport_WarningSign_EnableMarker
+      Object: 0F19C7:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_GuardShips01
+      Object: 1F0C33:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ204_Stage200EyeMarker_Noel
+      Object: 1A3A56:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ204A_014_Vladimir
+      Object: 2C6D03:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_Companion_SamCoe
+      Object: 26C5ED:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ204CompanionLockInMidquestEyeMSG
+      Object: 11A439:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ConstellationFaction
+      Object: 0191DC:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_LodgeRoofDoor
       Object: 2C6D74:Starfield.esm
-      Alias: 60
+      Alias: 23
     - MutagenObjectType: ScriptObjectProperty
-      Name: MQ204_NoelHidingMarker
-      Object: 2C6CF3:Starfield.esm
+      Name: MQ204_RunMarker_Cora03
+      Object: 005F08:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: MQ204_NA_StateChangeHandler
-      Object: 00E415:Starfield.esm
+      Name: EyeBoardingFaction
+      Object: 136F9F:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_WellElevatorManagerToMAST
+      Name: MQ204DoortoLodgeREF
+      Object: 0F0358:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ_CompanionDead
+      Object: 2BB89F:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_HomeShipArmillaryScreenTrigger
       Object: 2C6D74:Starfield.esm
-      Alias: 57
+      Alias: 56
     - MutagenObjectType: ScriptObjectProperty
-      Name: TestMQ204MSG02
-      Object: 339930:Starfield.esm
+      Name: COM_CompanionID_Andreja
+      Object: 2BE2D3:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: COM_Quest_SarahMorgan_Q01
-      Object: 2C7C11:Starfield.esm
+      Name: MQ204ScorpiusMarker
+      Object: 1A3A59:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: MQ204A_010_HunterBleedout
-      Object: 2C6D05:Starfield.esm
+      Name: MQ204A_031_MedstimBarrett
+      Object: 23E695:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_TheScorpius
+      Object: 2C6D74:Starfield.esm
+      Alias: 34
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ206A
+      Object: 2BACF9:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ204A_011_NoelRuns
+      Object: 1A3A52:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ101
+      Object: 003448:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AbStarbornTeleport
+      Object: 18B81F:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_PlayerShipInventory
+      Object: 2C6D74:Starfield.esm
+      Alias: 45
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UCSecurityFaction
+      Object: 052ADC:Starfield.esm
     - MutagenObjectType: ScriptObjectListProperty
       Name: Alias_Companions
       Objects:
@@ -524,377 +648,256 @@ VirtualMachineAdapter:
         Object: 009E99:Starfield.esm
         Alias: 0
     - MutagenObjectType: ScriptObjectProperty
-      Name: MQ204A_011_NoelRuns
-      Object: 1A3A52:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: COM_IsRomantic
-      Object: 2BFAB9:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: UCSecurityFaction
-      Object: 052ADC:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_WalterStroud
-      Object: 2C6D74:Starfield.esm
-      Alias: 5
-    - MutagenObjectType: ScriptObjectProperty
-      Name: JemisonGuardShipsEnableMarker
-      Object: 19CD8D:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ204SecretDoorREF
-      Object: 0DFE7E:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ00_CompanionWhoLives
-      Object: 005790:Starfield.esm
-      Alias: 5
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ204ArmillaryBuildMSG
-      Object: 3E5D38:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: TestMQ204MSG
-      Object: 003C75:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ204MedStimMSG
-      Object: 2C6CF8:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: FFLodge02
-      Object: 1BA507:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: COM_WantsToTalk_CooldownDays
-      Object: 0507D8:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_PlayerPassengerMarker
-      Object: 2C6D74:Starfield.esm
-      Alias: 24
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ204CompanionLockInMSG
-      Object: 11A42F:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: COM_Quest_Andreja_Q01
-      Object: 21ECD0:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ204_RunMarker_Cora03
-      Object: 005F08:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ204A_012d_InShip
-      Object: 23EF1E:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CF05
-      Object: 21D792:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: ConstellationFaction
-      Object: 0191DC:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ204_NA_HunterMarker
-      Object: 1DDF96:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: NewAtlantisMapMarkerResidentialDistrict
-      Object: 01531B:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_PlayerShip
-      Object: 2C6D74:Starfield.esm
-      Alias: 28
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_HomeShipArmillaryScreenTrigger
-      Object: 2C6D74:Starfield.esm
-      Alias: 56
-    - MutagenObjectType: ScriptObjectProperty
-      Name: SQ_Followers
-      Object: 00D773:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: COM_CompanionID_Andreja
-      Object: 2BE2D3:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ204DoortoLodgeREF
-      Object: 0F0358:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: LC165_ScriptedTeleportSourceExplosion
-      Object: 12033D:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ101
-      Object: 003448:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CrimeFactionUC
-      Object: 05BD93:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ206A
-      Object: 2BACF9:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: COM_CompanionID_SarahMorgan
-      Object: 2BE2D8:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_SamCoe
-      Object: 2C6D74:Starfield.esm
-      Alias: 4
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ204HunterInvisibility
-      Object: 1A9C71:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ204A_012c_Spaceport
-      Object: 10DAC2:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ204A_020a_MedstimSam
-      Object: 1A5412:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Frontier_ModularREF
-      Object: 03F7E8:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_WellElevatorFloor_Waterfall
-      Object: 2C6D74:Starfield.esm
-      Alias: 58
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ204A_060_HunterGoneScene
-      Object: 062683:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ204A_012c_InShip
-      Object: 23EF1E:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ204_EyeDeathMarker
-      Object: 0FD8DB:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_CompanionAtLodge
-      Object: 2C6D74:Starfield.esm
-      Alias: 14
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MUSGenesisStingerStarbornAppearC
-      Object: 1BC2C0:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_SarahMorgan
-      Object: 2C6D74:Starfield.esm
-      Alias: 7
-    - MutagenObjectType: ScriptObjectProperty
-      Name: FFNewAtlantis05
-      Object: 08E2D9:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: SQ_Companions
-      Object: 2A567C:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ204A_031_MedstimBarrett
-      Object: 23E695:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Starborn_DeathShader
-      Object: 02E550:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: COM_Quest_Barrett_Q01
-      Object: 0369AB:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ404
-      Object: 06CD98:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ204_NA_PlayerMarker
-      Object: 1DDF95:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_LodgeInteriorDoor
-      Object: 2C6D74:Starfield.esm
-      Alias: 48
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Com_Companion_Barrett
-      Object: 1C7187:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ204UCAllyFaction
-      Object: 1CD8D3:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ204A_011b_EveryoneRuns
-      Object: 110FAA:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: COM_Companion_SamCoe
-      Object: 26C5ED:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_LodgeSecretDoor
-      Object: 2C6D74:Starfield.esm
-      Alias: 40
+      Name: MQ204LodgeDeathNearMarker
+      Object: 057193:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: MQ102
       Object: 0114CD:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: UC04_Spaceport_WarningSign_EnableMarker
-      Object: 0F19C7:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ204SamDied
-      Object: 04BCEA:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ204A_013_HunterScene01b
-      Object: 0DCCD6:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ204_RunMarker_Companion03
-      Object: 110FA4:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ204A_013_HunterScene02
-      Object: 10DAC2:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MUSGenesisStingerDread1Small
-      Object: 1F006D:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ204LodgeCompanionDeadEnableMarker
-      Object: 28A6A7:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ204A_008b_WalterChoking
-      Object: 234EA7:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: FFLodge03
-      Object: 184510:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ204_RunMarker_Vasco03
-      Object: 110FA2:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ204CompanionLockInMidquestLodgeMSG
-      Object: 11A432:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CurrentCompanionFaction
-      Object: 023C01:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ00_CompanionAtLodge
-      Object: 005790:Starfield.esm
-      Alias: 2
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ204_RunMarker_Walter03
-      Object: 110FA5:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ201B
-      Object: 1B41D1:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: CityNewAtlantisWellLocation
-      Object: 19A5C2:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: DisembarkingCrew
-      Object: 0174A2:Starfield.esm
-      Alias: 29
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MUSGenesisCombatBoss_MQ204_A_Hunter
-      Object: 212FDF:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ204A_014_Vladimir
-      Object: 2C6D03:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ204_Stage200EyeMarker_Noel
-      Object: 1A3A56:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: SQ_GuardShips00
-      Object: 1F0C32:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: EyeBoardingFaction
-      Object: 136F9F:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ204EyeAttackEnableMarker
-      Object: 0C907A:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_SpaceportShip
-      Object: 2C6D74:Starfield.esm
-      Alias: 46
-    - MutagenObjectType: ScriptObjectProperty
-      Name: abAIPower_MoonForm_Hunter
-      Object: 113D60:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ204ArmillaryAttackMSG
-      Object: 1B23B1:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ204LodgeAttackClutterEnableMarker
-      Object: 15D44B:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: PlayerEnemyFaction
-      Object: 106C2F:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ204A_012b_InCity
-      Object: 23EF1F:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ206B
-      Object: 2583F2:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: AbStarbornTeleport
+      Name: ffStarbornTeleport
       Object: 18B81F:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: MQ204ScorpiusMarker
-      Object: 1A3A59:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: COM_Companion_Andreja
-      Object: 23DF2A:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ204HunterWalterMarkerREF
-      Object: 246058:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ204xPostQuest
-      Object: 19D83A:Starfield.esm
+      Name: MQ204A_012_Tunnel
+      Object: 2C6D04:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: MQ00_CompanionAtEye
       Object: 005790:Starfield.esm
       Alias: 3
     - MutagenObjectType: ScriptObjectProperty
+      Name: MQ204A_012c_Spaceport
+      Object: 10DAC2:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ204_RunMarker_Companion03
+      Object: 110FA4:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ201B
+      Object: 1B41D1:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ204CompanionLockInMidquestLodgeMSG
+      Object: 11A432:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ204A_037_PlayerInShip
+      Object: 19FDE9:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ204UCAllyFaction
+      Object: 1CD8D3:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ204A_015a_CoraScene
+      Object: 23E8DB:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_CompanionID_SamCoe
+      Object: 2BE2D7:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF05
+      Object: 21D792:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Frontier_ModularREF
+      Object: 03F7E8:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
       Name: MQ204A_009_HunterArrives
       Object: 2C6D06:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQAlllowArmillaryGravDrive
+      Object: 3E5D36:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_LodgeDisplay
+      Object: 2C6D74:Starfield.esm
+      Alias: 51
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Vladimir
+      Object: 2C6D74:Starfield.esm
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Vasco
+      Object: 2C6D74:Starfield.esm
+      Alias: 25
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_Quest_Barrett_Q02
+      Object: 002FAE:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQHoldingCellCenterMarker
+      Object: 2A04E3:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_Noel
       Object: 2C6D74:Starfield.esm
       Alias: 1
     - MutagenObjectType: ScriptObjectProperty
-      Name: ffStarbornTeleport
-      Object: 18B81F:Starfield.esm
+      Name: PlayerEnemyFaction
+      Object: 106C2F:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: MQ204A_036b_EveryoneRuns
-      Object: 197635:Starfield.esm
+      Name: COM_Quest_SamCoe_Q01
+      Object: 263262:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: MQ204A_031_MedstimAndreja
-      Object: 23E696:Starfield.esm
+      Name: MQ204_NA_StateChangeHandler
+      Object: 00E415:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: MQ_CompanionDead
-      Object: 2BB89F:Starfield.esm
+      Name: Health
+      Object: 0002D4:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: MQ202
-      Object: 017CE7:Starfield.esm
+      Name: LodgeStartMarker
+      Object: 2824E5:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: NewAtlantisMapMarkerSpaceport
-      Object: 023602:Starfield.esm
+      Name: NewAtlantisMapMarkerCommercialDistrict
+      Object: 01531E:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ204HunterWalterMarkerREF
+      Object: 246058:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ_CompanionSaved
+      Object: 1D3E85:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_WellElevatorFloor_Waterfall
+      Object: 2C6D74:Starfield.esm
+      Alias: 58
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_Followers
+      Object: 00D773:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ204A_060_HunterGoneScene
+      Object: 062683:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ204_EyeDeathMarker
+      Object: 0FD8DB:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ204A_004_NoelAmbient
+      Object: 2C6D0C:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ204_NoelHidingMarker
+      Object: 2C6CF3:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ204A_051_LodgeReturnScene
+      Object: 23BE36:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ204_RunMarker_Matteo02
+      Object: 110FB0:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ204A_030a_DeathCoraScene
+      Object: 23E8DB:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MUSGenesisStingerStarbornAppearC
+      Object: 1BC2C0:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ204CompanionLockInMSG
+      Object: 11A42F:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ204SecretDoorREF
+      Object: 0DFE7E:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AbStarbornDeath
+      Object: 02E551:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ204_TurnOffCF01Arrest
+      Object: 07C702:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FFLodge02
+      Object: 1BA507:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ204LodgeAttackClutterEnableMarker
+      Object: 15D44B:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DisembarkingCrew
+      Object: 0174A2:Starfield.esm
+      Alias: 29
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_Quest_Barrett_Q01
+      Object: 0369AB:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ206B
+      Object: 2583F2:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ204_RunMarker_Cora02
+      Object: 005F03:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FFLodge01
+      Object: 1C0F26:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_PreMQ106Hunter
       Object: 2C6D74:Starfield.esm
       Alias: 49
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_MatteoKhatri
+      Name: Alias_Companion
       Object: 2C6D74:Starfield.esm
-      Alias: 26
+      Alias: 35
     - MutagenObjectType: ScriptObjectProperty
-      Name: AbStarbornDeath
-      Object: 02E551:Starfield.esm
+      Name: MQ204A_020a_MedstimSam
+      Object: 1A5412:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ204Start
+      Object: 19CD8F:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CompanionAtEye
+      Object: 2C6D74:Starfield.esm
+      Alias: 15
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ204HunterReward
+      Object: 062684:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Andreja
+      Object: 2C6D74:Starfield.esm
+      Alias: 16
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ404
+      Object: 06CD98:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: COM_SQ01_SonaLeft
+      Object: 104661:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ204A_013_HunterScene02
+      Object: 10DAC2:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ204_RunMarker_Matteo03
+      Object: 110FA3:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ00_CompanionAtLodge
+      Object: 005790:Starfield.esm
+      Alias: 2
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Starborn_DeathShader
+      Object: 02E550:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ204ArmillaryAttackMSG
+      Object: 1B23B1:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: JemisonGuardShipsEnableMarker
+      Object: 19CD8D:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ101_PlayerMarker01
+      Object: 0059B0:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_WalterStroud
+      Object: 2C6D74:Starfield.esm
+      Alias: 5
     - MutagenObjectType: ScriptObjectProperty
       Name: Alias_TheHunter
       Object: 2C6D74:Starfield.esm
       Alias: 6
     - MutagenObjectType: ScriptObjectProperty
+      Name: MQ204A_008_NoelPackUp
+      Object: 2C6D07:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ204_RunMarker_Companion02
+      Object: 110FB2:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AnimFaceArchetypeDying
+      Object: 0B6975:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
       Name: SQ_Crew
       Object: 2A567D:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: MQ204CompanionLockInMidquestEyeMSG
-      Object: 11A439:Starfield.esm
+      Name: MQ204_NA_HunterMarker
+      Object: 1DDF96:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: MQ204A_010_ArtifactPackUp
-      Object: 2C6D05:Starfield.esm
+      Name: MQ204A_031_MedstimMatteo
+      Object: 1A5415:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: SpaceshipEnabledLandingLink
-      Object: 01448D:Starfield.esm
+      Name: MQ204A_031_MedstimAndreja
+      Object: 23E696:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_ArtifactCollectionTrigger
-      Object: 2C6D74:Starfield.esm
-      Alias: 36
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ204Start
-      Object: 19CD8F:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ101Debug
-      Object: 0A7D31:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: NewAtlantisMapMarkerCommercialDistrict
-      Object: 01531E:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: Alias_CoraCoe
-      Object: 2C6D74:Starfield.esm
-      Alias: 20
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ204LodgeDeathMarker
-      Object: 2C6CF6:Starfield.esm
+      Name: NewAtlantisMapMarkerSpaceport
+      Object: 023602:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: NewAtlantisMapMarkerWestEnd
       Object: 01531D:Starfield.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: MQ204_RunMarker_Matteo03
-      Object: 110FA3:Starfield.esm
   Fragments:
   - Unknown2: 1
     ScriptName: Fragments:Quests:QF_MQ204_002C6D74
@@ -1299,17 +1302,6 @@ VirtualMachineAdapter:
       Object: 2C6D74:Starfield.esm
       Alias: 5
     Scripts:
-    - Name: DefaultAliasOnActivate
-      Properties:
-      - MutagenObjectType: ScriptIntProperty
-        Name: StageToSet
-        Data: 102
-      - MutagenObjectType: ScriptIntProperty
-        Name: TurnOffStage
-        Data: 400
-      - MutagenObjectType: ScriptIntProperty
-        Name: PrereqStage
-        Data: 85
     - Name: defaultaliasondistancelessthan
       Properties:
       - MutagenObjectType: ScriptObjectProperty
@@ -1325,6 +1317,17 @@ VirtualMachineAdapter:
       - MutagenObjectType: ScriptIntProperty
         Name: StageToSet
         Data: 102
+    - Name: DefaultAliasOnActivate
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 102
+      - MutagenObjectType: ScriptIntProperty
+        Name: TurnOffStage
+        Data: 400
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 85
     - Name: DefaultAliasOnHit
       Properties:
       - MutagenObjectType: ScriptIntProperty
@@ -1412,12 +1415,11 @@ VirtualMachineAdapter:
     - Name: MQ204BasementNPCTriggerScript
       Properties:
       - MutagenObjectType: ScriptObjectProperty
-        Name: WalterStroud
-        Object: 2C6D74:Starfield.esm
-        Alias: 5
-      - MutagenObjectType: ScriptObjectProperty
         Name: MQ204_NoelWellEscort_Marker
         Object: 23C7CC:Starfield.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: MQ204_RunMarker_Cora02
+        Object: 005F03:Starfield.esm
       - MutagenObjectType: ScriptObjectProperty
         Name: CompanionAtLodge
         Object: 2C6D74:Starfield.esm
@@ -1426,54 +1428,37 @@ VirtualMachineAdapter:
         Name: MQ204_RunMarker_Walter02
         Object: 110FB1:Starfield.esm
       - MutagenObjectType: ScriptObjectProperty
-        Name: Vasco
-        Object: 2C6D74:Starfield.esm
-        Alias: 25
+        Name: MQ204_RunMarker_Companion02
+        Object: 110FB2:Starfield.esm
       - MutagenObjectType: ScriptObjectProperty
         Name: MatteoKhatri
         Object: 2C6D74:Starfield.esm
         Alias: 26
       - MutagenObjectType: ScriptObjectProperty
-        Name: MQ204_RunMarker_Matteo02
-        Object: 110FB0:Starfield.esm
-      - MutagenObjectType: ScriptObjectProperty
         Name: CoraCoe
         Object: 2C6D74:Starfield.esm
         Alias: 20
       - MutagenObjectType: ScriptObjectProperty
-        Name: MQ204_RunMarker_Cora02
-        Object: 005F03:Starfield.esm
+        Name: WalterStroud
+        Object: 2C6D74:Starfield.esm
+        Alias: 5
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Vasco
+        Object: 2C6D74:Starfield.esm
+        Alias: 25
+      - MutagenObjectType: ScriptObjectProperty
+        Name: MQ204_RunMarker_Vasco02
+        Object: 110FAF:Starfield.esm
       - MutagenObjectType: ScriptObjectProperty
         Name: Noel
         Object: 2C6D74:Starfield.esm
         Alias: 1
       - MutagenObjectType: ScriptObjectProperty
-        Name: MQ204_RunMarker_Companion02
-        Object: 110FB2:Starfield.esm
-      - MutagenObjectType: ScriptObjectProperty
-        Name: MQ204_RunMarker_Vasco02
-        Object: 110FAF:Starfield.esm
+        Name: MQ204_RunMarker_Matteo02
+        Object: 110FB0:Starfield.esm
 Name:
   TargetLanguage: English
-  Values:
-  - Language: German
-    String: Ein hoher Preis
-  - Language: English
-    String: High Price to Pay
-  - Language: Spanish
-    String: Un alto precio
-  - Language: French
-    String: Le prix à payer
-  - Language: Italian
-    String: Un prezzo alto da pagare
-  - Language: Japanese
-    String: 高い代償
-  - Language: Polish
-    String: Wysoka cena
-  - Language: Portuguese_Brazil
-    String: Um Preço Alto a Pagar
-  - Language: ChineseSimplified
-    String: 高昂的代价
+  Value: High Price to Pay
 Data:
   Flags:
   - RunOnce
@@ -1546,7 +1531,7 @@ Stages:
   - Flags: []
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x4D22A8
+      Unknown2: 17676
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 2C6D74:Starfield.esm
@@ -1570,25 +1555,7 @@ Stages:
     Note: Noel ambient scene starts
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Auf dem Auge ist etwas schiefgegangen. Ich muss herausfinden, ob Noel Kontakt zu Vladimir aufnehmen konnte.
-      - Language: English
-        String: Something has gone wrong onboard The Eye. I need to see if Noel has been in contact with Vladimir.
-      - Language: Spanish
-        String: Algo ha salido mal a bordo del Ojo. Tengo que ver si Noel se ha puesto en contacto con Vladimir.
-      - Language: French
-        String: Il s'est passé quelque chose à bord de l'Iris. Je dois voir si Noel a réussi à contacter Vladimir.
-      - Language: Italian
-        String: Qualcosa è andato storto a bordo dell’Occhio. Devo capire se Noel è stata in contatto con Vladimir.
-      - Language: Japanese
-        String: 〈アイ〉で問題が発生した。ノエルがウラジミールと連絡をしたか確かめよう
-      - Language: Polish
-        String: Coś poszło nie tak na pokładzie Oka. Muszę sprawdzić, czy Noel kontaktowała się z Vladimirem.
-      - Language: Portuguese_Brazil
-        String: Algo deu errado a bordo do Olho. Preciso ver se Noel entrou em contato com Vladimir.
-      - Language: ChineseSimplified
-        String: 探察之眼出了点问题，我得知道诺维尔是不是已经跟弗拉迪米尔联系上了。
+      Value: Something has gone wrong onboard The Eye. I need to see if Noel has been in contact with Vladimir.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -1623,25 +1590,7 @@ Stages:
     Note: Set up the Lodge Hunter sequence
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Ein Sternenblut, das „der Hunter“ genannt wird, hat das Auge angegriffen und ist jetzt auf dem Weg zur Loge.
-      - Language: English
-        String: A Starborn known as the Hunter has attacked the Eye and is coming to the Lodge.
-      - Language: Spanish
-        String: Un Estelar conocido como el Cazador ha atacado el Ojo y viene hacia la Logia.
-      - Language: French
-        String: Un Astrien surnommé le Chasseur a attaqué l'Iris et est en route pour la Loge.
-      - Language: Italian
-        String: Un Astrale noto come il Cacciatore ha attaccato l’Occhio e sta arrivando alla Loggia.
-      - Language: Japanese
-        String: ハンターというスターボーンが〈アイ〉を襲い、ロッジに向かっている
-      - Language: Polish
-        String: Astran znany jako Łowca zaatakował Oko i udaje się w kierunku Loży.
-      - Language: Portuguese_Brazil
-        String: Um Estelar conhecido como o Caçador atacou o Olho e está vindo para a Guarida.
-      - Language: ChineseSimplified
-        String: 名为星狩的星裔袭击了探察之眼，并且正在来陋室的路上。
+      Value: A Starborn known as the Hunter has attacked the Eye and is coming to the Lodge.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -1659,7 +1608,6 @@ Stages:
   - Flags: []
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 2C6D74:Starfield.esm
@@ -1675,25 +1623,7 @@ Stages:
     Note: (Defend Lodge Path) Player checks on Walter - Hunter arrives
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Ich bin zurückgeblieben, um die Loge zu verteidigen Der Hunter ist angekommen. Ich muss Noel Zeit verschaffen, die Artefakte einzupacken, damit wir fliehen können.
-      - Language: English
-        String: I stayed to defend the Lodge. The Hunter has arrived. I need to give Noel time to pack up the Artifacts so we can escape.
-      - Language: Spanish
-        String: Me he quedado para defender la Logia. El Cazador ha llegado. Tengo que conseguirle tiempo a Noel para recoger los Artefactos y que podamos escapar.
-      - Language: French
-        String: J'ai tenu à rester défendre la Loge. Le Chasseur est arrivé. Je dois laisser à Noel le temps de prendre les artefacts pour nous échapper.
-      - Language: Italian
-        String: Ho deciso di difendere la Loggia. Il Cacciatore è arrivato. Devo dare a Noel il tempo di preparare i Manufatti, così possiamo scappare.
-      - Language: Japanese
-        String: ロッジを守るために残った。ハンターが到着した。逃げるため、ノエルがアーティファクトを梱包する時間を稼ごう
-      - Language: Polish
-        String: Zostaję w Loży, by jej bronić. Pojawił się Łowca. Muszę dać Noel czas na spakowanie artefaktów, tak byśmy mogli uciec.
-      - Language: Portuguese_Brazil
-        String: Fiquei para defender a Guarida. O Caçador chegou. Preciso dar tempo à Noel para que ela pegue os artefatos e consigamos escapar.
-      - Language: ChineseSimplified
-        String: 我为了保卫陋室留了下来，星狩已经来了。我得给诺维尔争取时间收拾神器，这样我们才能逃走。
+      Value: I stayed to defend the Lodge. The Hunter has arrived. I need to give Noel time to pack up the Artifacts so we can escape.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -1703,13 +1633,11 @@ Stages:
   - Flags: []
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 2C6D74:Starfield.esm
         SecondParameter: 100
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 2C6D74:Starfield.esm
@@ -1733,25 +1661,7 @@ Stages:
     Note: Noel packs up the Artifacts
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Noel hat die Artefakte eingepackt. Wir müssen zum Schiff und durch einen Grav-Sprung verschwinden, damit der Hunter uns nicht verfolgen kann.
-      - Language: English
-        String: Noel has packed up the Artifacts. We need to get to the ship and grav jump away from the area so the Hunter can't track us.
-      - Language: Spanish
-        String: Noel ha recogido los Artefactos. Tenemos que llegar a la nave y dar un salto gravitacional para salir de la zona y evitar que el Cazador nos siga el rastro.
-      - Language: French
-        String: Noel a récupéré les artefacts. Nous devons atteindre le vaisseau et nous astroporter loin d'ici pour que le Chasseur ne nous suive pas.
-      - Language: Italian
-        String: Noel ha preparato i Manufatti. Dobbiamo raggiungere la nave e compiere un gravisalto lontano dalla zona in modo che il Cacciatore non possa rintracciarci.
-      - Language: Japanese
-        String: ノエルがアーティファクトを梱包した。船に行き、ハンターに追跡されないためグラヴ・ジャンプでここから離れよう
-      - Language: Polish
-        String: Noel spakowała artefakty. Musimy uciec na statek i wykonać skok grawitonowy daleko stąd, aby Łowca nie mógł nas śledzić.
-      - Language: Portuguese_Brazil
-        String: Noel pegou os artefatos. Precisamos chegar até a nave e fazer uma dobra grav para longe da área e impedir o Caçador de nos rastrear.
-      - Language: ChineseSimplified
-        String: 诺维尔已经把神器收拾好了。我们得登上飞船然后重力跃迁离开这个区域，让星狩没法再追踪我们。
+      Value: Noel has packed up the Artifacts. We need to get to the ship and grav jump away from the area so the Hunter can't track us.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -1790,7 +1700,6 @@ Stages:
   - Flags: []
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetIsIDConditionData
         RunOnType: QuestAlias
@@ -1820,7 +1729,6 @@ Stages:
   - Flags: []
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetIsIDConditionData
         RunOnType: QuestAlias
@@ -1854,32 +1762,13 @@ Stages:
     Note: Player in their ship
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Wir müssen zum Auge. Hoffentlich ist es nicht zu spät, die Leute auf der Station zu retten.
-      - Language: English
-        String: We need to get to the Eye. Hopefully we're not too late to save everyone on the station.
-      - Language: Spanish
-        String: Hay que llegar al Ojo. Esperemos que no sea demasiado tarde para salvar a todo el mundo de la estación.
-      - Language: French
-        String: Nous devons rejoindre l'Iris. Espérons qu'il ne soit pas trop tard pour sauver tout le monde à bord de la station.
-      - Language: Italian
-        String: Dobbiamo arrivare sull’Occhio. Speriamo non sia troppo tardi per salvare tutti sulla stazione.
-      - Language: Japanese
-        String: 〈アイ〉に行こう。まだステーションから、全員を救出できるかもしれない
-      - Language: Polish
-        String: Musimy dostać się na Oko. Mam nadzieję, że nie jest za późno, by uratować osoby przebywające na stacji.
-      - Language: Portuguese_Brazil
-        String: Precisamos chegar até o Olho. Espero que não seja tarde demais para salvar todos na estação.
-      - Language: ChineseSimplified
-        String: 我们需要前往探察之眼。希望还来得及救出那上面的所有人。
+      Value: We need to get to the Eye. Hopefully we're not too late to save everyone on the station.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
   - Flags: []
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetIsIDConditionData
         RunOnType: QuestAlias
@@ -1969,25 +1858,7 @@ Stages:
     Note: player checked Vladimir and everyone else
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Wir sollten zu Noel zurückkehren und uns neu organisieren.
-      - Language: English
-        String: We should return to Noel and regroup.
-      - Language: Spanish
-        String: Deberíamos volver con Noel y reagruparnos.
-      - Language: French
-        String: Nous devrions retourner voir Noel et nous rassembler.
-      - Language: Italian
-        String: Dovremmo tornare da Noel e riorganizzarci.
-      - Language: Japanese
-        String: ノエルのところに戻って集合しよう
-      - Language: Polish
-        String: Musimy wrócić do Noel i się przegrupować.
-      - Language: Portuguese_Brazil
-        String: Precisamos voltar à Noel e nos reagrupar.
-      - Language: ChineseSimplified
-        String: 我们应该回到诺维尔那里重新集结。
+      Value: We should return to Noel and regroup.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -2123,25 +1994,7 @@ Stages:
     Note: (Go to Eye Path) Player leaves the Lodge
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Ich habe entschieden, so schnell wie möglich zum Auge zu gehen und die Menschen auf der Station zu retten. Hoffentlich kann die Loge den Hunter auch ohne mich abwehren.
-      - Language: English
-        String: I've decided to run to the Eye and rescue the people onboard the station. Hopefully the Lodge can hold off the Hunter without me.
-      - Language: Spanish
-        String: He decidido ir corriendo al Ojo y rescatar a la gente que está a bordo de la estación. Esperemos que la Logia pueda contener al Cazador sin mi ayuda.
-      - Language: French
-        String: J'ai décidé de rejoindre l'Iris pour sauver les gens à bord de la station. J'espère que la Loge parviendra à retenir le Chasseur sans moi.
-      - Language: Italian
-        String: Ho deciso di raggiungere l’Occhio e salvare le persone a bordo della stazione. Speriamo che la Loggia riesca a tenere a bada il Cacciatore senza di me.
-      - Language: Japanese
-        String: 〈アイ〉に駆けつけてステーションの人たちを救助することにした。ロッジはきっとハンターを食い止められるはずだ
-      - Language: Polish
-        String: Udam się na Oko i uratuję wszystkich na pokładzie. Mam nadzieję, że Loża powstrzyma Łowcę beze mnie.
-      - Language: Portuguese_Brazil
-        String: Decidi correr até o Olho e resgatar as pessoas a bordo da estação. Espero que a Guarida possa resistir ao Caçador sem mim.
-      - Language: ChineseSimplified
-        String: 我决定前往探察之眼并救出每一个人。希望当我不在的时候，陋室能够抵挡住星狩。
+      Value: I've decided to run to the Eye and rescue the people onboard the station. Hopefully the Lodge can hold off the Hunter without me.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -2176,25 +2029,7 @@ Stages:
     Note: Player rescues the Eye - set up the Lodge post-attack state
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Ich habe alle an Bord des Auges gerettet. Jetzt muss ich zurück zur Loge. Hoffentlich kann ich den Hunter noch aufhalten.
-      - Language: English
-        String: I've rescued everyone onboard the Eye. I need to head back to the Lodge. Hopefully I'm not too late to stop the Hunter.
-      - Language: Spanish
-        String: He rescatado a todo el mundo a bordo del Ojo. Tengo que volver a la Logia. Con suerte, aún no será demasiado tarde para detener al Cazador.
-      - Language: French
-        String: J'ai sauvé tout le monde à bord de l'Iris. Je dois retourner à la Loge. Espérons qu'il ne soit pas trop tard pour arrêter le Chasseur.
-      - Language: Italian
-        String: Ho salvato tutti a bordo dell’Occhio. Devo tornare alla Loggia. Spero che non sia troppo tardi per fermare il Cacciatore.
-      - Language: Japanese
-        String: 〈アイ〉にいた人たちを全員救助した。ロッジに戻ってハンターを阻止しよう。手遅れでなければ
-      - Language: Polish
-        String: Udało mi się uratować wszystkich na Oku. Muszę wracać do Loży. Mam nadzieję, że zdążę jeszcze powstrzymać Łowcę.
-      - Language: Portuguese_Brazil
-        String: Resgatei todos a bordo do Olho. Preciso voltar para a Guarida. Espero que não seja tarde demais para parar o Caçador.
-      - Language: ChineseSimplified
-        String: 我已经救出了探察之眼的所有人。现在我得回陋室去，希望还来得及阻止星狩。
+      Value: I've rescued everyone onboard the Eye. I need to head back to the Lodge. Hopefully I'm not too late to stop the Hunter.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -2221,25 +2056,7 @@ Stages:
     Note: Player checks on everyone at Lodge
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Ich muss Noel finden. Sie ist durch eine Geheimtür im Keller der Loge entkommen.
-      - Language: English
-        String: I need to find Noel. She escaped through a secret door in the Lodge's basement.
-      - Language: Spanish
-        String: Tengo que encontrar a Noel. Se escapó por una puerta secreta de la base de la Logia.
-      - Language: French
-        String: Je dois trouver Noel. Elle a emprunté une porte secrète dans les sous-sols de la Loge.
-      - Language: Italian
-        String: Devo trovare Noel. È scappata attraverso una porta segreta nel seminterrato della Loggia.
-      - Language: Japanese
-        String: ノエルを見つけよう。ロッジの地下にある隠し扉から逃げたようだ
-      - Language: Polish
-        String: Muszę znaleźć Noel. Uciekła ukrytymi drzwiami w piwnicy Loży.
-      - Language: Portuguese_Brazil
-        String: Preciso encontrar Noel. Ela fugiu por uma porta secreta no porão da Guarida.
-      - Language: ChineseSimplified
-        String: 我得找到诺维尔。她穿过陋室地下室的一扇暗门逃走了。
+      Value: I need to find Noel. She escaped through a secret door in the Lodge's basement.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -2250,25 +2067,7 @@ Stages:
     Note: Player talks to Noel - Start Hunter sequence
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Der Hunter hat uns gefunden! Ich muss Noel und die Artefakt auf mein Schiff bringen, damit wir entkommen können.
-      - Language: English
-        String: The Hunter has found us! I have to get Noel, and the Artifacts, to my ship so we can escape.
-      - Language: Spanish
-        String: ¡El Cazador nos ha encontrado! Tengo que llevar a Noel y los Artefactos hasta mi nave para que podamos escapar.
-      - Language: French
-        String: Le Chasseur nous a trouvés ! Je dois conduire Noel, et les artefacts, à mon vaisseau pour pouvoir nous échapper.
-      - Language: Italian
-        String: Il Cacciatore ci ha trovato! Devo portare Noel e i Manufatti sulla mia nave, così possiamo scappare.
-      - Language: Japanese
-        String: ハンターに見つかった！ 脱出するため、ノエルとアーティファクトを船に乗せて逃げる
-      - Language: Polish
-        String: Łowca nas znalazł! Muszę zabrać Noel i artefakty na statek, żeby uciec.
-      - Language: Portuguese_Brazil
-        String: O Caçador nos encontrou! Preciso pegar a Noel e os artefatos e levá-los até minha nave para escaparmos.
-      - Language: ChineseSimplified
-        String: 星狩找到我们了！我得把诺维尔和神器带到我的飞船上，这样我们才能逃脱。
+      Value: The Hunter has found us! I have to get Noel, and the Artifacts, to my ship so we can escape.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -2307,7 +2106,6 @@ Stages:
   - Flags: []
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetIsIDConditionData
         RunOnType: QuestAlias
@@ -2349,25 +2147,7 @@ Stages:
     Note: Vladimir tells you to secure the Armillary somewhere
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Die Artefakte sind in der Loge nicht mehr sicher. Ich könnte das Armillar in meinem Schiff platzieren. Oder ich könnte auf einem Planeten landen, einen verteidigungsfähigen Außenposten bauen und das Armillar dort platzieren.
-      - Language: English
-        String: The Artifacts aren't safe at the Lodge anymore. I could place the Armillary on my ship. Or I could land on a planet and build a defensible outpost, and place the Armillary there.
-      - Language: Spanish
-        String: Los Artefactos ya no están a buen recaudo en la Logia. Podría guardar el Armilar en mi nave, o aterrizar en un planeta apto, construir un puesto que pueda defender y guardar ahí el Armilar.
-      - Language: French
-        String: Les artefacts ne sont plus en sécurité à la Loge. Je peux intégrer l'Armillaire à mon vaisseau, ou atterrir sur une planète et construire un avant-poste de défense pour l'y cacher.
-      - Language: Italian
-        String: I Manufatti non sono più al sicuro, alla Loggia. Potrei posizionare l’Armilla sulla mia nave. Oppure potrei atterrare su un pianeta, costruire un avamposto difendibile e collocare l’Armilla al suo interno.
-      - Language: Japanese
-        String: アーティファクトはもうロッジに置いておけない。宇宙船に〈アーミラリー〉を置くか、どこかの惑星に防衛を固めた拠点を築き、そこに〈アーミラリー〉を置くしかないだろう
-      - Language: Polish
-        String: Artefakty nie są już bezpieczne w Loży. Mogę umieścić na moim statku sferę armilarną albo wylądować na planecie, zbudować placówkę obronną i tam umieścić sferę armilarną.
-      - Language: Portuguese_Brazil
-        String: A Guarida já não é mais segura para os artefatos. Posso instalar o Armilário na minha nave. Ou posso construir um entreposto reforçado em algum planeta e levar o Armilário para lá.
-      - Language: ChineseSimplified
-        String: 神器不能再放在陋室里了，不安全。我可以把天体仪放在我的飞船里。或者我可以降落在一颗行星上，然后建造一处防御哨站，并把天体仪放在那里。
+      Value: The Artifacts aren't safe at the Lodge anymore. I could place the Armillary on my ship. Or I could land on a planet and build a defensible outpost, and place the Armillary there.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -2408,25 +2188,7 @@ Stages:
     Note: Armillary secured by any means
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Ich habe ein neues Zuhause für die Artefakte gefunden. Jetzt sollte ich zur Loge zurückkehren.
-      - Language: English
-        String: I found a new home for the Artifacts. I should head back to the Lodge.
-      - Language: Spanish
-        String: Hemos encontrado un nuevo hogar para los Artefactos. Debería volver a la Logia.
-      - Language: French
-        String: J'ai trouvé un nouvel abri pour les artefacts. Je devrais retourner à la Loge.
-      - Language: Italian
-        String: Ho trovato una nuova casa per i Manufatti. Dovrei tornare alla Loggia.
-      - Language: Japanese
-        String: アーティファクトの新しい家を見つけた。ロッジに戻ろう
-      - Language: Polish
-        String: Udało mi się znaleźć nowy dom dla artefaktów. Czas wracać do Loży.
-      - Language: Portuguese_Brazil
-        String: Encontrei um novo lar para os artefatos. Preciso voltar para a Guarida.
-      - Language: ChineseSimplified
-        String: 我找到了能够保管神器的新地点，现在该返回陋室了。
+      Value: I found a new home for the Artifacts. I should head back to the Lodge.
     StageCompleteDatas:
     - QSRD: 0x00000000
     - QSRD: '[]'
@@ -2470,25 +2232,7 @@ Stages:
     Note: Quest Complete
     Entry:
       TargetLanguage: English
-      Values:
-      - Language: German
-        String: Wir haben den Angriff der Sternenblüter überstanden, auch wenn nicht alle überlebt haben.
-      - Language: English
-        String: We survived the Starborn attack, but not everyone made it.
-      - Language: Spanish
-        String: Hemos sobrevivido al ataque de los Estelares, pero no se ha salvado todo el mundo.
-      - Language: French
-        String: Nous n'avons pas tous survécu à l'attaque astrienne.
-      - Language: Italian
-        String: Siamo sopravvissuti all’attacco dell’Astrale, ma non tutti ce l’hanno fatta.
-      - Language: Japanese
-        String: スターボーンの攻撃を生き延びたが、全員は助からなかった
-      - Language: Polish
-        String: Udało nam się przetrwać atak astrana. Ale nie wszystkim.
-      - Language: Portuguese_Brazil
-        String: Sobrevivemos ao ataque Estelar, mas nem todos sobreviveram.
-      - Language: ChineseSimplified
-        String: 我们在星裔的攻击中保住了性命，但并非所有人都如此幸运。
+      Value: We survived the Starborn attack, but not everyone made it.
     StageCompleteDatas:
     - QSRD: 0x01000000
       RewardDatas:
@@ -2515,50 +2259,14 @@ Objectives:
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Sprich mit Noel.
-    - Language: English
-      String: Talk to Noel
-    - Language: Spanish
-      String: Habla con Noel.
-    - Language: French
-      String: Parlez à Noel.
-    - Language: Italian
-      String: Parla con Noel
-    - Language: Japanese
-      String: ノエルと話す
-    - Language: Polish
-      String: Porozmawiaj z Noel
-    - Language: Portuguese_Brazil
-      String: Fale com Noel
-    - Language: ChineseSimplified
-      String: 与诺维尔交谈
+    Value: Talk to Noel
   Targets:
   - AliasID: 1
 - Index: 55
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Verteidige die Loge.
-    - Language: English
-      String: Defend the Lodge
-    - Language: Spanish
-      String: Defiende la Logia.
-    - Language: French
-      String: Défendez la Loge.
-    - Language: Italian
-      String: Difendi la Loggia
-    - Language: Japanese
-      String: ロッジを守る
-    - Language: Polish
-      String: Obroń Lożę
-    - Language: Portuguese_Brazil
-      String: Proteja a Guarida
-    - Language: ChineseSimplified
-      String: 保卫陋室
+    Value: Defend the Lodge
   Targets:
   - AliasID: 1
 - Index: 60
@@ -2566,30 +2274,11 @@ Objectives:
   - OrWithPrevious
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Begib dich zum Auge.
-    - Language: English
-      String: Go to the Eye
-    - Language: Spanish
-      String: Ve al Ojo.
-    - Language: French
-      String: Allez sur l'Iris.
-    - Language: Italian
-      String: Vai sull’Occhio
-    - Language: Japanese
-      String: 〈アイ〉に行く
-    - Language: Polish
-      String: Udaj się na Oko
-    - Language: Portuguese_Brazil
-      String: Vá para o Olho
-    - Language: ChineseSimplified
-      String: 前往探察之眼
+    Value: Go to the Eye
   Targets:
   - AliasID: 32
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetInCellConditionData
         RunOnType: Reference
@@ -2598,7 +2287,6 @@ Objectives:
   - AliasID: 10
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetInCellConditionData
         RunOnType: Reference
@@ -2609,78 +2297,23 @@ Objectives:
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Sieh nach Walter.
-    - Language: English
-      String: Check on Walter
-    - Language: Spanish
-      String: Comprueba cómo está Walter.
-    - Language: French
-      String: Allez voir Walter.
-    - Language: Italian
-      String: Controlla Walter
-    - Language: Japanese
-      String: ウォルターの様子を確認する
-    - Language: Polish
-      String: Sprawdź, co z Walterem
-    - Language: Portuguese_Brazil
-      String: Vá ver Walter
-    - Language: ChineseSimplified
-      String: 查看沃尔特的情况
+    Value: Check on Walter
   Targets:
   - AliasID: 5
 - Index: 90
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Halte den Hunter ab.
-    - Language: English
-      String: Hold off the Hunter
-    - Language: Spanish
-      String: Contén al Cazador.
-    - Language: French
-      String: Retenez le Chasseur.
-    - Language: Italian
-      String: Respingi il Cacciatore
-    - Language: Japanese
-      String: ハンターを撃退する
-    - Language: Polish
-      String: Powstrzymaj Łowcę
-    - Language: Portuguese_Brazil
-      String: Detenha o Caçador
-    - Language: ChineseSimplified
-      String: 抵抗星狩
+    Value: Hold off the Hunter
 - Index: 100
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Fliehe aus der Loge.
-    - Language: English
-      String: Escape the Lodge
-    - Language: Spanish
-      String: Escapa de la Logia.
-    - Language: French
-      String: Échappez-vous de la Loge.
-    - Language: Italian
-      String: Fuggi dalla Loggia
-    - Language: Japanese
-      String: ロッジから脱出する
-    - Language: Polish
-      String: Ucieknij z Loży
-    - Language: Portuguese_Brazil
-      String: Fuja da Guarida
-    - Language: ChineseSimplified
-      String: 逃离陋室
+    Value: Escape the Lodge
   Targets:
   - AliasID: 40
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 2C6D74:Starfield.esm
@@ -2690,7 +2323,6 @@ Objectives:
     - MutagenObjectType: ConditionFloat
       Flags:
       - OR
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetInCellConditionData
         FirstParameter: 06BB29:Starfield.esm
@@ -2698,7 +2330,6 @@ Objectives:
     - MutagenObjectType: ConditionFloat
       Flags:
       - OR
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 2C6D74:Starfield.esm
@@ -2708,31 +2339,12 @@ Objectives:
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Begib dich zu deinem Schiff.
-    - Language: English
-      String: Go to Your Ship
-    - Language: Spanish
-      String: Ve a tu nave.
-    - Language: French
-      String: Rejoignez votre vaisseau.
-    - Language: Italian
-      String: Vai alla tua nave
-    - Language: Japanese
-      String: 船に行く
-    - Language: Polish
-      String: Udaj się na swój statek
-    - Language: Portuguese_Brazil
-      String: Vá para sua nave
-    - Language: ChineseSimplified
-      String: 前往你的飞船
+    Value: Go to Your Ship
   Targets:
   - AliasID: 21
   - AliasID: 1
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 2C6D74:Starfield.esm
@@ -2741,54 +2353,17 @@ Objectives:
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Begib dich zum Auge.
-    - Language: English
-      String: Go to the Eye
-    - Language: Spanish
-      String: Ve al Ojo.
-    - Language: French
-      String: Allez sur l'Iris.
-    - Language: Italian
-      String: Vai sull’Occhio
-    - Language: Japanese
-      String: 〈アイ〉に行く
-    - Language: Polish
-      String: Udaj się na Oko
-    - Language: Portuguese_Brazil
-      String: Vá para o Olho
-    - Language: ChineseSimplified
-      String: 前往探察之眼
+    Value: Go to the Eye
   Targets:
   - AliasID: 32
 - Index: 120
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Sieh nach allen auf dem Auge.
-    - Language: English
-      String: Find Everyone on the Eye
-    - Language: Spanish
-      String: Busca a todo el mundo del Ojo.
-    - Language: French
-      String: Trouvez tout le monde sur l'Iris.
-    - Language: Italian
-      String: Trova tutti sull’Occhio
-    - Language: Japanese
-      String: 〈アイ〉にいる全員を探す
-    - Language: Polish
-      String: Znajdź wszystkich na Oku
-    - Language: Portuguese_Brazil
-      String: Encontre todos no Olho
-    - Language: ChineseSimplified
-      String: 找到探察之眼上的每一人
+    Value: Find Everyone on the Eye
   Targets:
   - Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 2C6D74:Starfield.esm
@@ -2796,12 +2371,10 @@ Objectives:
   - AliasID: 16
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetIsAliasRefConditionData
         FirstParameter: 14
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 2C6D74:Starfield.esm
@@ -2809,12 +2382,10 @@ Objectives:
   - AliasID: 18
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetIsAliasRefConditionData
         FirstParameter: 14
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 2C6D74:Starfield.esm
@@ -2822,12 +2393,10 @@ Objectives:
   - AliasID: 4
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetIsAliasRefConditionData
         FirstParameter: 14
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 2C6D74:Starfield.esm
@@ -2835,12 +2404,10 @@ Objectives:
   - AliasID: 7
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetIsAliasRefConditionData
         FirstParameter: 14
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 2C6D74:Starfield.esm
@@ -2849,105 +2416,32 @@ Objectives:
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Kehre zu Noel zurück.
-    - Language: English
-      String: Return to Noel
-    - Language: Spanish
-      String: Vuelve con Noel.
-    - Language: French
-      String: Retournez voir Noel.
-    - Language: Italian
-      String: Torna da Noel
-    - Language: Japanese
-      String: ノエルのところに戻る
-    - Language: Polish
-      String: Wróć do Noel
-    - Language: Portuguese_Brazil
-      String: Volte até Noel
-    - Language: ChineseSimplified
-      String: 返回诺维尔处
+    Value: Return to Noel
   Targets:
   - AliasID: 1
 - Index: 150
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Sprich mit Vladimir.
-    - Language: English
-      String: Talk to Vladimir
-    - Language: Spanish
-      String: Habla con Vladimir.
-    - Language: French
-      String: Parlez à Vladimir.
-    - Language: Italian
-      String: Parla con Vladimir
-    - Language: Japanese
-      String: ウラジミールと話す
-    - Language: Polish
-      String: Porozmawiaj z Vladimirem
-    - Language: Portuguese_Brazil
-      String: Fale com Vladimir
-    - Language: ChineseSimplified
-      String: 与弗拉迪米尔交谈
+    Value: Talk to Vladimir
   Targets:
   - {}
 - Index: 300
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Begib dich zur Loge.
-    - Language: English
-      String: Go to the Lodge
-    - Language: Spanish
-      String: Ve a la Logia.
-    - Language: French
-      String: Allez à la Loge.
-    - Language: Italian
-      String: Vai alla Loggia
-    - Language: Japanese
-      String: ロッジに行く
-    - Language: Polish
-      String: Udaj się do Loży
-    - Language: Portuguese_Brazil
-      String: Vá para a Guarida
-    - Language: ChineseSimplified
-      String: 前往陋室
+    Value: Go to the Lodge
   Targets:
   - AliasID: 14
 - Index: 310
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Finde alle in der Loge.
-    - Language: English
-      String: Find Everyone in the Lodge
-    - Language: Spanish
-      String: Busca a todo el mundo de la Logia.
-    - Language: French
-      String: Trouvez tout le monde à la Loge.
-    - Language: Italian
-      String: Trova tutti nella Loggia
-    - Language: Japanese
-      String: ロッジにいる全員を探す
-    - Language: Polish
-      String: Znajdź wszystkich w Loży
-    - Language: Portuguese_Brazil
-      String: Encontre todos na Guarida
-    - Language: ChineseSimplified
-      String: 找到陋室中的每一人
+    Value: Find Everyone in the Lodge
   Targets:
   - AliasID: 14
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 2C6D74:Starfield.esm
@@ -2955,7 +2449,6 @@ Objectives:
   - AliasID: 26
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 2C6D74:Starfield.esm
@@ -2963,7 +2456,6 @@ Objectives:
   - AliasID: 5
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 2C6D74:Starfield.esm
@@ -2971,7 +2463,6 @@ Objectives:
   - AliasID: 25
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 2C6D74:Starfield.esm
@@ -2980,30 +2471,11 @@ Objectives:
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Finde Noel.
-    - Language: English
-      String: Find Noel
-    - Language: Spanish
-      String: Busca a Noel.
-    - Language: French
-      String: Trouvez Noel.
-    - Language: Italian
-      String: Trova Noel
-    - Language: Japanese
-      String: ノエルを探す
-    - Language: Polish
-      String: Znajdź Noel
-    - Language: Portuguese_Brazil
-      String: Encontre Noel
-    - Language: ChineseSimplified
-      String: 找到诺维尔
+    Value: Find Noel
   Targets:
   - AliasID: 1
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetInCellConditionData
         RunOnType: Reference
@@ -3013,7 +2485,6 @@ Objectives:
   - AliasID: 40
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetInCellConditionData
         RunOnType: Reference
@@ -3023,31 +2494,12 @@ Objectives:
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Fliehe zu deinem Schiff.
-    - Language: English
-      String: Escape to Your Ship
-    - Language: Spanish
-      String: Escapa hacia tu nave.
-    - Language: French
-      String: Fuyez vers votre vaisseau.
-    - Language: Italian
-      String: Fuggi alla tua nave
-    - Language: Japanese
-      String: 船に逃げる
-    - Language: Polish
-      String: Ucieknij na swój statek
-    - Language: Portuguese_Brazil
-      String: Fuja para a sua nave
-    - Language: ChineseSimplified
-      String: 逃向你的飞船
+    Value: Escape to Your Ship
   Targets:
   - AliasID: 21
   - AliasID: 1
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetStageDoneConditionData
         FirstParameter: 2C6D74:Starfield.esm
@@ -3056,100 +2508,28 @@ Objectives:
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Leite den Start ein.
-    - Language: English
-      String: Initiate Take-Off
-    - Language: Spanish
-      String: Inicia el despegue.
-    - Language: French
-      String: Initiez le décollage.
-    - Language: Italian
-      String: Avvia decollo
-    - Language: Japanese
-      String: 離陸を開始する
-    - Language: Polish
-      String: Rozpocznij procedurę odlotu
-    - Language: Portuguese_Brazil
-      String: Inicie decolagem
-    - Language: ChineseSimplified
-      String: 开始起飞
+    Value: Initiate Take-Off
   Targets:
   - AliasID: 21
 - Index: 350
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Begib dich zum Auge.
-    - Language: English
-      String: Go to the Eye
-    - Language: Spanish
-      String: Ve al Ojo.
-    - Language: French
-      String: Allez sur l'Iris.
-    - Language: Italian
-      String: Vai sull’Occhio
-    - Language: Japanese
-      String: 〈アイ〉に行く
-    - Language: Polish
-      String: Udaj się na Oko
-    - Language: Portuguese_Brazil
-      String: Vá para o Olho
-    - Language: ChineseSimplified
-      String: 前往探察之眼
+    Value: Go to the Eye
   Targets:
   - {}
 - Index: 360
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Sprich mit Vladimir.
-    - Language: English
-      String: Talk to Vladimir
-    - Language: Spanish
-      String: Habla con Vladimir.
-    - Language: French
-      String: Parlez à Vladimir.
-    - Language: Italian
-      String: Parla con Vladimir
-    - Language: Japanese
-      String: ウラジミールと話す
-    - Language: Polish
-      String: Porozmawiaj z Vladimirem
-    - Language: Portuguese_Brazil
-      String: Fale com Vladimir
-    - Language: ChineseSimplified
-      String: 与弗拉迪米尔交谈
+    Value: Talk to Vladimir
   Targets:
   - {}
 - Index: 500
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Baue das Armillar auf deinem Schiff.
-    - Language: English
-      String: Build the Armillary on Your Ship
-    - Language: Spanish
-      String: Construye el Armilar en tu nave.
-    - Language: French
-      String: Construisez l'Armillaire dans votre vaisseau.
-    - Language: Italian
-      String: Costruisci l’Armilla sulla tua nave
-    - Language: Japanese
-      String: 船で〈アーミラリー〉を作る
-    - Language: Polish
-      String: Zbuduj na swoim statku sferę armilarną
-    - Language: Portuguese_Brazil
-      String: Construa o Armilário na sua nave
-    - Language: ChineseSimplified
-      String: 在你的飞船上建造天体仪
+    Value: Build the Armillary on Your Ship
   Targets:
   - AliasID: 53
 - Index: 510
@@ -3157,55 +2537,18 @@ Objectives:
   - OrWithPrevious
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Baue das Armillar in einem Außenposten.
-    - Language: English
-      String: Build the Armillary at an Outpost
-    - Language: Spanish
-      String: Construye el Armilar en un puesto.
-    - Language: French
-      String: Construisez l'Armillaire dans un avant-poste.
-    - Language: Italian
-      String: Costruisci l’Armilla in un Avamposto
-    - Language: Japanese
-      String: 拠点で〈アーミラリー〉を作る
-    - Language: Polish
-      String: Zbuduj w placówce sferę armilarną
-    - Language: Portuguese_Brazil
-      String: Construa o Armilário em um entreposto
-    - Language: ChineseSimplified
-      String: 在哨站建造天体仪
+    Value: Build the Armillary at an Outpost
   Targets:
   - AliasID: 44
 - Index: 520
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Kehre zur Loge zurück.
-    - Language: English
-      String: Return to the Lodge
-    - Language: Spanish
-      String: Vuelve a la Logia.
-    - Language: French
-      String: Retournez à la Loge.
-    - Language: Italian
-      String: Torna alla Loggia
-    - Language: Japanese
-      String: ロッジに戻る
-    - Language: Polish
-      String: Wróć do Loży
-    - Language: Portuguese_Brazil
-      String: Volte para a Guarida
-    - Language: ChineseSimplified
-      String: 返回陋室
+    Value: Return to the Lodge
   Targets:
   - AliasID: 10
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetInCellConditionData
         RunOnType: Reference
@@ -3214,7 +2557,6 @@ Objectives:
   - AliasID: 26
     Conditions:
     - MutagenObjectType: ConditionFloat
-      Unknown1: 0x000000
       Data:
         MutagenObjectType: GetInCellConditionData
         RunOnType: Reference
@@ -3225,25 +2567,7 @@ Objectives:
   Flags: []
   DisplayText:
     TargetLanguage: English
-    Values:
-    - Language: German
-      String: Sprich mit Matteo.
-    - Language: English
-      String: Talk to Matteo
-    - Language: Spanish
-      String: Habla con Matteo.
-    - Language: French
-      String: Parlez à Matteo.
-    - Language: Italian
-      String: Parla con Matteo
-    - Language: Japanese
-      String: マッテオと話す
-    - Language: Polish
-      String: Porozmawiaj z Matteem
-    - Language: Portuguese_Brazil
-      String: Fale com Matteo
-    - Language: ChineseSimplified
-      String: 与马蒂奥交谈
+    Value: Talk to Matteo
   Targets:
   - AliasID: 26
 Aliases:
@@ -3679,8 +3003,7 @@ Aliases:
   ClosestToAlias: 0
   Conditions:
   - MutagenObjectType: ConditionFloat
-    Unknown1: 0x5C5500
-    Unknown2: 16488
+    Unknown2: 16489
     Data:
       MutagenObjectType: GetIsIDConditionData
       FirstParameter: 2C60E9:Starfield.esm
@@ -3828,5 +3151,4 @@ Aliases:
   ALFG: 0
   UniqueActor: 28BBE2:Starfield.esm
   VoiceTypes: Null
-Timestamp: 12497
 Unknown: 8

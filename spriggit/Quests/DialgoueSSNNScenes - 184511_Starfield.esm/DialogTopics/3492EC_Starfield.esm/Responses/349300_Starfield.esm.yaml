@@ -1,0 +1,79 @@
+FormKey: 349300:Starfield.esm
+FormVersion: 576
+Flags: {}
+Responses:
+- Emotion: None
+  WEMFile: 8540609
+  TROTs:
+  - UnknownVoiceType: 012492:Starfield.esm
+    UnknownFloat: 3.9
+  Text:
+    TargetLanguage: English
+    Value: Bad news for the League of Independent Settlers, or LIST.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+  TextHash: 0xC03BF3662645D801
+- Emotion: None
+  WEMFile: 10209757
+  TROTs:
+  - UnknownVoiceType: 012492:Starfield.esm
+    UnknownFloat: 4.3
+  Text:
+    TargetLanguage: English
+    Value: 'A prospective colonist family used LIST resources to find a new home: a remote moon filled with life and ideal for farming. '
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+  TextHash: 0xA0AE296A2645D801
+- Emotion: None
+  WEMFile: 10162794
+  TROTs:
+  - UnknownVoiceType: 012492:Starfield.esm
+    UnknownFloat: 3.8666668
+  Text:
+    TargetLanguage: English
+    Value: The only problem is that the moon... does not exist.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+  TextHash: 0x9085476C2645D801
+- Emotion: None
+  WEMFile: 13497060
+  TROTs:
+  - UnknownVoiceType: 012492:Starfield.esm
+    UnknownFloat: 4.6333337
+  Text:
+    TargetLanguage: English
+    Value: So instead of starting a new life free of rules and completely self-reliant, the family returned to New Atlantis and filed a lawsuit.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+  TextHash: 0x40ABA66E2645D801
+- Emotion: None
+  WEMFile: 10921289
+  TROTs:
+  - UnknownVoiceType: 012492:Starfield.esm
+    UnknownFloat: 4
+  Text:
+    TargetLanguage: English
+    Value: LIST told our reporter, "It was a simple data entry error, it should've been listed as III-b instead of II-b. We're just a resource, and we're not liable."
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+  TextHash: 0x004EC2722645D801
+- Emotion: None
+  WEMFile: 5398723
+  TROTs:
+  - UnknownVoiceType: 012492:Starfield.esm
+    UnknownFloat: 4.8
+  Text:
+    TargetLanguage: English
+    Value: That was little comfort to the irate would-be colonists.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+  TextHash: 0xE051D8732645D801
+Speaker: 0CFDF2:Starfield.esm
+StartScenePhase: ''
+SubtitlePriority: Low

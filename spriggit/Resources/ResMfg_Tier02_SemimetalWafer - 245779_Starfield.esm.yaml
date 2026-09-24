@@ -1,0 +1,17 @@
+FormKey: 245779:Starfield.esm
+EditorID: ResMfg_Tier02_SemimetalWafer
+FormVersion: 576
+Name:
+  TargetLanguage: English
+  Value: Semimetal Wafer
+Keywords:
+- 0424A7:Starfield.esm
+- 23CEB6:Starfield.esm
+CraftingSound:
+  Start: 8f644ce4-8ff9-5217-90b6-cba2f6b0b18d
+Rarity: Rare
+SurfaceColor: '#003B424A'
+ResourceType: SemimetalWafer
+ActorValue: 245798:Starfield.esm
+Produce: 2457C4:Starfield.esm
+Interval: 14EA72:Starfield.esm
